@@ -1,0 +1,50 @@
+input final_tally          sha256 cbd05784466a6d853531ee2c70a5f96ef13724cff61c334a7adc21d300b2d7dc  C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/results/final/final_tally.csv
+input final_counts         sha256 2332b7e940a1599e5b22e6d269b98e80fd743b2ee40af85182159e681efc8572  C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/results/final/final_tally_counts.json
+input fig6_released_script sha256 bb86bd71ac8cfeec99dcfd20b96798bba243051315b71717ed7090c9b9d87527  C:/Users/admin/Desktop/小论文/巯基化/MCP/_revision/fig6_final.py
+input sfe006               sha256 9cf6339684ab698b20f7934db8ccf993d8f5db7ddf2a9ab3ed586f6d03e948b8  C:/Users/admin/Desktop/小论文/巯基化/MCP/source_data/Source_Data_text_phase2c_sfe006_reproduction.json
+input sd_released          sha256 ea453863589577aee7c59dc9911481af8ed1fe4696b5150e77fe97974cd326af  C:/Users/admin/Desktop/小论文/巯基化/MCP/source_data/Source_Data_Fig6_claim_retests.csv
+input SD2                  sha256 d87742f23acc1fd0a54757a2c7587555431950c73c1778de8d100c80c6837deb  C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Data_2_claim_verdict_tally.csv
+input SD4                  sha256 0b70010515d55912284347866b3e427cfa21cf810eb5e74205f4c6c0a3e7db77  C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Data_4_retest_round_b.csv
+input SD5                  sha256 d66185d2f6bf35e48a797aacc58dedf8d714c0161fac865d2fe5ba273b70459b  C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Data_5_retest_round_d.csv
+input SD6                  sha256 91d5c23786453a0bde724fa2daef8d9c7e0bf47e9aac0764d49410b7021476c3  C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Data_6_retest_round_e.csv
+input SD10                 sha256 4ca11b665bc6f2ce3e23b7f068059d9e99ff7f669c3abe22f5425b85c13c55c4  C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Data_10_claim_independence.csv
+gate ok   B1 final_tally.csv lists 28 distinct claims
+gate ok   B1 same 28 claims in final_tally.csv, the released Source Data and SD2 (has_measured_baseline = 1)
+gate ok   B2 recount of final_tally.csv = final_tally_counts.json overall  {'attenuated': 2, 'baseline_contradicts_claim': 1, 'null_broken_by_control': 1, 'survives': 11, 'undecidable': 13}
+gate ok   B2 recount of final_tally.csv = final_tally_counts.json by_level  {'protein|survives': 7, 'protein|undecidable': 3, 'site|attenuated': 2, 'site|baseline_contradicts_claim': 1, 'site|null_broken_by_control': 1, 'site|survives': 4, 'site|undecidable': 10}
+gate ok   B3 stored_verdict = Supplemental Data 2 verdict for all 28 claims
+gate ok   B3 final_verdict (and its note) = Supplemental Data 2, level = Supplemental Data 10 unit, for all 28 claims
+gate ok   B3 the final verdict differs from the stored one only for SFE-006 (vanishes -> attenuated) and SNO-012 (attenuated -> undecidable)  {'SFE-006': ('vanishes', 'attenuated'), 'SNO-012': ('attenuated', 'undecidable')}
+gate ok   B3 SNO-012: the baseline interval drawn from the Source Data covers zero, as the final tally note states  [-0.27443971366243736, 1.503448703766609]
+gate ok   B3 the five final classes all have a released colour  survives, attenuated, undecidable, null_broken_by_control, baseline_contradicts_claim
+gate ok   B3 released row labels exist for the 27 claims of the hero panel
+gate ok   B4 block of every claim = released panel
+gate ok   B5 own-data JSON is SFE-006 and its stored verdict is the final one  attenuated
+gate ok   B5 own-data baseline -> matched = 1.3840 -> 0.5950, as in the final tally note
+gate ok   B5 SD4 SFE-006 is the transfer re-test, verdict vanishes = stored verdict  fps2020_ath_sulfenyl
+gate ok   B0 SD4 one row per claim  (22 checks)
+gate ok   B4 one primary table per claim  (27 checks)
+gate ok   B4 the 9 released numbers = exactly one row of their primary table  (27 checks)
+gate ok   B4 baseline_reproduction = primary table  (27 checks)
+gate ok   B5 transfer value identical to the released SFE-006 row  (9 checks)
+B4 detail: 243 numbers of the 27 claims other than SFE-006 are copied verbatim (text and source table) from the released Source Data, each = one row of Supplemental Data 4/5/6
+gate ok   B6 block sizes = final_tally_counts by_level sums (protein minus the PERS-010 inset)  18, 9
+gate ok   B7 Source Data verdicts = final_tally_counts by_level site  {'site|attenuated': 2, 'site|baseline_contradicts_claim': 1, 'site|null_broken_by_control': 1, 'site|survives': 4, 'site|undecidable': 10}
+gate ok   B7 Source Data verdicts = final_tally_counts by_level protein  {'protein|survives': 7, 'protein|undecidable': 3}
+gate ok   B7 no vanishes class in the tally
+gate ok   B8 Source Data is ASCII text  518 rows
+Source Data built: 518 rows
+gate ok   G0 blocks 18 + 9 + inset PERS-010, equal to the stored block counts
+gate ok   G0 colour classes in use = the five final classes  survives, attenuated, undecidable, null_broken_by_control, baseline_contradicts_claim
+gate ok   G1 every drawn number read from Source Data (115 numbers, 28 claims)
+gate ok   G2 no text overlaps text (53 text items)  []
+gate ok   G3 no text overlaps a data mark, interval, strip cell or reference line  []
+gate ok   G4 all text inside the canvas  []
+gate ok   G5 text sizes (pt) >= 5.7  [5.9, 6.0, 6.3, 6.5, 7.0]
+gate ok   G6 page 518.4 pt (7.2 in) wide, height <= 432 pt (6 in)  MediaBox [0 0 518.4 347.76]
+gate ok   G7 fonts embedded as TrueType (fonttype 42), Arial only  ELUGPM+ArialMT (Type0)
+gate ok   G7 only the log2 subscripts are below 5.7 pt  sizes {4.2: 1, 4.9: 1, 5.9: 12, 6.0: 9, 6.3: 28, 6.5: 5, 7.0: 2}; below 5.7: ['2', '2']
+output sha256 b146cf809c4747a325a17de0d94fc427cec729fd661bdd154b712f9fe139c794  Source_Data_Fig6_claim_retests.csv
+output sha256 f97bf452244ba08bdbf14e0a43c97a576dc0621552374fc4036ceb081b1929bc  Fig6_claim_retests.pdf
+output sha256 aa14bdd9bf4a9f8de09a070c8b6f7192fd5ff07ee7263b3933d436ac05e66c14  Fig6_claim_retests.png
+script sha256 0f250c93463964cff87432c14809abd8292900bcc69ddeeead0c4d8a9316e09d  fig6_final_2026-09-30.py

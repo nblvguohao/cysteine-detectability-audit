@@ -1,0 +1,6 @@
+arm,n_psms_at_1pct_fdr,n_baseline_psms_no_plus32,baseline_median_ppm,baseline_sd_ppm,n_plus32_cys_psms,n_sulfide,n_dioxidation,n_both_on_one_psm,n_resolvable,fraction_resolvable,n_head_to_head_pairs
+Fig-1D,245,245,-3.0065,2.0912,0,0,0,0,0,,0
+Fig4-L_CTH_Cys,14,14,5.5488,0.4087,0,0,0,0,0,,0
+Fig4-L_NaHS,18,18,5.1078,2.0353,0,0,0,0,0,,0
+Fig4-L_control,26,26,5.5792,0.5901,0,0,0,0,0,,0
+Fig4-L_heat_inactive_CTH,18,18,4.7544,1.0455,0,0,0,0,0,,0

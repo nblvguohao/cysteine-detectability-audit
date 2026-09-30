@@ -1,0 +1,17 @@
+figure,panel,row,field,value,source_table
+Fig3,a,< 0.5,n_spectra_tied,957,pxd015307_posthoc_score_ties.csv (binned)
+Fig3,a,0.5-1,n_spectra_tied,546,pxd015307_posthoc_score_ties.csv (binned)
+Fig3,a,1-1.5,n_spectra_tied,339,pxd015307_posthoc_score_ties.csv (binned)
+Fig3,a,1.5-2,n_spectra_tied,170,pxd015307_posthoc_score_ties.csv (binned)
+Fig3,a,>= 2,n_spectra_tied,67,pxd015307_posthoc_score_ties.csv (binned)
+Fig3,b,max,ppm_span,18.829,pxd015307_posthoc_score_ties.csv
+Fig3,c,Fig-1D,n_psms_at_1pct_fdr,245,pxd015307_research_summary.csv
+Fig3,c,Fig-1D,n_plus32_cys_psms,0,pxd015307_research_summary.csv
+Fig3,c,Fig4-L_CTH_Cys,n_psms_at_1pct_fdr,14,pxd015307_research_summary.csv
+Fig3,c,Fig4-L_CTH_Cys,n_plus32_cys_psms,0,pxd015307_research_summary.csv
+Fig3,c,Fig4-L_NaHS,n_psms_at_1pct_fdr,18,pxd015307_research_summary.csv
+Fig3,c,Fig4-L_NaHS,n_plus32_cys_psms,0,pxd015307_research_summary.csv
+Fig3,c,Fig4-L_control,n_psms_at_1pct_fdr,26,pxd015307_research_summary.csv
+Fig3,c,Fig4-L_control,n_plus32_cys_psms,0,pxd015307_research_summary.csv
+Fig3,c,Fig4-L_heat_inactive_CTH,n_psms_at_1pct_fdr,18,pxd015307_research_summary.csv
+Fig3,c,Fig4-L_heat_inactive_CTH,n_plus32_cys_psms,0,pxd015307_research_summary.csv

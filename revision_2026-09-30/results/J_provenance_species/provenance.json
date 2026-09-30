@@ -1,0 +1,892 @@
+{
+ "item": "J_provenance_species",
+ "date": "2026-09-30",
+ "label": "POST HOC revision analysis (2026-09-30), written in response to a pre-submission review; not registered, not pre-specified",
+ "network_access": "none",
+ "run_order": [
+  "j1_species_evidence.py",
+  "j2_artifact12_registry.py",
+  "j3_ablation_statistic.py",
+  "j4_deposit_manifest.py",
+  "j5_singlecys_construction.py",
+  "j6_threshold_free_branch_test.py",
+  "j7_round3_checks.py",
+  "j9_provenance.py"
+ ],
+ "n_inputs": 87,
+ "scripts": {
+  "j1_species_evidence.py": "523bf7106eca9b8e2bd3277b4e0c8e8a2d6f85a40e1fe308d9ef125717b33cd8",
+  "j2_artifact12_registry.py": "12efeb5d93f0e9b6030f8243db1b8313d299c692802e6486de9e3e155488ce1b",
+  "j3_ablation_statistic.py": "6e4faf8dab37dd65186aaec675bc6958f5596989ef7cbafab4ab9cacc456a29b",
+  "j4_deposit_manifest.py": "cc13f06fcea4fc49ca0840815871560480a4018aa0943d03e25baa15ac85f516",
+  "j5_singlecys_construction.py": "b0ec469f2a5c2ef1cb21ae3aef999b849b3832cfbadf13f0bcabcd811c04c148",
+  "j6_threshold_free_branch_test.py": "8ec0268929e237c9782af7ba544131cf10601f8950ceed6cd0e2f0115fbbf24c",
+  "j7_round3_checks.py": "fd79e6b13313dac5adb5d12a10e6cdfb89a33addc2254582818c4dcb0f768c82",
+  "j9_provenance.py": "71f650bdfb3743d90b287cdf39e2694b4a761c9e7e6bfffd95ad5478fb8190da",
+  "jcommon.py": "a30e0d94b98c7fd8c092524d63950d998f49c990f728f4ebb3e935be354c2021"
+ },
+ "verifier_scripts_not_run_by_this_item": {
+  "verify_r1_ablation.py": "e562795ef99f11a3548ea9cc02b04ad88ab2d0cbbd90d6bc30a40d34bee70a5c",
+  "verify_r1_registry.py": "a5e7b862269ce3e7d708ae43c15e4d3d49e1d1c85bfb1c7597ab7359d4baad6d",
+  "verify_r1_species.py": "58c34b21841d027f3bd9513f64345805b161fe3a3348ed99c1419efaee6683ab",
+  "verify_r1_summary.py": "ac7db9ba470f061cde7903ba8813e3fff7aee7a66a68681b6c3955fa66d2af90",
+  "verify_r2_ablation.py": "7a59ce211751ec78b89e0cece9c57824e30eae3ac6d317aa031271998ce70cc6",
+  "verify_r2_registry.py": "263545f8b328f6a3ff445adc9c1f2f2e644a66c408d76d6abb1d05eb5d773579",
+  "verify_r2_rice_cluster.py": "c288ea24418fce53555e390b0252118d77bbde09660ced4fc70f90648fda601d",
+  "verify_r2_singlecys.py": "256fa86a9189de91d45b41bef54ebeb104350c667fa183b1405cb0ad39c6047a",
+  "verify_r2_species.py": "ca951351158716e20b4a06a4fb14b8c93e1bf5484a0e42e8b1a34175d9f1baf8",
+  "verify_r2_summary.py": "1e9926887c979f8956af10cff55c83b7d9a86841bbd3e1130132214b76a23b6f",
+  "verify_r3_construction.py": "fcf67952215a1b4064caff0b864b3b1abb501d0a657cb3b1f2e8755316536d01",
+  "verify_r3_extra.py": "eddc8d3367c02f63c46077a301eba26700bd55889f0cc6b5a0eab3dfac189b79",
+  "verify_r3_features.py": "0676d9635f746bf045d560504bae95a8bfbae59b88a2a46695e97088fb5b49fb",
+  "verify_r3_records.py": "88cf58f4c3477586e21dca3e1d079bc6db700cc28672bf5b66ebb6ffb1522aaf"
+ },
+ "inputs": {
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/PURGED_BACKUP/PHASE_1_REPORT.md": {
+   "sha256": "b01b36bae27d4063d3044f653cef48e2fcb27c924c0889bd7b68dd0a47386cf0",
+   "bytes": 23835,
+   "sha256_lf_normalised": "81ca74f4cc0ad55284ff5470d721bcbe64245a335339b813168515c5ddc9500b",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/external/SS-all-peptides.tsv": {
+   "sha256": "57c4ce64b5747eb591e879565916c04e0901ea228c20e511b2e1804fb384890c",
+   "bytes": 2625176,
+   "sha256_lf_normalised": "38e3d6a739e92b2b4b70186c8bd034e854f00dcb3fb4863bcdc478182b2dbf95",
+   "read_by": [
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/external/UP000000589_10090.fasta.gz": {
+   "sha256": "c24568f70ce9ffd7693a1ecd31c23eaa97a1f43d9305e2ff5401bdf30e2a0a93",
+   "bytes": 8053531,
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/external/UP000059680_39947.fasta.gz": {
+   "sha256": "0362824104575e680053e3168a85f72d0cd5e1f1c96100753510a06ba5f2866b",
+   "bytes": 9338783,
+   "read_by": [
+    "j1_species_evidence.py",
+    "j3_ablation_statistic.py",
+    "j5_singlecys_construction.py",
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/mcp_package/Source_Data_Fig2_public_four_protease.csv": {
+   "sha256": "6b5fa60d1f735b8fc589ad5b6161c723fedbbea7ab6f43c89d5a8edc64ac5b39",
+   "bytes": 9340,
+   "read_by": [
+    "j2_artifact12_registry.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/repo_reports/LABEL_PROVENANCE_AND_SEMANTICS.md": {
+   "sha256": "8a3b0d9a3384efcfea6bfdd7c91e5157e8a39755704d5911d503a460bd839a5a",
+   "bytes": 4820,
+   "sha256_lf_normalised": "5fec29328fd154cec5a89d613e40d038cb96a3a3bd945b1140318b03998dde6f",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/reports/A_retest_policy.md": {
+   "sha256": "99143fa928f722a266de1f8675ac16b3652f4092834e6dde9e5f59d0a8f8b204",
+   "bytes": 131093,
+   "sha256_lf_normalised": "6cdd4d0608e89bc9d8b875e70b927c2f3c7d957231e2eb65be9ad5fa5741fc58",
+   "read_by": [
+    "j7_round3_checks.py"
+   ],
+   "live_document_of_another_item": true,
+   "changed_since_read": false
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/reports/B_overadjust_sim.md": {
+   "sha256": "156355b4c8fa68c885a4b1d0d5a389102a9d569d98def9548ff415077bf02733",
+   "bytes": 90107,
+   "sha256_lf_normalised": "81c6092eb08f9d8225f53d7f2858eb9cb1f5d7bf39a3bcb36126bf36bda56864",
+   "read_by": [
+    "j7_round3_checks.py"
+   ],
+   "live_document_of_another_item": true,
+   "changed_since_read": false
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/reports/C_pxd063463_specific.md": {
+   "sha256": "8ac7a2cb5f8af9c571f8128990bb634163c058d1f5cf9fda16eb71cbf642258e",
+   "bytes": 94906,
+   "read_by": [
+    "j7_round3_checks.py"
+   ],
+   "live_document_of_another_item": true,
+   "changed_since_read": false
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/reports/D_empirical_background.md": {
+   "sha256": "d5591771a60cdd012263215cbec3c4781125cea06a4fe99683b839e1b92c5a1f",
+   "bytes": 116834,
+   "read_by": [
+    "j7_round3_checks.py"
+   ],
+   "live_document_of_another_item": true,
+   "changed_since_read": false
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/reports/E_bootstrap_coverage.md": {
+   "sha256": "e6093d6c82aa9b4db4f0953c0d8f846769f01c07dc5a4088d9301da23ae3efff",
+   "bytes": 87455,
+   "sha256_lf_normalised": "934f5f37f98d129e8ee03b9d0730083c4bf216bf56d8e80ace98def25197d225",
+   "read_by": [
+    "j7_round3_checks.py"
+   ],
+   "live_document_of_another_item": true,
+   "changed_since_read": false
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/reports/F_rice_artifact3.md": {
+   "sha256": "0f4630feee8c42166a4d061db97189f8a341dc186a38a403246bbfafcdb54f33",
+   "bytes": 116053,
+   "read_by": [
+    "j7_round3_checks.py"
+   ],
+   "live_document_of_another_item": true,
+   "changed_since_read": false
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/reports/G_plmsnosite_rescore.md": {
+   "sha256": "914cc575244c8101d16e79688aa34428297c70e69ca23ba21c60b6f75e3d8c7a",
+   "bytes": 86533,
+   "sha256_lf_normalised": "d544d3de14de7f0f8103e0caac2da3a95cf082e7db02872a8c72e1fc77887f60",
+   "read_by": [
+    "j7_round3_checks.py"
+   ],
+   "live_document_of_another_item": true,
+   "changed_since_read": false
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/reports/H_artifact5_docs.md": {
+   "sha256": "103765c0d890972af730d873f380cc9fc9dcb4467a08bdd6265cae3288b353ef",
+   "bytes": 91168,
+   "sha256_lf_normalised": "4cc3830dd811114dcf5b29c46a08e5076e81d5327c6d309f4f03dc53751ad0d6",
+   "read_by": [
+    "j7_round3_checks.py"
+   ],
+   "live_document_of_another_item": true,
+   "changed_since_read": false
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/reports/I_fig5a_estimand.md": {
+   "sha256": "8f67faea987283deb6b5cd88dc802a14149237dc89a2360f0d0178bc4b1e4594",
+   "bytes": 50342,
+   "read_by": [
+    "j7_round3_checks.py"
+   ],
+   "live_document_of_another_item": true,
+   "changed_since_read": false
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/results/F_rice_artifact3/fetched/fetched_sequences.tsv": {
+   "sha256": "bc5893b23ec96949edcaa8a1b9f4be6962f8eda6b0f08a4682ff96e64e9d01f5",
+   "bytes": 7459398,
+   "sha256_lf_normalised": "b760854d15b31a0184f9d9d8e854e8b0f8b5c261242382d788c5686d30a88e1c",
+   "read_by": [
+    "j5_singlecys_construction.py",
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/results/F_rice_artifact3/s05_filter_chain.csv": {
+   "sha256": "f546e657ffe6eed860ffd713b9e7ed1615de07934ad0610deb6380fede9ac7b8",
+   "bytes": 1123,
+   "sha256_lf_normalised": "4eeb631843f3c2b7f93b901bc5d8c523a47e029b2fdde00c6c1bef59c160ff68",
+   "read_by": [
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/results/F_rice_artifact3/s11_rice_chain.csv": {
+   "sha256": "32391f763dba68024e5d046188782decc1a58f433798278f6df023eafd567798",
+   "bytes": 932,
+   "sha256_lf_normalised": "6b4c27ffebb48c4d540f3711027677874771dfc9fcefbdf21cb0e9742da83216",
+   "read_by": [
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/results/J_provenance_species/ablation_top100_arm_vs_reference.csv": {
+   "sha256": "3e791670e6914743fc1e3aa3b3c3637477fbed9c38f30473af6920f88ad129b0",
+   "bytes": 27974,
+   "sha256_lf_normalised": "b532a59fe98abcae6c9e2081b4117ee3b43860f7e09c39deca04e8fbfd59b314",
+   "read_by": [
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/results/J_provenance_species/singlecys_construction_sites.csv": {
+   "sha256": "f3d300c39160198d4537cc52889df0b81bd617712b4b911d49e653f557ba68c9",
+   "bytes": 1196897,
+   "sha256_lf_normalised": "0fa1dba46c6c7e333f43f9cb03d609b95cbee6b7ebd857ab1d36822dd0b4480b",
+   "read_by": [
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/results/J_provenance_species/species_peptide_check_sites.csv": {
+   "sha256": "f19ec957795020c7f743df43c8b90e25c2378c529ff8be47270a4b4b333f862c",
+   "bytes": 2082287,
+   "sha256_lf_normalised": "1e3ed18c3bbd828f24240ee7c5e59267ba760f260dc31cf4e3efbc9398811919",
+   "read_by": [
+    "j5_singlecys_construction.py",
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/baseline/baseline_metrics.csv": {
+   "sha256": "50016ecddaf952b233112137a802036e5513324a99061b60dabb8637cc9b0d4a",
+   "bytes": 174056,
+   "sha256_lf_normalised": "cbf70fc0de5e2756be61cb808f3acd17bdf05c3ca4a09ea083e7842035753732",
+   "read_by": [
+    "j2_artifact12_registry.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/baseline/baseline_report.md": {
+   "sha256": "d287b223cc99ab2f7a88bed0926362f916f351c4aad28b63e6cde60f65ac7851",
+   "bytes": 21121,
+   "sha256_lf_normalised": "d388d25f1b6f3dde271d8524bdbf20ad7a155fde3324762a6dc19cbd6e4d9a3b",
+   "read_by": [
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/baseline/manuscript_text_findings_2026-09-21.csv": {
+   "sha256": "1c85175d16711c79a546278edaa64f50882cd4695740d8695e390cdc26b2f4a3",
+   "bytes": 8117,
+   "sha256_lf_normalised": "dbfda363d68c950573991189f585b2727eed1af784814edbb60e334a2efbc814",
+   "read_by": [
+    "j2_artifact12_registry.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/baseline/number_registry_2026-09-21.json": {
+   "sha256": "56b1dde2cd1096029c3def4d972935f7e5fc72a071a2f283577e246e96ba5c44",
+   "bytes": 324723,
+   "sha256_lf_normalised": "8b6ca1e5088720de0b0e88ea748a2df4c7192980292447820e73c1586a260c2e",
+   "read_by": [
+    "j2_artifact12_registry.py",
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/baseline/rerun_comparison_2026-09-21_correction.csv": {
+   "sha256": "df7e0f9536c3b9954140fcfdb9d3fb8ff10d93b072c171e38392ccc9e08fc0fd",
+   "bytes": 506,
+   "sha256_lf_normalised": "e7f3ff063da507fec42f7fd28b7839b56631135ca5e14f328e46fd616dfca764",
+   "read_by": [
+    "j2_artifact12_registry.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/baseline/rerun_float_noise_collab_10_12_2026-09-21.csv": {
+   "sha256": "74e697a5bd24493818113f70b18822c0193f9687197b9a478355010d05e779c9",
+   "bytes": 316,
+   "sha256_lf_normalised": "265722cb8b76341bf815f304ad0550edc8c6fdaec032d26aeb87e5b10fad30c7",
+   "read_by": [
+    "j2_artifact12_registry.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/external/v2_retrospective_site_scores.csv": {
+   "sha256": "1ae584ea00c10bfa1e21c8c700f5340fdc26419c95c15acb744a1eff7bf679ee",
+   "bytes": 9236321,
+   "sha256_lf_normalised": "82d499aa5300492364447fd862ff29ccedd5f5c2a2d471f76da45a643cbe2859",
+   "read_by": [
+    "j1_species_evidence.py",
+    "j3_ablation_statistic.py",
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/protocols/phase1_dataset_screening_preregistration_2026-09-22.json": {
+   "sha256": "d5d9a61e8789f2b0a8a8f65bcbefbd4afb279774ec76744dd16bf7ed3533e6e3",
+   "bytes": 9223,
+   "sha256_lf_normalised": "eb501c484c1dabe0f5902a5d44d3e96e0a8596db463d74fd88305ce216f21278",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/protocols/public_refit_3_3_and_3_4_preregistration_2026-09-21.json": {
+   "sha256": "bff8236ec7c833262ec7fb73af3586dbacbb1c2103b727dc9fc6e9f4605b3566",
+   "bytes": 3822,
+   "sha256_lf_normalised": "b7540c92435dfe2cb59c305dbf7abf0a9f708f59360bca75c19705fd46118ccb",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/artifact_manifest.csv": {
+   "sha256": "2adb85cffcd6698e95e80777e65564492c17e57c9281b31596c502c42b8317ef",
+   "bytes": 2740190,
+   "sha256_lf_normalised": "8aab1e883d2c93ef571ef2e20380d830d90898415201dc41a8bc85d1b3525224",
+   "read_by": [
+    "j3_ablation_statistic.py",
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/manuscript_revise_r25_2026-09-22_audit.json": {
+   "sha256": "ef8c3e0f095298d1adbcb2ad07e7dab526e838c0010a695b39d0f6d13ac78765",
+   "bytes": 3081,
+   "sha256_lf_normalised": "6bb8ee1d43545f493d52d3b79c83aa046e02b89dccd972e469f16aec0306d712",
+   "read_by": [
+    "j2_artifact12_registry.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/manuscript_revise_r28_2026-09-22_audit.json": {
+   "sha256": "74047ea0030fbb775db2eec65c9130e3f77cf4859067a2bd6a006c4107e3a1b1",
+   "bytes": 1951,
+   "sha256_lf_normalised": "8d48d9e3e88c8218d76675bf4e18e7d4435574f82281021275492e3d1f411490",
+   "read_by": [
+    "j2_artifact12_registry.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/manuscript_revise_r31_2026-09-23_audit.json": {
+   "sha256": "219dd7a3d2f6b8ab19b2aac53174ae96d8704bd6b6a1dab16e27067491ef7196",
+   "bytes": 26948,
+   "sha256_lf_normalised": "60fde35ffe6262072023dff72d1fbbbb40daee625cc8c6c3290839eaf1dd9f89",
+   "read_by": [
+    "j2_artifact12_registry.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/parallel_label_literature_screen.csv": {
+   "sha256": "faa01874de3848e55ecd0174e001c4c60762b4958469d43ec1fbdb0a120570ce",
+   "bytes": 87713,
+   "sha256_lf_normalised": "a69a64b52a291f9fa0101cf2dba57227297599dd1ac8ad6e6a41b743d863c254",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phase1_adjudicated_candidates_2026-09-22.csv": {
+   "sha256": "c8d34beb31667585f945fc40b9595da71565e989c7ad78aaf20c2d0e27ead131",
+   "bytes": 5702,
+   "sha256_lf_normalised": "d28f6b662b1a1c3bb017fc4dec20114b08a73597935489e4127059822f7deca2",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phase1_dataset_screening_candidates_2026-09-22.csv": {
+   "sha256": "e2d8a235c41d539fdb42a1b45172fe9dfcd320bfc2a047c4a096b260816fd3fa",
+   "bytes": 268385,
+   "sha256_lf_normalised": "0db6747e19dbf2e420cd9a67ad440fd048fb34f04000c78d5c186df6c623c481",
+   "read_by": [
+    "j1_species_evidence.py",
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phase1_download_request_2026-09-22_audit.json": {
+   "sha256": "4290403606c8a1d635879d7fd96fe37fc2fd0c368532c97e41ab92dcefda2a50",
+   "bytes": 12734,
+   "sha256_lf_normalised": "653b89cee4a1e7c3387cd23546af9cd1804eae946fd156b8897edb30867c6863",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phase4_validation_2026-09-22_audit.json": {
+   "sha256": "3c02be8ce4cc13124814cf3e02f51a9a48b1d0ec7486a715cfa8e2be6c45685f",
+   "bytes": 6676,
+   "sha256_lf_normalised": "75be37686d33aea13b50bb84c99c48cb3d41020456e48aa036fa6920559305d4",
+   "read_by": [
+    "j2_artifact12_registry.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/positional_kr_profile_public_2026-09-17.csv": {
+   "sha256": "a76681d022846810bef9e2941e21a9bfa45f9b209c116d33e42bf55acd930ccb",
+   "bytes": 27426,
+   "sha256_lf_normalised": "3f6a22d098e6dfb56864f4320dfa021ad9c1c736ad9d3d68ae1dca85a0c6d8f7",
+   "read_by": [
+    "j2_artifact12_registry.py",
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/positional_kr_profile_public_audit.json": {
+   "sha256": "07746f18ab259022d29d484e0b1903594b68a9ec353526cb322786749e063b8d",
+   "bytes": 7391,
+   "sha256_lf_normalised": "1978737971c8ecfaf294fa49d8f4cc4c76d6cdaae3afc06fa4ca49323e63cbde",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/pride_coincidence_assessed_2026-09-19.csv": {
+   "sha256": "40bcb5f874d1a8b1e3fe3b3164adfd0e2b6364771dc1eaab78b406cf99598f4c",
+   "bytes": 8987,
+   "sha256_lf_normalised": "cc6aa685fb8ee3025f7629079055aab86e7091fde8b12782055989599d3e805c",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/public_refit_ablation_2026-09-21.csv": {
+   "sha256": "208eb29767e86da2a5177c418a90b0ca002fab7ad5dd3d4ed8d89f589037704a",
+   "bytes": 1029,
+   "sha256_lf_normalised": "008c8be352ad801cea88275ec6c75cc120cf47aff5496a209d77a44c81958e0b",
+   "read_by": [
+    "j3_ablation_statistic.py",
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/public_refit_ablation_2026-09-21_audit.json": {
+   "sha256": "bd21985c0411515f0246be35005b2f90e32a5ace5afe7e183a7c700213d1bc39",
+   "bytes": 3372,
+   "sha256_lf_normalised": "5b6935188f4da728557706671c426169372fecc07f5a936f31aa41fdd35d6f0a",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/public_refit_detectability_only_2026-09-21.csv": {
+   "sha256": "44d7d8f349c35839332c8782c1814e7b39ad21e66233801f27e6dc81eba15be0",
+   "bytes": 205,
+   "sha256_lf_normalised": "0baa9fc6ba4e49bf937d5a3cd88b59ab097c847affee49b39fc4633f09d299f6",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/public_refit_inputs_2026-09-21_audit.json": {
+   "sha256": "aa4186e814248ad4d81df2f0d08e53c856caae9ef3e4739916810c5bfb8ff61f",
+   "bytes": 3218,
+   "sha256_lf_normalised": "0cf6723f3ef999d70afc67e497f920420cd533ee66c9ff9ffc2db6d1f75b6a5b",
+   "read_by": [
+    "j4_deposit_manifest.py",
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/public_refit_performance_cost_posthoc_2026-09-21.csv": {
+   "sha256": "cbc0bfe19f90e866ddb8222c34b317a04c2e0e917f3d2036cfa59d34d3f48d39",
+   "bytes": 332,
+   "sha256_lf_normalised": "b55a045579387fcd98f4679dbaf3be7834ef2e95855c7fc734a59fc320038d69",
+   "read_by": [
+    "j4_deposit_manifest.py",
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/public_refit_performance_cost_posthoc_2026-09-21_audit.json": {
+   "sha256": "dd25357021ab98691ad92b370c3f535b5430261062192b87943ca6d59699bd6a",
+   "bytes": 1465,
+   "sha256_lf_normalised": "3984b17581018310c16d8548a0abb25811fa8f487ab67020f29e8fd2d1cb47c0",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/public_refit_prereg_2026-09-21_audit.json": {
+   "sha256": "d4b8aeedc98e1e10b498dbae378aa09676cda2bc1433fcfdb2fd68ce6aa4a5a2",
+   "bytes": 1672,
+   "sha256_lf_normalised": "b98aae5e8a96e630682a0bc8f2794e70ca243e3c7be6a415ab128b482f31d034",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/release_additions_r31_2026-09-23_audit.json": {
+   "sha256": "b6973f89527f973cd0fbf0577cd4d35e1b57325cfef0fa8b228415ba235a369a",
+   "bytes": 5372,
+   "sha256_lf_normalised": "dec53e96c989005d2184960e5d8821dff7ff1355ad7ba11155de5e895647446e",
+   "read_by": [
+    "j2_artifact12_registry.py",
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/self_audit_public_cohorts_2026-09-20_audit.json": {
+   "sha256": "976b11fb0c668f2e4a1d264829779fca007d91cd808d3667e0ceb276092039a4",
+   "bytes": 10835,
+   "sha256_lf_normalised": "b3236017d5d2372303a514ad13564db1fb155dc8c5b371eb1d6a286a4afe603d",
+   "read_by": [
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/v2_chem_ablation_verdict.csv": {
+   "sha256": "1e8c16e86ee738c3210fdff96941fa55bfc527e754afb89a08c20a7500bf38bc",
+   "bytes": 3915,
+   "sha256_lf_normalised": "2660bc82af86445df52e5fa3e9aed8ceac1acd54acf524f837113c9b52b51356",
+   "read_by": [
+    "j3_ablation_statistic.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/v2_feature_importance_audit.json": {
+   "sha256": "e77947a9a62724feb3bfc733b5c81850f9088c14b80000d2c9237b54fe5f58c3",
+   "bytes": 8041,
+   "sha256_lf_normalised": "5ff169ad4b82a64a21687b4d41f02e9b13b936ed0f98ddd192408991ea9c1026",
+   "read_by": [
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/v3_human_homology_components.csv": {
+   "sha256": "bdd1cdd38f5afe2e543415e08c4f63e8acd90066a5c028afaf7d456615480937",
+   "bytes": 466677,
+   "sha256_lf_normalised": "5ef4e60f4ecd5da120a733a3df903ec2211ec3673d9dddd14a3fc71e525f8420",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/v3_human_homology_components_audit.json": {
+   "sha256": "8a71a7864021bb4cc3fcf1af6ddbe70ca2ae773e55abf7c2c0c9eab25567fb68",
+   "bytes": 5869,
+   "sha256_lf_normalised": "15584f12712d3992295186d2c104fae126d623cce937da0e2769ad2b55c8da97",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/analyse_public_refit_2026-09-21.py": {
+   "sha256": "e0ff11862cffe48093ae88d81d83d6cc84d7430d7601354b1f8cca786102ac7e",
+   "bytes": 11827,
+   "sha256_lf_normalised": "c96bb3817109195e60b563164c36c5750e5b44d4062ad3aa8e5cf1271d841d15",
+   "read_by": [
+    "j4_deposit_manifest.py",
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/audit_cleaning_and_grouping.py": {
+   "sha256": "ca2a0959aef1266b9f7800ec7fc293f807391f0bff424c0a6b144a7ae63fdbc4",
+   "bytes": 21349,
+   "sha256_lf_normalised": "4c3b6d3b0bdce61185fd9dabaffe39b3974be814846e59cee177b1988a386d0a",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/build_dataset_screening_tables_2026-09-22.py": {
+   "sha256": "e3e18466d2a85f5aad2b079bc4de70d0ae605acef671e97382a300543e954f2b",
+   "bytes": 39082,
+   "sha256_lf_normalised": "7bceb1e74605e5b1063e2122fd6c8fa5c7ddb677d1b885c8e1c4cfd512e19992",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/build_public_refit_inputs_2026-09-21.py": {
+   "sha256": "969f18dc98845a58ed3ce84168ab2b3ed9c03fc45f3a4ded1e6fd03a4e36aeae",
+   "bytes": 10971,
+   "sha256_lf_normalised": "3cb4126ec5595454ea4b2872ac224e0a7f088c0c36a4fe836e38a7efe56d4cda",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/common.py": {
+   "sha256": "adc88081bca803345cb3b04ca43b0413e9e6929f787c648e496ab2aa7cf1a9a1",
+   "bytes": 7560,
+   "sha256_lf_normalised": "9c741288c3b9238603dcfde3fb755b098c03950a02d594012f068aa6debb7901",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/phase2_claim_cohorts.py": {
+   "sha256": "ff48651b87b4a8d66c19c9e6ccf210d6556efec238d7110faf29ec161f81f4c7",
+   "bytes": 42269,
+   "sha256_lf_normalised": "ee135433bf0ad6267e57610c2caf0e8d2280e887eac60defd76a8d8d7f208674",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/positional_kr_profile_public_2026-09-17.py": {
+   "sha256": "0171a1a1ead8fec2d8cf4edac6e99a7eea0bdb1cd36400ba8aa5027e185177b6",
+   "bytes": 31506,
+   "sha256_lf_normalised": "aed19b7594202a6b52d04b30b54f1be897cc6582414a88fc32b62e0540f8d0dd",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/posthoc_public_refit_performance_cost_2026-09-21.py": {
+   "sha256": "f9925ef79cb2b75b069e4a382d5c5bdab75627f2942d77bc18e6eca9dbfa2c64",
+   "bytes": 4389,
+   "sha256_lf_normalised": "d47cafbe87cfa9380a85fd91f988a8bc87641dd57fbb473dfdf554172aed583d",
+   "read_by": [
+    "j4_deposit_manifest.py",
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/preregister_public_refit_2026-09-21.py": {
+   "sha256": "5b4f526f3c4d5202613cee673c82a89a89f36e1ffac51a5204d42cbf223d7cde",
+   "bytes": 14584,
+   "sha256_lf_normalised": "92703033b985654a25037025dec1cccebfdea38597f21bae36dac3b2403329db",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_corrected_mlp.py": {
+   "sha256": "698a11e00be92b21414ed8104fec0dad0106cdc89c55992ef999a5a336dcb5f1",
+   "bytes": 9041,
+   "sha256_lf_normalised": "0c50188dc6704c076eda29d3e8c7bd0b4d1f284974b70945410f374bcf63a645",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_cross_protease_detectability_probe.py": {
+   "sha256": "46f60db339d1a93baa0d56b7384614279491f553a0d65e18794c5b6da99a02f1",
+   "bytes": 14926,
+   "sha256_lf_normalised": "f9b990dd6ba016f4aeeba9bcb436f6e8750cd252308e6dae1c9f00518b6d8b0a",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_phase2_claims_under_detectability_control.py": {
+   "sha256": "60efc05286a8c7edc6a205ec10a361f1466610fad7c241bf787ef423196a35ed",
+   "bytes": 51648,
+   "sha256_lf_normalised": "12df8b7f74df1421f63c069f58a3dbaab222358500447d0b73b4be7e1ab8c496",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_public_refit_arms_2026-09-21.py": {
+   "sha256": "b52358dc7a5fa08ce5f3087afcbaab38538a50da45faa91c1259ee8be4545eef",
+   "bytes": 10193,
+   "sha256_lf_normalised": "b91fb362800095c4243c4a62262e5bb1c43b19a60ec5c604af7d687c5e2bfac8",
+   "read_by": [
+    "j4_deposit_manifest.py",
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_retrospective_external_corrected.py": {
+   "sha256": "e1a9c33b71f75c92d0762cde400999a12e5e5f6d8d5cc9fb9b85389998825a3c",
+   "bytes": 16029,
+   "sha256_lf_normalised": "0e67986508436c77de441c214e1cb8e34aaaac89d4355f571e410af4b55ee4c7",
+   "read_by": [
+    "j4_deposit_manifest.py",
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_self_audit_five_proteases.py": {
+   "sha256": "afddcdbc6c2ccb11ae40897afce3edf48a2fe29fd30621fbe09067e109a48d70",
+   "bytes": 16147,
+   "sha256_lf_normalised": "aaa1f0f8287108f8e35e88dc1738e3d281fcfa1b85502cd71da3050b13f5c882",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_v2_chem_ablation_verdict.py": {
+   "sha256": "6054a128292fc4026388b3d407bee4956407b44184fb83118a44b8ac233d162c",
+   "bytes": 13384,
+   "sha256_lf_normalised": "4b4f7abb748870ead436f6dd3319744ef10e7397919b287f54dd2ed885e54aeb",
+   "read_by": [
+    "j3_ablation_statistic.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_v2_chem_basic_ablation.py": {
+   "sha256": "e286a3a5b58e741559ff565c496dce39180f1b257a9cf6e431a57698a29f0305",
+   "bytes": 13808,
+   "sha256_lf_normalised": "48c38ab0486a6799bb7005456ef5b3e4aa05df47f320e82e7a03c0e096d35cf1",
+   "read_by": [
+    "j4_deposit_manifest.py",
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_v2_stack.py": {
+   "sha256": "2d9349d16a485572227e46789f12bdd4a9d2e86fd78755923d9b35b180a15d19",
+   "bytes": 13322,
+   "sha256_lf_normalised": "3c5af6520dbd7a0a544f400cf30ca835dc3504cb83cfb0828d2d1b49ef08e91d",
+   "read_by": [
+    "j4_deposit_manifest.py",
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/v2_apply.py": {
+   "sha256": "418e73c30f59c7ce7ceadbed5b4129c927511c13f7b03ae1941dc584fc2bd942",
+   "bytes": 6983,
+   "sha256_lf_normalised": "d755fe45186f55b8c9be31831236c5b62a3ae71f1dccfd4a30bcb55d73d84a5f",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/v2_features.py": {
+   "sha256": "646a785e0999ef4eba1b36da77b94f0824d427d987b6db0e145271b3b0711dfd",
+   "bytes": 23039,
+   "sha256_lf_normalised": "b982b16f2e9b54d9d12b1dcb5d01e732d1225db24d052cf4718a7f400aa0445a",
+   "read_by": [
+    "j4_deposit_manifest.py",
+    "j5_singlecys_construction.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/v2_members.py": {
+   "sha256": "997ad97ccde3e291cf17e1c25ec595adfa22df2d8d7d1014a80b8b123cab13e1",
+   "bytes": 12790,
+   "sha256_lf_normalised": "70c3730c63c3896f6dba36473a5542c883a85e62c4cd7f8bf084da9d340317b5",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/v2_stack.py": {
+   "sha256": "d2e56c2e7acc2fe70838d31c27e00945396befbd7ba3d323fb5de4c3c100558b",
+   "bytes": 6289,
+   "sha256_lf_normalised": "01c3c05d38c275525a2ddd33ddc47056a51303965bb1538d0364842e80604e75",
+   "read_by": [
+    "j4_deposit_manifest.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/supplemental/Supplemental_Data_7_dataset_census.csv": {
+   "sha256": "1dffb8882731ae57b6e0ffe01b1fb65dc3383cb3064f419392d0ddad0e0f4a78",
+   "bytes": 293507,
+   "sha256_lf_normalised": "756d88e76b3ff5f5efc424beeac2bb4ed2811b798ea8836a50c14ddeb91de11a",
+   "read_by": [
+    "j1_species_evidence.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/01_manuscript.tex": {
+   "sha256": "79ce71597d4dea29a62081fdca0a151b7e507771e379df986419bab8b44c1b4a",
+   "bytes": 137370,
+   "read_by": [
+    "j2_artifact12_registry.py",
+    "j3_ablation_statistic.py",
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Data_12_analysis_provenance.csv": {
+   "sha256": "aba9a349f6861f6963d7d1783b5dc33fc5dbe37eee68b2d60a2e5355b4ed2984",
+   "bytes": 5916,
+   "sha256_lf_normalised": "43c6444ca6ff09b32796592a81af3ae59bf86d8abeebbff359a1e36ee057ddf4",
+   "read_by": [
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Data_8_dataset_protease_provenance.csv": {
+   "sha256": "8e96ebe6deb6774527b043d94ec970377872a59dabc2220db2f42b6652d0722e",
+   "bytes": 2554,
+   "sha256_lf_normalised": "e138a9810f44b47085558f18a1758a839fef921458d7bf5d5a277720432881e0",
+   "read_by": [
+    "j2_artifact12_registry.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Note_10_public_five_protease_self_audit.md": {
+   "sha256": "4dca9f822a124be073f48558f861886725f500a799e0c1ac867395f90c72078b",
+   "bytes": 15928,
+   "read_by": [
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Note_11_public_feature_ablation.md": {
+   "sha256": "d5b92fdf11a0d4120970e6500affcf9e03c400ff4b565dee37aa7149e381b026",
+   "bytes": 6824,
+   "read_by": [
+    "j3_ablation_statistic.py",
+    "j5_singlecys_construction.py",
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Note_12_public_detectability_only.md": {
+   "sha256": "b31197a88d9ee652e7d54fe1a817afed5cd397cdb2e7dcc1c46fc99507700421",
+   "bytes": 3394,
+   "read_by": [
+    "j5_singlecys_construction.py",
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Note_13_nonnull_permutation_check.md": {
+   "sha256": "26e11efb3110c17ba788bf9e57ae4516bbcc18c982347bd4ea79a411436941dd",
+   "bytes": 3349,
+   "read_by": [
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Note_2_public_ranker_training.md": {
+   "sha256": "daa9f5b69009c3e90117757af1f404dfa11faaeadc5d7844d574ed009b91222d",
+   "bytes": 2803,
+   "read_by": [
+    "j7_round3_checks.py"
+   ]
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Note_9_public_cleavage_geometry_self_audit.md": {
+   "sha256": "ba28b41f708329795ca3126aab7990ed7d4b6065d7a5ffd4f97faea9172515bb",
+   "bytes": 7999,
+   "read_by": [
+    "j3_ablation_statistic.py",
+    "j5_singlecys_construction.py",
+    "j7_round3_checks.py"
+   ]
+  }
+ },
+ "outputs": {
+  "results/J_provenance_species/species_cohort_structure.csv": "96243e9a050fe768cece7645fa3ee5903573b13300023782fecf1be6b774f06c",
+  "results/J_provenance_species/species_accession_check.csv": "d4cd80ffe3aed3f36ed5b67d242aba442eabe7c8901931a1de30a818c31be30a",
+  "results/J_provenance_species/species_terminus_fix_changes.csv": "0448246a0ca1decbdc9ac9d2814286b3e32c52fd00c8e4fbe65ab7a7b6cd7a7a",
+  "results/J_provenance_species/species_peptide_check_sites.csv": "f19ec957795020c7f743df43c8b90e25c2378c529ff8be47270a4b4b333f862c",
+  "results/J_provenance_species/species_peptide_check_summary.csv": "ba880a57d09c6a2ca1965e34053395e6aac220aecdfba544a62b09a1107e5ad6",
+  "results/J_provenance_species/species_evidence_items.csv": "0bbb23c2087c32cc41bfc4178a55951373a98d5fad290706ab711852cb71c7aa",
+  "results/J_provenance_species/artifact12_number_registry.csv": "915ddb8a554ac4e0365d01bfe27585067bf5cffb8e08e8c2c62808b37a85f7be",
+  "results/J_provenance_species/Source_Data_text_artifacts1_2_stored_values.csv": "69362bcf02313043590bebed1685d7bf1c175b69906295ab1063e994792de090",
+  "results/J_provenance_species/artifact12_collab_files.csv": "95815dbf3b3effa8e8329e08d7bd8c6edca1768e7fc5a342e4873b2ca9806355",
+  "results/J_provenance_species/ablation_missing_files.csv": "734f358d050d077ee308ad5a2e86569a18321e8021470352bf01014dd37b00a3",
+  "results/J_provenance_species/ablation_top100_reconstruction.csv": "20963df17a573c2792239ec8f89a488af6281a75f68248ac5afd8b96d011d91e",
+  "results/J_provenance_species/ablation_top100_granularity.csv": "e136d5d937e8c99d35a3dc1a5a1d29f8a749a7e15a32d98e24dc2cc4bed8eddf",
+  "results/J_provenance_species/ablation_top100_references.csv": "3bbd1bd9e3678a66d003ae4cb51781ce20f72c877275c98ac4a75d1fcb8659be",
+  "results/J_provenance_species/ablation_top100_arm_vs_reference.csv": "3e791670e6914743fc1e3aa3b3c3637477fbed9c38f30473af6920f88ad129b0",
+  "results/J_provenance_species/ablation_top100_rice_cluster_sensitivity.json": "acb2ea23143df6d0e91fc679fa4938839cc4a9a7482947ad716e890adc2b7bb4",
+  "results/J_provenance_species/ablation_threshold_free_status.json": "ce535690e33b09ba7a62996a4f6c7ad8b26a479a8f788c19f15333f096c80d2e",
+  "results/J_provenance_species/deposit_manifest.csv": "77654253619458dc8cf17aeeb6b9505a9e3cf4e0839083e0f8e68dcdef550bf2",
+  "results/J_provenance_species/singlecys_rice_references_coverable.csv": "9c11ce855f9aaf2d7a45eadef33d0604016d4098083be50a70c7ca7f3f4b1993",
+  "results/J_provenance_species/singlecys_b2_decomposition.csv": "b3dfd1b4d67e71d254d31cc22616ff946c0fc2063ea799e2a5ed25a0aa15e382",
+  "results/J_provenance_species/ranker_feature_audit.csv": "5ab636bc2e4ea235f14118434905408f251cffdac8113aee27d3f12c1e8f3475",
+  "results/J_provenance_species/singlecys_construction_sites.csv": "f3d300c39160198d4537cc52889df0b81bd617712b4b911d49e653f557ba68c9",
+  "results/J_provenance_species/singlecys_construction_summary.csv": "d947f148b9ae0d0e37e6be5ad9d873d6d81d00633ea654f95495bb55ec7a15c4",
+  "results/J_provenance_species/singlecys_construction.json": "98bff5086d725fb3b5ec54fb6a90cd10c7520987f2903b1bdcb8fb6aa8e273d8",
+  "results/J_provenance_species/j3_threshold_free_branch_test.json": "1abb3c2a00fa41e870fc48584a2c922c332dc032172486299c7b12cdfe1ae009",
+  "results/J_provenance_species/manuscript_anchor_map.csv": "76d840414592f5c3a4cc1ad03324cf2a7fecb5a649902de6209d44ccdf0d3de2",
+  "results/J_provenance_species/supplement_anchor_map.csv": "0522599a102b395604f55f496088478cb93c09b81b7b295dbed442b082dccd55",
+  "results/J_provenance_species/sibling_line_pointers.csv": "65fee1807335ee6dce19302433109aa28b2bddde27939b1b5d93ac1e2074e1f8",
+  "results/J_provenance_species/round3_checks.json": "8e014b3d208b05e8fbe7dabf3348415d612bca578e7c03bf37eab9b9732c47e9"
+ },
+ "seeds": {
+  "j1_species_evidence.py": {
+   "bootstrap_seed": 20260930,
+   "bootstrap_replicates": 5000
+  },
+  "j2_artifact12_registry.py": {},
+  "j3_ablation_statistic.py": {
+   "bootstrap_seed": 20260921,
+   "bootstrap_replicates": 5000,
+   "selftest_seed": 20260930,
+   "rice_cluster_reference_seed": 20260930,
+   "rice_cluster_reference_draws": 20000
+  },
+  "j4_deposit_manifest.py": {},
+  "j5_singlecys_construction.py": {
+   "protein-clustered bootstraps": "20260930 (+1, +2 for the two AUC bootstraps), 5000 replicates"
+  },
+  "j6_threshold_free_branch_test.py": {
+   "synthetic data and bootstrap": 20260930
+  },
+  "j7_round3_checks.py": {
+   "part C protein-clustered bootstrap": 20260933
+  }
+ },
+ "notes": {
+  "j1_species_evidence.py": {
+   "collaborator_tree_path_recorded": "/Users/lyuguohao/Documents/zhanghua_huibao/07_共性规律_方向一",
+   "bad_windows": 0,
+   "mouse_entries": 21860,
+   "rice_entries": 43678,
+   "unique_segments_searched": 17980,
+   "terminus_rule_bookkeeping (revision after verification)": {
+    "left_nterm_newly_true": 28,
+    "right_cterm_newly_true": 27,
+    "right_truncated_windows": 191,
+    "right_truncated_consistent_with_length": 191
+   },
+   "class_changes_vs_round1_rule": {
+    "trypsinP: undetermined -> conserved": 8,
+    "trypsin: undetermined -> conserved": 9
+   },
+   "component_clusters_for_cohort": 1482
+  },
+  "j2_artifact12_registry.py": {
+   "n_rows": 91,
+   "n_not_found": 0
+  },
+  "j3_ablation_statistic.py": {
+   "oof_present": false
+  },
+  "j4_deposit_manifest.py": {
+   "rows": 82
+  },
+  "j5_singlecys_construction.py": {
+   "scope": "post hoc, revision round 2; human full sequences are not on this machine, so the human checks are window-based lower bounds",
+   "feature_audit": "v2_features.py executed in memory with a stub for its `common` import; no repository module imported, no bytecode written",
+   "item_F_inputs": "fetched_sequences.tsv and s05_filter_chain.csv of item F are read, not modified"
+  },
+  "j6_threshold_free_branch_test.py": {
+   "scope": "synthetic test only; no real data are read"
+  },
+  "j7_round3_checks.py": {
+   "A": "manuscript and supplement pointers located by unique anchor phrases; quotes checked verbatim",
+   "B": "human window power from j1 (trypsinP_complete) and j5 (window_second_cys_trypsinP) site tables",
+   "C": "three chemistry-arm columns recomputed with the v2_features.py definitions on UniProt 2026_03 sequences",
+   "D": "row sets behind the rice numbers of Supplemental Note 11, from the repository's scripts and outputs"
+  }
+ },
+ "versions": {
+  "python": "3.10.11",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scipy": "1.15.3",
+  "sklearn": "1.7.2",
+  "Bio": "1.88"
+ },
+ "worker_processes": "j1 uses 4 worker processes for the substring search; all other steps are single-process",
+ "other_items_read_not_modified": [
+  "results/F_rice_artifact3/fetched/fetched_sequences.tsv (rice sequences of active UniProtKB 2026_03 entries outside UP000059680, fetched by item F)",
+  "results/F_rice_artifact3/s05_filter_chain.csv (cited in round 2; superseded by item F's round-2 chain)",
+  "results/F_rice_artifact3/s11_rice_chain.csv (cited in round 3: 1,769 -> 1,753 -> 1,377 -> 1,377 -> 1,340 -> 817 sites)",
+  "reports/<other items>.md (round 3, j7 part A4: line pointers compared read-only; these are live documents of concurrent items and may change after this run)"
+ ],
+ "hash_checks_at_merge": "every input recorded by more than one fragment has one sha256, and every recorded sha256 equals the file's sha256 when this merge ran",
+ "determinism": "fixed seeds (20260930 for the j1 bootstraps, the j3 self-test and the j3 rice protein-draw reference; 20260921 for the j3 threshold-free bootstrap, the seed of the registered refit analysis; 20260930, +1 and +2 for the j5 protein-clustered bootstraps; 20260930 for the synthetic j6 test; 20260930 + 3 for the j7 protein-clustered bootstrap); multiprocessing in j1 only parallelises a pure membership test, so outputs do not depend on scheduling",
+ "revision": "fourth version of the report (revision round 3, after adversarial verification round 3), 2026-09-30; round 2 added j5_singlecys_construction.py and j6_threshold_free_branch_test.py and a coverable-only (symmetric-filter) variant to the deposit-time branch of j3; round 3 made j2 locate manuscript lines by anchor phrases, re-ran j2 and j3 on the manuscript version saved at 05:37 (sha256 79ce7159...), added j7_round3_checks.py and the hash checks of this merge"
+}

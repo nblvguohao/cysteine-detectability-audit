@@ -1,0 +1,134 @@
+{
+ "item": "B_overadjust_sim",
+ "label": "POST HOC revision analysis (not registered, not pre-specified)",
+ "verification": {
+  "candidate_rows": 264782,
+  "rows_protein_in_fasta": 259043,
+  "rows_sequence_match": 258701,
+  "row_match_rate": 0.977033937352237,
+  "row_match_rate_among_present": 0.998679755870647,
+  "proteins": 6371,
+  "proteins_absent_from_fasta": 130,
+  "proteins_with_any_mismatch": 9,
+  "proteins_retained_all_rows_match": 6232,
+  "protein_match_rate": 0.9781823889499294,
+  "detected_rows_total": 6658,
+  "detected_rows_in_retained_proteins": 6607
+ },
+ "n_universe_proteins": 2445,
+ "n_universe_cysteines": 28471,
+ "n_detected_cysteines": 6870,
+ "detected_fraction": 0.24129816304309648,
+ "n_cys_in_any_candidate": 26924,
+ "n_cys_in_candidate_7_30": 24267,
+ "detected_per_protein_mean": 2.8098159509202456,
+ "cys_per_protein_mean": 11.644580777096115,
+ "vis10_names": [
+  "pep_len",
+  "pep_mass",
+  "pep_gravy",
+  "pep_detectable_length",
+  "pep_detectable_mass",
+  "pep_detectable_both",
+  "pep_log_len",
+  "pep_mc1_detectable",
+  "pep_mc2_detectable",
+  "pep_detectable_any_missed_cleavage"
+ ],
+ "peptide_detection_model_for_steep_scenario": {
+  "features": [
+   "length",
+   "missed_cleavages",
+   "mass",
+   "gravy",
+   "frac_basic",
+   "frac_acidic",
+   "dist_n_term",
+   "dist_c_term",
+   "n_cys"
+  ],
+  "candidate_level_auc_in_sample": 0.8162883032072229,
+  "coefficients_standardised": {
+   "length": 1.0290206155436068,
+   "missed_cleavages": -0.8466809281685883,
+   "mass": -1.2349353446716542,
+   "gravy": 0.05875889696752002,
+   "frac_basic": -0.19685287063199644,
+   "frac_acidic": 0.20158070172399284,
+   "dist_n_term": -1.3425080646954999,
+   "dist_c_term": -1.59870253027224,
+   "n_cys": -0.23854155375072225
+  }
+ },
+ "attributes": [
+  {
+   "attribute": "a1_SFE006_KR",
+   "claim": "SFE-006",
+   "label": "K or R at -10, -8..-6, -4, -2, +4..+8 (SFE-006)",
+   "prevalence_all": 0.7189772048751361,
+   "prevalence_detected": 0.7622998544395925,
+   "prevalence_undetected": 0.7051988333873431,
+   "log2_or_attribute_vs_detection": 0.4226899486325935,
+   "vis10_predicts_attribute_auc_cv5": 0.758465108813035
+  },
+  {
+   "attribute": "a1b_SNO021_K",
+   "claim": "SNO-021",
+   "label": "K at +10, -10, +6, +5, +1 (SNO-021)",
+   "prevalence_all": 0.2601945839626286,
+   "prevalence_detected": 0.27467248908296943,
+   "prevalence_undetected": 0.25559001898060274,
+   "log2_or_attribute_vs_detection": 0.14149742616878042,
+   "vis10_predicts_attribute_auc_cv5": 0.6602018516342365
+  },
+  {
+   "attribute": "a2_SNO016_KRH",
+   "claim": "SNO-016",
+   "label": ">=3 of the 10 flanking positions within +/-5 in {K,R,H} (SNO-016)",
+   "prevalence_all": 0.14832636718063996,
+   "prevalence_detected": 0.0777292576419214,
+   "prevalence_undetected": 0.17077913059580574,
+   "log2_or_attribute_vs_detection": -1.287954843440074,
+   "vis10_predicts_attribute_auc_cv5": 0.839877280806518
+  },
+  {
+   "attribute": "a2b_PERS009_AKRV",
+   "claim": "PERS-009",
+   "label": ">=3 of the 10 flanking positions within +/-5 in {A,K,R,V} (PERS-009)",
+   "prevalence_all": 0.4632433002002037,
+   "prevalence_detected": 0.4413391557496361,
+   "prevalence_undetected": 0.47020971251330956,
+   "log2_or_attribute_vs_detection": -0.1679259331112008,
+   "vis10_predicts_attribute_auc_cv5": 0.7463990323838194
+  },
+  {
+   "attribute": "a3_SNO006_DE3",
+   "claim": "SNO-006",
+   "label": "D or E at +3 (acidic control; SNO-006)",
+   "prevalence_all": 0.11727722946155737,
+   "prevalence_detected": 0.12634643377001456,
+   "prevalence_undetected": 0.11439285218276932,
+   "log2_or_attribute_vs_detection": 0.16345002485274002,
+   "vis10_predicts_attribute_auc_cv5": 0.5860219049706856
+  },
+  {
+   "attribute": "a3b_SFE002_E",
+   "claim": "SFE-002",
+   "label": "E at -4, -3, +1, +3, +4, +5 (acidic control; SFE-002)",
+   "prevalence_all": 0.3225036001545432,
+   "prevalence_detected": 0.33973799126637555,
+   "prevalence_undetected": 0.31702236007592244,
+   "log2_or_attribute_vs_detection": 0.14873123814531428,
+   "vis10_predicts_attribute_auc_cv5": 0.6080610429589145
+  }
+ ],
+ "diagnostics": {
+  "vis10_predicts_detection_auc_cv5": 0.706418320435998
+ },
+ "vis10_variance_zero_columns": [],
+ "runtime_s": 3.0,
+ "inputs_sha256": {
+  "candidates": "f8dd02ff935bd8a7f587dfcaf7bc1ca3a3a48cda7811308e37e87dc8f26e9cdc",
+  "fasta": "c24568f70ce9ffd7693a1ecd31c23eaa97a1f43d9305e2ff5401bdf30e2a0a93"
+ }
+}

@@ -1,0 +1,291 @@
+==============================================================================
+CODER A INDEPENDENT RECODING - AGREEMENT REPORT
+==============================================================================
+
+Records joined: 74 (original classified 74, coder A 74)
+
+(i) RAW AGREEMENT
+    46/74 = 0.622 (62.2%)
+
+(ii) COHEN'S KAPPA (categories a, b, c, e, U; U treated as its own category)
+    po = 0.6216
+    pe = 0.4534
+    kappa = 0.3077
+    Landis & Koch band: fair
+
+    Original code distribution: {'a': 34, 'b': 1, 'c': 4, 'e': 35}
+    Coder A  code distribution: {'U': 1, 'a': 10, 'c': 2, 'e': 61}
+
+(iii) CONFUSION MATRIX (rows = ORIGINAL, cols = CODER A)
+    orig\A           a       b       c       e       U   total
+    a               10       0       0      24       0      34
+    b                0       0       0       1       0       1
+    c                0       0       2       2       0       4
+    e                0       0       0      34       1      35
+    U                0       0       0       0       0       0
+    total           10       0       2      61       1      74
+
+(iv) ROWS THE ORIGINAL CODER CALLED b OR c
+     total: 5
+
+     --- uid 441 ---
+       original code = c (c: experimentally detected but unmodified)
+       coder A code  = c   [medium confidence]
+       agree         = YES
+       title         = The S-palmitoylome and DHHC-PAT interactome of Drosophila melanogaster S2R+ cells indicate a high degree of conservation to mammalian palmitoylomes.
+       doi           = 10.1371/journal.pone.0261543
+       modification  = palmitoylation | study_type = experimental-proteomics
+       original ambiguity note: comparison uses CSS-Palm site predictions on detected-but-unmodified proteins from same acyl-RAC run
+       coder A justification: The negative group is the non-palmitoylated fraction of the same acyl-RAC dataset, i.e. proteins detected in the same experiment that carry no palmitoylation assignment.
+
+     --- uid 480 ---
+       original code = c (c: experimentally detected but unmodified)
+       coder A code  = c   [low confidence]
+       agree         = YES
+       title         = Stochastic palmitoylation of accessible cysteines in membrane proteins revealed by native mass spectrometry.
+       doi           = 10.1038/s41467-017-01461-z
+       modification  = palmitoylation | study_type = experimental-proteomics
+       original ambiguity note: native MS (no protease): all cysteines of the analysed proteins are observable, so the background is the detected set
+       coder A justification: Native MS with no protease digest means every cysteine of the analysed proteins is directly observed, so the comparison background is the same-experiment detected (unmodified) cysteine set.
+
+     --- uid 1111 ---
+       original code = c (c: experimentally detected but unmodified)
+       coder A code  = e   [high confidence]
+       agree         = NO
+       title         = Radiosensitization of human leukemic HL-60 cells by ATR kinase inhibitor (VE-821): phosphoproteomic analysis.
+       doi           = 10.3390/ijms150712007
+       modification  = phosphorylation | study_type = experimental-proteomics
+       original ambiguity note: foreground = regulated sites; background = all identified phosphosites (contrast is regulation, not modification)
+       coder A justification: Foreground is regulated sites and background is all identified phosphosites from the same study, i.e. a contrast between two subsets of sites rather than unmodified residues, which the strictness rule places in e.
+
+     --- uid 1537 ---
+       original code = b (b: theoretical-detectability or abundance matched)
+       coder A code  = e   [medium confidence]
+       agree         = NO
+       title         = Proteomic Analysis of Lysine Acetylation Sites in Rat Tissues Reveals Organ Specificity and Subcellular Patterns
+       doi           = 10.1016/j.celrep.2012.07.006
+       modification  = acetylation | study_type = experimental-proteomics
+       original ambiguity note: abundance control applied to sites-per-protein, not to a sequence-level background
+       coder A justification: The abundance analysis in this study was applied to sites-per-protein, not to a sequence-level background, so it does not constitute an abundance-matched background.
+
+     --- uid 1553 ---
+       original code = c (c: experimentally detected but unmodified)
+       coder A code  = e   [medium confidence]
+       agree         = NO
+       title         = Predicting post-translational lysine acetylation using support vector machines
+       doi           = 10.1093/bioinformatics/btq260
+       modification  = acetylation | study_type = computational-predictor
+       original ambiguity note: negatives drawn from identified peptides in an external database (MAPU), not the same experiment
+       coder A justification: Predictor negatives were randomly drawn from identified human peptides held in an external database (MAPU), i.e. not from the same experiment.
+
+     agreement on these 5 rows: 2/5
+
+(v) ALL DISAGREEMENTS
+     28 of 74 rows disagree (38%)
+     direction summary (original -> coder A):
+       a -> e : 24
+       c -> e : 2
+       e -> U : 1
+       b -> e : 1
+
+(5) REVISED COUNTS
+     coder A strict count of b-or-c : 2 of 74
+     original count of b-or-c       : 5 of 74
+
+     Coder A lenient count: rows coder A would defend as a genuine
+     matched background (same-experiment background of detected but
+     unassigned residues, or a background matched on detectability/
+     abundance): uid 441, uid 480 (strict c) plus uid 1111, whose
+     background is the full set of phosphosites identified in the same
+     experiment - a same-experiment, detectability-matched reference,
+     but one composed of modified sites, which is why it is not c under
+     the strictness rule.
+     lenient count = 3 of 74
+
+     Coder A b-codes: 0 (none). Coder A found no record whose recorded
+     evidence states the background was matched on detectability or
+     abundance.
+
+
+==============================================================================
+APPENDIX - PER-ROW DISAGREEMENTS AND ROBUSTNESS VARIANTS
+==============================================================================
+
+A1. ALL 28 DISAGREEMENTS (original -> coder A), with the recorded
+    background evidence that drove coder A's call
+
+  uid 1     a -> e   [computational-predictor]
+      Sul-BertGRU: an ensemble deep learning method integrating information entropy-enhanced BERT and directional mu
+      why A differs: Computational predictor whose negatives are only called 'nonsulfhydration samples' with no stated provenance; not same-experiment residues and not stated as an unrestricted whole-proteome set.
+
+  uid 3     a -> e   [computational-predictor]
+      BioSemAF-BiLSTM: a protein sequence feature extraction framework based on semantic and evolutionary informatio
+      why A differs: Computational predictor; the negative description is truncated at 'while all', so an unrestricted all-cysteine proteome background cannot be established and the predictor default applies.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 9     a -> e   [database-resource]
+      CysDBase: a comprehensive database of cysteine post-translational modifications across protein sequence, struc
+      why A differs: Database resource in which only a foreground FASTA input is described; no background or negative set for the resource is named anywhere in the extract.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 36    a -> e   [computational-predictor]
+      pLMSNOSite: an ensemble-based approach for predicting protein S-nitrosylation sites by integrating supervised 
+      why A differs: Predictor negatives are the remaining cysteines of the positive proteins only, i.e. a substrate-restricted complement, not an unrestricted proteome background and not same-experiment detection.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 43    a -> e   [computational-predictor]
+      SNO-DCA: A model for predicting <i>S</i>-nitrosylation sites based on densely connected convolutional networks
+      why A differs: Predictor that labels 'all other samples' negative without stating their universe; provenance unstated so neither unrestricted-all-residues nor same-experiment status can be affirmed.
+
+  uid 52    a -> e   [computational-predictor]
+      pCysMod: Prediction of Multiple Cysteine Modifications Based on Deep Learning Framework.
+      why A differs: Predictor; the negative sentence is truncated at 'all cysteine sites that', so the complement set cannot be confirmed as unrestricted proteome-wide.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 208   a -> e   [computational-predictor]
+      iSNO-PseAAC: predict cysteine S-nitrosylation sites in proteins by incorporating position specific amino acid 
+      why A differs: Negatives are 810 'experimentally verified non-SNO sites' taken from an external curated database rather than generated in the same experiment.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 211   a -> e   [computational-predictor]
+      GPS-SNO: computational prediction of protein S-nitrosylation sites with a modified GPS algorithm.
+      why A differs: Predictor; the 2,581 negative sites are attributed only to '327 unique substrates' with no stated derivation rule.
+
+  uid 218   a -> e   [computational-predictor]
+      Computational Prediction and Analysis of Associations between Small Molecules and Binding-Associated S-Nitrosy
+      why A differs: Predictor; 478 negative samples are reported without any statement of how or from where they were drawn.
+
+  uid 713   a -> e   [experimental-proteomics]
+      Acetylome Analysis in &lt;i&gt;Vibrio vulnificus&lt;/i&gt; MO6-24/O Reveals Extensive Lysine Acetylation in Ca
+      why A differs: Motif-X is described with its +/-10 amino acid window but the sentence is cut off at 'with the', so no background set is retrievable.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 826   a -> e   [experimental-proteomics]
+      Systematic analysis of lysine crotonylation in human macrophages responding to MRSA infection.
+      why A differs: MoMo usage is quoted only up to 'sequences constituted with amino', so the background specification is not retrievable.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 828   e -> U   [experimental-proteomics]
+      Motif-Targeting Phosphoproteome Analysis of Cancer Cells for Profiling Kinase Inhibitors.
+      why A differs: The recorded background evidence for this record is a trypsin reagent sentence, which is non-informative about any background and does not permit the inference that no statement exists.
+
+  uid 877   a -> e   [experimental-proteomics]
+      Proteomic Profiling of Lysine Acetylation Indicates Mitochondrial Dysfunction in the Hippocampus of Gut Microb
+      why A differs: Soft motif-x is quoted with a truncated window description and no retrievable statement of the background.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 902   a -> e   [experimental-proteomics]
+      Quantitative analysis of protein crotonylation identifies its association with immunoglobulin A nephropathy.
+      why A differs: Motif-x 21-mer analysis is described but the quoted sentence does not reach any background specification.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 924   a -> e   [computational-predictor]
+      GPSuc: Global Prediction of Generic and Species-specific Succinylation Sites by aggregating multiple sequence 
+      why A differs: Predictor; positives are experimentally identified succinylated lysines and the negative clause is truncated, so an unrestricted all-lysine background is not established.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 994   a -> e   [experimental-proteomics]
+      Quantitative phosphoproteomic profiling of fiber differentiation and initiation in a fiberless mutant of cotto
+      why A differs: Only Motif-X parameter settings are quoted; no background set is retrievable from the extract.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 1022  a -> e   [experimental-proteomics]
+      Multiple Layers of Phospho-Regulation Coordinate Metabolism and the Cell Cycle in Budding Yeast.
+      why A differs: The MoMo/MEME function is cited without any statement of the background used for motif enrichment.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 1111  c -> e   [experimental-proteomics]
+      Radiosensitization of human leukemic HL-60 cells by ATR kinase inhibitor (VE-821): phosphoproteomic analysis.
+      why A differs: Foreground is regulated sites and background is all identified phosphosites from the same study, i.e. a contrast between two subsets of sites rather than unmodified residues, which the strictness rule places in e.
+
+  uid 1114  a -> e   [experimental-proteomics]
+      Phosphoproteomic Profiling Reveals Epstein-Barr Virus Protein Kinase Integration of DNA Damage Response and Mi
+      why A differs: Motif-X is applied to enriched phosphopeptides with no retrievable statement of the background set.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 1537  b -> e   [experimental-proteomics]
+      Proteomic Analysis of Lysine Acetylation Sites in Rat Tissues Reveals Organ Specificity and Subcellular Patter
+      why A differs: The abundance analysis in this study was applied to sites-per-protein, not to a sequence-level background, so it does not constitute an abundance-matched background.
+
+  uid 1553  c -> e   [computational-predictor]
+      Predicting post-translational lysine acetylation using support vector machines
+      why A differs: Predictor negatives were randomly drawn from identified human peptides held in an external database (MAPU), i.e. not from the same experiment.
+
+  uid 1596  a -> e   [computational-predictor]
+      Characterization and Identification of Lysine Succinylation Sites based on Deep Learning Method
+      why A differs: Predictor whose negatives are 'non-succinylated sites' that were not generated in the same experiment and are not stated to be an unrestricted all-lysine set.
+
+  uid 1608  a -> e   [experimental-proteomics]
+      Succinyl-proteome profiling of Dendrobium officinale, an important traditional Chinese orchid herb, revealed i
+      why A differs: Motif-x is quoted with a truncated sentence that does not reach a background specification.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 1620  a -> e   [experimental-proteomics]
+      Global Proteomic Analysis Reveals Widespread Lysine Succinylation in Rice Seedlings
+      why A differs: Soft motif-x is quoted with a truncated window template and no retrievable background statement.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 1639  a -> e   [experimental-proteomics]
+      First comprehensive proteome analysis of lysine crotonylation in Streptococcus agalactiae, a pathogen causing 
+      why A differs: Soft MoMo is quoted with a truncated template and no retrievable background statement.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 1710  a -> e   [experimental-proteomics]
+      Proteomic Analysis of Protein Ubiquitination Events in Human Primary and Metastatic Colon Adenocarcinoma Tissu
+      why A differs: Motif-X ubiquitination motif analysis is mentioned with no statement of the background set.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 1712  a -> e   [experimental-proteomics]
+      Involvement of the Vitamin D Receptor in Energy Metabolism Revealed by Profiling of Lysine Succinylome of Whit
+      why A differs: Motif-X is named but the recorded sentence is cut off at 'which was' before any background set is specified, so no background statement is retrievable.
+      NOTE: [TRUNCATED QUOTE - a background clause may exist in the full text but is not in this record]
+
+  uid 1867  a -> e   [database-resource]
+      PTMphinder : an R package for PTM site localization and motif extraction from proteomic datasets
+      why A differs: Software tool paper that performs no enrichment of its own; it only recommends a background type for downstream tools, so no background used by this study is described.
+
+A2. HOW MANY DISAGREEMENTS ARE QUOTE-TRUNCATION ARTEFACTS
+    11 of the 28 disagreements carry a verification note asserting that an
+    explicit background statement WAS found in the full text on re-grep, but the
+    recorded evidence quote in this table still truncates before naming it:
+    uids: 826, 877, 902, 994, 1022, 1114, 1608, 1620, 1639, 1710, 1712
+    These are the rows where coder A's e is most likely to be too harsh and the
+    original a is most likely correct; they are the rows the audit should resolve
+    by going back to the papers' full text.
+
+A3. KAPPA ROBUSTNESS VARIANTS (sensitivity of the headline agreement)
+    kappa, 5 categories (a,b,c,e,U)                 = 0.3077
+    kappa, 4 categories with U folded into e        = 0.3245
+    kappa, 4 categories, U-rows dropped entirely    = 0.3220  (n=73)
+    kappa, binary restricted to rows both coders placed in a or e
+                                                    = 0.2941  (n=68)
+
+    Binary a-vs-e agreement is 64.7% (44/68), i.e. almost all of the
+    disagreement is about whether a background that is not stated is
+    nonetheless to be inferred as the unrestricted proteome default.
+
+A4. WHAT CODER A COULD NOT DO
+    Coder A had no access to the papers. Every row was coded from the
+    title, modification, study type and the recorded evidence quotations
+    only. Measured over the 74 records: 51 quotations are cut off mid-clause
+    (no terminal punctuation) and 0 are empty. In most of the truncated
+    cases the missing clause is the one that would have named the background, so
+    a background statement present in the paper may be absent from the record.
+    For 1 of the 74 rows (uid 828) the recorded background evidence is a reagent
+    sentence and is off-topic, which is the single U code.
+    Coder A therefore cannot detect a background statement that exists in a
+    paper but was not captured by the original regex extraction, so coder A's
+    counts are lower bounds, not point estimates.
+
+A5. SENSITIVITY: BEST CASE FOR THE ORIGINAL CODES
+    If all 11 disagreement rows whose background statement was truncated out of
+    the recorded quotation are credited to the original code a - i.e. the full
+    text does contain an unrestricted all-protein-sequences background - then:
+        raw agreement = 57/74 = 77.0%
+        kappa         = 0.5812  (moderate)
+    The residual disagreement is then confined to rows where no background is
+    retrievable at all, plus the uid 1111 and uid 1537 class calls.
+    So the honest reading is: raw agreement is between 62% and 77% and kappa
+    between 0.31 and 0.58 depending on how much credit the truncated quotations
+    are given. Either way, agreement is only fair-to-moderate, which is the
+    finding the audit needs.

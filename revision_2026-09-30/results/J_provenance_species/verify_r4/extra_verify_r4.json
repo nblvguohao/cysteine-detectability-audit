@@ -1,0 +1,141 @@
+{
+ "label": "POST HOC adversarial verification round 4, extra checks",
+ "pep_cys_count": {
+  "all_nc_have_ge2": true,
+  "coverable_with_ge2": 59,
+  "coverable_n": 3889,
+  "labelled_with_ge2": 2,
+  "auc_for_nc": 0.9922383142141772,
+  "auc_for_nc_among_unlabelled": 0.9903965639933197,
+  "within_protein_auc_for_label_negated": 0.6460830487641068,
+  "n_proteins": 637
+ },
+ "ceiling_step_99_100": {
+  "human": 1.5999,
+  "rice": 1.601
+ },
+ "registry": {
+  "n": 91,
+  "lines": [
+   54,
+   136,
+   138,
+   140,
+   142,
+   147,
+   149,
+   255
+  ],
+  "tokens_not_on_line": [
+   [
+    "J-D-01",
+    "255",
+    "48%"
+   ],
+   [
+    "J-D-02",
+    "255",
+    "53%"
+   ],
+   [
+    "J-D-03",
+    "255",
+    "88%"
+   ]
+  ]
+ },
+ "rice_cluster_sensitivity_file": {
+  "scope": "rice deposit cysteines whose protein is in UniProt UP000059680 release 2026_03 and whose released window matches that sequence; a subset of the analysed cohort (the refit used an earlier rice proteome file)",
+  "rice_rows_in_site_table": 5598,
+  "cysteines_with_sequence": 4404,
+  "window_mismatches": 0,
+  "analysed_cohort_N": 5004,
+  "share_of_analysed_cohort": 0.8800959232613909,
+  "labelled": 640,
+  "labelled_proteins": 497,
+  "labelled_per_protein_distribution": {
+   "1": 396,
+   "2": 72,
+   "3": 19,
+   "4": 7,
+   "5": 3
+  },
+  "distal_rate_labelled_subset": 0.8390625,
+  "distal_rate_unlabelled_subset": 0.7460148777895855,
+  "distal_rate_labelled_cohort_note9": 0.8453188602442334,
+  "distal_rate_unlabelled_cohort_note9": 0.7452542770096087,
+  "reference_independent": {
+   "mean_k": 83.90625000000003,
+   "k_q025": 77,
+   "k_q975": 90,
+   "var_k": 11.411545444542261
+  },
+  "reference_protein_clustered": {
+   "mean_k": 84.0224,
+   "k_q025": 78,
+   "k_q975": 90,
+   "var_k": 10.07039824,
+   "draws": 20000,
+   "seed": 20260930
+  },
+  "variance_ratio_clustered_vs_independent": 0.882474533264582,
+  "icc_distal_among_labelled_within_protein_anova": -0.03758710696331231,
+  "proteins_with_one_labelled_cysteine": 396,
+  "rice_primary_readings": [
+   {
+    "member": "lgb_rank",
+    "arm": "control",
+    "k": 95,
+    "P_ge_independent_subset": 0.00027510797691273535,
+    "P_ge_protein_clustered_subset": 0.00015000000000000001,
+    "position_independent": "above",
+    "position_protein_clustered": "above"
+   },
+   {
+    "member": "lgb_rank",
+    "arm": "drop_w710",
+    "k": 93,
+    "P_ge_independent_subset": 0.003234221743172006,
+    "P_ge_protein_clustered_subset": 0.0023,
+    "position_independent": "above",
+    "position_protein_clustered": "above"
+   },
+   {
+    "member": "lgb_rank",
+    "arm": "drop_all_basic",
+    "k": 91,
+    "P_ge_independent_subset": 0.020819534104217736,
+    "P_ge_protein_clustered_subset": 0.016550000000000002,
+    "position_independent": "above",
+    "position_protein_clustered": "above"
+   },
+   {
+    "member": "blend",
+    "arm": "control",
+    "k": 84,
+    "P_ge_independent_subset": 0.556882452168342,
+    "P_ge_protein_clustered_subset": 0.5739,
+    "position_independent": "within",
+    "position_protein_clustered": "within"
+   },
+   {
+    "member": "blend",
+    "arm": "drop_w710",
+    "k": 86,
+    "P_ge_independent_subset": 0.3250941185680636,
+    "P_ge_protein_clustered_subset": 0.3249499999999999,
+    "position_independent": "within",
+    "position_protein_clustered": "within"
+   },
+   {
+    "member": "blend",
+    "arm": "drop_all_basic",
+    "k": 85,
+    "P_ge_independent_subset": 0.4391626846961745,
+    "P_ge_protein_clustered_subset": 0.4446,
+    "position_independent": "within",
+    "position_protein_clustered": "within"
+   }
+  ]
+ }
+}

@@ -1,0 +1,13 @@
+detectability_model,denominator,denominator_value,recovery,ci_low,ci_high,basis,bootstrap,manuscript_value
+VIS10,pLMSNOSite re-scored score-based AUROC,0.8154420811,0.6639981868,0.5571998614,0.8137320282,AUROC,"paired, protein-clustered",
+VIS10,pLMSNOSite AUROC of thresholded calls (= (Sn+Sp)/2; evaluate_model.py),0.7537271756,0.8255046759,0.6919801023,1.007203018,AUROC,"paired, protein-clustered",
+VIS10,"pLMSNOSite tabulated (quoted, fixed)",0.754,0.8246179916,0.7165110465,0.9325672308,AUROC,numerator only (denominator is a fixed quoted constant),0.8248
+VIS10,"PreSNO tabulated (quoted, fixed)",0.756,0.8181756636,0.710913304,0.9252815493,AUROC,numerator only (denominator is a fixed quoted constant),0.8184
+VIS10,"DeepNitro tabulated (quoted, fixed)",0.731,0.9067228133,0.7878519732,1.025420245,AUROC,numerator only (denominator is a fixed quoted constant),0.9069
+VIS10,pLMSNOSite re-scored AUPRC (above prevalence),0.3068364727,0.327926201,0.216486167,0.507587154,AUPRC above prevalence,"paired, protein-clustered",
+DIG25,pLMSNOSite re-scored score-based AUROC,0.8154420811,0.8763917933,0.6899494258,1.075369121,AUROC,"paired, protein-clustered",
+DIG25,pLMSNOSite AUROC of thresholded calls (= (Sn+Sp)/2; evaluate_model.py),0.7537271756,1.089559486,0.8616739416,1.340791804,AUROC,"paired, protein-clustered",
+DIG25,"pLMSNOSite tabulated (quoted, fixed)",0.754,1.088389178,0.8845565548,1.294678424,AUROC,numerator only (denominator is a fixed quoted constant),1.0886
+DIG25,"PreSNO tabulated (quoted, fixed)",0.756,1.079886137,0.8776459568,1.284563748,AUROC,numerator only (denominator is a fixed quoted constant),1.0801
+DIG25,"DeepNitro tabulated (quoted, fixed)",0.731,1.196756931,0.9726292854,1.423585799,AUROC,numerator only (denominator is a fixed quoted constant),1.197
+DIG25,pLMSNOSite re-scored AUPRC (above prevalence),0.3068364727,0.5783840744,0.3538819802,1.017822666,AUPRC above prevalence,"paired, protein-clustered",

@@ -1,0 +1,293 @@
+{
+  "claim_id": "SFE-006",
+  "unit": "site",
+  "n_observations": 9240,
+  "n_positive": 1095,
+  "n_attribute": 6870,
+  "covariate_set": "VIS10",
+  "attribute_label": "K or R occurs at flanking offsets -10 / -8 to -6 / -4 / -2 / +4 to +8 (the offsets named by the authors, identical to those used in the transfer test)",
+  "author_statistic": {
+    "kind": "counts_only",
+    "value": null,
+    "n_positive": 1443,
+    "n_negative": 10521,
+    "text": "1443 positives / 10521 negatives / 987 proteins (Bui 2016 = Yang 2014 + RedoxDB)"
+  },
+  "reproduction_notes": [
+    "Positives are taken from the Total sheet of Yang 2014 Supplementary Dataset 2 and mapped by peptide onto the human reference proteome",
+    "Negatives follow the authors' rule strictly: all remaining Cys within the same proteins (NEG_A construction, label semantics T3)",
+    "The attribute offsets are identical to those of the transfer test; nothing was re-tuned",
+    "Unlike Bui 2016's 1443 positives, this round contains only the Yang 2014 component, not the RedoxDB union"
+  ],
+  "baseline_table": {
+    "attr_pos": 957.0,
+    "attr_neg": 5913.0,
+    "noattr_pos": 138.0,
+    "noattr_neg": 2232.0
+  },
+  "baseline_log2_or": 1.3840344206722544,
+  "baseline_interval": [
+    1.11192177722443,
+    1.670748825079452
+  ],
+  "baseline_fisher_p": 3.84851778662672e-29,
+  "baseline_proportion_positive_in_attribute": 0.1393013100436681,
+  "baseline_fold_enrichment": 1.1754740683136926,
+  "propensity_auc": 0.7615912499194116,
+  "propensity_auc_interval": [
+    0.7469110439213221,
+    0.7764298324126557
+  ],
+  "stratified_log2_or": 0.5656066140285476,
+  "stratified_interval": [
+    0.27433276102790916,
+    0.8682507978454933
+  ],
+  "strata_detail": [
+    {
+      "stratum": 0,
+      "n": 1848,
+      "positives": 22,
+      "attr_pos": 16,
+      "attr_neg": 883,
+      "noattr_pos": 6,
+      "noattr_neg": 943,
+      "informative": true,
+      "log2_or": 1.4387467842661898,
+      "covariate_mean": 0.010542219670299339
+    },
+    {
+      "stratum": 1,
+      "n": 1848,
+      "positives": 65,
+      "attr_pos": 55,
+      "attr_neg": 1292,
+      "noattr_pos": 10,
+      "noattr_neg": 491,
+      "informative": true,
+      "log2_or": 1.0071974847096294,
+      "covariate_mean": 0.05136903639972076
+    },
+    {
+      "stratum": 2,
+      "n": 1848,
+      "positives": 182,
+      "attr_pos": 150,
+      "attr_neg": 1284,
+      "noattr_pos": 32,
+      "noattr_neg": 382,
+      "informative": true,
+      "log2_or": 0.46357662641044467,
+      "covariate_mean": 0.10700576552186761
+    },
+    {
+      "stratum": 3,
+      "n": 1848,
+      "positives": 341,
+      "attr_pos": 299,
+      "attr_neg": 1286,
+      "noattr_pos": 42,
+      "noattr_neg": 221,
+      "informative": true,
+      "log2_or": 0.27894840347230215,
+      "covariate_mean": 0.1653230688911123
+    },
+    {
+      "stratum": 4,
+      "n": 1848,
+      "positives": 485,
+      "attr_pos": 437,
+      "attr_neg": 1168,
+      "noattr_pos": 48,
+      "noattr_neg": 195,
+      "informative": true,
+      "log2_or": 0.5938091430570903,
+      "covariate_mean": 0.25872528120649124
+    }
+  ],
+  "observed_depth_log2_or": null,
+  "observed_depth_note": "The paper provides no detection depth that could be used for stratification",
+  "precheck_cleaning_collinearity": {
+    "label": "SFE-006 detectability-matching rule versus the propensity score it is meant to remove",
+    "retention": {
+      "positives_before": 1095,
+      "positives_after": 1093,
+      "negatives_before": 8145,
+      "negatives_after": 1093,
+      "positive_retention": 0.9982,
+      "negative_retention": 0.1342,
+      "positive_rate_before": 0.1185,
+      "positive_rate_after": 0.5
+    },
+    "covariate": {
+      "computable": true,
+      "auc_before": 0.7616,
+      "auc_after": 0.5002,
+      "rise": -0.2614,
+      "interval_before": [
+        0.7470525027964843,
+        0.7758298923629198
+      ],
+      "interval_after": [
+        0.4755095161434376,
+        0.5238267149257133
+      ],
+      "mean_positive_before": 0.194,
+      "mean_negative_before": 0.108,
+      "mean_positive_after": 0.193,
+      "mean_negative_after": 0.193
+    },
+    "strata": {
+      "computable": true,
+      "informative_before": 5,
+      "informative_after": 5,
+      "orphaned_positives": 0,
+      "orphaned_positive_fraction": 0.0,
+      "orphaned_negatives": 0,
+      "before": [
+        {
+          "stratum": 0,
+          "n": 1848,
+          "positive": 22,
+          "negative": 1826,
+          "informative": true
+        },
+        {
+          "stratum": 1,
+          "n": 1848,
+          "positive": 65,
+          "negative": 1783,
+          "informative": true
+        },
+        {
+          "stratum": 2,
+          "n": 1848,
+          "positive": 182,
+          "negative": 1666,
+          "informative": true
+        },
+        {
+          "stratum": 3,
+          "n": 1848,
+          "positive": 341,
+          "negative": 1507,
+          "informative": true
+        },
+        {
+          "stratum": 4,
+          "n": 1848,
+          "positive": 485,
+          "negative": 1363,
+          "informative": true
+        }
+      ],
+      "after": [
+        {
+          "stratum": 0,
+          "n": 44,
+          "positive": 22,
+          "negative": 22,
+          "informative": true
+        },
+        {
+          "stratum": 1,
+          "n": 130,
+          "positive": 65,
+          "negative": 65,
+          "informative": true
+        },
+        {
+          "stratum": 2,
+          "n": 364,
+          "positive": 182,
+          "negative": 182,
+          "informative": true
+        },
+        {
+          "stratum": 3,
+          "n": 681,
+          "positive": 341,
+          "negative": 340,
+          "informative": true
+        },
+        {
+          "stratum": 4,
+          "n": 967,
+          "positive": 483,
+          "negative": 484,
+          "informative": true
+        }
+      ]
+    },
+    "blocking_reasons": [],
+    "advisory_reasons": [
+      "the rule is asymmetric by class: it keeps a far larger share of positives than of negatives, which is why it needs this check"
+    ],
+    "verdict": "usable_as_primary_caliber",
+    "interval_skipped_for_cost": false
+  },
+  "precheck_permutation_degeneracy": {
+    "label": "SFE-006 clustering unit",
+    "sites": 9240,
+    "positives": 1095,
+    "groups": 776,
+    "singleton_groups": 25,
+    "mean_group_size": 11.907,
+    "groups_carrying_both_classes": 744,
+    "sites_in_mixed_groups": 9196,
+    "labels_moved": 1668,
+    "moved_fraction": 0.1805,
+    "positives_moved": 834,
+    "expected_global_moved_fraction": 0.2089,
+    "moved_ratio_vs_global": 0.864,
+    "informative": true,
+    "verdict": "within_group_permutation_is_informative",
+    "threshold": 0.5
+  },
+  "match_caliper": 0.3812093864169336,
+  "n_matched_pairs": 1093,
+  "matched_positive_retention": 0.9981735159817352,
+  "matched_log2_or": 0.594987270476461,
+  "matched_interval": [
+    0.27360430572857924,
+    0.9287153083921331
+  ],
+  "matched_propensity_auc": 0.5002017328939296,
+  "random_control_log2_or": 1.3917867962173405,
+  "random_control_interval": [
+    1.0289460153531618,
+    1.7824960048235599
+  ],
+  "random_control_n_negatives": 1093,
+  "random_control_draws": [
+    1.5343406524059904,
+    1.3788786803685347,
+    1.3655852035982643,
+    1.508920589085694,
+    1.2502283218645334,
+    1.4184315219564876,
+    1.345539497278397,
+    1.508920589085694,
+    1.345539497278397,
+    1.352235619694568,
+    1.3118408241940587,
+    1.4768808911097726,
+    1.3118408241940587,
+    1.6219173166497245,
+    1.2640296696828468,
+    1.332104001244487,
+    1.3855046648042717,
+    1.345539497278397,
+    1.4118728589743637,
+    1.3655852035982643
+  ],
+  "primary_caliber": "detectability_matching",
+  "primary_verdict": "attenuated",
+  "primary_reason": "Sign consistent and interval clear of zero, but the effect is less than half the baseline",
+  "secondary_caliber": "depth_stratification",
+  "secondary_verdict": "attenuated",
+  "secondary_reason": "Sign consistent and interval clear of zero, but the effect is less than half the baseline",
+  "caliber_disagreement": false,
+  "verdict": "attenuated",
+  "precheck_blocked": false
+}

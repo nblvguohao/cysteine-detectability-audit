@@ -1,0 +1,79 @@
+{
+ "label": "POST HOC revision analysis E_bootstrap_coverage, revision after verification (not registered)",
+ "benchmark": "B1_cleavage (registered planted-artifact benchmark), strength 0",
+ "statistic": "log2 odds ratio of near-cut membership, true positives vs detectable background (positives excluded from the background)",
+ "bootstrap_reps": 5000,
+ "validation_against_registered": {
+  "stored_replicates_compared": 50,
+  "max_abs_diff_statistic": 9.71445146547012e-17,
+  "max_abs_diff_ci_lo": 5.551115123125783e-17,
+  "max_abs_diff_ci_hi": 1.1102230246251565e-16,
+  "n_positions_equal": true,
+  "n_positive_equal": true,
+  "detected_first50_stored": 7,
+  "detected_first50_recomputed": 7,
+  "extension_stored_detected_of_300": 21,
+  "extension_recomputed_detected_of_300": 21
+ },
+ "registered_first50": {
+  "n": 50,
+  "flagged": 7,
+  "rate": 0.14,
+  "mcse": 0.04907137658554119,
+  "wilson_lo": 0.06950833427016292,
+  "wilson_hi": 0.26186193710585537,
+  "below0": 0.1,
+  "above0": 0.04,
+  "w0": 1.2152097663609072,
+  "w0_ci": [
+   1.0277115487734072,
+   1.3431830024917204
+  ],
+  "mean_positions": 1926.66,
+  "mean_positives": 147.96,
+  "mean_clusters": 298.7,
+  "mean_near_prevalence": 0.5916041255037965,
+  "mean_n11": 86.64
+ },
+ "registered_300": {
+  "n": 300,
+  "flagged": 21,
+  "rate": 0.07,
+  "mcse": 0.014730919862656237,
+  "wilson_lo": 0.04623694482717634,
+  "wilson_hi": 0.10463601042593325,
+  "below0": 0.043333333333333335,
+  "above0": 0.02666666666666667,
+  "w0": 1.0551987548012622,
+  "w0_ci": [
+   0.952162369258829,
+   1.2579299618867765
+  ],
+  "mean_positions": 1919.0666666666666,
+  "mean_positives": 147.56666666666666,
+  "mean_clusters": 298.4266666666667,
+  "mean_near_prevalence": 0.5907160564683638,
+  "mean_n11": 86.75666666666666
+ },
+ "fresh_10000": {
+  "n": 10000,
+  "flagged": 513,
+  "rate": 0.0513,
+  "mcse": 0.0022060895267418316,
+  "wilson_lo": 0.047145842042160484,
+  "wilson_hi": 0.05579875809568468,
+  "below0": 0.0213,
+  "above0": 0.03,
+  "w0": 1.0035064726307221,
+  "w0_ci": [
+   0.9863440257279122,
+   1.019627817164664
+  ],
+  "mean_positions": 1922.6359,
+  "mean_positives": 147.906,
+  "mean_clusters": 298.3208,
+  "mean_near_prevalence": 0.5907067847491991,
+  "mean_n11": 87.4452
+ },
+ "seconds": 273
+}

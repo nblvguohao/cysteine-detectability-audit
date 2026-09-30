@@ -1,0 +1,165 @@
+{
+ "phase": "5b",
+ "date": "2026-09-22",
+ "tool_version": "0.2.0",
+ "frozen_files": {
+  "cys-audit/src/cys_audit/__init__.py": "4b52693230341a9377f019c56dca8b7ff2e39473125256604a345ad1590f9c39",
+  "cys-audit/src/cys_audit/__main__.py": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+  "cys-audit/src/cys_audit/audit.py": "18fdba2cb7266ae9d46fcbdfd81d5c37532d58f08063189f9ddccc02fce21329",
+  "cys-audit/src/cys_audit/cli.py": "54ef27ae351530dd8651d39c43b920f87aea08ed62f74270724755abff200e8d",
+  "cys-audit/src/cys_audit/constants.py": "65faa681ff9791d061dd9518dc74e5a970eb3305f441df7b3cd7e8437c6099dc",
+  "cys-audit/src/cys_audit/io.py": "d46fd6ea2f89d4b4ac0c44ee9369853f235818581601f27dc5bf9f309e372145",
+  "cys-audit/src/cys_audit/propensity.py": "71bc9d77661b13f6d8efc08c3ff2b1004065826e642b4c1f61dd4eeb790e7685",
+  "cys-audit/src/cys_audit/proteases.py": "21a2e7a4ff432b71867dc84bfc59db59b26f2e3c0087e3a0bf3752183b30d411",
+  "cys-audit/src/cys_audit/report.py": "8b58e4916365de97869144225858db694e28a68c0ca6f1bf17d3db10b69b2f39",
+  "cys-audit/src/cys_audit/stats.py": "9512f2a14ad3ad215bebe93ab0d533327ce0b33bbc9911179ea594ab72489961",
+  "cys-audit/src/cys_audit/status.py": "ac34e30e5361860f15f81320745af7c499e10fe2c87b417df061918f99fb4454",
+  "cys-audit/src/cys_audit/synthetic.py": "a81a9e6349d7657582c102e6636b62515b0179dbf222996358053063713b032f",
+  "cys-audit/src/cys_audit/verdict.py": "205340ee9be50e2aab9c6334e752018f7f47e741901b7f8ac49598f77ef01ea3",
+  "cys-audit/src/cys_audit/checks/__init__.py": "9a429c2a815d761d6f279f58a5b2acd01c1609058b6ff36833c499d26fefff04",
+  "cys-audit/src/cys_audit/checks/abundance.py": "b433bde8a61546354e6c207bbccb31925c05150d964e31d7a8a931159e699c90",
+  "cys-audit/src/cys_audit/checks/cleavage.py": "c1655eb7cce58e1bfc39fbe5e19f970dfeb8ddbb68d35c696ef8e50d25009d83",
+  "cys-audit/src/cys_audit/checks/common.py": "889209c09e96ca1a4490bebd7bbf567bf5cbe8887e3c470d38365a32b7d0aeb3",
+  "cys-audit/src/cys_audit/checks/multicys.py": "1a073dea3dc24205343cfbddb68b26196a70c53ce30f9f469fcac352f123e029",
+  "cys-audit/src/cys_audit/checks/overlap.py": "f239814674ed92e2e8ba509464b880d8f8d3607ec14359474dcea590af3a0f4a",
+  "cys-audit/src/cys_audit/checks/searchspace.py": "eec3622ba1d205846942066517db672f5e2626176e6c6759d9d60965f3ff389f",
+  "cys-audit/tests/_helpers.py": "3f7895be9acfda43e6e76da9ca11144760463b03f5e37c7587304ddd2650b102",
+  "cys-audit/tests/test_abundance.py": "e2b31827e5c63662964f5948c396fd9cfb3dd7c961cd276f73025e5fc1e70fda",
+  "cys-audit/tests/test_cleavage.py": "76312dc9d53cedf9367393639877f15f5944419db6f59808dc08ef5c3a3f56e7",
+  "cys-audit/tests/test_examples.py": "8c91dc555630b78612868651cfb73a85083bbc877b450cca9ad25d506e4ca5e1",
+  "cys-audit/tests/test_io.py": "4f8206e74e3389d7ffbc227cd4f5802293e9fe6c41ab5be6f93b11007b93f06b",
+  "cys-audit/tests/test_json.py": "708ad4317ee50d2daec9819f0543ecb370c4fa124e4ceebf79efe225f85e4392",
+  "cys-audit/tests/test_multicys.py": "513a55bf4d81484c4f2d6dde065dbbb2558f86667e50ee896f3afb248db25abb",
+  "cys-audit/tests/test_overlap.py": "70e11ef056112ee57b18db0065b4c844666fc7885c6a49280609a763d980768e",
+  "cys-audit/tests/test_propensity.py": "4c16d619d91dd711a7b020c79c536d70a8d1afeef9b5abee77ed391197d89f28",
+  "cys-audit/tests/test_searchspace.py": "fff5c9b75e1865fe6b2b7f5087cdb57e8c3764ed24c29b019730e6962612f2d0",
+  "cys-audit/tests/test_status.py": "c7835d816b815a57dbf9185dec53b8fb8d3112fec26b699aff686df6c8aa6eeb",
+  "cys-audit/tests/test_verdict.py": "9377194c9bdadea03a0737b5d57781ebc67f3df2099c5306aed27cd7ac3c1cac"
+ },
+ "decision_constants": {
+  "ABUNDANCE_MIN_COVERAGE": 0.7,
+  "ATTENUATION_FLOOR": 0.5,
+  "BOOTSTRAP_REPS": 5000,
+  "CI_LEVEL": 0.95,
+  "CLAIM_ATTENUATED": "ATTENUATED",
+  "CLAIM_FAIL": "FAIL",
+  "CLAIM_NOT_EVALUATED": "NOT_EVALUATED",
+  "CLAIM_PASS": "PASS",
+  "CLAIM_UNDECIDABLE": "UNDECIDABLE",
+  "CLEAVAGE_BANDS": {
+   "proximal_1_3": [
+    1,
+    3
+   ],
+   "distal_6_12": [
+    6,
+    12
+   ]
+  },
+  "CLEAVAGE_CI_LEVEL": 0.975,
+  "DEFAULT_PEPTIDE_MASS_RANGE": [
+   600.0,
+   4600.0
+  ],
+  "DEFAULT_SEED": 20260922,
+  "FAIL": "FAIL",
+  "MASS_O": 15.9949146196,
+  "MASS_S": 31.9720711744,
+  "MIN_BACKGROUND": 20,
+  "MIN_POSITIVES": 20,
+  "MMD_AUC": 0.05,
+  "MMD_LOG2_OR": 0.5,
+  "ORPHANED_LIMIT": 0.05,
+  "OVERLAP_FAIL_LOWER": 0.9,
+  "OVERLAP_PASS_UPPER": 0.5,
+  "OVERLAP_WARNING_LOWER": 0.5,
+  "PASS": "PASS",
+  "PROPENSITY_C": 1.0,
+  "PROPENSITY_STRATA": 5,
+  "SEARCHSPACE_FAIL_SHARE": 0.01,
+  "SEVERITY": {
+   "FAIL": 3,
+   "WARNING": 2,
+   "UNDECIDABLE": 1,
+   "PASS": 0
+  },
+  "STATUSES": [
+   "PASS",
+   "WARNING",
+   "FAIL",
+   "UNDECIDABLE"
+  ],
+  "UNDECIDABLE": "UNDECIDABLE",
+  "VERSION": "0.2.0",
+  "WARNING": "WARNING"
+ },
+ "not_blind": {
+  "stored_stratified_read_before_registration": {
+   "PERS-009": [
+    0.3991,
+    0.2649,
+    0.5308
+   ],
+   "SFE-006": [
+    0.1824,
+    -0.0333,
+    0.4017
+   ],
+   "SFE-008": [
+    -0.0379,
+    -0.3442,
+    0.2845
+   ],
+   "SNO-004": [
+    0.5408,
+    0.0224,
+    1.1261
+   ],
+   "SNO-012": [
+    -0.5799,
+    -1.5473,
+    0.316
+   ]
+  }
+ },
+ "B0": {
+  "reference": "results/phase5_cys_audit_crosscheck_2026-09-22.csv",
+  "decimals": 6
+ },
+ "G1": {
+  "stop_if_fail_more_than": 3
+ },
+ "G3": {
+  "tolerance": 0.001
+ },
+ "G4": {
+  "tolerance": 0.05
+ },
+ "run": {
+  "protease": "trypsin",
+  "background": "proteome",
+  "bootstrap_reps": 5000,
+  "interpreter": "3.11.16"
+ },
+ "predictions": {
+  "P1": {
+   "claims": [
+    "PERS-009",
+    "SFE-006",
+    "SFE-008",
+    "SNO-004",
+    "SNO-012"
+   ],
+   "min_matches": 4,
+   "expected_mismatch": "SNO-012"
+  },
+  "P2": {
+   "min_still_agree": 12,
+   "of": 13
+  },
+  "P3": {
+   "stricter_max": 0
+  }
+ },
+ "archive_v010": "cys-audit/archive/v0.1.0/"
+}

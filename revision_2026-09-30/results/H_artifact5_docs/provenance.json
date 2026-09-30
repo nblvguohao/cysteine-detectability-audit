@@ -1,0 +1,575 @@
+{
+  "item": "H_artifact5_docs",
+  "status": "POST HOC revision analysis (2026-09-30), not registered, not pre-specified",
+  "run_started_utc": "2026-09-29T18:56:07+00:00",
+  "run_finished_utc": "2026-09-29T18:57:08+00:00",
+  "host": "DESKTOP-H4AJ2BV",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "libraries": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "cys_audit": "0.2.2"
+  },
+  "seeds": "none: no step draws random numbers (all computations are deterministic counts, medians and closed-form masses)",
+  "network": "not used",
+  "steps": [
+    "h5_01_ties",
+    "h5_02_deposit_plus32",
+    "h5_03_mass_accuracy_phospho",
+    "h5_04_parameters",
+    "h5_05_fragment_bins",
+    "h5_06_records"
+  ],
+  "scripts": [
+    {
+      "file": "h5_01_ties.py",
+      "sha256": "7b65399dba990f88149002af44f577e7a307024f8deb5346bd9a3be18971b1b5"
+    },
+    {
+      "file": "h5_02_deposit_plus32.py",
+      "sha256": "f62fc08f0610c5f4fb1a2a165abfb88e70cc4efada13bb6af45b77096f01a095"
+    },
+    {
+      "file": "h5_03_mass_accuracy_phospho.py",
+      "sha256": "195bbbdf5441205e79941d013ee68a9a757bb37fea4dbe8f900a797b72999b75"
+    },
+    {
+      "file": "h5_04_parameters.py",
+      "sha256": "a85a24dbc981a5ecf055dd24ca0fa362780fbadfe20f6584056f977faf7a7599"
+    },
+    {
+      "file": "h5_05_fragment_bins.py",
+      "sha256": "b614b68e5dc7e4989941c89331efabee045f3baac16013467143475b400301ca"
+    },
+    {
+      "file": "h5_06_records.py",
+      "sha256": "7e5d307c41f492cfd2d89c7f578d0234ef6d886364dfa29fafa3a6987baf6685"
+    },
+    {
+      "file": "h5_lib.py",
+      "sha256": "1d4024d8fe570e5f6259f934801f9d0e727f902721d71375776ec10dfaad84c2"
+    },
+    {
+      "file": "h5_run_all.py",
+      "sha256": "6f72db1b30bdc68eeca5121270847e338492ce105eb09aa94943260971505386"
+    }
+  ],
+  "inputs": [
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/cys-audit/src/cys_audit/checks/searchspace.py",
+      "role": "released Cys-Audit source",
+      "bytes": 7375,
+      "sha256": "e86858ce45f4b8f5d16b813d4caac913859f02d77e0effb3831aceeef73cddc3",
+      "sha256_lf_normalised": "597b22f713c55000b4bf9a5649b0388438db7f15127fa390ae0f9603551911a8"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/cys-audit/src/cys_audit/constants.py",
+      "role": "released Cys-Audit source",
+      "bytes": 3696,
+      "sha256": "f5b4038525bc9b40e14f00ed1971295af81303f3574d7d639a31dc422c0534be",
+      "sha256_lf_normalised": "c251586662465395cfda79e111e946c2ccec5efe9721f67c4eedcaa1491867b4"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/external/UP000000589_10090.fasta.gz",
+      "role": "UniProt mouse reference proteome 2026_03 (canonical)",
+      "bytes": 8053531,
+      "sha256": "c24568f70ce9ffd7693a1ecd31c23eaa97a1f43d9305e2ff5401bdf30e2a0a93"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/mcp_package/Source_Data_Fig3_search_space.csv",
+      "role": "manuscript Source Data Fig 3 (MCP package copy)",
+      "bytes": 1226,
+      "sha256": "5114f9a0ee6b494322b4092108c2c4a83dbdf1eaf11192e2af1ba01e1c384d2d"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/mcp_package/Source_Data_Fig3b_tie_precursor_error_spans.csv",
+      "role": "manuscript Source Data Fig 3b (MCP package copy)",
+      "bytes": 161473,
+      "sha256": "ef982e17ae64324db9fa14493f18f423305915cd5e50a1b034b5528d2f821dd9"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/mcp_package/Source_Data_text_phospho_sulfo_eight_deposits.csv",
+      "role": "manuscript Source Data (phospho/sulfo, MCP package copy)",
+      "bytes": 404,
+      "sha256": "762f4ac3721af306cd00781053523c8ac180a45dc99d371408217c3ebaedf1aa"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/repo_reports/PXD015307_RESEARCH_SEARCH_SPACE.md",
+      "role": "re-search round report (Chinese)",
+      "bytes": 9160,
+      "sha256": "9ebd13098769f9a0cbd37853f11b3ffbda345085c8510628f465e837df45adf9",
+      "sha256_lf_normalised": "371448867c42e14bbb7e77994dd1f000649be06ce487b54d0069fb9f5d30b376"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/repo_reports/pxd015307_research_preregistration_2026-09-17.json",
+      "role": "re-search registration JSON (with amendments)",
+      "bytes": 11101,
+      "sha256": "35599843c2a11e106c000b48bd52e71676a0ad3bc1616508ae672557344a5fd2",
+      "sha256_lf_normalised": "813162e2b02e232c82c1da4cfd1bdaef82fd2ba92ab925f2aac5e399c13fb153"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/repo_results/pxd015307_posthoc_score_ties.csv",
+      "role": "stored post hoc tie table (repo results)",
+      "bytes": 705426,
+      "sha256": "e91575405286c562980b744e123973e7c21613f9acfc7c3b18869964dc174e75"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/repo_results/pxd015307_research_audit.json",
+      "role": "stored re-search audit (per-file thresholds, counts)",
+      "bytes": 5333,
+      "sha256": "a85c8f61afd85945b396e0780f6d1daffc8a303d1df3336be0c00f9cea93bec6",
+      "sha256_lf_normalised": "d9086c9d7110be38019547c55cb2fc933c8b82a8b63b076aeb0b712d1bcbeb37"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/repo_results/pxd015307_research_psms.csv",
+      "role": "stored +32 PSM table (header only)",
+      "bytes": 5,
+      "sha256": "8369c070c4cc8124030588e7f6cb77518c82be94603245a2e240a136e5ef22ce",
+      "sha256_lf_normalised": "b94c946de56d6bd2d8c67cc675ba039d35178378e26138d44b38075d2e1ce602"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/repo_results/pxd015307_research_summary.csv",
+      "role": "stored re-search per-file summary",
+      "bytes": 447,
+      "sha256": "24bc48cb4044325a1f53fad5f193b68af78f30de90e64cfc0f140df682139d64"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/results/H_artifact5_docs/verify_r1/verify_r1_deposit_sulfide_psms_baseline_by_peptide.csv",
+      "role": "verifier round-1 table (cross-check only)",
+      "bytes": 3473,
+      "sha256": "0625b160f2443e045730c3f926efbc6a295129a4771d86cb2903140580df071d"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/reports/PXD015307_RESEARCH_SEARCH_SPACE.md",
+      "role": "repository copy of the round report (hash check)",
+      "bytes": 9160,
+      "sha256": "9ebd13098769f9a0cbd37853f11b3ffbda345085c8510628f465e837df45adf9",
+      "sha256_lf_normalised": "371448867c42e14bbb7e77994dd1f000649be06ce487b54d0069fb9f5d30b376"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/consent_grant_register_2026-09-17.csv",
+      "role": "consent register",
+      "bytes": 22928,
+      "sha256": "0ca4df6c1c1c066b136980f22432aa6a763315e153aab161f115901128fa9f75",
+      "sha256_lf_normalised": "bbf2dfa3edb8c4ca074c002f601527d1356af26e592e6d0995a1f73bcb0d7617"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/ms_research_persulfide_vs_dioxidation.csv",
+      "role": "stored PYL3 site table",
+      "bytes": 1057,
+      "sha256": "54c76ca5e3471ff5221e6e64eeb0a21c2123ce0d78fe840af90fafcd95aeb578"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/ms_research_persulfide_vs_dioxidation_audit.json",
+      "role": "stored audit of the collaborator PYL3 re-search (transcription)",
+      "bytes": 13093,
+      "sha256": "e82f2d24da581213bc2ccb21747cd9b98ebd5142de7d6f65ac61eeafff15d21a",
+      "sha256_lf_normalised": "0c10e53d2733b7ceb5abece229f31645254153fac4f95312c92a95fb58f52cf1"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phospho_sulfo_eight_deposits_2026-09-23.csv",
+      "role": "stored eight-deposit phospho/sulfo result",
+      "bytes": 413,
+      "sha256": "35a60cd8bfca9662275e3d84ea54c8729505565265e092855cc08d43d5c67d93"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phospho_sulfo_eight_deposits_2026-09-23_audit.json",
+      "role": "stored eight-deposit phospho/sulfo audit",
+      "bytes": 6652,
+      "sha256": "cf289342c4e3483abf9643217a73843ae68d5f9e65e10af7d1de81b904eec6cb",
+      "sha256_lf_normalised": "f231071019fb88902df7ff48c4db337ba75ec858a727ce17b477d2dedce38dea"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phospho_sulfo_search_space_2026-09-23.csv",
+      "role": "stored PXD071110 phospho/sulfo result",
+      "bytes": 739,
+      "sha256": "2c3dea3a14df708ea8305e4d0ab468c68d63d2d589ef1fff66b83fde32107da4"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phospho_sulfo_search_space_2026-09-23_audit.json",
+      "role": "stored PXD071110 phospho/sulfo audit",
+      "bytes": 7153,
+      "sha256": "b01fdbbb2f4caccd172d794e4afea1183599697be76655d3c6620cd7b57e99ee",
+      "sha256_lf_normalised": "7f25ffa3754c8816c82ca6f331a64126610de65e8d650ffc4bd939ebbd189842"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phospho_sulfo_tool_input_2026-09-23.tsv",
+      "role": "stored Cys-Audit input for PXD071110 phosphopeptides",
+      "bytes": 915727,
+      "sha256": "5b2f0ddb6adf9b922cae5b246f4d31305d7fa6247c1fd465f54bc093c41e2c1c"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/private_data_value_assessment_2026-09-19.csv",
+      "role": "private-data value assessment",
+      "bytes": 4351,
+      "sha256": "355649ebec0fc4bdac85ab3bb2016e792b29c527962a11d5c19d85a9647b515b",
+      "sha256_lf_normalised": "6a95a272a73d3bdfb9e2ab7b913d1f28de1ae02de833fbeffe0ad5a2da867219"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/pxd015307_posthoc_score_ties_audit.json",
+      "role": "stored tie-analysis audit (2,079; 18.829)",
+      "bytes": 1858,
+      "sha256": "42400e14de2cf337e1acbc108029232a052dd50f56f19d2e08b00bffcd9a579d",
+      "sha256_lf_normalised": "e1f4f13aa5cad6016f2118f14695fd17940a6ec503dd464e6440ca95247ec497"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/pxd015307_research_audit.json",
+      "role": "repository audit (recorded script hash)",
+      "bytes": 5333,
+      "sha256": "a85c8f61afd85945b396e0780f6d1daffc8a303d1df3336be0c00f9cea93bec6",
+      "sha256_lf_normalised": "d9086c9d7110be38019547c55cb2fc933c8b82a8b63b076aeb0b712d1bcbeb37"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/search_space_mass_accuracy.csv",
+      "role": "stored extraction of the deposit's targeted-arm PSMs",
+      "bytes": 5594,
+      "sha256": "5984425bd851b25b272e17376a691a65318728f5778d006c431405d8296613d7"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/search_space_mass_accuracy_audit.json",
+      "role": "stored audit of the deposit's consensus files",
+      "bytes": 5657,
+      "sha256": "6a523d76a09227fde1d1926dcc11846dd77499ee38df462419ac9ee56be84b2c",
+      "sha256_lf_normalised": "26cec00fb05736d0d8099932c9fbbfa08e6e4cc3b72d5bd42b7cc0d29172c06e"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/unpublished_data_provenance_2026-09-19.csv",
+      "role": "unpublished-data provenance register",
+      "bytes": 10761,
+      "sha256": "3add12bdbf1106b7194d038c913f5361acb757e82510f469e9d85dc4223ac31b",
+      "sha256_lf_normalised": "d485eb2321c0f9bd2704f4018db16e41e08e3cb1c676820da6971ca46c2a56de"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/analyse_phospho_sulfo_eight_deposits_2026-09-23.py",
+      "role": "repository script, eight-deposit phospho/sulfo round (docstring: config source)",
+      "bytes": 12842,
+      "sha256": "03fb07c0f33bf536bc30caadd4b64da2e255ea279addbec950ad229eee012ecd",
+      "sha256_lf_normalised": "ea9c61055ef2e4f908e6e61b88e1ac5832e0903f8035e74c242133b4ae1fe9b5"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/analyse_phospho_sulfo_search_space_2026-09-23.py",
+      "role": "repository script, PXD071110 phospho/sulfo round (docstring: config source)",
+      "bytes": 18542,
+      "sha256": "4dc1fd25ef9f32ec8567fa89887505ec52d91851bb949557ff71d1bb3c6f287e",
+      "sha256_lf_normalised": "3cfe6962a771d78536854ca8bfe695383e469bb65e664b7444b96bc704e185c4"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/audit_search_space_and_mass_accuracy.py",
+      "role": "repository script that produced the consensus audit",
+      "bytes": 11030,
+      "sha256": "191f2230e42806e3f9f351453c61bf7279e6da7d13195b4841e8400d89d0f95c",
+      "sha256_lf_normalised": "ccc492ed884b1a2962502cc61fd85e8689aea46ca18402751ebfda64661fc534"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/posthoc_pxd015307_score_ties.py",
+      "role": "repository post hoc tie script (docstring)",
+      "bytes": 8501,
+      "sha256": "591f6c3bd4e75723b1436895fc9350e4471723f2e9b28ac265a90f1c9a122cb3",
+      "sha256_lf_normalised": "6f703345602e87e0e8e3a5ba81b7bbd14979ff3ed02c2e01aa7196db42bb1a83"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_pxd015307_research_mass_accuracy.py",
+      "role": "repository reading script (docstring)",
+      "bytes": 16866,
+      "sha256": "083cd8f29974461abf489d32c4ac785bc179b9d59578a21ccca69a6d2f250c21",
+      "sha256_lf_normalised": "8de0f6db610b9ee3cfe227173819efb3b3647f120fb028368e7d19caafb792ac"
+    },
+    {
+      "path": "C:/Users/admin/Desktop/小论文/巯基化/MCP/01_manuscript.tex",
+      "role": "manuscript (read-only)",
+      "bytes": 127420,
+      "sha256": "32242ded279cd1f5648dce59efa7b160dfc926e5dc6012d383c67a153d6991a1",
+      "sha256_lf_normalised": "32242ded279cd1f5648dce59efa7b160dfc926e5dc6012d383c67a153d6991a1"
+    }
+  ],
+  "repository_hash_checks": [
+    {
+      "script": "scripts/run_pxd015307_research_mass_accuracy.py",
+      "recorded_sha256": "8de0f6db610b9ee3cfe227173819efb3b3647f120fb028368e7d19caafb792ac",
+      "sha256_on_disk": "083cd8f29974461abf489d32c4ac785bc179b9d59578a21ccca69a6d2f250c21",
+      "sha256_lf_normalised": "8de0f6db610b9ee3cfe227173819efb3b3647f120fb028368e7d19caafb792ac",
+      "match_after_lf_normalisation": true
+    },
+    {
+      "script": "scripts/posthoc_pxd015307_score_ties.py",
+      "recorded_sha256": "6f703345602e87e0e8e3a5ba81b7bbd14979ff3ed02c2e01aa7196db42bb1a83",
+      "sha256_on_disk": "591f6c3bd4e75723b1436895fc9350e4471723f2e9b28ac265a90f1c9a122cb3",
+      "sha256_lf_normalised": "6f703345602e87e0e8e3a5ba81b7bbd14979ff3ed02c2e01aa7196db42bb1a83",
+      "match_after_lf_normalisation": true
+    },
+    {
+      "script": "scripts/audit_search_space_and_mass_accuracy.py",
+      "recorded_sha256": "ccc492ed884b1a2962502cc61fd85e8689aea46ca18402751ebfda64661fc534",
+      "sha256_on_disk": "191f2230e42806e3f9f351453c61bf7279e6da7d13195b4841e8400d89d0f95c",
+      "sha256_lf_normalised": "ccc492ed884b1a2962502cc61fd85e8689aea46ca18402751ebfda64661fc534",
+      "match_after_lf_normalisation": true
+    },
+    {
+      "script": "reports/PXD015307_RESEARCH_SEARCH_SPACE.md",
+      "recorded_sha256": "371448867c42e14bbb7e77994dd1f000649be06ce487b54d0069fb9f5d30b376 (archived Supplementary Note 8)",
+      "sha256_on_disk": "9ebd13098769f9a0cbd37853f11b3ffbda345085c8510628f465e837df45adf9",
+      "sha256_lf_normalised": "371448867c42e14bbb7e77994dd1f000649be06ce487b54d0069fb9f5d30b376",
+      "match_after_lf_normalisation": true
+    }
+  ],
+  "outputs": [
+    {
+      "file": "all_stored_rows_target_decoy_by_arm.csv",
+      "bytes": 291,
+      "sha256": "ca00a89dd6ce7ecc0acb2a5cb98ec06adbf25aa4690d94880e54952028c9f1ed"
+    },
+    {
+      "file": "deposit_nonsulfide_by_arm_chain_charge.csv",
+      "bytes": 908,
+      "sha256": "59d0df79279b234db57b4249c37dc6dbfe0086f1e9205d521a1e2d9ad6143544"
+    },
+    {
+      "file": "deposit_plus32_summary.json",
+      "bytes": 7196,
+      "sha256": "3c1a599febc052fa401c7992cc45f94cdc346f2a8d6ddc2f38d1a34357fd4cbe"
+    },
+    {
+      "file": "deposit_sulfide_psms_baseline_sensitivity.csv",
+      "bytes": 10182,
+      "sha256": "7f6392a8e56e1b3f16fc33e70e17cfbabeec519e4573be7642312e209abb9ec5"
+    },
+    {
+      "file": "deposit_sulfide_psms_reassessed.csv",
+      "bytes": 2005,
+      "sha256": "ca93837eee315d9e8640d7499a538b8573fe4398f3543f93bab8e7db624cec83"
+    },
+    {
+      "file": "deposit_sulfide_psms_robust_reading.csv",
+      "bytes": 1032,
+      "sha256": "6009f912ea953a52a31dd13ad9135e372b84368a725ba5b3d61a743b744e3d97"
+    },
+    {
+      "file": "deposit_targeted_arm_baselines.csv",
+      "bytes": 1225,
+      "sha256": "b9a04c91650c8d8d190eb89c1c756057310511a33aef2b48b78a0cadf372709d"
+    },
+    {
+      "file": "deposit_verifier_crosscheck.json",
+      "bytes": 5323,
+      "sha256": "8be7ea781eae0d1cc01f45ef5d76c3876e6ce6a296972ed8f8ead4dac1247c39"
+    },
+    {
+      "file": "fragment_bin_arithmetic.csv",
+      "bytes": 406,
+      "sha256": "7bdd21bda41426c4ce55e01bbed0a7834fdc41821418f1f580db0312be9b3d40"
+    },
+    {
+      "file": "fragment_bin_theoretical_tie_peptides.csv",
+      "bytes": 1086,
+      "sha256": "c2ff4c3bfa0e2675e0278a65e5ca4f932fdf7777a495768ef4010cbb2b6b5a19"
+    },
+    {
+      "file": "fragment_bins_summary.json",
+      "bytes": 8439,
+      "sha256": "a3ad0d80450bc50d2c3ba8832a02ac9684c3b8e5b57d1176955049a075a9cd59"
+    },
+    {
+      "file": "mass_accuracy_phospho_summary.json",
+      "bytes": 1579,
+      "sha256": "10aa4649f3091a91848ed80d0f4a243173a739262d7893316fc16bb7ddd87d98"
+    },
+    {
+      "file": "output_enzyme_inference_peptides.csv",
+      "bytes": 104399,
+      "sha256": "0d132801d5639a215e0c7d72a88645692993f8e726b0ab6741c77833104b4ac3"
+    },
+    {
+      "file": "phospho_sulfo_reverification.csv",
+      "bytes": 1273,
+      "sha256": "408a11fc19cabaa72c3b0104003631c23d1f0e21379e5a555b81c1afc6a55da6"
+    },
+    {
+      "file": "precursor_accuracy_decidability.csv",
+      "bytes": 11078,
+      "sha256": "48e03a22ff4828f574523ab6cc9efeaf9e877a5db5772a9b2740a2c9ec9e3122"
+    },
+    {
+      "file": "records_consulted_summary.json",
+      "bytes": 8466,
+      "sha256": "57eeb727d47fd570f5f8cd9289721cf273dd601032c8c6a22d6b2f7f67e8b3da"
+    },
+    {
+      "file": "search_parameters_summary.json",
+      "bytes": 869,
+      "sha256": "4dc98a16ab81afe2b950ab38057190eb0352036ba00ff58a4eb7e362a7207f11"
+    },
+    {
+      "file": "search_parameters_verified.csv",
+      "bytes": 13675,
+      "sha256": "fa4827edbde2c4705edbfea173b9276133b12d5a8997969b992e10f0ce88c3b5"
+    },
+    {
+      "file": "single_cys_alternative_scored_classes.csv",
+      "bytes": 312,
+      "sha256": "f6985ab795f9bf846ff14c949254b31eec8326bdc3d8b8744e49e7ad229e6ad2"
+    },
+    {
+      "file": "single_cys_rows_classified.csv",
+      "bytes": 306166,
+      "sha256": "70e8e67c00a979c484fffd1b994af14165a1ae87c1efa923ddf76a5c2982c74d"
+    },
+    {
+      "file": "single_cys_tie_rate_when_both_scored.csv",
+      "bytes": 780,
+      "sha256": "d26bbedfba20889666fe3ff54932f793ca5b8b167fc98ecbafe70b222f53debc"
+    },
+    {
+      "file": "tie_rows_annotated.csv",
+      "bytes": 358698,
+      "sha256": "472ab4b44dbf239e17d521d0a7b23cbb84354f7d6c9c98c3117ba29d067f2df2"
+    },
+    {
+      "file": "ties_claims_verification.csv",
+      "bytes": 3430,
+      "sha256": "3ccfee320e0c8b6c26cc64d4e22c54e5b1aec240e5ee3b05b5a1e8344f975d4d"
+    },
+    {
+      "file": "ties_decomposition_by_arm.csv",
+      "bytes": 287,
+      "sha256": "f8e1c5bc5f4f2aa364e621e9b4f880cecc75468213d00f255b92fc1be4178807"
+    },
+    {
+      "file": "ties_precursor_error_vs_baseline.csv",
+      "bytes": 761,
+      "sha256": "5d1801eff505192aa0cb1c7528ee246d01510981a63d6c07f79d6a9f63b0497d"
+    },
+    {
+      "file": "ties_span_arithmetic_check.csv",
+      "bytes": 201511,
+      "sha256": "112277d3d2f7a59341443e8641b93321907d71d24c2cd3cd4c7111541332a50f"
+    },
+    {
+      "file": "ties_summary.json",
+      "bytes": 6493,
+      "sha256": "89e3f1de0a337ae42b9c934487e091d22228d8b2d4ca8569cc889fab2b47566a"
+    },
+    {
+      "file": "ties_target_decoy_by_arm.csv",
+      "bytes": 274,
+      "sha256": "8b055e47fabe0a5ad983f9f91156580b6b62a3987ed46b523cf745f70c5f2147"
+    },
+    {
+      "file": "ties_target_decoy_by_category.csv",
+      "bytes": 316,
+      "sha256": "1c94ad2049c8828c01b25f5dc790e25b5d400ea7f67702b0b513d134c71c4e02"
+    },
+    {
+      "file": "ties_target_decoy_by_evalue_bin.csv",
+      "bytes": 229,
+      "sha256": "096e21a2216dad1a64e3be774c15cb35ebe7d4a8c2cbe6906259c60ae4e8580a"
+    },
+    {
+      "file": "ties_target_decoy_by_xcorr_bin.csv",
+      "bytes": 359,
+      "sha256": "2d494c9f28a88bddec3c062da32d5e8f0175de6aae87428eb4988370a998c148"
+    },
+    {
+      "file": "ties_target_decoy_summary.csv",
+      "bytes": 818,
+      "sha256": "3bbf34add638ba299709eefd56da9aee066d1d5dbb80afbc70b640ca13e06290"
+    },
+    {
+      "file": "ties_target_decoy_xcorr_ge_1p5.csv",
+      "bytes": 158,
+      "sha256": "4b8396518442cd05341c435c11b154755ffd8fb14571857d8b4057ebd8139e9d"
+    },
+    {
+      "file": "ties_zero_span_categories.csv",
+      "bytes": 111,
+      "sha256": "7d7390fa4d69a55de12a7ba851954bf4285e97de23d5c54d1c11efc8c818bde9"
+    },
+    {
+      "file": "ties_zero_span_lines_by_patterns.csv",
+      "bytes": 152,
+      "sha256": "f0b22af5aab52e3855332259728953a8cd16b3a316e55d61b8e7f7fe492e398d"
+    }
+  ],
+  "verifier_round1_files_present": {
+    "scripts": [
+      {
+        "file": "verify_r1_deposit.py",
+        "sha256": "25767ae696733d0d78ea53bb9a460169bcc11e4ac689df121700b4695627d52f"
+      },
+      {
+        "file": "verify_r1_enzyme.py",
+        "sha256": "8eef69b78d8792bf96c2998de56dee2a31aac6d818251840101557dd1ede2ed5"
+      },
+      {
+        "file": "verify_r1_massrange.py",
+        "sha256": "85b0d37f599367bd3ed9e2936b7fd90d5006286400f17d8559d65bcd7b3fa2ab"
+      },
+      {
+        "file": "verify_r1_phospho.py",
+        "sha256": "d9534318daed386e9a39b8232ab516a347726d9ebd292f72225a02f96b88f248"
+      },
+      {
+        "file": "verify_r1_summary.py",
+        "sha256": "29ba9aeeb99e0c00e19c8455d55d7999346cf4199eef4a1259abce00fe480e43"
+      },
+      {
+        "file": "verify_r1_ties.py",
+        "sha256": "21f61086ca5a7e27be56908931d63da0487024806f0adb3ad0266caf0ce75790"
+      }
+    ],
+    "outputs": [
+      {
+        "file": "verify_r1/verify_r1_comparison.csv",
+        "sha256": "8dd9268b42c7c88dd0fa3b40421869db16ea3824c9bc5a99ee491c06d13bc66d"
+      },
+      {
+        "file": "verify_r1/verify_r1_deposit.json",
+        "sha256": "34210b857d42a2bfc4f40df8b54388bed9f24d376eb85bbabb0c017b57348bc6"
+      },
+      {
+        "file": "verify_r1/verify_r1_deposit_nonsulfide_by_arm_chain_charge.csv",
+        "sha256": "f0902f20dc2ad7e74f6259e6fe458e6de494ff80802aea25ee93396f284b6533"
+      },
+      {
+        "file": "verify_r1/verify_r1_deposit_sulfide_psms_baseline_by_peptide.csv",
+        "sha256": "0625b160f2443e045730c3f926efbc6a295129a4771d86cb2903140580df071d"
+      },
+      {
+        "file": "verify_r1/verify_r1_enzyme.json",
+        "sha256": "27a75ace923740fa1ca046acc196c0903d5bc313e1c01b3934917545c42086db"
+      },
+      {
+        "file": "verify_r1/verify_r1_massrange.json",
+        "sha256": "80eba540f2bebec39e77f24ff027ef045598569d27e0f2810e67f9419756bc9d"
+      },
+      {
+        "file": "verify_r1/verify_r1_phospho.json",
+        "sha256": "6a615c26cc76f37197c85cd41a4e6388740225ab28767fe2d5ef3a7458093411"
+      },
+      {
+        "file": "verify_r1/verify_r1_provenance.json",
+        "sha256": "c9f04741b6b800b6ce3ac63032b00f343a456d1b75da188fa42574bbe1ad7776"
+      },
+      {
+        "file": "verify_r1/verify_r1_span_check.csv",
+        "sha256": "abd3fd4887e1b8f45879dbd34002909fe539da92d1276bdbad2ce88762782fc3"
+      },
+      {
+        "file": "verify_r1/verify_r1_tie_rows.csv",
+        "sha256": "d5446f1d232e0c348ef4fc16eca763442f114f4ced136c4997382f507d9434a1"
+      },
+      {
+        "file": "verify_r1/verify_r1_ties.json",
+        "sha256": "d62999cc5b89ddcb34354fd4ff065628873fdb71be7d34313cb0fc6c473a406c"
+      }
+    ],
+    "note": "written by the adversarial verifier (round 1), not by this item's pipeline; only verify_r1_deposit_sulfide_psms_baseline_by_peptide.csv is read, as a cross-check in step 2"
+  },
+  "revision": "round 2 (revision after verification, 2026-09-30): steps 1-4 amended, steps 5 and 6 added",
+  "notes": [
+    "The raw files and the Comet output tables of the PXD015307 re-search are not in the local copy; nothing was re-searched.",
+    "Target/decoy status of tie peptides uses UniProt mouse 2026_03 canonical sequences (the search used an earlier Swiss-Prot canonical+isoform release); isoform-only peptides remain 'unresolved'.",
+    "Bovine insulin chain sequences used for classification are the A chain recorded in the repository and the canonical bovine B chain; P01317 itself was not available offline."
+  ]
+}

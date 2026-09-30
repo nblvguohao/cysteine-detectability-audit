@@ -1,0 +1,386 @@
+{
+ "item": "D_empirical_background",
+ "status": "POST HOC revision analysis (2026-09-30) in response to review criticism; not registered, not pre-specified",
+ "inputs": {
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/phase4_inputs/pxd063463_Trypsin_HydP.tsv": {
+   "role": "trypsin ABE arm +hydroxylamine (site table)",
+   "sha256": "4cf27b759afd5e624c6c6d20adb6c964661e7488479db074b489ec8a4864346a",
+   "sha256_lf_normalised": "1e7d98acba55de8d70181154b9539ea249a133b6a85c223b1b09ac266fc1b79e"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/phase4_inputs/pxd063463_Trypsin_HydN.tsv": {
+   "role": "trypsin ABE arm -hydroxylamine (HA-specific sensitivity)",
+   "sha256": "7948a6afc73e38aaddded37565767e40cce41ecb264cc786e81461b629680346",
+   "sha256_lf_normalised": "a2d2fa09d5e06a8b90f78c85ec72922cd744e8a2b962e0073519d2602707400f"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/repo_results/phase3_candidate_peptides_2026-09-22.csv": {
+   "role": "phase-3 candidate peptides with global-arm identification flag",
+   "sha256": "f8dd02ff935bd8a7f587dfcaf7bc1ca3a3a48cda7811308e37e87dc8f26e9cdc",
+   "sha256_lf_normalised": "1fef1c4ed8b8a03d2d1d4ea8e15dea14561a699c012591614e995c57e7bc9f12"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/repo_results/phase3_empirical_detectability_summary_2026-09-22.json": {
+   "role": "stored empirical-check summary (reproduction target)",
+   "sha256": "ace6e1b0f85c6fd87b307efce439ef1726fd7cdd8eff483f3290e151f2643610",
+   "sha256_lf_normalised": "87eb523a0e48166239950db12b22a8b3192c8254e7fc4cb5a5938f98512bcd84"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/external/UP000000589_10090.fasta.gz": {
+   "role": "UniProt 2026_03 mouse reference proteome",
+   "sha256": "c24568f70ce9ffd7693a1ecd31c23eaa97a1f43d9305e2ff5401bdf30e2a0a93"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_proteome/audit.json": {
+   "role": "stored Fig. 2a trypsin audit (reproduction target)",
+   "sha256": "f3a8abe9c024f7e85600be11c8a9e6921fa24eb775ab0b47b9c7a894ab58c721",
+   "sha256_lf_normalised": "b417172580fafa8370eb404b83b964ac16d797f7a0d50758ace3c3fda587da65"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_observed/audit.json": {
+   "role": "stored Fig. 2b trypsin audit (reproduction target)",
+   "sha256": "9db235258697532cf6caf844440b6e27a8f5a793c40d3b35d8b1f27c0d9b8414",
+   "sha256_lf_normalised": "890f9ce48ed252a55fc376c6d2d2016a2275fce43943381507d90512c3616a06"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_phase3_empirical_detectability_2026-09-22.py": {
+   "role": "original empirical-check script (read for the model specification)",
+   "sha256": "0a3327c8db3a4aca36968ea6412b5a11032e4ebd8a4c3db9bb4ed0143c51467f",
+   "sha256_lf_normalised": "4f31a8d209776ac279530ea2ca12fb757beaaa804a8e9fb5d8a3fd3ab5404eb1"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/protocols/phase3_empirical_detectability_preregistration_2026-09-22.json": {
+   "role": "original empirical-check protocol (read for the model specification)",
+   "sha256": "99e2463d5c0e2e81fc51e5ef310d037d56950b417ed3b9938e4ce3f38490035d",
+   "sha256_lf_normalised": "bd3af6ddf1c6c7548d36aee8a47acb66c96b94b9a049eef93a5808af67ab8713"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/run_phase4_validation_2026-09-22.py": {
+   "role": "original Fig. 2 audit script (read)",
+   "sha256": "6b8f0990c4caed6ca431e4661a2596dc27158163349f848cb6fe1150e72b6062",
+   "sha256_lf_normalised": "222e06af15328d3b300bf30872fd56178725284faedfe644c4e7be1677edf321"
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/01_manuscript.tex": {
+   "role": "manuscript (read-only; text quoted)",
+   "sha256": "79ce71597d4dea29a62081fdca0a151b7e507771e379df986419bab8b44c1b4a",
+   "sha256_lf_normalised": "79ce71597d4dea29a62081fdca0a151b7e507771e379df986419bab8b44c1b4a"
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Note_4_four_protease_public_deposit.md": {
+   "role": "Supplemental Note 4 (read-only)",
+   "sha256": "ca2e99cac91e9b019733d1fa43913aebfe62d97649fd6bea0780fe28bc305d6c",
+   "sha256_lf_normalised": "ca2e99cac91e9b019733d1fa43913aebfe62d97649fd6bea0780fe28bc305d6c"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/revision_2026-09-30/inputs/mcp_package/Source_Data_Fig2_public_four_protease.csv": {
+   "role": "Fig. 2 source data (read)",
+   "sha256": "6b5fa60d1f735b8fc589ad5b6161c723fedbbea7ab6f43c89d5a8edc64ac5b39",
+   "sha256_lf_normalised": "6b5fa60d1f735b8fc589ad5b6161c723fedbbea7ab6f43c89d5a8edc64ac5b39"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/results/phase1_probe_findings_2026-09-22.json": {
+   "role": "phase-1 probe record of the deposit's mqpar_Global.xml / mqpar_ABE.xml (search design of the arms; read in step 10)",
+   "sha256": "b1370c8fe56e62e32ad773b851ba09744bdd21b3a9f3902e39598a8e71f27da0",
+   "sha256_lf_normalised": "1a5d3af04cb5181f2d7e685f055d8b55972724d102c179e191f79a1647f8741c"
+  },
+  "C:/Users/admin/Desktop/小论文/_cys_repo_work/repo/scripts/preregister_phase3_empirical_detectability_2026-09-22.py": {
+   "role": "phase-3 pre-registration (read for the global arm's search settings: Trypsin/P, min length 7, max 4,600 Da; not run)",
+   "sha256": "b1f6210c505dfa421462900163d4f2bbbe9c22d72d9bbba22de49373e3a52f1d",
+   "sha256_lf_normalised": "7c6dbcacbc0063f25722a8c72484695ee048bb4145cebd3c9043354d8053b09a"
+  },
+  "C:/Users/admin/Desktop/小论文/巯基化/MCP/supplemental/Supplemental_Data_12_analysis_provenance.csv": {
+   "role": "Supplemental Data 12 (read-only; column vocabulary for the proposed row)",
+   "sha256": "aba9a349f6861f6963d7d1783b5dc33fc5dbe37eee68b2d60a2e5355b4ed2984",
+   "sha256_lf_normalised": "43c6444ca6ff09b32796592a81af3ae59bf86d8abeebbff359a1e36ee057ddf4"
+  }
+ },
+ "fasta_2026_03_decompressed_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418",
+ "cys_audit_source": {
+  "path": "C:/Users/admin/Desktop/小论文/_cys_repo_work/public/cys-audit/src",
+  "version": "0.2.2",
+  "sha256": {
+   "cys_audit/__init__.py": "ece27f1dd75d8a4a3a097b1a59137f1e92b38c7f4279e42d5e250036daaec4ba",
+   "cys_audit/__main__.py": "4b1afbca74a10abc3cff7b4e5a11b558bf619e45b89709faf9225a474a2a250f",
+   "cys_audit/audit.py": "b059c1c45872982c0850e5919c482b4e8c4f812be4a8831277618d5d493da6a4",
+   "cys_audit/checks/__init__.py": "44815a3f3bce53dfc066a7661b28fe5667e4576e5cd1ca41272158330cb07f4d",
+   "cys_audit/checks/abundance.py": "4c585937099ced707d4fb267862d21699737836af0391ed842a1d73dbcb843ce",
+   "cys_audit/checks/cleavage.py": "19ace5151204146cdda579444933e8e66b3fcce2cc3f96f5148f6bbba605155d",
+   "cys_audit/checks/common.py": "c8b9e1258acb7d8b29e38b0449490df4035e5057fe24fe2f8167b962cca07f95",
+   "cys_audit/checks/multicys.py": "4fc9599df416631b7ab662436da0e3ded63cb4a18dce7c04e6c443857d769e7c",
+   "cys_audit/checks/overlap.py": "8a718b6754086e2bec30dfd5ef3246c9673bc637b4e4a031ab0d9000f5a1b7b1",
+   "cys_audit/checks/searchspace.py": "e86858ce45f4b8f5d16b813d4caac913859f02d77e0effb3831aceeef73cddc3",
+   "cys_audit/cli.py": "4388a88b78d27cc5e45e627a69152eb9d553712e5df63ac6dffdb40a3a23a6e5",
+   "cys_audit/constants.py": "f5b4038525bc9b40e14f00ed1971295af81303f3574d7d639a31dc422c0534be",
+   "cys_audit/io.py": "ebfbe0ad11c1958b0208b2f203f7798b6fa78b29cc90b42aae05b9c5c1e658a1",
+   "cys_audit/propensity.py": "5b5c28112dec4b0634721688252834f65cb3a1f12cb5e66f2429df2d1badffce",
+   "cys_audit/proteases.py": "c53b63aabc24b1d987b407bb87ed8e6c430461f6af4412f62d850622b69b0c28",
+   "cys_audit/report.py": "fb15cfa38f0ffaf1163db4355198e07613f87491899f486b4255fa46fa15be4e",
+   "cys_audit/stats.py": "4258ec93e39bb1ec46b9754f28e55254218be4d4b82922220c35cfa72564e856",
+   "cys_audit/status.py": "670e925fd0681114437c7d3b7b82c819a00cb0b6f174d11b52fe313e07641044",
+   "cys_audit/synthetic.py": "dd2df76e9ca5b5968c594aa2885cc50cf05988c3213fdc017746c471817342dd",
+   "cys_audit/verdict.py": "88dfe8585c9221535fc06fa3b6f6abdcf3934b39ecfaebc7fd5a95d4cdb05ac1"
+  },
+  "note": "checks/cleavage.py, stats.py, proteases.py, io.py identical (LF-normalised) to archive/v0.1.0 used for the stored audits"
+ },
+ "scripts": {
+  "00_reproduce_cli.py": "3bacc27c4ef4e7e3735b0673c416f3be1cbbef4d7531ea3c2b306f03af06d62c",
+  "01_prepare.py": "0cf21dd60ea078aea810561ea8cf634c3ab83f2d22868d54fccc61b156b96b2d",
+  "02_empirical_model.py": "609a5fd83f806addce1490c0415365c09a8f79041179561613fdf3aa11715f02",
+  "03_backgrounds.py": "92095e4f5a29a882428d98c2e8910e2a1ac16238f83ace1f40af65f5a1d38ea4",
+  "04_rematch_bootstrap.py": "51418d037edafa51099b6b333d72b6857514ed3f79ce745fcc96d3e3d66d1db5",
+  "04b_conditional_bootstrap.py": "1b9a51046542b1b36a8c135171b07b63b095791b3e22709928fee39f916d4b62",
+  "05_diagnostics.py": "2232cee9d725f17f2e1beed8102b31bf4204f3ee34fb25e51990e384b91c701c",
+  "06_sensitivity_quantified.py": "8e5f62b6d89a05c667775343efb4244a025c572b82081cf6609d49e3eca0b092",
+  "07_summarize.py": "56d41b1ed42348b7de1040de13cabeb0e703dc4d102c2c405e72099c41875809",
+  "08_check_changed_proteins.py": "0bf5bf7dded1b1ec1bea36a4069a531b52e5edf9d4a8c0ef31eabc6b4ad06dda",
+  "09_revision_after_verification.py": "6a427daef620ae2f93ffe7bd06d090b322fc9af8f080292cf42685984a7fca8a",
+  "10_round2_combined_designs.py": "dc5177db79e46e1205e472675a5923919503d5093f1296c5030409e5636b13b8",
+  "10b_proximal_offsets.py": "ff741098d6afe0dc2e616c1005631fd9fe888828b135d6ae33ced1be3644a22e",
+  "11_round3_rematch_fprime.py": "0234fc7111b97a383cca407dcc75ab143e6108b5dcaecd247844eed9a813ae0b",
+  "common.py": "e9366fd74a6405befc7b1ba86a3336e75d190a3c7176d70c3f71aadbcaa33048",
+  "matching.py": "a02e372fb958e4a90bced6a32d27a7218f0b14b908ef393f58408a7f2253c43d"
+ },
+ "environment": {
+  "python": "3.10.11",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scipy": "1.15.3",
+  "scikit_learn": "1.7.2",
+  "statsmodels": "0.14.6",
+  "lightgbm": "4.7.0",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "max_worker_processes": 4
+ },
+ "seeds": {
+  "cys_audit_tool_seed": 20260922,
+  "feature_bootstrap_seeds": {
+   "kr_prox": 20261023,
+   "kr_dist": 20261024,
+   "de_prox": 20261025,
+   "de_dist": 20261026
+  },
+  "cv_fold_assignment": "numpy default_rng(20260922 + 1) permutation of sorted proteins, fold = rank mod 5 (original)",
+  "lightgbm_random_state": 20260930,
+  "paired_bootstrap_seed": 20260937,
+  "primary_matching_seed": 20260941,
+  "matching_seed_family": "20260941 + 1000 + k, k = 0..199",
+  "rematch_bootstrap_seed": "default_rng([20260941, 7, replicate])",
+  "mh_bootstrap_seed": 20260943,
+  "pythonhashseed_cli": 0,
+  "step9_after_verification": {
+   "primary_paired_seed": 20260937,
+   "alternative_paired_seeds": [
+    20262930,
+    20262931,
+    20262932,
+    20262933,
+    20262934,
+    20262935,
+    20262936,
+    20262937,
+    20262938,
+    20262939,
+    20262940,
+    20262941,
+    20262942,
+    20262943,
+    20262944,
+    20262945,
+    20262946,
+    20262947,
+    20262948,
+    20262949
+   ],
+   "big_run_seed": 20263930,
+   "big_run_replicates": 50000,
+   "detection_link_bootstrap_seeds": [
+    20264930,
+    20264931,
+    20264932,
+    20264933
+   ],
+   "per_matching_status_seeds": {
+    "kr_dist": 20261024,
+    "kr_prox": 20261023
+   },
+   "standardised_bprime_seed": 20260937
+  },
+  "step10_after_verification_round2": {
+   "primary_paired_seed": 20260937,
+   "big_run_seed": 20263930,
+   "big_run_replicates": 50000,
+   "stored_matchings_bprime_d": "20260941 + 1000 + k, k = 0..199 (reproduced)",
+   "dtheo_matchings": "20265930 + k, k = 0..199",
+   "per_design_and_per_matching_status_seeds": {
+    "kr_dist": 20261024,
+    "kr_prox": 20261023,
+    "de_dist": 20261026,
+    "de_prox": 20261025
+   }
+  },
+  "step11_after_verification_round3": {
+   "run_A_multiplicities_seed": 20260937,
+   "run_A_matching_generators": "default_rng([20260941, 7, replicate]) (step-04 convention; one fresh generator per matched design)",
+   "run_B_multiplicities_seed": 20266930,
+   "run_B_matching_generators": "default_rng([20266941, 7, replicate])",
+   "replicates_per_run": 5000
+  }
+ },
+ "bootstrap_replicates": 5000,
+ "outputs_sha256": {
+  "background_log2or_by_design.csv": "1e49ddd53adb12cb41b31c47f82451a9a403e5899dde295b1d5b977f9e7c22c6",
+  "backgrounds_meta.json": "629ccc09d554e3a24594404a08d12aa289888391bd15f8e20d3dbd8f469e7961",
+  "cand_cys_map.csv": "4e7297fd6e6cbbcf9ce8b9ad912b03410667cfd2dc1c8865cf1197e4bee753a7",
+  "candidate_oof_scores.csv.gz": "8c3fde532f6ed56b13c6e38d63b7c03812d0a05b14c8c2d8790978dc742aa554",
+  "check_changed_proteins.csv": "511ae301acec4f91561d7c96a5411114c88154b199adea0f00b3148da9bb7d7f",
+  "cli_repro_trypsin_observed/audit.html": "4f3ba997c0a7d46a3156007d105db22d3b295f9574e3aeb5fbf3ea8d851fed0c",
+  "cli_repro_trypsin_observed/audit.json": "f54c081a45c0ff5436ad1acc85ce1e5413795171cfbcd80b58696fb7c607b97c",
+  "cli_repro_trypsin_observed/figures/cleavage_geometry.svg": "e92ab94d6e002b48b9318b244cf9de8562974cd37eaf07c4d1e39e2eedd2fe37",
+  "cli_repro_trypsin_observed/figures/multi_cysteine.svg": "0bc70ac9877268f6ba607b0be412ea39f58080d96def5a65e36121260637376c",
+  "cli_repro_trypsin_observed/figures/protein_abundance.svg": "fbaad17638874597c771d380c6ef6f0a86d99253e1dbf637793c8d037bbb4c9c",
+  "cli_repro_trypsin_observed/manifest.json": "81ee5b257090243725a068c07be5ba806b964c5376ec19d5a86773326d46645c",
+  "cli_repro_trypsin_observed/summary.csv": "33788c13768f6041bf3cef3a9ba7e7dc0b0b1a5d80776487cdf914b019f55585",
+  "cli_repro_trypsin_proteome/audit.html": "30028786309b242be71e4b3235d53729682e92bcc7f45cadc89b951bbf13a9e2",
+  "cli_repro_trypsin_proteome/audit.json": "6aa9f54ceb95bd458aed3979f927cd20d8c504a058a0ebf3d46f0c946b98ae15",
+  "cli_repro_trypsin_proteome/figures/cleavage_geometry.svg": "3b43118169e94c706e85e05675758324518257ebc9ecc540432ce4687e6f522d",
+  "cli_repro_trypsin_proteome/figures/multi_cysteine.svg": "0bc70ac9877268f6ba607b0be412ea39f58080d96def5a65e36121260637376c",
+  "cli_repro_trypsin_proteome/manifest.json": "42656318d7b5a1df17c3ce4c270e3f87cdab80ce94867fe92a5370da71603803",
+  "cli_repro_trypsin_proteome/summary.csv": "12093a6cfbbdbf950e920db335f2c04b173008df89d405a6cec925a15ff6429d",
+  "cli_reproduction.json": "30c81745ecbbd192da8fe52ac6e96e179034ac30da2b595d7fce933ff9447446",
+  "conditional_bootstrap_summary.csv": "307287905a93b89e568310171f41867180aab63c40aa0de34f5910abcddc85bd",
+  "cys_scores_trypsin_arm.csv": "fc810a6b1ac0208e8add86de7e2f499476ed82c41b893efb4bd4fa98fd2a5daf",
+  "cys_table_trypsin_arm.csv": "0f43a2370b8f481a843eb59f17a39ce700dbae6f0437f40f987ef90dc495f0f1",
+  "diagnostics.json": "d0f2a53be633040f8c75a9e9f067553787cf16c6826e28b9de631b5eae17b3ff",
+  "empirical_model_summary.json": "12f375696cd2fc0a1feaa969393677514fe03c588968fb2a84528cf27cc881c3",
+  "main_table_kr_de.csv": "a84f7f95f8d9c4fe4ec048a302d075c95640943b154dee1306bd5ad311058823",
+  "matched_vs_theoretical_paired.csv": "0302c6a10ce9d8b209adf46ff8c0903ace6b9eb74242a7e51d0940a696cfd57a",
+  "matching_seed_variability.csv": "17105c55beb01940179e277f852e7ab90ea89dc1264e964af26680a4a14aedcb",
+  "matching_seed_variability_ha_sets.csv": "61b14f79880cad967cd3d8dfa1692ab44d50ce84c0958594face89a7e6ef711e",
+  "mh_stratified.json": "6cf0c28d1e5312f667d6f95d72cc17ca5964fd73669d60235586afa76730d62f",
+  "paired_fraction_removed.csv": "41ec8a156bfabf385c7f2350168a15f2ef8487f2ec12cb06562434c48ea22684",
+  "prepare_checks.json": "cd6e57fd2d3bca6c98cd5916324194080176c9513bec1ca3d2b54898497463f1",
+  "r1_comparison_feature.csv": "88712508c729a07775d80bfd579c58da08d09c721481d60526fbc225c129bace",
+  "r1_construction_check.csv": "ba6d8eecbf9bd30e69c4b241b62727c10f9fc0b0d6338ca2fd42a7b9c7d5c6c5",
+  "r1_holm_family.csv": "05426a87f464495ca9176dea591feb991804254a1ad68f662844a3ed7c66c2c1",
+  "r1_matching_status.csv": "33d04e7f951d586d0caff53e53e5b956b49f9d290d52361dbd92fc6c78ab3584",
+  "r1_matching_status_summary.csv": "277e41c9a1d9211616425c49e4eb18055ef44dccdca7b30d3113b3433c2e1886",
+  "r1_paired_contrasts_runs.csv": "68d55188ad70c54f0ca5f7e9e7f7e31503acafcd108d76a7a745dae45cf9a114",
+  "r1_paired_contrasts_summary.csv": "462763516f496b168e878a902977a7f35f72dba6eb9d91d21b3222e34a789449",
+  "r1_standardised_flags.csv": "1710ebb06a236c593d73134593b2bed6765a19562739e410c8df3046f5dc799e",
+  "r1_summary.json": "64192a14c944d52b84ef626c7966f4a99a7131983c3e0ad8eb05f8e931b6399f",
+  "r2_c_not_theo_cysteines.csv": "2acd1b1f2965b8e6cc545c477f90bd6ea0075d7afb6805e9d17c73c5a8faa766",
+  "r2_c_residual_decomposition.csv": "c08992e68be85fa57ce5400774fdcfa913c23343c8ff9ffcfc478cbbcef08ec1",
+  "r2_designs.csv": "c7b2c2a9b31574a994bf4c6bfcbbfe511dd89e212359cb35ddc7525ae5addae6",
+  "r2_dtheo_matchings.csv": "38d8a5b70a6d65f497b439036f91e2f833be6bc43f815213f2b2ea12f5d08b8d",
+  "r2_global_arm_search_design.json": "19fb9e8f039cb6708fa3fe722ff99aaffaf9122df2fba51999c1cd1ec44c7bf2",
+  "r2_holm_round2.csv": "913475a26e1b71aa1694334e761e6b549cd8188412efc2e5d166227728786bfe",
+  "r2_kr_specific_part.csv": "efd181ed8846f7f425ce99240fe782e20a81a60e157787fa1802414abbce953a",
+  "r2_paired_contrasts.csv": "2c03b9473ec7975bc14dc625990d8852318ba63301c195ad418f55a2da1b4f78",
+  "r2_proximal_offsets.csv": "33e063917ce31431bd577f46f67335c11de8aeae203ba81bf0e5d02eecf312cb",
+  "r2_standardisation_strata.csv": "37f3088d62430012563b87051157f20ab01f91798d22dd9415ec2a7ce13ffc69",
+  "r2_summary.json": "93d9ba554f2a3e38d6732fe42f2e9dbecb47693ff071c076dee6ae59fc6e885b",
+  "r2_verifier_comparison.csv": "e0c30aaa097d45cf22b5603594f93a8874fa6e9b2e8b3c9b73d9e91196d235d8",
+  "r3_original_matching_balance.csv": "6bfb874cb167fa334c21615f3634553832288ceb2b2f34556bd2ee559f0a6d81",
+  "r3_rematch_contrasts.csv": "3eda549761f77b716d6bc7ee9526e8afd0a893654fe44cdf8ac738fe49540fb0",
+  "r3_rematch_designs.csv": "7a63f01c111caa75d6380feac30e75631094d771c07ca4116305e861fb781c11",
+  "r3_rematch_replicates.csv.gz": "64d4831f150b6962dd9651888da10469cfba26856ca62c41c4c3d2de2ada623e",
+  "r3_summary.json": "e51fb3f4f12983be64d77d6291a2548ec158e67aae09bf7ab52bab6553c7bf1d",
+  "rematch_bootstrap_replicates.csv.gz": "d45e21be95ed3e1a0b1e07c16bf6010933818a6bdba5116da5bff94620bfcd3d",
+  "rematch_bootstrap_summary.csv": "7536120402b1e85c584edbf69604d1bba9e5faf4ee1c78e1b2b9bbde3f324cb5",
+  "score_bin_table.csv": "4b98ab7711b1e9981801180fd459070418205fdc9f9fd0c7151f75abbada79da",
+  "sensitivity_quantified_proteins.csv": "dfb2c660bc5ef65d9e8fabe5a3c11dd936f9f4dea7cbded061368aace7c2d124",
+  "sensitivity_table.csv": "0ebea72395a9a9bb887fd22d4736943ae523fc56d16078d2b34c7d300f01ea06"
+ },
+ "run_order": "00, 01, 02, 03, 04, 04b, 05, 06, 08, 09, 10, 10b, 11, 07 (07 collates and writes this file last)",
+ "revision_after_verification": {
+  "date": "2026-09-30",
+  "note": "step 9 (09_revision_after_verification.py) was added after adversarial verification round 1; all its quantities were chosen after every earlier result of this item had been seen",
+  "verifier_files_read_for_comparison_sha256": {
+   "verify_r1/provenance_verify_r1.json": "9d9b8cfc8a9a949889a9ac142c0442ae1d097e8f2a14820a9c7c307827c315be",
+   "verify_r1/v_build_checks.json": "1ad7a145b32e5da4c6359d35dd315bf50540e537fcdddc3a2ac8f85c5b8f9fee",
+   "verify_r1/v_candidate_within_auc.json": "b596e21ecaa87b53afa94a430e23de1a93a5f6fc0cd45f325068e042c2128254",
+   "verify_r1/v_comparison_table.csv": "aecdb40b531911cc39c278f32ae037f3288a88a05065c3b3c4e26cadd697907e",
+   "verify_r1/v_cys_table.csv.gz": "074f1dc186fd10673be16629ae48a76074314e34bbe2fe51a89fa20b74655474",
+   "verify_r1/v_extra_checks.json": "f0ca6547634266ce847a20b2b9cdf2f49ed948aa01fe09bb8c9ed44e7e699415",
+   "verify_r1/v_matching_per_seed.csv": "ab828b7601fb3113fe0844bce0ea3199161116ab3b9403c33b800476dca404da",
+   "verify_r1/v_matching_summary.json": "7bdf1d4510badb8e074606262ddf4c2ab7897bacd670527368f9b057593f714f",
+   "verify_r1/v_paired_contrasts.csv": "c2a9269f94590759ca2e83e70e3a0cb3918e233e638d16fcc98e507e1dd344a0",
+   "verify_r1/v_restriction_estimates.csv": "d0e29dff5d0972ae0f80fbae2c185750cf52113c7d6a75282f4f30ebeb34fffe",
+   "verify_r1/v_seed_sensitivity_c_minus_e.csv": "3660b1d39c49cf877643b95524c2c61fb1866725ef8560fb02e063bc6fe30398",
+   "verify_r2/provenance_verify_r2.json": "d4bde7bf2e8efaf6ea2e88770b16472dee4704070115d0642c8d3875fbfd8708",
+   "verify_r2/v2_build_checks.json": "ad5c30fc8be0ee1fe239651117ad49fea7f689cb1c98633a1d47f1dbfeecb55b",
+   "verify_r2/v2_clip_check.json": "a23b3cf638e2903f6809c8557233ae0845427559624d9254001c551112f4c7e9",
+   "verify_r2/v2_combined_restriction.csv": "1e36ad7d36d326fdeb3f12474a8328f9f501e36a31ab0dcb099365717feae9a3",
+   "verify_r2/v2_comparison_table.csv": "387752d500eb24571a44ef744e0ffde3fe91b0324598e29c58fb3ed1c1b9a840",
+   "verify_r2/v2_contrasts.csv": "0ebe11ef097c7faafea1eb735e3d49e9d5353cc3c604232d7ca71f3822d78c65",
+   "verify_r2/v2_cross_std_features.csv": "f9dd1424cf370bfe6b7c6da038f271674145e3ded49ed6e9c205c257cfe1ceda",
+   "verify_r2/v2_cys_scores.csv.gz": "cdff9564260f28a69296e43683b4782e9b63dadd1932c647f4f3b3bead903f64",
+   "verify_r2/v2_cys_table.csv.gz": "665c6a4dea970f370ddd3904e0bed9ebdcd5bf0707ea596ff1d50a86237a8c3b",
+   "verify_r2/v2_extra.json": "de726c75e81b6050c70b368003068d0f97b2c9144623f79052825688ffb632b6",
+   "verify_r2/v2_match_within_theo.json": "f20ae63f200bc79d317de0acfdfdf62d149f8d1bd65be808f664c875d74e909c",
+   "verify_r2/v2_matching_runs.csv": "3606c5b7d7db7249b657fe3c05f13ecd6c2ee3f3cd801e2aea40a3872eb0f875",
+   "verify_r2/v2_matching_summary.json": "c2a1382b2fe0fbb77617343e31c72934a071ff79eb7e15268325747f6d207ffc",
+   "verify_r2/v2_model.json": "991e65e93156a7ed0f0666a77d96825c0b6a9b5142f1c374dc4c65c5c84ba262",
+   "verify_r2/v2_neighbour_check.json": "19bcf676cb71139a7efcee528b6954e21b1ac2b44eb76e0d6fa893fa4e36550c",
+   "verify_r2/v2_stats.json": "c87fb93ff7c2814bb85f42d17190ba5b00a46b55fef54f857ee444c3da1760c3",
+   "verify_r2/v2_strata_weighting.json": "dbb8ab6da53bbe5565ee724df9fa836be014072e84c6f467c70a990d59c63447",
+   "verify_r3/provenance_verify_r3.json": "a55ae6700504cdc71e5f21cece1c9a226097de9f673bb8f22f639373b3f5b546",
+   "verify_r3/v3_build_checks.json": "cb1c6d4cb1609be74a15f18cc8131141604b2dca7d555ff1724a7635873f5841",
+   "verify_r3/v3_comparison.csv": "6b7bc279646165fe409cd5df35deea4090a33ee559966a45f4a08c8efdddd48b",
+   "verify_r3/v3_contrasts.csv": "7f7d966d25e3ba63216972ae68921b683e7f1e2f42734b3bdb2fd43a9b403aa5",
+   "verify_r3/v3_cys_table.csv.gz": "09c7614cada7b270a3eca2a609fa9bf9e28dc4c9e39f159d33e6318949b5a641",
+   "verify_r3/v3_decomp_proximal.json": "8fccbd07d35df41d811619d3fdee19f4f36a1988f733727c9b51303a1efb3f56",
+   "verify_r3/v3_designs.csv": "06b3d2024bd0e6f27a7a8812d868269dd5bf1759c754f66ebe2716f1aaef7178",
+   "verify_r3/v3_designs_summary.json": "c5e11653474e10502d5b128bd9dfc20eb20ac603155fd1619d694c236c2c2a8a",
+   "verify_r3/v3_fprime_balance.json": "c45709752dd62e6641fd490a6744ff933de965dfbbcce619adaf64ec6d0211e3",
+   "verify_r3/v3_fprime_matchings.csv": "4fbce76041b85245ad12ebba66f950b38eb762a2cfda567e87a583016694052b",
+   "verify_r3/v3_holm.csv": "c91fd5bcd510a86f9feebc7372c8f9410eac2c7557eaf520d03e5aa7d9a77798",
+   "verify_r3/v3_kr_specific.csv": "b7b3dd35e3c0146091e040257f43b553ef6c860b3c6e274b65ec1674e08a3c5c",
+   "verify_r3/v3_rematch_fprime.json": "5c855f75b8052e38d49aa0d59713a252e3de4d8ae9aa94ce975b659f0e927d81",
+   "verify_r3/v3_rematch_fprime_itemmatcher.json": "fc89330b540637b1c54cab29aeab5890e791e3430f9176407bcaeea4c72216a4",
+   "verify_r3/v3_rematch_replicates.csv.gz": "b7fade0f104bcf9cdf6d8a11d262320f95d8b09d1d7182f5e8befc40dc56cdbb"
+  },
+  "verifier_scripts_sha256_not_run_by_this_item": {
+   "verify_r1_01_build.py": "e22f5723ab0d86a86046dcd8536928c356c84654ed7737b4627312dbbd646ca1",
+   "verify_r1_02_stats.py": "b4379c64c2b8c426f9d01182b6bfd8cb0945de2f470f63b6bf29a2d54b49771e",
+   "verify_r1_03_matching.py": "27641fe5cfa2af8ec1e8f115f9b3ac2b680222fc65f8a17ded32c26fa345d827",
+   "verify_r1_04_checks.py": "2c6321e78a7e813372fe99666eb083e93f950fc870014c753174eecbb9912913",
+   "verify_r1_05_candidate_within_auc.py": "c9eda03249c74d82796056b3d494e951627153902ee039a00642066470c31aa0",
+   "verify_r1_06_provenance.py": "5f990e71a3bc2c420e5f5052dd751b17fdd63bd13403e205c672ed56b08f20dc",
+   "verify_r2_01_build.py": "60656246b5063e61b8b918fdc08bc58a2451edcf74e30b441e8bb447291adfb2",
+   "verify_r2_02_stats.py": "974c3f783899b38fbd8401fa6f638781adee0e5a9da5fc24c4f0a88c5835ee44",
+   "verify_r2_03_model_match.py": "18d957a4089d4b1116f538556db288aff65d4628a567edcd68c28ec3a4f584ac",
+   "verify_r2_04_clip_check.py": "34c42849cc337ebeca6fd48446a9bb898cc6114fa64647748f73707960a6fd66",
+   "verify_r2_05_extra.py": "a72b2ca8a234643298804410cbca13cccf33791db9b1e86284eed02976256261",
+   "verify_r2_06_strata_weighting.py": "938da60fb12f4b4b1e65f263d4b2951ca168263e6b8a149df91ec7b01cdb5962",
+   "verify_r2_07_neighbour_check.py": "2003737e37b327b2e6221639228c19d76979578f79724159783acc6112f72852",
+   "verify_r2_08_cross_std_features.py": "89afe62c2ac5e0c7037b6e9a17447266dc82de7ac56c7cd9b621ea482bfa5401",
+   "verify_r2_09_combined_restriction.py": "4cbf4423a92ed3bbc387dc72896b830dedb434798d6209c2e484f3acad4dd2ad",
+   "verify_r2_10_match_within_theo.py": "00f12a7b457038dbf363650ebf463935efbcf6ed80720c730c17023424721c26",
+   "verify_r2_11_provenance.py": "37a9d9648ea323e39f2f22b7093e617e973717b291c9ed38307225b60b120b14",
+   "verify_r3_01_build.py": "e393a5677b52b2bcb349de7d177e811251ad958a8605a89f06d2b4c5e3ae53b9",
+   "verify_r3_02_designs.py": "2228715bbef58024703bd8cb7452f1a6be949374ca38a1964380776aaccd20d2",
+   "verify_r3_03_decomp_proximal.py": "2b6a61f6dabf86858b1064a37ddee24886fc314fe8ef1f7f542d1bd05cff3017",
+   "verify_r3_04_compare.py": "5025b07a0128a6d2edb47b5b7ac00860fccd5801e1bb9b7c667bcc4e385855dc",
+   "verify_r3_05_rematch_fprime.py": "1a6651464a062cae2b7e81719229eaefacd17175d0d8c4c547d276bc6646b2dd",
+   "verify_r3_06_rematch_itemmatcher.py": "2baca099f5f5c1de4fdebfdab8a2ea04fa3594b0371d9fdb37ad69d06ef57fc4"
+  }
+ },
+ "revision_round2": {
+  "date": "2026-09-30",
+  "note": "step 10 (10_round2_combined_designs.py) was added after adversarial verification round 2: the combined designs (theoretical AND empirical restriction; theo x emp standardisation; score matching within theoretical strata), the candidate-aware empirical standardisation, the decomposition of the (c) residual and the global arm's search design. All are post hoc. The verifier's scripts were not imported or run; its stored values (verify_r2/) were read for the comparison in r2_verifier_comparison.csv. Step 10 reproduces the stored step-9 contrasts and per-design intervals exactly (self-checks in r2_summary.json).",
+  "outputs": [
+   "r2_c_not_theo_cysteines.csv",
+   "r2_c_residual_decomposition.csv",
+   "r2_designs.csv",
+   "r2_dtheo_matchings.csv",
+   "r2_global_arm_search_design.json",
+   "r2_holm_round2.csv",
+   "r2_kr_specific_part.csv",
+   "r2_paired_contrasts.csv",
+   "r2_proximal_offsets.csv",
+   "r2_standardisation_strata.csv",
+   "r2_summary.json",
+   "r2_verifier_comparison.csv"
+  ]
+ },
+ "revision_round3": {
+  "date": "2026-09-30",
+  "note": "step 11 (11_round3_rematch_fprime.py) was added after adversarial verification round 3: the re-matching bootstrap of step 04 extended to (f') (score matching within theoretical strata) and to paired differences, in the step-04 multiplicities (run A, which reproduces the stored step-04 replicates of (a), (e), (b') and (d)) and in an independent replication run (run B). Post hoc. The verifier's scripts were not imported or run; its stored values (verify_r3/) were read for the comparison in r3_summary.json.",
+  "outputs": [
+   "r3_original_matching_balance.csv",
+   "r3_rematch_contrasts.csv",
+   "r3_rematch_designs.csv",
+   "r3_rematch_replicates.csv.gz",
+   "r3_summary.json"
+  ]
+ }
+}

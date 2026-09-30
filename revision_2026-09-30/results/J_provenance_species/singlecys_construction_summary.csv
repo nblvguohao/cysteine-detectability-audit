@@ -1,0 +1,9 @@
+cohort,check,rule,labelled_not_coverable,labelled,unlabelled_not_coverable,unlabelled,share_unlabelled_not_coverable,proteins_with_a_not_coverable_cysteine,proteins
+human_PXD044043,window (15 residues),trypsinP,0,3206,4002,15361,0.26052991341709525,802,1519
+human_PXD044043,window (15 residues),trypsin_proline_blocked,0,3206,4038,15361,0.26287351083913807,806,1519
+rice_PXD072089,window (15 residues),trypsinP,0,817,1160,4781,0.24262706546747542,305,640
+rice_PXD072089,window (15 residues),trypsin_proline_blocked,0,817,1170,4781,0.24471867810081574,305,640
+rice_PXD072089,"full sequence, all_released_rice_cysteines",trypsinP,0,817,1709,4781,0.3574565990378582,384,640
+rice_PXD072089,"full sequence, all_released_rice_cysteines",trypsin_proline_blocked,2,817,1766,4781,0.36937879104789795,390,640
+rice_PXD072089,"full sequence, UP000059680_2026_03_subset_(j3_part_2c)",trypsinP,0,640,1372,3764,0.3645058448459086,313,497
+rice_PXD072089,"full sequence, UP000059680_2026_03_subset_(j3_part_2c)",trypsin_proline_blocked,2,640,1418,3764,0.3767268862911796,318,497

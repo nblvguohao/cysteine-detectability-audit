@@ -1,0 +1,13 @@
+deposit,tolerance_ppm,resolving_mass_da,n_phosphopeptides,share_at_or_above_recomputed,share_from_released_tool,tool_status,share_stored,note
+PXD071110,1.0,9515.487670000766,33137.0,0.0,0.0,WARNING,,tolerance 1 ppm is outside the registered grid (sensitivity only)
+PXD071110,2.0,4757.743835000383,33137.0,0.0,0.0,WARNING,0.0,
+PXD071110,4.5,2114.552815555726,33137.0,0.47934333222681597,0.479343,FAIL,0.479343,
+PXD071110,10.0,951.5487670000767,33137.0,0.9784832664393276,0.978483,FAIL,0.978483,
+PXD071110,20.0,475.77438350003837,33137.0,1.0,1.0,FAIL,1.0,
+PXD071074,,,,,,SKIPPED_OVERSIZED,,stored value only; peptide masses not in the local copy
+PXD071061,,,,,,SKIPPED_OVERSIZED,,stored value only; peptide masses not in the local copy
+PXD071012,4.5,2114.552815555726,27372.0,,,B1,0.427298,stored value only; peptide masses not in the local copy
+PXD068672,4.5,2114.552815555726,21646.0,,,B1,0.246004,stored value only; peptide masses not in the local copy
+PXD068397,,,,,,UNDECIDABLE_NO_PHOSPHO_IN_SEARCH,,stored value only; peptide masses not in the local copy
+PXD068395,4.5,2114.552815555726,23153.0,,,B1,0.21332,stored value only; peptide masses not in the local copy
+PXD064206,,,,,,UNDECIDABLE_NO_PHOSPHO_IN_SEARCH,,stored value only; peptide masses not in the local copy

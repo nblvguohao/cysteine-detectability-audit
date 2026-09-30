@@ -1,0 +1,100 @@
+{
+ "registered_by": "scripts/preregister_phase2_synthetic_benchmark_2026-09-22.py",
+ "question": "For each of the four dilutable artefacts (A1, A2, A3, A4), does a same-kind audit statistic stay null at strength 0 and detect the artefact with rising probability as injected strength rises, on data whose ground truth is known by construction?",
+ "master_seed": 20260922,
+ "strength_grid": [
+  0.0,
+  0.1,
+  0.25,
+  0.5,
+  0.75,
+  1.0
+ ],
+ "replicates_per_strength": 50,
+ "bootstrap_reps": 5000,
+ "bootstrap_ci": [
+  0.025,
+  0.975
+ ],
+ "pass_rule": {
+  "fpr_at_s0_max": 0.1,
+  "sensitivity_at_s1_min": 0.8,
+  "auroc_min": 0.75,
+  "spearman_strength_vs_sensitivity_min": 0.8
+ },
+ "benchmarks": {
+  "B1_cleavage": {
+   "artefact": "A1_cleavage_geometry",
+   "n_proteins": 300,
+   "protein_length_range": [
+    250,
+    600
+   ],
+   "cleavage_site_rate_per_residue": 0.1,
+   "cys_rate_per_residue": 0.018,
+   "detectable_peptide_length_range": [
+    7,
+    30
+   ],
+   "max_missed_cleavages": 2,
+   "near_cut_window_residues": 3,
+   "true_positive_fraction_of_detectable": 0.08,
+   "injection": "with prob s a true positive is drawn from the near-cut-only subset of detectable Cys; with prob (1-s) drawn uniformly from all detectable Cys",
+   "statistic": "log2 odds ratio of near-cut membership, true positives vs detectable background (positives excluded from the background)",
+   "null_value": 0.0,
+   "score_sign": "+1 (statistic itself)",
+   "cluster_unit": "synthetic protein index"
+  },
+  "B2_abundance": {
+   "artefact": "A3_abundance_driven_detection",
+   "n_proteins": 3000,
+   "abundance_distribution": "lognormal(mean=0, sigma=1.2)",
+   "base_detection_rate": 0.4,
+   "injection": "P(detected | protein i, s) = (1-s)*base_detection_rate + s*(abundance_rank_quantile of i); independent Bernoulli draw per protein",
+   "statistic": "rank-based AUC (Mann-Whitney U / (n_detected*n_undetected)) of abundance predicting the detected indicator, over all n_proteins",
+   "null_value": 0.5,
+   "score_sign": "+1 (statistic itself)",
+   "cluster_unit": "synthetic protein index (one row per protein)",
+   "not_used": "a positive-vs-negative abundance contrast -- see LIMIT 3"
+  },
+  "B3_multicys": {
+   "artefact": "A2_multicys_localisation_ambiguity",
+   "n_peptides_single": 1500,
+   "n_peptides_multi": 1500,
+   "n_proteins": 300,
+   "peptide_length_range": [
+    7,
+    30
+   ],
+   "multicys_n_cys_range": [
+    2,
+    4
+   ],
+   "injection": "for multi-Cys peptides, with prob s the reported site is the Cys nearest the peptide N-terminus instead of the true site (drawn uniformly among the peptide's Cys positions); with prob (1-s) the reported site is the true site; single-Cys peptides are always reported correctly (no ambiguity possible)",
+   "statistic": "mean(normalised reported-site position, 0=N-term..1=C-term) for multi-Cys peptides minus the same mean for single-Cys peptides",
+   "null_value": 0.0,
+   "score_sign": "-1 (raw statistic falls with s; score = -statistic)",
+   "cluster_unit": "synthetic protein index (peptides mapped uniformly to 300 proteins)"
+  },
+  "B4_depletion": {
+   "artefact": "A4_positive_equals_detected",
+   "n_sites": 3000,
+   "n_proteins": 300,
+   "true_modified_prevalence": 0.5,
+   "injection": "every truly modified site is always reported; a truly unmodified site is reported with probability (1-s) (independent Bernoulli draw per site)",
+   "statistic": "fraction of reported sites that are truly modified",
+   "null_value": 0.5,
+   "score_sign": "+1 (statistic itself)",
+   "cluster_unit": "synthetic protein index (sites mapped uniformly to 300 proteins)"
+  }
+ },
+ "outputs_of_the_run_script": [
+  "results/phase2_synthetic_benchmark_replicates_2026-09-22.csv",
+  "results/phase2_synthetic_benchmark_summary_2026-09-22.csv",
+  "results/phase2_synthetic_benchmark_2026-09-22_audit.json"
+ ],
+ "controls": {
+  "PC1_null_calibration": "sensitivity(strength=0) approximates the nominal false-positive rate of a 95% CI (~0.05); pass rule allows up to 0.10 given Monte Carlo noise at 50 replicates",
+  "PC2_seed_reproducibility": "re-running the script with the same master seed must reproduce the summary CSV byte for byte; checked by the run script's own re-run, not by this file"
+ }
+}

@@ -1,0 +1,166 @@
+{
+ "label": "POST HOC reproduction diagnostic; not registered",
+ "H1_shared_generator": {
+  "DIG25->VIS10->NC": {
+   "DIG25": {
+    "ci": [
+     0.7231,
+     0.8274
+    ],
+    "manuscript": [
+     0.7231,
+     0.8274
+    ],
+    "match": true
+   },
+   "VIS10": {
+    "ci": [
+     0.6817,
+     0.7367
+    ],
+    "manuscript": [
+     0.6817,
+     0.7367
+    ],
+    "match": true
+   },
+   "NC": {
+    "ci": [
+     0.471,
+     0.5546
+    ],
+    "manuscript": [
+     0.471,
+     0.5546
+    ],
+    "match": true
+   }
+  },
+  "DIG25->NC->VIS10": {
+   "DIG25": {
+    "ci": [
+     0.7231,
+     0.8274
+    ],
+    "manuscript": [
+     0.7231,
+     0.8274
+    ],
+    "match": true
+   },
+   "NC": {
+    "ci": [
+     0.4693,
+     0.5544
+    ],
+    "manuscript": [
+     0.471,
+     0.5546
+    ],
+    "match": false
+   },
+   "VIS10": {
+    "ci": [
+     0.6821,
+     0.7373
+    ],
+    "manuscript": [
+     0.6817,
+     0.7367
+    ],
+    "match": false
+   }
+  },
+  "VIS10->DIG25->NC": {
+   "VIS10": {
+    "ci": [
+     0.6816,
+     0.7386
+    ],
+    "manuscript": [
+     0.6817,
+     0.7367
+    ],
+    "match": false
+   },
+   "DIG25": {
+    "ci": [
+     0.7237,
+     0.8283
+    ],
+    "manuscript": [
+     0.7231,
+     0.8274
+    ],
+    "match": false
+   },
+   "NC": {
+    "ci": [
+     0.471,
+     0.5546
+    ],
+    "manuscript": [
+     0.471,
+     0.5546
+    ],
+    "match": true
+   }
+  }
+ },
+ "H2_cv_variants": {
+  "GroupKFold(shuffle=True, rs=20260924)": {
+   "folds": [
+    0.7578,
+    0.6814,
+    0.7469,
+    0.8524,
+    0.7349
+   ],
+   "mean": 0.7547,
+   "manuscript": [
+    0.7669,
+    0.8344,
+    0.7412,
+    0.7371,
+    0.7467
+   ],
+   "match": false
+  },
+  "StratifiedGroupKFold(shuffle=True, rs=20260924)": {
+   "folds": [
+    0.802,
+    0.8372,
+    0.7478,
+    0.7454,
+    0.7243
+   ],
+   "mean": 0.7713,
+   "manuscript": [
+    0.7669,
+    0.8344,
+    0.7412,
+    0.7371,
+    0.7467
+   ],
+   "match": false
+  },
+  "StratifiedGroupKFold(no shuffle)": {
+   "folds": [
+    0.8145,
+    0.8079,
+    0.7945,
+    0.7165,
+    0.7227
+   ],
+   "mean": 0.7712,
+   "manuscript": [
+    0.7669,
+    0.8344,
+    0.7412,
+    0.7371,
+    0.7467
+   ],
+   "match": false
+  }
+ }
+}

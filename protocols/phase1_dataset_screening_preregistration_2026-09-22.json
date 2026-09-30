@@ -1,0 +1,230 @@
+{
+ "registered": "2026-09-22",
+ "question": "For each artefact 1-5, which public deposits independent of the manuscript's current instance could replicate it?",
+ "scope": "metadata and file listings only; no data file downloaded in this phase",
+ "retrieval": {
+  "endpoint": "https://www.ebi.ac.uk/pride/ws/archive/v3/search/projects (keyword, pageSize=100, page)",
+  "pool_1": "reuse results/pride_coincidence_candidates_2026-09-19.csv accessions (retrieved 2026-09-19 with 32 cysteine keywords); their full records are re-fetched from the same search endpoint by accession keyword",
+  "pool_2_keywords": [
+   "GluC",
+   "Glu-C",
+   "AspN",
+   "Asp-N",
+   "chymotrypsin",
+   "elastase",
+   "proteinase K",
+   "multiple proteases",
+   "multi-protease",
+   "alternative protease",
+   "Arg-C",
+   "LysN",
+   "phosphopeptide atlas",
+   "multiple protease"
+  ],
+  "pool_2_pages_per_keyword": 3,
+  "pool_3_on_disk": [
+   "PXD044043",
+   "PXD072089",
+   "PXD072035",
+   "PXD048216",
+   "PXD054433",
+   "PXD015307",
+   "PXD019802",
+   "PXD035795",
+   "PXD061767"
+  ],
+  "pool_4_linked": "for every topic-coherent project: accessions matching PXD\\d{6} in its description or protocols, fetched and classified",
+  "store_echo": "every search call's URL, returned count and first accessions are stored (CLAUDE.md 9.55 lesson: endpoints rewrite queries)"
+ },
+ "regex": {
+  "CYS_MOD": "persulfid|sulfhydrat|polysulfid|s-?nitros|nitrosyl|nitrosothiol|sulfenyl|sulfinyl|sulfonyl|glutathionyl|palmitoyl|s-acyl|acyl[- ]biotin|cysteine (oxidation|redox|reactiv|modif)|thiol[- ]?(redox|oxid|reactiv|modif|switch)|redox proteom|oxicat|iodotmt|dimedone|biotin[- ]switch|isotop-abpp|cysteinome|sulfhydrome|persulfidome|reactive cysteine",
+  "PHOSPHO": "phospho",
+  "PLUS32": "persulfid|sulfhydrat|polysulfid|sulfhydrome|persulfidome|dioxid|sulfinic|sulfinyl|hyperoxid|overoxid|sulfonic|trioxid",
+  "ENRICH": "enrich|biotin|pull[- ]?down|capture|switch|affinity|streptavidin|iodotmt|resin|dimedone|click|\\bbta\\b|qtrp|\\babe\\b|acyl[- ]biotin|isotop",
+  "BLOCK_ARM": "n-?ethylmaleimide|\\bnem\\b|differential (alkylation|labell?ing)|two[- ]label|dual[- ]label|unenriched|input (sample|fraction|proteome)|flow[- ]?through|pre-?enrich",
+  "COMPANION": "total proteome|global proteome|whole proteome|proteome profiling|protein abundance|unenriched|input proteome|non-?enriched|total protein (level|abundance)|proteome[- ]wide quantif|input (sample|fraction)",
+  "TRYPSIN": "trypsin",
+  "LYSC": "lys[- ]?c\\b",
+  "NONTRYPTIC": {
+   "GluC": "glu[- ]?c\\b|endoproteinase glu|v8 protease",
+   "AspN": "asp[- ]?n\\b|endoproteinase asp",
+   "Chymotrypsin": "chymotryp",
+   "Elastase": "elastase",
+   "ProteinaseK": "proteinase k",
+   "Pepsin": "pepsin",
+   "ArgC": "arg[- ]?c\\b",
+   "LysN": "lys[- ]?n\\b",
+   "Thermolysin": "thermolysin"
+  },
+  "SITE_TABLE_NAME": "sites?(\\b|[._ ])|localiz|localis|siteprob|ptm[_ ]?site",
+  "PEPTIDE_TABLE_NAME": "peptide|evidence|psm|msms|precursor",
+  "SEARCH_ARCHIVE_NAME": "(^|[_. -])(txt|combined|mq|maxquant|fragpipe|msfragger|pd|msf|spectronaut|diann|report|search|result)"
+ },
+ "file_ext": {
+  "table": [
+   ".txt",
+   ".tsv",
+   ".csv",
+   ".xlsx",
+   ".xls",
+   ".tab"
+  ],
+  "archive": [
+   ".zip",
+   ".rar",
+   ".7z",
+   ".tar",
+   ".gz",
+   ".tgz"
+  ],
+  "raw": [
+   ".raw",
+   ".wiff",
+   ".wiff2",
+   ".d.zip",
+   ".d.tar",
+   ".mzml",
+   ".mzxml",
+   ".mgf"
+  ]
+ },
+ "text_fields": [
+  "title",
+  "projectDescription",
+  "sampleProcessingProtocol",
+  "dataProcessingProtocol",
+  "keywords"
+ ],
+ "must": {
+  "M1_public": "returned by the public search endpoint",
+  "M2_traceable": "has a PXD accession",
+  "M3_modification_stated": "CYS_MOD (or PHOSPHO for the artefact-1 orthogonal-protease profile only) matches the text fields",
+  "M4_result_files": ">= 1 non-raw file (table or archive) in projectFileNames",
+  "M5_organism": "organisms non-empty"
+ },
+ "profiles": {
+  "A1_cleavage": {
+   "core": "M1-M5 and (a site-table file, or a search-output archive, or a table file)",
+   "orthogonal_level": "HIGH if any NONTRYPTIC protease is named in the sample protocol; MEDIUM if LysC is named and neither trypsin nor a NONTRYPTIC protease; LOW if trypsin (with or without LysC); UNSTATED otherwise",
+   "why": "the direct control the manuscript lacks is a non-tryptic digest; phosphorylation is admitted here as a different modification (basophilic kinase motifs confound it, stated as a limit)"
+  },
+  "A2_multicys": {
+   "core": "CYS_MOD, a peptide-level table file, and no site-table file",
+   "pending": "CYS_MOD with only archives (contents unknown until listed)",
+   "why": "the artefact exists only where sites are inferred from peptides"
+  },
+  "A3_abundance": {
+   "core": "CYS_MOD and ENRICH, and a companion quantification: COMPANION matches the text fields, or a linked deposit (pool_4 or a shared reference string) that does not match ENRICH",
+   "why": "protein-level contrasts need total-proteome abundance from the same samples"
+  },
+  "A4_overlap": {
+   "core": "CYS_MOD and ENRICH, and (a site-table file and a peptide-table file) -> CANDIDATE; a search-output archive only -> PENDING_FILE_INSPECTION",
+   "bonus": "BLOCK_ARM matches (a blocking arm or unenriched aliquot makes the observed negative class available)"
+  },
+  "A5_search_space": {
+   "core": "PLUS32 matches and >= 1 raw file",
+   "why": "re-searching with both +32 candidates needs the spectra"
+  }
+ },
+ "existing_instances": {
+  "A1_cleavage": {
+   "accessions": [
+    "PXD044043",
+    "PXD072089"
+   ],
+   "dois": [
+    "10.1007/s42994-025-00227-2",
+    "10.1038/s41467-019-10182-4",
+    "10.1038/s41467-023-39078-0",
+    "10.3389/fpls.2020.00777",
+    "10.1038/srep29808",
+    "10.1089/ars.2019.7777"
+   ]
+  },
+  "A2_multicys": {
+   "accessions": [
+    "PXD072089",
+    "PXD044043"
+   ],
+   "dois": []
+  },
+  "A3_abundance": {
+   "accessions": [
+    "PXD072089",
+    "PXD072035"
+   ],
+   "dois": [
+    "10.1073/pnas.2608150123"
+   ]
+  },
+  "A4_overlap": {
+   "accessions": [
+    "PXD048216",
+    "PXD054433"
+   ],
+   "dois": []
+  },
+  "A5_search_space": {
+   "accessions": [
+    "PXD015307"
+   ],
+   "dois": []
+  }
+ },
+ "independence": "a candidate is INDEPENDENT of an artefact's existing instances if its accession differs from all of them, it shares no lab-PI last name with them (read from their own metadata at run time), and none of their DOIs occurs in its references or text",
+ "verdicts": {
+  "CANDIDATE_STRONG": "profile core met, independent, and (species differs from every existing instance OR modification family differs); for A1 additionally orthogonal_level HIGH",
+  "CANDIDATE": "profile core met and independent",
+  "PENDING_FILE_INSPECTION": "musts met, profile core undecidable from metadata (archive contents); independent",
+  "NOT_INDEPENDENT": "profile core met or pending, but not independent",
+  "NOT_SUITABLE": "a must or the profile core fails (reason recorded)",
+  "NOT_ASSESSED": "record could not be retrieved"
+ },
+ "ranking_for_download_proposal": [
+  "verdict CANDIDATE_STRONG > CANDIDATE > PENDING_FILE_INSPECTION",
+  "for A1: orthogonal HIGH > MEDIUM > LOW",
+  "species differs from existing instances",
+  "modification family differs",
+  "submissionType COMPLETE",
+  "smaller required download (bytes, from the files endpoint)",
+  "accession"
+ ],
+ "download_proposal": {
+  "top_k_per_artefact": 3,
+  "files_needed": {
+   "A1_cleavage": "non-raw tables/archives",
+   "A2_multicys": "non-raw tables/archives",
+   "A3_abundance": "non-raw tables/archives of the deposit and its companion",
+   "A4_overlap": "non-raw tables/archives",
+   "A5_search_space": "raw files"
+  },
+  "note": "sizes are read from the files endpoint for shortlisted projects only; nothing is downloaded"
+ },
+ "controls": {
+  "PC_retrieval": {
+   "accessions": [
+    "PXD015307",
+    "PXD044043",
+    "PXD005168",
+    "PXD072089",
+    "PXD048216"
+   ],
+   "rule": "each must be in the topic-coherent pool; recall reported; any family whose known positive is missed is reported as 'candidate only'"
+  },
+  "PC_linking_A3": {
+   "pair": [
+    "PXD072089",
+    "PXD072035"
+   ],
+   "rule": "the linking step must connect them; if it does not, A3 companion detection is reported as recall 0 of 1 and every A3 NOT_SUITABLE caused only by 'no companion' becomes PENDING_FILE_INSPECTION"
+  },
+  "PC_classifier": {
+   "PXD048216": "A4 core met or pending",
+   "PXD015307": "A5 core met",
+   "PXD072089": "A2 core met"
+  },
+  "NC_topic": "every project admitted by CYS_MOD must contain a CYS_MOD match in its own text; admitted-by-keyword projects failing it are dropped and counted",
+  "NC_fuzzy_search": "the fraction of pool_2 search hits that fail the protease regex is reported (PRIDE search is fuzzy: 'GluC' returned a glucocorticoid study on 2026-09-22)",
+  "recall_undefined": "no known multi-protease CYSTEINE deposit exists in this tree, so recall for the A1 orthogonal family is undefined; an empty result there must be written 'not found by this search', never 'none exist'"
+ }
+}

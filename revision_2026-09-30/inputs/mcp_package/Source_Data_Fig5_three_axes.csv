@@ -1,0 +1,74 @@
+figure,panel,row,field,value,source_table,specification_label
+Fig5,a,qtrp_S1_ph5|NEG_A,share_visibility,0.8302,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S1_ph5|NEG_A,lo,0.79,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S1_ph5|NEG_A,hi,0.8692,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S1_ph5|NEG_B,share_visibility,0.4393,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S1_ph5|NEG_B,lo,0.1745,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S1_ph5|NEG_B,hi,0.7048,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S2_ph5|NEG_A,share_visibility,0.5963,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S2_ph5|NEG_A,lo,0.3129,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S2_ph5|NEG_A,hi,0.8758,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S2_ph5|NEG_B,share_visibility,-0.9075,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S2_ph5|NEG_B,lo,-3.4536,analysis output: ptm_detectability_share.csv,
+Fig5,a,qtrp_S2_ph5|NEG_B,hi,-0.0047,analysis output: ptm_detectability_share.csv,
+Fig5,a,qpers_sid_tierB|NEG_A,share_visibility,0.761,analysis output: ptm_detectability_share.csv,
+Fig5,a,qpers_sid_tierB|NEG_A,lo,0.7254,analysis output: ptm_detectability_share.csv,
+Fig5,a,qpers_sid_tierB|NEG_A,hi,0.7955,analysis output: ptm_detectability_share.csv,
+Fig5,a,qpers_sid_tierB|NEG_B,share_visibility,0.5895,analysis output: ptm_detectability_share.csv,
+Fig5,a,qpers_sid_tierB|NEG_B,lo,0.4735,analysis output: ptm_detectability_share.csv,
+Fig5,a,qpers_sid_tierB|NEG_B,hi,0.7065,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_hela|NEG_A,share_visibility,0.7555,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_hela|NEG_A,lo,0.7351,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_hela|NEG_A,hi,0.7773,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_hela|NEG_B,share_visibility,0.281,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_hela|NEG_B,lo,0.2105,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_hela|NEG_B,hi,0.3528,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_shsy5y|NEG_A,share_visibility,0.7137,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_shsy5y|NEG_A,lo,0.6784,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_shsy5y|NEG_A,hi,0.7495,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_shsy5y|NEG_B,share_visibility,0.1818,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_shsy5y|NEG_B,lo,0.1152,analysis output: ptm_detectability_share.csv,
+Fig5,a,cysboost2019_human_sno_shsy5y|NEG_B,hi,0.2497,analysis output: ptm_detectability_share.csv,
+Fig5,a,natcomm2023_ath_sno|NEG_A,share_visibility,0.876,analysis output: ptm_detectability_share.csv,
+Fig5,a,natcomm2023_ath_sno|NEG_A,lo,0.8583,analysis output: ptm_detectability_share.csv,
+Fig5,a,natcomm2023_ath_sno|NEG_A,hi,0.8929,analysis output: ptm_detectability_share.csv,
+Fig5,a,abiotech2025_ath_sno|NEG_A,share_visibility,0.7354,analysis output: ptm_detectability_share.csv,
+Fig5,a,abiotech2025_ath_sno|NEG_A,lo,0.7157,analysis output: ptm_detectability_share.csv,
+Fig5,a,abiotech2025_ath_sno|NEG_A,hi,0.7555,analysis output: ptm_detectability_share.csv,
+Fig5,a,abiotech2025_ath_sno|NEG_B,share_visibility,0.3922,analysis output: ptm_detectability_share.csv,
+Fig5,a,abiotech2025_ath_sno|NEG_B,lo,0.3207,analysis output: ptm_detectability_share.csv,
+Fig5,a,abiotech2025_ath_sno|NEG_B,hi,0.4647,analysis output: ptm_detectability_share.csv,
+Fig5,a,fps2020_ath_sulfenyl|NEG_A,share_visibility,0.7322,analysis output: ptm_detectability_share.csv,
+Fig5,a,fps2020_ath_sulfenyl|NEG_A,lo,0.6931,analysis output: ptm_detectability_share.csv,
+Fig5,a,fps2020_ath_sulfenyl|NEG_A,hi,0.7736,analysis output: ptm_detectability_share.csv,
+Fig5,a,fps2020_ath_sulfenyl|NEG_B,share_visibility,0.8962,analysis output: ptm_detectability_share.csv,
+Fig5,a,fps2020_ath_sulfenyl|NEG_B,lo,0.8317,analysis output: ptm_detectability_share.csv,
+Fig5,a,fps2020_ath_sulfenyl|NEG_B,hi,0.9619,analysis output: ptm_detectability_share.csv,
+Fig5,b,zf_background,baseline_log2_or,0.07268830147060175,Supplemental_Data_5_retest_round_d.csv,zinc-finger-eligible background (the manuscript's primary verdict)
+Fig5,b,zf_background,baseline_ci_low,-0.9227931402682971,Supplemental_Data_5_retest_round_d.csv,zinc-finger-eligible background (the manuscript's primary verdict)
+Fig5,b,zf_background,baseline_ci_high,0.9197625172131705,Supplemental_Data_5_retest_round_d.csv,zinc-finger-eligible background (the manuscript's primary verdict)
+Fig5,b,zf_background,matched_log2_or,0.24283610199437483,Supplemental_Data_5_retest_round_d.csv,zinc-finger-eligible background (the manuscript's primary verdict)
+Fig5,b,zf_background,matched_ci_low,-0.936460754095862,Supplemental_Data_5_retest_round_d.csv,zinc-finger-eligible background (the manuscript's primary verdict)
+Fig5,b,zf_background,matched_ci_high,1.4026096993836608,Supplemental_Data_5_retest_round_d.csv,zinc-finger-eligible background (the manuscript's primary verdict)
+Fig5,b,zf_background,random_control_log2_or,-0.006899441589789871,Supplemental_Data_5_retest_round_d.csv,zinc-finger-eligible background (the manuscript's primary verdict)
+Fig5,b,zf_background,random_control_ci_low,-1.251098419676969,Supplemental_Data_5_retest_round_d.csv,zinc-finger-eligible background (the manuscript's primary verdict)
+Fig5,b,zf_background,random_control_ci_high,1.311646572619149,Supplemental_Data_5_retest_round_d.csv,zinc-finger-eligible background (the manuscript's primary verdict)
+Fig5,b,primary,baseline_log2_or,3.4971325374907614,Supplemental_Data_5_retest_round_d.csv,whole-proteome background (the manuscript's secondary arm)
+Fig5,b,primary,baseline_ci_low,2.546560041943566,Supplemental_Data_5_retest_round_d.csv,whole-proteome background (the manuscript's secondary arm)
+Fig5,b,primary,baseline_ci_high,4.175687821775361,Supplemental_Data_5_retest_round_d.csv,whole-proteome background (the manuscript's secondary arm)
+Fig5,b,primary,matched_log2_or,1.9299881395421816,Supplemental_Data_5_retest_round_d.csv,whole-proteome background (the manuscript's secondary arm)
+Fig5,b,primary,matched_ci_low,0.5408031953261315,Supplemental_Data_5_retest_round_d.csv,whole-proteome background (the manuscript's secondary arm)
+Fig5,b,primary,matched_ci_high,3.9805522391890267,Supplemental_Data_5_retest_round_d.csv,whole-proteome background (the manuscript's secondary arm)
+Fig5,b,primary,random_control_log2_or,3.1040749962533214,Supplemental_Data_5_retest_round_d.csv,whole-proteome background (the manuscript's secondary arm)
+Fig5,b,primary,random_control_ci_low,1.144659139180099,Supplemental_Data_5_retest_round_d.csv,whole-proteome background (the manuscript's secondary arm)
+Fig5,b,primary,random_control_ci_high,5.614709844115208,Supplemental_Data_5_retest_round_d.csv,whole-proteome background (the manuscript's secondary arm)
+Fig5,c,SFE-001,attribute_rate_positive,0.6631,Supplemental_Data_6_retest_round_e.csv,
+Fig5,c,SFE-001,attribute_rate_negative,0.2488,Supplemental_Data_6_retest_round_e.csv,
+Fig5,c,SNO-012,attribute_rate_positive,0.5636,Supplemental_Data_6_retest_round_e.csv,
+Fig5,c,SNO-012,attribute_rate_negative,0.4598,Supplemental_Data_6_retest_round_e.csv,
+Fig5,c,SNO-002,attribute_rate_positive,0.3403,Supplemental_Data_6_retest_round_e.csv,
+Fig5,c,SNO-002,attribute_rate_negative,0.3325,Supplemental_Data_6_retest_round_e.csv,
+Fig5,c,SNO-001,attribute_rate_positive,0.3445,Supplemental_Data_6_retest_round_e.csv,
+Fig5,c,SNO-001,attribute_rate_negative,0.3057,Supplemental_Data_6_retest_round_e.csv,
+Fig5,c,SNO-009,attribute_rate_positive,0.521,Supplemental_Data_6_retest_round_e.csv,
+Fig5,c,SNO-009,attribute_rate_negative,0.5309,Supplemental_Data_6_retest_round_e.csv,

@@ -1,0 +1,9 @@
+arm,hyd,rows,cam_rows,proteins,protein_absent_rows,protein_absent_proteins,position_beyond_rows,not_cys_rows,dropped_rows,dropped_cam_rows,rows_kept,cam_rows_kept
+Trypsin,HydP,5328,1359,2009,35,18,0,0,35,5,5293,1354
+Trypsin,HydN,2024,660,980,6,6,0,0,6,2,2018,658
+AspN,HydP,187,115,142,0,0,0,0,0,0,187,115
+AspN,HydN,22,3,18,0,0,0,0,0,0,22,3
+CT,HydP,728,411,474,4,3,0,0,4,1,724,410
+CT,HydN,61,23,47,0,0,0,0,0,0,61,23
+GluC,HydP,884,519,516,4,3,0,0,4,2,880,517
+GluC,HydN,68,34,48,0,0,0,0,0,0,68,34

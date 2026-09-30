@@ -1,0 +1,27 @@
+{
+ "label": "POST HOC revision analysis E_bootstrap_coverage (not registered)",
+ "n_claims": 28,
+ "verdicts_reproduced_from_stored_intervals": 28,
+ "mismatches": [],
+ "stored_verdict_counts": {
+  "undecidable": 12,
+  "survives": 11,
+  "attenuated": 2,
+  "vanishes": 1,
+  "null_broken_by_control": 1,
+  "baseline_contradicts_claim": 1
+ },
+ "inputs_sha256": {
+  "Source_Data_Fig6_claim_retests.csv": "ea453863589577aee7c59dc9911481af8ed1fe4696b5150e77fe97974cd326af",
+  "Supplemental_Data_4_retest_round_b.csv": "0b70010515d55912284347866b3e427cfa21cf810eb5e74205f4c6c0a3e7db77",
+  "Supplemental_Data_5_retest_round_d.csv": "d66185d2f6bf35e48a797aacc58dedf8d714c0161fac865d2fe5ba273b70459b",
+  "Supplemental_Data_6_retest_round_e.csv": "91d5c23786453a0bde724fa2daef8d9c7e0bf47e9aac0764d49410b7021476c3",
+  "Supplemental_Data_2_claim_verdict_tally.csv": "53d04dfa9356e0dd63fe3064ec7c4c2c83cbebbfe677114d98186283526e5724"
+ },
+ "repo_audit_sha256": {
+  "phase2_claim_retest_audit.json": "6c55fc93aa491728b0d5078b46678b0eb880260cc74d8ccdc998635ef479e803",
+  "phase2b_claim_retest_audit.json": "330b36356d2acb8ffb63f71ade855d49a336489c135f3ae25b7494c7327852e8",
+  "phase2d_claim_retest_audit.json": "752a3434dc68923018c2d3d90024bd4711c9b1ced160b68add8ad6397a6fc235",
+  "phase2e_claim_retest_audit.json": "2434cd3f20951bd407a920e5f49f9602350c1728d2980b3e81cdf126ee9b414a"
+ }
+}

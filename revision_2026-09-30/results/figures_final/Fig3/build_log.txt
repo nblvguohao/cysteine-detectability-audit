@@ -1,0 +1,85 @@
+{
+ "curve_constant_K_ppm_Da_all_window_rows_agree": [
+  17758.06479999886,
+  17758.064799998865
+ ],
+ "nonsulfide_counts_match_deposit_nonsulfide_by_arm_chain_charge": true,
+ "panel_b_readings_follow_stored_z_rule": true,
+ "panel_b_robust_summaries": {
+  "CTH_Cys A chain -6.497743547370178 ppm": "neither under every baseline",
+  "CTH_Cys A chain 4.598372052546707 ppm": "baseline-dependent: sulfide only (D1, D2, D3, D4); neither (D6a); dioxidation only (D6b)",
+  "NaHS B chain 4.41737649307104 ppm": "sulfide only under every baseline",
+  "NaHS B chain 7.75364331130552 ppm": "either under every baseline"
+ },
+ "panel_c_values_identical_to_current_source_data": true,
+ "font_sizes": [
+  5.9,
+  6.5,
+  7.0,
+  8.0
+ ],
+ "font_families": [
+  "Arial"
+ ],
+ "text_outside_canvas": [],
+ "text_collisions": [],
+ "pdf_text_text_overlaps": [],
+ "pdf_text_mark_overlaps": [],
+ "pdf_words": 241,
+ "pdf": {
+  "page_pt": [
+   518.4,
+   361.44
+  ],
+  "fonts": [
+   "ELUGPM+Arial-BoldMT",
+   "ELUGPM+ArialMT"
+  ],
+  "min_span_size_pt": 5.9,
+  "span_fonts": [
+   "Arial-BoldMT",
+   "ArialMT"
+  ],
+  "n_pages": 1
+ },
+ "ledger_rows": 523,
+ "ledger_values_not_drawn": [],
+ "swarm_worst_overlap": {
+  "CTH_Cys": 0.0,
+  "NaHS": 0.0,
+  "heat_inactive_CTH": 0.0
+ },
+ "checks": {
+  "width_exactly_518.4_pt": true,
+  "height_le_432_pt": true,
+  "fonts_arial_only": true,
+  "min_text_ge_5.7_pt": true,
+  "no_text_collisions": true,
+  "no_text_text_overlaps_in_pdf": true,
+  "no_text_over_marks_in_pdf": true,
+  "titles_7pt_letters_8pt_bold": true,
+  "no_text_outside_canvas": true,
+  "every_ledger_value_drawn_or_printed": true,
+  "panel_b_swarm_markers_do_not_overlap": true
+ },
+ "inputs_sha256": {
+  "H_artifact5_docs/precursor_accuracy_decidability.csv": "48e03a22ff4828f574523ab6cc9efeaf9e877a5db5772a9b2740a2c9ec9e3122",
+  "H_artifact5_docs/deposit_sulfide_psms_baseline_sensitivity.csv": "7f6392a8e56e1b3f16fc33e70e17cfbabeec519e4573be7642312e209abb9ec5",
+  "H_artifact5_docs/deposit_nonsulfide_by_arm_chain_charge.csv": "59d0df79279b234db57b4249c37dc6dbfe0086f1e9205d521a1e2d9ad6143544",
+  "H_artifact5_docs/deposit_sulfide_psms_reassessed.csv": "ca93837eee315d9e8640d7499a538b8573fe4398f3543f93bab8e7db624cec83",
+  "H_artifact5_docs/deposit_sulfide_psms_robust_reading.csv": "6009f912ea953a52a31dd13ad9135e372b84368a725ba5b3d61a743b744e3d97",
+  "H_artifact5_docs/deposit_plus32_summary.json": "3c1a599febc052fa401c7992cc45f94cdc346f2a8d6ddc2f38d1a34357fd4cbe",
+  "H_artifact5_docs/fragment_bin_arithmetic.csv": "7bdd21bda41426c4ce55e01bbed0a7834fdc41821418f1f580db0312be9b3d40",
+  "H_artifact5_docs/single_cys_tie_rate_when_both_scored.csv": "d26bbedfba20889666fe3ff54932f793ca5b8b167fc98ecbafe70b222f53debc",
+  "repo/results/search_space_mass_accuracy.csv": "5984425bd851b25b272e17376a691a65318728f5778d006c431405d8296613d7",
+  "repo/results/pxd015307_research_summary.csv": "24bc48cb4044325a1f53fad5f193b68af78f30de90e64cfc0f140df682139d64",
+  "MCP/source_data/Source_Data_Fig3_search_space.csv (read-only cross-check)": "5114f9a0ee6b494322b4092108c2c4a83dbdf1eaf11192e2af1ba01e1c384d2d"
+ },
+ "outputs_sha256": {
+  "Fig3_search_space.pdf": "94cfe46fd82f3ef18781523c22919839d2b7f8807fc748319fcafd91f77fd229",
+  "Fig3_search_space.png": "67715dd66b703f6b882381b85145829acb48560976880b79fc3935f36ebb82a6",
+  "Source_Data_Fig3_search_space.csv": "7b6a1cdc45698de00ca7319549d9a8c7e290f014f7c0d0b89e578b90975b44a4"
+ },
+ "script_sha256": "6d47252791454def262b3748cce47f6b5b8ac9cbd8b7de3a0012872bd3e48e9c"
+}
+all gates pass

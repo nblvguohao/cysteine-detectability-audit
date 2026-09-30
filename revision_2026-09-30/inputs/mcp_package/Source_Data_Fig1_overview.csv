@@ -1,0 +1,15 @@
+figure,panel,row,field,value,source_table
+Fig1,b,Passed screening,records,942,Supplemental_Data_9_survey_coding_table.csv
+Fig1,b,Full text retrieved,records,367,Supplemental_Data_9_survey_coding_table.csv
+Fig1,b,Sampled for coding,records,120,Supplemental_Data_9_survey_coding_table.csv
+Fig1,b,Classified,records,74,Supplemental_Data_9_survey_coding_table.csv
+Fig1,c,Other or not stated,classified_analyses,37,Supplemental_Data_9_survey_coding_table.csv
+Fig1,c,"All residues, unrestricted",classified_analyses,35,Supplemental_Data_9_survey_coding_table.csv
+Fig1,c,Detected but unmodified,classified_analyses,2,Supplemental_Data_9_survey_coding_table.csv
+Fig1,c,Detectability or abundance matched,classified_analyses,0,Supplemental_Data_9_survey_coding_table.csv
+Fig1,d,Survives,claims,11,Supplemental_Data_2_claim_verdict_tally.csv
+Fig1,d,Undecidable,claims,12,Supplemental_Data_2_claim_verdict_tally.csv
+Fig1,d,Attenuated,claims,2,Supplemental_Data_2_claim_verdict_tally.csv
+Fig1,d,Null broken by control,claims,1,Supplemental_Data_2_claim_verdict_tally.csv
+Fig1,d,Vanishes,claims,1,Supplemental_Data_2_claim_verdict_tally.csv
+Fig1,d,Baseline contradicts claim,claims,1,Supplemental_Data_2_claim_verdict_tally.csv

@@ -1,0 +1,29 @@
+claim_id,level,attribute_class,final_verdict,stored_verdict,note
+PERS-002,site,other_sequence_motif,undecidable,undecidable,stored verdict
+PERS-003,site,hydrophobic_composition,undecidable,undecidable,stored verdict
+PERS-005,protein,protein_level,survives,survives,stored verdict
+PERS-006,protein,protein_level,undecidable,undecidable,stored verdict
+PERS-008,protein,protein_level,undecidable,undecidable,stored verdict
+PERS-009,site,basic_motif,attenuated,attenuated,stored verdict
+PERS-010,protein,protein_level,survives,survives,stored verdict
+PERS-011,protein,protein_level,survives,survives,stored verdict
+PERS-012,protein,protein_level,survives,survives,stored verdict
+SFE-001,site,structural,survives,survives,stored verdict
+SFE-002,site,acidic_motif,survives,survives,stored verdict
+SFE-006,site,basic_motif,attenuated,vanishes,"tallied on the authors' own data (Yang 2014 component: 1.3840 -> 0.5950, random control 1.3918); transfer verdict 'vanishes' reported separately"
+SFE-007,site,acidic_motif,undecidable,undecidable,stored verdict
+SFE-008,site,basic_motif,undecidable,undecidable,stored verdict
+SFE-011,protein,protein_level,undecidable,undecidable,stored verdict
+SFI-001,protein,protein_level,survives,survives,stored verdict
+SFI-002,protein,protein_level,survives,survives,stored verdict
+SNO-001,site,structural,undecidable,undecidable,stored verdict
+SNO-002,site,structural,undecidable,undecidable,stored verdict
+SNO-004,site,hydrophobic_composition,null_broken_by_control,null_broken_by_control,stored verdict
+SNO-005,site,other_sequence_motif,undecidable,undecidable,stored verdict
+SNO-006,site,acidic_motif,survives,survives,stored verdict
+SNO-008,protein,protein_level,survives,survives,stored verdict
+SNO-009,site,structural,undecidable,undecidable,stored verdict
+SNO-012,site,structural,undecidable,attenuated,"stored verdict was 'attenuated' from pipeline code lacking the baseline-covers-zero branch; the stated rule and the released Cys-Audit claim_verdict give 'undecidable' because the baseline interval 0.59 [-0.27, 1.50] covers zero; survives under the pLDDT >= 70 specification (specification-dependent)"
+SNO-014,site,acidic_motif,undecidable,undecidable,stored verdict
+SNO-016,site,basic_motif,baseline_contradicts_claim,baseline_contradicts_claim,stored verdict
+SNO-021,site,basic_motif,survives,survives,stored verdict

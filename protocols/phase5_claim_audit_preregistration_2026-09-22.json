@@ -1,0 +1,62 @@
+{
+ "phase": 5,
+ "date": "2026-09-22",
+ "inputs_sha256": {
+  "results/phase2_claim_retest.csv": "7893214659f04aa44be81cc26457f80118a35c82ed2d16afe108c9117229d632",
+  "results/phase2b_claim_retest_combined.csv": "c0609e48ed2cca792db08d25ba3d2b084739865c0b28e5215e4f973a8354faca",
+  "results/phase2d_claim_retest.csv": "5413876779d2130c3866961030faf0a2d4dd33483c9228707b38ebbd8fb5050b",
+  "results/phase2e_claim_retest.csv": "d7a597395b1c6f4ddc517439f91ba9a75075b5af37101c2de932f317001223f3",
+  "results/claim_verdict_tally_2026-09-17.csv": "3751d6ba9f30aa056e566f1a40e70534f26fe6a6bcf362e398d2ba28725a833d",
+  "results/ptm_site_preference_claims.csv": "714def1f142a75d1468cfa06b48728b61a5db0c8c64a852dd3add0cdd8dc1a88",
+  "scripts/phase2_claim_cohorts.py": "ee135433bf0ad6267e57610c2caf0e8d2280e887eac60defd76a8d8d7f208674",
+  "scripts/phase2b_claim_cohorts.py": "db39129982cee748138323345d3e0f033654db198e1a95caacf7d147a83e1a4f",
+  "scripts/phase2d_claim_cohorts.py": "3ff5f52493c037d306f04c052b65103d9a157cb427e23f0a987896a315300f16",
+  "scripts/phase2e_claim_cohorts.py": "962502365a5d8dda33d257402f4d33c96074ce8f1d293eb7f2e5c2a226a2d6d7",
+  "protocols/phase4_cys_audit_preregistration_2026-09-22.json": "ea9c31a61814cc2d8a3ac1a45945e06525541cb68140c06cdd6f04c0305ca87a"
+ },
+ "M1_expected": {
+  "claims": 35,
+  "with_baseline": 28,
+  "counts": {
+   "survives": 12,
+   "undecidable": 11,
+   "null_broken_by_control": 2,
+   "attenuated": 1,
+   "vanishes": 1,
+   "baseline_contradicts_claim": 1
+  },
+  "no_baseline": [
+   "out_of_instrument_scope",
+   "blocked_material_unreachable"
+  ]
+ },
+ "verdict_status": {
+  "survives": "PASS",
+  "attenuated": "ATTENUATED",
+  "undecidable": "UNDECIDABLE",
+  "vanishes": "FAIL",
+  "baseline_contradicts_claim": "FAIL",
+  "null_broken_by_control": "FAIL"
+ },
+ "species_keys": {
+  "ath": "Arabidopsis thaliana",
+  "hsa": "Homo sapiens",
+  "osa": "Oryza sativa",
+  "mmu": "Mus musculus",
+  "pvu": "Phaseolus vulgaris",
+  "tgo": "Toxoplasma gondii"
+ },
+ "X1": {
+  "tool_protocol": "protocols/phase4_cys_audit_preregistration_2026-09-22.json",
+  "protease": "trypsin",
+  "background": "proteome",
+  "bootstrap_reps": 5000,
+  "interpreter": "3.11.16",
+  "direction_map": {
+   "positive_preference": "positive",
+   "null_no_preference": "null"
+  },
+  "gate_G1": "rebuilt n_observations and n_positive equal the stored row",
+  "stop_if_G1_fail_more_than": 3
+ }
+}

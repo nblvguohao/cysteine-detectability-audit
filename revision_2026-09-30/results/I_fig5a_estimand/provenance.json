@@ -1,0 +1,223 @@
+{
+ "item": "I_fig5a_estimand",
+ "label": "POST HOC revision analysis in response to pre-submission review criticism of Figure 5a; not registered and not pre-specified",
+ "generated": "2026-09-30T01:48:14+08:00",
+ "analysis_date": "2026-09-30",
+ "what_was_computed": [
+  "s01: tables of stored absolute AUCs (global and within-protein) for VIS10, DIG25, CPL15 under NEG_A/NEG_B; share recomputation and rounding bounds; Source Data and manuscript-number checks; derived point quantities (within-protein share, complement ratio, unit composition); task-3 table; proposed Source Data rows",
+  "s02: feature-definition identities (CPL15 encodes peptide length) using the original feature code on synthetic sequences and the first 3,000 mouse reference-proteome entries (not a Fig. 5a cohort)",
+  "s03: availability of the inputs a chemistry-aware denominator would need; no model fitted",
+  "s04: draft figure of the stored absolute AUCs"
+ ],
+ "models_fitted": "none",
+ "network_access": "none",
+ "seeds": {
+  "synthetic_sequences_s02": 20260930,
+  "original_census_bootstrap_seed_not_rerun": 20260915
+ },
+ "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+ "platform": "Windows-10-10.0.26200-SP0",
+ "libraries": {
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scipy": "1.15.3",
+  "scikit-learn": "1.7.2",
+  "matplotlib": "3.10.9"
+ },
+ "inputs_read": {
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\public\\revision_2026-09-30\\inputs\\repo_results\\ptm_detectability_share.csv": {
+   "exists": true,
+   "sha256": "732fd67a04d0a5b9a261873cbe85196389ef98d79a1a25b1a54273dd80f9c249",
+   "bytes": 10502
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\public\\revision_2026-09-30\\inputs\\mcp_package\\Source_Data_Fig5_three_axes.csv": {
+   "exists": true,
+   "sha256": "624780e0dab500fae47e246b148c25a69ba6512515656e8456d21f99fe1d31cf",
+   "bytes": 8041
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\巯基化\\MCP\\01_manuscript.tex": {
+   "exists": true,
+   "sha256": "32242ded279cd1f5648dce59efa7b160dfc926e5dc6012d383c67a153d6991a1",
+   "bytes": 127420
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\巯基化\\MCP\\supplemental\\Supplemental_Note_7_artefact4_public_deposit.md": {
+   "exists": true,
+   "sha256": "76ba73b4959d6386cf2c89f8b44307787a2273217849e166ec3b6d59751dfaad",
+   "bytes": 7743
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\巯基化\\MCP\\supplemental\\Supplemental_Data_7_dataset_census.csv": {
+   "exists": true,
+   "sha256": "1dffb8882731ae57b6e0ffe01b1fb65dc3383cb3064f419392d0ddad0e0f4a78",
+   "bytes": 293507
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\scripts\\run_cross_protease_detectability_probe.py": {
+   "exists": true,
+   "sha256": "46f60db339d1a93baa0d56b7384614279491f553a0d65e18794c5b6da99a02f1",
+   "bytes": 14926
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\results\\ptm_detectability_census_audit.json": {
+   "exists": true,
+   "sha256": "39db072e151bad614b4eb5a79bce3b571cc39f3c6a9bf9091aa931a31596b3ba",
+   "bytes": 8559
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\public\\revision_2026-09-30\\external\\UP000000589_10090.fasta.gz": {
+   "exists": true,
+   "sha256": "c24568f70ce9ffd7693a1ecd31c23eaa97a1f43d9305e2ff5401bdf30e2a0a93",
+   "bytes": 8053531
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\results\\ptm_census_sites_audit.json": {
+   "exists": true,
+   "sha256": "1df7307f5a4459f159ad12a4d5d4541037d0a7e505b99a4911e4d2f43cca1f18",
+   "bytes": 13565
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\results\\structural_site_features.csv": {
+   "exists": true,
+   "sha256": "8ded2295ac3981b1580f898b83a59dbce09b9b0b895614ab659e9a32f3156a52",
+   "bytes": 674315
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\results\\qtrp_sites_normalised.csv": {
+   "exists": true,
+   "sha256": "8b0207a39ab769afd2917738fed83e01fa4f390cc1fdaa191ffcccf9faa14dc7",
+   "bytes": 3774095
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\results\\qpers_sid_sites_normalised.csv": {
+   "exists": true,
+   "sha256": "c03505d94dd39788eabbccaa19e373be340931076fefa7a74a05e3a2cf3b863d",
+   "bytes": 14313441
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\public\\revision_2026-09-30\\results\\I_fig5a_estimand\\t1_absolute_auc_by_arm.csv": {
+   "exists": true,
+   "sha256": "9b06ac85e727271517b2603f0001551109f5fde5071d7f9741f6c82382e0f56b",
+   "bytes": 10242
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\results\\ptm_detectability_diagnostics_audit.json": {
+   "exists": true,
+   "sha256": "a473175f9cda4d20ec3a302727147225cd272d523cfe11ed36319a41c4b5be4b",
+   "bytes": 6090
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\results\\ptm_detectability_census_verification.csv": {
+   "exists": true,
+   "sha256": "4b0111aa84058504d43d05713a8f80c1ddaf9622fd8ae8aef9e845ff88074eba",
+   "bytes": 8399
+  }
+ },
+ "original_repository_scripts": {
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\scripts\\run_ptm_detectability_census.py": {
+   "sha256_raw": "23f3e94074f7c2cf64f859bfbdb80329d80d55aa277c1fdeea0145aca877674a",
+   "sha256_lf_normalised": "4f49f75c600da90921ad9efd3fad2874e87865e07756170d09741ceb4c44f9bc",
+   "sha256_recorded_in_census_audit": "4f49f75c600da90921ad9efd3fad2874e87865e07756170d09741ceb4c44f9bc",
+   "unchanged_except_line_endings": true
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\scripts\\run_cross_protease_detectability_probe.py": {
+   "sha256_raw": "46f60db339d1a93baa0d56b7384614279491f553a0d65e18794c5b6da99a02f1",
+   "sha256_lf_normalised": "f9b990dd6ba016f4aeeba9bcb436f6e8750cd252308e6dae1c9f00518b6d8b0a",
+   "sha256_recorded_in_census_audit": "f9b990dd6ba016f4aeeba9bcb436f6e8750cd252308e6dae1c9f00518b6d8b0a",
+   "unchanged_except_line_endings": true
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\scripts\\ingest_ptm_census_sites.py": {
+   "sha256_raw": "efb62b86defa3feffa2cad5584e81fe3fb6610fb49b1ec18f34448ba9021385c",
+   "sha256_lf_normalised": "06cc18adf7c7c0219b57cea5e711f79c32388eef9c58d026781904ee94c550cd",
+   "sha256_recorded_in_census_audit": "06cc18adf7c7c0219b57cea5e711f79c32388eef9c58d026781904ee94c550cd",
+   "unchanged_except_line_endings": true
+  },
+  "C:\\Users\\admin\\Desktop\\小论文\\_cys_repo_work\\repo\\scripts\\ptm_detectability_diagnostics.py": {
+   "sha256_raw": "8729ffca16eac100aab7667e36ef899389eac206ba4c992df2a5ab2a726f5109",
+   "sha256_lf_normalised": "d3cd726c882fc5f88f30a7312fb2fcdcc5cd691fd95cd3ea4f59711fb2d89234",
+   "sha256_recorded_in_diagnostics_audit": "d3cd726c882fc5f88f30a7312fb2fcdcc5cd691fd95cd3ea4f59711fb2d89234",
+   "unchanged_except_line_endings": true
+  }
+ },
+ "original_census_inputs_recorded_but_absent_locally": {
+  "results/ptm_census_sites.csv": "590ea6f1d54bd980a1ecf31c4716deb6ca1cb91aca04bf4537445cacb3361c2e",
+  "external/proteomes/hsa.fasta.gz": "5ad26455171d0f859ff59d8bb65b5b55b4ae72f28116fc21a4981ba7856ef8cc",
+  "external/proteomes/ath.fasta.gz": "1112828557e7a40a4effe3d67d3838ba328fa38a0ecf0b26d9de9b6c0d801555"
+ },
+ "item_scripts_sha256": {
+  "common.py": "c86a6edf28d6dbbb0e1450c60bb0704b1c552ed7c5125701488665e2f8f4ec7c",
+  "run_all.py": "03cd1ae6c99e0721e4a78cb24052e3f2ad7c5e563486f18e51178abb9af62e93",
+  "s01_tables.py": "74e4512b38d0a5c1b4b04ae226e0a3e02c6ad6d38894754e5a2a3ba239fb9612",
+  "s02_feature_identity.py": "511595c3c70fb36a359dfae282235b2b5ec975ae86c1e049ca63dae9b4f5c774",
+  "s03_input_availability.py": "88067fd9fd61a0aebef1d7c9c3b1f4f2350616dcc7fb46ed3b631839ad82ce2a",
+  "s04_plot_draft.py": "27233c002a567ce1584a956aa48a2e162ba6b15b424150f923b1f14bf567b27a",
+  "s05_provenance.py": "faa18796f3e0637806e81d8f85513451e6a229177baaaa749732c135e37caf2a"
+ },
+ "outputs_sha256": {
+  "feature_identity_check.json": {
+   "sha256": "133015fb2692bb2bc6b0316e221736946f87be4090dca052d267dac4e8d6b27a",
+   "bytes": 4059
+  },
+  "fig5a_absolute_auc_DRAFT.pdf": {
+   "sha256": "bfed6d3ca3f94db933f6e9077f72219dc1b49f051e52620341fd5255e351b213",
+   "bytes": 65750
+  },
+  "fig5a_absolute_auc_DRAFT.png": {
+   "sha256": "9ec18742e8c28d7d0fd39e4556d8df704d3fdad8dc3d82ab6e6fed54e03f3af9",
+   "bytes": 199547
+  },
+  "Source_Data_Fig5_three_axes_PROPOSED.csv": {
+   "sha256": "402184dc1b548e9bf6245bdb484531eedab45ae49ab2a44173bfcbe8c53d6fca",
+   "bytes": 61656
+  },
+  "Source_Data_Fig5a_absolute_auc_ADDITION_PROPOSED.csv": {
+   "sha256": "af25af151888cbce5b561360b629bcf549128a67259fcab981a44cfa7f6e61fd",
+   "bytes": 53332
+  },
+  "summary_numbers.json": {
+   "sha256": "a47bafd3453bde54bf6f660accb029d1094b48b141bcf4c2154e81faeb8bd65e",
+   "bytes": 4592
+  },
+  "t1_absolute_auc_by_arm.csv": {
+   "sha256": "9b06ac85e727271517b2603f0001551109f5fde5071d7f9741f6c82382e0f56b",
+   "bytes": 10242
+  },
+  "t1_absolute_auc_long.csv": {
+   "sha256": "7411fa53e01b3905298f30c107c41901794f6b0004b38d390e6038807520c909",
+   "bytes": 36005
+  },
+  "t1_sd7_crosscheck.csv": {
+   "sha256": "027b029d1ff5c02be97d24a9bdaca3cf39ebb08bcc4d534403bb01b43c7fc983",
+   "bytes": 1922
+  },
+  "t1_share_verification.csv": {
+   "sha256": "4412bc211c6fac973835e7ca695052e43afd083bef1133d6921493534111a9d6",
+   "bytes": 2920
+  },
+  "t1_source_data_match.csv": {
+   "sha256": "3722b18270cf3e1ceb44d6760e2082634ec5e8fea83113edd393f2e21ffccba6",
+   "bytes": 2469
+  },
+  "t2_caliber_composition_and_overlap.csv": {
+   "sha256": "06fc236fa9125d6a4e4e122aaea84fbae90912d93233c1ffff6453db249b269b",
+   "bytes": 4324
+  },
+  "t2_negA_vs_negB_paired_points.csv": {
+   "sha256": "4c93c0ec603c3b3532aa2b5fb5ed796f5d66db0cc00cdfad503492e698c04696",
+   "bytes": 3096
+  },
+  "t3_input_availability.json": {
+   "sha256": "f688c84dd3c9fae2b6937088a34320881aa4bfedc610f3cddd7664734b5045db",
+   "bytes": 6769
+  },
+  "t3_negB_within_protein_digest.csv": {
+   "sha256": "57bee27a106a8896e30de5db7be807da9fdf77b44a7bced375268330cc116c5b",
+   "bytes": 3006
+  }
+ },
+ "steps": {
+  "s01_tables": {
+   "step": "s01_tables"
+  },
+  "s02_feature_identity": {
+   "step": "s02_feature_identity",
+   "probe_sha256_lf_normalised": "f9b990dd6ba016f4aeeba9bcb436f6e8750cd252308e6dae1c9f00518b6d8b0a",
+   "seed": 20260930
+  },
+  "s03_input_availability": {
+   "step": "s03_input_availability"
+  },
+  "s04_plot_draft": {
+   "step": "s04_plot_draft"
+  }
+ },
+ "reproduce": "cd scripts/I_fig5a_estimand && python -B run_all.py"
+}

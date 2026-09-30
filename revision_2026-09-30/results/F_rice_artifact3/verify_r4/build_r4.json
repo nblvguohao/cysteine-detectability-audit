@@ -1,0 +1,52 @@
+{
+ "label": "VERIFIER round 4 (POST HOC), independent rebuild",
+ "inputs_sha256": {
+  "report": "36ce465600c72a96763aa7522fd7d3d019fed0c16e0de70f396437e508bf955a",
+  "peptides": "57c4ce64b5747eb591e879565916c04e0901ea228c20e511b2e1804fb384890c",
+  "fasta": "0362824104575e680053e3168a85f72d0cd5e1f1c96100753510a06ba5f2866b",
+  "fetched": "bc5893b23ec96949edcaa8a1b9f4be6962f8eda6b0f08a4682ff96e64e9d01f5"
+ },
+ "n_ref_entries": 43678,
+ "report_rows": 7825,
+ "groups_dropped_no_ibaq": 133,
+ "groups": 7692,
+ "accession_lists_alphabetical": 7825,
+ "labels": {
+  "A": 1197,
+  "S": 750,
+  "S1": 692,
+  "S_map": 725
+ },
+ "A_not_S": 447,
+ "with_sequence": 7692,
+ "n_det_ge1": 6990,
+ "no_cys": 528,
+ "frac_cys_detectable": 0.8121832265468107,
+ "frac_groups_no_undet": 0.5278211128445138,
+ "negatives": 6495,
+ "negatives_with_an_accession_in_Proteins_column": 803,
+ "comparison_with_item": {
+  "merge": {
+   "both": 7692,
+   "left_only": 0,
+   "right_only": 0
+  },
+  "mismatch_A": 0,
+  "mismatch_S": 0,
+  "mismatch_S1": 0,
+  "mismatch_S_map": 0,
+  "mismatch_length": 0,
+  "mismatch_n_cys": 0,
+  "mismatch_n_det": 0,
+  "max_abs_diff_log10_ibaq": 1.3322676295501878e-15,
+  "max_rel_diff_quantity": 3.399563501281114e-16,
+  "mismatch_ndet_w6_35": 0,
+  "mismatch_ndet_w7_40": 0,
+  "mismatch_ndet_w5_50": 0,
+  "mismatch_ndet_wTP": 0,
+  "mismatch_smap_w6_35": 0,
+  "mismatch_smap_w7_40": 0,
+  "mismatch_smap_w5_50": 0,
+  "mismatch_smap_wTP": 0
+ }
+}

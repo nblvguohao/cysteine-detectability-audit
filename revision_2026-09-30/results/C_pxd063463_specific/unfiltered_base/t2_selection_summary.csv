@@ -1,0 +1,5 @@
+arm,hydp_sites,sites_identified_in_own_hydn_arm,sites_identified_in_tryptic_hydn_arm,sites_identified_in_pooled_hydn,sites_identified_in_pooled_hydn_only_via_tryptic_arm,sites_cam_in_tryptic_hydn_arm,strict_pooled,strict_pooled_identified_in_own_hydn_arm,strict_pooled_identified_in_tryptic_hydn_arm
+Trypsin,1359,708,708,710,0,538,169,168,168
+AspN,115,6,51,56,49,43,8,2,7
+CT,411,26,146,160,131,97,50,4,46
+GluC,519,43,193,214,169,122,72,9,66

@@ -1,0 +1,21 @@
+group,feature,contrast,n_observed,n_not_observed,share_feature_observed,share_feature_not_observed,log2_or,ci95_low,ci95_high,boot_p
+all_cysteines,kr_dist,observed in the unenriched arm vs not (log2 OR of carrying the feature),4848,24654,0.8496287128712872,0.7539952948811552,0.8816998740974986,0.7468554196619739,1.021095361010668,0.0001999600079984003
+all_cysteines,kr_prox,observed in the unenriched arm vs not (log2 OR of carrying the feature),4848,24654,0.4205858085808581,0.49050863957167196,-0.40732098064294026,-0.505865600455915,-0.31085817933255006,0.0001999600079984003
+all_cysteines,de_dist,observed in the unenriched arm vs not (log2 OR of carrying the feature),4848,24654,0.8362211221122112,0.8038857791839052,0.3162213007422338,0.19094276806847976,0.4496775084682075,0.0001999600079984003
+all_cysteines,de_prox,observed in the unenriched arm vs not (log2 OR of carrying the feature),4848,24654,0.5870462046204621,0.5,0.5073868570950739,0.4045007712782372,0.611491411116141,0.0001999600079984003
+sites_only,kr_dist,observed in the unenriched arm vs not (log2 OR of carrying the feature),940,414,0.8648936170212767,0.8671497584541062,-0.02178699527552191,-0.5731522027739763,0.4708045976185283,0.9088
+sites_only,kr_prox,observed in the unenriched arm vs not (log2 OR of carrying the feature),940,414,0.425531914893617,0.5410628019323671,-0.6694168225737651,-1.008389426954194,-0.3427604595251956,0.0001999600079984003
+sites_only,de_dist,observed in the unenriched arm vs not (log2 OR of carrying the feature),940,414,0.8329787234042553,0.7318840579710145,0.8699286397499241,0.42847702287587636,1.2936796176144818,0.0004
+sites_only,de_prox,observed in the unenriched arm vs not (log2 OR of carrying the feature),940,414,0.574468085106383,0.40096618357487923,1.0102160498169641,0.6637697352893993,1.365819427006735,0.0001999600079984003
+background_only,kr_dist,observed in the unenriched arm vs not (log2 OR of carrying the feature),3908,24240,0.845957011258956,0.7520627062706271,0.8554745406321956,0.7126940245439904,1.0095306712383403,0.0001999600079984003
+background_only,kr_prox,observed in the unenriched arm vs not (log2 OR of carrying the feature),3908,24240,0.419396110542477,0.48964521452145215,-0.40935731708431145,-0.5157374311919325,-0.30281796209895195,0.0001999600079984003
+background_only,de_dist,observed in the unenriched arm vs not (log2 OR of carrying the feature),3908,24240,0.8370010235414534,0.8051155115511551,0.31299423408603183,0.17674979999953983,0.45297543259891476,0.0004
+background_only,de_prox,observed in the unenriched arm vs not (log2 OR of carrying the feature),3908,24240,0.59007164790174,0.5016914191419142,0.515620492955564,0.40384897607197384,0.6293343567584403,0.0001999600079984003
+symmetric restriction: theoretical_symmetric,kr_dist,"sites restricted like the background (stored, step 3)",1302,22490,,,0.4191665900533864,0.1715467381743503,0.6829980171126263,
+symmetric restriction: theoretical_symmetric,kr_prox,"sites restricted like the background (stored, step 3)",1302,22490,,,-0.4998780018193776,-0.6581460957575661,-0.3379459586935834,
+symmetric restriction: theoretical_symmetric,de_dist,"sites restricted like the background (stored, step 3)",1302,22490,,,-0.0933578714695995,-0.3122868532059318,0.1330167195398071,
+symmetric restriction: theoretical_symmetric,de_prox,"sites restricted like the background (stored, step 3)",1302,22490,,,0.0210335176932424,-0.1423443281066091,0.1915431121228776,
+symmetric restriction: empirical_symmetric,kr_dist,"sites restricted like the background (stored, step 3)",940,3908,,,0.2173733436944626,-0.0902559815385965,0.5397192851728524,
+symmetric restriction: empirical_symmetric,kr_prox,"sites restricted like the background (stored, step 3)",940,3908,,,0.0366262112188922,-0.1585878609921982,0.2388552030712895,
+symmetric restriction: empirical_symmetric,de_dist,"sites restricted like the background (stored, step 3)",940,3908,,,-0.044873577530385,-0.3186935046755794,0.2544208851420405,
+symmetric restriction: empirical_symmetric,de_prox,"sites restricted like the background (stored, step 3)",940,3908,,,-0.0928885602336124,-0.3124340995218536,0.1255803952286258,

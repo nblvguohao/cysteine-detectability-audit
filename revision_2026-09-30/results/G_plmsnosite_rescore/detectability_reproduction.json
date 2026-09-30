@@ -1,0 +1,170 @@
+{
+ "label": "POST HOC revision analysis 2026-09-30 (G_plmsnosite_rescore); not registered",
+ "checks": {
+  "git_head": "e9158af06418f3e50c9bbbbeca77ea692e6507ce",
+  "n_train": 6552,
+  "n_train_pos": 3276,
+  "n_train_proteins": 1918,
+  "n_test": 3519,
+  "n_test_pos": 351,
+  "n_test_proteins": 278,
+  "proteins_in_both": 4,
+  "non_cysteine_positions_train": 0,
+  "non_cysteine_positions_test": 0,
+  "hgb_kwargs": {
+   "max_iter": 300,
+   "learning_rate": 0.06,
+   "max_leaf_nodes": 31,
+   "min_samples_leaf": 20,
+   "l2_regularization": 0.0,
+   "max_bins": 255,
+   "early_stopping": false,
+   "random_state": 0
+  },
+  "feature_names_DIG25": [
+   "pep_len",
+   "pep_mass",
+   "pep_gravy",
+   "pep_cys_count",
+   "pep_offset_in_peptide",
+   "pep_relative_offset",
+   "pep_is_protein_n_terminal",
+   "pep_is_protein_c_terminal",
+   "pep_detectable_length",
+   "pep_detectable_mass",
+   "pep_detectable_both",
+   "pep_log_len",
+   "pep_mc1_left_len",
+   "pep_mc1_right_len",
+   "pep_mc1_min_len",
+   "pep_mc1_detectable",
+   "pep_mc2_left_len",
+   "pep_mc2_right_len",
+   "pep_mc2_min_len",
+   "pep_mc2_detectable",
+   "pep_detectable_any_missed_cleavage",
+   "pep_n_peptides_in_protein",
+   "pep_cleavage_sites_within_20",
+   "pep_dist_to_peptide_n_term",
+   "pep_dist_to_peptide_c_term"
+  ],
+  "feature_names_VIS10": [
+   "pep_len",
+   "pep_mass",
+   "pep_gravy",
+   "pep_detectable_length",
+   "pep_detectable_mass",
+   "pep_detectable_both",
+   "pep_log_len",
+   "pep_mc1_detectable",
+   "pep_mc2_detectable",
+   "pep_detectable_any_missed_cleavage"
+  ],
+  "sklearn": "1.7.2",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "OMP_NUM_THREADS": "4",
+  "random_state_inert_DIG25_max_abs_diff": 0.0,
+  "random_state_inert_VIS10_max_abs_diff": 0.0
+ },
+ "results": {
+  "VIS10": {
+   "auroc_sklearn": 0.7094529698696366,
+   "auprc_sklearn": 0.1676552128332919,
+   "auroc_weighted_impl": 0.7094529698696366,
+   "auprc_weighted_impl": 0.1676552128332919,
+   "n_distinct_scores": 2368,
+   "ci_seed20260924_per_replicate": {
+    "auroc": [
+     0.6816115188446079,
+     0.7385614680837512
+    ],
+    "auprc": [
+     0.13028941556041673,
+     0.22059461472369996
+    ]
+   },
+   "ci_seed20260924_block": {
+    "auroc": [
+     0.6816115188446079,
+     0.7385614680837512
+    ],
+    "auprc": [
+     0.13028941556041673,
+     0.22059461472369996
+    ]
+   },
+   "ci_seed20260924_chunk250": {
+    "auroc": [
+     0.6816115188446079,
+     0.7385614680837512
+    ],
+    "auprc": [
+     0.13028941556041673,
+     0.22059461472369996
+    ]
+   }
+  },
+  "DIG25": {
+   "auroc_sklearn": 0.7764508511036289,
+   "auprc_sklearn": 0.21952309163520303,
+   "auroc_weighted_impl": 0.7764508511036289,
+   "auprc_weighted_impl": 0.21952309163520303,
+   "n_distinct_scores": 3493,
+   "ci_seed20260924_per_replicate": {
+    "auroc": [
+     0.7231094874373496,
+     0.8274276843721443
+    ],
+    "auprc": [
+     0.1616529272905115,
+     0.32200523235463585
+    ]
+   },
+   "ci_seed20260924_block": {
+    "auroc": [
+     0.7231094874373496,
+     0.8274276843721443
+    ],
+    "auprc": [
+     0.1616529272905115,
+     0.32200523235463585
+    ]
+   },
+   "ci_seed20260924_chunk250": {
+    "auroc": [
+     0.7231094874373496,
+     0.8274276843721443
+    ],
+    "auprc": [
+     0.1616529272905115,
+     0.32200523235463585
+    ]
+   }
+  },
+  "DIG25_label_permuted": {
+   "permutation": "numpy default_rng(20260924).permutation(y_train)",
+   "auroc": 0.5124432537626982,
+   "ci": [
+    0.4684912952058397,
+    0.5556797746475128
+   ]
+  },
+  "DIG25_groupkfold5_train": {
+   "fold_auroc": [
+    0.7752878490650439,
+    0.8320514913364894,
+    0.7357946920170195,
+    0.7596302003081664,
+    0.7121661097941128
+   ],
+   "mean": 0.7629860685041664
+  }
+ },
+ "inputs_sha256": {
+  "pLMSNOSite@e9158af:data/train/sequence_train.csv": "a3b4a1fe3858ed3e4a0aa62d47e52c8e1c118cceb06c4edcf75c0b82ff96bd0f",
+  "pLMSNOSite@e9158af:data/test/sequence_test.csv": "d4498e6f2afa28b89d150dacf44b1de6bbfd791e772f1fefe120aa4aabcc5551",
+  "repo/scripts/run_cross_protease_detectability_probe.py": "46f60db339d1a93baa0d56b7384614279491f553a0d65e18794c5b6da99a02f1"
+ },
+ "runtime_s": 62.3
+}

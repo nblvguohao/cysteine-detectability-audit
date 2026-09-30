@@ -1,0 +1,11 @@
+group,evalue_bin,n_both_scored,n_tied,share_tied
+"Fig-1D (FTMS MS2, 0.02-Da bins)","(0.0, 1.0]",60,6,0.1
+"Fig-1D (FTMS MS2, 0.02-Da bins)","(1.0, 10.0]",258,58,0.2248062015503876
+"Fig-1D (FTMS MS2, 0.02-Da bins)","(10.0, 100.0]",246,91,0.3699186991869919
+"Fig-1D (FTMS MS2, 0.02-Da bins)","(100.0, 1000.1]",118,51,0.4322033898305085
+"insulin files (ion-trap MS2, 1.0005-Da bins)","(0.0, 1.0]",26,21,0.8076923076923077
+"insulin files (ion-trap MS2, 1.0005-Da bins)","(1.0, 10.0]",56,46,0.8214285714285714
+"insulin files (ion-trap MS2, 1.0005-Da bins)","(10.0, 100.0]",16,14,0.875
+"insulin files (ion-trap MS2, 1.0005-Da bins)","(100.0, 1000.1]",2,2,1.0
+"Fig-1D (FTMS MS2, 0.02-Da bins)",all,682,206,0.3020527859237537
+"insulin files (ion-trap MS2, 1.0005-Da bins)",all,100,83,0.83

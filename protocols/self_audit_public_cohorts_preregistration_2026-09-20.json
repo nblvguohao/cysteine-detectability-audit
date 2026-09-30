@@ -1,0 +1,53 @@
+{
+  "title": "Self-audit of the deployed ranker, redone on public cohorts",
+  "written": "2026-09-20",
+  "why": "The data owner restricted the tomato table to research reference only. Section 3 and Figure F3 rest entirely on it. The author chose to redo rather than delete.",
+  "in_scope": [
+    "manuscript 3.1 cleavage-geometry ranking",
+    "manuscript 3.2 five proteases"
+  ],
+  "out_of_scope": {
+    "sections": [
+      "3.3 three-arm ablation",
+      "3.4 25-feature detectability set"
+    ],
+    "why": "both require refitting; no 1,046-column chemistry feature matrix exists for human or rice. If that round is not run they must be deleted, not kept on restricted data."
+  },
+  "cohorts": {
+    "human_PXD044043": {
+      "cysteines": 18567,
+      "positives": 3206,
+      "proteins": 1519
+    },
+    "rice_PXD072089": {
+      "cysteines": 5598,
+      "positives": 817,
+      "proteins": 640
+    }
+  },
+  "scores": "stored, no refitting: v2_chem_score (deployed wet-lab blend 0.64/0.20/0.16) and v2_full_score, from external/v2_retrospective_site_scores.csv. Full-fit scores from a tomato-trained model applied to disjoint external cohorts, so no fold leakage is possible; NC2 measures the disjointness rather than assuming it.",
+  "attribute": "distal band 6-12 residues to a trypsin cleavage boundary (primary); proximal <=5 (control, because through-space chemistry acts at short range)",
+  "instrument": "imported from scripts/run_self_audit_five_proteases.py; its sha256 is recorded by the analysis script. Reimplementation is forbidden (CLAUDE.md 9.24.2).",
+  "declared_deviation_house_rule_2": "bootstrap clusters by protein, not homology component, because no homology grouping exists for human or rice; intervals are narrower than component clustering would give and this must be stated wherever they are quoted",
+  "branches": {
+    "E1_replicates": "interval entirely above 0.5 in both label strata in both cohorts -> the tomato finding generalises; Section 3 keeps its claim with external validity",
+    "E2_partial": "holds in one cohort only -> claim becomes cohort-specific, naming where it fails",
+    "E3_clears": "interval covers 0.5 in both strata in both cohorts -> the model does NOT rank by cleavage geometry out-of-sample; the association is a property of the tomato cohort and its training, not of the model. This REMOVES the strongest self-audit sentence. We publish it anyway.",
+    "E4_inherited": "overall above 0.5 but within-stratum not -> inherited from the label, disclose as inherited"
+  },
+  "verdict_requires": "the same branch for the deployed chemistry blend in BOTH label strata; disagreement between strata is E2 at best",
+  "controls": {
+    "PC1": "imported instrument reproduces stored tomato anchors 0.6415 / 0.6298 to 3 decimals, else the round stops",
+    "PC2": "the label's own distal association L is computed and reported per cohort",
+    "PC3": "per-cohort distal attribute rate in (0.10, 0.99)",
+    "NC1": "scores permuted within protein (seed 20260920) give a within-stratum interval that covers 0.5; otherwise the estimator is broken and nothing from this round is usable",
+    "NC2": "cohort accessions do not intersect the tomato training accessions; measured"
+  },
+  "cannot_decide": [
+    "cannot make 3.3 or 3.4 public; those need refitting",
+    "cannot say whether the model is a good persulfidation predictor; only an association with cleavage geometry is audited",
+    "both public cohorts are persulfidation; nothing transfers to other chemistries",
+    "scores are full-fit on external cohorts, so an absence of association could also mean poor transfer rather than absence of bias; E3 must carry that alternative"
+  ],
+  "interpreter": "project venv Python 3.9.6 / numpy 2.0.2 for the analysis; stdlib only here"
+}

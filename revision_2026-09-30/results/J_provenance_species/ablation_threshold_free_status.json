@@ -1,0 +1,577 @@
+{
+ "label": "POST HOC revision analysis (2026-09-30); not registered",
+ "oof_files_present": false,
+ "selftest": {
+  "band_flags_case1": [
+   1,
+   0,
+   12
+  ],
+  "band_flags_case2": [
+   0,
+   0,
+   30
+  ],
+  "band_flags_case3": [
+   0,
+   1,
+   8
+  ],
+  "band_flags_ok": true,
+  "weighted_auc_equals_sklearn": true,
+  "synthetic_label_inheritance_detected_and_separated": true,
+  "within_protein_mean_equals_sklearn": true,
+  "haldane_formula_ok": true,
+  "mixture_reference_limits_ok": true,
+  "protein_draws_reduce_to_hypergeometric": true,
+  "synthetic_control_row": {
+   "cohort": "synthetic",
+   "arm": "control",
+   "member": "lgb_rank",
+   "auc_distal_all": 0.5228,
+   "auc_distal_all_ci_low": 0.5047,
+   "auc_distal_all_ci_high": 0.5407,
+   "auc_distal_label_positive": 0.4949,
+   "auc_distal_label_positive_ci_low": 0.4436,
+   "auc_distal_label_positive_ci_high": 0.5406,
+   "auc_distal_label_negative": 0.4838,
+   "auc_distal_label_negative_ci_low": 0.4635,
+   "auc_distal_label_negative_ci_high": 0.5047,
+   "auc_distal_within_protein_mean": 0.5224,
+   "auc_distal_within_protein_ci_low": 0.5003,
+   "auc_distal_within_protein_ci_high": 0.5439,
+   "n_proteins_within_protein": 376
+  },
+  "synthetic_added_signal_row": {
+   "cohort": "synthetic",
+   "arm": "drop_all_basic",
+   "member": "lgb_rank",
+   "auc_distal_all": 0.7014,
+   "auc_distal_all_ci_low": 0.6836,
+   "auc_distal_all_ci_high": 0.7175,
+   "auc_distal_label_positive": 0.7236,
+   "auc_distal_label_positive_ci_low": 0.6805,
+   "auc_distal_label_positive_ci_high": 0.7661,
+   "auc_distal_label_negative": 0.698,
+   "auc_distal_label_negative_ci_low": 0.6774,
+   "auc_distal_label_negative_ci_high": 0.7166,
+   "auc_distal_within_protein_mean": 0.7018,
+   "auc_distal_within_protein_ci_low": 0.6824,
+   "auc_distal_within_protein_ci_high": 0.7213,
+   "n_proteins_within_protein": 376
+  },
+  "all_passed": true
+ },
+ "stored_value_checks": {
+  "note11_blend_table_equals_stored_registered_csv": true,
+  "table2_equals_note11_ranking_member_rows": true,
+  "table2_rows_parsed": 6
+ },
+ "cohorts": {
+  "human_PXD044043": {
+   "N": 18567,
+   "D_distal_total": 14670,
+   "distal_prevalence": 0.7901114881240912,
+   "feasible_D_from_arms": [
+    14670,
+    14670
+   ],
+   "N_label_positive": 3206,
+   "D_label_positive": 2877,
+   "N_label_negative": 15361,
+   "D_label_negative": 11793,
+   "top_k_share_of_cohort": 0.005385899714547315
+  },
+  "rice_PXD072089": {
+   "N": 5004,
+   "D_distal_total": 3803,
+   "distal_prevalence": 0.7599920063948841,
+   "feasible_D_from_arms": [
+    3803,
+    3803
+   ],
+   "N_label_positive": 737,
+   "D_label_positive": 623,
+   "N_label_negative": 4267,
+   "D_label_negative": 3180,
+   "top_k_share_of_cohort": 0.019984012789768184
+  }
+ },
+ "arm_positions_vs_references (12 primary readings; revision after verification)": {
+  "no association": {
+   "n_readings": 12,
+   "below": {
+    "n": 0,
+    "readings": []
+   },
+   "at lower limit": {
+    "n": 0,
+    "readings": []
+   },
+   "within": {
+    "n": 0,
+    "readings": []
+   },
+   "at upper limit": {
+    "n": 1,
+    "readings": [
+     "rice blend control k=84 P=0.0339"
+    ]
+   },
+   "above": {
+    "n": 11,
+    "readings": [
+     "human lgb_rank control k=93 P=0.0001",
+     "human lgb_rank drop_w710 k=95 P=0.0000",
+     "human lgb_rank drop_all_basic k=97 P=0.0000",
+     "human blend control k=96 P=0.0000",
+     "human blend drop_w710 k=95 P=0.0000",
+     "human blend drop_all_basic k=99 P=0.0000",
+     "rice lgb_rank control k=95 P=0.0000",
+     "rice lgb_rank drop_w710 k=93 P=0.0000",
+     "rice lgb_rank drop_all_basic k=91 P=0.0001",
+     "rice blend drop_w710 k=86 P=0.0094",
+     "rice blend drop_all_basic k=85 P=0.0185"
+    ]
+   },
+   "n_P_lt_0.05": 12,
+   "n_stored_ci_overlapping_reference_range": 3,
+   "stored_ci_not_overlapping": [
+    "human lgb_rank control",
+    "human lgb_rank drop_w710",
+    "human lgb_rank drop_all_basic",
+    "human blend control",
+    "human blend drop_w710",
+    "human blend drop_all_basic",
+    "rice lgb_rank control",
+    "rice lgb_rank drop_w710",
+    "rice lgb_rank drop_all_basic"
+   ]
+  },
+  "label inheritance, 100 of 100 labelled": {
+   "n_readings": 12,
+   "below": {
+    "n": 0,
+    "readings": []
+   },
+   "at lower limit": {
+    "n": 0,
+    "readings": []
+   },
+   "within": {
+    "n": 4,
+    "readings": [
+     "human lgb_rank control k=93 P=0.1788",
+     "rice blend control k=84 P=0.6291",
+     "rice blend drop_w710 k=86 P=0.3957",
+     "rice blend drop_all_basic k=85 P=0.5138"
+    ]
+   },
+   "at upper limit": {
+    "n": 3,
+    "readings": [
+     "human lgb_rank drop_w710 k=95 P=0.0464",
+     "human blend drop_w710 k=95 P=0.0464",
+     "rice lgb_rank drop_all_basic k=91 P=0.0326"
+    ]
+   },
+   "above": {
+    "n": 5,
+    "readings": [
+     "human lgb_rank drop_all_basic k=97 P=0.0058",
+     "human blend control k=96 P=0.0183",
+     "human blend drop_all_basic k=99 P=0.0002",
+     "rice lgb_rank control k=95 P=0.0006",
+     "rice lgb_rank drop_w710 k=93 P=0.0057"
+    ]
+   },
+   "n_P_lt_0.05": 8,
+   "n_stored_ci_overlapping_reference_range": 11,
+   "stored_ci_not_overlapping": [
+    "human blend drop_all_basic"
+   ]
+  },
+  "label inheritance, 90 of 100 labelled": {
+   "n_readings": 12,
+   "below": {
+    "n": 0,
+    "readings": []
+   },
+   "at lower limit": {
+    "n": 0,
+    "readings": []
+   },
+   "within": {
+    "n": 4,
+    "readings": [
+     "human lgb_rank control k=93 P=0.0922",
+     "rice blend control k=84 P=0.5135",
+     "rice blend drop_w710 k=86 P=0.2927",
+     "rice blend drop_all_basic k=85 P=0.3999"
+    ]
+   },
+   "at upper limit": {
+    "n": 0,
+    "readings": []
+   },
+   "above": {
+    "n": 8,
+    "readings": [
+     "human lgb_rank drop_w710 k=95 P=0.0190",
+     "human lgb_rank drop_all_basic k=97 P=0.0018",
+     "human blend control k=96 P=0.0066",
+     "human blend drop_w710 k=95 P=0.0190",
+     "human blend drop_all_basic k=99 P=0.0001",
+     "rice lgb_rank control k=95 P=0.0003",
+     "rice lgb_rank drop_w710 k=93 P=0.0029",
+     "rice lgb_rank drop_all_basic k=91 P=0.0184"
+    ]
+   },
+   "n_P_lt_0.05": 8,
+   "n_stored_ci_overlapping_reference_range": 10,
+   "stored_ci_not_overlapping": [
+    "human blend drop_all_basic",
+    "rice lgb_rank control"
+   ]
+  },
+  "label inheritance, 80 of 100 labelled": {
+   "n_readings": 12,
+   "below": {
+    "n": 0,
+    "readings": []
+   },
+   "at lower limit": {
+    "n": 0,
+    "readings": []
+   },
+   "within": {
+    "n": 3,
+    "readings": [
+     "rice blend control k=84 P=0.4033",
+     "rice blend drop_w710 k=86 P=0.2084",
+     "rice blend drop_all_basic k=85 P=0.2994"
+    ]
+   },
+   "at upper limit": {
+    "n": 1,
+    "readings": [
+     "human lgb_rank control k=93 P=0.0437"
+    ]
+   },
+   "above": {
+    "n": 8,
+    "readings": [
+     "human lgb_rank drop_w710 k=95 P=0.0073",
+     "human lgb_rank drop_all_basic k=97 P=0.0006",
+     "human blend control k=96 P=0.0023",
+     "human blend drop_w710 k=95 P=0.0073",
+     "human blend drop_all_basic k=99 P=0.0000",
+     "rice lgb_rank control k=95 P=0.0001",
+     "rice lgb_rank drop_w710 k=93 P=0.0014",
+     "rice lgb_rank drop_all_basic k=91 P=0.0100"
+    ]
+   },
+   "n_P_lt_0.05": 9,
+   "n_stored_ci_overlapping_reference_range": 9,
+   "stored_ci_not_overlapping": [
+    "human lgb_rank drop_all_basic",
+    "human blend drop_all_basic",
+    "rice lgb_rank control"
+   ]
+  },
+  "label inheritance, 50 of 100 labelled": {
+   "n_readings": 12,
+   "below": {
+    "n": 0,
+    "readings": []
+   },
+   "at lower limit": {
+    "n": 0,
+    "readings": []
+   },
+   "within": {
+    "n": 3,
+    "readings": [
+     "rice blend control k=84 P=0.1561",
+     "rice blend drop_w710 k=86 P=0.0602",
+     "rice blend drop_all_basic k=85 P=0.1003"
+    ]
+   },
+   "at upper limit": {
+    "n": 0,
+    "readings": []
+   },
+   "above": {
+    "n": 9,
+    "readings": [
+     "human lgb_rank control k=93 P=0.0031",
+     "human lgb_rank drop_w710 k=95 P=0.0003",
+     "human lgb_rank drop_all_basic k=97 P=0.0000",
+     "human blend control k=96 P=0.0001",
+     "human blend drop_w710 k=95 P=0.0003",
+     "human blend drop_all_basic k=99 P=0.0000",
+     "rice lgb_rank control k=95 P=0.0000",
+     "rice lgb_rank drop_w710 k=93 P=0.0001",
+     "rice lgb_rank drop_all_basic k=91 P=0.0013"
+    ]
+   },
+   "n_P_lt_0.05": 9,
+   "n_stored_ci_overlapping_reference_range": 5,
+   "stored_ci_not_overlapping": [
+    "human lgb_rank drop_w710",
+    "human lgb_rank drop_all_basic",
+    "human blend control",
+    "human blend drop_w710",
+    "human blend drop_all_basic",
+    "rice lgb_rank control",
+    "rice lgb_rank drop_w710"
+   ]
+  }
+ },
+ "rice_protein_clustering_sensitivity": {
+  "scope": "rice deposit cysteines whose protein is in UniProt UP000059680 release 2026_03 and whose released window matches that sequence; a subset of the analysed cohort (the refit used an earlier rice proteome file)",
+  "rice_rows_in_site_table": 5598,
+  "cysteines_with_sequence": 4404,
+  "window_mismatches": 0,
+  "analysed_cohort_N": 5004,
+  "share_of_analysed_cohort": 0.8800959232613909,
+  "labelled": 640,
+  "labelled_proteins": 497,
+  "distal_rate_labelled_subset": 0.8390625,
+  "distal_rate_unlabelled_subset": 0.7460148777895855,
+  "distal_rate_labelled_cohort_note9": 0.8453188602442334,
+  "distal_rate_unlabelled_cohort_note9": 0.7452542770096087,
+  "reference_independent": {
+   "mean_k": 83.90625000000003,
+   "k_q025": 77,
+   "k_q975": 90,
+   "var_k": 11.411545444542261
+  },
+  "reference_protein_clustered": {
+   "mean_k": 84.0224,
+   "k_q025": 78,
+   "k_q975": 90,
+   "var_k": 10.07039824,
+   "draws": 20000,
+   "seed": 20260930
+  },
+  "variance_ratio_clustered_vs_independent": 0.882474533264582,
+  "icc_distal_among_labelled_within_protein_anova": -0.03758710696331231,
+  "proteins_with_one_labelled_cysteine": 396,
+  "rice_primary_readings": [
+   {
+    "member": "lgb_rank",
+    "arm": "control",
+    "k": 95,
+    "P_ge_independent_subset": 0.00027510797691273535,
+    "P_ge_protein_clustered_subset": 0.00015000000000000001,
+    "position_independent": "above",
+    "position_protein_clustered": "above"
+   },
+   {
+    "member": "lgb_rank",
+    "arm": "drop_w710",
+    "k": 93,
+    "P_ge_independent_subset": 0.003234221743172006,
+    "P_ge_protein_clustered_subset": 0.0023,
+    "position_independent": "above",
+    "position_protein_clustered": "above"
+   },
+   {
+    "member": "lgb_rank",
+    "arm": "drop_all_basic",
+    "k": 91,
+    "P_ge_independent_subset": 0.020819534104217736,
+    "P_ge_protein_clustered_subset": 0.016550000000000002,
+    "position_independent": "above",
+    "position_protein_clustered": "above"
+   },
+   {
+    "member": "blend",
+    "arm": "control",
+    "k": 84,
+    "P_ge_independent_subset": 0.556882452168342,
+    "P_ge_protein_clustered_subset": 0.5739,
+    "position_independent": "within",
+    "position_protein_clustered": "within"
+   },
+   {
+    "member": "blend",
+    "arm": "drop_w710",
+    "k": 86,
+    "P_ge_independent_subset": 0.3250941185680636,
+    "P_ge_protein_clustered_subset": 0.3249499999999999,
+    "position_independent": "within",
+    "position_protein_clustered": "within"
+   },
+   {
+    "member": "blend",
+    "arm": "drop_all_basic",
+    "k": 85,
+    "P_ge_independent_subset": 0.4391626846961745,
+    "P_ge_protein_clustered_subset": 0.4446,
+    "position_independent": "within",
+    "position_protein_clustered": "within"
+   }
+  ]
+ },
+ "earlier_ablation_trypsin_distal_rows (results/v2_chem_ablation_verdict.csv)": [
+  {
+   "statistic": "top_k_log2_odds_ratio",
+   "role": "verdict",
+   "arm": "control",
+   "stratum": "all",
+   "k": "100",
+   "n": "49064",
+   "rate_in_top_k": "0.99",
+   "rate_rest": "0.8351",
+   "value": "3.7116",
+   "ci_low": "2.3159",
+   "ci_high": "5.507"
+  },
+  {
+   "statistic": "within_stratum_auc_score_to_attribute",
+   "role": "secondary",
+   "arm": "control",
+   "stratum": "all",
+   "k": "",
+   "n": "49064",
+   "rate_in_top_k": "",
+   "rate_rest": "0.8354",
+   "value": "0.6373",
+   "ci_low": "0.6301",
+   "ci_high": "0.6447"
+  },
+  {
+   "statistic": "within_stratum_auc_score_to_attribute",
+   "role": "secondary",
+   "arm": "control",
+   "stratum": "label_positive",
+   "k": "",
+   "n": "15215",
+   "rate_in_top_k": "",
+   "rate_rest": "0.8964",
+   "value": "0.6605",
+   "ci_low": "0.6454",
+   "ci_high": "0.6753"
+  },
+  {
+   "statistic": "within_stratum_auc_score_to_attribute",
+   "role": "secondary",
+   "arm": "control",
+   "stratum": "label_negative",
+   "k": "",
+   "n": "33849",
+   "rate_in_top_k": "",
+   "rate_rest": "0.808",
+   "value": "0.5971",
+   "ci_low": "0.5893",
+   "ci_high": "0.6053"
+  },
+  {
+   "statistic": "top_k_log2_odds_ratio",
+   "role": "verdict",
+   "arm": "drop_w710",
+   "stratum": "all",
+   "k": "100",
+   "n": "49064",
+   "rate_in_top_k": "1.0",
+   "rate_rest": "0.8351",
+   "value": "5.3112",
+   "ci_low": "4.9787",
+   "ci_high": "5.5973"
+  },
+  {
+   "statistic": "within_stratum_auc_score_to_attribute",
+   "role": "secondary",
+   "arm": "drop_w710",
+   "stratum": "all",
+   "k": "",
+   "n": "49064",
+   "rate_in_top_k": "",
+   "rate_rest": "0.8354",
+   "value": "0.6311",
+   "ci_low": "0.6238",
+   "ci_high": "0.6384"
+  },
+  {
+   "statistic": "within_stratum_auc_score_to_attribute",
+   "role": "secondary",
+   "arm": "drop_w710",
+   "stratum": "label_positive",
+   "k": "",
+   "n": "15215",
+   "rate_in_top_k": "",
+   "rate_rest": "0.8964",
+   "value": "0.6471",
+   "ci_low": "0.6316",
+   "ci_high": "0.6626"
+  },
+  {
+   "statistic": "within_stratum_auc_score_to_attribute",
+   "role": "secondary",
+   "arm": "drop_w710",
+   "stratum": "label_negative",
+   "k": "",
+   "n": "33849",
+   "rate_in_top_k": "",
+   "rate_rest": "0.808",
+   "value": "0.5907",
+   "ci_low": "0.5828",
+   "ci_high": "0.599"
+  },
+  {
+   "statistic": "top_k_log2_odds_ratio",
+   "role": "verdict",
+   "arm": "drop_all_basic",
+   "stratum": "all",
+   "k": "100",
+   "n": "49064",
+   "rate_in_top_k": "0.98",
+   "rate_rest": "0.8351",
+   "value": "2.9598",
+   "ci_low": "1.6877",
+   "ci_high": "5.4241"
+  },
+  {
+   "statistic": "within_stratum_auc_score_to_attribute",
+   "role": "secondary",
+   "arm": "drop_all_basic",
+   "stratum": "all",
+   "k": "",
+   "n": "49064",
+   "rate_in_top_k": "",
+   "rate_rest": "0.8354",
+   "value": "0.6298",
+   "ci_low": "0.6223",
+   "ci_high": "0.6375"
+  },
+  {
+   "statistic": "within_stratum_auc_score_to_attribute",
+   "role": "secondary",
+   "arm": "drop_all_basic",
+   "stratum": "label_positive",
+   "k": "",
+   "n": "15215",
+   "rate_in_top_k": "",
+   "rate_rest": "0.8964",
+   "value": "0.6407",
+   "ci_low": "0.6251",
+   "ci_high": "0.6566"
+  },
+  {
+   "statistic": "within_stratum_auc_score_to_attribute",
+   "role": "secondary",
+   "arm": "drop_all_basic",
+   "stratum": "label_negative",
+   "k": "",
+   "n": "33849",
+   "rate_in_top_k": "",
+   "rate_rest": "0.808",
+   "value": "0.591",
+   "ci_low": "0.5829",
+   "ci_high": "0.5996"
+  }
+ ],
+ "threshold_free": "BLOCKED: the per-cysteine refit scores are not on this machine; see ablation_missing_files.csv. Run: python j3_ablation_statistic.py --oof-dir <external/public_refit_out_2026-09-21> --hsa <external/proteomes/hsa.fasta.gz> --osa <external/proteomes/osa.fasta.gz>. Revision round 2: the run also writes the symmetric-filter variant (both label classes restricted to cysteines that can be the only cysteine of a tryptic peptide)."
+}

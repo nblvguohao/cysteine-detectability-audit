@@ -1,0 +1,182 @@
+{
+ "label": "POST HOC revision analysis E_bootstrap_coverage, task 4 (not registered)",
+ "approximation": "normal approximation on the log2 scale from stored 95% percentile bounds, one SE per side",
+ "levels": {
+  "F84": {
+   "m": 84,
+   "bonferroni_level": 0.9994047619047619,
+   "bh_R": 46,
+   "fcr_level": 0.9726190476190476
+  },
+  "F112": {
+   "m": 112,
+   "bonferroni_level": 0.9995535714285714,
+   "bh_R": 60,
+   "fcr_level": 0.9732142857142857
+  },
+  "F28_baseline": {
+   "m": 28,
+   "bonferroni_level": 0.9982142857142857,
+   "bh_R": 16,
+   "fcr_level": 0.9714285714285714
+  },
+  "F28_matched": {
+   "m": 28,
+   "bonferroni_level": 0.9982142857142857,
+   "bh_R": 15,
+   "fcr_level": 0.9732142857142857
+  },
+  "F28_random": {
+   "m": 28,
+   "bonferroni_level": 0.9982142857142857,
+   "bh_R": 15,
+   "fcr_level": 0.9732142857142857
+  },
+  "F28_stratified": {
+   "m": 28,
+   "bonferroni_level": 0.9982142857142857,
+   "bh_R": 14,
+   "fcr_level": 0.975
+  }
+ },
+ "expected_chance_exclusions_global_null": {
+  "nominal_F84": 4.2,
+  "nominal_F112": 5.6000000000000005,
+  "p_at_least_one_nominal_F84_independent": 0.9865481243423165,
+  "simulated_F84": 3.184499999999999,
+  "simulated_F112": 4.657338175932566,
+  "p_at_least_one_simulated_F84_independent": 0.962031957669314
+ },
+ "observed": {
+  "observed_exclusions_F84": 47,
+  "observed_exclusions_F112": 62,
+  "observed_exclusions_by_type": {
+   "baseline": 16,
+   "matched": 16,
+   "random": 15,
+   "stratified": 15
+  }
+ },
+ "verdict_changes": {
+  "bonferroni_F84": [
+   {
+    "claim_id": "SNO-004",
+    "stored_verdict": "null_broken_by_control",
+    "bonferroni_F84": "null_survives"
+   },
+   {
+    "claim_id": "SNO-012",
+    "stored_verdict": "attenuated",
+    "bonferroni_F84": "undecidable"
+   }
+  ],
+  "bh_fcr_F84": [
+   {
+    "claim_id": "SNO-004",
+    "stored_verdict": "null_broken_by_control",
+    "bh_fcr_F84": "null_survives"
+   }
+  ],
+  "bonferroni_F112": [
+   {
+    "claim_id": "SNO-004",
+    "stored_verdict": "null_broken_by_control",
+    "bonferroni_F112": "null_survives"
+   },
+   {
+    "claim_id": "SNO-006",
+    "stored_verdict": "survives",
+    "bonferroni_F112": "undecidable"
+   },
+   {
+    "claim_id": "SNO-012",
+    "stored_verdict": "attenuated",
+    "bonferroni_F112": "undecidable"
+   }
+  ],
+  "bh_fcr_F112": [
+   {
+    "claim_id": "SNO-004",
+    "stored_verdict": "null_broken_by_control",
+    "bh_fcr_F112": "null_survives"
+   }
+  ],
+  "bonferroni_F28_per_type": [
+   {
+    "claim_id": "SNO-004",
+    "stored_verdict": "null_broken_by_control",
+    "bonferroni_F28_per_type": "null_survives"
+   },
+   {
+    "claim_id": "SNO-012",
+    "stored_verdict": "attenuated",
+    "bonferroni_F28_per_type": "undecidable"
+   }
+  ],
+  "bh_fcr_F28_per_type": [
+   {
+    "claim_id": "SNO-004",
+    "stored_verdict": "null_broken_by_control",
+    "bh_fcr_F28_per_type": "null_survives"
+   }
+  ]
+ },
+ "tallies": {
+  "stored_95": {
+   "undecidable": 12,
+   "survives": 11,
+   "attenuated": 2,
+   "vanishes": 1,
+   "null_broken_by_control": 1,
+   "baseline_contradicts_claim": 1
+  },
+  "bonferroni_F84": {
+   "undecidable": 13,
+   "survives": 11,
+   "attenuated": 1,
+   "vanishes": 1,
+   "null_survives": 1,
+   "baseline_contradicts_claim": 1
+  },
+  "bh_fcr_F84": {
+   "undecidable": 12,
+   "survives": 11,
+   "attenuated": 2,
+   "vanishes": 1,
+   "null_survives": 1,
+   "baseline_contradicts_claim": 1
+  },
+  "bonferroni_F112": {
+   "undecidable": 14,
+   "survives": 10,
+   "attenuated": 1,
+   "vanishes": 1,
+   "null_survives": 1,
+   "baseline_contradicts_claim": 1
+  },
+  "bh_fcr_F112": {
+   "undecidable": 12,
+   "survives": 11,
+   "attenuated": 2,
+   "vanishes": 1,
+   "null_survives": 1,
+   "baseline_contradicts_claim": 1
+  },
+  "bonferroni_F28_per_type": {
+   "undecidable": 13,
+   "survives": 11,
+   "attenuated": 1,
+   "vanishes": 1,
+   "null_survives": 1,
+   "baseline_contradicts_claim": 1
+  },
+  "bh_fcr_F28_per_type": {
+   "undecidable": 12,
+   "survives": 11,
+   "attenuated": 2,
+   "vanishes": 1,
+   "null_survives": 1,
+   "baseline_contradicts_claim": 1
+  }
+ }
+}

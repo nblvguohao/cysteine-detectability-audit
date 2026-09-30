@@ -1,0 +1,5 @@
+arm,chain,charge,placed,observed_ppm,n_baseline_definitions_with_a_value,readings_B_dominated_baselines,readings_chain_matched_baselines,robust_summary,range_z_if_dioxidation,expected_ppm_if_dioxidised_range
+CTH_Cys,A,2,Nethylmaleimide;Sulfide,-6.497743547370178,6,neither,neither,neither under every baseline,"[-29.045616290943965, -10.160264196184073]","[6.092518431051259, 12.759933954136738]"
+CTH_Cys,A,2,Sulfide,4.598372052546707,6,sulfide only,neither; dioxidation only,"baseline-dependent: sulfide only (D1, D2, D3, D4); neither (D6a); dioxidation only (D6b)","[-12.309770755576379, -1.4302984122362088]","[6.092518431051259, 12.759933954136738]"
+NaHS,B,4,Nethylmaleimide;Sulfide,4.41737649307104,8,sulfide only,sulfide only,sulfide only under every baseline,"[-4.219291912637214, -2.266062912029124]","[9.376391873224796, 10.474722451827237]"
+NaHS,B,4,Nethylmaleimide;Sulfide,7.75364331130552,8,either,either,either under every baseline,"[-1.8953890514793368, -0.7415283175830464]","[9.376391873224796, 10.474722451827237]"

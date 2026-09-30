@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. Author list and DOI to be completed by the authors before release."
+title: "Cys-Audit: auditing cysteine-modification site tables for measurement-driven artefacts"
+version: 0.2.2
+authors:
+  - name: "[AUTHORS TO BE COMPLETED]"

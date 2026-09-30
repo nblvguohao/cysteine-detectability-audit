@@ -1,0 +1,89 @@
+{
+ "registered_by": "scripts/preregister_phase3_empirical_detectability_2026-09-22.py",
+ "question": "Does an empirical detectability model built from real, unenriched shotgun data agree in direction with this tree's theoretical detectability rule (length 7-30, <=2 missed cleavages), and does it add real predictive power beyond the rule's own two ingredients?",
+ "master_seed": 20260922,
+ "dataset": {
+  "accession": "PXD063463",
+  "arm": "Global",
+  "role": "Dataset B, downloaded and probed in Phase 1",
+  "files": {
+   "peptides": "peptides_Global.txt",
+   "proteinGroups_own_arm": "proteinGroups_Global.txt",
+   "proteinGroups_cross_arm": "proteinGroups_ABE.txt",
+   "fasta": "Mouse_2025_UP000000589_10090.fasta"
+  }
+ },
+ "digestion": {
+  "enzyme": "Trypsin/P",
+  "cleave_after": [
+   "K",
+   "R"
+  ],
+  "proline_suppressed": false,
+  "missed_cleavages_generated": [
+   0,
+   1,
+   2
+  ],
+  "min_length_generated": 7,
+  "max_length_generation_cap": 80,
+  "max_monoisotopic_mass_da": 4600.0,
+  "must_contain_residue": "C"
+ },
+ "protein_universe": "FASTA accessions in (peptides_Global.txt non-reverse/non-contaminant 'Leading razor protein' set) UNION (proteinGroups_ABE.txt non-reverse/non-contaminant 'Protein IDs' set)",
+ "theoretical_detectable_rule": "length >= 7 and length <= 30 (missed_cleavages <= 2 already holds for every generated candidate, see docstring)",
+ "target": "EMPIRICAL_DETECTED = exact (protein accession, 1-based start position, sequence) match against a non-reverse, non-contaminant row of peptides_Global.txt",
+ "features": [
+  "length",
+  "missed_cleavages",
+  "mass",
+  "gravy",
+  "frac_basic",
+  "frac_acidic",
+  "dist_n_term",
+  "dist_c_term",
+  "n_cys",
+  "log_abundance",
+  "abundance_missing",
+  "abe_identified"
+ ],
+ "cleavage_geometry_features": [
+  "length",
+  "missed_cleavages"
+ ],
+ "model": {
+  "type": "logistic_regression",
+  "standardise_features": true,
+  "cv_folds": 5,
+  "cv_fold_unit": "protein",
+  "cv_fold_seed_offset": 1
+ },
+ "bootstrap_reps": 5000,
+ "bootstrap_ci": [
+  0.025,
+  0.975
+ ],
+ "comparisons": {
+  "M1_theoretical_flag_auc": "direct AUC of THEORETICAL_DETECTABLE alone",
+  "M2_geometry_only_auc": "5-fold CV AUC of logistic(length, missed_cleavages)",
+  "M3_full_model_auc": "5-fold CV AUC of logistic(all features)",
+  "D1_length_direction": {
+   "rule": "mean EMPIRICAL_DETECTED[length in 7..30] - mean EMPIRICAL_DETECTED[length > 30]; protein-clustered bootstrap 95% CI must exclude 0 and be positive"
+  },
+  "D2_missed_cleavage_direction": {
+   "rule": "Spearman(missed_cleavages grid [0,1,2], per-group detection rate) <= -0.5"
+  },
+  "D3_informativeness": {
+   "rule": "AUC(M3) - AUC(M2), per-fold then averaged; protein-clustered bootstrap 95% CI must exclude 0 and be positive; point estimate >= 0.03"
+  },
+  "D4_theoretical_flag_coefficient_sign": {
+   "rule": "in M3 refit with an added THEORETICAL_DETECTABLE indicator feature, its coefficient must be > 0"
+  }
+ },
+ "pass_rule": "D1 and D2 and D3 and D4 all hold",
+ "outputs_of_the_run_script": [
+  "results/phase3_candidate_peptides_2026-09-22.csv",
+  "results/phase3_empirical_detectability_summary_2026-09-22.json",
+  "results/phase3_empirical_detectability_2026-09-22_audit.json"
+ ]
+}

@@ -1,0 +1,23 @@
+caliber,scheme,scheme_label_zh,n_cys_total,n_individually_observable,n_conditional_blind,n_absolute_blind,pct_individually_observable,pct_conditional_blind,pct_absolute_blind,pct_blind_total,pct_theoretically_detectable
+proline_suppressed,trypsin,胰蛋白酶 Trypsin,234881,129128,62123,43630,54.9759,26.4487,18.5754,45.0241,81.4246
+proline_suppressed,lysc,Lys-C,234881,78468,44648,111765,33.4076,19.0088,47.5837,66.5924,52.4163
+proline_suppressed,gluc_E,Glu-C (E),234881,75618,40949,118314,32.1942,17.4339,50.3719,67.8058,49.6281
+proline_suppressed,gluc_DE,Glu-C (D/E),234881,126939,59755,48187,54.044,25.4405,20.5155,45.956,79.4845
+proline_suppressed,chymo_FWYLM,Chymotrypsin (FWYLM),234881,172273,56527,6081,73.3448,24.0662,2.589,26.6552,97.411
+proline_suppressed,aspn,Asp-N (D 前切),234881,71569,40083,123229,30.4703,17.0652,52.4644,69.5297,47.5356
+proline_suppressed,trypsin+gluc_E,胰蛋白酶 Trypsin + Glu-C (E),234881,156107,62553,16221,66.4622,26.6318,6.9061,33.5378,93.0939
+proline_suppressed,trypsin+gluc_DE,胰蛋白酶 Trypsin + Glu-C (D/E),234881,169326,57694,7861,72.0901,24.5631,3.3468,27.9099,96.6532
+proline_suppressed,trypsin+chymo_FWYLM,胰蛋白酶 Trypsin + Chymotrypsin (FWYLM),234881,179832,47932,7117,76.563,20.4069,3.03,23.437,96.97
+proline_suppressed,lysc+gluc_DE,Lys-C + Glu-C (D/E),234881,155998,61881,17002,66.4158,26.3457,7.2386,33.5842,92.7614
+proline_suppressed,trypsin+aspn,胰蛋白酶 Trypsin + Asp-N (D 前切),234881,158309,62042,14530,67.3997,26.4142,6.1861,32.6003,93.8139
+no_proline_rule,trypsin,胰蛋白酶 Trypsin,234881,133018,63166,38697,56.6321,26.8928,16.4752,43.3679,83.5248
+no_proline_rule,lysc,Lys-C,234881,81894,46256,106731,34.8662,19.6934,45.4405,65.1338,54.5595
+no_proline_rule,gluc_E,Glu-C (E),234881,78311,42201,114369,33.3407,17.967,48.6923,66.6593,51.3077
+no_proline_rule,gluc_DE,Glu-C (D/E),234881,130274,60615,43992,55.4638,25.8067,18.7295,44.5362,81.2705
+no_proline_rule,chymo_FWYLM,Chymotrypsin (FWYLM),234881,174239,55466,5176,74.1818,23.6145,2.2037,25.8182,97.7963
+no_proline_rule,aspn,Asp-N (D 前切),234881,71569,40083,123229,30.4703,17.0652,52.4644,69.5297,47.5356
+no_proline_rule,trypsin+gluc_E,胰蛋白酶 Trypsin + Glu-C (E),234881,158764,62255,13862,67.5934,26.5049,5.9017,32.4066,94.0983
+no_proline_rule,trypsin+gluc_DE,胰蛋白酶 Trypsin + Glu-C (D/E),234881,171245,56882,6754,72.9071,24.2174,2.8755,27.0929,97.1245
+no_proline_rule,trypsin+chymo_FWYLM,胰蛋白酶 Trypsin + Chymotrypsin (FWYLM),234881,180347,46692,7842,76.7823,19.879,3.3387,23.2177,96.6613
+no_proline_rule,lysc+gluc_DE,Lys-C + Glu-C (D/E),234881,158481,61572,14828,67.4729,26.2141,6.313,32.5271,93.687
+no_proline_rule,trypsin+aspn,胰蛋白酶 Trypsin + Asp-N (D 前切),234881,160166,61848,12867,68.1903,26.3316,5.4781,31.8097,94.5219

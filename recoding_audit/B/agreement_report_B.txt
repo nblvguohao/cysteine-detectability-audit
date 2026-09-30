@@ -1,0 +1,202 @@
+==============================================================================
+CODER B - INDEPENDENT SECOND CODING PASS: AGREEMENT REPORT
+==============================================================================
+
+Source table : Supplemental_Data_9_survey_coding_table.csv (942 rows)
+Subset coded : 74 rows with background_class in {a,b,c,e}
+Coder B codes: codes_B.csv (blinded pass; U = unclassifiable from retrieved evidence)
+
+------------------------------------------------------------------------------
+(i) RAW AGREEMENT
+------------------------------------------------------------------------------
+Rows compared            : 74
+Exact agreements         : 37
+Raw agreement (Po)       : 0.5000  (50.0%)
+
+------------------------------------------------------------------------------
+(ii) COHEN'S KAPPA (categories a/b/c/e/U, U as its own category)
+------------------------------------------------------------------------------
+Observed agreement  Po   : 0.5000
+Expected agreement  Pe   : 0.2805
+Cohen's kappa            : 0.3051
+
+Marginal distributions:
+  original code : a=34, b=1, c=4, e=35, U=0
+  coder B code  : a=12, b=0, c=2, e=32, U=28
+
+------------------------------------------------------------------------------
+(iii) CONFUSION MATRIX  (rows = ORIGINAL code, cols = CODER B code)
+------------------------------------------------------------------------------
+orig\B      a     b     c     e     U   total
+a          11     0     0     6    17      34
+b           0     0     0     1     0       1
+c           1     0     2     1     0       4
+e           0     0     0    24    11      35
+U           0     0     0     0     0       0
+total      12     0     2    32    28      74
+
+------------------------------------------------------------------------------
+(iv) ROWS WHERE THE ORIGINAL CODE IS b OR c
+------------------------------------------------------------------------------
+Count of original b/c rows: 5
+
+--- original c/b/c row 1 ---
+  uid              : 441
+  original code    : c   (label: c: experimentally detected but unmodified)
+  coder B code     : c
+  agree?           : YES
+  doi              : 10.1371/journal.pone.0261543
+  title            : The S-palmitoylome and DHHC-PAT interactome of Drosophila melanogaster S2R+ cells indicate a high degree of conservation to mammalian palmitoylomes.
+  original ambiguity field: comparison uses CSS-Palm site predictions on detected-but-unmodified proteins from same acyl-RAC run
+  coder B justification   : Negative group is the non-palmitoylated set detected within the same acyl-RAC dataset, i.e. residues detected in the same experiment without a modification assignment.
+
+--- original c/b/c row 2 ---
+  uid              : 480
+  original code    : c   (label: c: experimentally detected but unmodified)
+  coder B code     : c
+  agree?           : YES
+  doi              : 10.1038/s41467-017-01461-z
+  title            : Stochastic palmitoylation of accessible cysteines in membrane proteins revealed by native mass spectrometry.
+  original ambiguity field: native MS (no protease): all cysteines of the analysed proteins are observable, so the background is the detected set
+  coder B justification   : Native-MS experiment observes all cysteines of the analysed proteins and the recorded note states the background is that detected (unmodified) set.
+
+--- original c/b/c row 3 ---
+  uid              : 1111
+  original code    : c   (label: c: experimentally detected but unmodified)
+  coder B code     : e
+  agree?           : NO
+  doi              : 10.3390/ijms150712007
+  title            : Radiosensitization of human leukemic HL-60 cells by ATR kinase inhibitor (VE-821): phosphoproteomic analysis.
+  original ambiguity field: foreground = regulated sites; background = all identified phosphosites (contrast is regulation, not modification)
+  coder B justification   : Background is all identified phosphosites while foreground is regulated sites - a regulation contrast between site subsets, which the strictness rule excludes from c.
+
+--- original b/b/c row 4 ---
+  uid              : 1537
+  original code    : b   (label: b: theoretical-detectability or abundance matched)
+  coder B code     : e
+  agree?           : NO
+  doi              : 10.1016/j.celrep.2012.07.006
+  title            : Proteomic Analysis of Lysine Acetylation Sites in Rat Tissues Reveals Organ Specificity and Subcellular Patterns
+  original ambiguity field: abundance control applied to sites-per-protein, not to a sequence-level background
+  coder B justification   : Abundance was controlled for quantitation / sites-per-protein only; the recorded ambiguity confirms this is not a sequence-level background.
+
+--- original c/b/c row 5 ---
+  uid              : 1553
+  original code    : c   (label: c: experimentally detected but unmodified)
+  coder B code     : a
+  agree?           : NO
+  doi              : 10.1093/bioinformatics/btq260
+  title            : Predicting post-translational lysine acetylation using support vector machines
+  original ambiguity field: negatives drawn from identified peptides in an external database (MAPU), not the same experiment
+  coder B justification   : Negatives are 3,417 lysines randomly drawn from identified human peptides held in an external database (MAPU) - an unrestricted lysine pool, not same-experiment detections.
+
+------------------------------------------------------------------------------
+(v) REVISED COUNT OF MATCHED-BACKGROUND PAPERS OUT OF 74
+------------------------------------------------------------------------------
+Coder B, STRICT (a/b/c/e as coded; U excluded):
+  b : 0
+  c : 2
+  b or c TOTAL : 2 of 74
+  unclassifiable from retrieved evidence (U) : 28 of 74
+  (remaining: a=12, e=32)
+
+Coder B, LENIENT (rows I would defend as a genuine matched background in front
+of a reviewer, including low-confidence calls):
+  b or c TOTAL : 2 of 74
+
+Sensitivity: if uid 480 (native-MS detected set, also readable as 'all cysteines
+of the analysed proteins' = a) is read as a rather than c, the count falls to 1.
+
+------------------------------------------------------------------------------
+(vi) DISAGREEMENTS WITH THE ORIGINAL CODE
+------------------------------------------------------------------------------
+Disagreeing rows: 37 of 74
+
+  uid 1     orig=a  B=e | Sul-BertGRU: an ensemble deep learning method integrating information entropy-
+        reason: Negative set described only as 'nonsulfhydration samples' with no stated source; not shown to be whole-proteome, same-experiment or detectability-matched.
+  uid 3     orig=a  B=U | BioSemAF-BiLSTM: a protein sequence feature extraction framework based on sema
+        reason: Retrieved quote is cut off mid-clause ('while all') before the negative set is described, so no class can be assigned.
+  uid 9     orig=a  B=U | CysDBase: a comprehensive database of cysteine post-translational modification
+        reason: Retrieved quote is cut off inside the input specification, before any background descriptor appears.
+  uid 36    orig=a  B=e | pLMSNOSite: an ensemble-based approach for predicting protein S-nitrosylation 
+        reason: Negatives are the remaining cysteines of the proteins that carry the experimental SNO sites - a curated protein-restricted set, not the same experiment's unassigned detections.
+  uid 43    orig=a  B=e | SNO-DCA: A model for predicting <i>S</i>-nitrosylation sites based on densely 
+        reason: Only 'all other samples were negative sites'; the origin of the negative samples is never given.
+  uid 52    orig=a  B=U | pCysMod: Prediction of Multiple Cysteine Modifications Based on Deep Learning 
+        reason: Quote cut off at 'all cysteine sites that', so the qualifier that would decide between a and c is missing.
+  uid 208   orig=a  B=e | iSNO-PseAAC: predict cysteine S-nitrosylation sites in proteins by incorporati
+        reason: Negatives are 810 'experimentally verified non-SNO sites', i.e. curated from prior experiments rather than generated in this study.
+  uid 211   orig=a  B=e | GPS-SNO: computational prediction of protein S-nitrosylation sites with a modi
+        reason: Training-set sizes are given but the origin of the 2,581 negative sites is never stated.
+  uid 218   orig=a  B=e | Computational Prediction and Analysis of Associations between Small Molecules 
+        reason: 478 negative samples reported with no statement of where they came from.
+  uid 713   orig=a  B=U | Acetylome Analysis in &lt;i&gt;Vibrio vulnificus&lt;/i&gt; MO6-24/O Reveals Ex
+        reason: Quote cut off at 'with the' immediately before the Motif-X background specification.
+  uid 741   orig=e  B=U | Global Lactylome Reveals Lactylation-Dependent Mechanisms Underlying CXC Motif
+        reason: Quote concerns flanking-amino-acid analysis of identified Klac sites; no background set is described and the quote is cut off.
+  uid 769   orig=e  B=U | Lysine Acetylome Profiling Reveals Diverse Functions of Acetylation in Deinoco
+        reason: Quote cut off inside the Motif-X parameter sentence before any background descriptor.
+  uid 800   orig=e  B=U | Integrated Phosphoproteomics Identifies TGFβ-Dependent Phosphorylation Events 
+        reason: Quote names the MoMo tool but is cut off inside its citation; no background set appears.
+  uid 826   orig=a  B=U | Systematic analysis of lysine crotonylation in human macrophages responding to
+        reason: Motif tool named but quote cut off; the recorded note states a background statement exists in the full text but the statement itself was not recorded.
+  uid 877   orig=a  B=U | Proteomic Profiling of Lysine Acetylation Indicates Mitochondrial Dysfunction 
+        reason: Recorded ambiguity states the motif-x background phrase was truncated in the extract, so the class cannot be recovered.
+  uid 885   orig=e  B=U | A Quantitative Acetylomic Analysis of Early Seed Development in Rice (Oryza sa
+        reason: Quote cut off mid-sentence ('extracted for') before any background description.
+  uid 892   orig=e  B=U | Quantitative phosphoproteomic analysis reveals chemoresistance-related protein
+        reason: Quote cut off at 'performed using' before the comparison and background are specified; the stated contrast is between two site subsets.
+  uid 902   orig=a  B=U | Quantitative analysis of protein crotonylation identifies its association with
+        reason: Motif-x parameters described but quote cut off; the note records that an explicit background statement exists in the full text which was not recorded.
+  uid 924   orig=a  B=U | GPSuc: Global Prediction of Generic and Species-specific Succinylation Sites b
+        reason: Quote cut off at 'while the', exactly where the negative set would be described.
+  uid 994   orig=a  B=U | Quantitative phosphoproteomic profiling of fiber differentiation and initiatio
+        reason: Only Motif-X default parameters are quoted; the note records that a background statement exists in the full text but it was not recorded.
+  uid 1022  orig=a  B=U | Multiple Layers of Phospho-Regulation Coordinate Metabolism and the Cell Cycle
+        reason: MoMo/MEME named but quote cut off; the note records that an explicit background statement exists in the full text which was not recorded.
+  uid 1077  orig=e  B=U | Phosphoproteomics Reveals HMGA1, a CK2 Substrate, as a Drug-Resistant Target i
+        reason: Quote cut off mid-sentence while describing foreground motif extraction; no background set named.
+  uid 1111  orig=c  B=e | Radiosensitization of human leukemic HL-60 cells by ATR kinase inhibitor (VE-8
+        reason: Background is all identified phosphosites while foreground is regulated sites - a regulation contrast between site subsets, which the strictness rule excludes from c.
+  uid 1114  orig=a  B=U | Phosphoproteomic Profiling Reveals Epstein-Barr Virus Protein Kinase Integrati
+        reason: Motif-X enrichment quote cut off mid-sentence; the note records that an explicit background statement exists in the full text which was not recorded.
+  uid 1537  orig=b  B=e | Proteomic Analysis of Lysine Acetylation Sites in Rat Tissues Reveals Organ Sp
+        reason: Abundance was controlled for quantitation / sites-per-protein only; the recorded ambiguity confirms this is not a sequence-level background.
+  uid 1553  orig=c  B=a | Predicting post-translational lysine acetylation using support vector machines
+        reason: Negatives are 3,417 lysines randomly drawn from identified human peptides held in an external database (MAPU) - an unrestricted lysine pool, not same-experiment detections.
+  uid 1558  orig=e  B=U | Systematic Analysis of Lysine Lactylation in the Plant Fungal Pathogen Botryti
+        reason: Motif tool and 21-mers described but the quote is cut off before any background descriptor.
+  uid 1596  orig=a  B=U | Characterization and Identification of Lysine Succinylation Sites based on Dee
+        reason: Negatives described as 'non-succinylated sites which are those fragmented sequences' with the defining clause cut off.
+  uid 1608  orig=a  B=U | Succinyl-proteome profiling of Dendrobium officinale, an important traditional
+        reason: Motif-x parameters quoted but cut off; the note records that an explicit background statement exists in the full text which was not recorded.
+  uid 1620  orig=a  B=U | Global Proteomic Analysis Reveals Widespread Lysine Succinylation in Rice Seed
+        reason: Motif-x 21-mer sentence cut off; the note records that an explicit background statement exists in the full text which was not recorded.
+  uid 1628  orig=e  B=U | Label‐free quantitative analysis of the casein kinase 2‐responsive phosphoprot
+        reason: Quote concerns excluding unconfident motifs and is cut off mid-clause; no background set is described.
+  uid 1639  orig=a  B=U | First comprehensive proteome analysis of lysine crotonylation in Streptococcus
+        reason: Motif-x sentence cut off mid-parameter list; the note records that an explicit background statement exists in the full text which was not recorded.
+  uid 1674  orig=e  B=U | Ammonium triggered the response mechanism of lysine crotonylome in tea plants
+        reason: Motif-x 21-mer sentence cut off before any background descriptor appears.
+  uid 1710  orig=a  B=U | Proteomic Analysis of Protein Ubiquitination Events in Human Primary and Metas
+        reason: Motif-X named with no background given; the note records that an explicit background statement exists in the full text which was not recorded.
+  uid 1712  orig=a  B=U | Involvement of the Vitamin D Receptor in Energy Metabolism Revealed by Profili
+        reason: Motif-X sentence cut off at 'which was'; the note records that an explicit background statement exists in the full text which was not recorded.
+  uid 1723  orig=e  B=U | Comparative Phosphoproteomic Analysis Reveals the Response of Starch Metabolis
+        reason: Quote cut off mid-sentence describing extracted phosphosite sequences; no background set named.
+  uid 1742  orig=e  B=U | Phosphoproteomics of ATR signaling in mouse testes
+        reason: Quote cut off mid-clause and concerns ATR kinase action, not a background set.
+
+------------------------------------------------------------------------------
+(vii) LIMITATIONS OF THIS CODING PASS
+------------------------------------------------------------------------------
+* Coding used ONLY the recorded/truncated evidence quotations in the blinded
+  extract. The papers' full texts were not consulted.
+* Many evidence_quote_background fields are cut off mid-clause at a fixed length,
+  in several cases immediately before the background description. Those rows are
+  coded U and cannot be independently verified from the record.
+* 12 rows carry the note 'explicit background statement found on full-text
+  re-grep (two-pass verification)' but the statement itself was not recorded;
+  11 of these are U. The audit trail is incomplete for those rows.
+* 28 of 74 rows (38%) are U: the class cannot be reproduced from the evidence
+  that was retained. Any agreement statistic should be read alongside this.

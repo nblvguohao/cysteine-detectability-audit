@@ -1,0 +1,101 @@
+{
+ "item": "B_overadjust_sim",
+ "label": "POST HOC (revision round 2, 2026-09-30); not registered",
+ "definitions": {
+  "kr_count20": "repository DIG25 column pep_cleavage_sites_within_20: K/R in sequence[c-20 : c+21] (phase2_claim_cohorts.site_feature_matrix, subset DIG25, tryptic rule)",
+  "x1_KRcount20_hi": "kr_count20 > universe median (4)",
+  "x2_KR5_ge3": "phase2b_claim_cohorts.flank_count_flag(residues={K,R}): >= 3 of the ten positions within +/-5",
+  "kr_count5": "K/R at the ten positions within +/-5 (centre excluded)",
+  "akrv_count10": "A/K/R/V at the twenty positions within +/-10 (centre excluded)"
+ },
+ "columns": [
+  {
+   "column": "x1_KRcount20_hi",
+   "kind": "binary (hypothetical count-defined claim)",
+   "prevalence_all": 0.461065645744793,
+   "prevalence_detected": 0.5055312954876273,
+   "prevalence_undetected": 0.4469237535299292,
+   "log2_or_vs_detection": 0.3393518638961184,
+   "vis10_predicts_auc_cv5": 0.8369963441888353
+  },
+  {
+   "column": "x2_KR5_ge3",
+   "kind": "binary (hypothetical count-defined claim)",
+   "prevalence_all": 0.09002142530996453,
+   "prevalence_detected": 0.028820960698689956,
+   "prevalence_undetected": 0.10948567195963149,
+   "log2_or_vs_detection": -2.0473872231385926,
+   "vis10_predicts_auc_cv5": 0.8982568334629375
+  },
+  {
+   "column": "kr_count20",
+   "kind": "count (chemistry variable of the proxy model, standardised)",
+   "mean": 4.4892346598293,
+   "sd_population": 2.2077996303397835,
+   "median": 4.0,
+   "p5": 1.0,
+   "p95": 8.0,
+   "mean_detected": 4.741193595342067,
+   "mean_undetected": 4.409101430489329,
+   "vis10_predicts_r2_cv5": 0.441427313061451
+  },
+  {
+   "column": "kr_count5",
+   "kind": "count (chemistry variable of the proxy model, standardised)",
+   "mean": 1.0957816725791156,
+   "sd_population": 1.0087914521059549,
+   "median": 1.0,
+   "p5": 0.0,
+   "p95": 3.0,
+   "mean_detected": 0.9203784570596798,
+   "mean_undetected": 1.1515670570806906,
+   "vis10_predicts_r2_cv5": 0.5197027218655874
+  },
+  {
+   "column": "akrv_count10",
+   "kind": "count (chemistry variable of the proxy model, standardised)",
+   "mean": 4.93421376137122,
+   "sd_population": 2.0435683561832385,
+   "median": 5.0,
+   "p5": 2.0,
+   "p95": 8.0,
+   "mean_detected": 5.039592430858806,
+   "mean_undetected": 4.900699041711032,
+   "vis10_predicts_r2_cv5": 0.2548408249273979
+  }
+ ],
+ "correlation_with_published_attributes": {
+  "kr_count20": {
+   "a1_SFE006_KR": 0.3898242132936552,
+   "a1b_SNO021_K": 0.2725585614964521,
+   "a2_SNO016_KRH": 0.342145129814858,
+   "a2b_PERS009_AKRV": 0.2508761194032418,
+   "a3_SNO006_DE3": 0.0011098066646333883,
+   "a3b_SFE002_E": 0.015276206194131593
+  },
+  "kr_count5": {
+   "a1_SFE006_KR": 0.29421339026106397,
+   "a1b_SNO021_K": 0.20461930897737748,
+   "a2_SNO016_KRH": 0.6570700796062896,
+   "a2b_PERS009_AKRV": 0.4960785970968133,
+   "a3_SNO006_DE3": -0.0401267670327558,
+   "a3b_SFE002_E": -0.04316224763338478
+  },
+  "akrv_count10": {
+   "a1_SFE006_KR": 0.3282479931953563,
+   "a1b_SNO021_K": 0.2087336764877021,
+   "a2_SNO016_KRH": 0.26208780517463576,
+   "a2b_PERS009_AKRV": 0.594318063395259,
+   "a3_SNO006_DE3": -0.033457930126083536,
+   "a3b_SFE002_E": -0.051291595296956226
+  }
+ },
+ "check_vis10_columns_of_DIG25_call_max_abs_diff_vs_stored": 1.8189894035458565e-12,
+ "check_x2_equals_kr_count5_ge_3_mismatches": 0,
+ "check_against_verifier": {
+  "rows_matched": 28471,
+  "rows_universe": 28471,
+  "max_abs_diff_F_KRcount20_z_vs_verifier_F_count20": 4.440892098500626e-16
+ },
+ "n_rows": 28471
+}

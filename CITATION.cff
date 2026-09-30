@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Cys-Audit: detectability audits for site-level cysteine-modification proteomics"
+message: >-
+  If you use this software or the derived tables, please cite the accompanying
+  manuscript. The author list is not yet final; this file will be updated with the
+  published author list and the article DOI on acceptance.
+type: software
+authors:
+  - name: "The Cys-Audit authors"
+license: MIT
+version: "v2.0.1"
+date-released: "2026-09-23"
+keywords:
+  - proteomics
+  - cysteine modification
+  - persulfidation
+  - detectability
+  - reporting standards
+  - audit

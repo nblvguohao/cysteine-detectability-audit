@@ -1,0 +1,57 @@
+{
+  "title": "Artefact 4 on public data: PXD048216 (U. virens, S-palmitoylation, ABE)",
+  "written": "2026-09-21",
+  "why": "The tomato table is restricted to research reference only; Artefact 4 is the last block with no public substitute.",
+  "NOT_BLIND_FOR": "the headline coincidence: Stage C already computed 0.9418 (CAM-only) and 0.9643 (union) on this deposit before this file was written",
+  "definition_correction": {
+    "found": "Stage C expanded each site row to every listed protein but counted observed cysteines on the leading razor protein only; 1,721 of 3,398 CAM rows list several proteins; only 65.7% of site pairs were found among observed cysteines",
+    "primary": "both sides on the leading assignment: observed = peptides.txt cysteine on Leading razor protein; site = (Protein, Position) of the site table row",
+    "secondary": "Stage C's asymmetric definition, kept only for comparison"
+  },
+  "chemistry_from_methods": {
+    "source": "PRIDE sample-processing text, acyl-biotin exchange",
+    "CAM": "modification readout (thioester-linked before exchange)",
+    "NEM": "blocked free thiol carried through capture = detected-but-unmodified class",
+    "primary_reading": "CAM-only; NEM-only, union and both also reported",
+    "fixed_before_this_file": true,
+    "chosen_from_numbers": false
+  },
+  "enzyme_measured": {
+    "page_says": "Trypsin/P",
+    "measured": "98.98% of peptides end in K/R; 13 of 3,602 (0.36%) followed by P; missed cleavages 0/1/2 = 2871/728/72",
+    "consequence": "proline-blocked trypsin, matching the manuscript's rule"
+  },
+  "quantities": {
+    "Q1": "coincidence p with Wilson interval and protein-clustered bootstrap (5000, seed 20260921)",
+    "Q2": "count and share of observed cysteines with no CAM site = the unmodified class",
+    "Q3": "detectability calibration: sensitivity and PPV of the in-silico rule (7-30 aa, <=2 missed); length 6-35 as sensitivity",
+    "Q4": "multi-cysteine observed/expected by cysteine count 1..4, DESCRIPTIVE ONLY",
+    "Q5": "PRE-DECLARED PREDICTION: mixed CAM+NEM multi-cysteine peptides EXIST in non-trivial number under ABE, the opposite of the tomato tethering mechanism"
+  },
+  "mechanism_does_not_transfer": "the tomato mechanism (maleimide-biotin, peptide-level capture) is workflow-specific; ABE labels at the protein level after NEM blocking. Q4/Q5 are a mechanism CONTRAST, not a replication, and the manuscript paragraph must be rewritten, not migrated",
+  "branches_Q1": {
+    "K-HIGH": "Wilson lower bound of CAM-only p >= 0.90 -> near-unity coincidence replicates",
+    "K-MID": "0.50 <= L < 0.90 -> a coincidence exists but the unmodified class is not negligible; 'cannot be constructed' becomes 'is small'",
+    "K-LOW": "L < 0.50 -> does not replicate; Artefact 4 narrowed to tomato or withdrawn. THIS CONTRADICTS THE MANUSCRIPT AND WE PUBLISH IT.",
+    "why_0.90": "the level at which fewer than one observed cysteine in ten is unmodified; NOT taken from 0.9923 or from the Stage C values seen earlier"
+  },
+  "controls": {
+    "PC1": "Amino acid column 100% C in both site tables",
+    "PC2": "observed-cysteine count under the SECONDARY definition equals Stage C's 3,554",
+    "PC3": "peptides.txt protein ids resolve in the FASTA for >= 90% of proteins, else the calibration is not run",
+    "NC1": "within-protein position permutation (seed 20260921) must drop the coincidence well below the observed one; otherwise the quantity is not measuring site identity"
+  },
+  "not_done_this_round": [
+    "seven-feature A/B contrast (needs AlphaFold-derived features; v6 files retrievable)",
+    "label-swap retrain (needs a fitted model)",
+    "if Part 2 is not run these two elements must be deleted, not kept on the restricted table"
+  ],
+  "PXD054433": "NOT the input arm (raw files differ: WT1/WT2 vs nine 169-61-* files); not used",
+  "limitations": [
+    "two biological replicates: report per replicate",
+    "different modification, organism and chemistry from the tomato cohort; the same QUESTION on public data, not a replication of its numbers",
+    "FASTA is UniProt taxon 1159556 as of 2021-07; PC3 measures the drift",
+    "depositors filtered their own lists (score, localisation, C-terminal sites); whether the txt tables already reflect that is measured in gate G1"
+  ],
+  "interpreter": "project venv for the analysis; stdlib only here"
+}

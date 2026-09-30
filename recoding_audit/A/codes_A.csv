@@ -1,0 +1,75 @@
+uid,doi,coder_code,code_A_strict,justification,confidence
+1,10.1093/bioinformatics/btaf078,e,e,Computational predictor whose negatives are only called 'nonsulfhydration samples' with no stated provenance; not same-experiment residues and not stated as an unrestricted whole-proteome set.,medium
+3,10.3389/fgene.2025.1616880,e,e,"Computational predictor; the negative description is truncated at 'while all', so an unrestricted all-cysteine proteome background cannot be established and the predictor default applies.",low
+9,10.1093/database/baag021,e,e,Database resource in which only a foreground FASTA input is described; no background or negative set for the resource is named anywhere in the extract.,medium
+36,10.1186/s12859-023-05164-9,e,e,"Predictor negatives are the remaining cysteines of the positive proteins only, i.e. a substrate-restricted complement, not an unrestricted proteome background and not same-experiment detection.",medium
+43,10.1016/j.heliyon.2023.e23187,e,e,Predictor that labels 'all other samples' negative without stating their universe; provenance unstated so neither unrestricted-all-residues nor same-experiment status can be affirmed.,low
+52,10.3389/fcell.2021.617366,e,e,"Predictor; the negative sentence is truncated at 'all cysteine sites that', so the complement set cannot be confirmed as unrestricted proteome-wide.",low
+102,10.1371/journal.pone.0055512,a,a,"Negatives are randomly selected cysteines excluding known S-glutathionylation sites, i.e. an unrestricted sampling of all residues of that type with no detectability or abundance matching.",medium
+128,10.1016/j.redox.2023.102792,e,e,The analysis uploaded 586 reduced-cysteine peptides to pLogo but the extract names no background set for the motif comparison.,medium
+196,10.1074/mcp.m113.032235,a,a,Explicit statement: a background set was constructed from 'all cysteine sites in human proteome'.,high
+208,10.1371/journal.pone.0055844,e,e,Negatives are 810 'experimentally verified non-SNO sites' taken from an external curated database rather than generated in the same experiment.,high
+211,10.1371/journal.pone.0011290,e,e,"Predictor; the 2,581 negative sites are attributed only to '327 unique substrates' with no stated derivation rule.",medium
+218,10.3390/molecules23040954,e,e,Predictor; 478 negative samples are reported without any statement of how or from where they were drawn.,medium
+441,10.1371/journal.pone.0261543,c,c,"The negative group is the non-palmitoylated fraction of the same acyl-RAC dataset, i.e. proteins detected in the same experiment that carry no palmitoylation assignment.",medium
+480,10.1038/s41467-017-01461-z,c,c,"Native MS with no protease digest means every cysteine of the analysed proteins is directly observed, so the comparison background is the same-experiment detected (unmodified) cysteine set.",low
+713,10.3390/pathogens15070718,e,e,"Motif-X is described with its +/-10 amino acid window but the sentence is cut off at 'with the', so no background set is retrievable.",low
+736,10.1016/j.mcpro.2023.100700,e,e,"Negatives are annotated acetylation sites lacking low-throughput evidence, i.e. curated database annotations, not residues observed unmodified in the same experiment.",high
+741,10.1002/mco2.70344,e,e,Only flanking-sequence analysis of the identified Klac sites is described; no background set is named.,medium
+769,10.1128/spectrum.01016-21,e,e,Soft MoMo is cited with a truncated template that never reaches a background specification.,low
+800,10.3390/proteomes14010005,e,e,Only the MoMo tool and its version are cited; the extract names no background set for the motif analysis.,medium
+802,10.1186/s12935-020-01266-z,e,e,The extract states 'background matches' were referenced but the background set is never defined.,high
+826,10.3389/fcimb.2023.1126350,e,e,"MoMo usage is quoted only up to 'sequences constituted with amino', so the background specification is not retrievable.",low
+828,10.3390/cancers15010078,U,U,"The recorded background evidence for this record is a trypsin reagent sentence, which is non-informative about any background and does not permit the inference that no statement exists.",low
+836,10.1186/s12967-022-03645-8,e,e,Motif-X motif searching is mentioned without any statement of the background set used.,medium
+857,10.18632/aging.203992,e,e,Two independent regex passes over the full text returned no background statement.,high
+859,10.1002/ctm2.890,e,e,Two independent regex passes over the full text returned no background statement.,high
+861,10.3390/ijms21228631,e,e,rmotifx motif prediction is cited without any description of the background or reference set.,medium
+877,10.3389/fnmol.2021.594332,e,e,Soft motif-x is quoted with a truncated window description and no retrievable statement of the background.,low
+885,10.3390/ijms18071376,e,e,Context sequences around the acetyl sites were extracted but no background set for the comparison is named.,medium
+892,10.1186/s12935-021-02286-z,e,e,Motif analysis was run on differentially expressed phosphopeptides with no background set named.,medium
+902,10.3892/mmr.2020.10931,e,e,Motif-x 21-mer analysis is described but the quoted sentence does not reach any background specification.,low
+924,10.1371/journal.pone.0200283,e,e,"Predictor; positives are experimentally identified succinylated lysines and the negative clause is truncated, so an unrestricted all-lysine background is not established.",low
+982,10.1038/s41467-018-08004-0,e,e,"The study used a WebLogo frequency logo with no background set, i.e. no background was defined at all.",medium
+989,10.15252/msb.20209819,a,a,"Foreground and background N-mers were both extracted from the protein-aligned sequences, i.e. the background is the complete set of N-mers of the analysed proteins with no detectability restriction.",medium
+994,10.1186/1471-2164-15-466,e,e,Only Motif-X parameter settings are quoted; no background set is retrievable from the extract.,low
+1005,10.15252/embj.201899559,e,e,Two independent regex passes over the full text returned no background statement.,high
+1022,10.3389/fcell.2019.00338,e,e,The MoMo/MEME function is cited without any statement of the background used for motif enrichment.,medium
+1023,10.1186/s12864-015-1753-4,a,a,"Explicit statement that the Arabidopsis IPI database provided by Motif-X was used as the background, i.e. an unrestricted whole-proteome reference.",high
+1067,10.1038/s41598-017-07199-4,a,a,"The background set was built by extracting all S/T/Y residues from the background protein set, i.e. every residue of that type with no detectability or abundance matching.",medium
+1077,10.1038/srep44021,e,e,Motifs were extracted from phosphopeptides but no background set is named.,medium
+1111,10.3390/ijms150712007,e,e,"Foreground is regulated sites and background is all identified phosphosites from the same study, i.e. a contrast between two subsets of sites rather than unmodified residues, which the strictness rule places in e.",high
+1114,10.1371/journal.ppat.1005346,e,e,Motif-X is applied to enriched phosphopeptides with no retrievable statement of the background set.,low
+1135,10.1186/s12918-015-0246-z,e,e,"Predictor; the extract states only that a window of 2n+1 was used for positives, leaving the negative-set source unstated.",medium
+1253,10.1038/s41467-019-10182-4,e,e,"The 'background peptides' mentioned are non-target enrichment peptides and the motif-x background is unstated, so no residue-level background is described.",medium
+1380,10.1128/mbio.02704-24,e,e,Motif-X sequence logos are mentioned without any statement of the background set used.,medium
+1537,10.1016/j.celrep.2012.07.006,e,e,"The abundance analysis in this study was applied to sites-per-protein, not to a sequence-level background, so it does not constitute an abundance-matched background.",medium
+1553,10.1093/bioinformatics/btq260,e,e,"Predictor negatives were randomly drawn from identified human peptides held in an external database (MAPU), i.e. not from the same experiment.",medium
+1558,10.3389/fmicb.2020.594743,e,e,Soft MoMo is cited for lactylation motifs with no retrievable background specification.,low
+1568,10.1038/s41598-018-26676-y,a,a,"Explicit statement that Motif-X analysed sequence models in all protein sequences, i.e. the unrestricted proteome.",medium
+1593,10.3389/fmicb.2021.672559,a,a,Explicit statement that modifier-21-mer motifs were analysed in all protein sequences.,medium
+1596,10.1038/s41598-019-52552-4,e,e,Predictor whose negatives are 'non-succinylated sites' that were not generated in the same experiment and are not stated to be an unrestricted all-lysine set.,medium
+1608,10.1186/s12864-017-3978-x,e,e,Motif-x is quoted with a truncated sentence that does not reach a background specification.,low
+1609,10.1371/journal.pone.0240947,e,e,Two independent regex passes over the full text returned no background statement.,high
+1614,10.1371/journal.pone.0243787,e,e,A complete sentence citing MoMo/motif-x over 'appraised proteins' that never names a background set.,medium
+1620,10.3390/ijms20235911,e,e,Soft motif-x is quoted with a truncated window template and no retrievable background statement.,low
+1628,10.1002/pmic.201500086,e,e,The quoted passage concerns omission of ungroupable motifs and names no background set.,low
+1636,10.3389/fimmu.2022.966457,e,e,A complete sentence citing MoMo/motif-x on modification sites that never names a background set.,medium
+1639,10.1186/s12953-021-00182-y,e,e,Soft MoMo is quoted with a truncated template and no retrievable background statement.,low
+1646,10.1038/s41598-022-11798-1,e,e,MoMo Motif-X is cited for the acetylome but no background set is named.,medium
+1674,10.1186/s12864-019-5716-z,e,e,Soft motif-x is quoted with a truncated 21-mer template and no retrievable background statement.,low
+1686,10.3389/fpls.2015.00298,e,e,The extract itself flags that the background set is not defined; 'motifs in the identified maize proteins' is not a background specification.,medium
+1710,10.3389/fonc.2020.01684,e,e,Motif-X ubiquitination motif analysis is mentioned with no statement of the background set.,medium
+1712,10.1038/s41598-017-14477-8,e,e,"Motif-X is named but the recorded sentence is cut off at 'which was' before any background set is specified, so no background statement is retrievable.",low
+1723,10.3390/ijms221910546,e,e,13-residue sequences centred on the phosphosite were extracted but no background set is named.,medium
+1725,10.1093/gigascience/giy047,a,a,"The extract states the motif-x background was the SGD proteome, i.e. an unrestricted whole-proteome reference set.",medium
+1726,10.3389/fcell.2021.626821,e,e,The quoted passage describes mutation enrichment over flanking sequences and never defines the reference region or background.,low
+1729,10.1093/jxb/erw293,e,e,"Only 'phosphorylation motifs predicted by Motif-X' is stated, with no background set named.",medium
+1736,10.1038/s44318-024-00032-5,e,e,IceLogo motif analysis is mentioned without any statement of the reference/background set.,medium
+1742,10.7554/elife.68648,e,e,The quoted sentence concerns interpretation of ATR-regulated kinase action and names no background set.,low
+1757,10.1007/s13167-019-00197-8,a,a,Explicit statement that the Motif-X background was the IPI human proteome.,high
+1789,10.1021/acs.jproteome.5c00278,e,e,Computational predictor; the extract discusses decoy sites but never defines the comparison set used for conservation analysis.,low
+1867,10.7717/peerj.7046,e,e,"Software tool paper that performs no enrichment of its own; it only recommends a background type for downstream tools, so no background used by this study is described.",low
+1893,10.1371/journal.pone.0105018,e,e,Predictor whose negative-set source is explicitly noted as not stated in the extract; the quoted text is a decision formula.,medium
+2038,10.1039/d4sc06745b,e,e,'Bioinformatics analyses' are invoked with no background specification of any kind.,medium
+2113,10.1016/j.mcpro.2025.101494,a,a,"Background peptides were extracted from all length-13 peptide sequences of the UniProt human database, i.e. an unrestricted whole-proteome background.",medium

@@ -1,0 +1,155 @@
+{
+  "label": "POST HOC revision analysis (2026-09-30), not registered, not pre-specified",
+  "phospho_config_sources": {
+    "PXD071110_sources": [
+      "mqpar.xml",
+      "0.allSpectra.CID.FTMS.sil0.apar",
+      "0.allSpectra.HCD.FTMS.sil0.apar"
+    ],
+    "PXD071110_note": "parameters.txt of this MaxQuant version states neither the modification list nor the precursor tolerance; branch B3 therefore reads them from the deposit's other own files, and the run refuses if parameter groups disagree",
+    "eight_deposit_round_config_source_mqpar_only": true,
+    "eight_deposit_round_parameters_txt_lacked_mods_and_tolerance": true,
+    "PXD071110_script_says_parameters_txt_states_neither": true
+  },
+  "pyl3_collaborator_research": {
+    "engine": "Comet 2026.01 rev. 1 (e4f767c)",
+    "raw_file": "pyl2180.raw",
+    "instrument": "Orbitrap Astral（OA10217）",
+    "fragmentation": "HCD",
+    "research_parameters": {
+      "variable_mods": [
+        "31.97207 C",
+        "31.98983 C",
+        "57.02146 C",
+        "15.99491 M",
+        "42.01057 n"
+      ],
+      "peptide_mass_tolerance_ppm": [
+        -10.0,
+        10.0
+      ],
+      "fragment_bin_tol": 0.02,
+      "fragment_bin_offset": 0.0,
+      "theoretical_fragment_ions": "0（use flanking peaks）",
+      "isotope_error": 3
+    },
+    "vendor_parameters": {
+      "software": "Thermo Scientific Proteome Discoverer 3.1（Sequest HT）",
+      "peptide_mass_tolerance": "±20 ppm",
+      "fragment_mass_tolerance": "0.1 Da",
+      "dynamic_mods": [
+        "氧化（M）",
+        "硫巯基化（C）",
+        "乙酰化（蛋白质 N 端）"
+      ]
+    },
+    "pyl3_site_psms_recount": {
+      "persulfide_31_97": 0,
+      "dioxidation_31_99": 9,
+      "alkyl_57_02": 48,
+      "free": 16
+    },
+    "gst_site_psms_recount": {
+      "persulfide_31_97": 0,
+      "dioxidation_31_99": 4
+    },
+    "mass_accuracy": {
+      "definition": "前体 ppm = (exp-calc)/calc*1e6，不做 C13 校正；基线 = 不含任何 +32 修饰且 |ppm| < 10 的 target PSM",
+      "ppm_gate": 10.0,
+      "baseline_no_plus32_gated": {
+        "n": 1421,
+        "median_ppm": 2.0423,
+        "sd_ppm": 1.3517,
+        "iqr_ppm": [
+          1.4846,
+          2.542
+        ],
+        "min_ppm": -9.2291,
+        "max_ppm": 9.9871
+      },
+      "baseline_no_plus32_ungated_n": 1630,
+      "dioxidation_gated": {
+        "n": 12,
+        "median_ppm": 1.2171,
+        "sd_ppm": 2.0839,
+        "iqr_ppm": [
+          0.8679,
+          2.0547
+        ],
+        "min_ppm": -4.9844,
+        "max_ppm": 2.5745
+      },
+      "dioxidation_ungated_n": 14,
+      "persulfide_gated": {
+        "n": 4,
+        "median_ppm": -7.4217,
+        "sd_ppm": 4.6434,
+        "iqr_ppm": [
+          -7.4925,
+          -5.053
+        ],
+        "min_ppm": -7.4925,
+        "max_ppm": 1.8405
+      },
+      "persulfide_ungated_n": 5,
+      "baseline_minus_persulfide_ppm": 9.464
+    },
+    "same_spectrum_comparisons_xcorr_ppm": "三条并排比较的 xcorr 与 ppm 本身逐个复核无误（28669：2.3580/−1.17 对 2.1950/+7.76；28828：2.3150/+0.79 对 2.1190/+9.72；29845：1.8320/−2.05 对 1.7370/+5.68）。但 29845 应标注为“低于 1% FDR 阈值的例示”，不能与前两条同等引用。",
+    "limits": [
+      "① 合作方（张华 / 胡康棣课题组，样品由张潆支提供）未发表的私有数据。进稿件需事先取得同意与署名安排；本报告只作内部证据，不对外分发原始表格。",
+      "② 本轮证明的是**这一份实验**里 PYL3 / GST 上的 +32 信号在同时给出二氧化候选时全部改判为二氧化，**不是**文献里的 +S 指派都错了；本轮不对任何已发表指派下错误判定。",
+      "③ 该样品纯化与处理全程未加还原剂（实验方 2026-09-15 告知）。无还原剂样品在制备、电泳与胶内酶解中发生空气氧化生成亚磺酸是已知常见现象，结论不能外推到加还原剂的流程。",
+      "④ 重搜引擎与厂商不同（Comet 2026.01 对 Proteome Discoverer 3.1 / Sequest HT），打分函数、FDR 估计与修饰定位算法都不同，**引擎差异未做对照**；本轮也没有用 Sequest HT 加二氧化候选跑一次同臂对照。",
+      "⑤ 核实中发现的不一致与补正一律列在本文件的 `corrections` 键，并写进报告第六节。",
+      "⑥ 质量精度基线的 |ppm| < 10 闸门是为复现源文档 1,421 条基线而反推出来的，属事后重构、非预先声明；闸门本身会把被 C13 同位素峰触发的 PSM 排除在基线之外。"
+    ],
+    "provenance_register_summary": "U-03,PYL3 +32 re-search (pyl2180.raw),\"Collaborator raw file, H2S-treated recombinant PYL3, gel-band shotgun. Re-searched with Comet adding Cys dioxidation: every +32 assignment moved to dioxidation; no persulfidation PSM survived 1% FDR.\",07f6e55d (parent) mentions PYL3; eff75d49 carries the re-search memory,\"2026-09-15 15:19 / 2026-09-15 12:13 (memory timestamp, originSessionId 64b5fc24)\",\"Collaborator raw file, re-searched by us\",\"499b81e4, eff75d49, 3897379f, 2d74c572, 8297df4e, bb04023a, daf890aa, dd89aa91, 2b2a250b, d658252d, 3c93430e, b84363a9, cdaf996b, 64b5fc24, c9911156, 35886e93\",report only; reproducible material on A100 /data/lgh/prod/jobs/persulf_ms/,reports/MS_RESEARCH_PERSULFIDE_VS_DIOXIDATION.md,\"S-B (2026-09-17): does NOT enter the manuscript, not even as data-not-shown, until consent and authorship for this material are settled\",nothing. Artefact 6 rests entirely on public PXD015307.,Whether to upgrade it to a worked example once consent is agreed",
+    "value_assessment": "\"U-03 PYL3 re-search, U-04 BRG3 MS instance\",OPTIONAL - already proven optional,0,nothing in the current manuscript. Artefact 6 rests entirely on public PXD015307; the BRG3 counter-example is stated as a count over the public tomato proteome.,\"yes, both\",S-B keeps them out of the manuscript entirely,not our data to deposit,\"Leave them out. The manuscript already works without them, which is the strongest possible demonstration that they are optional.\"",
+    "consent_register": "INV-19,results/authorship_consent_inventory.csv,Artefact 6 的两个私有实例（PYL3 的 +32 全部改判二氧化，1% FDR 下 PYL3 无过硫化 PSM；BRG3 判 +S 的两行 +13 ppm，改按 +2O 算回到 −0.8 ppm）,当前未使用,yes — 张潆支本人 + PI；BRG3 另需胡康棣组同意,covered_not_adopted,R3,S-B,同意已覆盖；是否进稿件由另外的判据决定，本轮不变,—,reports/MS_RESEARCH_PERSULFIDE_VS_DIOXIDATION.md；CLAUDE.md 9.3 第 1 条与 9.9"
+  },
+  "registration": {
+    "registered_utc_label": "2026-09-17T00:40:00Z",
+    "registered_before_any_search_was_run": true,
+    "fixed_before_any_search": [
+      "question",
+      "primary_statistic_and_reading_rule",
+      "predeclared_outcomes",
+      "search_parameters_fixed_before_the_run"
+    ],
+    "twenty_psm_branch": "fewer than 20 +32-class Cys PSMs pass 1% FDR -> the round is reported as underpowered and no fraction is quoted as a rate",
+    "amendments": [
+      {
+        "utc_label": "2026-09-17T01:15:00Z",
+        "what": "compute location moved from the A100 to amax; nothing scientific changed"
+      },
+      {
+        "utc_label": "2026-09-17T01:15:00Z",
+        "what": "protein N-terminal acetylation (+42.010565) was NOT searched"
+      },
+      {
+        "utc_label": "2026-09-17T01:15:00Z",
+        "what": "isotope_error = 0 (no C13 offsets) and max_variable_mods_in_peptide = 3, both fixed before the run"
+      },
+      {
+        "utc_label": "2026-09-17T01:15:00Z",
+        "what": "num_output_lines = 5"
+      },
+      {
+        "utc_label": "2026-09-17T01:50:00Z",
+        "what": "the deposit's species is MOUSE, not bovine; the database is Swiss-Prot Mus musculus with isoforms"
+      },
+      {
+        "utc_label": "2026-09-17T02:00:00Z",
+        "what": "fragment settings are PER FILE, because the deposit mixes two mass analysers"
+      },
+      {
+        "utc_label": "2026-09-17T02:00:00Z",
+        "what": "four search runs are DISCARDED and kept, none deleted"
+      }
+    ],
+    "static_cam_in_registration": false,
+    "run5_in_round_report": true,
+    "run5_in_registration": false,
+    "wide_window_diagnostic_in_registration": true
+  }
+}

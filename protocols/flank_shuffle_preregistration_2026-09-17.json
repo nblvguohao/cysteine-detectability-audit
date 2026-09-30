@@ -1,0 +1,110 @@
+{
+  "registered_utc": "2026-09-17T05:20:00Z",
+  "registered_before_the_arm_was_run": true,
+  "registered_before_any_statistic_of_this_arm_was_computed": true,
+  "round": "the flank-shuffle round: a fourth arm for the chemistry ablation that destroys the MECHANISM instead of deleting the feature names",
+
+  "why_this_round_exists": {
+    "what_is_already_settled": "reports/V2_CHEM_BASIC_ABLATION.md closed the question 'do the twenty basic-composition columns carry the cleavage-flank ranking?' with a NO. Deleting them by name does not remove the top-100 distal K/R enrichment and does not cost within-protein AUC: control 3.7116 [2.3159, 5.5070], drop_w710 5.3112 [4.9787, 5.5973], drop_all_basic 2.9598 [1.6877, 5.4241]; within-protein AUC 0.7679 / 0.7721 / 0.7668.",
+    "what_is_NOT_settled": "that result says where the signal is NOT. It does not say what the signal IS. Three explanations remain and the ablation cannot separate them: (a) each cysteine is ranked by its OWN flanking composition, spread across so many columns that deleting any named subset leaves it intact; (b) the ranking is a PROTEIN-level property - the model favours proteins whose cysteines are mostly K/R-flanked, and the per-site enrichment follows from that; (c) the flank is a proxy for something else entirely that travels with it.",
+    "why_a_shuffle_separates_them": "deleting a column removes one route to the information. Shuffling the flank destroys the CORRESPONDENCE between a cysteine and its own local context while leaving every distribution intact - the protein, the label, the number of sites, and the within-protein distribution of flanking compositions are all unchanged by construction. If explanation (a) holds, the enrichment collapses. If explanation (b) holds, it survives, because a shuffle within a protein cannot change anything that is true of the protein as a whole.",
+    "where_the_idea_came_from": "a pathology self-supervised-learning project on the shared cluster runs a `SpatialShuffle` arm that permutes region coordinates while holding sample size fixed, as a negative control on the information SOURCE rather than on the sample size. Our same-size random control tests the sample size; we have never had a control that tests the source. This is that control.",
+    "what_it_would_change_if_branch_2_fires": "branch 2 would move the manuscript's model-side self-audit from a site-level statement to a protein-level one, and the sentence in section 5.1 would have to be rewritten. That is stated here, before the run, so that the rewrite cannot later look like a result-driven choice."
+  },
+
+  "the_arm": {
+    "name": "shuffle_flank_within_protein",
+    "added_to": "the three arms of scripts/run_v2_chem_basic_ablation.py (control, drop_w710, drop_all_basic), refit from scratch with the same folds, the same member-selection grids and the same seeds; only the feature MATRIX differs, not the column set",
+    "operation": "for every protein, draw one permutation of its cysteine positions with numpy default_rng(20260915) seeded once per protein by its accession; cysteine i then receives the chemistry feature vector computed at position pi(i) of the SAME protein. Labels, folds, protein assignment and homology component stay attached to i.",
+    "derangement_rule": "the permutation is redrawn until it has no fixed point, up to 50 attempts; a position that still maps to itself after 50 attempts is recorded in the audit as an unshuffled site rather than forced. The count of unshuffled sites is reported with every number this arm produces.",
+    "degeneracy_check_run_before_registration": {
+      "why": "a within-group permutation degenerates to the identity when groups are small - the 1.65-sites-per-group lesson in CLAUDE.md section 7. The check is run BEFORE the arm, on the cohort structure only, and uses no labels.",
+      "measured": {
+        "proteins": 4986,
+        "proteins_with_one_cysteine": 0,
+        "proteins_with_two_or_more": 4986,
+        "sites_in_single_cysteine_proteins": 0,
+        "median_cysteines_per_protein": 8.0,
+        "mean_cysteines_per_protein": 9.84
+      },
+      "conclusion": "not degenerate anywhere: every protein in the frozen cohort carries at least two cysteines, so every site can receive another site's flank."
+    },
+    "what_is_NOT_shuffled": [
+      "labels",
+      "fold assignment",
+      "protein and homology-component membership",
+      "the feature COLUMNS (all 1046 chemistry columns are present in this arm, exactly as in control)",
+      "the cohort: the same 49,064 sites / 15,215 positives / 4,986 proteins / 3,554 components",
+      "the member-selection grids, seeds or blend weights"
+    ]
+  },
+
+  "verdict_statistic_and_reading_rule": {
+    "statistic": "the top-100 distal (6-12) K/R log2 odds ratio, computed AFTERWARDS by the already-registered local instrument scripts/run_self_audit_five_proteases.py on the out-of-fold scores this arm returns. It is not recomputed here, so the instrument stays byte-identical to the one that produced the published numbers.",
+    "secondary": "within-protein AUC for the arm, so that any loss of the enrichment is reported together with its cost",
+    "reported_alongside": [
+      "the number of sites whose feature vector actually changed",
+      "the mean tryptic peptide length in the top 100 and in the cohort, as the other three arms already report"
+    ],
+    "intervals": "unchanged: cluster bootstrap percentile intervals, 5,000 replicates, seed 20260915, clustering on protein or homology component - the instrument's own settings, not modified here",
+    "bridge_rule": "as in the three-arm round, the CONTROL arm must reproduce the stored anchor 3.7116 before any cross-run comparison is made. This round reuses the control arm already computed in reports/V2_CHEM_BASIC_ABLATION.md rather than refitting it, and therefore inherits that reproduction; if the shuffled arm is run on a different host, its own control is refit and the bridge is re-checked."
+  },
+
+  "predeclared_branches": {
+    "1_the_ranking_is_site_level": "the shuffled arm's top-100 enrichment interval CROSSES ZERO while the control's covers 3.7116. Read as: the model ranks each cysteine by its own flanking composition. Deleting the named columns failed to remove it because the information is spread, not because it is absent. The manuscript's section 5.1 sentence stands as written, and this round becomes the mechanism evidence behind it.",
+    "2_the_ranking_is_protein_level": "the shuffled arm KEEPS the enrichment (its interval excludes zero and overlaps the control's). Read as: the enrichment is a property of which PROTEINS score highly, not of which cysteines within them. Section 5.1 must be rewritten as a protein-level statement, and Artefact 1's model-side counterpart is correspondingly narrowed. No number already published is changed; the sentence that interprets them is.",
+    "3_partial": "the shuffled arm's interval excludes zero but its point estimate retains less than half the control's. Reported as a mixture with the retention ratio, and neither of the two readings above is asserted.",
+    "4_underpowered_or_degenerate": "more than 5% of sites end unshuffled, or the arm's within-protein AUC collapses below 0.60 so that the top-100 list is not a ranking of anything. The round is reported as not interpretable and no verdict is issued.",
+    "cost_clause": "if the shuffled arm loses the enrichment AND loses within-protein AUC, branch 1 is NOT asserted: a model that cannot rank has no top-100 worth reading. The AUC is therefore a gate, not a footnote."
+  },
+
+  "blind_prediction": {
+    "written_before_the_arm_was_run": true,
+    "P1": "the shuffled arm's top-100 distal K/R log2 odds ratio will be smaller than the control's 3.7116",
+    "P2": "its 95% interval will CROSS ZERO, i.e. branch 1 fires. Confidence 0.65.",
+    "P3": "its within-protein AUC will fall relative to the control's 0.7679, but stay above 0.70, so the cost clause does not block branch 1. Confidence 0.6.",
+    "P4": "fewer than 0.1% of sites will end unshuffled, given that every protein carries at least two cysteines",
+    "reasoning": "the chemistry feature block is dominated by sequence-window composition around the site, so destroying the site-to-flank correspondence should remove most of what the ranker keys on; but protein-level structure survives a within-protein shuffle untouched, which is why the confidence on P2 is 0.65 and not higher.",
+    "scoring": "each prediction is scored mechanically in the round's audit under `blind_prediction_scorecard`, and a wrong prediction is reported as wrong and kept."
+  },
+
+  "compute_plan": {
+    "where": "amax, pure CPU, OMP_NUM_THREADS=16, inside our own job directory only",
+    "why_not_locally": "the three-arm round ran there with the same numpy/lightgbm build; keeping the fourth arm on the same host makes it arm-comparable without a further bridge check",
+    "not_touched": [
+      "the A100 - both cards are running this project's pKa ensemble",
+      "any GPU anywhere - this round has no GPU stage",
+      "the other groups' jobs on amax; the machine is shared and 16 threads is the same budget the earlier arms used"
+    ],
+    "expected_cost": "one arm, comparable to the 43-49 minutes each earlier arm took"
+  },
+
+  "house_rules_this_round_must_satisfy": {
+    "rule_1": "the operation, the reading rule and the branches are in this file and in the script docstring before the run; the script's sha256 goes into the audit",
+    "rule_2": "intervals are the registered instrument's cluster bootstrap, 5,000 replicates, seed 20260915",
+    "rule_3": "the shuffle is WITHIN protein, so no site ever receives a flank from another protein",
+    "rule_4": "new filenames; the three-arm round's products are not touched",
+    "rule_5": "corrections appended, never substituted",
+    "rule_9": "no model is called a persulfidation predictor; this arm measures annotation-ranking behaviour, not chemical propensity",
+    "rule_12": "the degeneracy counts above were computed from the complete stored cohort table, not estimated"
+  },
+
+  "declared_limits": [
+    "a within-protein shuffle cannot test anything that is constant within a protein. Branch 2 is therefore not evidence that a protein-level mechanism is the RIGHT explanation - only that the site-level one is not necessary.",
+    "the arm refits a model; refits are not bitwise reproducible across hosts, which is why the bridge rule exists and why arm-to-arm comparison is the primary reading.",
+    "this round says nothing about the DATA-side artefact. Artefact 1 is a statement about published site tables; this arm is a statement about our own model. The two must not be merged, which is the same separation rewrite R3 already enforces in the manuscript."
+  ],
+
+  "planned_outputs": {
+    "script": "scripts/run_v2_chem_flank_shuffle.py",
+    "tables": ["results/v2_chem_flank_shuffle_oof.csv", "results/v2_chem_flank_shuffle_verdict.csv"],
+    "audit": "results/v2_chem_flank_shuffle_audit.json",
+    "report": "reports/V2_CHEM_FLANK_SHUFFLE.md, in Chinese",
+    "after_the_run_not_before": [
+      "re-read both ledgers, append row by row, write back atomically after asserting the field sets",
+      "python3 scripts/build_artifact_manifest.py"
+    ]
+  },
+
+  "amendments": []
+}

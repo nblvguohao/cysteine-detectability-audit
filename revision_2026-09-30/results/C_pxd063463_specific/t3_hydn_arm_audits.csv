@@ -1,0 +1,29 @@
+arm,arm_type,rule,rule_type,background,band,n_positive,n_background,estimate,ci_low,ci_high,status,reason,coincidence
+Trypsin,HydN,trypsin,own,proteome,proximal_1_3,658,14906,-0.13149,-0.391659,0.132111,PASS,"interval [-0.3917, 0.1321] lies inside the equivalence margin +/-0.5",0.326065
+Trypsin,HydN,trypsin,own,proteome,distal_6_12,658,14906,1.011047,0.616173,1.468062,FAIL,"interval [0.6162, 1.468] excludes the null and lies beyond the margin 0.5: artefact signature of meaningful size",0.326065
+Trypsin,HydN,trypsin,own,observed,proximal_1_3,658,1360,-1.020941,-1.351061,-0.70677,FAIL,"interval [-1.351, -0.7068] excludes the null and lies beyond the margin 0.5: artefact signature of meaningful size",0.326065
+Trypsin,HydN,trypsin,own,observed,distal_6_12,658,1360,-0.189362,-0.655962,0.316924,UNDECIDABLE,"interval [-0.656, 0.3169] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.326065
+AspN,HydN,aspn,own,proteome,proximal_1_3,3,946,,,,UNDECIDABLE,3 positives < minimum 20,0.136364
+AspN,HydN,aspn,own,proteome,distal_6_12,3,946,,,,UNDECIDABLE,3 positives < minimum 20,0.136364
+AspN,HydN,aspn,own,observed,proximal_1_3,3,19,,,,UNDECIDABLE,3 positives < minimum 20,0.136364
+AspN,HydN,aspn,own,observed,distal_6_12,3,19,,,,UNDECIDABLE,3 positives < minimum 20,0.136364
+AspN,HydN,trypsin,trypsin,proteome,proximal_1_3,3,946,,,,UNDECIDABLE,3 positives < minimum 20,0.136364
+AspN,HydN,trypsin,trypsin,proteome,distal_6_12,3,946,,,,UNDECIDABLE,3 positives < minimum 20,0.136364
+AspN,HydN,trypsin,trypsin,observed,proximal_1_3,3,19,,,,UNDECIDABLE,3 positives < minimum 20,0.136364
+AspN,HydN,trypsin,trypsin,observed,distal_6_12,3,19,,,,UNDECIDABLE,3 positives < minimum 20,0.136364
+CT,HydN,chymotrypsin,own,proteome,proximal_1_3,23,1095,1.933752,0.679076,3.540791,FAIL,"interval [0.6791, 3.541] excludes the null and lies beyond the margin 0.5: artefact signature of meaningful size",0.377049
+CT,HydN,chymotrypsin,own,proteome,distal_6_12,23,1095,2.222233,0.583326,4.914499,FAIL,"interval [0.5833, 4.914] excludes the null and lies beyond the margin 0.5: artefact signature of meaningful size",0.377049
+CT,HydN,chymotrypsin,own,observed,proximal_1_3,23,38,1.137504,-0.494468,3.174599,UNDECIDABLE,"interval [-0.4945, 3.175] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.377049
+CT,HydN,chymotrypsin,own,observed,distal_6_12,23,38,1.033947,-1.431966,4.048273,UNDECIDABLE,"interval [-1.432, 4.048] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.377049
+CT,HydN,trypsin,trypsin,proteome,proximal_1_3,23,1095,1.1387,-0.171735,2.969215,UNDECIDABLE,"interval [-0.1717, 2.969] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.377049
+CT,HydN,trypsin,trypsin,proteome,distal_6_12,23,1095,-0.145608,-1.453257,1.719406,UNDECIDABLE,"interval [-1.453, 1.719] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.377049
+CT,HydN,trypsin,trypsin,observed,proximal_1_3,23,38,1.163715,-0.517985,3.350857,UNDECIDABLE,"interval [-0.518, 3.351] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.377049
+CT,HydN,trypsin,trypsin,observed,distal_6_12,23,38,-0.205872,-2.288569,1.851898,UNDECIDABLE,"interval [-2.289, 1.852] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.377049
+GluC,HydN,gluc,own,proteome,proximal_1_3,34,733,0.883186,-0.401648,2.219389,UNDECIDABLE,"interval [-0.4016, 2.219] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.5
+GluC,HydN,gluc,own,proteome,distal_6_12,34,733,1.097528,-0.119054,3.073048,UNDECIDABLE,"interval [-0.1191, 3.073] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.5
+GluC,HydN,gluc,own,observed,proximal_1_3,34,34,-1.70941,-3.799244,0.196847,UNDECIDABLE,"interval [-3.799, 0.1968] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.5
+GluC,HydN,gluc,own,observed,distal_6_12,34,34,-1.295456,-4.535827,1.075671,UNDECIDABLE,"interval [-4.536, 1.076] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.5
+GluC,HydN,trypsin,trypsin,proteome,proximal_1_3,34,733,-1.056706,-2.480608,0.110996,UNDECIDABLE,"interval [-2.481, 0.111] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.5
+GluC,HydN,trypsin,trypsin,proteome,distal_6_12,34,733,-0.302483,-1.539724,1.590842,UNDECIDABLE,"interval [-1.54, 1.591] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.5
+GluC,HydN,trypsin,trypsin,observed,proximal_1_3,34,34,-0.682938,-2.495808,1.121881,UNDECIDABLE,"interval [-2.496, 1.122] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.5
+GluC,HydN,trypsin,trypsin,observed,distal_6_12,34,34,-0.491993,-2.679238,1.824848,UNDECIDABLE,"interval [-2.679, 1.825] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",0.5

@@ -1,0 +1,234 @@
+{
+ "tool": "cys-audit",
+ "version": "0.1.0",
+ "dataset": "pxd063463_GluC_HydP_gluc_proteome",
+ "modification": "S-palmitoylation",
+ "protease": "gluc",
+ "background": "proteome",
+ "seed": 20260922,
+ "input": {
+  "sites_file": "pxd063463_GluC_HydP.tsv",
+  "sites_sha256": "20462d48d76fa48fd5d84569e96ef19a8fc885fa1cb425cdccea7c570580642e",
+  "fasta_file": "Mouse_2025_UP000000589_10090.fasta",
+  "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb",
+  "n_rows": 7099,
+  "n_positive": 519,
+  "n_detected": 884,
+  "n_proteins": 516,
+  "n_clusters": 516,
+  "notes": [
+   "--expand-background added 6215 unlisted cysteines as label 0, detected 0"
+  ]
+ },
+ "decision_constants": {
+  "bootstrap_reps": 5000,
+  "ci_level": 0.95,
+  "min_positives": 20,
+  "min_background": 20,
+  "mmd_log2_or": 0.5,
+  "mmd_auc": 0.05,
+  "cleavage_bands": {
+   "proximal_1_3": [
+    1,
+    3
+   ],
+   "distal_6_12": [
+    6,
+    12
+   ]
+  },
+  "cleavage_ci_level": 0.975,
+  "overlap_fail_lower": 0.9,
+  "overlap_warning_lower": 0.5,
+  "overlap_pass_upper": 0.5,
+  "abundance_min_coverage": 0.7,
+  "searchspace_fail_share": 0.01,
+  "attenuation_floor": 0.5,
+  "orphaned_limit": 0.05
+ },
+ "tests": {
+  "cleavage_geometry": {
+   "test": "cleavage_geometry",
+   "status": "FAIL",
+   "reason": "band distal_6_12: interval [0.5739, 1.347] excludes the null and lies beyond the margin 0.5: artefact signature of meaningful size",
+   "statistic": "log2_odds_ratio(cleavage-competent residue in band; positive vs background)",
+   "null": 0.0,
+   "margin": 0.5,
+   "ci_level": 0.975,
+   "estimate": 0.944881,
+   "ci": [
+    0.573888,
+    1.347499
+   ],
+   "p_value": 0.00019996,
+   "n_positive": 519,
+   "n_background": 6580,
+   "n_clusters": 516,
+   "details": {
+    "protease": "gluc",
+    "background": "proteome",
+    "headline_band": "distal_6_12",
+    "bands": {
+     "proximal_1_3": {
+      "band_residues": [
+       1,
+       3
+      ],
+      "status": "WARNING",
+      "reason": "interval [0.219, 0.8239] excludes the null 0 but does not establish a size beyond the margin 0.5",
+      "estimate": 0.523234,
+      "ci": [
+       0.21904,
+       0.823891
+      ],
+      "p_value": 0.00019996,
+      "share_flagged_positive": 0.44894,
+      "share_flagged_background": 0.361854
+     },
+     "distal_6_12": {
+      "band_residues": [
+       6,
+       12
+      ],
+      "status": "FAIL",
+      "reason": "interval [0.5739, 1.347] excludes the null and lies beyond the margin 0.5: artefact signature of meaningful size",
+      "estimate": 0.944881,
+      "ci": [
+       0.573888,
+       1.347499
+      ],
+      "p_value": 0.00019996,
+      "share_flagged_positive": 0.768786,
+      "share_flagged_background": 0.632675
+     }
+    },
+    "rows_without_sequence": 0
+   },
+   "interpretation": "an artefact signature of meaningful size is established on this axis; site-preference claims that touch it need an explicit control",
+   "q_value_bh": 0.00029994
+  },
+  "multi_cysteine": {
+   "test": "multi_cysteine",
+   "status": "UNDECIDABLE",
+   "reason": "interval [-1.321, 0.2484] covers the null 0 but reaches beyond +/-0.5: a meaningful artefact can be neither shown nor excluded",
+   "statistic": "log2_odds_ratio(multi-Cys-only support; positive vs observed background)",
+   "null": 0.0,
+   "margin": 0.5,
+   "ci_level": 0.95,
+   "estimate": -0.51757,
+   "ci": [
+    -1.320717,
+    0.248441
+   ],
+   "p_value": 0.1832,
+   "n_positive": 519,
+   "n_background": 365,
+   "n_clusters": 516,
+   "details": {
+    "background_used": "observed (forced: undetected rows have no peptide)",
+    "share_multi_only_positive": 0.127168,
+    "share_multi_only_background": 0.172603,
+    "positives_without_n_cys_peptide": 0
+   },
+   "interpretation": "this axis cannot be assessed with the inputs given (see reason)",
+   "q_value_bh": 0.1832
+  },
+  "protein_abundance": {
+   "test": "protein_abundance",
+   "status": "FAIL",
+   "reason": "interval [0.6572, 0.7397] excludes the null and lies beyond the margin 0.05: artefact signature of meaningful size",
+   "statistic": "rank AUC of log abundance (positive vs background)",
+   "null": 0.5,
+   "margin": 0.05,
+   "ci_level": 0.95,
+   "estimate": 0.700262,
+   "ci": [
+    0.657154,
+    0.739711
+   ],
+   "p_value": 0.00019996,
+   "n_positive": 490,
+   "n_background": 4689,
+   "n_clusters": 453,
+   "details": {
+    "background": "proteome",
+    "coverage": 0.729539,
+    "median_log_abundance_positive": 22.176868,
+    "median_log_abundance_background": 20.648359
+   },
+   "interpretation": "an artefact signature of meaningful size is established on this axis; site-preference claims that touch it need an explicit control",
+   "q_value_bh": 0.00029994
+  },
+  "positive_detected_overlap": {
+   "test": "positive_detected_overlap",
+   "status": "WARNING",
+   "reason": "lower bound 0.5472 >= 0.5: positives dominate the observed cysteines",
+   "statistic": "coincidence = positives / detected cysteines",
+   "null": null,
+   "margin": {
+    "fail_lower": 0.9,
+    "warning_lower": 0.5,
+    "pass_upper": 0.5
+   },
+   "ci_level": 0.95,
+   "estimate": 0.587104,
+   "ci": [
+    0.547189,
+    0.625432
+   ],
+   "p_value": null,
+   "n_positive": 519,
+   "n_background": 365,
+   "n_clusters": 516,
+   "details": {
+    "detected": 884,
+    "positive_and_detected": 519,
+    "detected_unmodified": 365,
+    "wilson": [
+     0.554339,
+     0.619115
+    ],
+    "observed_background_usable": true,
+    "positives_not_detected": 0
+   },
+   "interpretation": "an artefact signature is detectable on this axis but its size is not shown to be meaningful",
+   "q_value_bh": null
+  },
+  "search_space": {
+   "test": "search_space",
+   "status": "UNDECIDABLE",
+   "reason": "identity readout is chemistry_inferred: the modification identity was assigned by the enrichment chemistry, not by a measured mass; no search space confirms it",
+   "statistic": null,
+   "null": null,
+   "margin": null,
+   "estimate": null,
+   "ci": null,
+   "p_value": null,
+   "n_positive": null,
+   "n_background": null,
+   "details": {
+    "modification": "S-palmitoylation"
+   },
+   "interpretation": "this axis cannot be assessed with the inputs given (see reason)",
+   "q_value_bh": null
+  }
+ },
+ "multiple_testing": "Benjamini-Hochberg across the tests of this audit that report a bootstrap p (q_value_bh); statuses are set by intervals and margins, never by p or q",
+ "dataset_summary": {
+  "worst_test_status": "FAIL",
+  "status_counts": {
+   "FAIL": 2,
+   "UNDECIDABLE": 2,
+   "WARNING": 1
+  }
+ },
+ "claim": {
+  "status": "NOT_EVALUATED",
+  "reason": "no --claim-feature given; only dataset-level tests were run"
+ },
+ "overall_claim_status": "NOT_EVALUATED",
+ "environment": {
+  "python": "3.9.6",
+  "numpy": "2.0.2"
+ }
+}

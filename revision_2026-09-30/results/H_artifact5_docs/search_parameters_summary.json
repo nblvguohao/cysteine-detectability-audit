@@ -1,0 +1,31 @@
+{
+  "label": "POST HOC revision analysis (2026-09-30), not registered, not pre-specified",
+  "n_parameters": 45,
+  "status_counts": {
+    "verified_consistent": 9,
+    "verified_stored_output": 8,
+    "missing": 5,
+    "prose_only": 4,
+    "verified_output_inference": 3,
+    "partially_recorded": 2,
+    "file_name_verified_entries_prose_only": 2,
+    "not_in_local_copy": 2,
+    "verified_script": 2,
+    "conflicting_records": 2,
+    "missing_version": 1,
+    "amended_after_failed_run": 1,
+    "amended": 1,
+    "inferred_only": 1,
+    "difference_from_deposit": 1,
+    "conflict_with_deposit": 1
+  },
+  "comet_version_verified": true,
+  "db_names_verified": [
+    true,
+    true
+  ],
+  "output_lines_beyond_10ppm": 8,
+  "stale_docstring_bovine": true,
+  "stale_search_ran_on": true,
+  "posthoc_script_mentions_human_vs_bovine": true
+}

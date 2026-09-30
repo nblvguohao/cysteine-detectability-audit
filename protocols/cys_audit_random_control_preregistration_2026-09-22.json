@@ -1,0 +1,37 @@
+{
+  "title": "Cys-Audit v0.2.1: replacing a control that degenerates when nothing is dropped",
+  "date": "2026-09-22",
+  "written_before": "any re-run of the 18 site-level claims with the new control",
+  "defect": {
+    "found_in": "Phase 5b (CLAUDE.md s.9.77)",
+    "statement": "The claim retest reports a size-matched random control: an uncontrolled estimate on a random subset with as many positives and as many background rows as the control retained. Under MATCHING that is informative, because matching discards rows. Under STRATIFICATION no row is discarded when every stratum is informative, so the 'random subset' is the entire dataset and the control is the baseline itself.",
+    "evidence": "SFE-008: the random control's point estimate equalled the baseline to every printed digit (0.36844954838460636), and its interval was correspondingly narrow.",
+    "consequence": "claim_verdict reads 'controlled interval crosses zero while the size-matched random control does not' as vanishes. With a degenerate control that reading is unavailable: an underpowered result is reported as an effect that disappeared under control. This is the same error class the manuscript is about, produced by our own instrument."
+  },
+  "decision": "Fix it rather than document it. A tool that converts 'underpowered' into 'vanishes' must not ship with a paper whose subject is that conversion.",
+  "rule_declared_before_implementation": {
+    "retained_fraction": "f = (positives retained + background retained) / (positives + background), computed on the rows entering the control",
+    "threshold": 0.95,
+    "threshold_justification": "Declared here before the change is written and not tuned afterwards. It is not derived from any observed result; it marks the point below which a size-matched subsample differs from the full set by more than a rounding of the sample size.",
+    "if_f_le_threshold": "the control discarded a meaningful share of rows, so keep the existing size-matched random control; it answers the right question (is the change an artefact of the smaller sample?)",
+    "if_f_gt_threshold": "the control discarded almost nothing, so a size-matched subsample cannot be a null. Use a permuted-stratum control instead: permute the stratum assignment across rows, which preserves the number of strata, the stratum sizes and the total sample size while destroying the relation between the covariates and the feature, then recompute the Mantel-Haenszel estimate and its cluster bootstrap exactly as for the real control.",
+    "reporting": "details.random_control records which of the two was used under a 'kind' key; no result may quote a random control without it"
+  },
+  "predictions": {
+    "P1": "SFE-008 stops reporting a random control identical to its baseline.",
+    "P2": "At least one of the five control-decided claims changes verdict, because the degenerate control was doing work in the old reading.",
+    "P3": "The 13 claims that agreed with the stored verdicts in Phase 5 and the 16 in Phase 5b do not move for the claims whose control is matching, since their branch is unchanged."
+  },
+  "what_this_does_not_change": [
+    "the five artefact detectors, whose files stay byte-identical to v0.1.0",
+    "the status rule: intervals against an equivalence margin, never a p-value",
+    "the claim_verdict decision tree itself, which is a verbatim copy of the tree function and is not touched",
+    "any number already published in R28; this preregistration governs a re-run, and if the re-run changes a verdict the manuscript must be revised, not the tool's output reinterpreted"
+  ],
+  "controls": {
+    "PC1": "a unit test must show that with stratification and nothing dropped, the permuted-stratum control is NOT equal to the baseline",
+    "PC2": "a unit test must show that with matching and rows dropped, the size-matched branch is still selected and its behaviour is unchanged",
+    "PC3": "the existing 48 tests must still pass"
+  },
+  "archive": "v0.2.0 is archived byte-identical before the change, as v0.1.0 was, so Phase 5b remains reproducible"
+}

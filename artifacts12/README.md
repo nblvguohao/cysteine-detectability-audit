@@ -16,6 +16,10 @@ Twelve files were copied into a staging folder on 23 September 2026 and their SH
 raw bytes (column "staged"). Every other file carries a SHA-256 computed when it was deposited. The
 repository-wide `MANIFEST_SHA256.txt` lists the same values.
 
+`MANIFEST.json` contains the `source_tree` path of the machine on which the files were staged (an absolute
+path in the collaborator's home directory). It is kept verbatim, because its own SHA-256 was recorded at
+staging and editing it would break that record; the path has no role in re-running anything here.
+
 | file | bytes | SHA-256 | staged 2026-09-23 | what it is | manuscript numbers |
 |---|---:|---|---|---|---|
 | `MANIFEST.json` | 4,804 | `060996c3e6bc87514ad8544b2100faf7796ac4c594612751c76a0e9fbfc58ec5` | match | staging manifest: SHA-256 of the 11 staged files, PlantPTMViewer categories, Arabidopsis row counts, leading PubMed identifiers and the SHA-256 of the three exports (not redistributed) | PubMed identifiers of Artifact 1 |
@@ -101,6 +105,8 @@ outputs being regenerated:
 
 ## Known gaps
 
+There are four known gaps (items 1-4); the note after them is not a gap.
+
 1. **09 cannot be re-run as written.** It reads an Arabidopsis proteome table from a temporary directory
    (`/private/tmp/.../scratchpad/ptmv/ath_proteome.tsv`, line 10) that no longer exists, and the
    UniProt/TAIR release of that table was not recorded. The mapped site tables 09 produced
@@ -125,8 +131,8 @@ outputs being regenerated:
    `15_structural_features.json`** (the collaborator tree has no scripts numbered 19, 27 or 33; 14 and 15
    exist there but need the AlphaFold models). The tables are deposited as the inputs of 21, 36 and the
    seven-dataset comparison.
-5. An earlier draft quoted z = +2.54 (P = 0.011, 980 sites) for the unfiltered rice comparison; no stored
-   table holds it and it is not used (recorded in `MANIFEST.json`).
+Note (not a gap): an earlier draft quoted z = +2.54 (P = 0.011, 980 sites) for the unfiltered rice
+comparison; no stored table holds it and it is not used (recorded in `MANIFEST.json`).
 
 ## Licence
 

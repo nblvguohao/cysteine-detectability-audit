@@ -1,0 +1,146 @@
+{
+  "script": "scripts/run_pxd015307_research_mass_accuracy.py",
+  "script_sha256": "8de0f6db610b9ee3cfe227173819efb3b3647f120fb028368e7d19caafb792ac",
+  "generated_utc": "2026-09-16T18:20:20Z",
+  "registration": "protocols/pxd015307_research_preregistration_2026-09-17.json",
+  "accession": "PXD015307",
+  "separation_da": 0.017758,
+  "resolvable_rule": "abs(ppm - baseline_median) < separation_ppm / 2",
+  "fdr": 0.01,
+  "decoy_prefix": "DECOY_",
+  "search_ran_on": "amax:/home/amax/.claude-science-scratch/lgh_pxd015307 (run 2; run 1 kept under discarded_run1/ with its reason)",
+  "amendments": [
+    {
+      "what": "an arm with no 1%-FDR PSM lacking a +32-class modification has no instrument baseline; its hits are listed with empty deviation, its fraction_resolvable is null, and it enters no rate",
+      "when": "while implementing this script, before any result was seen - the first execution stopped on this case"
+    }
+  ],
+  "per_arm": {
+    "Fig-1D": {
+      "comet_version_line": "CometVersion 2026.01 rev. 1 (e4f767c)\tout/Fig-1D\t09/17/2026, 02:13:32 AM\tdb/mmu_UP000000589_sp_iso.fasta",
+      "n_rank1_psms": 24727,
+      "e_value_threshold_at_1pct_fdr": 0.000932,
+      "n_psms_at_1pct_fdr": 245,
+      "n_baseline_psms_no_plus32": 245,
+      "baseline_median_ppm": -3.0065,
+      "baseline_sd_ppm": 2.0912,
+      "baseline_iqr_ppm": [
+        -4.0482,
+        -2.0184
+      ],
+      "n_plus32_cys_psms": 0,
+      "assignment_counts": {
+        "sulfide": 0,
+        "dioxidation": 0,
+        "both": 0
+      },
+      "n_resolvable": 0,
+      "fraction_resolvable": null,
+      "readable": true,
+      "head_to_head_pairs": [],
+      "input_sha256": "c07e7d329af2fb800d42dfc9e2dcac78caf1b6d96324e72c1ecf50f872ec7378"
+    },
+    "Fig4-L_CTH_Cys": {
+      "comet_version_line": "CometVersion 2026.01 rev. 1 (e4f767c)\tout/Fig4-L_CTH_Cys\t09/17/2026, 02:18:24 AM\tdb/mmu_plus_bovine_insulin.fasta",
+      "n_rank1_psms": 2177,
+      "e_value_threshold_at_1pct_fdr": 0.00292,
+      "n_psms_at_1pct_fdr": 14,
+      "n_baseline_psms_no_plus32": 14,
+      "baseline_median_ppm": 5.5488,
+      "baseline_sd_ppm": 0.4087,
+      "baseline_iqr_ppm": [
+        5.2239,
+        5.9776
+      ],
+      "n_plus32_cys_psms": 0,
+      "assignment_counts": {
+        "sulfide": 0,
+        "dioxidation": 0,
+        "both": 0
+      },
+      "n_resolvable": 0,
+      "fraction_resolvable": null,
+      "readable": true,
+      "head_to_head_pairs": [],
+      "input_sha256": "088c995192ba864f89f1e5536fc81a2fe090b050f42f96806488b4061a0e03e9"
+    },
+    "Fig4-L_NaHS": {
+      "comet_version_line": "CometVersion 2026.01 rev. 1 (e4f767c)\tout/Fig4-L_NaHS\t09/17/2026, 02:19:27 AM\tdb/mmu_plus_bovine_insulin.fasta",
+      "n_rank1_psms": 1896,
+      "e_value_threshold_at_1pct_fdr": 0.00406,
+      "n_psms_at_1pct_fdr": 18,
+      "n_baseline_psms_no_plus32": 18,
+      "baseline_median_ppm": 5.1078,
+      "baseline_sd_ppm": 2.0353,
+      "baseline_iqr_ppm": [
+        4.7786,
+        5.4864
+      ],
+      "n_plus32_cys_psms": 0,
+      "assignment_counts": {
+        "sulfide": 0,
+        "dioxidation": 0,
+        "both": 0
+      },
+      "n_resolvable": 0,
+      "fraction_resolvable": null,
+      "readable": true,
+      "head_to_head_pairs": [],
+      "input_sha256": "e0157a6c9919d3924e11564295d958dadd14f014955e396e76e939f36287333a"
+    },
+    "Fig4-L_control": {
+      "comet_version_line": "CometVersion 2026.01 rev. 1 (e4f767c)\tout/Fig4-L_control\t09/17/2026, 02:17:53 AM\tdb/mmu_plus_bovine_insulin.fasta",
+      "n_rank1_psms": 726,
+      "e_value_threshold_at_1pct_fdr": 0.00836,
+      "n_psms_at_1pct_fdr": 26,
+      "n_baseline_psms_no_plus32": 26,
+      "baseline_median_ppm": 5.5792,
+      "baseline_sd_ppm": 0.5901,
+      "baseline_iqr_ppm": [
+        5.2874,
+        5.8379
+      ],
+      "n_plus32_cys_psms": 0,
+      "assignment_counts": {
+        "sulfide": 0,
+        "dioxidation": 0,
+        "both": 0
+      },
+      "n_resolvable": 0,
+      "fraction_resolvable": null,
+      "readable": true,
+      "head_to_head_pairs": [],
+      "input_sha256": "5b2803fef02dba7b3e40c24497fe6a9a1aa069c95f72b80e1be790b4063bb701"
+    },
+    "Fig4-L_heat_inactive_CTH": {
+      "comet_version_line": "CometVersion 2026.01 rev. 1 (e4f767c)\tout/Fig4-L_heat_inactive_CTH\t09/17/2026, 02:18:56 AM\tdb/mmu_plus_bovine_insulin.fasta",
+      "n_rank1_psms": 2430,
+      "e_value_threshold_at_1pct_fdr": 0.00549,
+      "n_psms_at_1pct_fdr": 18,
+      "n_baseline_psms_no_plus32": 18,
+      "baseline_median_ppm": 4.7544,
+      "baseline_sd_ppm": 1.0455,
+      "baseline_iqr_ppm": [
+        4.3765,
+        5.0204
+      ],
+      "n_plus32_cys_psms": 0,
+      "assignment_counts": {
+        "sulfide": 0,
+        "dioxidation": 0,
+        "both": 0
+      },
+      "n_resolvable": 0,
+      "fraction_resolvable": null,
+      "readable": true,
+      "head_to_head_pairs": [],
+      "input_sha256": "e5413073915c3cae218986c363c4ac194fe4cb5b5cdc0d09efea8465aaa26aad"
+    }
+  },
+  "primary_file": "Fig-1D",
+  "branch": "4_underpowered_no_rate_quoted",
+  "versions": {
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "elapsed_minutes": 0.01
+}

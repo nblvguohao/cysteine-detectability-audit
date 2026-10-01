@@ -13,7 +13,7 @@ authors:
     affiliation: "School of Artificial Intelligence, Anhui Agricultural University"
 repository-code: "https://github.com/nblvguohao/cysteine-detectability-audit"
 license: MIT
-version: "v3.1.1"
+version: "v3.1.2"
 date-released: "2026-10-02"
 keywords:
   - proteomics

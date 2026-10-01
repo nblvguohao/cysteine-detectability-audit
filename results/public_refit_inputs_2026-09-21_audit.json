@@ -1,0 +1,124 @@
+{
+  "script": "build_public_refit_inputs_2026-09-21.py",
+  "script_sha256": "3cb4126ec5595454ea4b2872ac224e0a7f088c0c36a4fe836e38a7efe56d4cda",
+  "interpreter": "3.9.6",
+  "numpy": "2.0.2",
+  "seconds": 62.0,
+  "gates": {
+    "source_encoder_frozen_width": 23,
+    "G1_human_PXD044043_score_reproduction": {
+      "chem": {
+        "max_abs_diff": 0.0,
+        "reproduces": true,
+        "n": 18567
+      },
+      "full": {
+        "max_abs_diff": 0.0,
+        "reproduces": true,
+        "n": 18567
+      }
+    },
+    "G2_human_PXD044043_embeddings": {
+      "file": "protbert_cys_embeddings_human_PXD044043.npz",
+      "shape": [
+        18567,
+        1024
+      ],
+      "rows_needed": 18567,
+      "rows_missing": 0
+    },
+    "G3_human_PXD044043_fold_labels": {
+      "cohort": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tomato": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "G1_rice_PXD072089_score_reproduction": {
+      "chem": {
+        "max_abs_diff": 0.0,
+        "reproduces": true,
+        "n": 5598
+      },
+      "full": {
+        "max_abs_diff": 0.0,
+        "reproduces": true,
+        "n": 5598
+      }
+    },
+    "G2_rice_PXD072089_embeddings": {
+      "file": "protbert_cys_embeddings_rice_PXD072089.npz",
+      "shape": [
+        5598,
+        1024
+      ],
+      "rows_needed": 5598,
+      "rows_missing": 0
+    },
+    "G3_rice_PXD072089_fold_labels": {
+      "cohort": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tomato": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "cohorts": {
+      "human_PXD044043": {
+        "file": "inputs/public_refit_2026-09-21/human_PXD044043_refit_inputs.npz",
+        "sha256": "65f268e17b3410e3047a30ebadaeff163e82c7421c3bb5b02862755830f610cf",
+        "n_sites": 18567,
+        "n_positive": 3206,
+        "n_proteins": 1519,
+        "fold_sizes": [
+          3713,
+          3713,
+          3713,
+          3714,
+          3714
+        ],
+        "n_columns": 1107,
+        "embedding_dim": 1024
+      },
+      "rice_PXD072089": {
+        "file": "inputs/public_refit_2026-09-21/rice_PXD072089_refit_inputs.npz",
+        "sha256": "ff2d555112e15e166c40dfcbb4e7055d0c5430033d797a47ef0f6fd2a8cbe66a",
+        "n_sites": 5598,
+        "n_positive": 817,
+        "n_proteins": 640,
+        "fold_sizes": [
+          1120,
+          1120,
+          1120,
+          1120,
+          1118
+        ],
+        "n_columns": 1107,
+        "embedding_dim": 1024
+      }
+    }
+  },
+  "gates_failed": [],
+  "declared_differences_from_tomato": [
+    "no structural features: the five structural columns of the frozen block are missing for external sequences, so absolute performance is not comparable across cohorts",
+    "no homology components: grouping and folds are by protein, so intervals are narrower than house rule 2's component clustering would give",
+    "the label is observed_in_retrospective_dataset, a NEG_A negative; unobserved does not mean unmodified, and no number crosses between this label and the tomato one"
+  ]
+}

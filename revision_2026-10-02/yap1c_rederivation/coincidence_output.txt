@@ -1,0 +1,16 @@
+S2 rows 1748 pos units all 2429 first 1748
+== A_peptideLevel_same_runs regular peptides 3971 Cys peptides 213 unmapped protein-matches 7 runs {'QE_Plus_YangJing_TCP_BO_C5_50per_201900202': 4799, 'QE_Plus_YangJing_TCP_BO_C6_50per_201900202': 2167, 'QE_Plus_YangJing_TCP_BO_C4_50per_201900202': 1394, 'QE_Plus_YangJing_TCP_BO_T5_50per_201900202': 4932, 'QE_Plus_YangJing_TCP_BO_T6_50per_201900202': 1780, 'QE_Plus_YangJing_TCP_BO_T4_50per_20180721': 1035}
+  all_matching: detected_cys(regular)=255 overlap_with_pos=156 union=2528 pos=2429 coincidence=0.9608 [0.9526,0.9677]
+  first_listed: detected_cys(regular)=149 overlap_with_pos=78 union=1819 pos=1748 coincidence=0.9610 [0.9511,0.9689]
+== B_proteinLevel_S_runs regular peptides 29147 Cys peptides 1228 unmapped protein-matches 20 runs {'QE_Plus_YangJing_TCP_BO_C6_S_50per_201900202': 26758, 'QE_Plus_YangJing_TCP_BO_C4_S_50per_201900202': 20114, 'QE_Plus_YangJing_TCP_BO_C5_S_50per_201900202': 19178, 'QE_Plus_YangJing_TCP_BO_T5_S_50per_201900202': 17065, 'QE_Plus_YangJing_TCP_BO_T6_S_50per_201900202': 18158, 'QE_Plus_YangJing_TCP_BO_T4_S_50per_20180721': 18025}
+  all_matching: detected_cys(regular)=1153 overlap_with_pos=714 union=2868 pos=2429 coincidence=0.8469 [0.8333,0.8596]
+  first_listed: detected_cys(regular)=830 overlap_with_pos=473 union=2105 pos=1748 coincidence=0.8304 [0.8138,0.8458]
+S1b runs Counter({'QE_Plus_YangJing_TCP_Bo_3_33per_20171106': 6721, 'QE_Plus_YangJing_TCP_Bo_1_33per_20171106': 5917, 'QE_Plus_YangJing_TCP_Bo_2_33per_20171106': 1617, 'QE_Plus_YangJing_TCP_Bo_4_33per_20171106': 984})
+== C QE_Plus_YangJing_TCP_Bo_1_33per_20171106 Cys peptides=592 all_matching: detected_cys=783 positives_among_detected=381 share=0.4866 [0.4517,0.5216]
+== C QE_Plus_YangJing_TCP_Bo_1_33per_20171106 Cys peptides=592 first_listed: detected_cys=607 positives_among_detected=278 share=0.4580 [0.4187,0.4978]
+== C QE_Plus_YangJing_TCP_Bo_3_33per_20171106 Cys peptides=163 all_matching: detected_cys=277 positives_among_detected=208 share=0.7509 [0.6968,0.7982]
+== C QE_Plus_YangJing_TCP_Bo_3_33per_20171106 Cys peptides=163 first_listed: detected_cys=163 positives_among_detected=114 share=0.6994 [0.6251,0.7645]
+== A all_matching: positives among regular-detected Cys 156/255 = 0.6118 [0.5507,0.6695]
+== A first_listed: positives among regular-detected Cys 78/149 = 0.5235 [0.4437,0.6021]
+== B all_matching: positives among regular-detected Cys 714/1153 = 0.6193 [0.5909,0.6468]
+== B first_listed: positives among regular-detected Cys 473/830 = 0.5699 [0.5360,0.6032]

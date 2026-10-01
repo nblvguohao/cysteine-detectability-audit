@@ -1,25 +1,35 @@
-# SHA-256 manifest of every file in this repository (release v3.1.1)
+# SHA-256 manifest of every file in this repository (release v3.1.2)
 # generated 2026-10-02; hashes and sizes are of the committed bytes. Text files are committed with LF line
-# endings (normalised before commit), except three CSV files in artifacts12/ that are deposited byte for byte
-# with CRLF (see RELEASE_NOTES_v3.1.1.md); .gitattributes disables end-of-line conversion, so any checkout
-# reproduces these bytes (compare with `git show HEAD:<path>`)
+# endings (normalised before commit), except files whose SHA-256 was recorded on CRLF bytes: three CSV files in
+# artifacts12/ (see RELEASE_NOTES_v3.1.1.md) and eight files in results/ added in v3.1.2 (see
+# RELEASE_NOTES_v3.1.2.md), which are committed byte for byte; .gitattributes disables end-of-line
+# conversion, so any checkout reproduces these bytes (compare with `git show HEAD:<path>`)
 
 d2977a8304dfbd7e54b9d5b405a8221bd1661c9b9b1cadfcd8d1ba6ca14e7be6         182  .gitattributes
 cf6ded4a6f680b5f2fbc5a197337568d1fa6bb38dff675d0bc7cc5f5135e3f31          49  .gitignore
-d0b5b93f2bc5f991715579924245eccc539b036ea1e00c091b13980dbd8c46aa         808  CITATION.cff
+4c8689e2dd8f8e3199d4ee988f12bb79c196cd6d5cfcd29caa1ae7556e8a9518         808  CITATION.cff
 313278e638dba2f9798a5d8b4f96c0af42b9e7d988aeade4f4c657d7660b0e22        1081  LICENSE
 c28a6fabd58db17ce98a84cf28a71b577378f14d5d9c9377b22771b4a766af17        1458  LICENSE-DATA
-6db969a3f14c94794d73a03cc24e33da7bb212e77c193f409f3ed8363982f167        5580  README.md
+852ec5e60e27aec1f94df83dffe743fc28cfab7ba21801ed8c7af0d932c7bec0        7231  README.md
 b76834c26c6ef1e216a6300eb3d39ea8c6ee433838ff92e009f8ca8427a262ae       18287  RELEASE_NOTES_v3.1.1.md
+1821d545b39e379135bcee3ca2c4a074127bf55d725cd5c0662b8421ac0062a9        6657  RELEASE_NOTES_v3.1.2.md
 8169db3f8ce24acae14f7d4ff5a76429327722214d3aca7131d057b5b9aef211        1823  analysis/nonnull_permutation_check.csv
 38717dc218ddec9e0d3de504c9709590765a6b9857bb567e58bba0bfd8c7eee6        5231  analysis/nonnull_permutation_check.py
-7b08aa9f96680affec6de6746d500ea2a50d785d4cf6e94920cfc341883f78f3        1357  archive/README.md
+5e03f643903aea24780118ebef8aa519a83c4f9f143feac9884608ace63f8c9f        2550  archive/README.md
+ab73f7083f6d25ca83fe8d3e5527fe40349617bd538f6dcd5e04f8436a238f44        5115  archive/protocols_not_used/BLIND_TEST_PROTOCOL.md
+87f00dfc4067edd15b8bc6f353664d9c02174c8fc2a347a95c1638872b48dcff        4445  archive/protocols_not_used/BLIND_TEST_PROTOCOL_V2.md
+a749338f1e8a69a17fdc71afb928e7d24b981463131aacccbb77fa99520e1cad         566  archive/protocols_not_used/blind_input_manifest_template.csv
+67e436cc2b2337af2fcae8bf0273a0c6216910386110dc876ceec25b4387ec22         493  archive/protocols_not_used/blind_predictions_template.csv
+5c0ea30cab2c58119f1e4947871e7df2f3c55fa3db773898419fcbc17bba49bf        1503  archive/protocols_not_used/blind_predictions_template_v2.csv
+a7b6f7b5e74e52afbcea929789664e240b41d8ddf60d240c6c9fef9c7a773782         367  archive/protocols_not_used/blind_protein_occurrence_template.csv
+0b3c90ac879d39517b70b51e037c87f7f0f75b2fb46f0acce8dffb293527cc15         556  archive/protocols_not_used/blind_site_outcomes_template.csv
+d9f90f9ef0e7065bc1991a388df97debc6258fbdcdf12518e8b00919ea05948a       10023  archive/protocols_not_used/pka_blind_prediction_lock_2026-09-17.json
 7979de0b148d06afb04e45caa9af7b3c4c61a8fa6f9fda89a276bd946fc764b1        3627  archive/scripts/baseline_phase0_findings_addendum_2026-09-21.py
 7fb188794906425ac73a85c985cff02ede518dd396699b2fb065c97919c37437       23826  archive/scripts/baseline_phase0_rerun_2026-09-21.py
 d0792f7e45f69c7ac9666c60dd14c39ddb77c086c067f144b5b5ca3aa51ce0ae        9769  archive/scripts/baseline_phase0_rerun_correction_2026-09-21.py
 7dccf300364b40fae50e70cb3762d4a2acaa2c0f593296e767b2710a7e748159        5809  archive/scripts/baseline_phase0_script_integrity_2026-09-21.py
 060996c3e6bc87514ad8544b2100faf7796ac4c594612751c76a0e9fbfc58ec5        4804  artifacts12/MANIFEST.json
-3e4802302c6b1d5e3fe2fba352cd7f4e8beb469c3a679ef822ff0aa4bd457f47       15897  artifacts12/README.md
+dc29af426cb11c8e11ca57072b0332c0d276ec10b220179a9d11227571c94941       16294  artifacts12/README.md
 3eda566fe8167ecf575bc5304422e3930fc3efbda56829bb3f941224c922c268       20206  artifacts12/number_registry.csv
 a76681d022846810bef9e2941e21a9bfa45f9b209c116d33e42bf55acd930ccb       27426  artifacts12/positional_profile/results/positional_kr_profile_public_2026-09-17.csv
 1978737971c8ecfaf294fa49d8f4cc4c76d6cdaae3afc06fa4ca49323e63cbde        7181  artifacts12/positional_profile/results/positional_kr_profile_public_audit.json
@@ -150,7 +160,7 @@ c1655eb7cce58e1bfc39fbe5e19f970dfeb8ddbb68d35c696ef8e50d25009d83        4153  cy
 f239814674ed92e2e8ba509464b880d8f8d3607ec14359474dcea590af3a0f4a        3274  cys-audit/src/cys_audit/checks/overlap.py
 597b22f713c55000b4bf9a5649b0388438db7f15127fa390ae0f9603551911a8        7251  cys-audit/src/cys_audit/checks/searchspace.py
 54ef27ae351530dd8651d39c43b920f87aea08ed62f74270724755abff200e8d        5036  cys-audit/src/cys_audit/cli.py
-c251586662465395cfda79e111e946c2ccec5efe9721f67c4eedcaa1491867b4        3625  cys-audit/src/cys_audit/constants.py
+5d8290f10659c2ab50332289ec947561eadf1896248977d4c23119bde5f457c1        3631  cys-audit/src/cys_audit/constants.py
 d46fd6ea2f89d4b4ac0c44ee9369853f235818581601f27dc5bf9f309e372145       10222  cys-audit/src/cys_audit/io.py
 71bc9d77661b13f6d8efc08c3ff2b1004065826e642b4c1f61dd4eeb790e7685        2516  cys-audit/src/cys_audit/propensity.py
 21a2e7a4ff432b71867dc84bfc59db59b26f2e3c0087e3a0bf3752183b30d411        2736  cys-audit/src/cys_audit/proteases.py
@@ -197,15 +207,8 @@ aa14bdd9bf4a9f8de09a070c8b6f7192fd5ff07ee7263b3933d436ac05e66c14      136920  fi
 355a878913179693ec0e09ea19faa488b79494c036ca6742eb3e77ced35db783       42123  figures_submitted/Fig7_self_audit_public.pdf
 86f40799f8a0e2496b7963629424c77f44da12e6a3c70d956e9b08360193496c     1045050  figures_submitted/Graphical_Abstract.pdf
 788f59be9bc3f535f87084eeb2e6f63bc3a896e8fcf28f661d86a562d44843ba      209626  figures_submitted/Graphical_Abstract.png
-ab73f7083f6d25ca83fe8d3e5527fe40349617bd538f6dcd5e04f8436a238f44        5115  protocols/BLIND_TEST_PROTOCOL.md
-87f00dfc4067edd15b8bc6f353664d9c02174c8fc2a347a95c1638872b48dcff        4445  protocols/BLIND_TEST_PROTOCOL_V2.md
 dbc31e846fa2325f1cda2390bcec0124b118235a42324f8075052d28ba073591        1257  protocols/blind_analysis_plan.json
 a01eccaf49fcdeb2d042f336d9940caac1ce695dc0afd2931cc3119d637720f7        4230  protocols/blind_analysis_plan_v2.json
-a749338f1e8a69a17fdc71afb928e7d24b981463131aacccbb77fa99520e1cad         566  protocols/blind_input_manifest_template.csv
-67e436cc2b2337af2fcae8bf0273a0c6216910386110dc876ceec25b4387ec22         493  protocols/blind_predictions_template.csv
-5c0ea30cab2c58119f1e4947871e7df2f3c55fa3db773898419fcbc17bba49bf        1503  protocols/blind_predictions_template_v2.csv
-a7b6f7b5e74e52afbcea929789664e240b41d8ddf60d240c6c9fef9c7a773782         367  protocols/blind_protein_occurrence_template.csv
-0b3c90ac879d39517b70b51e037c87f7f0f75b2fb46f0acce8dffb293527cc15         556  protocols/blind_site_outcomes_template.csv
 80790016e47c95687301e9982f68d4ac784a018ead416db79a56e65095c87d89        4086  protocols/cys_audit_random_control_preregistration_2026-09-22.json
 eacc076a5d173958b5c710cef6243fed9d71cd8312ea90e7b86f08736fded201        3937  protocols/detectability_baseline_plmsnosite_preregistration_2026-09-24.json
 f813aa82108bbdcc42ea0b24453390493fe1b8af86f1c517104e352bfc27ac8f       11340  protocols/flank_shuffle_preregistration_2026-09-17.json
@@ -218,7 +221,6 @@ ea9c31a61814cc2d8a3ac1a45945e06525541cb68140c06cdd6f04c0305ca87a        6364  pr
 796d880850c5a3ea00904af72221f551774e8f448e552a1dbcd7bf5e57cc82b1        5711  protocols/phase5b_covariate_control_preregistration_2026-09-22.json
 93a24d339e40a8b3cbb0c6cedba711e820c632cb44ce51d8ee1bc8c4f27f801b       27901  protocols/phospho_sulfo_eight_deposits_preregistration_2026-09-23.json
 f04b136d67a25fad10289026de3b6caabbd6ddc9ca1956ff1cb9f003319c3cf2        3410  protocols/phospho_sulfo_search_space_preregistration_2026-09-23.json
-d9f90f9ef0e7065bc1991a388df97debc6258fbdcdf12518e8b00919ea05948a       10023  protocols/pka_blind_prediction_lock_2026-09-17.json
 4c0690af13cfbb0d07c13ac67c2772c711b5eb0242729dbf58f28ccb4a70a2d7        4414  protocols/properdp_expected_cys_fraction_preregistration_2026-09-20.json
 f83e4ad4fcae7d79cfeb19a7c7dd6dc26997b0f594f0a5fc96f56618f54d0f4d        4366  protocols/public_artefact4_preregistration_2026-09-21.json
 b7540c92435dfe2cb59c305dbf7abf0a9f708f59360bca75c19705fd46118ccb        3775  protocols/public_refit_3_3_and_3_4_preregistration_2026-09-21.json
@@ -250,6 +252,8 @@ dc6a45b497b6b9c75c7cd40a6c87062b8a2f1e73520d91d9f6d1457a9246c2fc       18190  re
 780a37124350da089e0a40772bac97f92d93d2fecd560237033abb6651d8c857        8943  reports/V2_CHEM_BASIC_ABLATION.md
 4498ae76fac86c80a876cf730cfba96e7a23a70f74d9a3663a0264362ce6b195        4809  reports/V2_LABEL_SEMANTICS_AND_DETECTABILITY.md
 75251dda2fc4455c3b0680775d773aae27e15471cb79f8acf57a9b33fda0e7a3        9130  reports/V3_PREREGISTRATION_AND_COMPONENTS.md
+c0789db0b04d87ff038e34a68b64592621079f4a40695d94ad945e220a0aaa71         237  results/phase2_calibration_precision_2026-09-22.csv
+00407aec02810512ef09c5c695a279161b0666db2840452c940fc014502f8030         649  results/phase2_synthetic_benchmark_summary_2026-09-22.csv
 ec86e0a226693d47d229e99d25c17f917f503f59608d1a4cd42714c65191aeb1       11412  results/phase4_public_demo_2026-09-22.csv
 d2aea09876324c0cd02090082e14fd9955eecbb5f224615b28440120b7dd50ca        6675  results/phase4_reports/pxd063463_AspN_HydP_aspn_observed/audit.json
 b4dffa26618b084a31159e2d46d5ac1e22bf29d3e969a7640d2d690e6e1c176a        6715  results/phase4_reports/pxd063463_AspN_HydP_aspn_proteome/audit.json
@@ -262,16 +266,22 @@ b7af0aaffdf0348c121fadc8febebe0d71ff04c566b13ee85a77f46eb57cbcb1        6723  re
 1f4bcd8c3c44bfbfd34f11b72c2184e2db30e028491ee7a359a9c0d443d4d504        6682  results/phase4_reports/pxd063463_GluC_HydP_trypsin_proteome/audit.json
 890f9ce48ed252a55fc376c6d2d2016a2275fce43943381507d90512c3616a06        6646  results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_observed/audit.json
 b417172580fafa8370eb404b83b964ac16d797f7a0d50758ace3c3fda587da65        6297  results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_proteome/audit.json
+4f135b860b20439d34ee1c83d51ebe8c622e897f2f6bed110ec9ece74001722f      174540  results/pride_coincidence_candidates_2026-09-19.csv
 d63678f7577529792833f0c9afbf17c77288749c9b452c34d2f9eea91dd01a85       10447  results/ptm_detectability_share.csv
 6c044e3c32db24b5fa8594b4b56f031cefa70f897a107e0bb1eb474db2ad1446        1014  results/public_refit_ablation_lgb_rank_2026-09-24.csv
 8c9dc1a18d5bf8a54115c50b02c313ad03ef133bcecd6fd9f5340cab4a67deda        3542  results/public_refit_ablation_lgb_rank_2026-09-24_audit.json
+aa4186e814248ad4d81df2f0d08e53c856caae9ef3e4739916810c5bfb8ff61f        3218  results/public_refit_inputs_2026-09-21_audit.json
 65da92672aa7ac787053c668e67cb0b990e88b7f01aa9b47ab22ff5e8217b62c      697457  results/pxd015307_posthoc_score_ties.csv
+42400e14de2cf337e1acbc108029232a052dd50f56f19d2e08b00bffcd9a579d        1858  results/pxd015307_posthoc_score_ties_audit.json
+a85c8f61afd85945b396e0780f6d1daffc8a303d1df3336be0c00f9cea93bec6        5333  results/pxd015307_research_audit.json
+8369c070c4cc8124030588e7f6cb77518c82be94603245a2e240a136e5ef22ce           5  results/pxd015307_research_psms.csv
 a5d74ec8397a810165d793c62ccc1b689992ff571293089ec0ff0323df03d094         441  results/pxd015307_research_summary.csv
 e5fcbcb4af4e53481524cba4201c8064e7ed7325ebc921c5d8273cd3748b7756        5540  results/search_space_mass_accuracy.csv
 26cec00fb05736d0d8099932c9fbbfa08e6e4cc3b72d5bd42b7cc0d29172c06e        5490  results/search_space_mass_accuracy_audit.json
 3dcbb3421348a8e6dddf1b879cbc427777b4dfa6cda133d0adb890218242e439        1846  results/self_audit_human_trained_rice_2026-09-23.csv
 f69d664921741106fbc3632d4e4fd9f2d92beef3ac275bad992bee31a582e2ef        7268  results/self_audit_human_trained_rice_2026-09-23_audit.json
 a3704531f643b86591671ee45a13f7a2a888a58b1617021f3ec2f712569e39f0        6358  results/self_audit_human_trained_rice_five_proteases_2026-09-23.csv
+976b11fb0c668f2e4a1d264829779fca007d91cd808d3667e0ceb276092039a4       10835  results/self_audit_public_cohorts_2026-09-20_audit.json
 b90f39114ce457351a8ef060c51dfb7aff0931d4d33c1686c02beddab7660508        1866  results/self_audit_rice_trained_human_2026-09-24.csv
 2a4958787970fbbf1eed318fdf12a4e65cda68b38c9574eded5888b9b2c273fe        6776  results/self_audit_rice_trained_human_2026-09-24_audit.json
 b429e8b15024944e47f5cdf8660d38ea218d9e67370ff7ac4d261ed253b35920        6411  results/self_audit_rice_trained_human_five_proteases_2026-09-24.csv
@@ -662,6 +672,9 @@ fd79e6b13313dac5adb5d12a10e6cdfb89a33addc2254582818c4dcb0f768c82       29618  re
 71f650bdfb3743d90b287cdf39e2694b4a761c9e7e6bfffd95ad5478fb8190da        6737  revision_2026-09-30/scripts/J_provenance_species/j9_provenance.py
 a30e0d94b98c7fd8c092524d63950d998f49c990f728f4ebb3e935be354c2021        5236  revision_2026-09-30/scripts/J_provenance_species/jcommon.py
 198fd03df876533bf51421cdf37985f84f48354acc9584ee5666ee5b27d91200        6138  revision_2026-09-30/scripts/J_provenance_species/verify_r4_extra.py
+703d3633c5a01ca257704cfb69b469482cb5bf55f8472db7e1708d2c2bb52815        3840  revision_2026-10-02/yap1c_rederivation/README.md
+1de5a980fb06484d8ec4a0247098e368df20d557200b87c559a591c556ef1dc3        2537  revision_2026-10-02/yap1c_rederivation/coincidence_output.txt
+6594887cba59727f82a84477daf71ed3e6aa90a4a3fbe82770edf49fd1349875        7293  revision_2026-10-02/yap1c_rederivation/compute_fps2020_coincidence.py
 3cfe6962a771d78536854ca8bfe695383e469bb65e664b7444b96bc704e185c4       18239  scripts/analyse_phospho_sulfo_search_space_2026-09-23.py
 c96bb3817109195e60b563164c36c5750e5b44d4062ad3aa8e5cf1271d841d15       11609  scripts/analyse_public_refit_2026-09-21.py
 65a70ac1601ffd271458558668979669f5873d478da752550c05324ef299e71e        6868  scripts/artefact3_effect_sizes_and_matching_2026-09-19.py

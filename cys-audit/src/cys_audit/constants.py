@@ -17,7 +17,7 @@ SEVERITY = {FAIL: 3, WARNING: 2, UNDECIDABLE: 1, PASS: 0}
 CLAIM_PASS, CLAIM_ATTENUATED, CLAIM_UNDECIDABLE, CLAIM_FAIL = "PASS", "ATTENUATED", "UNDECIDABLE", "FAIL"
 CLAIM_NOT_EVALUATED = "NOT_EVALUATED"
 
-# Resampling (house rule 2: protein- or component-clustered bootstrap, 5000 replicates, fixed seed)
+# Resampling (standard procedure: protein- or component-clustered bootstrap, 5000 replicates, fixed seed)
 BOOTSTRAP_REPS = 5000
 DEFAULT_SEED = 20260922
 CI_LEVEL = 0.95

@@ -12,8 +12,10 @@ import csv
 import os
 import sys
 
-SRC = r"C:\Users\admin\Desktop\MCP\supplemental\Supplemental_Data_9_survey_coding_table.csv"
-OUT = r"C:\Users\admin\Desktop\MCP\_recoding\A\blinded_74.csv"
+import os  # v3.1.1: paths made repository-relative (were absolute Windows paths of the authoring machine)
+_ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, os.pardir))
+SRC = os.path.join(_ROOT, 'supplemental', 'Supplemental_Data_9_survey_coding_table.csv')
+OUT = os.path.join(_ROOT, 'recoding_audit', 'A', 'blinded_74.csv')
 
 KEEP_CLASSES = {"a", "b", "c", "e"}
 

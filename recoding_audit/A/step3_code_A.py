@@ -40,8 +40,10 @@ import sys
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-BLINDED = r"C:\Users\admin\Desktop\MCP\_recoding\A\blinded_74.csv"
-OUT = r"C:\Users\admin\Desktop\MCP\_recoding\A\codes_A.csv"
+import os  # v3.1.1: paths made repository-relative (were absolute Windows paths of the authoring machine)
+_ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, os.pardir))
+BLINDED = os.path.join(_ROOT, 'recoding_audit', 'A', 'blinded_74.csv')
+OUT = os.path.join(_ROOT, 'recoding_audit', 'A', 'codes_A.csv')
 
 # uid -> (code, one-sentence justification, confidence)
 CODES = {

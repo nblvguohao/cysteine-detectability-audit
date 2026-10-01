@@ -1,0 +1,122 @@
+{
+  "script": "analyse_public_refit_2026-09-21.py",
+  "script_sha256": "da8c9dd65e487b92eaf4904725fff28444fb5949d96efb7ff865969c466c561e",
+  "interpreter": "3.9.6",
+  "numpy": "2.0.2",
+  "preregistration": {
+    "script": "preregister_public_refit_2026-09-21.py",
+    "protocol": "public_refit_3_3_and_3_4_preregistration_2026-09-21.json",
+    "sha256_verified_unchanged": true
+  },
+  "bootstrap": {
+    "replicates": 5000,
+    "seed": 20260921,
+    "unit": "protein (declared deviation from house rule 2)"
+  },
+  "gates": {
+    "A0_unchanged": true,
+    "A0_prereg_sha256": "92703033b985654a25037025dec1cccebfdea38597f21bae36dac3b2403329db",
+    "instrument": {
+      "name": "run_self_audit_five_proteases.py",
+      "sha256": "aaa1f0f8287108f8e35e88dc1738e3d281fcfa1b85502cd71da3050b13f5c882",
+      "DISTAL": [
+        6,
+        12
+      ],
+      "TOP_K": 100,
+      "REPLICATES": 5000,
+      "SEED": 20260915
+    },
+    "human_PXD044043_rows_with_sequence": {
+      "kept": 18567,
+      "total": 18567
+    },
+    "NC1_human_PXD044043": {
+      "top100_lor": 0.344,
+      "top100_lor_ci": [
+        -0.3222,
+        1.2049
+      ],
+      "crosses_zero": true,
+      "wp_auc": 0.4933,
+      "wp_auc_ci": [
+        0.4771,
+        0.5092
+      ],
+      "wp_covers_half": true
+    },
+    "PC2_human_PXD044043_control_wp_auc": 0.7935,
+    "rice_PXD072089_rows_with_sequence": {
+      "kept": 5004,
+      "total": 5598
+    },
+    "NC1_rice_PXD072089": {
+      "top100_lor": 0.229,
+      "top100_lor_ci": [
+        -0.4839,
+        1.085
+      ],
+      "crosses_zero": true,
+      "wp_auc": 0.5128,
+      "wp_auc_ci": [
+        0.4836,
+        0.5414
+      ],
+      "wp_covers_half": true
+    },
+    "PC2_rice_PXD072089_control_wp_auc": 0.7663,
+    "verdicts": {
+      "human_PXD044043": {
+        "branch_3_3": "P1_survives",
+        "control": [
+          0.8724054152233431,
+          3.1773932487174954
+        ],
+        "ablated": {
+          "drop_w710": [
+            1.2516442145370081,
+            4.120721882376189
+          ],
+          "drop_all_basic": [
+            1.8265866352280093,
+            5.670839680846751
+          ]
+        },
+        "branch_3_4": "Q1"
+      },
+      "rice_PXD072089": {
+        "branch_3_3": "P1_survives",
+        "control": [
+          1.5014033074457724,
+          4.298516901244914
+        ],
+        "ablated": {
+          "drop_w710": [
+            1.092290296812077,
+            3.449559293493386
+          ],
+          "drop_all_basic": [
+            0.7984536797802202,
+            2.8292677368561727
+          ]
+        },
+        "branch_3_4": "Q1"
+      }
+    },
+    "PRIMARY_verdict_3_3": "P1_survives",
+    "PRIMARY_verdict_3_4": "Q1"
+  },
+  "gates_failed": [],
+  "notes": [],
+  "what_this_does_NOT_establish": [
+    "it does not restore 3.3 or 3.4 as statements about the deployed tomato model",
+    "it says nothing about whether the model is a good persulfidation predictor",
+    "both cohorts are persulfidation; nothing transfers to other chemistries",
+    "a null result on rice is not evidence of absence (817 positives, 640 proteins)",
+    "no structural features for external sequences: absolute performance is not comparable across cohorts, only arm-to-arm within a cohort"
+  ],
+  "wrapper_script": "reanalyse_public_refit_lgb_member_2026-09-24.py",
+  "wrapper_sha256": "da8c9dd65e487b92eaf4904725fff28444fb5949d96efb7ff865969c466c561e",
+  "score_column": "lgb_rank",
+  "status": "POST HOC correction of the registered reading (which used `blend`); see wrapper docstring"
+}

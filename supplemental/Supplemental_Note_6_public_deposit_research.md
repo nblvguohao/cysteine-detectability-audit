@@ -3,7 +3,7 @@
 The question, reading rule and outcome branches were registered before any search; search settings were amended after runs that failed on configuration (section 3). Sections 5 to 8 are post hoc and carry no verdict.
 
 ## 1. The deposit
-PXD015307 [52] holds five raw files.
+PXD015307 [35] holds five raw files.
 
 Fig-1D is the proteome-scale enrichment. Its persulfide sites come from a trapping-and-tagging chemistry read out with iodoTMT. The deposit's own search of this file (Fig-1D.msf: 25,014 peptides, 49,522 spectrum headers) placed:
 - oxidation, on eleven residue types including cysteine;
@@ -22,24 +22,24 @@ The consensus files carry no processing-node parameters. The modifications searc
 ## 2. Search parameters (Table S6.1)
 | item | setting | source |
 |---|---|---|
-| Raw files | Fig-1D.raw 498,563,222 B; Fig4-L_NaHS.raw 99,612,094; Fig4-L_CTH_Cys.raw 123,832,868; Fig4-L_heat_inactive_CTH.raw 150,754,884; Fig4-L_control.raw 102,688,780 (sizes match the PRIDE list); sha256 [to add] | plan; round report |
+| Raw files | Fig-1D.raw 498,563,222 B; Fig4-L_NaHS.raw 99,612,094; Fig4-L_CTH_Cys.raw 123,832,868; Fig4-L_heat_inactive_CTH.raw 150,754,884; Fig4-L_control.raw 102,688,780 (sizes match the PRIDE list); SHA-256 Fig-1D 1065817560a4768ddad8776750d6f41cb162b35a40ae2cbd1590d8ca9aaed14a, Fig4-L_NaHS 676abf25ac6ab0fc53769930eecd65b3fa09692c497071d87b46509bc42e8387, Fig4-L_CTH_Cys 6cf1bbb2ac14a2d588f4a091fc27b83baca8cbe1cb298097266e172565fcac28, Fig4-L_heat_inactive_CTH 41f3ead53dec8b4a521ce3b914c932502a843956c3c0931277f7f78f5c10b9aa, Fig4-L_control ddb40f5536280b900a84e994900aa2f344e8f06139dd9b85875a001075fd7da3 | plan; round report; checksums computed 2026-10-02 on the search host's copies |
 | MS2 analyzer | Fig-1D FTMS MS2 (31,450 FTMS, 3 ITMS scans); Fig4-L files ion-trap MS2 (Fig4-L_NaHS 1,080 FTMS, 5,004 ITMS); survey scans FTMS in every file | scan headers of converted files |
-| Conversion | ThermoRawFileParser [version], bioconda | plan |
+| Conversion | ThermoRawFileParser 2.0.0.dev (bioconda build h9ee0642_1; written as 2.0.0.0 in the mzML software element) | conda environment record; mzML header |
 | Engine | Comet 2026.01 rev. 1 (e4f767c), 24 threads, CPU | Comet output headers |
-| Database | Fig-1D: UniProtKB/Swiss-Prot Mus musculus, reference proteome UP000000589, canonical + isoforms, 25,750 entries, release [release], sha256 [sha256]. Fig4-L files: the same plus bovine insulin P01317 (25,751) | Comet output headers; plan amendment |
+| Database | Fig-1D: UniProtKB/Swiss-Prot Mus musculus, reference proteome UP000000589, canonical + isoforms, 25,750 entries, release 2026_03 (downloaded 17 September 2026), SHA-256 070c674974b8b1b0da593248cf6d1565d532207241c390491f79d6f89f99d19f (with insulin appended: 1ef08af50c8c3b0eaa6f32b39e80aebc2fb500498939adac62a315c8c91d94ee). Fig4-L files: the same plus bovine insulin P01317 (25,751) | Comet output headers; plan amendment |
 | Species | mouse: all 19,303 protein annotations of the deposit's Fig-1D.msf are mouse entries | plan amendment |
-| Contaminants | [to confirm] | not recorded |
+| Contaminants | none appended (the search database holds exactly the 25,750 reference-proteome entries, plus P01317 for the Fig4-L files) | database entry count |
 | Decoys | Comet internal, reversed peptides with the C-terminal residue retained, concatenated; prefix DECOY_ | output sequences |
 | Enzyme | trypsin, after K/R not before P, fully specific, up to 2 missed cleavages | plan; output sequences |
 | Precursor | +/-10 ppm; isotope_error 0 | plan |
-| Fragment | Fig-1D: fragment_bin_tol 0.02 (offset not recorded). Fig4-L: fragment_bin_tol 1.0005, fragment_bin_offset 0.4, theoretical_fragment_ions 1 | plan amendment |
+| Fragment | Fig-1D: fragment_bin_tol 0.02, fragment_bin_offset 0.0, theoretical_fragment_ions 0. Fig4-L: fragment_bin_tol 1.0005, fragment_bin_offset 0.4, theoretical_fragment_ions 1 | plan amendment |
 | Static modifications | none (Comet's default add_C_cysteine disabled after run 1) | plan; amendment 6 |
 | Variable modifications | C: sulfide +31.972071, dioxidation +31.989829, iodoTMT6plex +329.226595, carbamidomethyl +57.021464. M: oxidation +15.9949. At most 3 per peptide | report |
 | Not searched | protein N-terminal acetylation; N-ethylmaleimide; iodoTMT6plex on D/E/H/K | plan amendment |
 | Output | 5 candidates per spectrum | plan amendment |
 | FDR | rank-1 PSMs, Comet E-value, decoys/targets at or below a threshold, largest threshold with ratio <= 0.01, per file, PSM level; no Percolator, no peptide- or protein-level control | reading script |
 | Precursor error | (experimental - calculated)/calculated neutral mass x 10^6; baseline = 1%-FDR PSMs without a +32-class modification | reading script |
-| Not recorded | ion series; precursor charge range; peptide length and mass range (observed length 5-49); fragment_bin_offset for Fig-1D; raw-file checksums | - |
+| Recovered from the Fig-1D parameter file (comet_hires.params, timestamp identical to the Fig-1D search start) | ion series b and y (no neutral losses); precursor charge from the spectrum, maximum 6; maximum fragment charge 3; peptide length 5-50; MH+ mass range 600-5,000 | parameter file on the search host |
 | Outputs | Comet result tables, sha256: Fig-1D c07e7d329af2fb800d42dfc9e2dcac78caf1b6d96324e72c1ecf50f872ec7378; Fig4-L_CTH_Cys 088c995192ba864f89f1e5536fc81a2fe090b050f42f96806488b4061a0e03e9; Fig4-L_NaHS e0157a6c9919d3924e11564295d958dadd14f014955e396e76e939f36287333a; Fig4-L_control 5b2803fef02dba7b3e40c24497fe6a9a1aa069c95f72b80e1be790b4063bb701; Fig4-L_heat_inactive_CTH e5413073915c3cae218986c363c4ac194fe4cb5b5cdc0d09efea8465aaa26aad | reading audit |
 
 ## 3. Planning record

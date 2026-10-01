@@ -12,9 +12,11 @@ from collections import Counter, defaultdict
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
 
-SRC = r"C:\Users\admin\Desktop\MCP\supplemental\Supplemental_Data_9_survey_coding_table.csv"
-MINE = r"C:\Users\admin\Desktop\MCP\_recoding\A\codes_A.csv"
-OUT = r"C:\Users\admin\Desktop\MCP\_recoding\A\agreement_report_A.txt"
+import os  # v3.1.1: paths made repository-relative (were absolute Windows paths of the authoring machine)
+_ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, os.pardir))
+SRC = os.path.join(_ROOT, 'supplemental', 'Supplemental_Data_9_survey_coding_table.csv')
+MINE = os.path.join(_ROOT, 'recoding_audit', 'A', 'codes_A.csv')
+OUT = os.path.join(_ROOT, 'recoding_audit', 'A', 'agreement_report_A.txt')
 
 CATS = ["a", "b", "c", "e", "U"]
 

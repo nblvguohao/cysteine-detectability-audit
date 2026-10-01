@@ -1,7 +1,9 @@
 import csv, os, json
 
-BLIND = r"C:\Users\admin\Desktop\MCP\_recoding\B\blinded_74.csv"
-OUT = r"C:\Users\admin\Desktop\MCP\_recoding\B\codes_B.csv"
+import os  # v3.1.1: paths made repository-relative (were absolute Windows paths of the authoring machine)
+_ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, os.pardir))
+BLIND = os.path.join(_ROOT, 'recoding_audit', 'B', 'blinded_74.csv')
+OUT = os.path.join(_ROOT, 'recoding_audit', 'B', 'codes_B.csv')
 
 # Coder B (independent second pass). Codes assigned from blinded_74.csv ONLY.
 # a = all residues of that type, unrestricted; b = matched on detectability/abundance;

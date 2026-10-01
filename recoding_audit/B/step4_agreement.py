@@ -1,9 +1,11 @@
 import csv, os
 from collections import Counter, defaultdict
 
-SRC = r"C:\Users\admin\Desktop\MCP\supplemental\Supplemental_Data_9_survey_coding_table.csv"
-CODES_B = r"C:\Users\admin\Desktop\MCP\_recoding\B\codes_B.csv"
-OUT = r"C:\Users\admin\Desktop\MCP\_recoding\B\agreement_report_B.txt"
+import os  # v3.1.1: paths made repository-relative (were absolute Windows paths of the authoring machine)
+_ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), os.pardir, os.pardir))
+SRC = os.path.join(_ROOT, 'supplemental', 'Supplemental_Data_9_survey_coding_table.csv')
+CODES_B = os.path.join(_ROOT, 'recoding_audit', 'B', 'codes_B.csv')
+OUT = os.path.join(_ROOT, 'recoding_audit', 'B', 'agreement_report_B.txt')
 
 with open(SRC, newline="", encoding="utf-8-sig") as f:
     orig = {int(r["uid"]): r for r in csv.DictReader(f)}

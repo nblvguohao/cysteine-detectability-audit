@@ -1,0 +1,222 @@
+{
+  "window": 5,
+  "method": "analytic (exact mean/variance of within-protein sampling) + normal approx",
+  "permutation_check": {
+    "type": "sno",
+    "class": "极性 STNQ",
+    "p_perm_4000": 0.7435
+  },
+  "bonferroni_threshold": 0.00556,
+  "results": {
+    "sno": {
+      "label": "S-亚硝基化",
+      "n_proteins": 2457,
+      "n_modified": 3737,
+      "classes": {
+        "碱性 KRH": {
+          "observed": 0.1602,
+          "expected": 0.1374,
+          "diff_pp": 2.29,
+          "z": 15.72,
+          "p_two_sided": 0.0
+        },
+        "酸性 DE": {
+          "observed": 0.1347,
+          "expected": 0.1132,
+          "diff_pp": 2.15,
+          "z": 15.76,
+          "p_two_sided": 0.0
+        },
+        "芳香 FWY": {
+          "observed": 0.0595,
+          "expected": 0.0835,
+          "diff_pp": -2.4,
+          "z": -19.52,
+          "p_two_sided": 0.0
+        },
+        "疏水 AVLIMFW": {
+          "observed": 0.3396,
+          "expected": 0.3736,
+          "diff_pp": -3.4,
+          "z": -16.17,
+          "p_two_sided": 0.0
+        },
+        "小 AGS": {
+          "observed": 0.2231,
+          "expected": 0.2269,
+          "diff_pp": -0.38,
+          "z": -2.09,
+          "p_two_sided": 0.03690030147190493
+        },
+        "极性 STNQ": {
+          "observed": 0.2039,
+          "expected": 0.2045,
+          "diff_pp": -0.06,
+          "z": -0.34,
+          "p_two_sided": 0.7358621507289094
+        },
+        "脯氨酸 P": {
+          "observed": 0.0532,
+          "expected": 0.0464,
+          "diff_pp": 0.68,
+          "z": 7.1,
+          "p_two_sided": 1.2330136911486989e-12
+        },
+        "甘氨酸 G": {
+          "observed": 0.0762,
+          "expected": 0.0752,
+          "diff_pp": 0.11,
+          "z": 0.92,
+          "p_two_sided": 0.35839253654812087
+        },
+        "半胱氨酸 C": {
+          "observed": 0.0102,
+          "expected": 0.0208,
+          "diff_pp": -1.06,
+          "z": -18.04,
+          "p_two_sided": 0.0
+        }
+      }
+    },
+    "so": {
+      "label": "S-磺酰化",
+      "n_proteins": 1538,
+      "n_modified": 2749,
+      "classes": {
+        "碱性 KRH": {
+          "observed": 0.1595,
+          "expected": 0.1439,
+          "diff_pp": 1.55,
+          "z": 10.03,
+          "p_two_sided": 0.0
+        },
+        "酸性 DE": {
+          "observed": 0.1187,
+          "expected": 0.1172,
+          "diff_pp": 0.15,
+          "z": 0.99,
+          "p_two_sided": 0.3224245705715174
+        },
+        "芳香 FWY": {
+          "observed": 0.0673,
+          "expected": 0.0784,
+          "diff_pp": -1.11,
+          "z": -8.92,
+          "p_two_sided": 0.0
+        },
+        "疏水 AVLIMFW": {
+          "observed": 0.3795,
+          "expected": 0.3809,
+          "diff_pp": -0.14,
+          "z": -0.7,
+          "p_two_sided": 0.4866675069035886
+        },
+        "小 AGS": {
+          "observed": 0.217,
+          "expected": 0.2204,
+          "diff_pp": -0.33,
+          "z": -1.74,
+          "p_two_sided": 0.08125936476445617
+        },
+        "极性 STNQ": {
+          "observed": 0.1911,
+          "expected": 0.1957,
+          "diff_pp": -0.46,
+          "z": -2.49,
+          "p_two_sided": 0.012775990146706828
+        },
+        "脯氨酸 P": {
+          "observed": 0.0399,
+          "expected": 0.042,
+          "diff_pp": -0.21,
+          "z": -2.24,
+          "p_two_sided": 0.02479961784896134
+        },
+        "甘氨酸 G": {
+          "observed": 0.0769,
+          "expected": 0.0748,
+          "diff_pp": 0.2,
+          "z": 1.67,
+          "p_two_sided": 0.09467013688618309
+        },
+        "半胱氨酸 C": {
+          "observed": 0.0087,
+          "expected": 0.0171,
+          "diff_pp": -0.84,
+          "z": -15.4,
+          "p_two_sided": 0.0
+        }
+      }
+    },
+    "ox": {
+      "label": "可逆 Cys 氧化",
+      "n_proteins": 1377,
+      "n_modified": 1987,
+      "classes": {
+        "碱性 KRH": {
+          "observed": 0.1521,
+          "expected": 0.1412,
+          "diff_pp": 1.09,
+          "z": 5.59,
+          "p_two_sided": 2.2600553650775623e-08
+        },
+        "酸性 DE": {
+          "observed": 0.1259,
+          "expected": 0.1143,
+          "diff_pp": 1.16,
+          "z": 6.04,
+          "p_two_sided": 1.5786847384902103e-09
+        },
+        "芳香 FWY": {
+          "observed": 0.0715,
+          "expected": 0.0817,
+          "diff_pp": -1.02,
+          "z": -6.27,
+          "p_two_sided": 3.515778779217271e-10
+        },
+        "疏水 AVLIMFW": {
+          "observed": 0.3332,
+          "expected": 0.3564,
+          "diff_pp": -2.32,
+          "z": -8.34,
+          "p_two_sided": 0.0
+        },
+        "小 AGS": {
+          "observed": 0.2286,
+          "expected": 0.2317,
+          "diff_pp": -0.3,
+          "z": -1.19,
+          "p_two_sided": 0.23266805238612376
+        },
+        "极性 STNQ": {
+          "observed": 0.2087,
+          "expected": 0.2053,
+          "diff_pp": 0.35,
+          "z": 1.43,
+          "p_two_sided": 0.15375710766012785
+        },
+        "脯氨酸 P": {
+          "observed": 0.0505,
+          "expected": 0.0466,
+          "diff_pp": 0.38,
+          "z": 2.97,
+          "p_two_sided": 0.002936525089313635
+        },
+        "甘氨酸 G": {
+          "observed": 0.0806,
+          "expected": 0.0798,
+          "diff_pp": 0.08,
+          "z": 0.47,
+          "p_two_sided": 0.6417302728949146
+        },
+        "半胱氨酸 C": {
+          "observed": 0.0206,
+          "expected": 0.0262,
+          "diff_pp": -0.56,
+          "z": -6.65,
+          "p_two_sided": 2.9080071684006725e-11
+        }
+      }
+    }
+  }
+}

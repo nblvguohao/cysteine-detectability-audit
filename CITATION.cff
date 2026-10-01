@@ -2,14 +2,19 @@ cff-version: 1.2.0
 title: "Cys-Audit: detectability audits for site-level cysteine-modification proteomics"
 message: >-
   If you use this software or the derived tables, please cite the accompanying
-  manuscript. The author list is not yet final; this file will be updated with the
-  published author list and the article DOI on acceptance.
+  manuscript. The article DOI will be added on acceptance.
 type: software
 authors:
-  - name: "The Cys-Audit authors"
+  - family-names: "Lv"
+    given-names: "Guohao"
+    affiliation: "School of Artificial Intelligence, Anhui Agricultural University"
+  - family-names: "Gu"
+    given-names: "Lichuan"
+    affiliation: "School of Artificial Intelligence, Anhui Agricultural University"
+repository-code: "https://github.com/nblvguohao/cysteine-detectability-audit"
 license: MIT
-version: "v2.0.1"
-date-released: "2026-09-23"
+version: "v3.1.1"
+date-released: "2026-10-02"
 keywords:
   - proteomics
   - cysteine modification

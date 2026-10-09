@@ -1,0 +1,192 @@
+{
+  "script": "positional_kr_profile_public_2026-09-17.py",
+  "script_sha256": "aed19b7594202a6b52d04b30b54f1be897cc6582414a88fc32b62e0540f8d0dd",
+  "interpreter": "3.9.6",
+  "numpy": "2.0.2",
+  "run_utc": "2026-09-17T07:08:23.040993Z",
+  "seed": 20260915,
+  "bootstrap_reps": 5000,
+  "window_half_width": 7,
+  "offsets": [
+    -7,
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "criteria_declared_before_run": true,
+  "inputs": {
+    "census": {
+      "path": "results/ptm_census_sites.csv",
+      "sha256": "590ea6f1d54bd980a1ecf31c4716deb6ca1cb91aca04bf4537445cacb3361c2e"
+    },
+    "hsa_fasta": {
+      "path": "external/proteomes/hsa.fasta.gz",
+      "sha256": "5ad26455171d0f859ff59d8bb65b5b55b4ae72f28116fc21a4981ba7856ef8cc"
+    },
+    "ath_fasta": {
+      "path": "external/proteomes/ath.fasta.gz",
+      "sha256": "1112828557e7a40a4effe3d67d3838ba328fa38a0ecf0b26d9de9b6c0d801555"
+    },
+    "ath_tair_map": {
+      "path": "external/proteomes/ath_uniprot_tair_map.tsv.gz",
+      "sha256": "a12266322ea2b06dc53db2baa52f33dbfa07766a6032553cfba08ccd0a42b1f9"
+    }
+  },
+  "anchors": {
+    "A1_proteome_cysteine_counts": {
+      "expected": {
+        "hsa": 262194,
+        "ath_tair": 308561
+      },
+      "observed": {
+        "hsa": 262194,
+        "ath_tair": 308561
+      },
+      "source_of_expected": "results/invisible_cysteine_map_audit.json",
+      "status": "PASS"
+    },
+    "A2_centre_is_cysteine": {
+      "abiotech2025_ath_sno": {
+        "n_positive_rows": 5736,
+        "n_window_built": 5736,
+        "n_accession_without_sequence": 0,
+        "frac_site_is_cys": 1.0
+      },
+      "cysboost2019_human_sno_hela": {
+        "n_positive_rows": 8184,
+        "n_window_built": 8184,
+        "n_accession_without_sequence": 0,
+        "frac_site_is_cys": 1.0
+      },
+      "cysboost2019_human_sno_shsy5y": {
+        "n_positive_rows": 2134,
+        "n_window_built": 2134,
+        "n_accession_without_sequence": 0,
+        "frac_site_is_cys": 1.0
+      },
+      "fps2020_ath_sulfenyl": {
+        "n_positive_rows": 1745,
+        "n_window_built": 1742,
+        "n_accession_without_sequence": 0,
+        "frac_site_is_cys": 0.9983
+      },
+      "natcomm2023_ath_sno": {
+        "n_positive_rows": 1985,
+        "n_window_built": 1985,
+        "n_accession_without_sequence": 0,
+        "frac_site_is_cys": 1.0
+      },
+      "qpers_sid_tierB": {
+        "n_positive_rows": 724,
+        "n_window_built": 724,
+        "n_accession_without_sequence": 0,
+        "frac_site_is_cys": 1.0
+      },
+      "qtrp_S1_ph5": {
+        "n_positive_rows": 277,
+        "n_window_built": 277,
+        "n_accession_without_sequence": 0,
+        "frac_site_is_cys": 1.0
+      },
+      "qtrp_S2_ph5": {
+        "n_positive_rows": 80,
+        "n_window_built": 80,
+        "n_accession_without_sequence": 0,
+        "frac_site_is_cys": 1.0
+      }
+    },
+    "A3_shuffled_frac_spread": {
+      "abiotech2025_ath_sno": {
+        "shuffled_spread": 0.0083,
+        "fg_spread": 0.0599,
+        "threshold_6sigma": 0.0254,
+        "n_min_windows": 5697
+      },
+      "cysboost2019_human_sno_hela": {
+        "shuffled_spread": 0.0113,
+        "fg_spread": 0.0539,
+        "threshold_6sigma": 0.0215,
+        "n_min_windows": 8060
+      },
+      "cysboost2019_human_sno_shsy5y": {
+        "shuffled_spread": 0.0136,
+        "fg_spread": 0.1044,
+        "threshold_6sigma": 0.0422,
+        "n_min_windows": 2117
+      },
+      "fps2020_ath_sulfenyl": {
+        "shuffled_spread": 0.0268,
+        "fg_spread": 0.0832,
+        "threshold_6sigma": 0.0494,
+        "n_min_windows": 1717
+      },
+      "natcomm2023_ath_sno": {
+        "shuffled_spread": 0.0306,
+        "fg_spread": 0.1303,
+        "threshold_6sigma": 0.0476,
+        "n_min_windows": 1966
+      },
+      "qpers_sid_tierB": {
+        "shuffled_spread": 0.047,
+        "fg_spread": 0.1312,
+        "threshold_6sigma": 0.0689,
+        "n_min_windows": 724
+      },
+      "qtrp_S1_ph5": {
+        "shuffled_spread": 0.0802,
+        "fg_spread": 0.2718,
+        "threshold_6sigma": 0.1381,
+        "n_min_windows": 272
+      },
+      "qtrp_S2_ph5": {
+        "shuffled_spread": 0.1625,
+        "fg_spread": 0.2,
+        "threshold_6sigma": 0.2459,
+        "n_min_windows": 79
+      }
+    }
+  },
+  "corrections": [
+    {
+      "date": "2026-09-17",
+      "what": "A3 的阈值从绝对值 0.02 改为随样本量走的二项 6σ 阈，并加一条 shuffled_spread < fg_spread。",
+      "why": "第一次运行在 fps2020_ath_sulfenyl 上被拦下（打乱极差 0.0268 >= 0.02）。复核后判定是判据缺陷而非实现缺陷：打乱后 14 个偏移各是一个二项比例，p 约 0.13、n=1742 时单偏移标准差约 0.008，14 个同分布比例的极差期望约 3.4σ，原绝对阈值会把所有小数据集判成实现有误。",
+      "how_the_new_threshold_was_chosen": "从二项零分布推出（6σ），没有看观测值调参。",
+      "what_this_correction_does_NOT_change": [
+        "没有改动任何前景/背景的定义、窗口宽度、自助设置或分支判定规则。",
+        "没有改动 A1、A2 两道锚点。",
+        "第一次运行被 A3 拦下时没有写出任何产物，因此没有被覆盖的数字。"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "what": "关掉了 numpy matmul 的三条 RuntimeWarning。",
+      "why": "macOS Accelerate BLAS 的假警告，与 project notes 9.5 登记的同类。关之前当场核过：`w @ m` 与 np.einsum 在同一批输入上逐位相同（最大差 0.0），输出无 NaN、无 inf。",
+      "what_this_correction_does_NOT_change": [
+        "没有改动任何数值。"
+      ]
+    }
+  ],
+  "arms": {
+    "FG": "census role == positive",
+    "BG_proteome": "every cysteine in the species proteome universe (complete enumeration, not resampled)",
+    "BG_observed": "census role == observed_unmodified (same experiment, detected, not reported modified)",
+    "BG_shuffled": "the 14 flank residues of each FG window permuted in place, seed 20260915"
+  },
+  "what_this_does_NOT_establish": [
+    "不能建立 K/R 位置结构的成因；本轮没有非胰酶酶解的实验对照。",
+    "B2 不等于论断是错的；它说的是在这个报告口径下问不出来。",
+    "不给跨数据集合并 p 值：7 个数据集来自 7 篇工作，同一篇内部高度相关。",
+    "拟南芥前景走 TAIR 最长序列规则，背景是整条 ath.fasta.gz，两个宇宙不完全相同。"
+  ]
+}

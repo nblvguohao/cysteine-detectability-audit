@@ -1,0 +1,21 @@
+{
+ "script": "verify_r3_d_rule_difference",
+ "label": "POST HOC adversarial verification round 3 (not registered)",
+ "inputs_sha256": {
+  "/path/to/local/_cys_repo_work/public/revision_2026-09-30/inputs/phase4_inputs/pxd063463_AspN_HydP.tsv": "288f48b5e880c3c5c1a7529988e7b797728c61ff2ed8b9f104322abb0e255e28",
+  "/path/to/local/_cys_repo_work/public/revision_2026-09-30/external/UP000000589_10090.fasta.gz": "c24568f70ce9ffd7693a1ecd31c23eaa97a1f43d9305e2ff5401bdf30e2a0a93",
+  "/path/to/local/_cys_repo_work/public/revision_2026-09-30/inputs/phase4_inputs/pxd063463_CT_HydP.tsv": "ccc05290ebb49f2376227a98bcff78ffa67cc2eb89d3075d7d116e6a2e3782ba",
+  "/path/to/local/_cys_repo_work/public/revision_2026-09-30/inputs/phase4_inputs/pxd063463_GluC_HydP.tsv": "56cd08dac180b0c70a399a0dc6506626c81200a5db9289630ee3ef5fd9b1b59e",
+  "/path/to/local/_cys_repo_work/public/revision_2026-09-30/inputs/phase4_inputs/pxd063463_Trypsin_HydN.tsv": "7948a6afc73e38aaddded37565767e40cce41ecb264cc786e81461b629680346",
+  "/path/to/local/_cys_repo_work/public/revision_2026-09-30/inputs/phase4_inputs/pxd063463_AspN_HydN.tsv": "f06fcdfbce21fb97c7590890a210a995be6a50521f1f636fe0c7c5e37f6e6f73",
+  "/path/to/local/_cys_repo_work/public/revision_2026-09-30/inputs/phase4_inputs/pxd063463_CT_HydN.tsv": "d90c756e72042df988e828ca39d9c6f9cb0d55ed9c6834474cafcb4a0bf7db26",
+  "/path/to/local/_cys_repo_work/public/revision_2026-09-30/inputs/phase4_inputs/pxd063463_GluC_HydN.tsv": "4b3c8992b4542b3e23c23bce42d11a51b0c81cb8d639fa7f8feea2bb20f1a253"
+ },
+ "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+ "numpy": "2.2.6",
+ "pandas": "2.3.3",
+ "scipy": "1.15.3",
+ "rng": "numpy Generator(SFC64(seed)); seed base 31000000",
+ "reps": 5000,
+ "seeds": "31040000..31040011"
+}

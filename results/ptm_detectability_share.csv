@@ -1,0 +1,49 @@
+dataset_id,negative_construction,chemistry_family,species,feature_set,n_features,n_positive,n_negative,n_units,n_units_with_positive,grouping_unit,usable,exclusion_reason,auc_global,auc_global_lo,auc_global_hi,auc_within_unit,auc_within_unit_lo,auc_within_unit_hi,n_informative_units,share_visibility,share_visibility_lo,share_visibility_hi
+abiotech2025_ath_sno,NEG_A_not_observed,s_nitrosylation,Arabidopsis thaliana,VIS10,10,5736,17182,2940,2940,protein_accession,1,,0.7586,0.7511,0.766,0.7849,0.7751,0.7941,2690,0.7354,0.7157,0.7555
+abiotech2025_ath_sno,NEG_A_not_observed,s_nitrosylation,Arabidopsis thaliana,DIG25,25,5736,17182,2940,2940,protein_accession,1,,0.8517,0.8452,0.8579,0.8468,0.8386,0.8545,2690,,,
+abiotech2025_ath_sno,NEG_A_not_observed,s_nitrosylation,Arabidopsis thaliana,CPL15,15,5736,17182,2940,2940,protein_accession,1,,0.8282,0.8211,0.8353,0.8162,0.8076,0.8246,2690,,,
+abiotech2025_ath_sno,NEG_B_observed_unmodified,s_nitrosylation,Arabidopsis thaliana,VIS10,10,5736,589,3170,2940,protein_accession,1,,0.6238,0.6015,0.6464,0.5639,0.5209,0.6094,281,0.3922,0.3207,0.4647
+abiotech2025_ath_sno,NEG_B_observed_unmodified,s_nitrosylation,Arabidopsis thaliana,DIG25,25,5736,589,3170,2940,protein_accession,1,,0.8157,0.7939,0.8365,0.8239,0.7969,0.8489,281,,,
+abiotech2025_ath_sno,NEG_B_observed_unmodified,s_nitrosylation,Arabidopsis thaliana,CPL15,15,5736,589,3170,2940,protein_accession,1,,0.793,0.7698,0.8148,0.8146,0.7854,0.8419,281,,,
+cysboost2019_human_sno_hela,NEG_A_not_observed,s_nitrosylation,Homo sapiens,VIS10,10,8184,38843,3541,3541,homology_component_where_available,1,,0.7376,0.7319,0.7437,0.7616,0.7541,0.7691,3340,0.7555,0.7351,0.7773
+cysboost2019_human_sno_hela,NEG_A_not_observed,s_nitrosylation,Homo sapiens,DIG25,25,8184,38843,3541,3541,homology_component_where_available,1,,0.8146,0.8076,0.8212,0.8075,0.8004,0.8145,3340,,,
+cysboost2019_human_sno_hela,NEG_A_not_observed,s_nitrosylation,Homo sapiens,CPL15,15,8184,38843,3541,3541,homology_component_where_available,1,,0.7859,0.7783,0.7932,0.7623,0.7544,0.7706,3340,,,
+cysboost2019_human_sno_hela,NEG_B_observed_unmodified,s_nitrosylation,Homo sapiens,VIS10,10,8184,15457,6276,3541,homology_component_where_available,1,,0.5303,0.5225,0.5381,0.5464,0.5333,0.56,2640,0.281,0.2105,0.3528
+cysboost2019_human_sno_hela,NEG_B_observed_unmodified,s_nitrosylation,Homo sapiens,DIG25,25,8184,15457,6276,3541,homology_component_where_available,1,,0.6079,0.5979,0.6177,0.6339,0.6204,0.6471,2640,,,
+cysboost2019_human_sno_hela,NEG_B_observed_unmodified,s_nitrosylation,Homo sapiens,CPL15,15,8184,15457,6276,3541,homology_component_where_available,1,,0.5977,0.5875,0.6077,0.6133,0.5997,0.6268,2640,,,
+cysboost2019_human_sno_shsy5y,NEG_A_not_observed,s_nitrosylation,Homo sapiens,VIS10,10,2134,15474,1405,1405,homology_component_where_available,1,,0.711,0.7002,0.722,0.7279,0.712,0.743,1358,0.7137,0.6784,0.7495
+cysboost2019_human_sno_shsy5y,NEG_A_not_observed,s_nitrosylation,Homo sapiens,DIG25,25,2134,15474,1405,1405,homology_component_where_available,1,,0.7957,0.7848,0.8062,0.7482,0.7314,0.7631,1358,,,
+cysboost2019_human_sno_shsy5y,NEG_A_not_observed,s_nitrosylation,Homo sapiens,CPL15,15,2134,15474,1405,1405,homology_component_where_available,1,,0.7727,0.761,0.7841,0.7124,0.6953,0.7285,1358,,,
+cysboost2019_human_sno_shsy5y,NEG_B_observed_unmodified,s_nitrosylation,Homo sapiens,VIS10,10,2134,403,1405,1405,homology_component_where_available,1,,0.575,0.5475,0.6032,0.5419,0.5106,0.5772,324,0.1818,0.1152,0.2497
+cysboost2019_human_sno_shsy5y,NEG_B_observed_unmodified,s_nitrosylation,Homo sapiens,DIG25,25,2134,403,1405,1405,homology_component_where_available,1,,0.9126,0.9014,0.9239,0.7369,0.697,0.77,324,,,
+cysboost2019_human_sno_shsy5y,NEG_B_observed_unmodified,s_nitrosylation,Homo sapiens,CPL15,15,2134,403,1405,1405,homology_component_where_available,1,,0.9072,0.8951,0.9193,0.7306,0.689,0.7642,324,,,
+fps2020_ath_sulfenyl,NEG_A_not_observed,sulfenylation,Arabidopsis thaliana,VIS10,10,1745,6441,1090,1090,protein_accession,1,,0.726,0.7128,0.739,0.752,0.7354,0.7684,978,0.7322,0.6931,0.7736
+fps2020_ath_sulfenyl,NEG_A_not_observed,sulfenylation,Arabidopsis thaliana,DIG25,25,1745,6441,1090,1090,protein_accession,1,,0.8087,0.7939,0.8229,0.8112,0.7959,0.8256,978,,,
+fps2020_ath_sulfenyl,NEG_A_not_observed,sulfenylation,Arabidopsis thaliana,CPL15,15,1745,6441,1090,1090,protein_accession,1,,0.7939,0.7787,0.8087,0.784,0.7678,0.7996,978,,,
+fps2020_ath_sulfenyl,NEG_B_observed_unmodified,sulfenylation,Arabidopsis thaliana,VIS10,10,1745,411,1277,1090,protein_accession,1,,0.7718,0.7459,0.7961,0.7647,0.7097,0.8165,149,0.8962,0.8317,0.9619
+fps2020_ath_sulfenyl,NEG_B_observed_unmodified,sulfenylation,Arabidopsis thaliana,DIG25,25,1745,411,1277,1090,protein_accession,1,,0.8032,0.7781,0.8265,0.8431,0.794,0.8873,149,,,
+fps2020_ath_sulfenyl,NEG_B_observed_unmodified,sulfenylation,Arabidopsis thaliana,CPL15,15,1745,411,1277,1090,protein_accession,1,,0.7981,0.7728,0.822,0.8562,0.8081,0.8984,149,,,
+natcomm2023_ath_sno,NEG_A_not_observed,s_nitrosylation,Arabidopsis thaliana,VIS10,10,1985,12541,1463,1463,protein_accession,1,,0.8393,0.8308,0.8478,0.8516,0.84,0.8623,1416,0.876,0.8583,0.8929
+natcomm2023_ath_sno,NEG_A_not_observed,s_nitrosylation,Arabidopsis thaliana,DIG25,25,1985,12541,1463,1463,protein_accession,1,,0.8873,0.8803,0.8941,0.88,0.8702,0.8892,1416,,,
+natcomm2023_ath_sno,NEG_A_not_observed,s_nitrosylation,Arabidopsis thaliana,CPL15,15,1985,12541,1463,1463,protein_accession,1,,0.8548,0.8468,0.8626,0.8399,0.8277,0.8516,1416,,,
+natcomm2023_ath_sno,NEG_B_observed_unmodified,s_nitrosylation,Arabidopsis thaliana,VIS10,10,1985,0,1463,1463,protein_accession,0,negatives 0 < 30,,,,,,,,,,
+natcomm2023_ath_sno,NEG_B_observed_unmodified,s_nitrosylation,Arabidopsis thaliana,DIG25,25,1985,0,1463,1463,protein_accession,0,negatives 0 < 30,,,,,,,,,,
+natcomm2023_ath_sno,NEG_B_observed_unmodified,s_nitrosylation,Arabidopsis thaliana,CPL15,15,1985,0,1463,1463,protein_accession,0,negatives 0 < 30,,,,,,,,,,
+qpers_sid_tierB,NEG_A_not_observed,persulfidation,Homo sapiens,VIS10,10,724,4057,504,504,homology_component_where_available,1,,0.7905,0.7753,0.8053,0.8053,0.7845,0.8266,481,0.761,0.7254,0.7955
+qpers_sid_tierB,NEG_A_not_observed,persulfidation,Homo sapiens,DIG25,25,724,4057,504,504,homology_component_where_available,1,,0.8818,0.8692,0.8932,0.8708,0.8558,0.8854,481,,,
+qpers_sid_tierB,NEG_A_not_observed,persulfidation,Homo sapiens,CPL15,15,724,4057,504,504,homology_component_where_available,1,,0.8639,0.8516,0.876,0.8498,0.8333,0.867,481,,,
+qpers_sid_tierB,NEG_B_observed_unmodified,persulfidation,Homo sapiens,VIS10,10,724,1294,1072,504,homology_component_where_available,1,,0.6182,0.5918,0.6437,0.6476,0.5988,0.7001,256,0.5895,0.4735,0.7065
+qpers_sid_tierB,NEG_B_observed_unmodified,persulfidation,Homo sapiens,DIG25,25,724,1294,1072,504,homology_component_where_available,1,,0.7005,0.6755,0.7244,0.7317,0.6959,0.7671,256,,,
+qpers_sid_tierB,NEG_B_observed_unmodified,persulfidation,Homo sapiens,CPL15,15,724,1294,1072,504,homology_component_where_available,1,,0.6684,0.6423,0.6932,0.7062,0.6637,0.7479,256,,,
+qtrp_S1_ph5,NEG_A_not_observed,persulfidation,Homo sapiens,VIS10,10,277,2056,201,201,homology_component_where_available,1,,0.855,0.8347,0.8738,0.8818,0.8569,0.9024,195,0.8302,0.79,0.8692
+qtrp_S1_ph5,NEG_A_not_observed,persulfidation,Homo sapiens,DIG25,25,277,2056,201,201,homology_component_where_available,1,,0.9276,0.914,0.9406,0.9426,0.9285,0.9557,195,,,
+qtrp_S1_ph5,NEG_A_not_observed,persulfidation,Homo sapiens,CPL15,15,277,2056,201,201,homology_component_where_available,1,,0.91,0.8951,0.9246,0.9207,0.9054,0.9359,195,,,
+qtrp_S1_ph5,NEG_B_observed_unmodified,persulfidation,Homo sapiens,VIS10,10,277,1158,922,201,homology_component_where_available,1,,0.571,0.5281,0.6127,0.6198,0.5275,0.7083,99,0.4393,0.1745,0.7048
+qtrp_S1_ph5,NEG_B_observed_unmodified,persulfidation,Homo sapiens,DIG25,25,277,1158,922,201,homology_component_where_available,1,,0.6617,0.6304,0.6916,0.7919,0.7289,0.8473,99,,,
+qtrp_S1_ph5,NEG_B_observed_unmodified,persulfidation,Homo sapiens,CPL15,15,277,1158,922,201,homology_component_where_available,1,,0.6326,0.5979,0.6657,0.7051,0.6247,0.7768,99,,,
+qtrp_S2_ph5,NEG_A_not_observed,persulfidation,Homo sapiens,VIS10,10,80,391,56,56,homology_component_where_available,1,,0.6385,0.5624,0.7158,0.6647,0.5614,0.7572,53,0.5963,0.3129,0.8758
+qtrp_S2_ph5,NEG_A_not_observed,persulfidation,Homo sapiens,DIG25,25,80,391,56,56,homology_component_where_available,1,,0.7323,0.6745,0.7883,0.7246,0.6193,0.819,53,,,
+qtrp_S2_ph5,NEG_A_not_observed,persulfidation,Homo sapiens,CPL15,15,80,391,56,56,homology_component_where_available,1,,0.7334,0.6762,0.7885,0.7146,0.6023,0.8135,53,,,
+qtrp_S2_ph5,NEG_B_observed_unmodified,persulfidation,Homo sapiens,VIS10,10,80,1105,765,56,homology_component_where_available,1,,0.4329,0.3668,0.4985,0.4186,0.2836,0.5769,33,-0.9075,-3.4536,-0.0047
+qtrp_S2_ph5,NEG_B_observed_unmodified,persulfidation,Homo sapiens,DIG25,25,80,1105,765,56,homology_component_where_available,1,,0.574,0.5073,0.6379,0.5349,0.4,0.6753,33,,,
+qtrp_S2_ph5,NEG_B_observed_unmodified,persulfidation,Homo sapiens,CPL15,15,80,1105,765,56,homology_component_where_available,1,,0.5937,0.5279,0.6578,0.5698,0.4474,0.6824,33,,,

@@ -1,0 +1,213 @@
+{
+  "script": "run_self_audit_rice_trained_human_2026-09-24.py",
+  "script_sha256": "3f3088a4223cfafff602ba4a65f87a85336130b63dc38ccb8f713eb8b0658d82",
+  "interpreter": "3.9.6",
+  "numpy": "2.0.2",
+  "training_run": {
+    "script": "scripts/train_v2_public_rice_2026-09-24.py",
+    "script_sha256": "bd5308eeb36b88388a19383db76b242be4d778663c8c8ac5eb4edc978a77b0b8",
+    "train_report": {
+      "chem": {
+        "final_config": {
+          "feature_fraction": 0.3,
+          "lambda_l2": 1.0,
+          "learning_rate": 0.05,
+          "min_data_in_leaf": 40,
+          "num_leaves": 31
+        },
+        "final_rounds": 150,
+        "n_features": 1046,
+        "train_oof_auc_rice": 0.8020502412010824,
+        "per_fold_rounds": [
+          175,
+          75,
+          50,
+          350,
+          150
+        ],
+        "elapsed_seconds": 71.7
+      },
+      "full": {
+        "final_config": {
+          "feature_fraction": 0.4,
+          "lambda_l2": 1.0,
+          "learning_rate": 0.08,
+          "min_data_in_leaf": 80,
+          "num_leaves": 15
+        },
+        "final_rounds": 100,
+        "n_features": 1107,
+        "train_oof_auc_rice": 0.9004569034353396,
+        "per_fold_rounds": [
+          100,
+          50,
+          50,
+          150,
+          300
+        ],
+        "elapsed_seconds": 64.1
+      }
+    }
+  },
+  "preregistration": {
+    "script": "preregister_self_audit_public_2026-09-20.py",
+    "protocol": "self_audit_public_cohorts_preregistration_2026-09-20.json",
+    "sha256_verified_unchanged": true
+  },
+  "declared_deviation": "bootstrap clusters by PROTEIN, not homology component: the rice_PXD072089 training cohort has no homology clustering (components == proteins; scripts/build_public_refit_inputs_2026-09-21.py's own note). Cross-validation folds during training were therefore protein-disjoint but not verified homology-disjoint, and the bootstrap here clusters by protein for the same reason. Intervals are narrower than true homology-component clustering would give and must be quoted with this note.",
+  "gates": {
+    "A0_prereg_recorded": "8267489dd5fe784d07a0a73a2b08d2be90a6076623df9f88abc46f70772daea1",
+    "A0_prereg_now": "8267489dd5fe784d07a0a73a2b08d2be90a6076623df9f88abc46f70772daea1",
+    "A0_protocol_recorded": "cde1174a1c47cf1bc8806af2d6dd12ec1935885ea4db791ec927b174d90478be",
+    "A0_protocol_now": "cde1174a1c47cf1bc8806af2d6dd12ec1935885ea4db791ec927b174d90478be",
+    "A0_unchanged": true,
+    "PC1_instrument_unchanged_since_validated_run": {
+      "instrument": {
+        "recorded": "aaa1f0f8287108f8e35e88dc1738e3d281fcfa1b85502cd71da3050b13f5c882",
+        "now": "aaa1f0f8287108f8e35e88dc1738e3d281fcfa1b85502cd71da3050b13f5c882",
+        "matches": true
+      },
+      "flank": {
+        "recorded": "4fa456c3805944c4937bd5ef2bfe355e3193758375eb52e9b2c4964f0cf16b11",
+        "now": "4fa456c3805944c4937bd5ef2bfe355e3193758375eb52e9b2c4964f0cf16b11",
+        "matches": true
+      },
+      "prior_run_PC1_pass": true
+    },
+    "PC1_pass": true,
+    "instrument": {
+      "name": "run_self_audit_five_proteases.py",
+      "sha256": "aaa1f0f8287108f8e35e88dc1738e3d281fcfa1b85502cd71da3050b13f5c882",
+      "DISTAL": [
+        6,
+        12
+      ],
+      "PROXIMAL": 5,
+      "REPLICATES": 5000,
+      "SEED": 20260915,
+      "proteases": [
+        "Trypsin",
+        "LysC",
+        "GluC",
+        "AspN",
+        "Chymotrypsin"
+      ]
+    },
+    "instrument_flank": {
+      "name": "run_self_audit_cleavage_flank.py",
+      "sha256": "4fa456c3805944c4937bd5ef2bfe355e3193758375eb52e9b2c4964f0cf16b11",
+      "SFE006_KR_OFFSETS": [
+        -10,
+        -8,
+        -7,
+        -6,
+        -4,
+        -2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "coverage_human_PXD044043": {
+      "rows_in_table": 18567,
+      "rows_kept": 18567,
+      "proteins_in_table": 1519,
+      "proteins_matched": 1519,
+      "positives": 3206
+    },
+    "PC3_human_distal_rate": 0.7901,
+    "PC3_human_proximal_rate": 0.6683,
+    "PC2_human_label_distal_auc": {
+      "auc": 0.5558,
+      "ci": [
+        0.5499,
+        0.562
+      ]
+    },
+    "NC1a_global_human_v2r_chem_trained_on_rice_label_positive": {
+      "auc": 0.5127,
+      "ci": [
+        0.4791,
+        0.5459
+      ],
+      "covers_half": true
+    },
+    "NC1b_within_protein_human_v2r_chem_trained_on_rice_label_positive": {
+      "auc": 0.512,
+      "ci": [
+        0.4797,
+        0.545
+      ],
+      "covers_half": true,
+      "reads_as": "between-protein floor: the part of the pooled association that survives destroying all within-protein ordering"
+    },
+    "NC1a_global_human_v2r_chem_trained_on_rice_label_negative": {
+      "auc": 0.5021,
+      "ci": [
+        0.4914,
+        0.5129
+      ],
+      "covers_half": true
+    },
+    "NC1b_within_protein_human_v2r_chem_trained_on_rice_label_negative": {
+      "auc": 0.5074,
+      "ci": [
+        0.4961,
+        0.5179
+      ],
+      "covers_half": true,
+      "reads_as": "between-protein floor: the part of the pooled association that survives destroying all within-protein ordering"
+    },
+    "NC1a_global_human_v2r_full_trained_on_rice_label_positive": {
+      "auc": 0.5136,
+      "ci": [
+        0.4811,
+        0.5471
+      ],
+      "covers_half": true
+    },
+    "NC1b_within_protein_human_v2r_full_trained_on_rice_label_positive": {
+      "auc": 0.5148,
+      "ci": [
+        0.4815,
+        0.5478
+      ],
+      "covers_half": true,
+      "reads_as": "between-protein floor: the part of the pooled association that survives destroying all within-protein ordering"
+    },
+    "NC1a_global_human_v2r_full_trained_on_rice_label_negative": {
+      "auc": 0.5025,
+      "ci": [
+        0.491,
+        0.514
+      ],
+      "covers_half": true
+    },
+    "NC1b_within_protein_human_v2r_full_trained_on_rice_label_negative": {
+      "auc": 0.5141,
+      "ci": [
+        0.5028,
+        0.525
+      ],
+      "covers_half": false,
+      "reads_as": "between-protein floor: the part of the pooled association that survives destroying all within-protein ordering"
+    },
+    "A2_all_cells_cover_half": true,
+    "verdict": "E1_replicates",
+    "verdict_why": "interval above 0.5 in both label strata (human audited; rice trains the model)",
+    "verdict_inputs": {
+      "label_positive": true,
+      "label_negative": true
+    },
+    "single_cohort_declared": "reverse direction: rice trains, human is audited"
+  },
+  "gates_failed": [],
+  "notes": [],
+  "what_this_does_NOT_establish": [
+    "whether the model is a good persulfidation predictor",
+    "anything about any chemistry other than persulfidation",
+    "whether cross-species transfer (rice-trained, human-tested) differs from same-species transfer, which was not tested"
+  ]
+}

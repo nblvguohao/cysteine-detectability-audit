@@ -1,0 +1,14 @@
+figure,panel,row,field,value,source_table,specification_label
+Fig1,a,illustration,source,"cysteine-detectability-audit/figures_submitted/Fig1_overview.pdf, embedded workflow image (4128 x 754 px)",cysteine-detectability-audit/figures_submitted/Fig1_overview.pdf,no data; reused unchanged (author-confirmed not AI-generated)
+Fig1,c,Other or not stated,classified_analyses,37,"cysteine-detectability-audit/source_data_submitted/Source_Data_Fig1_overview.csv (panel c, row Other or not stated); from Supplemental_Data_9_survey_coding_table.csv",plotted; reused unchanged from the original figure build
+Fig1,c,"All residues, unrestricted",classified_analyses,35,"cysteine-detectability-audit/source_data_submitted/Source_Data_Fig1_overview.csv (panel c, row All residues, unrestricted); from Supplemental_Data_9_survey_coding_table.csv",plotted; reused unchanged from the original figure build
+Fig1,c,Detected but unmodified,classified_analyses,2,"cysteine-detectability-audit/source_data_submitted/Source_Data_Fig1_overview.csv (panel c, row Detected but unmodified); from Supplemental_Data_9_survey_coding_table.csv",plotted; reused unchanged from the original figure build
+Fig1,c,Detectability or abundance matched,classified_analyses,0,"cysteine-detectability-audit/source_data_submitted/Source_Data_Fig1_overview.csv (panel c, row Detectability or abundance matched); from Supplemental_Data_9_survey_coding_table.csv",plotted; reused unchanged from the original figure build
+Fig1,a,artifact 4,badge_number,4,order of the five steps in Results (no data),printed badge; no data
+Fig1,a,artifact 1,badge_number,1,order of the five steps in Results (no data),printed badge; no data
+Fig1,a,artifact 3,badge_number,3,order of the five steps in Results (no data),printed badge; no data
+Fig1,a,artifact 5,badge_number,5,order of the five steps in Results (no data),printed badge; no data
+Fig1,a,artifact 2,badge_number,2,order of the five steps in Results (no data),printed badge; no data
+Fig1,b,schematic,content,"no data: illustrative protein with 10 cysteines (2 modified, 4 detected unmodified, 4 not detected)",drawn schematic,no data
+Fig1,b,negative-set brackets,NEG_A,all other cysteines of the protein,Figure 1b schematic wording (no data),printed
+Fig1,b,negative-set brackets,NEG_B,cysteines observed unmodified in the same run,Figure 1b schematic wording (no data),printed

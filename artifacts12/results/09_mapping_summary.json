@@ -1,0 +1,20 @@
+{
+  "sno": {
+    "label": "S-亚硝基化",
+    "n_proteins": 2457,
+    "n_modified": 3737,
+    "n_unmodified": 18213
+  },
+  "so": {
+    "label": "S-磺酰化",
+    "n_proteins": 1538,
+    "n_modified": 2749,
+    "n_unmodified": 9528
+  },
+  "ox": {
+    "label": "可逆 Cys 氧化",
+    "n_proteins": 1377,
+    "n_modified": 1987,
+    "n_unmodified": 9730
+  }
+}

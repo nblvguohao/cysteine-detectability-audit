@@ -1,0 +1,97 @@
+{
+  "script": "run_self_audit_public_cohorts_2026-09-20.py",
+  "script_sha256": "c6f5b234824d2cabdac57e0a5b290cfbd112f93bf0ad9edc44992445653453c8",
+  "interpreter": "3.9.6",
+  "numpy": "2.0.2",
+  "preregistration": {
+    "script": "preregister_self_audit_public_2026-09-20.py",
+    "protocol": "self_audit_public_cohorts_preregistration_2026-09-20.json",
+    "sha256_verified_unchanged": true
+  },
+  "declared_deviation": "bootstrap clusters by PROTEIN, not homology component: no homology grouping exists for the human or rice cohorts. Intervals are narrower than component clustering would give and must be quoted with this note.",
+  "gates": {
+    "A0_prereg_recorded": "8267489dd5fe784d07a0a73a2b08d2be90a6076623df9f88abc46f70772daea1",
+    "A0_prereg_now": "8267489dd5fe784d07a0a73a2b08d2be90a6076623df9f88abc46f70772daea1",
+    "A0_protocol_recorded": "cde1174a1c47cf1bc8806af2d6dd12ec1935885ea4db791ec927b174d90478be",
+    "A0_protocol_now": "cde1174a1c47cf1bc8806af2d6dd12ec1935885ea4db791ec927b174d90478be",
+    "A0_unchanged": true,
+    "instrument_flank": {
+      "name": "run_self_audit_cleavage_flank.py",
+      "sha256": "4fa456c3805944c4937bd5ef2bfe355e3193758375eb52e9b2c4964f0cf16b11",
+      "SFE006_KR_OFFSETS": [
+        -10,
+        -8,
+        -7,
+        -6,
+        -4,
+        -2,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "instrument": {
+      "name": "run_self_audit_five_proteases.py",
+      "sha256": "aaa1f0f8287108f8e35e88dc1738e3d281fcfa1b85502cd71da3050b13f5c882",
+      "DISTAL": [
+        6,
+        12
+      ],
+      "PROXIMAL": 5,
+      "REPLICATES": 5000,
+      "SEED": 20260915,
+      "proteases": [
+        "Trypsin",
+        "LysC",
+        "GluC",
+        "AspN",
+        "Chymotrypsin"
+      ]
+    },
+    "coverage_human_PXD044043": {
+      "rows_in_table": 18567,
+      "rows_kept": 18567,
+      "proteins_in_table": 1519,
+      "proteins_matched": 1519,
+      "positives": 3206
+    },
+    "PC3_human_PXD044043_distal_rate": 0.7901,
+    "PC3_human_PXD044043_proximal_rate": 0.6683,
+    "PC2_human_PXD044043_label_distal_auc": {
+      "auc": 0.5558,
+      "ci": [
+        0.5499,
+        0.562
+      ]
+    },
+    "coverage_rice_PXD072089": {
+      "rows_in_table": 5598,
+      "rows_kept": 5004,
+      "proteins_in_table": 640,
+      "proteins_matched": 581,
+      "positives": 737
+    },
+    "PC3_rice_PXD072089_distal_rate": 0.76,
+    "PC3_rice_PXD072089_proximal_rate": 0.6441,
+    "PC2_rice_PXD072089_label_distal_auc": {
+      "auc": 0.5344,
+      "ci": [
+        0.5239,
+        0.5445
+      ]
+    }
+  },
+  "gates_failed": [],
+  "notes": [
+    "rice_PXD072089: 594 of 5598 sites dropped because the protein is absent from the reference proteome; declared, not silently excluded"
+  ],
+  "amendments": [],
+  "what_this_does_NOT_establish": [
+    "it does not make 3.3 or 3.4 public; those need refitting",
+    "it does not say whether the model is a good persulfidation predictor",
+    "both cohorts are persulfidation; nothing transfers to other chemistries",
+    "scores are full-fit on external cohorts, so an absence of association could also mean poor transfer rather than absence of bias"
+  ]
+}

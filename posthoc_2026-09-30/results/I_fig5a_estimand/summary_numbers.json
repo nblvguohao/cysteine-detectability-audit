@@ -1,0 +1,210 @@
+{
+ "label": "POST HOC revision analysis 2026-09-30, item I_fig5a_estimand; from stored outputs only",
+ "n_arms_usable_fig5a": 15,
+ "share_recomputation": {
+  "n_checked": 15,
+  "n_within_rounding_bound": 15,
+  "max_abs_deviation": 0.0007432432432427083,
+  "max_deviation_row": [
+   "qtrp_S2_ph5",
+   "NEG_B"
+  ]
+ },
+ "source_data_match": {
+  "n_checked": 45,
+  "n_match": 45
+ },
+ "sd7_crosscheck": {
+  "n_rows": 16,
+  "all_in_sd7": true,
+  "all_n_match": true,
+  "all_usable_match": true
+ },
+ "manuscript_results_paragraph_numbers": {
+  "paragraph_prefix": "The same published site table can be scored against two negative sets, and the choice deci",
+  "n_numbers_in_paragraph": 49,
+  "stored_values_checked": 45,
+  "stored_values_not_found": [],
+  "all_found": true
+ },
+ "ranges": {
+  "NEG_A": {
+   "n_arms": 8,
+   "VIS10_global_all": [
+    0.6385,
+    0.855
+   ],
+   "VIS10_global_excl_S2": [
+    0.711,
+    0.855
+   ],
+   "VIS10_within_all": [
+    0.6647,
+    0.8818
+   ],
+   "DIG25_global_all": [
+    0.7323,
+    0.9276
+   ],
+   "DIG25_within_all": [
+    0.7246,
+    0.9426
+   ],
+   "share_global_all": [
+    0.5963,
+    0.876
+   ],
+   "share_within_point_all": [
+    0.7333036509349953,
+    0.9252631578947369
+   ],
+   "complement_ratio_global_all": [
+    0.9087730451366817,
+    1.0047352561343095
+   ],
+   "share_plus_complement_global": [
+    1.600947051226862,
+    1.7921507875032279
+   ],
+   "frac_units_both_classes": [
+    0.8972477064220183,
+    0.9701492537313433
+   ],
+   "global_minus_within_DIG25": [
+    -0.015000000000000013,
+    0.04749999999999999
+   ]
+  },
+  "NEG_B": {
+   "n_arms": 7,
+   "VIS10_global_five": [
+    0.5303,
+    0.6238
+   ],
+   "VIS10_within_five": [
+    0.5419,
+    0.6476
+   ],
+   "VIS10_global_all": [
+    0.4329,
+    0.7718
+   ],
+   "VIS10_within_all": [
+    0.4186,
+    0.7647
+   ],
+   "DIG25_global_all": [
+    0.574,
+    0.9126
+   ],
+   "DIG25_within_all": [
+    0.5349,
+    0.8431
+   ],
+   "DIG25_within_excl_S2": [
+    0.6339,
+    0.8431
+   ],
+   "share_global_five": [
+    0.1818,
+    0.5895
+   ],
+   "share_within_point_excl_S2": [
+    0.17686787674124124,
+    0.7714951909064415
+   ],
+   "complement_ratio_global_all": [
+    0.820037105751392,
+    1.2662162162162172
+   ],
+   "share_plus_complement_global": [
+    0.3594594594594599,
+    1.879617414248021
+   ],
+   "frac_units_both_classes": [
+    0.043137254901960784,
+    0.42065009560229444
+   ],
+   "frac_units_negative_only": [
+    0.0,
+    0.9267973856209151
+   ],
+   "global_minus_within_DIG25": [
+    -0.1302000000000001,
+    0.17569999999999997
+   ]
+  },
+  "task3_DIG25_within_NEG_B_excl_S2": [
+   0.6339,
+   0.8431
+  ],
+  "task3_all_intervals_above_0.5_excl_S2": true
+ },
+ "neg_b_lower_share_global": {
+  "qtrp_S1_ph5": true,
+  "qtrp_S2_ph5": true,
+  "qpers_sid_tierB": true,
+  "cysboost2019_human_sno_hela": true,
+  "cysboost2019_human_sno_shsy5y": true,
+  "abiotech2025_ath_sno": true,
+  "fps2020_ath_sulfenyl": false
+ },
+ "neg_b_lower_share_within_point": {
+  "qtrp_S1_ph5": true,
+  "qtrp_S2_ph5": true,
+  "qpers_sid_tierB": true,
+  "cysboost2019_human_sno_hela": true,
+  "cysboost2019_human_sno_shsy5y": true,
+  "abiotech2025_ath_sno": true,
+  "fps2020_ath_sulfenyl": true
+ },
+ "share_interval_conditional_arms": [
+  [
+   "qtrp_S2_ph5",
+   "NEG_B",
+   0.05253057151219082
+  ]
+ ],
+ "snote7_neg_b_definitions": [
+  [
+   "PAT-switch (Arabidopsis)",
+   "not_comparable",
+   "observed class limited to peptides carrying a modification (subset by construction)"
+  ],
+  [
+   "Cys-BOOST HeLa (human)",
+   "not_comparable",
+   "observed class from a different supplementary table than the SNO calls"
+  ],
+  [
+   "Cys-BOOST SH-SY5Y (human)",
+   "not_comparable",
+   "observed class from a different supplementary table than the SNO calls"
+  ],
+  [
+   "YAP1C reporter (Arabidopsis)",
+   "comparable",
+   "positives cross-linked peptides, observed regular peptides of the same runs"
+  ],
+  [
+   "FAT-switch (Arabidopsis)",
+   "not_computable",
+   "capture only: no observed-unmodified class reported"
+  ],
+  [
+   "qPerS-SID tier B (human)",
+   "comparable_threshold",
+   "same elution readout; positives by the authors' ratio threshold >= 1.30"
+  ],
+  [
+   "QTRP S1 pH5 (human)",
+   "comparable",
+   "positives -SSH sheet, observed -SH sheet of the same arm"
+  ],
+  [
+   "QTRP S2 pH5 (human)",
+   "comparable",
+   "positives -SSH sheet, observed -SH sheet of the same arm"
+  ]
+ ]
+}

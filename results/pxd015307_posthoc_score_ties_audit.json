@@ -1,0 +1,41 @@
+{
+  "script": "scripts/posthoc_pxd015307_score_ties.py",
+  "script_sha256": "6f703345602e87e0e8e3a5ba81b7bbd14979ff3ed02c2e01aa7196db42bb1a83",
+  "generated_utc": "2026-09-16T18:21:55Z",
+  "status": "POST-HOC exploration, not predeclared, no verdict",
+  "registered_round": "protocols/pxd015307_research_preregistration_2026-09-17.json",
+  "per_arm": {
+    "Fig-1D": {
+      "n_spectra_with_any_plus32_line": 11602,
+      "n_spectra_where_several_plus32_patterns_share_the_best_xcorr": 1287,
+      "input_sha256": "c07e7d329af2fb800d42dfc9e2dcac78caf1b6d96324e72c1ecf50f872ec7378"
+    },
+    "Fig4-L_CTH_Cys": {
+      "n_spectra_with_any_plus32_line": 1191,
+      "n_spectra_where_several_plus32_patterns_share_the_best_xcorr": 273,
+      "input_sha256": "088c995192ba864f89f1e5536fc81a2fe090b050f42f96806488b4061a0e03e9"
+    },
+    "Fig4-L_NaHS": {
+      "n_spectra_with_any_plus32_line": 917,
+      "n_spectra_where_several_plus32_patterns_share_the_best_xcorr": 254,
+      "input_sha256": "e0157a6c9919d3924e11564295d958dadd14f014955e396e76e939f36287333a"
+    },
+    "Fig4-L_control": {
+      "n_spectra_with_any_plus32_line": 184,
+      "n_spectra_where_several_plus32_patterns_share_the_best_xcorr": 16,
+      "input_sha256": "5b2803fef02dba7b3e40c24497fe6a9a1aa069c95f72b80e1be790b4063bb701"
+    },
+    "Fig4-L_heat_inactive_CTH": {
+      "n_spectra_with_any_plus32_line": 1359,
+      "n_spectra_where_several_plus32_patterns_share_the_best_xcorr": 337,
+      "input_sha256": "e5413073915c3cae218986c363c4ac194fe4cb5b5cdc0d09efea8465aaa26aad"
+    }
+  },
+  "n_rows": 7968,
+  "n_spectra_with_both_chemistries_at_the_best_xcorr": 2079,
+  "max_ppm_span_among_those": 18.829,
+  "versions": {
+    "python": "3.9.6 (default, May 22 2026, 11:13:45) \n[Clang 21.0.0 (clang-2100.1.1.101)]"
+  },
+  "elapsed_minutes": 0.01
+}

@@ -1,0 +1,264 @@
+{
+  "label": "POST HOC revision analysis (2026-09-30), not registered, not pre-specified",
+  "arithmetic": [
+    {
+      "bin_width": "0.02 Da (Fig-1D)",
+      "fragment_charge": 1,
+      "shift_mz": 0.017758,
+      "p_bin_changes_uniform_positions": 0.8878999999999999
+    },
+    {
+      "bin_width": "0.02 Da (Fig-1D)",
+      "fragment_charge": 2,
+      "shift_mz": 0.008879,
+      "p_bin_changes_uniform_positions": 0.44394999999999996
+    },
+    {
+      "bin_width": "0.02 Da (Fig-1D)",
+      "fragment_charge": 3,
+      "shift_mz": 0.005919333333333333,
+      "p_bin_changes_uniform_positions": 0.29596666666666666
+    },
+    {
+      "bin_width": "1.0005 Da (insulin files)",
+      "fragment_charge": 1,
+      "shift_mz": 0.017758,
+      "p_bin_changes_uniform_positions": 0.01774912543728136
+    },
+    {
+      "bin_width": "1.0005 Da (insulin files)",
+      "fragment_charge": 2,
+      "shift_mz": 0.008879,
+      "p_bin_changes_uniform_positions": 0.00887456271864068
+    },
+    {
+      "bin_width": "1.0005 Da (insulin files)",
+      "fragment_charge": 3,
+      "shift_mz": 0.005919333333333333,
+      "p_bin_changes_uniform_positions": 0.005916375145760453
+    }
+  ],
+  "theoretical": [
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "n_unique_peptides": 1085,
+      "n_cys_containing_fragments": 65851,
+      "bin_width": 0.02,
+      "bin_offset": 0.0,
+      "fragment_charge": 1,
+      "share_of_fragments_changing_bin": 0.8902370503105496
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "n_unique_peptides": 1085,
+      "n_cys_containing_fragments": 65851,
+      "bin_width": 0.02,
+      "bin_offset": 0.0,
+      "fragment_charge": 2,
+      "share_of_fragments_changing_bin": 0.4462498671242654
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "n_unique_peptides": 1085,
+      "n_cys_containing_fragments": 65851,
+      "bin_width": 0.02,
+      "bin_offset": 0.0,
+      "fragment_charge": 3,
+      "share_of_fragments_changing_bin": 0.299069110567797
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "n_unique_peptides": 1085,
+      "n_cys_containing_fragments": 65851,
+      "bin_width": 0.02,
+      "bin_offset": 0.4,
+      "fragment_charge": 1,
+      "share_of_fragments_changing_bin": 0.8861216989871072
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "n_unique_peptides": 1085,
+      "n_cys_containing_fragments": 65851,
+      "bin_width": 0.02,
+      "bin_offset": 0.4,
+      "fragment_charge": 2,
+      "share_of_fragments_changing_bin": 0.4430456636953121
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "n_unique_peptides": 1085,
+      "n_cys_containing_fragments": 65851,
+      "bin_width": 0.02,
+      "bin_offset": 0.4,
+      "fragment_charge": 3,
+      "share_of_fragments_changing_bin": 0.29214438656968006
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "n_unique_peptides": 1085,
+      "n_cys_containing_fragments": 65851,
+      "bin_width": 1.0005,
+      "bin_offset": 0.4,
+      "fragment_charge": 1,
+      "share_of_fragments_changing_bin": 0.00019741537713929933
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "n_unique_peptides": 1085,
+      "n_cys_containing_fragments": 65851,
+      "bin_width": 1.0005,
+      "bin_offset": 0.4,
+      "fragment_charge": 2,
+      "share_of_fragments_changing_bin": 0.015413585215106832
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "n_unique_peptides": 1085,
+      "n_cys_containing_fragments": 65851,
+      "bin_width": 1.0005,
+      "bin_offset": 0.4,
+      "fragment_charge": 3,
+      "share_of_fragments_changing_bin": 0.0006226177279008671
+    },
+    {
+      "group": "insulin files (ion-trap MS2, 1.0005-Da bins)",
+      "n_unique_peptides": 621,
+      "n_cys_containing_fragments": 54250,
+      "bin_width": 1.0005,
+      "bin_offset": 0.4,
+      "fragment_charge": 1,
+      "share_of_fragments_changing_bin": 0.00011059907834101383
+    },
+    {
+      "group": "insulin files (ion-trap MS2, 1.0005-Da bins)",
+      "n_unique_peptides": 621,
+      "n_cys_containing_fragments": 54250,
+      "bin_width": 1.0005,
+      "bin_offset": 0.4,
+      "fragment_charge": 2,
+      "share_of_fragments_changing_bin": 0.03089400921658986
+    },
+    {
+      "group": "insulin files (ion-trap MS2, 1.0005-Da bins)",
+      "n_unique_peptides": 621,
+      "n_cys_containing_fragments": 54250,
+      "bin_width": 1.0005,
+      "bin_offset": 0.4,
+      "fragment_charge": 3,
+      "share_of_fragments_changing_bin": 5.5299539170506914e-05
+    }
+  ],
+  "single_cys_classes": [
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "alternative outside the precursor window": 977,
+      "both scored, alternative scored lower": 476,
+      "both scored, tied at the best xcorr": 206,
+      "edge (within 0.3 ppm of the window edge)": 39,
+      "ALL": 1698
+    },
+    {
+      "group": "insulin files (ion-trap MS2, 1.0005-Da bins)",
+      "alternative outside the precursor window": 453,
+      "both scored, alternative scored lower": 17,
+      "both scored, tied at the best xcorr": 83,
+      "edge (within 0.3 ppm of the window edge)": 3,
+      "ALL": 556
+    },
+    {
+      "group": "ALL",
+      "alternative outside the precursor window": 1430,
+      "both scored, alternative scored lower": 493,
+      "both scored, tied at the best xcorr": 289,
+      "edge (within 0.3 ppm of the window edge)": 42,
+      "ALL": 2254
+    }
+  ],
+  "single_cys_share_tied_when_both_scored": [
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "evalue_bin": "all",
+      "n_both_scored": 682,
+      "n_tied": 206,
+      "share_tied": 0.3020527859237537
+    },
+    {
+      "group": "insulin files (ion-trap MS2, 1.0005-Da bins)",
+      "evalue_bin": "all",
+      "n_both_scored": 100,
+      "n_tied": 83,
+      "share_tied": 0.83
+    }
+  ],
+  "single_cys_share_tied_by_evalue": [
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "evalue_bin": "(0.0, 1.0]",
+      "n_both_scored": 60,
+      "n_tied": 6,
+      "share_tied": 0.1
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "evalue_bin": "(1.0, 10.0]",
+      "n_both_scored": 258,
+      "n_tied": 58,
+      "share_tied": 0.2248062015503876
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "evalue_bin": "(10.0, 100.0]",
+      "n_both_scored": 246,
+      "n_tied": 91,
+      "share_tied": 0.3699186991869919
+    },
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "evalue_bin": "(100.0, 1000.1]",
+      "n_both_scored": 118,
+      "n_tied": 51,
+      "share_tied": 0.4322033898305085
+    },
+    {
+      "group": "insulin files (ion-trap MS2, 1.0005-Da bins)",
+      "evalue_bin": "(0.0, 1.0]",
+      "n_both_scored": 26,
+      "n_tied": 21,
+      "share_tied": 0.8076923076923077
+    },
+    {
+      "group": "insulin files (ion-trap MS2, 1.0005-Da bins)",
+      "evalue_bin": "(1.0, 10.0]",
+      "n_both_scored": 56,
+      "n_tied": 46,
+      "share_tied": 0.8214285714285714
+    },
+    {
+      "group": "insulin files (ion-trap MS2, 1.0005-Da bins)",
+      "evalue_bin": "(10.0, 100.0]",
+      "n_both_scored": 16,
+      "n_tied": 14,
+      "share_tied": 0.875
+    },
+    {
+      "group": "insulin files (ion-trap MS2, 1.0005-Da bins)",
+      "evalue_bin": "(100.0, 1000.1]",
+      "n_both_scored": 2,
+      "n_tied": 2,
+      "share_tied": 1.0
+    }
+  ],
+  "sensitivity_no_margin_no_met": [
+    {
+      "group": "Fig-1D (FTMS MS2, 0.02-Da bins)",
+      "share_tied_no_margin": 0.2959770114942529,
+      "n_both_scored_no_margin": 696
+    },
+    {
+      "group": "insulin files (ion-trap MS2, 1.0005-Da bins)",
+      "share_tied_no_margin": 0.83,
+      "n_both_scored_no_margin": 100
+    }
+  ],
+  "reading": "with 0.02-Da bins a 0.017758-Da shift changes the bin of most singly charged cysteine-containing fragments, and the fragment score separated the two candidates in most Fig-1D spectra in which both were scored; with 1.0005-Da bins it rarely changes a bin and most such insulin-file spectra tied. Ties in Fig-1D therefore reflect matches in which no discriminating fragment was matched, not the bin width."
+}

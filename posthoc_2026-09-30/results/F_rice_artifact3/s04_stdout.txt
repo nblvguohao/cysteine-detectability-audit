@@ -1,0 +1,363 @@
+\path\to\Python310\lib\site-packages\statsmodels\base\model.py:607: ConvergenceWarning: Maximum Likelihood optimization failed to converge. Check mle_retvals
+  warnings.warn("Maximum Likelihood optimization failed to "
+{
+ "analysis_label": "POST HOC revision analysis 2026-09-30 (not registered)",
+ "seed": 20260930,
+ "descriptives": {
+  "n_groups": 7692,
+  "n_with_sequence": 7692,
+  "n_lead_sequence_used": 7692,
+  "seq_source_of_used_sequence": {
+   "uniparc_inactive_or_secondary": 5479,
+   "UP000059680_2026_03": 1698,
+   "uniprot_rest_active": 515
+  },
+  "labels_all_groups": {
+   "A": 1197,
+   "S": 750,
+   "S1": 692
+  },
+  "labels_with_sequence": {
+   "A": 1197,
+   "S": 750,
+   "S1": 692,
+   "S_map": 725
+  },
+  "S_positive_with_no_site_mapped_to_a_detectable_cys_of_the_lead_sequence": 25,
+  "A_positive_without_any_identified_Cys_peptide": 447,
+  "S_positive_not_A": 0,
+  "S_positive_with_zero_detectable_cys": 4,
+  "groups_with_zero_detectable_cys": 702,
+  "fraction_cys_detectable": 0.8121832265468107,
+  "identified_sites_mapped": 1180,
+  "identified_sites_on_detectable_cys": 1121,
+  "spearman": {
+   "log10_ibaq~length": -0.2806955244762559,
+   "log10_ibaq~n_cys": -0.23541703997929608,
+   "log10_ibaq~n_det_cys": -0.22314722598503992,
+   "length~n_cys": 0.6385884223264212,
+   "length~n_det_cys": 0.6061191341525399,
+   "n_cys~n_det_cys": 0.9378134489019624,
+   "n_det_cys~n_det_cys_pep": 0.9101892672610836,
+   "length~n_det_pep": 0.8595698323979133
+  },
+  "observed_share_Cys_peptides_in_table_real": 0.4441128594682583,
+  "insilico_share_Cys_peptides_fully_tryptic_7_30_identified_proteins_mean": 0.22072397289419945
+ },
+ "opportunity_tertile_cutpoints_n_det_cys": [
+  3.0,
+  6.0
+ ],
+ "rank_biserial_bootstrap": [
+  {
+   "label": "A",
+   "feature": "length",
+   "strata": "deciles",
+   "r": 0.19923568497685515,
+   "ci95": [
+    0.15633806922623636,
+    0.24066358650620231
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260931
+  },
+  {
+   "label": "A",
+   "feature": "length",
+   "strata": "decile_x_opp_tertile",
+   "r": 0.0637642062993557,
+   "ci95": [
+    0.018373697607483846,
+    0.11328204658968481
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260932
+  },
+  {
+   "label": "A",
+   "feature": "length",
+   "strata": "decile_x_exact_n_det_cys",
+   "r": 0.02444093325510404,
+   "ci95": [
+    -0.02544886223572824,
+    0.08821218446555039
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260933
+  },
+  {
+   "label": "A",
+   "feature": "n_cys",
+   "strata": "deciles",
+   "r": 0.2857438723164959,
+   "ci95": [
+    0.2399306186527287,
+    0.32662551699447945
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260934
+  },
+  {
+   "label": "A",
+   "feature": "n_cys",
+   "strata": "decile_x_opp_tertile",
+   "r": 0.17710519199723113,
+   "ci95": [
+    0.13260896193611638,
+    0.22239455311179943
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260935
+  },
+  {
+   "label": "A",
+   "feature": "n_cys",
+   "strata": "decile_x_exact_n_det_cys",
+   "r": 0.11334487960318096,
+   "ci95": [
+    0.057489242294115915,
+    0.15193907238424784
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260936
+  },
+  {
+   "label": "S",
+   "feature": "length",
+   "strata": "deciles",
+   "r": 0.2559991015621441,
+   "ci95": [
+    0.21099188448694545,
+    0.3036067286622095
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260937
+  },
+  {
+   "label": "S",
+   "feature": "length",
+   "strata": "decile_x_opp_tertile",
+   "r": 0.09146574164516694,
+   "ci95": [
+    0.03453218008096618,
+    0.1301751277206294
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260938
+  },
+  {
+   "label": "S",
+   "feature": "length",
+   "strata": "decile_x_exact_n_det_cys",
+   "r": -0.009380481012844713,
+   "ci95": [
+    -0.07058445807111523,
+    0.06878599823566521
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260939
+  },
+  {
+   "label": "S",
+   "feature": "n_cys",
+   "strata": "deciles",
+   "r": 0.42414249168854284,
+   "ci95": [
+    0.37895380965469466,
+    0.47401215075613035
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260940
+  },
+  {
+   "label": "S",
+   "feature": "n_cys",
+   "strata": "decile_x_opp_tertile",
+   "r": 0.2594460794169333,
+   "ci95": [
+    0.20525654594158893,
+    0.3195448422260141
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260941
+  },
+  {
+   "label": "S",
+   "feature": "n_cys",
+   "strata": "decile_x_exact_n_det_cys",
+   "r": 0.12362672569701222,
+   "ci95": [
+    0.05826124443285442,
+    0.2089255565009779
+   ],
+   "boot_reps": 400,
+   "boot_seed": 20260942
+  }
+ ],
+ "VIF_M3": {
+  "log10_ibaq": 1.1003674485241621,
+  "log2_len": 1.763886442732566,
+  "cys": 3.1423400225690257,
+  "log2_det1": 3.1423081992201123
+ },
+ "n_groups_with_det_cys_ge1": 6990,
+ "positives_excluded_zero_det_cys": {
+  "A": 84,
+  "S": 4,
+  "S1": 3
+ },
+ "per_cysteine": {
+  "n_detectable_cys": 42465,
+  "n_sites": 1121,
+  "p_site_overall": 0.026398210290827742
+ },
+ "expected_vs_observed_S": {
+  "expected_n_S_map": 930.8300262749779,
+  "observed_n_S_map": 725,
+  "observed_n_S": 750
+ },
+ "pure_opportunity_simulation_label_S": {
+  "len": {
+   "observed_S_map": 0.27317630357191536,
+   "observed_S": 0.2559991015621441,
+   "sim_mean": 0.29690970809954564,
+   "sim_2.5": 0.253150639200452,
+   "sim_97.5": 0.34350839369604247,
+   "reps": 1000
+  },
+  "cys": {
+   "observed_S_map": 0.4440441029862384,
+   "observed_S": 0.42414249168854284,
+   "sim_mean": 0.4597366018069989,
+   "sim_2.5": 0.41874193218234584,
+   "sim_97.5": 0.49798689907111227,
+   "reps": 1000
+  },
+  "len_dt": {
+   "observed_S_map": 0.09338667688807559,
+   "observed_S": 0.09146574164516694,
+   "sim_mean": 0.08218484714360809,
+   "sim_2.5": 0.03792814861848188,
+   "sim_97.5": 0.13152437002606904,
+   "reps": 200
+  },
+  "cys_dt": {
+   "observed_S_map": 0.2556011746355112,
+   "observed_S": 0.2594460794169333,
+   "sim_mean": 0.1869152827526394,
+   "sim_2.5": 0.1359784346630477,
+   "sim_97.5": 0.23587798594492082,
+   "reps": 200
+  },
+  "len_11": {
+   "observed_S_map": 0.24200903686087982,
+   "observed_S": 0.2361173333333333,
+   "sim_mean": 0.27904986744783195,
+   "sim_2.5": 0.23050666227316158,
+   "sim_97.5": 0.32507307194230944,
+   "reps": 100
+  },
+  "cys_11": {
+   "observed_S_map": 0.447743162901308,
+   "observed_S": 0.440064,
+   "sim_mean": 0.4733344130150443,
+   "sim_2.5": 0.435112624
+    label        feature  n_pos  n_neg  r_before  r_within_iBAQ_deciles  deciles_used  r_within_rawintensity_deciles  deciles_used_raw  r_1to1_matched  pairs  r_within_decile_x_opp_tertile  cells_used_tertile  r_within_decile_x_exact_n_det_cys  cells_used_exact
+0       A         length   1197   6495 -0.025941               0.199236            10                       0.076344                10        0.149832   1197                       0.063764                  25                           0.024441                39
+1       A          n_cys   1197   6495  0.082018               0.285744            10                       0.207570                10        0.243721   1197                       0.177105                  25                           0.113345                39
+2       A      n_det_cys   1197   6495  0.082370               0.270914            10                       0.191665                10        0.230027   1197                       0.139235                  25                           0.047063                39
+3       A  n_det_cys_pep   1197   6495  0.077388               0.254612            10                       0.164812                10        0.204440   1197                       0.125878                  25                           0.043554                39
+4       A      n_det_pep   1197   6495 -0.048428               0.121050            10                       0.007378                10        0.056398   1197                      -0.002405                  25                          -0.034206                39
+5       S         length    750   6942  0.090057               0.255999            10                       0.164606                10        0.236117    750                       0.091466                  21                          -0.009380                26
+6       S          n_cys    750   6942  0.301059               0.424142            10                       0.373185                10        0.440064    750                       0.259446                  21                           0.123627                26
+7       S      n_det_cys    750   6942  0.301059               0.419058            10                       0.365942                10        0.426153    750                       0.239530                  21                           0.074643                26
+8       S  n_det_cys_pep    750   6942  0.282708               0.396384            10                       0.331154                10        0.399175    750                       0.207063                  21                           0.069482                26
+9       S      n_det_pep    750   6942  0.049216               0.178357            10                       0.093324                10        0.141410    750                       0.040642                  21                          -0.059070                26
+10     S1         length    692   7000  0.122483               0.278330            10                       0.187224                10        0.264595    692                       0.128339                  21                           0.030372                26
+11     S1          n_cys    692   7000  0.293787               0.416179            10                       0.363664                10        0.421552    692                       0.255829                  21                           0.137908                26
+12     S1      n_det_cys    692   7000  0.291508               0.409964            10                       0.353179                10        0.406583    692                       0.232132                  21                           0.074386                26
+13     S1  n_det_cys_pep    692   7000  0.296310               0.407657            10                       0.340220                10        0.409484    692                       0.246535                  21                           0.096027                26
+14     S1      n_det_pep    692   7000  0.086035               0.209720            10                       0.122432                10        0.181862    692                       0.085116                  21                          -0.019688                26
+15  S_map         length    725   6967  0.094102               0.273176            10                       0.176636                10        0.242009    725                       0.093387                  21                          -0.002986                26
+16  S_map          n_cys    725   6967  0.308488               0.444044            10                       0.391130                10        0.447743    725                       0.255601                  21                           0.111279                26
+17  S_map      n_det_cys    725   6967  0.315167               0.447387            10                       0.392530                10        0.441958    725                       0.250194                  21                           0.076748                26
+18  S_map  n_det_cys_pep    725   6967  0.303823               0.430642            10                       0.362386                10        0.420404    725                       0.227204                  21                           0.080673                26
+19  S_map      n_det_pep    725   6967  0.058309               0.200890            10                       0.111368                10        0.149422    725                       0.046662                  21                          -0.049494                26
+   label                model        term        OR    ci_low   ci_high              p     n          llf          aic
+0      A              M1_iBAQ  log10_ibaq  3.108170  2.873890  3.361548  5.945958e-177  7692 -2814.941628  5633.883257
+1      A      M2_iBAQ_len_cys  log10_ibaq  3.755023  3.440746  4.098005  1.949584e-193  7692 -2712.265205  5432.530410
+2      A      M2_iBAQ_len_cys    log2_len  1.074998  0.981163  1.177807   1.206913e-01  7692 -2712.265205  5432.530410
+3      A      M2_iBAQ_len_cys         cys  1.075295  1.061406  1.089366   7.080179e-28  7692 -2712.265205  5432.530410
+4      A  M3_iBAQ_len_cys_opp  log10_ibaq  3.768111  3.452161  4.112979  1.041411e-193  7692 -2706.975671  5423.951342
+5      A  M3_iBAQ_len_cys_opp    log2_len  1.034956  0.941874  1.137236   4.748832e-01  7692 -2706.975671  5423.951342
+6      A  M3_iBAQ_len_cys_opp         cys  1.053069  1.033915  1.072578   3.367435e-08  7692 -2706.975671  5423.951342
+7      A  M3_iBAQ_len_cys_opp   log2_det1  1.197040  1.072793  1.335678   1.296945e-03  7692 -2706.975671  5423.951342
+41     S              M1_iBAQ  log10_ibaq  2.238007  2.059785  2.431650   1.024175e-80  7692 -2258.848755  4521.697510
+42     S      M2_iBAQ_len_cys  log10_ibaq  2.944956  2.677959  3.238573  6.525362e-110  7692 -2093.360073  4194.720145
+43     S      M2_iBAQ_len_cys    log2_len  1.077620  0.967533  1.200233   1.739411e-01  7692 -2093.360073  4194.720145
+44     S      M2_iBAQ_len_cys         cys  1.104838  1.089582  1.120307   7.302660e-45  7692 -2093.360073  4194.720145
+45     S  M3_iBAQ_len_cys_opp  log10_ibaq  3.021949  2.742423  3.329968  1.817178e-110  7692 -2038.130716  4086.261432
+46     S  M3_iBAQ_len_cys_opp    log2_len  0.937246  0.838500  1.047621   2.538861e-01  7692 -2038.130716  4086.261432
+47     S  M3_iBAQ_len_cys_opp         cys  1.023829  1.002945  1.045147   2.511414e-02  7692 -2038.130716  4086.261432
+48     S  M3_iBAQ_len_cys_opp   log2_det1  2.134698  1.834984  2.483366   8.863075e-23  7692 -2038.130716  4086.261432
+82    S1              M1_iBAQ  log10_ibaq  2.196054  2.016614  2.391461   3.988575e-73  7692 -2148.092584  4300.185167
+83    S1      M2_iBAQ_len_cys  log10_ibaq  2.913834  2.643377  3.211964  1.057278e-102  7692 -1994.222958  3996.445915
+84    S1      M2_iBAQ_len_cys    log2_len  1.207965  1.079117  1.352198   1.026888e-03  7692 -1994.222958  3996.445915
+85    S1      M2_iBAQ_len_cys         cys  1.092068  1.076750  1.107603   2.424739e-34  7692 -1994.222958  3996.445915
+86    S1  M3_iBAQ_len_cys_opp  log10_ibaq  2.970127  2.690231  3.279143  4.584942e-103  7692 -1952.254930  3914.509860
+87    S1  M3_iBAQ_len_cys_opp    log2_len  1.066080  0.949273  1.197259   2.798203e-01  7692 -1952.254930  3914.509860
+88    S1  M3_iBAQ_len_cys_opp         cys  1.020310  0.999287  1.041777   5.838651e-02  7692 -1952.254930  3914.509860
+89    S1  M3_iBAQ_len_cys_opp   log2_det1  1.970149  1.689783  2.297034   4.804979e-18  7692 -1952.254930  3914.509860
+   label                   small                         big          LR  df             p  delta_AIC_big_minus_small
+0      A                 M1_iBAQ             M2_iBAQ_len_cys  205.352847   2  2.559740e-45                -201.352847
+1      A         M2_iBAQ_len_cys         M3_iBAQ_len_cys_opp   10.579068   1  1.143753e-03                  -8.579068
+2      A            M3c_iBAQ_opp         M3_iBAQ_len_cys_opp   34.651191   2  2.989438e-08                 -30.651191
+3      A  S2_spline_iBAQ_len_cys  S3_spline_iBAQ_len_cys_opp   12.025290   1  5.248354e-04                 -10.025290
+4      A     M3_iBAQ_len_cys_opp  M4_iBAQ_len_cys_opp_anypep   16.086289   1  6.052063e-05                 -14.086289
+5      S                 M1_iBAQ             M2_iBAQ_len_cys  330.977364   2  1.346414e-72                -326.977364
+6      S         M2_iBAQ_len_cys         M3_iBAQ_len_cys_opp  110.458714   1  7.774790e-26                -108.458714
+7      S            M3c_iBAQ_opp         M3_iBAQ_len_cys_opp    5.540182   2  6.265631e-02                  -1.540182
+8      S  S2_spline_iBAQ_len_cys  S3_spline_iBAQ_len_cys_opp  107.043509   1  4.355025e-25                -105.043509
+9      S     M3_iBAQ_len_cys_opp  M4_iBAQ_len_cys_opp_anypep   22.923165   1  1.686076e-06                 -20.923165
+10    S1                 M1_iBAQ             M2_iBAQ_len_cys  307.739252   2  1.497168e-67                -303.739252
+11    S1         M2_iBAQ_len_cys         M3_iBAQ_len_cys_opp   83.936055   1  5.110397e-20                 -81.936055
+12    S1            M3c_iBAQ_opp         M3_iBAQ_len_cys_opp    6.277670   2  4.333325e-02                  -2.277670
+13    S1  S2_spline_iBAQ_len_cys  S3_spline_iBAQ_len_cys_opp   80.774477   1  2.530047e-19                 -78.774477
+14    S1     M3_iBAQ_len_cys_opp  M4_iBAQ_len_cys_opp_anypep   14.224551   1  1.622399e-04                 -12.224551
+   label                     model        term      coef    ci_low   ci_high  exp_coef              p     n          aic   offset
+0      S               C0_free_opp  log10_ibaq  0.947181  0.868381  1.025982  2.578431  1.021011e-122  6990  4034.588414         
+1      S               C0_free_opp     log_det  0.825909  0.723065  0.928753  2.283955   8.059638e-56  6990  4034.588414         
+2      S                 C1_offset  log10_ibaq  0.980158  0.904090  1.056226  2.664877  1.003393e-140  6990  4043.463328  log_det
+3      S         C2_offset_len_cys  log10_ibaq  0.962531  0.880628  1.044433  2.618314  2.138263e-117  6990  4043.844219  log_det
+4      S         C2_offset_len_cys    log2_len -0.090970 -0.186166  0.004226  0.913045   6.107450e-02  6990  4043.844219  log_det
+5      S         C2_offset_len_cys         cys  0.005653 -0.005338  0.016645  1.005669   3.133955e-01  6990  4043.844219  log_det
+6      S  C3_offset_spline_len_cys    log2_len -0.091923 -0.186939  0.003093  0.912175   5.793873e-02  6990  4039.193724  log_det
+7      S  C3_offset_spline_len_cys         cys  0.007120 -0.003994  0.018234  1.007145   2.092474e-01  6990  4039.193724  log_det
+8      S       C4_free_opp_len_cys  log10_ibaq  0.963723  0.882155  1.045291  2.621437  1.239502e-118  6990  4019.509297         
+9      S       C4_free_opp_len_cys     log_det  0.547113  0.378789  0.715438  1.728257   1.883345e-10  6990  4019.509297         
+10     S       C4_free_opp_len_cys    log2_len -0.053314 -0.151967  0.045339  0.948082   2.895070e-01  6990  4019.509297         
+11     S       C4_free_opp_len_cys         cys  0.039577  0.021972  0.057181  1.040370   1.051652e-05  6990  4019.509297         
+12    S1               C0_free_opp  log10_ibaq  0.919436  0.838459  1.000413  2.507876  1.030949e-109  6990  3873.281605         
+13    S1               C0_free_opp     log_det  0.789706  0.683589  0.895824  2.202750   3.466410e-48  6990  3873.281605         
+14    S1                 C1_offset  log10_ibaq  0.956967  0.878533  1.035402  2.603788  2.232746e-126  6990  3886.097335  log_det
+15    S1         C2_offset_len_cys  log10_ibaq  0.958129  0.873487  1.042770  2.606814  4.637050e-109  6990  3889.864815  log_det
+16    S1         C2_offset_len_cys    log2_len  0.019738 -0.080999  0.120475  1.019934   7.009573e-01  6990  3889.864815  log_det
+17    S1         C2_offset_len_cys         cys -0.002661 -0.014179  0.008858  0.997343   6.507477e-01  6990  3889.864815  log_det
+18    S1  C3_offset_spline_len_cys    log2_len  0.014872 -0.085543  0.115287  1.014983   7.715974e-01  6990  3884.489943  log_det
+19    S1  C3_offset_spline_len_cys         cys -0.000707 -0.012209  0.010794  0.999293   9.040744e-01  6990  3884.489943  log_det
+20    S1       C4_free_opp_len_cys  log10_ibaq  0.960138  0.875985  1.044291  2.612057  9.203274e-111  6990  3855.390070         
+21    S1       C4_free_opp_len_cys     log_det  0.454683  0.281699  0.627666  1.575673   2.581271e-07  6990  3855.390070         
+22    S1       C4_free_opp_len_cys    log2_len  0.068600 -0.035763  0.172962  1.071007   1.976342e-01  6990  3855.390070         
+23    S1       C4_free_opp_len_cys         cys  0.037047  0.018933  0.055161  1.037742   6.107341e-05  6990  3855.390070         
+24     A               C0_free_opp  log10_ibaq  1.019762  0.951939  1.087585  2.772535  7.117109e-191  6990  5100.282848         
+25     A               C0_free_opp     log_det  0.419392  0.339151  0.499632  1.521036   1.258067e-24  6990  5100.282848         
+26     A                 C1_offset  log10_ibaq  1.117659  1.049987  1.185330  3.057686  7.139259e-230  6990  5289.576264  log_det
+27     A         C2_offset_len_cys  log10_ibaq  1.046700  0.975403  1.117998  2.848237  4.577700e-182  6990  5241.387978  log_det
+28     A         C2_offset_len_cys    log2_len -0.041418 -0.123934  0.041099  0.959428   3.252322e-01  6990  5241.387978  log_det
+29     A         C2_offset_len_cys         cys -0.033646 -0.046405 -0.020888  0.966913   2.358277e-07  6990  5241.387978  log_det
+30     A  C3_offset_spline_len_cys    log2_len -0.042637 -0.124818  0.039545  0.958259   3.092240e-01  6990  5195.965257  log_det
+31     A  C3_offset_spline_len_cys         cys -0.030331 -0.043017 -0.017644  0.970125   2.786540e-06  6990  5195.965257  log_det
+32     A       C4_free_opp_len_cys  log10_ibaq  1.054673  0.984607  1.124739  2.871036  2.678546e-191  6990  5064.290428         
+33     A       C4_free_opp_len_cys     log_det  0.086570 -0.041948  0.215088  1.090428   1.867556e-01  6990  5064.290428         
+34     A       C4_free_opp_len_cys    log2_len  0.039440 -0.043608  0.122489  1.040228   3.519567e-01  6990  5064.290428         
+35     A       C4_free_opp_len_cys         cys  0.047178  0.031506  0.062850  1.048308   3.633288e-09  6990  5064.290428         

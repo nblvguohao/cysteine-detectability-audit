@@ -1,0 +1,75 @@
+{
+  "round": "genre_survey_2026-09-19",
+  "question": "In the genre this manuscript belongs to, what has been done, and where has the best of it been published?",
+  "why_this_is_not_the_2026-09-17_round": "That round searched Nature Communications ONLY, to benchmark against the target venue. It concluded the genre has no precedent AT THAT JOURNAL (verdict M2). It never asked where the genre DOES publish. Quoting it as an answer to this question would be project notes 9.25.3: a gate proves its own proposition, not the one you cite it for.",
+  "genre_definition_written_before_searching": {
+    "G_core": "Work whose PRODUCT is a claim about the reliability of site-level PTM measurements or of conclusions drawn from them, rather than a new biological finding. Four admissible forms:",
+    "F1": "an assay or workflow property is shown to generate, reverse or preclude a reported site-level signal",
+    "F2": "published site-level claims are re-tested with a control the originals lacked",
+    "F3": "a reporting standard or minimum-information specification for site-level PTM data",
+    "F4": "a benchmark showing that PTM site predictors learn detectability or identifiability rather than chemistry"
+  },
+  "exclusions": [
+    "new biology with a methods caveat in the discussion",
+    "a new enrichment chemistry or instrument method whose point is better coverage",
+    "predictor papers reporting their own accuracy without a detectability or leakage analysis",
+    "reviews and opinion pieces with no new measurement (recorded separately, never counted as genre work)"
+  ],
+  "retrieval": {
+    "database": "PubMed via the eutils-backed tool in this session",
+    "n_query_families": 12,
+    "queries_fixed_before_running": true,
+    "per_query_cap": 40,
+    "recall_controls": "House rule 11. Positive controls are declared BEFORE searching as DESCRIPTIONS, not as identifiers, because writing a PMID from memory is the project notes 9.5 failure mode. Each is resolved by its own targeted lookup and its identifier recorded; recall is then the share of resolved controls that the genre queries themselves retrieve.",
+    "declared_controls": [
+      "the 2024 Nature Communications skeletal-muscle mitochondria paper that attributes baseline differences to mitochondrial content after re-normalisation (already in this tree as 10.1038/s41467-024-50632-2)",
+      "a HUPO or community minimum-information specification for proteomics data reporting",
+      "a paper showing AlphaFold interface scores track protein size rather than interaction (Todor et al., already resolved this session as existing)"
+    ]
+  },
+  "scoring_of_each_retained_paper": {
+    "form": "F1 | F2 | F3 | F4",
+    "scope": "single_dataset | few_datasets_2_to_9 | corpus_10_plus",
+    "self_application": "does the work apply its own standard to its own prior output (yes/no)",
+    "artefact_count": "how many distinct mechanisms it establishes",
+    "journal": "verbatim from the record"
+  },
+  "pre_written_branches": {
+    "B1": "genre work exists and its best venue is a journal of Nature Communications rank or above -> the genre is publishable at our target level; our position is then judged on scope and self-application",
+    "B2": "genre work exists but clusters in specialist venues below that rank -> the target is ambitious for the genre; the enquiry and the fallback plan matter more",
+    "B3": "little or no genre work retrieved at recall 1.0 -> the white space is real, and the risk is a venue that does not know how to review it",
+    "B4": "recall below 1.0 -> every statement is 'candidate'; no claim of absence is permitted (house rule 11)"
+  },
+  "what_this_round_may_not_conclude": [
+    "It may not estimate acceptance probability.",
+    "It may not claim novelty from a null result: PubMed indexes titles and abstracts, and a paper whose genre is visible only in its full text will be missed.",
+    "Journal rank is used as a coarse ordering of reach, not as a measure of quality."
+  ],
+  "amendments_made_before_any_classification": [
+    {
+      "id": "A1",
+      "what": "All genre queries move to [tiab] field tags with quoted phrases.",
+      "why": "The first trial query was silently ruined by PubMed's automatic term mapping: 'detectability' expanded to the stem 'detect', so the query returned 12,066 records about detecting anything. The returned query_translation showed it. This is the same class of failure as the PRIDE endpoint trap recorded in project notes 9.53: an endpoint that silently rewrites what you asked for.",
+      "changes_criteria": false
+    },
+    {
+      "id": "A2",
+      "what": "No wildcards. 'confound*' was passed through as the literal string \"confound*\" and the query collapsed to 1 record.",
+      "why": "A near-empty result set would have read as 'the genre does not exist' — a false negative manufactured by syntax, which is exactly the failure this project already made once with a fast grep.",
+      "changes_criteria": false
+    },
+    {
+      "id": "A3",
+      "what": "Every query's returned query_translation is stored verbatim with its results.",
+      "why": "Without it there is no way to tell a real zero from a rewritten query.",
+      "changes_criteria": false
+    }
+  ],
+  "positive_controls_resolved": {
+    "C1_muscle_mitochondria": {
+      "pmid": "39227581",
+      "how": "DOI lookup, 1 hit",
+      "note": "identity confirmed by DOI, not from memory"
+    }
+  }
+}

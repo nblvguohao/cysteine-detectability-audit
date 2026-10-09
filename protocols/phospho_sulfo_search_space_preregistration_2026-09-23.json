@@ -1,0 +1,59 @@
+{
+ "registered_by": "scripts/preregister_phospho_sulfo_search_space_2026-09-23.py",
+ "registered_by_sha256": "4c16f2787df3c7983336f62063adfadf10ab3d341597e362a590cfa9d815c1b4",
+ "date": "2026-09-23",
+ "question": "Does the search-space artefact demonstrated on cysteine appear, with the same instrument, for a modification of a different residue whose near-isobaric alternative is usually absent from the search space?",
+ "pair": {
+  "claimed": "phosphorylation (HPO3)",
+  "alternative": "sulfation (SO3)",
+  "delta_source": "computed by the analysis script from element masses in cys-audit/src/cys_audit/constants.py, not quoted in this file"
+ },
+ "instrument": {
+  "check": "cys_audit.checks.searchspace",
+  "mechanism_unchanged": true,
+  "extension": "one table entry (phosphorylation, sulfation) plus the element masses H and P",
+  "version_policy": "bump the tool version and archive the previous version byte for byte, as versions 0.1.0 and 0.2.0 were archived"
+ },
+ "dataset_selection_rule": {
+  "endpoint": "https://www.ebi.ac.uk/pride/ws/archive/v2/search/projects",
+  "query": {
+   "keyword": "phosphoproteome",
+   "pageSize": 100,
+   "page": 0
+  },
+  "order": "as returned by the API",
+  "qualifies_if": "projectFileNames contain both parameters.txt and modificationSpecificPeptides.txt",
+  "take": "the first qualifying candidate; if its two files exceed 200 MB together, the next",
+  "record": "the full ordered candidate list goes in the audit",
+  "if_none": "widen to pages 1 and 2 and record it; if still none, report the round as blocked on data"
+ },
+ "branches": {
+  "B1": "sulfation absent from the variable modifications AND at least SEARCHSPACE_FAIL_SHARE of the identified phosphopeptides at or above M* at the deposit's own main-search tolerance -> FAIL, reported as the same structural artefact outside cysteine chemistry, with the share stated",
+  "B2": "sulfation present among the variable modifications -> the artefact does not apply here; report it as found and audit the next qualifying candidate as well",
+  "B3": "tolerance or modification list unreadable from the deposit's own files -> UNDECIDABLE; the tolerance is not guessed and no share is quoted",
+  "B4": "fewer than 200 identified phosphopeptides with a usable mass -> underpowered; no share quoted"
+ },
+ "sensitivity_grid_ppm": [
+  2,
+  4.5,
+  10,
+  20
+ ],
+ "controls": {
+  "PC1": "the extended table still reproduces the cysteine delta 0.017758 Da",
+  "PC2": "adding sulfation to the search-space list moves the status away from FAIL",
+  "PC3": "at a tolerance where M* exceeds every observed peptide mass the status is not FAIL",
+  "NC1": "a modification outside the table returns UNDECIDABLE 'not covered', never PASS",
+  "PC4": "the released test suite passes after the extension, new tests included"
+ },
+ "outputs": [
+  "results/phospho_sulfo_search_space_2026-09-23.csv",
+  "results/phospho_sulfo_search_space_2026-09-23_audit.json"
+ ],
+ "what_this_cannot_show": [
+  "that any particular identification in the deposit is wrong",
+  "anything about prior odds: sulfation on S, T and Y is far rarer than phosphorylation and is labile, so most such identifications are very probably phosphopeptides; the artefact is about what the data can decide",
+  "fragment-level discrimination or neutral-loss behaviour, which are not modelled",
+  "anything obtained by re-searching raw files, which this round does not do"
+ ]
+}

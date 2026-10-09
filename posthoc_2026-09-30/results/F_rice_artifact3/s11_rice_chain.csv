@@ -1,0 +1,8 @@
+step,n_sites,n_proteins,n_cys_in_proteins,equals_stored_sites,equals_stored_proteins,intersection_with_stored,note
+0_every_C_of_every_Cys_peptide_incl_REV_CON,1796,1192,10662,False,False,796,"leading razor protein, Start position + index of C; the 22 decoy rows without a Start position are keyed by (protein, peptide, offset)"
+0b_REV_removed_CON_kept,1769,1170,10662,False,False,796,"decoys removed, contaminants kept"
+1_REV_CON_removed,1753,1164,10662,False,False,796,decoys and contaminants removed
+2_single_Cys_peptides,1377,1077,9733,False,False,796,peptides with exactly one C
+3_isoforms_mapped_to_canonical,1377,1077,9747,False,False,817,23 isoform peptides located (uniquely) in the canonical sequence
+4_proteins_with_ge2_Cys,1340,1040,9710,False,False,817,protein has >= 2 cysteines
+5_UniProtKB_entry_active_2026_03,817,640,5598,True,True,817,the 400 proteins lost here are all entries deleted in UniProtKB 2026_02

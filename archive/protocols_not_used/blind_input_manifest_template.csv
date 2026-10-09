@@ -1,0 +1,3 @@
+blind_id,task,sequence_file,sequence_sha256,species,protein_family,subcellular_context,known_protein_level_signal,known_site_answer_withheld,n_candidate_cys,predeclared_assay_evaluable,non_model_inclusion_reason,homology_screen_status,local_window_overlap_status,coordinator_lock_timestamp_utc,notes
+B0001,site_localization,B0001.fasta,TO_FILL,TO_FILL,TO_FILL,TO_FILL,yes,yes,TO_FILL,yes,TO_FILL,passed,passed,TO_FILL,
+B0002,protein_occurrence,B0002.fasta,TO_FILL,TO_FILL,TO_FILL,TO_FILL,withheld_or_unknown,not_applicable,TO_FILL,yes,TO_FILL,passed,passed,TO_FILL,

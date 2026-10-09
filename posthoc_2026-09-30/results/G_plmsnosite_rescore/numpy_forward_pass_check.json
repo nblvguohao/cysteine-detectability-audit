@@ -1,0 +1,207 @@
+{
+ "label": "POST HOC revision analysis 2026-09-30 (G_plmsnosite_rescore), added after verification round 1; not registered",
+ "what": "TensorFlow-free numpy forward pass of the released models, read in memory from the git blobs (no staging copy on disk)",
+ "keras_version_in_h5": {
+  "ProtT5": "2.8.0",
+  "Embedding": "2.8.0",
+  "pLMSNOSite": "2.8.0"
+ },
+ "layers": [
+  {
+   "model": "ProtT5",
+   "layer": "normalization_248",
+   "class": "Normalization",
+   "output_shape": [
+    1024
+   ]
+  },
+  {
+   "model": "ProtT5",
+   "layer": "dense_765",
+   "class": "Dense",
+   "output_shape": [
+    128
+   ]
+  },
+  {
+   "model": "ProtT5",
+   "layer": "dropout_269",
+   "class": "Dropout",
+   "output_shape": [
+    128
+   ]
+  },
+  {
+   "model": "ProtT5",
+   "layer": "dense_766",
+   "class": "Dense",
+   "output_shape": [
+    16
+   ]
+  },
+  {
+   "model": "ProtT5",
+   "layer": "dropout_270",
+   "class": "Dropout",
+   "output_shape": [
+    16
+   ]
+  },
+  {
+   "model": "ProtT5",
+   "layer": "dense_767",
+   "class": "Dense",
+   "output_shape": [
+    4
+   ]
+  },
+  {
+   "model": "ProtT5",
+   "layer": "dense_768",
+   "class": "Dense",
+   "output_shape": [
+    1
+   ]
+  },
+  {
+   "model": "Embedding",
+   "layer": "embedding_444",
+   "class": "Embedding",
+   "output_shape": [
+    37,
+    4
+   ]
+  },
+  {
+   "model": "Embedding",
+   "layer": "lambda_444",
+   "class": "Lambda",
+   "output_shape": [
+    37,
+    4,
+    1
+   ]
+  },
+  {
+   "model": "Embedding",
+   "layer": "conv2d_444",
+   "class": "Conv2D",
+   "output_shape": [
+    19,
+    4,
+    64
+   ]
+  },
+  {
+   "model": "Embedding",
+   "layer": "dropout_444",
+   "class": "Dropout",
+   "output_shape": [
+    19,
+    4,
+    64
+   ]
+  },
+  {
+   "model": "Embedding",
+   "layer": "max_pooling2d_444",
+   "class": "MaxPooling2D",
+   "output_shape": [
+    3,
+    2,
+    64
+   ]
+  },
+  {
+   "model": "Embedding",
+   "layer": "flatten_444",
+   "class": "Flatten",
+   "output_shape": [
+    384
+   ]
+  },
+  {
+   "model": "Embedding",
+   "layer": "dense_888",
+   "class": "Dense",
+   "output_shape": [
+    16
+   ]
+  },
+  {
+   "model": "Embedding",
+   "layer": "dense_889",
+   "class": "Dense",
+   "output_shape": [
+    1
+   ]
+  },
+  {
+   "model": "pLMSNOSite",
+   "layer": "normalization_1941",
+   "class": "Normalization",
+   "output_shape": [
+    20
+   ]
+  },
+  {
+   "model": "pLMSNOSite",
+   "layer": "dense_3882",
+   "class": "Dense",
+   "output_shape": [
+    8
+   ]
+  },
+  {
+   "model": "pLMSNOSite",
+   "layer": "dense_3883",
+   "class": "Dense",
+   "output_shape": [
+    1
+   ]
+  }
+ ],
+ "max_abs_diff_vs_tensorflow": {
+  "stacked_probability": 3.821989608410181e-07,
+  "ProtT5_arm_probability": 3.476368284349718e-07,
+  "Embedding_arm_probability": 3.535583568692324e-07,
+  "stacked_features_vs_saved_float32_%.9g": 2.4949391450590497e-06
+ },
+ "threshold_0.5_calls_identical_to_tensorflow": true,
+ "min_abs_distance_of_probability_from_0.5": 0.00012443385671967455,
+ "confusion_matrix_numpy": [
+  [
+   2447,
+   721
+  ],
+  [
+   93,
+   258
+  ]
+ ],
+ "sensitivity": 0.7350427350427351,
+ "specificity": 0.7724116161616161,
+ "balanced_accuracy_(=AUROC_of_calls)": 0.7537271756021756,
+ "auroc_numpy": 0.8154420810670812,
+ "auroc_tensorflow": 0.8154420810670812,
+ "auprc_numpy": 0.30683647266478503,
+ "auprc_tensorflow": 0.30683647266478503,
+ "auroc_ProtT5_arm_numpy": 0.7675378248294914,
+ "auroc_Embedding_arm_numpy": 0.8022141824225156,
+ "inputs_sha256": {
+  "pLMSNOSite@e9158af:data/test/sequence_test.csv": "d4498e6f2afa28b89d150dacf44b1de6bbfd791e772f1fefe120aa4aabcc5551",
+  "pLMSNOSite@e9158af:data/test/protT5_test.csv": "d5a7a80172948a792ff96440138d78dde06ebeed474095e33a31b493f30349c6",
+  "pLMSNOSite@e9158af:data/test/embedding_test.fasta": "9525fac6f47910aa97b8756874229ea34fc2bb6fb0a03508fb00f8233a426b81",
+  "pLMSNOSite@e9158af:models/ProtT5.h5": "585d2203fcedfa8e0d3d0d5b70ed6e28dfbbc12e0fae635d6ffcd5c3f8451c30",
+  "pLMSNOSite@e9158af:models/Embedding.h5": "04f445eb9428a8dd69d099666e344a054c767f4d1b29b5875c0749a2d77aa4f6",
+  "pLMSNOSite@e9158af:models/pLMSNOSite.h5": "e288bd171aa547371342b238f47e87e8483e547c27a88f3cf2b174ccff0f64da"
+ },
+ "environment": {
+  "python": "3.10.11",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "h5py": "3.16.0",
+  "scikit-learn": "1.7.2",
+  "tensorflow": "not imported"
+ }
+}

@@ -1,0 +1,12 @@
+figure,panel,arm,rule,quantity,estimate,ci_low,ci_high
+Fig2,a,Trypsin,trypsin,cleavage_log2_or,0.972971,0.711516,1.275616
+Fig2,a,AspN,aspn,cleavage_log2_or,1.539092,0.793042,2.492719
+Fig2,a,AspN,trypsin,cleavage_log2_or,0.118877,-0.554927,0.863666
+Fig2,a,CT,chymotrypsin,cleavage_log2_or,1.194606,0.801952,1.63019
+Fig2,a,CT,trypsin,cleavage_log2_or,0.401074,0.057153,0.739983
+Fig2,a,GluC,gluc,cleavage_log2_or,0.944881,0.573888,1.347499
+Fig2,a,GluC,trypsin,cleavage_log2_or,0.383989,-0.064028,0.846555
+Fig2,b,Trypsin,,coincidence,0.255068,0.238042,0.272426
+Fig2,b,AspN,,coincidence,0.614973,0.540533,0.685992
+Fig2,b,CT,,coincidence,0.56456,0.522788,0.607241
+Fig2,b,GluC,,coincidence,0.587104,0.547189,0.625432

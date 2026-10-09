@@ -1,0 +1,2249 @@
+{
+ "analysis_label": "POST HOC revision analysis 2026-09-30, round 2 (after verifier round 2; not registered)",
+ "comparisons": [
+  {
+   "AIC_D": 5452.282135246396,
+   "AIC_D0": 5454.602533265921,
+   "AIC_T": 5441.7169874651845,
+   "AIC_T0": 5441.517963508778,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": [
+    0.32653222399326787,
+    0.1447786096777697,
+    0.5082858383087661
+   ],
+   "B_coef[l2d]": [
+    0.1021720821988107,
+    -0.07695265048376883,
+    0.28129681488139024
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 1.2740127430261055,
+   "LR_det_given_total_nolen": 1.4263555295501646,
+   "LR_len_given_D": 4.320398019524873,
+   "LR_len_given_T": 1.8009760435934368,
+   "LR_total_given_det": 11.839160524237741,
+   "LR_total_given_det_nolen": 14.510925286693237,
+   "dAIC0_D_minus_T": 13.084569757143072,
+   "dAIC_D_minus_T": 10.565147781211635,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "logit_all",
+   "frac_det_given_total_logit": [
+    0.03979741176990652,
+    -0.27012183773991183,
+    0.3497166612797249,
+    0.8012858804593443
+   ],
+   "label": "A",
+   "len_OR_per_doubling_D": [
+    1.101994498362579,
+    1.0052842340678738,
+    1.208008474884129
+   ],
+   "len_OR_per_doubling_T": [
+    1.0662867173596087,
+    0.9707173111625825,
+    1.1712651567487116
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 7692,
+   "n_pos": 1197,
+   "p_det_given_total": 0.259015239708704,
+   "p_det_given_total_nolen": 0.23236014004249952,
+   "p_len_given_D": 0.037658112890657146,
+   "p_len_given_T": 0.17959454074414993,
+   "p_total_given_det": 0.0005799796670317182,
+   "p_total_given_det_nolen": 0.00013934903604766774
+  },
+  {
+   "AIC_D": 4089.434867086747,
+   "AIC_D0": 4087.8016134753384,
+   "AIC_T": 4069.980977717846,
+   "AIC_T0": 4070.2230917296133,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": [
+    0.6438432096971201,
+    0.4132320412008611,
+    0.874454378193379
+   ],
+   "B_coef[l2d]": [
+    0.3079589937201188,
+    0.08328242578634026,
+    0.5326355616538974
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 7.7393833036576325,
+   "LR_det_given_total_nolen": 7.149701659706352,
+   "LR_len_given_D": 0.36674638859130937,
+   "LR_len_given_T": 2.242114011767171,
+   "LR_total_given_det": 27.193272672558578,
+   "LR_total_given_det_nolen": 24.728223405431436,
+   "dAIC0_D_minus_T": 17.578521745725084,
+   "dAIC_D_minus_T": 19.453889368900946,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "logit_all",
+   "frac_det_given_total_logit": [
+    0.5036551781713989,
+    0.10521465381789885,
+    0.902095702524899,
+    0.013229746607421884
+   ],
+   "label": "S",
+   "len_OR_per_doubling_D": [
+    0.9670940513984181,
+    0.867949867918482,
+    1.0775632773505381
+   ],
+   "len_OR_per_doubling_T": [
+    0.9191189389995658,
+    0.8233046646404997,
+    1.0260838548711064
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 7692,
+   "n_pos": 750,
+   "p_det_given_total": 0.00540292496571173,
+   "p_det_given_total_nolen": 0.007497645786831744,
+   "p_len_given_D": 0.5447831285987608,
+   "p_len_given_T": 0.13429726213956822,
+   "p_total_given_det": 1.840981453240835e-07,
+   "p_total_given_det_nolen": 6.601041932195271e-07
+  },
+  {
+   "AIC_D": 3916.230249026166,
+   "AIC_D0": 3916.787530276478,
+   "AIC_T": 3899.28422265333,
+   "AIC_T0": 3897.840351325869,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": [
+    0.5917886269658488,
+    0.35555739151669236,
+    0.8280198624150052
+   ],
+   "B_coef[l2d]": [
+    0.2563936589592981,
+    0.026235141475748736,
+    0.4865521764428475
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 5.0618869968388935,
+   "LR_det_given_total_nolen": 5.270601007165169,
+   "LR_len_given_D": 2.5572812503119167,
+   "LR_len_given_T": 0.5561286725392165,
+   "LR_total_given_det": 22.007913369674952,
+   "LR_total_given_det_nolen": 24.217779957773928,
+   "dAIC0_D_minus_T": 18.94717895060876,
+   "dAIC_D_minus_T": 16.94602637283606,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "logit_all",
+   "frac_det_given_total_logit": [
+    0.4100912620904855,
+    0.004265322082091849,
+    0.8159172020988792,
+    0.04764022901809539
+   ],
+   "label": "S1",
+   "len_OR_per_doubling_D": [
+    1.095988339685991,
+    0.9790981392253324,
+    1.226833544672083
+   ],
+   "len_OR_per_doubling_T": [
+    1.0445096675618528,
+    0.9313569117302782,
+    1.1714096195445716
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 7692,
+   "n_pos": 692,
+   "p_det_given_total": 0.024457594233678773,
+   "p_det_given_total_nolen": 0.02168852336479292,
+   "p_len_given_D": 0.10978724041788528,
+   "p_len_given_T": 0.4558242783045936,
+   "p_total_given_det": 2.7152864618961905e-06,
+   "p_total_given_det_nolen": 8.60343573784345e-07
+  },
+  {
+   "AIC_D": 3947.8913331258245,
+   "AIC_D0": 3946.6132120080097,
+   "AIC_T": 3945.214370234671,
+   "AIC_T0": 3945.332696101989,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": [
+    0.5447860994962773,
+    0.3009302096190856,
+    0.7886419893734691
+   ],
+   "B_coef[l2d]": [
+    0.44962191889830927,
+    0.20993680014093755,
+    0.689307037655681
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 14.983491843874617,
+   "LR_det_given_total_nolen": 14.189226029750444,
+   "LR_len_given_D": 0.7218788821851376,
+   "LR_len_given_T": 2.118325867317708,
+   "LR_total_given_det": 17.660454735027997,
+   "LR_total_given_det_nolen": 15.469741935771253,
+   "dAIC0_D_minus_T": 1.2805159060208098,
+   "dAIC_D_minus_T": 2.67696289115338,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "logit_all",
+   "frac_det_given_total_logit": [
+    0.7556143051637059,
+    0.336183816573435,
+    1.1750447937539767,
+    0.00041411203749279593
+   ],
+   "label": "S_map",
+   "len_OR_per_doubling_D": [
+    0.9533445008203023,
+    0.8540093655811171,
+    1.0642339228046602
+   ],
+   "len_OR_per_doubling_T": [
+    0.9200394581574728,
+    0.8226282955865943,
+    1.0289855200800007
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 7692,
+   "n_pos": 725,
+   "p_det_given_total": 0.00010845581965516293,
+   "p_det_given_total_nolen": 0.00016531436435299375,
+   "p_len_given_D": 0.39552829249308485,
+   "p_len_given_T": 0.1455455625487836,
+   "p_total_given_det": 2.6405980538474518e-05,
+   "p_total_given_det_nolen": 8.383664340708968e-05
+  },
+  {
+   "AIC_D": 5063.050911149916,
+   "AIC_D0": 5064.3028305326125,
+   "AIC_T": 5044.097523531536,
+   "AIC_T0": 5042.784910114231,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": [
+    0.4853967337985077,
+    0.2706184595657929,
+    0.7001750080312225
+   ],
+   "B_coef[l2d]": [
+    -0.0075517951236676005,
+    -0.22300555641382008,
+    0.20790196616648488
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 0.00471590786401066,
+   "LR_det_given_total_nolen": 0.001306063107222144,
+   "LR_len_given_D": 3.251919382696542,
+   "LR_len_given_T": 0.6873865826946712,
+   "LR_total_given_det": 18.958103526243576,
+   "LR_total_given_det_nolen": 21.51922648148866,
+   "dAIC0_D_minus_T": 21.517920418381436,
+   "dAIC_D_minus_T": 18.953387618379566,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "logit_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "A",
+   "len_OR_per_doubling_D": [
+    1.0923912759005006,
+    0.992070621294706,
+    1.2028566052144332
+   ],
+   "len_OR_per_doubling_T": [
+    1.0425718310471053,
+    0.9446161265532615,
+    1.1506854396600503
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 1113,
+   "p_det_given_total": 0.9452503337893161,
+   "p_det_given_total_nolen": 0.9711711303356594,
+   "p_len_given_D": 0.07133987261318821,
+   "p_len_given_T": 0.4070547258075936,
+   "p_total_given_det": 1.3362054048240137e-05,
+   "p_total_given_det_nolen": 3.502989268691866e-06
+  },
+  {
+   "AIC_D": 4025.629665500586,
+   "AIC_D0": 4023.870051578017,
+   "AIC_T": 4002.7198146949495,
+   "AIC_T0": 4002.7983522880145,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": [
+    0.6705895799797389,
+    0.41843057156303315,
+    0.9227485883964446
+   ],
+   "B_coef[l2d]": [
+    0.20665033158024176,
+    -0.04420809857055097,
+    0.4575087617310345
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 2.674938454445055,
+   "LR_det_given_total_nolen": 2.4339571791183516,
+   "LR_len_given_D": 0.2403860774311397,
+   "LR_len_given_T": 2.0785375930649934,
+   "LR_total_given_det": 25.58478926008138,
+   "LR_total_given_det_nolen": 23.505656469120822,
+   "dAIC0_D_minus_T": 21.07169929000247,
+   "dAIC_D_minus_T": 22.909850805636324,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "logit_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S",
+   "len_OR_per_doubling_D": [
+    0.973018466437359,
+    0.8723323920404153,
+    1.0853258971773299
+   ],
+   "len_OR_per_doubling_T": [
+    0.9207555488007299,
+    0.8232325237486342,
+    1.0298314949789296
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 746,
+   "p_det_given_total": 0.1019392669593511,
+   "p_det_given_total_nolen": 0.11873283118835601,
+   "p_len_given_D": 0.6239274082916273,
+   "p_len_given_T": 0.14938323542820306,
+   "p_total_given_det": 4.233636056340829e-07,
+   "p_total_given_det_nolen": 1.245470583446288e-06
+  },
+  {
+   "AIC_D": 3859.3199844293604,
+   "AIC_D0": 3860.2450102213184,
+   "AIC_T": 3840.6304187260203,
+   "AIC_T0": 3839.319239874565,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": [
+    0.6068719801199084,
+    0.34946767542617513,
+    0.8642762848136416
+   ],
+   "B_coef[l2d]": [
+    0.15578263032827222,
+    -0.10088173891978575,
+    0.4124469995763302
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 1.4440530823026165,
+   "LR_det_given_total_nolen": 1.551540338004088,
+   "LR_len_given_D": 2.925025791957978,
+   "LR_len_given_T": 0.6888211485447755,
+   "LR_total_given_det": 20.13361878564274,
+   "LR_total_given_det_nolen": 22.477310684757413,
+   "dAIC0_D_minus_T": 20.925770346753325,
+   "dAIC_D_minus_T": 18.689565703340122,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "logit_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S1",
+   "len_OR_per_doubling_D": [
+    1.1040365365266407,
+    0.9851624270238649,
+    1.2372545283400396
+   ],
+   "len_OR_per_doubling_T": [
+    1.0504425400549566,
+    0.9349865090902565,
+    1.180155562919029
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 689,
+   "p_det_given_total": 0.22948458810010539,
+   "p_det_given_total_nolen": 0.21290818927280583,
+   "p_len_given_D": 0.08721583132779688,
+   "p_len_given_T": 0.40656564142556206,
+   "p_total_given_det": 7.221609040504128e-06,
+   "p_total_given_det_nolen": 2.12640505092972e-06
+  },
+  {
+   "AIC_D": 3918.8054005453196,
+   "AIC_D0": 3917.0841992193878,
+   "AIC_T": 3904.4059988943013,
+   "AIC_T0": 3904.1236118482866,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": [
+    0.6033981801844555,
+    0.344173230362894,
+    0.862623130006017
+   ],
+   "B_coef[l2d]": [
+    0.2975037069479585,
+    0.038660273808796386,
+    0.5563471400871207
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 5.271059336895178,
+   "LR_det_given_total_nolen": 4.955530901524526,
+   "LR_len_given_D": 0.2787986740681845,
+   "LR_len_given_T": 1.717612953985281,
+   "LR_total_given_det": 19.67046098791343,
+   "LR_total_given_det_nolen": 17.91611827262568,
+   "dAIC0_D_minus_T": 12.960587371101155,
+   "dAIC_D_minus_T": 14.399401651018252,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "logit_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S_map",
+   "len_OR_per_doubling_D": [
+    0.9705652714083999,
+    0.8687885720448018,
+    1.0842648906476222
+   ],
+   "len_OR_per_doubling_T": [
+    0.9267322887371698,
+    0.8272796065139854,
+    1.0381408271467094
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 725,
+   "p_det_given_total": 0.02168281380855155,
+   "p_det_given_total_nolen": 0.02600733817645965,
+   "p_len_given_D": 0.597489691390284,
+   "p_len_given_T": 0.19000060036616492,
+   "p_total_given_det": 9.201275395885521e-06,
+   "p_total_given_det_nolen": 2.3085765843596537e-05
+  },
+  {
+   "AIC_D": 5096.386483724447,
+   "AIC_D0": 5100.282847516803,
+   "AIC_T": 5079.4032679242055,
+   "AIC_T0": 5080.104048822737,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": NaN,
+   "B_coef[l2d]": NaN,
+   "B_coef[log_cys]": [
+    0.4310329254184919,
+    0.22744000676902093,
+    0.6346258440679629
+   ],
+   "B_coef[log_det]": [
+    -0.022732436196104953,
+    -0.22254011492222228,
+    0.17707524253001236
+   ],
+   "LR_det_given_total": 0.052069168013076705,
+   "LR_det_given_total_nolen": 0.01546238321952842,
+   "LR_len_given_D": 5.89636379235526,
+   "LR_len_given_T": 2.700780898531775,
+   "LR_total_given_det": 17.035284968254928,
+   "LR_total_given_det_nolen": 20.194261077284864,
+   "dAIC0_D_minus_T": 20.178798694065335,
+   "dAIC_D_minus_T": 16.98321580024185,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": [
+    0.3627701306245194,
+    0.26995500086874985,
+    0.45558526038028896
+   ],
+   "exponent_D0": [
+    0.4193916520225801,
+    0.339150971543581,
+    0.49963233250157923
+   ],
+   "exponent_T": [
+    0.4107287422402917,
+    0.31667104058733814,
+    0.5047864438932453
+   ],
+   "exponent_T0": [
+    0.45070751380137775,
+    0.3708035386347676,
+    0.5306114889679879
+   ],
+   "family": "cloglog_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "A",
+   "len_OR_per_doubling_D": NaN,
+   "len_OR_per_doubling_T": NaN,
+   "len_coef_D": [
+    0.09754214740025556,
+    0.016814428885851926,
+    0.1782698659146592
+   ],
+   "len_coef_T": [
+    0.06703535906675005,
+    -0.015175279822396415,
+    0.14924599795589652
+   ],
+   "n": 6990,
+   "n_pos": 1113,
+   "p_det_given_total": 0.8195011040592833,
+   "p_det_given_total_nolen": 0.9010398770235752,
+   "p_len_given_D": 0.01517217624282411,
+   "p_len_given_T": 0.10029910941440916,
+   "p_total_given_det": 3.66916062465341e-05,
+   "p_total_given_det_nolen": 6.996251310444961e-06
+  },
+  {
+   "AIC_D": 4036.587439491237,
+   "AIC_D0": 4034.5884137434205,
+   "AIC_T": 4013.205799206376,
+   "AIC_T0": 4011.864683787302,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": NaN,
+   "B_coef[l2d]": NaN,
+   "B_coef[log_cys]": [
+    0.7038425908827116,
+    0.4440707491886787,
+    0.9636144325767445
+   ],
+   "B_coef[log_det]": [
+    0.2002838929311273,
+    -0.05173303752871483,
+    0.45230082339096944
+   ],
+   "LR_det_given_total": 2.6233046461343292,
+   "LR_det_given_total_nolen": 2.4428168517533777,
+   "LR_len_given_D": 0.0009742521833686624,
+   "LR_len_given_T": 0.658884580926042,
+   "LR_total_given_det": 26.004944930995407,
+   "LR_total_given_det_nolen": 25.166546807871782,
+   "dAIC0_D_minus_T": 22.723729956118405,
+   "dAIC_D_minus_T": 23.381640284861078,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": [
+    0.8249474015353646,
+    0.7045969897785946,
+    0.9452978132921346
+   ],
+   "exponent_D0": [
+    0.8259087010178867,
+    0.7230647588274806,
+    0.9287526432082929
+   ],
+   "exponent_T": [
+    0.8849014830084418,
+    0.7619012923275333,
+    1.0079016736893505
+   ],
+   "exponent_T0": [
+    0.8585996075837247,
+    0.755087149564569,
+    0.9621120656028803
+   ],
+   "family": "cloglog_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S",
+   "len_OR_per_doubling_D": NaN,
+   "len_OR_per_doubling_T": NaN,
+   "len_coef_D": [
+    0.0015037876445090062,
+    -0.09413289440100993,
+    0.09714046969002794
+   ],
+   "len_coef_T": [
+    -0.03987715833390656,
+    -0.13721292942676258,
+    0.05745861275894947
+   ],
+   "n": 6990,
+   "n_pos": 746,
+   "p_det_given_total": 0.10530492639288465,
+   "p_det_given_total_nolen": 0.11806404355322274,
+   "p_len_given_D": 0.9750996620620522,
+   "p_len_given_T": 0.416954004519442,
+   "p_total_given_det": 3.405439883840078e-07,
+   "p_total_given_det_nolen": 5.258651036580538e-07
+  },
+  {
+   "AIC_D": 3869.435696055563,
+   "AIC_D0": 3873.2816051079103,
+   "AIC_T": 3850.194991991964,
+   "AIC_T0": 3850.9389148918117,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": NaN,
+   "B_coef[l2d]": NaN,
+   "B_coef[log_cys]": [
+    0.6404072418704736,
+    0.3726535615784983,
+    0.9081609221624489
+   ],
+   "B_coef[log_det]": [
+    0.1442245099962594,
+    -0.11586072849651535,
+    0.40430974848903417
+   ],
+   "LR_det_given_total": 1.2549986644007731,
+   "LR_det_given_total_nolen": 1.5149029909071032,
+   "LR_len_given_D": 5.8459090523474515,
+   "LR_len_given_T": 2.743922899847803,
+   "LR_total_given_det": 20.495702727999742,
+   "LR_total_given_det_nolen": 23.85759320700572,
+   "dAIC0_D_minus_T": 22.342690216098617,
+   "dAIC_D_minus_T": 19.24070406359897,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": [
+    0.7144987124800208,
+    0.5907735337580148,
+    0.8382238912020269
+   ],
+   "exponent_D0": [
+    0.7897064629092079,
+    0.6835886704875989,
+    0.8958242553308169
+   ],
+   "exponent_T": [
+    0.7706222242807789,
+    0.6444586841665203,
+    0.8967857643950374
+   ],
+   "exponent_T0": [
+    0.8242510512644061,
+    0.7174949239409594,
+    0.9310071785878529
+   ],
+   "family": "cloglog_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S1",
+   "len_OR_per_doubling_D": NaN,
+   "len_OR_per_doubling_T": NaN,
+   "len_coef_D": [
+    0.12143155497056285,
+    0.020260497059207072,
+    0.22260261288191863
+   ],
+   "len_coef_T": [
+    0.0845410904171696,
+    -0.018221364164301743,
+    0.18730354499864094
+   ],
+   "n": 6990,
+   "n_pos": 689,
+   "p_det_given_total": 0.26259990261088845,
+   "p_det_given_total_nolen": 0.21839245514236053,
+   "p_len_given_D": 0.01561330596341809,
+   "p_len_given_T": 0.09762484076707698,
+   "p_total_given_det": 5.976527981507114e-06,
+   "p_total_given_det_nolen": 1.0373189102733447e-06
+  },
+  {
+   "AIC_D": 3932.0012271065875,
+   "AIC_D0": 3930.001328976091,
+   "AIC_T": 3916.5023805845776,
+   "AIC_T0": 3914.966645486085,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": NaN,
+   "B_coef[l2d]": NaN,
+   "B_coef[log_cys]": [
+    0.6433916736850571,
+    0.3751496525639759,
+    0.9116336948061383
+   ],
+   "B_coef[log_det]": [
+    0.2819386198480273,
+    0.020566717013973612,
+    0.543310522682081
+   ],
+   "LR_det_given_total": 4.884745105013735,
+   "LR_det_given_total_nolen": 4.670489241903397,
+   "LR_len_given_D": 0.0001018695033963013,
+   "LR_len_given_T": 0.4642649015072493,
+   "LR_total_given_det": 20.383591627023634,
+   "LR_total_given_det_nolen": 19.705172731909443,
+   "dAIC0_D_minus_T": 15.034683490006046,
+   "dAIC_D_minus_T": 15.498846522009899,
+   "df_det_given_total": 1.0,
+   "df_det_given_total_nolen": 1.0,
+   "df_total_given_det": 1.0,
+   "df_total_given_det_nolen": 1.0,
+   "exponent_D": [
+    0.8552938371108575,
+    0.7325204246671295,
+    0.9780672495545855
+   ],
+   "exponent_D0": [
+    0.8556100426262032,
+    0.750668929834873,
+    0.9605511554175334
+   ],
+   "exponent_T": [
+    0.8985257084613681,
+    0.7734266230763226,
+    1.0236247938464138
+   ],
+   "exponent_T0": [
+    0.8761069437669728,
+    0.7707132304397508,
+    0.9815006570941949
+   ],
+   "family": "cloglog_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S_map",
+   "len_OR_per_doubling_D": NaN,
+   "len_OR_per_doubling_T": NaN,
+   "len_coef_D": [
+    0.0004926878325200949,
+    -0.0964878812241465,
+    0.0974732568891867
+   ],
+   "len_coef_T": [
+    -0.033956536346255686,
+    -0.13272915946687452,
+    0.06481608677436315
+   ],
+   "n": 6990,
+   "n_pos": 725,
+   "p_det_given_total": 0.02709503496215484,
+   "p_det_given_total_nolen": 0.030685185040266263,
+   "p_len_given_D": 0.9919470540816464,
+   "p_len_given_T": 0.49563748196956336,
+   "p_total_given_det": 6.337083233486245e-06,
+   "p_total_given_det_nolen": 9.035645528228769e-06
+  },
+  {
+   "AIC_D": 5039.258650521603,
+   "AIC_D0": 5039.511201928488,
+   "AIC_T": 5019.474208966704,
+   "AIC_T0": 5017.712110738339,
+   "B_coef[I(l2c ** 2)]": [
+    0.025297289368554732,
+    -0.11139916632955628,
+    0.16199374506666575
+   ],
+   "B_coef[I(l2d ** 2)]": [
+    0.08017323229431858,
+    -0.0662700623982242,
+    0.22661652698686136
+   ],
+   "B_coef[l2c]": [
+    0.3809002221471444,
+    -0.36905115516333015,
+    1.130851599457619
+   ],
+   "B_coef[l2d]": [
+    -0.46042594765462647,
+    -1.2120902415478436,
+    0.29123834623859063
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 1.4798826931828444,
+   "LR_det_given_total_nolen": 1.4959687914388269,
+   "LR_len_given_D": 2.252551406884777,
+   "LR_len_given_T": 0.2379017716348244,
+   "LR_total_given_det": 21.26432424808172,
+   "LR_total_given_det_nolen": 23.295059981587656,
+   "dAIC0_D_minus_T": 21.79909119014883,
+   "dAIC_D_minus_T": 19.784441554898876,
+   "df_det_given_total": 2.0,
+   "df_det_given_total_nolen": 2.0,
+   "df_total_given_det": 2.0,
+   "df_total_given_det_nolen": 2.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "spline_quadratic_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "A",
+   "len_OR_per_doubling_D": [
+    1.0774118983812893,
+    0.9772046211673386,
+    1.1878949133364698
+   ],
+   "len_OR_per_doubling_T": [
+    1.0251918384504823,
+    0.9275904537347793,
+    1.1330628742390998
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 1113,
+   "p_det_given_total": 0.4771419006991646,
+   "p_det_given_total_nolen": 0.47331961696422464,
+   "p_len_given_D": 0.13339430397213933,
+   "p_len_given_T": 0.6257256899930251,
+   "p_total_given_det": 2.4127407474213003e-05,
+   "p_total_given_det_nolen": 8.74061512102132e-06
+  },
+  {
+   "AIC_D": 4030.6791074424023,
+   "AIC_D0": 4028.9787055633205,
+   "AIC_T": 4006.621371636775,
+   "AIC_T0": 4006.979773751008,
+   "B_coef[I(l2c ** 2)]": [
+    0.009582359397078896,
+    -0.1522465812133033,
+    0.17141130000746108
+   ],
+   "B_coef[I(l2d ** 2)]": [
+    0.0195804840831593,
+    -0.1513347260726342,
+    0.1904956942389528
+   ],
+   "B_coef[l2c]": [
+    0.6258637565748427,
+    -0.31383911530377184,
+    1.5655666284534573
+   ],
+   "B_coef[l2d]": [
+    0.08685868289249077,
+    -0.8403138932919108,
+    1.0140312590768923
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 2.2560469847380773,
+   "LR_det_given_total_nolen": 2.0688992741625043,
+   "LR_len_given_D": 0.2995981209182901,
+   "LR_len_given_T": 2.358402114232831,
+   "LR_total_given_det": 26.313782790365167,
+   "LR_total_given_det_nolen": 24.067831086475053,
+   "dAIC0_D_minus_T": 21.99893181231255,
+   "dAIC_D_minus_T": 24.05773580562709,
+   "df_det_given_total": 2.0,
+   "df_det_given_total_nolen": 2.0,
+   "df_total_given_det": 2.0,
+   "df_total_given_det_nolen": 2.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "spline_quadratic_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S",
+   "len_OR_per_doubling_D": [
+    0.969553019940304,
+    0.8680501043041073,
+    1.0829248839604286
+   ],
+   "len_OR_per_doubling_T": [
+    0.914718852907168,
+    0.8166274327885449,
+    1.0245927901377037
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 746,
+   "p_det_given_total": 0.3236723655125617,
+   "p_det_given_total_nolen": 0.35542193816156314,
+   "p_len_given_D": 0.5841344725826887,
+   "p_len_given_T": 0.12460976822143667,
+   "p_total_given_det": 1.9321225448336e-06,
+   "p_total_given_det_nolen": 5.939322173909066e-06
+  },
+  {
+   "AIC_D": 3863.4599874983896,
+   "AIC_D0": 3863.959617664244,
+   "AIC_T": 3844.0210247552614,
+   "AIC_T0": 3842.4966011115275,
+   "B_coef[I(l2c ** 2)]": [
+    -0.018790430913544653,
+    -0.18330528932908377,
+    0.14572442750199446
+   ],
+   "B_coef[I(l2d ** 2)]": [
+    0.05770314481096243,
+    -0.11541161076555506,
+    0.2308179003874799
+   ],
+   "B_coef[l2c]": [
+    0.7216453849892647,
+    -0.22742692753475335,
+    1.6707176975132827
+   ],
+   "B_coef[l2d]": [
+    -0.163172854918215,
+    -1.094755118653477,
+    0.768409408817047
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 1.5180696361326227,
+   "LR_det_given_total_nolen": 1.6005991370479933,
+   "LR_len_given_D": 2.4996301658543416,
+   "LR_len_given_T": 0.4755763562661741,
+   "LR_total_given_det": 20.95703237926091,
+   "LR_total_given_det_nolen": 23.063615689764447,
+   "dAIC0_D_minus_T": 21.463016552716454,
+   "dAIC_D_minus_T": 19.438962743128286,
+   "df_det_given_total": 2.0,
+   "df_det_given_total_nolen": 2.0,
+   "df_total_given_det": 2.0,
+   "df_total_given_det_nolen": 2.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "spline_quadratic_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S1",
+   "len_OR_per_doubling_D": [
+    1.0970252270017575,
+    0.9775627121062338,
+    1.2310865929872687
+   ],
+   "len_OR_per_doubling_T": [
+    1.0423014288172914,
+    0.9263350171460341,
+    1.1727854916482128
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 689,
+   "p_det_given_total": 0.4681180280998001,
+   "p_det_given_total_nolen": 0.44919437946232177,
+   "p_len_given_D": 0.11387303639230302,
+   "p_len_given_T": 0.4904329076807872,
+   "p_total_given_det": 2.8134437740263994e-05,
+   "p_total_given_det_nolen": 9.812947754330632e-06
+  },
+  {
+   "AIC_D": 3924.1326994924243,
+   "AIC_D0": 3922.4887984616757,
+   "AIC_T": 3908.2900509661954,
+   "AIC_T0": 3908.3657006730064,
+   "B_coef[I(l2c ** 2)]": [
+    0.02936774774201921,
+    -0.13729662799136017,
+    0.19603212347539856
+   ],
+   "B_coef[I(l2d ** 2)]": [
+    0.0024587623246530854,
+    -0.17431201740530536,
+    0.17922954205461153
+   ],
+   "B_coef[l2c]": [
+    0.4470542936612807,
+    -0.5267790254729736,
+    1.420887612795535
+   ],
+   "B_coef[l2d]": [
+    0.26645330674615136,
+    -0.7008513327286348,
+    1.2337579462209374
+   ],
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": 4.576552177775284,
+   "LR_det_given_total_nolen": 4.339536950778438,
+   "LR_len_given_D": 0.356098969251434,
+   "LR_len_given_T": 2.075649706810964,
+   "LR_total_given_det": 20.419200704004197,
+   "LR_total_given_det_nolen": 18.46263473944782,
+   "dAIC0_D_minus_T": 14.123097788669384,
+   "dAIC_D_minus_T": 15.842648526228913,
+   "df_det_given_total": 2.0,
+   "df_det_given_total_nolen": 2.0,
+   "df_total_given_det": 2.0,
+   "df_total_given_det_nolen": 2.0,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "spline_quadratic_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S_map",
+   "len_OR_per_doubling_D": [
+    0.9663958009308851,
+    0.8638975191869253,
+    1.0810551290109334
+   ],
+   "len_OR_per_doubling_T": [
+    0.9187471037418754,
+    0.8189703485883431,
+    1.0306798556126613
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 725,
+   "p_det_given_total": 0.10144118679464437,
+   "p_det_given_total_nolen": 0.11420405489955608,
+   "p_len_given_D": 0.5506807911163285,
+   "p_len_given_T": 0.14966619673687198,
+   "p_total_given_det": 3.681517800616449e-05,
+   "p_total_given_det_nolen": 9.792414890701688e-05
+  },
+  {
+   "AIC_D": 5053.621135022959,
+   "AIC_D0": 5054.452504405698,
+   "AIC_T": 5041.1162941845605,
+   "AIC_T0": 5039.450692084039,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": NaN,
+   "B_coef[l2d]": NaN,
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": NaN,
+   "LR_det_given_total_nolen": NaN,
+   "LR_len_given_D": 2.8313693827394673,
+   "LR_len_given_T": 0.33439789947806275,
+   "LR_total_given_det": NaN,
+   "LR_total_given_det_nolen": NaN,
+   "dAIC0_D_minus_T": 15.0018123216596,
+   "dAIC_D_minus_T": 12.504840838398195,
+   "df_det_given_total": NaN,
+   "df_det_given_total_nolen": NaN,
+   "df_total_given_det": NaN,
+   "df_total_given_det_nolen": NaN,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "spline_categorical_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "A",
+   "len_OR_per_doubling_D": [
+    1.0878203702877005,
+    0.9859529458221209,
+    1.2002126095643944
+   ],
+   "len_OR_per_doubling_T": [
+    1.0299614726533273,
+    0.9318228991598281,
+    1.1384358938878756
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 1113,
+   "p_det_given_total": NaN,
+   "p_det_given_total_nolen": NaN,
+   "p_len_given_D": 0.09243950729068179,
+   "p_len_given_T": 0.5630808492467659,
+   "p_total_given_det": NaN,
+   "p_total_given_det_nolen": NaN
+  },
+  {
+   "AIC_D": 4042.3367358466935,
+   "AIC_D0": 4040.440528368488,
+   "AIC_T": 4020.074584958449,
+   "AIC_T0": 4019.854069119968,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": NaN,
+   "B_coef[l2d]": NaN,
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": NaN,
+   "LR_det_given_total_nolen": NaN,
+   "LR_len_given_D": 0.10379252179427567,
+   "LR_len_given_T": 1.779484161518667,
+   "LR_total_given_det": NaN,
+   "LR_total_given_det_nolen": NaN,
+   "dAIC0_D_minus_T": 20.586459248519986,
+   "dAIC_D_minus_T": 22.262150888244378,
+   "df_det_given_total": NaN,
+   "df_det_given_total_nolen": NaN,
+   "df_total_given_det": NaN,
+   "df_total_given_det_nolen": NaN,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "spline_categorical_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S",
+   "len_OR_per_doubling_D": [
+    0.9818327971996145,
+    0.8782730184284167,
+    1.0976036169046783
+   ],
+   "len_OR_per_doubling_T": [
+    0.9255129306326052,
+    0.826232252674969,
+    1.0367232482089037
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 746,
+   "p_det_given_total": NaN,
+   "p_det_given_total_nolen": NaN,
+   "p_len_given_D": 0.7473250708858752,
+   "p_len_given_T": 0.18221268118877826,
+   "p_total_given_det": NaN,
+   "p_total_given_det_nolen": NaN
+  },
+  {
+   "AIC_D": 3878.3887497134424,
+   "AIC_D0": 3879.640882853896,
+   "AIC_T": 3853.1370986035636,
+   "AIC_T0": 3851.7921193885963,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": NaN,
+   "B_coef[l2d]": NaN,
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": NaN,
+   "LR_det_given_total_nolen": NaN,
+   "LR_len_given_D": 3.2521331404536795,
+   "LR_len_given_T": 0.6550207850327752,
+   "LR_total_given_det": NaN,
+   "LR_total_given_det_nolen": NaN,
+   "dAIC0_D_minus_T": 27.848763465299726,
+   "dAIC_D_minus_T": 25.25165110987882,
+   "df_det_given_total": NaN,
+   "df_det_given_total_nolen": NaN,
+   "df_total_given_det": NaN,
+   "df_total_given_det_nolen": NaN,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "spline_categorical_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S1",
+   "len_OR_per_doubling_D": [
+    1.1121710889599936,
+    0.9902666267667591,
+    1.2490823154942041
+   ],
+   "len_OR_per_doubling_T": [
+    1.049806762051597,
+    0.9330322613443455,
+    1.1811962815319188
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 689,
+   "p_det_given_total": NaN,
+   "p_det_given_total_nolen": NaN,
+   "p_len_given_D": 0.07133057039765449,
+   "p_len_given_T": 0.4183233167180537,
+   "p_total_given_det": NaN,
+   "p_total_given_det_nolen": NaN
+  },
+  {
+   "AIC_D": 3936.423225479047,
+   "AIC_D0": 3934.550923760378,
+   "AIC_T": 3918.611837047587,
+   "AIC_T0": 3918.062473545806,
+   "B_coef[I(l2c ** 2)]": NaN,
+   "B_coef[I(l2d ** 2)]": NaN,
+   "B_coef[l2c]": NaN,
+   "B_coef[l2d]": NaN,
+   "B_coef[log_cys]": NaN,
+   "B_coef[log_det]": NaN,
+   "LR_det_given_total": NaN,
+   "LR_det_given_total_nolen": NaN,
+   "LR_len_given_D": 0.12769828133104966,
+   "LR_len_given_T": 1.4506364982189552,
+   "LR_total_given_det": NaN,
+   "LR_total_given_det_nolen": NaN,
+   "dAIC0_D_minus_T": 16.488450214571913,
+   "dAIC_D_minus_T": 17.811388431459818,
+   "df_det_given_total": NaN,
+   "df_det_given_total_nolen": NaN,
+   "df_total_given_det": NaN,
+   "df_total_given_det_nolen": NaN,
+   "exponent_D": NaN,
+   "exponent_D0": NaN,
+   "exponent_T": NaN,
+   "exponent_T0": NaN,
+   "family": "spline_categorical_ndet_ge1",
+   "frac_det_given_total_logit": NaN,
+   "label": "S_map",
+   "len_OR_per_doubling_D": [
+    0.9795900895537369,
+    0.8749091206201268,
+    1.096795908210153
+   ],
+   "len_OR_per_doubling_T": [
+    0.9316558932825267,
+    0.830484559870202,
+    1.0451521261559897
+   ],
+   "len_coef_D": NaN,
+   "len_coef_T": NaN,
+   "n": 6990,
+   "n_pos": 725,
+   "p_det_given_total": NaN,
+   "p_det_given_total_nolen": NaN,
+   "p_len_given_D": 0.7208305792910127,
+   "p_len_given_T": 0.22842584845027775,
+   "p_total_given_det": NaN,
+   "p_total_given_det_nolen": NaN
+  }
+ ],
+ "frac_cys_detectable": 0.8121832265468107,
+ "frac_groups_no_undetectable": 0.5278211128445138,
+ "labels": {
+  "A": 1197,
+  "S": 750,
+  "S1": 692,
+  "S_map": 725
+ },
+ "labels_ndet_ge1": {
+  "A": 1113,
+  "S": 746,
+  "S1": 689,
+  "S_map": 725
+ },
+ "linear_symmetric": [
+  {
+   "AIC_split": 5434.4654552964275,
+   "AIC_total": 5432.530409892072,
+   "LR_split_vs_total": 0.06495459564484918,
+   "OR_len_per_doubling_total_only": [
+    1.0749975663653397,
+    0.9811626636191133,
+    1.177806505018024
+   ],
+   "OR_per_cys_total_only": [
+    1.0752949991206036,
+    1.061405816934878,
+    1.0893659302459997
+   ],
+   "OR_per_detectable_cys": [
+    1.0765106004946172,
+    1.0598131335707666,
+    1.0934711377587398
+   ],
+   "OR_per_undetectable_cys": [
+    1.0708121025810646,
+    1.0342962236891207,
+    1.1086171763677701
+   ],
+   "label": "A",
+   "p_equal": 0.7989827258887435,
+   "p_len_total_only": 0.12069133662393594,
+   "ratio_det_over_undet": 1.0053216599810715,
+   "sample": "all",
+   "z_equal": 0.2546638674148863
+  },
+  {
+   "AIC_split": 4195.178420985191,
+   "AIC_total": 4194.720145229156,
+   "LR_split_vs_total": 1.5417242439643815,
+   "OR_len_per_doubling_total_only": [
+    1.0776198718903292,
+    0.9675328573144063,
+    1.2002327151103342
+   ],
+   "OR_per_cys_total_only": [
+    1.1048377831510032,
+    1.0895822881323514,
+    1.1203068739033588
+   ],
+   "OR_per_detectable_cys": [
+    1.111350006766699,
+    1.0929249119623952,
+    1.1300857213718984
+   ],
+   "OR_per_undetectable_cys": [
+    1.0809114977860579,
+    1.0411181869945638,
+    1.1222257767092483
+   ],
+   "label": "S",
+   "p_equal": 0.21703273789842015,
+   "p_len_total_only": 0.1739410581162396,
+   "ratio_det_over_undet": 1.0281600381187412,
+   "sample": "all",
+   "z_equal": 1.2344567917835272
+  },
+  {
+   "AIC_split": 3997.2067985108565,
+   "AIC_total": 3996.4459150203825,
+   "LR_split_vs_total": 1.2391165095259566,
+   "OR_len_per_doubling_total_only": [
+    1.2079651871387733,
+    1.0791167394778554,
+    1.3521983673844729
+   ],
+   "OR_per_cys_total_only": [
+    1.0920675239591466,
+    1.0767497153189134,
+    1.1076032432783434
+   ],
+   "OR_per_detectable_cys": [
+    1.0979910640836625,
+    1.0794542491557844,
+    1.1168462005225628
+   ],
+   "OR_per_undetectable_cys": [
+    1.0701770001644115,
+    1.0296258427049803,
+    1.1123252391102394
+   ],
+   "label": "S1",
+   "p_equal": 0.2683806517536734,
+   "p_len_total_only": 0.0010268856206233285,
+   "ratio_det_over_undet": 1.0259901529513136,
+   "sample": "all",
+   "z_equal": 1.1067994369105305
+  },
+  {
+   "AIC_split": 4069.735192795802,
+   "AIC_total": 4071.067073823229,
+   "LR_split_vs_total": 3.331881027426789,
+   "OR_len_per_doubling_total_only": [
+    1.0808840127610961,
+    0.9686578012450383,
+    1.2061124656621494
+   ],
+   "OR_per_cys_total_only": [
+    1.1076926178974282,
+    1.0921947276614075,
+    1.123410418187659
+   ],
+   "OR_per_detectable_cys": [
+    1.117457475284317,
+    1.098660555138273,
+    1.1365759908542836
+   ],
+   "OR_per_undetectable_cys": [
+    1.0719538290838766,
+    1.0316269589947498,
+    1.1138570988948273
+   ],
+   "label": "S_map",
+   "p_equal": 0.07053903090529788,
+   "p_len_total_only": 0.16433955349786755,
+   "ratio_det_over_undet": 1.042449259441826,
+   "sample": "all",
+   "z_equal": 1.8084336742380658
+  },
+  {
+   "AIC_split": 5038.498262431811,
+   "AIC_total": 5036.616445033511,
+   "LR_split_vs_total": 0.11818260170002759,
+   "OR_len_per_doubling_total_only": [
+    1.04325370640443,
+    0.9465446473802864,
+    1.149843590515082
+   ],
+   "OR_per_cys_total_only": [
+    1.0730255890934564,
+    1.0587885375315058,
+    1.087454079861625
+   ],
+   "OR_per_detectable_cys": [
+    1.0713418240778225,
+    1.0542423606097069,
+    1.0887186352050933
+   ],
+   "OR_per_undetectable_cys": [
+    1.0792248434100726,
+    1.041677076189082,
+    1.1181260385364173
+   ],
+   "label": "A",
+   "p_equal": 0.730789456298786,
+   "p_len_total_only": 0.39358896873208393,
+   "ratio_det_over_undet": 0.9926956654302529,
+   "sample": "ndet_ge1",
+   "z_equal": -0.3440755680113575
+  },
+  {
+   "AIC_split": 4055.0174992760262,
+   "AIC_total": 4053.445366270161,
+   "LR_split_vs_total": 0.427866994134547,
+   "OR_len_per_doubling_total_only": [
+    0.9895715976000343,
+    0.8858884097301308,
+    1.1053897263143952
+   ],
+   "OR_per_cys_total_only": [
+    1.1013605704897946,
+    1.0859446854524413,
+    1.1169952967947265
+   ],
+   "OR_per_detectable_cys": [
+    1.104831705008725,
+    1.0862595382013915,
+    1.1237214067768937
+   ],
+   "OR_per_undetectable_cys": [
+    1.0885797923680287,
+    1.0481764961389648,
+    1.1305404850395684
+   ],
+   "label": "S",
+   "p_equal": 0.5140953916035811,
+   "p_len_total_only": 0.8527287105262034,
+   "ratio_det_over_undet": 1.0149294638341053,
+   "sample": "ndet_ge1",
+   "z_equal": 0.6524740754192351
+  },
+  {
+   "AIC_split": 3876.1623376264606,
+   "AIC_total": 3874.530089455671,
+   "LR_split_vs_total": 0.3677518292101922,
+   "OR_len_per_doubling_total_only": [
+    1.1130682922201045,
+    0.9917544423741533,
+    1.2492215514355918
+   ],
+   "OR_per_cys_total_only": [
+    1.0886805588149655,
+    1.0731914881381768,
+    1.1043931788891193
+   ],
+   "OR_per_detectable_cys": [
+    1.091955219900276,
+    1.0732324617233875,
+    1.1110046003945584
+   ],
+   "OR_per_undetectable_cys": [
+    1.0766415827402518,
+    1.0356401786852028,
+    1.1192662485893918
+   ],
+   "label": "S1",
+   "p_equal": 0.5453078358852328,
+   "p_len_total_only": 0.06885952299429958,
+   "ratio_det_over_undet": 1.0142235237849984,
+   "sample": "ndet_ge1",
+   "z_equal": 0.6048061062718886
+  },
+  {
+   "AIC_split": 3953.5351741751374,
+   "AIC_total": 3952.7611175721495,
+   "LR_split_vs_total": 1.225943397012088,
+   "OR_len_per_doubling_total_only": [
+    0.9935242424324309,
+    0.8880113075048537,
+    1.1115741567238326
+   ],
+   "OR_per_cys_total_only": [
+    1.103435759435516,
+    1.0878169793405261,
+    1.119278792595395
+   ],
+   "OR_per_detectable_cys": [
+    1.1094066634801434,
+    1.0905378435884303,
+    1.128601957474703
+   ],
+   "OR_per_undetectable_cys": [
+    1.0815216765618514,
+    1.040700502666288,
+    1.1239440491057697
+   ],
+   "label": "S_map",
+   "p_equal": 0.2704134397333863,
+   "p_len_total_only": 0.9097017478244452,
+   "ratio_det_over_undet": 1.0257831049738533,
+   "sample": "ndet_ge1",
+   "z_equal": 1.1021109494469101
+  }
+ ],
+ "mirror_matched": [
+  {
+   "boot_reps": 400,
+   "boot_seed": 20261761,
+   "cap_ncys": 25,
+   "frac_pairs_equal_ncys": 0.9699248120300752,
+   "label": "A",
+   "mean_det_neg": 6.055973266499582,
+   "mean_det_pos": 6.199665831244778,
+   "mean_undet_neg": 1.4527986633249792,
+   "mean_undet_pos": 1.4644945697577276,
+   "n_cells": 32,
+   "pairs": 1197,
+   "r_cells_dec_x_ncys_det": 0.026572530988911866,
+   "r_cells_dec_x_ncys_len": -0.04008736384509819,
+   "r_det": 0.010253983608422335,
+   "r_det_ci95": [
+    -0.011696458899482605,
+    0.023306361727014124
+   ],
+   "r_len": -0.015554061985931122,
+   "r_len_ci95": [
+    -0.044958602388565215,
+    0.02360807562442623
+   ],
+   "r_undet": 0.008873478600427642,
+   "r_undet_ci95": [
+    -0.022883650724829018,
+    0.046776014824758794
+   ],
+   "wilcoxon_p_det": 0.718779591543329
+  },
+  {
+   "boot_reps": 400,
+   "boot_seed": 20261762,
+   "cap_ncys": 25,
+   "frac_pairs_equal_ncys": 0.9533333333333334,
+   "label": "S",
+   "mean_det_neg": 7.584,
+   "mean_det_pos": 7.888,
+   "mean_undet_neg": 1.884,
+   "mean_undet_pos": 1.8186666666666667,
+   "n_cells": 20,
+   "pairs": 750,
+   "r_cells_dec_x_ncys_det": 0.0465083339225042,
+   "r_cells_dec_x_ncys_len": -0.08479353796471042,
+   "r_det": 0.028145777777777825,
+   "r_det_ci95": [
+    0.002692437297341727,
+    0.04627989723272048
+   ],
+   "r_len": -0.07066844444444442,
+   "r_len_ci95": [
+    -0.10496932178303843,
+    -0.018497358981272097
+   ],
+   "r_undet": -0.03821866666666662,
+   "r_undet_ci95": [
+    -0.07849390046391046,
+    0.01221137463495359
+   ],
+   "wilcoxon_p_det": 0.08609081077267489
+  },
+  {
+   "boot_reps": 400,
+   "boot_seed": 20261763,
+   "cap_ncys": 25,
+   "frac_pairs_equal_ncys": 0.9523121387283237,
+   "label": "S1",
+   "mean_det_neg": 7.546242774566474,
+   "mean_det_pos": 7.904624277456647,
+   "mean_undet_neg": 1.8858381502890174,
+   "mean_undet_pos": 1.8208092485549132,
+   "n_cells": 16,
+   "pairs": 692,
+   "r_cells_dec_x_ncys_det": 0.00517586917435945,
+   "r_cells_dec_x_ncys_len": -0.022728637604282377,
+   "r_det": 0.025635671088242162,
+   "r_det_ci95": [
+    -0.001152588033125167,
+    0.046453587134244446
+   ],
+   "r_len": -0.029599218149620743,
+   "r_len_ci95": [
+    -0.06423245441531582,
+    0.034202617195372494
+   ],
+   "r_undet": -0.0312385144842795,
+   "r_undet_ci95": [
+    -0.07478846686431682,
+    0.01927489921732481
+   ],
+   "wilcoxon_p_det": 0.10245634163546184
+  },
+  {
+   "boot_reps": 400,
+   "boot_seed": 20261764,
+   "cap_ncys": 25,
+   "frac_pairs_equal_ncys": 0.9517241379310345,
+   "label": "S_map",
+   "mean_det_neg": 7.666206896551724,
+   "mean_det_pos": 8.015172413793103,
+   "mean_undet_neg": 1.9075862068965517,
+   "mean_undet_pos": 1.8055172413793104,
+   "n_cells": 20,
+   "pairs": 725,
+   "r_cells_dec_x_ncys_det": 0.05394730390421008,
+   "r_cells_dec_x_ncys_len": -0.08057324759625588,
+   "r_det": 0.03373507728894176,
+   "r_det_ci95": [
+    0.005645025135429571,
+    0.05234051951808306
+   ],
+   "r_len": -0.06577122473246133,
+   "r_len_ci95": [
+    -0.1030655624861324,
+    -0.014361611747972665
+   ],
+   "r_undet": -0.05174982164090369,
+   "r_undet_ci95": [
+    -0.09011423517877426,
+    -0.0031305616373372876
+   ],
+   "wilcoxon_p_det": 0.033397471133776356
+  }
+ ],
+ "n_groups": 7692,
+ "n_groups_ndet_ge1": 6990,
+ "pearson_log2counts_all": 0.9408945214951905,
+ "per_cysteine": [
+  {
+   "OR[l2c]": NaN,
+   "OR[l2d]": NaN,
+   "OR[l2u]": NaN,
+   "OR[log10_ibaq]": [
+    2.977776263807698,
+    2.7020695753721697,
+    3.2816147882036737
+   ],
+   "OR[log2_len]": [
+    0.9193178529179408,
+    0.8252575966085619,
+    1.0240988003828382
+   ],
+   "OR[n_cys_p]": NaN,
+   "OR[n_det]": [
+    1.0007147423427283,
+    0.98735053396386,
+    1.0142598409520167
+   ],
+   "OR[n_undet]": [
+    1.0771809796875287,
+    1.0315671851320274,
+    1.1248117230988477
+   ],
+   "aic": 9063.544139977936,
+   "equal_test": "n_det == n_undet",
+   "formula": "y ~ log10_ibaq + log2_len + n_det + n_undet",
+   "model": "linear_split",
+   "n": 42465,
+   "n_groups": 6990,
+   "n_sites": 1121,
+   "p_equal": 0.007227370613159581,
+   "z_equal": -2.6861820124143225
+  },
+  {
+   "OR[l2c]": NaN,
+   "OR[l2d]": NaN,
+   "OR[l2u]": NaN,
+   "OR[log10_ibaq]": [
+    3.0474643415331317,
+    2.7774106182476213,
+    3.3437759803681915
+   ],
+   "OR[log2_len]": NaN,
+   "OR[n_cys_p]": NaN,
+   "OR[n_det]": [
+    0.9974168849294917,
+    0.9846756465572054,
+    1.01032298891598
+   ],
+   "OR[n_undet]": [
+    1.0747624457959017,
+    1.0295660491131715,
+    1.1219428961242064
+   ],
+   "aic": 9066.315250242382,
+   "equal_test": "n_det == n_undet",
+   "formula": "y ~ log10_ibaq + n_det + n_undet",
+   "model": "linear_split_no_length",
+   "n": 42465,
+   "n_groups": 6990,
+   "n_sites": 1121,
+   "p_equal": 0.006783527026914832,
+   "z_equal": -2.707288541891788
+  },
+  {
+   "OR[l2c]": NaN,
+   "OR[l2d]": [
+    1.0917484414975809,
+    0.9659167783332888,
+    1.2339724148586304
+   ],
+   "OR[l2u]": [
+    1.219129031056615,
+    1.1146304815783776,
+    1.3334245015984072
+   ],
+   "OR[log10_ibaq]": [
+    2.9833057975765964,
+    2.7050359281951684,
+    3.2902015788723338
+   ],
+   "OR[log2_len]": [
+    0.887834089816651,
+    0.7898123841927843,
+    0.9980210323571711
+   ],
+   "OR[n_cys_p]": NaN,
+   "OR[n_det]": NaN,
+   "OR[n_undet]": NaN,
+   "aic": 9064.905623789915,
+   "equal_test": "l2d == l2u",
+   "formula": "y ~ log10_ibaq + log2_len + l2d + l2u",
+   "model": "log_split",
+   "n": 42465,
+   "n_groups": 6990,
+   "n_sites": 1121,
+   "p_equal": 0.18041024553163676,
+   "z_equal": -1.3394929576439631
+  },
+  {
+   "OR[l2c]": NaN,
+   "OR[l2d]": [
+    1.0282487663120785,
+    0.9257574028689578,
+    1.1420870328940522
+   ],
+   "OR[l2u]": [
+    1.192590974933364,
+    1.0942613262702674,
+    1.2997564652497189
+   ],
+   "OR[log10_ibaq]": [
+    3.0682823708040052,
+    2.7902385709388766,
+    3.3740328891729305
+   ],
+   "OR[log2_len]": NaN,
+   "OR[n_cys_p]": NaN,
+   "OR[n_det]": NaN,
+   "OR[n_undet]": NaN,
+   "aic": 9071.296231566746,
+   "equal_test": "l2d == l2u",
+   "formula": "y ~ log10_ibaq + l2d + l2u",
+   "model": "log_split_no_length",
+   "n": 42465,
+   "n_groups": 6990,
+   "n_sites": 1121,
+   "p_equal": 0.06563011359859186,
+   "z_equal": -1.8409416253463304
+  },
+  {
+   "OR[l2c]": NaN,
+   "OR[l2d]": NaN,
+   "OR[l2u]": NaN,
+   "OR[log10_ibaq]": [
+    2.98461692478771,
+    2.7066281939416985,
+    3.2911569485857233
+   ],
+   "OR[log2_len]": [
+    0.9144427077642708,
+    0.8208917634967485,
+    1.0186549591157685
+   ],
+   "OR[n_cys_p]": [
+    1.0163815262482803,
+    1.0087326507865617,
+    1.0240884005224526
+   ],
+   "OR[n_det]": NaN,
+   "OR[n_undet]": NaN,
+   "aic": 9082.480690410988,
+   "equal_test": NaN,
+   "formula": "y ~ log10_ibaq + log2_len + n_cys_p",
+   "model": "linear_total",
+   "n": 42465,
+   "n_groups": 6990,
+   "n_sites": 1121,
+   "p_equal": NaN,
+   "z_equal": NaN
+  },
+  {
+   "OR[l2c]": [
+    1.2460071243012019,
+    1.0993470878076783,
+    1.412232561515598
+   ],
+   "OR[l2d]": NaN,
+   "OR[l2u]": NaN,
+   "OR[log10_ibaq]": [
+    2.9878933853686727,
+    2.7093724345923986,
+    3.2950460292377386
+   ],
+   "OR[log2_len]": [
+    0.9005812954917708,
+    0.8024871216677002,
+    1.0106662747486188
+   ],
+   "OR[n_cys_p]": NaN,
+   "OR[n_det]": NaN,
+   "OR[n_undet]": NaN,
+   "aic": 9084.352736724348,
+   "equal_test": NaN,
+   "formula": "y ~ log10_ibaq + log2_len + l2c",
+   "model": "log_total",
+   "n": 42465,
+   "n_groups": 6990,
+   "n_sites": 1121,
+   "p_equal": NaN,
+   "z_equal": NaN
+  },
+  {
+   "OR[l2c]": NaN,
+   "OR[l2d]": NaN,
+   "OR[l2u]": NaN,
+   "OR[log10_ibaq]": [
+    2.9724623968819768,
+    2.6878982260135627,
+    3.28715299387707
+   ],
+   "OR[log2_len]": [
+    0.8780751346081255,
+    0.7793496474244327,
+    0.989306846503497
+   ],
+   "OR[n_cys_p]": NaN,
+   "OR[n_det]": [
+    1.0084734712078918,
+    0.9892456125779592,
+    1.0280750596201877
+   ],
+   "OR[n_undet]": [
+    1.093398016872289,
+    1.0470060433700414,
+    1.1418455804249106
+   ],
+   "aic": 8593.707107151462,
+   "equal_test": "n_det == n_undet",
+   "formula": "y ~ log10_ibaq + log2_len + n_det + n_undet",
+   "model": "linear_split_ndet_ge2_ncys_le40",
+   "n": 40505,
+   "n_groups": 6158,
+   "n_sites": 1063,
+   "p_equal": 0.0015603857699085265,
+   "z_equal": -3.1632121481775313
+  }
+ ],
+ "spearman_ncys_ndet_all": 0.9378134489019624,
+ "spearman_ncys_ndet_ndet_ge1": 0.9293282631675017,
+ "top_decile_fraction_by_tertile": {
+  "n_cys|A": [
+   0.42431761786600497,
+   0.5486381322957199,
+   0.6818181818181818
+  ],
+  "n_cys|S": [
+   0.12406947890818859,
+   0.3424124513618677,
+   0.6090909090909091
+  ],
+  "n_det|A": [
+   0.4331065759637188,
+   0.5663265306122449,
+   0.6390977443609023
+  ],
+  "n_det|S": [
+   0.14058956916099774,
+   0.3826530612244898,
+   0.5112781954887218
+  ]
+ },
+ "windows": [
+  {
+   "OR_per_detectable_cys": [
+    1.0765106004946172,
+    1.0598131335707666,
+    1.0934711377587398
+   ],
+   "OR_per_undetectable_cys": [
+    1.0708121025810646,
+    1.0342962236891207,
+    1.1086171763677701
+   ],
+   "dAIC_D_minus_T": 10.565147781211635,
+   "frac_cys_detectable": 0.8121832265468107,
+   "frac_groups_no_undetectable": 0.5278211128445138,
+   "label": "A",
+   "n_pos": 1197,
+   "p_det_given_total": 0.259015239708704,
+   "p_equal": 0.7989827258887435,
+   "p_total_given_det": 0.0005799796670317182,
+   "spearman_ncys_ndet": 0.9378134489019624,
+   "window": "w7_30_mc2"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.111350006766699,
+    1.0929249119623952,
+    1.1300857213718984
+   ],
+   "OR_per_undetectable_cys": [
+    1.0809114977860579,
+    1.0411181869945638,
+    1.1222257767092483
+   ],
+   "dAIC_D_minus_T": 19.453889368900946,
+   "frac_cys_detectable": 0.8121832265468107,
+   "frac_groups_no_undetectable": 0.5278211128445138,
+   "label": "S",
+   "n_pos": 750,
+   "p_det_given_total": 0.00540292496571173,
+   "p_equal": 0.21703273789842015,
+   "p_total_given_det": 1.840981453240835e-07,
+   "spearman_ncys_ndet": 0.9378134489019624,
+   "window": "w7_30_mc2"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.117457475284317,
+    1.098660555138273,
+    1.1365759908542836
+   ],
+   "OR_per_undetectable_cys": [
+    1.0719538290838766,
+    1.0316269589947498,
+    1.1138570988948273
+   ],
+   "dAIC_D_minus_T": 2.67696289115338,
+   "frac_cys_detectable": 0.8121832265468107,
+   "frac_groups_no_undetectable": 0.5278211128445138,
+   "label": "S_map",
+   "n_pos": 725,
+   "p_det_given_total": 0.00010845581965516293,
+   "p_equal": 0.07053903090529788,
+   "p_total_given_det": 2.6405980538474518e-05,
+   "spearman_ncys_ndet": 0.9378134489019624,
+   "window": "w7_30_mc2"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.0776826795404502,
+    1.0619135307807734,
+    1.093685996191765
+   ],
+   "OR_per_undetectable_cys": [
+    1.0616367628115753,
+    1.0176469644525215,
+    1.10752810701832
+   ],
+   "dAIC_D_minus_T": 1.396513799103559,
+   "frac_cys_detectable": 0.8713971502342929,
+   "frac_groups_no_undetectable": 0.640925637025481,
+   "label": "A",
+   "n_pos": 1197,
+   "p_det_given_total": 0.08193094995690976,
+   "p_equal": 0.5335705431727685,
+   "p_total_given_det": 0.03546410938308358,
+   "spearman_ncys_ndet": 0.9586377690512548,
+   "window": "w6_35_mc2"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.1096309432439544,
+    1.0922617915778838,
+    1.1272762992338647
+   ],
+   "OR_per_undetectable_cys": [
+    1.077525353474929,
+    1.0294998415711711,
+    1.1277912249207511
+   ],
+   "dAIC_D_minus_T": 1.1422667446408923,
+   "frac_cys_detectable": 0.8713971502342929,
+   "frac_groups_no_undetectable": 0.640925637025481,
+   "label": "S",
+   "n_pos": 750,
+   "p_det_given_total": 0.0012967086046271235,
+   "p_equal": 0.258034489946916,
+   "p_total_given_det": 0.0006999151805802854,
+   "spearman_ncys_ndet": 0.9586377690512548,
+   "window": "w6_35_mc2"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.1132720947600436,
+    1.095667252744954,
+    1.131159805923225
+   ],
+   "OR_per_undetectable_cys": [
+    1.0726585954743457,
+    1.0242150527235294,
+    1.1233934312773484
+   ],
+   "dAIC_D_minus_T": -5.3692362056212914,
+   "frac_cys_detectable": 0.8713971502342929,
+   "frac_groups_no_undetectable": 0.640925637025481,
+   "label": "S_map",
+   "n_pos": 736,
+   "p_det_given_total": 0.0001855420335668745,
+   "p_equal": 0.15788704454429014,
+   "p_total_given_det": 0.003356318391191972,
+   "spearman_ncys_ndet": 0.9586377690512548,
+   "window": "w6_35_mc2"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.078207957981899,
+    1.0631944809396965,
+    1.0934334418553426
+   ],
+   "OR_per_undetectable_cys": [
+    1.0495106916852177,
+    0.9988127557488284,
+    1.1027819635080547
+   ],
+   "dAIC_D_minus_T": -1.361356215656997,
+   "frac_cys_detectable": 0.9116190111886774,
+   "frac_groups_no_undetectable": 0.7381695267810713,
+   "label": "A",
+   "n_pos": 1197,
+   "p_det_given_total": 0.06430294366731702,
+   "p_equal": 0.3189803299311942,
+   "p_total_given_det": 0.15106972374259223,
+   "spearman_ncys_ndet": 0.9698422081180058,
+   "window": "w7_40_mc3"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.1073999977496665,
+    1.090924450564265,
+    1.1241243647822334
+   ],
+   "OR_per_undetectable_cys": [
+    1.0820053130265053,
+    1.026436889902988,
+    1.140582055198967
+   ],
+   "dAIC_D_minus_T": 2.7046411596220423,
+   "frac_cys_detectable": 0.9116190111886774,
+   "frac_groups_no_undetectable": 0.7381695267810713,
+   "label": "S",
+   "n_pos": 750,
+   "p_det_given_total": 0.008910921474652521,
+   "p_equal": 0.4206197441277535,
+   "p_total_given_det": 0.002004691645124033,
+   "spearman_ncys_ndet": 0.9698422081180058,
+   "window": "w7_40_mc3"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.1109216401204922,
+    1.094229332435869,
+    1.1278685865061435
+   ],
+   "OR_per_undetectable_cys": [
+    1.0740471177903443,
+    1.0180269217680282,
+    1.1331500047467353
+   ],
+   "dAIC_D_minus_T": -4.555254031335153,
+   "frac_cys_detectable": 0.9116190111886774,
+   "frac_groups_no_undetectable": 0.7381695267810713,
+   "label": "S_map",
+   "n_pos": 736,
+   "p_det_given_total": 0.0010789384079858612,
+   "p_equal": 0.24877668792920982,
+   "p_total_given_det": 0.013277930895425545,
+   "spearman_ncys_ndet": 0.9698422081180058,
+   "window": "w7_40_mc3"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.076697756214917,
+    1.0623447171882652,
+    1.0912447150925995
+   ],
+   "OR_per_undetectable_cys": [
+    1.0476905271535226,
+    0.9780447366251043,
+    1.1222957392264667
+   ],
+   "dAIC_D_minus_T": -1.8505356221503462,
+   "frac_cys_detectable": 0.9573491441139906,
+   "frac_groups_no_undetectable": 0.8684347373894956,
+   "label": "A",
+   "n_pos": 1197,
+   "p_det_given_total": 0.11726563013906294,
+   "p_equal": 0.4501614173987948,
+   "p_total_given_det": 0.4374618798582972,
+   "spearman_ncys_ndet": 0.9849662031075062,
+   "window": "w5_50_mc3"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.1051744379810309,
+    1.0894551286355048,
+    1.1211205549111978
+   ],
+   "OR_per_undetectable_cys": [
+    1.0978936669412063,
+    1.0207425114665127,
+    1.1808761664857461
+   ],
+   "dAIC_D_minus_T": 3.53230234162902,
+   "frac_cys_detectable": 0.9573491441139906,
+   "frac_groups_no_undetectable": 0.8684347373894956,
+   "label": "S",
+   "n_pos": 750,
+   "p_det_given_total": 0.10707619139366024,
+   "p_equal": 0.8628051152782357,
+   "p_total_given_det": 0.013297043755317284,
+   "spearman_ncys_ndet": 0.9849662031075062,
+   "window": "w5_50_mc3"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.107300331796085,
+    1.0914187818564838,
+    1.1234129787560758
+   ],
+   "OR_per_undetectable_cys": [
+    1.0895330821854956,
+    1.0117197551309731,
+    1.173331183024049
+   ],
+   "dAIC_D_minus_T": 0.9389666297579424,
+   "frac_cys_detectable": 0.9573491441139906,
+   "frac_groups_no_undetectable": 0.8684347373894956,
+   "label": "S_map",
+   "n_pos": 739,
+   "p_det_given_total": 0.053090181285950264,
+   "p_equal": 0.6774772162966584,
+   "p_total_given_det": 0.03051495465372346,
+   "spearman_ncys_ndet": 0.9849662031075062,
+   "window": "w5_50_mc3"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.0766909269638294,
+    1.0602303991007689,
+    1.0934070115226426
+   ],
+   "OR_per_undetectable_cys": [
+    1.0695576190101082,
+    1.0311576724053064,
+    1.109387566029698
+   ],
+   "dAIC_D_minus_T": 9.1296725796783,
+   "frac_cys_detectable": 0.834904848426891,
+   "frac_groups_no_undetectable": 0.5678627145085804,
+   "label": "A",
+   "n_pos": 1197,
+   "p_det_given_total": 0.28930749335019934,
+   "p_equal": 0.7588367087749917,
+   "p_total_given_det": 0.0013649847117515438,
+   "spearman_ncys_ndet": 0.9471148813866159,
+   "window": "w7_30_mc2_trypsinP"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.1116375638969869,
+    1.0934525292548838,
+    1.1301250309502708
+   ],
+   "OR_per_undetectable_cys": [
+    1.0770981232722816,
+    1.0352911133460483,
+    1.120593379196612
+   ],
+   "dAIC_D_minus_T": 17.527333872125382,
+   "frac_cys_detectable": 0.834904848426891,
+   "frac_groups_no_undetectable": 0.5678627145085804,
+   "label": "S",
+   "n_pos": 750,
+   "p_det_given_total": 0.009876881285304766,
+   "p_equal": 0.17771983461226837,
+   "p_total_given_det": 8.754293131327707e-07,
+   "spearman_ncys_ndet": 0.9471148813866159,
+   "window": "w7_30_mc2_trypsinP"
+  },
+  {
+   "OR_per_detectable_cys": [
+    1.1152422698749473,
+    1.0967843012183747,
+    1.1340108708104
+   ],
+   "OR_per_undetectable_cys": [
+    1.0695738613306944,
+    1.0273275861997095,
+    1.1135574087654876
+   ],
+   "dAIC_D_minus_T": 6.532422410953586,
+   "frac_cys_detectable": 0.834904848426891,
+   "frac_groups_no_undetectable": 0.5678627145085804,
+   "label": "S_map",
+   "n_pos": 731,
+   "p_det_given_total": 0.0008852047624108892,
+   "p_equal": 0.07934157447312441,
+   "p_total_given_det": 2.7461537093157523e-05,
+   "spearman_ncys_ndet": 0.9471148813866159,
+   "window": "w7_30_mc2_trypsinP"
+  }
+ ]
+}

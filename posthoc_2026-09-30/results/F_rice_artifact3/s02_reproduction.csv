@@ -1,0 +1,29 @@
+quantity,stored,reproduced_SEQ_REF,reproduced_SEQ_FULL,agrees_at_stored_precision_SEQ_REF
+n_protein_groups_in_quantification,7825,7825.0,,True
+n_groups_dropped_no_usable_iBAQ,133,133.0,,True
+n_groups_analysed,7692,7692.0,,True
+n_persulfidated,1197,1197.0,,True
+n_unmodified,6495,6495.0,,True
+n_unique_leading_razor_proteins_in_peptide_table,2073,2073.0,,True
+median_iBAQ_ratio,10.3633,10.363264064875825,,True
+median_iBAQ_ratio_CI_low,8.9464,8.946372805485842,,True
+median_iBAQ_ratio_CI_high, 12.2902,12.29018483689608,,True
+median_Quantity_ratio_raw_intensity,4.8789,4.878878630109596,,True
+shuffled_label_ratio,0.9717,0.9717338114166894,,True
+shuffled_label_ratio_CI_low,0.8054,0.805406571554398,,True
+shuffled_label_ratio_CI_high, 1.2248,1.2248201493717112,,True
+n_groups_with_sequence,6363,6266.0,7692,False
+n_pos_with_sequence,1062,1052.0,1197,False
+n_neg_with_sequence,5301,5214.0,6495,False
+length_r_before,-0.0093,-0.015864898686047124,-0.025941039408889144,False
+length_z_before,-0.4804,-0.812946756834574,-1.428358829794362,False
+length_r_decile_mean,0.2007,0.21422353554289728,0.19923568497685515,False
+length_z_stratified,8.5565,8.944264921218306,8.941493748698464,False
+length_r_1to1,0.1701,0.17335710361578172,0.14983155465941378,False
+length_z_1to1,6.787,6.884826510421637,6.34755122312816,False
+cys_r_before,0.1036,0.10196462142724827,0.08201797797033006,False
+cys_z_before,5.3542,5.239527186808451,4.527848126569782,False
+cys_r_decile_mean,0.2901,0.30534489326244696,0.2857438723164959,False
+cys_z_stratified,12.7704,13.218122009624414,13.280148908646632,False
+cys_r_1to1,0.2556,0.26600337578973243,0.24372055172741103,False
+cys_z_1to1,10.2321,10.59763769021247,10.356202193468873,False

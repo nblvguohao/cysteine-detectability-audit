@@ -1,0 +1,135 @@
+{
+  "lock_id": "PKA-BLIND-V1",
+  "written_utc": "2026-09-17T04:45:00Z",
+  "registration_this_extends": "protocols/pka_round_preregistration_2026-09-17.json",
+  "what_this_file_is": "a blind prediction. It states, BEFORE instrument B exists and before any class-wise mean or contrast was computed for EITHER instrument, what this round will find. It is written so that the round can be WRONG on the record. Its purpose is not to be right; it is to remove the freedom to decide afterwards what the result 'shows'.",
+  "why_it_was_written": "borrowed from a practice observed on the shared cluster: a scaling-law study fitted small models, locked the fitted parameters, locked the predicted values for the held-out large model, and only then read the large model's measurement - and the prediction turned out to be wrong by 17% at one point, which is preserved in its products. Our project already locks criteria; it has never locked a prediction against its own analysis.",
+
+  "state_of_the_world_when_this_was_written": {
+    "instrument_A": "complete. results/pka_static_propka.csv exists: 1,761 cysteines valued, 1,673 usable after excluding metal-coordinated and disulfide cysteines, 310 of them positive, across 190 proteins.",
+    "instrument_B": "INCOMPLETE. 72 of 120 proteins had an md.xtc at the moment this file was written, 0 failed. No ensemble pKa has been computed for any protein.",
+    "what_has_NOT_been_computed_for_either_instrument": [
+      "the mean pKa of the positive class",
+      "the mean pKa of the background class",
+      "any difference between the two classes",
+      "any matched or random-control contrast",
+      "any verdict"
+    ],
+    "what_HAS_been_computed_and_is_used_below": "a LABEL-BLIND pooled standard deviation over all usable cysteines, used only for the power arithmetic. It does not split by class and therefore reveals nothing about the contrast.",
+    "label_blind_dispersion": {
+      "full_cohort": {
+        "proteins": 190,
+        "usable_cysteines": 1673,
+        "positives": 310,
+        "background": 1363,
+        "pooled_sd": 2.1669,
+        "analytic_se_of_the_difference": 0.1363,
+        "smallest_difference_excluded_by_a_95pct_interval": 0.2672
+      },
+      "instrument_B_subset": {
+        "proteins": 119,
+        "usable_cysteines": 985,
+        "positives": 192,
+        "background": 793,
+        "pooled_sd": 2.2363,
+        "analytic_se_of_the_difference": 0.1799,
+        "smallest_difference_excluded_by_a_95pct_interval": 0.3525
+      }
+    },
+    "reproduction_anchor_noticed_while_computing_the_above": "the authors of SNO-003 report standard deviations of 2.10 (positives, n=142) and 2.20 (background, n=559). Our label-blind pooled SD is 2.1669 on 1,673 cysteines. The dispersion reproduces before any contrast is computed. This is an observation, not a prediction, and it is label-blind."
+  },
+
+  "gap_in_the_registration_that_this_file_closes": {
+    "the_gap": "the registration says a NULL claim 'survives only if the interval covers the null AND the design had the power to detect a difference of the size the authors would have called meaningful'. It never says what that size is. With the power figures above, the choice of that size DECIDES the verdict: at a meaningful difference of 1.0 pKa unit the design is powered and a null-covering interval reads as `survives`; at 0.12 units it is not powered and the same interval reads as `undecidable`. Leaving it open until after the result would have handed us the verdict.",
+    "minimum_meaningful_difference_declared_now": {
+      "primary_MMD": 1.0,
+      "unit": "pKa units",
+      "justification": "one pKa unit changes the thiolate fraction at a fixed pH by a factor of ten. A difference smaller than that cannot carry the mechanistic reading the claim is used for - that low-pKa cysteines are the ones selected for modification.",
+      "secondary_MMD_reported_alongside": 0.5,
+      "secondary_justification": "half a unit is a factor of about three in thiolate fraction; reported so the verdict's sensitivity to this threshold is visible.",
+      "third_caliber_reported_alongside": 0.12,
+      "third_justification": "the difference the authors themselves observed (10.0 versus 9.88). At this caliber NO design of this size can be powered, and reporting it makes that explicit rather than implicit.",
+      "rule": "the primary verdict uses MMD = 1.0. The 0.5 and 0.12 calibers are reported in the same table, never in place of it. If the three calibers disagree, the disagreement is the result and is reported as such."
+    },
+    "A_versus_B_comparison_scope_declared_now": {
+      "the_gap": "instrument A covers 190 proteins and instrument B will cover at most 120. The registration does not say on which set the two instruments are compared.",
+      "rule": "the CLAIM verdict for instrument A uses A's full cohort (190 proteins, 1,673 usable cysteines). The AGREEMENT test between A and B uses only cysteines present in both, and instrument A's verdict is recomputed on that common subset for that purpose alone and labelled as such. Neither number is allowed to stand in for the other."
+    }
+  },
+
+  "predictions": [
+    {
+      "id": "P1",
+      "statement": "Instrument A, full cohort, unmatched baseline: the difference in mean pKa (positive minus background) lies in the interval [-0.60, +0.20] pKa units.",
+      "wrong_if": "the point estimate falls outside that interval"
+    },
+    {
+      "id": "P2",
+      "statement": "The sign of that difference is NEGATIVE - positives have the lower predicted pKa.",
+      "confidence": 0.6,
+      "reasoning": "S-nitrosylation sites are typically solvent-accessible, and PROPKA raises cysteine pKa for buried residues; removing disulfide and metal-coordinated cysteines removes the extreme upward shifts from both classes. The authors' own numbers point the other way (+0.12), which is why the confidence is only 0.6 and why this is recorded as a separate, falsifiable prediction rather than folded into P1.",
+      "wrong_if": "the point estimate is positive"
+    },
+    {
+      "id": "P3",
+      "statement": "The 95% cluster-bootstrap interval for that difference COVERS zero, for instrument A and for instrument B.",
+      "wrong_if": "either interval excludes zero"
+    },
+    {
+      "id": "P4",
+      "statement": "At the primary MMD of 1.0 the verdict is `survives` for both instruments; at the 0.12 caliber it is `undecidable` for both.",
+      "wrong_if": "any of those four cells comes out otherwise"
+    },
+    {
+      "id": "P5",
+      "statement": "Instrument B's difference on its own subset has the SAME SIGN as instrument A's difference recomputed on that same subset, and the two differ by less than 0.5 pKa units.",
+      "wrong_if": "the signs differ, or the absolute gap is 0.5 or more"
+    },
+    {
+      "id": "P6",
+      "statement": "Ensemble-averaged pKa is systematically LOWER than the static-model pKa: the median per-cysteine shift (B minus A) lies in [-1.5, 0.0].",
+      "reasoning": "explicit solvent and thermal relaxation open buried environments that a single static conformer keeps closed, and PROPKA's largest positive shifts come from burial.",
+      "wrong_if": "the median shift is positive, or below -1.5"
+    },
+    {
+      "id": "P7",
+      "statement": "The Spearman correlation between instrument A and instrument B per-cysteine pKa, over cysteines both instruments value, exceeds 0.60.",
+      "wrong_if": "it is 0.60 or below"
+    },
+    {
+      "id": "P8",
+      "statement": "Probability assigned now to each of the registration's four predeclared outcomes.",
+      "distribution": {
+        "1_both_agree_and_the_null_survives": 0.55,
+        "2_both_agree_and_the_null_breaks": 0.10,
+        "3_the_instruments_disagree": 0.30,
+        "4_too_few_sites_survive": 0.05
+      },
+      "wrong_if": "not falsifiable on its own; it is recorded so that the eventual outcome can be scored against a stated prior rather than against a reconstructed one"
+    },
+    {
+      "id": "P9",
+      "statement": "After matching on the detectability covariates, the absolute difference stays below 0.5 pKa units and its interval still covers zero; the same-size random control's interval also covers zero.",
+      "wrong_if": "the matched interval excludes zero, or the random control's interval excludes zero while the matched one does not"
+    }
+  ],
+
+  "how_this_lock_is_settled": {
+    "when": "after instrument B's last protein finishes and the ensemble pKa is computed, in the SAME run that issues the round's verdict",
+    "procedure": "the verdict script is written and its sha256 recorded BEFORE it is pointed at instrument B's output; it reads this file, evaluates each prediction mechanically, and writes results/pka_blind_prediction_scorecard.csv with one row per prediction: predicted, observed, correct true/false.",
+    "no_refit_rule": "no threshold, interval method, seed, exclusion rule, MMD or scope declared above may be changed after any prediction is scored. A wrong prediction is reported as wrong and kept.",
+    "what_a_wrong_prediction_does_NOT_do": "it does not invalidate the round's verdict. The verdict follows the registration; this lock only records whether we could have called it in advance."
+  },
+
+  "what_this_file_does_NOT_change": {
+    "registered_contrast": false,
+    "registered_controls": false,
+    "interval_method_or_seed": false,
+    "exclusion_rules_metal_or_disulfide": false,
+    "the_120_protein_seeded_draw": false,
+    "verdict_vocabulary": false,
+    "the_rule_that_no_comparison_is_made_until_both_instruments_are_in": false,
+    "instrument_A_products_already_on_disk": false,
+    "note": "the only things this file ADDS are (a) the numeric minimum meaningful difference the registration left open, (b) the A-versus-B comparison scope the registration left open, and (c) the predictions. Both (a) and (b) were written before any class-wise statistic existed for either instrument."
+  }
+}

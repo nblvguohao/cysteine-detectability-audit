@@ -1,0 +1,5 @@
+figure,panel,row,field,value,source_table,specification_label
+FigS7,-,Passed screening,records,942,"cysteine-detectability-audit/source_data_submitted/Source_Data_Fig1_overview.csv (panel b, row Passed screening); from Supplemental_Data_9_survey_coding_table.csv",plotted; redrawn from the original figure build (same values and colours)
+FigS7,-,Full text retrieved,records,367,"cysteine-detectability-audit/source_data_submitted/Source_Data_Fig1_overview.csv (panel b, row Full text retrieved); from Supplemental_Data_9_survey_coding_table.csv",plotted; redrawn from the original figure build (same values and colours)
+FigS7,-,Sampled for coding,records,120,"cysteine-detectability-audit/source_data_submitted/Source_Data_Fig1_overview.csv (panel b, row Sampled for coding); from Supplemental_Data_9_survey_coding_table.csv",plotted; redrawn from the original figure build (same values and colours)
+FigS7,-,Classified,records,74,"cysteine-detectability-audit/source_data_submitted/Source_Data_Fig1_overview.csv (panel b, row Classified); from Supplemental_Data_9_survey_coding_table.csv",plotted; redrawn from the original figure build (same values and colours)

@@ -1,0 +1,1008 @@
+figure,panel,row,field,source_data_value,independent_value,independent_source,tolerance,match
+Fig2,a,qtrp_S1_ph5|NEG_A,auc_global_VIS10,0.855,0.855,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S1_ph5|NEG_A,auc_global_VIS10_lo,0.8347,0.835,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S1_ph5|NEG_A,auc_global_VIS10_hi,0.8738,0.874,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S1_ph5|NEG_A,auc_within_protein_VIS10,0.8818,0.882,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S1_ph5|NEG_A,auc_within_protein_VIS10_lo,0.8569,0.857,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S1_ph5|NEG_A,auc_within_protein_VIS10_hi,0.9024,0.902,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S1_ph5|NEG_A,auc_within_protein_DIG25,0.9426,0.943,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S1_ph5|NEG_A,auc_within_protein_DIG25_lo,0.9285,0.929,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S1_ph5|NEG_A,auc_within_protein_DIG25_hi,0.9557,0.956,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S1_ph5|NEG_B,auc_global_VIS10,0.571,0.571,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S1_ph5|NEG_B,auc_global_VIS10_lo,0.5281,0.528,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S1_ph5|NEG_B,auc_global_VIS10_hi,0.6127,0.613,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S1_ph5|NEG_B,auc_within_protein_VIS10,0.6198,0.62,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S1_ph5|NEG_B,auc_within_protein_VIS10_lo,0.5275,0.528,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S1_ph5|NEG_B,auc_within_protein_VIS10_hi,0.7083,0.708,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S1_ph5|NEG_B,auc_within_protein_DIG25,0.7919,0.792,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S1_ph5|NEG_B,auc_within_protein_DIG25_lo,0.7289,0.729,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S1_ph5|NEG_B,auc_within_protein_DIG25_hi,0.8473,0.847,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S2_ph5|NEG_A,auc_global_VIS10,0.6385,0.639,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S2_ph5|NEG_A,auc_global_VIS10_lo,0.5624,0.562,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S2_ph5|NEG_A,auc_global_VIS10_hi,0.7158,0.716,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S2_ph5|NEG_A,auc_within_protein_VIS10,0.6647,0.665,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S2_ph5|NEG_A,auc_within_protein_VIS10_lo,0.5614,0.561,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S2_ph5|NEG_A,auc_within_protein_VIS10_hi,0.7572,0.757,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S2_ph5|NEG_A,auc_within_protein_DIG25,0.7246,0.725,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S2_ph5|NEG_A,auc_within_protein_DIG25_lo,0.6193,0.619,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S2_ph5|NEG_A,auc_within_protein_DIG25_hi,0.819,0.819,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S2_ph5|NEG_B,auc_global_VIS10,0.4329,0.433,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S2_ph5|NEG_B,auc_global_VIS10_lo,0.3668,0.367,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qtrp_S2_ph5|NEG_B,auc_global_VIS10_hi,0.4985,0.499,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S2_ph5|NEG_B,auc_within_protein_VIS10,0.4186,0.419,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S2_ph5|NEG_B,auc_within_protein_VIS10_lo,0.2836,0.284,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qtrp_S2_ph5|NEG_B,auc_within_protein_VIS10_hi,0.5769,0.577,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S2_ph5|NEG_B,auc_within_protein_DIG25,0.5349,0.535,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S2_ph5|NEG_B,auc_within_protein_DIG25_lo,0.4,0.4,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qtrp_S2_ph5|NEG_B,auc_within_protein_DIG25_hi,0.6753,0.675,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qpers_sid_tierB|NEG_A,auc_global_VIS10,0.7905,0.791,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qpers_sid_tierB|NEG_A,auc_global_VIS10_lo,0.7753,0.775,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qpers_sid_tierB|NEG_A,auc_global_VIS10_hi,0.8053,0.805,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qpers_sid_tierB|NEG_A,auc_within_protein_VIS10,0.8053,0.805,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qpers_sid_tierB|NEG_A,auc_within_protein_VIS10_lo,0.7845,0.785,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qpers_sid_tierB|NEG_A,auc_within_protein_VIS10_hi,0.8266,0.827,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qpers_sid_tierB|NEG_A,auc_within_protein_DIG25,0.8708,0.871,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qpers_sid_tierB|NEG_A,auc_within_protein_DIG25_lo,0.8558,0.856,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qpers_sid_tierB|NEG_A,auc_within_protein_DIG25_hi,0.8854,0.885,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qpers_sid_tierB|NEG_B,auc_global_VIS10,0.6182,0.618,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qpers_sid_tierB|NEG_B,auc_global_VIS10_lo,0.5918,0.592,Note 20 Table S20.1,0.00051,yes
+Fig2,a,qpers_sid_tierB|NEG_B,auc_global_VIS10_hi,0.6437,0.644,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qpers_sid_tierB|NEG_B,auc_within_protein_VIS10,0.6476,0.648,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qpers_sid_tierB|NEG_B,auc_within_protein_VIS10_lo,0.5988,0.599,Note 20 Table S20.1,0.00051,yes
+Fig2,b,qpers_sid_tierB|NEG_B,auc_within_protein_VIS10_hi,0.7001,0.7,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qpers_sid_tierB|NEG_B,auc_within_protein_DIG25,0.7317,0.732,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qpers_sid_tierB|NEG_B,auc_within_protein_DIG25_lo,0.6959,0.696,Note 20 Table S20.1,0.00051,yes
+Fig2,c,qpers_sid_tierB|NEG_B,auc_within_protein_DIG25_hi,0.7671,0.767,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_hela|NEG_A,auc_global_VIS10,0.7376,0.738,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_hela|NEG_A,auc_global_VIS10_lo,0.7319,0.732,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_hela|NEG_A,auc_global_VIS10_hi,0.7437,0.744,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_hela|NEG_A,auc_within_protein_VIS10,0.7616,0.762,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_hela|NEG_A,auc_within_protein_VIS10_lo,0.7541,0.754,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_hela|NEG_A,auc_within_protein_VIS10_hi,0.7691,0.769,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_hela|NEG_A,auc_within_protein_DIG25,0.8075,0.808,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_hela|NEG_A,auc_within_protein_DIG25_lo,0.8004,0.8,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_hela|NEG_A,auc_within_protein_DIG25_hi,0.8145,0.815,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_hela|NEG_B,auc_global_VIS10,0.5303,0.53,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_hela|NEG_B,auc_global_VIS10_lo,0.5225,0.523,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_hela|NEG_B,auc_global_VIS10_hi,0.5381,0.538,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_hela|NEG_B,auc_within_protein_VIS10,0.5464,0.546,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_hela|NEG_B,auc_within_protein_VIS10_lo,0.5333,0.533,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_hela|NEG_B,auc_within_protein_VIS10_hi,0.56,0.56,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_hela|NEG_B,auc_within_protein_DIG25,0.6339,0.634,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_hela|NEG_B,auc_within_protein_DIG25_lo,0.6204,0.62,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_hela|NEG_B,auc_within_protein_DIG25_hi,0.6471,0.647,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_shsy5y|NEG_A,auc_global_VIS10,0.711,0.711,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_shsy5y|NEG_A,auc_global_VIS10_lo,0.7002,0.7,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_shsy5y|NEG_A,auc_global_VIS10_hi,0.722,0.722,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_shsy5y|NEG_A,auc_within_protein_VIS10,0.7279,0.728,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_shsy5y|NEG_A,auc_within_protein_VIS10_lo,0.712,0.712,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_shsy5y|NEG_A,auc_within_protein_VIS10_hi,0.743,0.743,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_shsy5y|NEG_A,auc_within_protein_DIG25,0.7482,0.748,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_shsy5y|NEG_A,auc_within_protein_DIG25_lo,0.7314,0.731,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_shsy5y|NEG_A,auc_within_protein_DIG25_hi,0.7631,0.763,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_shsy5y|NEG_B,auc_global_VIS10,0.575,0.575,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_shsy5y|NEG_B,auc_global_VIS10_lo,0.5475,0.548,Note 20 Table S20.1,0.00051,yes
+Fig2,a,cysboost2019_human_sno_shsy5y|NEG_B,auc_global_VIS10_hi,0.6032,0.603,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_shsy5y|NEG_B,auc_within_protein_VIS10,0.5419,0.542,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_shsy5y|NEG_B,auc_within_protein_VIS10_lo,0.5106,0.511,Note 20 Table S20.1,0.00051,yes
+Fig2,b,cysboost2019_human_sno_shsy5y|NEG_B,auc_within_protein_VIS10_hi,0.5772,0.577,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_shsy5y|NEG_B,auc_within_protein_DIG25,0.7369,0.737,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_shsy5y|NEG_B,auc_within_protein_DIG25_lo,0.697,0.697,Note 20 Table S20.1,0.00051,yes
+Fig2,c,cysboost2019_human_sno_shsy5y|NEG_B,auc_within_protein_DIG25_hi,0.77,0.77,Note 20 Table S20.1,0.00051,yes
+Fig2,a,natcomm2023_ath_sno|NEG_A,auc_global_VIS10,0.8393,0.839,Note 20 Table S20.1,0.00051,yes
+Fig2,a,natcomm2023_ath_sno|NEG_A,auc_global_VIS10_lo,0.8308,0.831,Note 20 Table S20.1,0.00051,yes
+Fig2,a,natcomm2023_ath_sno|NEG_A,auc_global_VIS10_hi,0.8478,0.848,Note 20 Table S20.1,0.00051,yes
+Fig2,b,natcomm2023_ath_sno|NEG_A,auc_within_protein_VIS10,0.8516,0.852,Note 20 Table S20.1,0.00051,yes
+Fig2,b,natcomm2023_ath_sno|NEG_A,auc_within_protein_VIS10_lo,0.84,0.84,Note 20 Table S20.1,0.00051,yes
+Fig2,b,natcomm2023_ath_sno|NEG_A,auc_within_protein_VIS10_hi,0.8623,0.862,Note 20 Table S20.1,0.00051,yes
+Fig2,c,natcomm2023_ath_sno|NEG_A,auc_within_protein_DIG25,0.88,0.88,Note 20 Table S20.1,0.00051,yes
+Fig2,c,natcomm2023_ath_sno|NEG_A,auc_within_protein_DIG25_lo,0.8702,0.87,Note 20 Table S20.1,0.00051,yes
+Fig2,c,natcomm2023_ath_sno|NEG_A,auc_within_protein_DIG25_hi,0.8892,0.889,Note 20 Table S20.1,0.00051,yes
+Fig2,a,abiotech2025_ath_sno|NEG_A,auc_global_VIS10,0.7586,0.759,Note 20 Table S20.1,0.00051,yes
+Fig2,a,abiotech2025_ath_sno|NEG_A,auc_global_VIS10_lo,0.7511,0.751,Note 20 Table S20.1,0.00051,yes
+Fig2,a,abiotech2025_ath_sno|NEG_A,auc_global_VIS10_hi,0.766,0.766,Note 20 Table S20.1,0.00051,yes
+Fig2,b,abiotech2025_ath_sno|NEG_A,auc_within_protein_VIS10,0.7849,0.785,Note 20 Table S20.1,0.00051,yes
+Fig2,b,abiotech2025_ath_sno|NEG_A,auc_within_protein_VIS10_lo,0.7751,0.775,Note 20 Table S20.1,0.00051,yes
+Fig2,b,abiotech2025_ath_sno|NEG_A,auc_within_protein_VIS10_hi,0.7941,0.794,Note 20 Table S20.1,0.00051,yes
+Fig2,c,abiotech2025_ath_sno|NEG_A,auc_within_protein_DIG25,0.8468,0.847,Note 20 Table S20.1,0.00051,yes
+Fig2,c,abiotech2025_ath_sno|NEG_A,auc_within_protein_DIG25_lo,0.8386,0.839,Note 20 Table S20.1,0.00051,yes
+Fig2,c,abiotech2025_ath_sno|NEG_A,auc_within_protein_DIG25_hi,0.8545,0.855,Note 20 Table S20.1,0.00051,yes
+Fig2,a,abiotech2025_ath_sno|NEG_B,auc_global_VIS10,0.6238,0.624,Note 20 Table S20.1,0.00051,yes
+Fig2,a,abiotech2025_ath_sno|NEG_B,auc_global_VIS10_lo,0.6015,0.602,Note 20 Table S20.1,0.00051,yes
+Fig2,a,abiotech2025_ath_sno|NEG_B,auc_global_VIS10_hi,0.6464,0.646,Note 20 Table S20.1,0.00051,yes
+Fig2,b,abiotech2025_ath_sno|NEG_B,auc_within_protein_VIS10,0.5639,0.564,Note 20 Table S20.1,0.00051,yes
+Fig2,b,abiotech2025_ath_sno|NEG_B,auc_within_protein_VIS10_lo,0.5209,0.521,Note 20 Table S20.1,0.00051,yes
+Fig2,b,abiotech2025_ath_sno|NEG_B,auc_within_protein_VIS10_hi,0.6094,0.609,Note 20 Table S20.1,0.00051,yes
+Fig2,c,abiotech2025_ath_sno|NEG_B,auc_within_protein_DIG25,0.8239,0.824,Note 20 Table S20.1,0.00051,yes
+Fig2,c,abiotech2025_ath_sno|NEG_B,auc_within_protein_DIG25_lo,0.7969,0.797,Note 20 Table S20.1,0.00051,yes
+Fig2,c,abiotech2025_ath_sno|NEG_B,auc_within_protein_DIG25_hi,0.8489,0.849,Note 20 Table S20.1,0.00051,yes
+Fig2,a,fps2020_ath_sulfenyl|NEG_A,auc_global_VIS10,0.726,0.726,Note 20 Table S20.1,0.00051,yes
+Fig2,a,fps2020_ath_sulfenyl|NEG_A,auc_global_VIS10_lo,0.7128,0.713,Note 20 Table S20.1,0.00051,yes
+Fig2,a,fps2020_ath_sulfenyl|NEG_A,auc_global_VIS10_hi,0.739,0.739,Note 20 Table S20.1,0.00051,yes
+Fig2,b,fps2020_ath_sulfenyl|NEG_A,auc_within_protein_VIS10,0.752,0.752,Note 20 Table S20.1,0.00051,yes
+Fig2,b,fps2020_ath_sulfenyl|NEG_A,auc_within_protein_VIS10_lo,0.7354,0.735,Note 20 Table S20.1,0.00051,yes
+Fig2,b,fps2020_ath_sulfenyl|NEG_A,auc_within_protein_VIS10_hi,0.7684,0.768,Note 20 Table S20.1,0.00051,yes
+Fig2,c,fps2020_ath_sulfenyl|NEG_A,auc_within_protein_DIG25,0.8112,0.811,Note 20 Table S20.1,0.00051,yes
+Fig2,c,fps2020_ath_sulfenyl|NEG_A,auc_within_protein_DIG25_lo,0.7959,0.796,Note 20 Table S20.1,0.00051,yes
+Fig2,c,fps2020_ath_sulfenyl|NEG_A,auc_within_protein_DIG25_hi,0.8256,0.826,Note 20 Table S20.1,0.00051,yes
+Fig2,a,fps2020_ath_sulfenyl|NEG_B,auc_global_VIS10,0.7718,0.772,Note 20 Table S20.1,0.00051,yes
+Fig2,a,fps2020_ath_sulfenyl|NEG_B,auc_global_VIS10_lo,0.7459,0.746,Note 20 Table S20.1,0.00051,yes
+Fig2,a,fps2020_ath_sulfenyl|NEG_B,auc_global_VIS10_hi,0.7961,0.796,Note 20 Table S20.1,0.00051,yes
+Fig2,b,fps2020_ath_sulfenyl|NEG_B,auc_within_protein_VIS10,0.7647,0.765,Note 20 Table S20.1,0.00051,yes
+Fig2,b,fps2020_ath_sulfenyl|NEG_B,auc_within_protein_VIS10_lo,0.7097,0.71,Note 20 Table S20.1,0.00051,yes
+Fig2,b,fps2020_ath_sulfenyl|NEG_B,auc_within_protein_VIS10_hi,0.8165,0.817,Note 20 Table S20.1,0.00051,yes
+Fig2,c,fps2020_ath_sulfenyl|NEG_B,auc_within_protein_DIG25,0.8431,0.843,Note 20 Table S20.1,0.00051,yes
+Fig2,c,fps2020_ath_sulfenyl|NEG_B,auc_within_protein_DIG25_lo,0.794,0.794,Note 20 Table S20.1,0.00051,yes
+Fig2,c,fps2020_ath_sulfenyl|NEG_B,auc_within_protein_DIG25_hi,0.8873,0.887,Note 20 Table S20.1,0.00051,yes
+Fig3,a,offset -7,ratio_vs_proteome,1.4628,1.4628,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -7,ci95_lo_vs_proteome,1.3183,1.3183,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -7,ci95_hi_vs_proteome,1.61,1.61,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -6,ratio_vs_proteome,1.5648,1.5648,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -6,ci95_lo_vs_proteome,1.4194,1.4194,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -6,ci95_hi_vs_proteome,1.7159,1.7159,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -5,ratio_vs_proteome,1.4008,1.4008,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -5,ci95_lo_vs_proteome,1.2642,1.2642,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -5,ci95_hi_vs_proteome,1.5391,1.5391,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -4,ratio_vs_proteome,1.2719,1.2719,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -4,ci95_lo_vs_proteome,1.1323,1.1323,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -4,ci95_hi_vs_proteome,1.418,1.418,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -3,ratio_vs_proteome,1.1648,1.1648,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -3,ci95_lo_vs_proteome,1.0315,1.0315,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -3,ci95_hi_vs_proteome,1.2969,1.2969,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -2,ratio_vs_proteome,1.1248,1.1248,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -2,ci95_lo_vs_proteome,1.0009,1.0009,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -2,ci95_hi_vs_proteome,1.2579,1.2579,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -1,ratio_vs_proteome,0.4576,0.4576,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -1,ci95_lo_vs_proteome,0.3681,0.3681,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -1,ci95_hi_vs_proteome,0.5487,0.5487,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +1,ratio_vs_proteome,1.1159,1.1159,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +1,ci95_lo_vs_proteome,0.9939,0.9939,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +1,ci95_hi_vs_proteome,1.2455,1.2455,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +2,ratio_vs_proteome,1.2359,1.2359,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +2,ci95_lo_vs_proteome,1.104,1.104,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +2,ci95_hi_vs_proteome,1.3648,1.3648,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +3,ratio_vs_proteome,1.4201,1.4201,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +3,ci95_lo_vs_proteome,1.2737,1.2737,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +3,ci95_hi_vs_proteome,1.5665,1.5665,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +4,ratio_vs_proteome,1.3472,1.3472,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +4,ci95_lo_vs_proteome,1.2043,1.2043,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +4,ci95_hi_vs_proteome,1.4915,1.4915,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +5,ratio_vs_proteome,1.4975,1.4975,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +5,ci95_lo_vs_proteome,1.3572,1.3572,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +5,ci95_hi_vs_proteome,1.6421,1.6421,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +6,ratio_vs_proteome,1.463,1.463,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +6,ci95_lo_vs_proteome,1.3226,1.3226,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +6,ci95_hi_vs_proteome,1.6084,1.6084,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +7,ratio_vs_proteome,1.3831,1.3831,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +7,ci95_lo_vs_proteome,1.2417,1.2417,positional CSV (csv module),1e-09,yes
+Fig3,a,offset +7,ci95_hi_vs_proteome,1.5235,1.5235,positional CSV (csv module),1e-09,yes
+Fig3,a,offset -1,ratio_vs_proteome_printed,0.46,0.46,"positional CSV, rounded to 2 dp",1e-09,yes
+Fig3,a,offset +5,ratio_vs_proteome_printed,1.50,1.5,"positional CSV, rounded to 2 dp",1e-09,yes
+Fig3,a,offset +7,ratio_vs_proteome_printed,1.38,1.38,"positional CSV, rounded to 2 dp",1e-09,yes
+Fig3,b,"S-nitrosylation, K/R/H",z_raw,15.72,15.72,12_matched JSON,1e-09,yes
+Fig3,b,"S-nitrosylation, K/R/H",z_matched,8.22,8.22,12_matched JSON,1e-09,yes
+Fig3,b,"S-sulfenylation, K/R/H",z_raw,10.03,10.03,12_matched JSON,1e-09,yes
+Fig3,b,"S-sulfenylation, K/R/H",z_matched,4.71,4.71,12_matched JSON,1e-09,yes
+Fig3,b,"Reversible oxidation, K/R/H",z_raw,5.59,5.59,12_matched JSON,1e-09,yes
+Fig3,b,"Reversible oxidation, K/R/H",z_matched,0.67,0.67,12_matched JSON,1e-09,yes
+Fig3,b,"Reversible oxidation, D/E (control)",z_raw,6.04,6.04,12_matched JSON,1e-09,yes
+Fig3,b,"Reversible oxidation, D/E (control)",z_matched,6.62,6.62,12_matched JSON,1e-09,yes
+Fig3,c,AspN|aspn|proteome|distal_6_12,estimate,1.539092,1.539092,Note 4 cleavage table,1e-06,yes
+Fig3,c,AspN|aspn|proteome|distal_6_12,ci_low,0.793042,0.793042,Note 4 cleavage table,1e-06,yes
+Fig3,c,AspN|aspn|proteome|distal_6_12,ci_high,2.492719,2.492719,Note 4 cleavage table,1e-06,yes
+Fig3,c,AspN|trypsin|proteome|distal_6_12,estimate,0.118877,0.118877,Note 4 cleavage table,1e-06,yes
+Fig3,c,AspN|trypsin|proteome|distal_6_12,ci_low,-0.554927,-0.554927,Note 4 cleavage table,1e-06,yes
+Fig3,c,AspN|trypsin|proteome|distal_6_12,ci_high,0.863666,0.863666,Note 4 cleavage table,1e-06,yes
+Fig3,d,AspN|aspn|observed|distal_6_12,estimate,0.009696,0.009696,Note 4 cleavage table,1e-06,yes
+Fig3,d,AspN|aspn|observed|distal_6_12,ci_low,-1.346075,-1.346075,Note 4 cleavage table,1e-06,yes
+Fig3,d,AspN|aspn|observed|distal_6_12,ci_high,1.279257,1.279257,Note 4 cleavage table,1e-06,yes
+Fig3,c,AspN,identified_cysteines,187,187,Note 4 input table,0,yes
+Fig3,c,AspN,identified_cysteines,187,187,Note 4 input table,0,yes
+Fig3,c,CT|chymotrypsin|proteome|distal_6_12,estimate,1.194606,1.194606,Note 4 cleavage table,1e-06,yes
+Fig3,c,CT|chymotrypsin|proteome|distal_6_12,ci_low,0.801952,0.801952,Note 4 cleavage table,1e-06,yes
+Fig3,c,CT|chymotrypsin|proteome|distal_6_12,ci_high,1.63019,1.63019,Note 4 cleavage table,1e-06,yes
+Fig3,c,CT|trypsin|proteome|distal_6_12,estimate,0.334937,0.334937,Note 4 cleavage table,1e-06,yes
+Fig3,c,CT|trypsin|proteome|distal_6_12,ci_low,-0.065642,-0.065642,Note 4 cleavage table,1e-06,yes
+Fig3,c,CT|trypsin|proteome|distal_6_12,ci_high,0.775046,0.775046,Note 4 cleavage table,1e-06,yes
+Fig3,d,CT|chymotrypsin|observed|distal_6_12,estimate,-0.182265,-0.182265,Note 4 cleavage table,1e-06,yes
+Fig3,d,CT|chymotrypsin|observed|distal_6_12,ci_low,-0.847299,-0.847299,Note 4 cleavage table,1e-06,yes
+Fig3,d,CT|chymotrypsin|observed|distal_6_12,ci_high,0.430168,0.430168,Note 4 cleavage table,1e-06,yes
+Fig3,c,Chymotrypsin,identified_cysteines,728,728,Note 4 input table,0,yes
+Fig3,c,Chymotrypsin,identified_cysteines,728,728,Note 4 input table,0,yes
+Fig3,c,GluC|gluc|proteome|distal_6_12,estimate,0.944881,0.944881,Note 4 cleavage table,1e-06,yes
+Fig3,c,GluC|gluc|proteome|distal_6_12,ci_low,0.573888,0.573888,Note 4 cleavage table,1e-06,yes
+Fig3,c,GluC|gluc|proteome|distal_6_12,ci_high,1.347499,1.347499,Note 4 cleavage table,1e-06,yes
+Fig3,c,GluC|trypsin|proteome|distal_6_12,estimate,0.383989,0.383989,Note 4 cleavage table,1e-06,yes
+Fig3,c,GluC|trypsin|proteome|distal_6_12,ci_low,-0.064028,-0.064028,Note 4 cleavage table,1e-06,yes
+Fig3,c,GluC|trypsin|proteome|distal_6_12,ci_high,0.846555,0.846555,Note 4 cleavage table,1e-06,yes
+Fig3,d,GluC|gluc|observed|distal_6_12,estimate,-0.550606,-0.550606,Note 4 cleavage table,1e-06,yes
+Fig3,d,GluC|gluc|observed|distal_6_12,ci_low,-1.186751,-1.186751,Note 4 cleavage table,1e-06,yes
+Fig3,d,GluC|gluc|observed|distal_6_12,ci_high,0.04365,0.04365,Note 4 cleavage table,1e-06,yes
+Fig3,c,GluC,identified_cysteines,884,884,Note 4 input table,0,yes
+Fig3,c,GluC,identified_cysteines,884,884,Note 4 input table,0,yes
+Fig3,c,Trypsin|trypsin|proteome|distal_6_12,estimate,0.972971,0.972971,Note 4 cleavage table,1e-06,yes
+Fig3,c,Trypsin|trypsin|proteome|distal_6_12,ci_low,0.711516,0.711516,Note 4 cleavage table,1e-06,yes
+Fig3,c,Trypsin|trypsin|proteome|distal_6_12,ci_high,1.275616,1.275616,Note 4 cleavage table,1e-06,yes
+Fig3,d,Trypsin|trypsin|observed|distal_6_12,estimate,0.060834,0.060834,Note 4 cleavage table,1e-06,yes
+Fig3,d,Trypsin|trypsin|observed|distal_6_12,ci_low,-0.235279,-0.235279,Note 4 cleavage table,1e-06,yes
+Fig3,d,Trypsin|trypsin|observed|distal_6_12,ci_high,0.380768,0.380768,Note 4 cleavage table,1e-06,yes
+Fig3,c,Trypsin,identified_cysteines,5328,5328,Note 4 input table,0,yes
+Fig3,c,Trypsin,identified_cysteines,5328,5328,Note 4 input table,0,yes
+Fig4,a,PXD048216,share,0.94176,0.94176,Note 7 coincidence table,1e-09,yes
+Fig4,a,PXD048216,wilson_low,0.93357,0.93357,Note 7 coincidence table,1e-09,yes
+Fig4,a,PXD048216,wilson_high,0.94899,0.94899,Note 7 coincidence table,1e-09,yes
+Fig4,a,PXD048216,identified,3554,3554,Note 7 coincidence table,1e-09,yes
+Fig4,a,PXD048216,with_site,3347,3347,Note 7 coincidence table,1e-09,yes
+Fig4,a,PXD063463 trypsin,estimate,0.255068,0.255068,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 trypsin,ci_low,0.238042,0.238042,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 trypsin,ci_high,0.272426,0.272426,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 chymotrypsin,estimate,0.56456,0.56456,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 chymotrypsin,ci_low,0.522788,0.522788,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 chymotrypsin,ci_high,0.607241,0.607241,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 GluC,estimate,0.587104,0.587104,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 GluC,ci_low,0.547189,0.547189,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 GluC,ci_high,0.625432,0.625432,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 AspN,estimate,0.614973,0.614973,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 AspN,ci_low,0.540533,0.540533,Note 4 coincidence table,0.00051,yes
+Fig4,a,PXD063463 AspN,ci_high,0.685992,0.685992,Note 4 coincidence table,0.00051,yes
+Fig4,a,fps2020_ath_sulfenyl,share,0.8094,0.8094,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,fps2020_ath_sulfenyl,wilson_low,0.7922,0.7922,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,fps2020_ath_sulfenyl,wilson_high,0.8254,0.8254,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,qpers_sid_tierB,share,0.3588,0.3588,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,qpers_sid_tierB,wilson_low,0.3381,0.3381,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,qpers_sid_tierB,wilson_high,0.3799,0.3799,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,qtrp_S1_ph5,share,0.193,0.193,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,qtrp_S1_ph5,wilson_low,0.1734,0.1734,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,qtrp_S1_ph5,wilson_high,0.2143,0.2143,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,qtrp_S2_ph5,share,0.0675,0.0675,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,qtrp_S2_ph5,wilson_low,0.0546,0.0546,artefact4 cohorts CSV,1e-09,yes
+Fig4,a,qtrp_S2_ph5,wilson_high,0.0832,0.0832,artefact4 cohorts CSV,1e-09,yes
+Fig4,b,separation curve point 001,mass_da,1100.0,1100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 001,separation_ppm,16.14369527272624,16.14369527272624,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 002,mass_da,1120.0,1120,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 002,separation_ppm,15.855414999998986,15.855414999998986,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 003,mass_da,1140.0,1140,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 003,separation_ppm,15.577249824560408,15.577249824560408,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 004,mass_da,1160.0,1160,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 004,separation_ppm,15.30867655172316,15.30867655172316,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 005,mass_da,1180.0,1180,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 005,separation_ppm,15.049207457626157,15.049207457626157,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 006,mass_da,1200.0,1200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 006,separation_ppm,14.798387333332387,14.798387333332387,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 007,mass_da,1220.0,1220,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 007,separation_ppm,14.5557908196712,14.5557908196712,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 008,mass_da,1240.0,1240,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 008,separation_ppm,14.321019999999084,14.321019999999084,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 009,mass_da,1260.0,1260,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 009,separation_ppm,14.09370222222132,14.09370222222132,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 010,mass_da,1280.0,1280,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 010,separation_ppm,13.873488124999113,13.873488124999113,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 011,mass_da,1300.0,1300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 011,separation_ppm,13.660049846152972,13.660049846152972,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 012,mass_da,1320.0,1320,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 012,separation_ppm,13.453079393938534,13.453079393938534,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 013,mass_da,1340.0,1340,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 013,separation_ppm,13.252287164178258,13.252287164178258,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 014,mass_da,1360.0,1360,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 014,separation_ppm,13.05740058823446,13.05740058823446,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 015,mass_da,1380.0,1380,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 015,separation_ppm,12.868162898549903,12.868162898549903,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 016,mass_da,1400.0,1400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 016,separation_ppm,12.68433199999919,12.68433199999919,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 017,mass_da,1420.0,1420,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 017,separation_ppm,12.50567943661892,12.50567943661892,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 018,mass_da,1440.0,1440,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 018,separation_ppm,12.331989444443657,12.331989444443657,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 019,mass_da,1460.0,1460,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 019,separation_ppm,12.163058082191004,12.163058082191004,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 020,mass_da,1480.0,1480,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 020,separation_ppm,11.998692432431666,11.998692432431666,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 021,mass_da,1500.0,1500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 021,separation_ppm,11.83870986666591,11.83870986666591,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 022,mass_da,1520.0,1520,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 022,separation_ppm,11.682937368420307,11.682937368420307,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 023,mass_da,1540.0,1540,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 023,separation_ppm,11.531210909090172,11.531210909090172,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 024,mass_da,1560.0,1560,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 024,separation_ppm,11.383374871794144,11.383374871794144,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 025,mass_da,1580.0,1580,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 025,separation_ppm,11.239281518986623,11.239281518986623,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 026,mass_da,1600.0,1600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 026,separation_ppm,11.098790499999291,11.098790499999291,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 027,mass_da,1620.0,1620,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 027,separation_ppm,10.961768395061029,10.961768395061029,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 028,mass_da,1640.0,1640,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 028,separation_ppm,10.828088292682235,10.828088292682235,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 029,mass_da,1660.0,1660,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 029,separation_ppm,10.697629397589678,10.697629397589678,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 030,mass_da,1680.0,1680,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 030,separation_ppm,10.570276666665992,10.570276666665992,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 031,mass_da,1700.0,1700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 031,separation_ppm,10.445920470587568,10.445920470587568,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 032,mass_da,1720.0,1720,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 032,separation_ppm,10.324456279069107,10.324456279069107,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 033,mass_da,1740.0,1740,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 033,separation_ppm,10.20578436781544,10.20578436781544,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 034,mass_da,1760.0,1760,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 034,separation_ppm,10.089809545453901,10.089809545453901,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 035,mass_da,1780.0,1780,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 035,separation_ppm,9.976440898875767,9.976440898875767,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 036,mass_da,1800.0,1800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 036,separation_ppm,9.865591555554925,9.865591555554925,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 037,mass_da,1820.0,1820,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 037,separation_ppm,9.757178461537839,9.757178461537839,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 038,mass_da,1840.0,1840,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 038,separation_ppm,9.651122173912427,9.651122173912427,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 039,mass_da,1860.0,1860,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 039,separation_ppm,9.547346666666057,9.547346666666057,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 040,mass_da,1880.0,1880,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 040,separation_ppm,9.445779148935566,9.445779148935566,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 041,mass_da,1900.0,1900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 041,separation_ppm,9.346349894736244,9.346349894736244,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 042,mass_da,1920.0,1920,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 042,separation_ppm,9.248992083332743,9.248992083332743,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 043,mass_da,1940.0,1940,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 043,separation_ppm,9.153641649483951,9.153641649483951,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 044,mass_da,1960.0,1960,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 044,separation_ppm,9.060237142856565,9.060237142856565,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 045,mass_da,1980.0,1980,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 045,separation_ppm,8.968719595959023,8.968719595959023,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 046,mass_da,2000.0,2000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 046,separation_ppm,8.879032399999433,8.879032399999433,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 047,mass_da,2050.0,2050,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 047,separation_ppm,8.662470634145787,8.662470634145787,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 048,mass_da,2100.0,2100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 048,separation_ppm,8.456221333332794,8.456221333332794,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 049,mass_da,2150.0,2150,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 049,separation_ppm,8.259565023255286,8.259565023255286,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 050,mass_da,2200.0,2200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 050,separation_ppm,8.07184763636312,8.07184763636312,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 051,mass_da,2250.0,2250,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 051,separation_ppm,7.89247324444394,7.89247324444394,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 052,mass_da,2300.0,2300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 052,separation_ppm,7.720897739129941,7.720897739129941,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 053,mass_da,2350.0,2350,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 053,separation_ppm,7.5566233191484535,7.5566233191484535,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 054,mass_da,2400.0,2400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 054,separation_ppm,7.399193666666194,7.399193666666194,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 055,mass_da,2450.0,2450,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 055,separation_ppm,7.248189714285251,7.248189714285251,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 056,mass_da,2500.0,2500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 056,separation_ppm,7.103225919999546,7.103225919999546,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 057,mass_da,2550.0,2550,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 057,separation_ppm,6.963946980391712,6.963946980391712,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 058,mass_da,2600.0,2600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 058,separation_ppm,6.830024923076486,6.830024923076486,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 059,mass_da,2650.0,2650,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 059,separation_ppm,6.701156528301459,6.701156528301459,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 060,mass_da,2700.0,2700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 060,separation_ppm,6.577061037036617,6.577061037036617,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 061,mass_da,2750.0,2750,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 061,separation_ppm,6.457478109090497,6.457478109090497,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 062,mass_da,2800.0,2800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 062,separation_ppm,6.342165999999595,6.342165999999595,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 063,mass_da,2850.0,2850,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 063,separation_ppm,6.230899929824163,6.230899929824163,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 064,mass_da,2900.0,2900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 064,separation_ppm,6.123470620689264,6.123470620689264,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 065,mass_da,2950.0,2950,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 065,separation_ppm,6.019682983050463,6.019682983050463,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 066,mass_da,3000.0,3000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 066,separation_ppm,5.919354933332955,5.919354933332955,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 067,mass_da,3050.0,3050,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 067,separation_ppm,5.822316327868481,5.822316327868481,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 068,mass_da,3100.0,3100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 068,separation_ppm,5.728407999999634,5.728407999999634,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 069,mass_da,3150.0,3150,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 069,separation_ppm,5.637480888888528,5.637480888888528,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 070,mass_da,3200.0,3200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 070,separation_ppm,5.5493952499996455,5.5493952499996455,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 071,mass_da,3250.0,3250,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 071,separation_ppm,5.464019938461189,5.464019938461189,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 072,mass_da,3300.0,3300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 072,separation_ppm,5.381231757575414,5.381231757575414,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 073,mass_da,3350.0,3350,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 073,separation_ppm,5.300914865671303,5.300914865671303,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 074,mass_da,3400.0,3400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 074,separation_ppm,5.222960235293784,5.222960235293784,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 075,mass_da,3450.0,3450,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 075,separation_ppm,5.147265159419961,5.147265159419961,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 076,mass_da,3500.0,3500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 076,separation_ppm,5.073732799999676,5.073732799999676,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 077,mass_da,3550.0,3550,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 077,separation_ppm,5.002271774647568,5.002271774647568,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 078,mass_da,3600.0,3600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 078,separation_ppm,4.9327957777774625,4.9327957777774625,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 079,mass_da,3650.0,3650,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 079,separation_ppm,4.865223232876401,4.865223232876401,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 080,mass_da,3700.0,3700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 080,separation_ppm,4.799476972972666,4.799476972972666,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 081,mass_da,3750.0,3750,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 081,separation_ppm,4.735483946666364,4.735483946666364,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 082,mass_da,3800.0,3800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 082,separation_ppm,4.673174947368122,4.673174947368122,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 083,mass_da,3850.0,3850,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 083,separation_ppm,4.612484363636069,4.612484363636069,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 084,mass_da,3900.0,3900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 084,separation_ppm,4.553349948717658,4.553349948717658,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 085,mass_da,3950.0,3950,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 085,separation_ppm,4.495712607594649,4.495712607594649,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 086,mass_da,4000.0,4000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 086,separation_ppm,4.439516199999717,4.439516199999717,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 087,mass_da,4050.0,4050,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 087,separation_ppm,4.384707358024411,4.384707358024411,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 088,mass_da,4100.0,4100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 088,separation_ppm,4.331235317072894,4.331235317072894,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 089,mass_da,4150.0,4150,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 089,separation_ppm,4.279051759035871,4.279051759035871,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 090,mass_da,4200.0,4200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 090,separation_ppm,4.228110666666397,4.228110666666397,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 091,mass_da,4250.0,4250,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 091,separation_ppm,4.178368188235027,4.178368188235027,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 092,mass_da,4300.0,4300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 092,separation_ppm,4.129782511627643,4.129782511627643,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 093,mass_da,4350.0,4350,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 093,separation_ppm,4.082313747126176,4.082313747126176,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 094,mass_da,4400.0,4400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 094,separation_ppm,4.03592381818156,4.03592381818156,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 095,mass_da,4450.0,4450,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 095,separation_ppm,3.9905763595503068,3.9905763595503068,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 096,mass_da,4500.0,4500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 096,separation_ppm,3.94623662222197,3.94623662222197,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 097,mass_da,4550.0,4550,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 097,separation_ppm,3.902871384615135,3.902871384615135,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 098,mass_da,4600.0,4600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 098,separation_ppm,3.8604488695649706,3.8604488695649706,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 099,mass_da,4650.0,4650,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 099,separation_ppm,3.8189386666664227,3.8189386666664227,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 100,mass_da,4700.0,4700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 100,separation_ppm,3.7783116595742268,3.7783116595742268,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 101,mass_da,4750.0,4750,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 101,separation_ppm,3.738539957894498,3.738539957894498,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 102,mass_da,4800.0,4800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 102,separation_ppm,3.699596833333097,3.699596833333097,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 103,mass_da,4850.0,4850,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 103,separation_ppm,3.6614566597935805,3.6614566597935805,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 104,mass_da,4900.0,4900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 104,separation_ppm,3.6240948571426257,3.6240948571426257,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 105,mass_da,4950.0,4950,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 105,separation_ppm,3.587487838383609,3.587487838383609,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 106,mass_da,5000.0,5000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 106,separation_ppm,3.551612959999773,3.551612959999773,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 107,mass_da,5100.0,5100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 107,separation_ppm,3.481973490195856,3.481973490195856,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 108,mass_da,5200.0,5200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 108,separation_ppm,3.415012461538243,3.415012461538243,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 109,mass_da,5300.0,5300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 109,separation_ppm,3.3505782641507293,3.3505782641507293,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 110,mass_da,5400.0,5400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 110,separation_ppm,3.2885305185183085,3.2885305185183085,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 111,mass_da,5500.0,5500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 111,separation_ppm,3.2287390545452483,3.2287390545452483,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 112,mass_da,5600.0,5600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 112,separation_ppm,3.1710829999997974,3.1710829999997974,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 113,mass_da,5700.0,5700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 113,separation_ppm,3.1154499649120817,3.1154499649120817,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 114,mass_da,5800.0,5800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 114,separation_ppm,3.061735310344632,3.061735310344632,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 115,mass_da,5900.0,5900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 115,separation_ppm,3.0098414915252314,3.0098414915252314,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 116,mass_da,6000.0,6000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 116,separation_ppm,2.9596774666664776,2.9596774666664776,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 117,mass_da,6100.0,6100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 117,separation_ppm,2.9111581639342403,2.9111581639342403,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 118,mass_da,6200.0,6200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 118,separation_ppm,2.864203999999817,2.864203999999817,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 119,mass_da,6300.0,6300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 119,separation_ppm,2.818740444444264,2.818740444444264,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 120,mass_da,6400.0,6400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 120,separation_ppm,2.7746976249998228,2.7746976249998228,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 121,mass_da,6500.0,6500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 121,separation_ppm,2.7320099692305946,2.7320099692305946,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 122,mass_da,6600.0,6600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 122,separation_ppm,2.690615878787707,2.690615878787707,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 123,mass_da,6700.0,6700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 123,separation_ppm,2.6504574328356516,2.6504574328356516,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 124,mass_da,6800.0,6800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 124,separation_ppm,2.611480117646892,2.611480117646892,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 125,mass_da,6900.0,6900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 125,separation_ppm,2.5736325797099804,2.5736325797099804,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 126,mass_da,7000.0,7000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 126,separation_ppm,2.536866399999838,2.536866399999838,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 127,mass_da,7100.0,7100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 127,separation_ppm,2.501135887323784,2.501135887323784,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 128,mass_da,7200.0,7200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 128,separation_ppm,2.4663978888887312,2.4663978888887312,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 129,mass_da,7300.0,7300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 129,separation_ppm,2.4326116164382006,2.4326116164382006,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 130,mass_da,7400.0,7400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 130,separation_ppm,2.399738486486333,2.399738486486333,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 131,mass_da,7500.0,7500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 131,separation_ppm,2.367741973333182,2.367741973333182,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 132,mass_da,7600.0,7600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 132,separation_ppm,2.336587473684061,2.336587473684061,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 133,mass_da,7700.0,7700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 133,separation_ppm,2.3062421818180345,2.3062421818180345,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 134,mass_da,7800.0,7800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 134,separation_ppm,2.276674974358829,2.276674974358829,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 135,mass_da,7900.0,7900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 135,separation_ppm,2.2478563037973247,2.2478563037973247,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 136,mass_da,8000.0,8000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 136,separation_ppm,2.2197580999998583,2.2197580999998583,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 137,mass_da,8100.0,8100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 137,separation_ppm,2.1923536790122053,2.1923536790122053,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 138,mass_da,8200.0,8200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 138,separation_ppm,2.165617658536447,2.165617658536447,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 139,mass_da,8300.0,8300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 139,separation_ppm,2.1395258795179357,2.1395258795179357,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 140,mass_da,8400.0,8400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 140,separation_ppm,2.1140553333331984,2.1140553333331984,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 141,mass_da,8500.0,8500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 141,separation_ppm,2.0891840941175137,2.0891840941175137,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 142,mass_da,8600.0,8600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 142,separation_ppm,2.0648912558138215,2.0648912558138215,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 143,mass_da,8700.0,8700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 143,separation_ppm,2.041156873563088,2.041156873563088,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 144,mass_da,8800.0,8800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 144,separation_ppm,2.01796190909078,2.01796190909078,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 145,mass_da,8900.0,8900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 145,separation_ppm,1.9952881797751534,1.9952881797751534,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 146,mass_da,9000.0,9000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 146,separation_ppm,1.973118311110985,1.973118311110985,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 147,mass_da,9100.0,9100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 147,separation_ppm,1.9514356923075675,1.9514356923075675,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 148,mass_da,9200.0,9200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 148,separation_ppm,1.9302244347824853,1.9302244347824853,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 149,mass_da,9300.0,9300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 149,separation_ppm,1.9094693333332113,1.9094693333332113,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 150,mass_da,9400.0,9400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 150,separation_ppm,1.8891558297871134,1.8891558297871134,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 151,mass_da,9500.0,9500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 151,separation_ppm,1.869269978947249,1.869269978947249,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 152,mass_da,9600.0,9600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 152,separation_ppm,1.8497984166665484,1.8497984166665484,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 153,mass_da,9700.0,9700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 153,separation_ppm,1.8307283298967902,1.8307283298967902,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 154,mass_da,9800.0,9800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 154,separation_ppm,1.8120474285713128,1.8120474285713128,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 155,mass_da,9900.0,9900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 155,separation_ppm,1.7937439191918045,1.7937439191918045,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 156,mass_da,10000.0,10000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 156,separation_ppm,1.7758064799998865,1.7758064799998865,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 157,mass_da,10100.0,10100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 157,separation_ppm,1.75822423762365,1.75822423762365,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 158,mass_da,10200.0,10200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 158,separation_ppm,1.740986745097928,1.740986745097928,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 159,mass_da,10300.0,10300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 159,separation_ppm,1.7240839611649383,1.7240839611649383,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 160,mass_da,10400.0,10400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 160,separation_ppm,1.7075062307691216,1.7075062307691216,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 161,mass_da,10500.0,10500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 161,separation_ppm,1.6912442666665586,1.6912442666665586,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 162,mass_da,10600.0,10600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 162,separation_ppm,1.6752891320753647,1.6752891320753647,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 163,mass_da,10700.0,10700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 163,separation_ppm,1.6596322242989594,1.6596322242989594,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 164,mass_da,10800.0,10800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 164,separation_ppm,1.6442652592591542,1.6442652592591542,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 165,mass_da,10900.0,10900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 165,separation_ppm,1.6291802568806297,1.6291802568806297,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 166,mass_da,11000.0,11000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 166,separation_ppm,1.6143695272726242,1.6143695272726242,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 167,mass_da,11100.0,11100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 167,separation_ppm,1.5998256576575554,1.5998256576575554,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 168,mass_da,11200.0,11200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 168,separation_ppm,1.5855414999998987,1.5855414999998987,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 169,mass_da,11300.0,11300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 169,separation_ppm,1.571510159291935,1.571510159291935,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 170,mass_da,11400.0,11400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 170,separation_ppm,1.5577249824560409,1.5577249824560409,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 171,mass_da,11500.0,11500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 171,separation_ppm,1.5441795478259883,1.5441795478259883,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 172,mass_da,11600.0,11600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 172,separation_ppm,1.530867655172316,1.530867655172316,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 173,mass_da,11700.0,11700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 173,separation_ppm,1.5177833162392191,1.5177833162392191,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 174,mass_da,11800.0,11800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 174,separation_ppm,1.5049207457626157,1.5049207457626157,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 175,mass_da,11900.0,11900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 175,separation_ppm,1.4922743529410811,1.4922743529410811,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 176,mass_da,12000.0,12000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 176,separation_ppm,1.4798387333332388,1.4798387333332388,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 177,mass_da,12100.0,12100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 177,separation_ppm,1.467608661156931,1.467608661156931,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 178,mass_da,12200.0,12200,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 178,separation_ppm,1.4555790819671202,1.4555790819671202,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 179,mass_da,12300.0,12300,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 179,separation_ppm,1.4437451056909647,1.4437451056909647,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 180,mass_da,12400.0,12400,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 180,separation_ppm,1.4321019999999085,1.4321019999999085,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 181,mass_da,12500.0,12500,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 181,separation_ppm,1.4206451839999092,1.4206451839999092,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 182,mass_da,12600.0,12600,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 182,separation_ppm,1.409370222222132,1.409370222222132,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 183,mass_da,12700.0,12700,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 183,separation_ppm,1.3982728188975484,1.3982728188975484,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 184,mass_da,12800.0,12800,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 184,separation_ppm,1.3873488124999114,1.3873488124999114,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 185,mass_da,12900.0,12900,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 185,separation_ppm,1.3765941705425477,1.3765941705425477,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 186,mass_da,13000.0,13000,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation curve point 186,separation_ppm,1.3660049846152973,1.3660049846152973,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,separation label,separation_da,0.017758,0.017758,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,window +/-10.0 ppm,tolerance_ppm,10.0,10.0,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,window +/-10.0 ppm,mass_limit_da,1775.8064799998865,1775.8064799998865,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,window +/-10.0 ppm,fraction_theoretical_cys_peptides_at_or_below_plus32_only,0.33716043809564405,0.33716043809564405,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,window +/-4.5 ppm,tolerance_ppm,4.5,4.5,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,window +/-4.5 ppm,mass_limit_da,3946.2366222219694,3946.2366222219694,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,window +/-4.5 ppm,fraction_theoretical_cys_peptides_at_or_below_plus32_only,0.9999961251048644,0.9999961251048644,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,window +/-2.0 ppm,tolerance_ppm,2.0,2.0,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,window +/-2.0 ppm,mass_limit_da,8879.032399999433,8879.032399999433,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,b,window +/-2.0 ppm,fraction_theoretical_cys_peptides_at_or_below_plus32_only,1.0,1.0,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (0.0, 1.0]",share_tied,0.8076923076923077,0.8076923076923077,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (0.0, 1.0]",n_tied,21.0,21,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (0.0, 1.0]",n_both_scored,26.0,26,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (1.0, 10.0]",share_tied,0.8214285714285714,0.8214285714285714,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (1.0, 10.0]",n_tied,46.0,46,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (1.0, 10.0]",n_both_scored,56.0,56,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (10.0, 100.0]",share_tied,0.875,0.875,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (10.0, 100.0]",n_tied,14.0,14,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (10.0, 100.0]",n_both_scored,16.0,16,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (100.0, 1000.1]",share_tied,1.0,1.0,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (100.0, 1000.1]",n_tied,2.0,2,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (100.0, 1000.1]",n_both_scored,2.0,2,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all",share_tied,0.83,0.83,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all",n_tied,83.0,83,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all",n_both_scored,100.0,100,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (0.0, 1.0]",share_tied,0.1,0.1,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (0.0, 1.0]",n_tied,6.0,6,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (0.0, 1.0]",n_both_scored,60.0,60,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (1.0, 10.0]",share_tied,0.2248062015503876,0.2248062015503876,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (1.0, 10.0]",n_tied,58.0,58,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (1.0, 10.0]",n_both_scored,258.0,258,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (10.0, 100.0]",share_tied,0.3699186991869919,0.3699186991869919,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (10.0, 100.0]",n_tied,91.0,91,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (10.0, 100.0]",n_both_scored,246.0,246,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (100.0, 1000.1]",share_tied,0.4322033898305085,0.4322033898305085,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (100.0, 1000.1]",n_tied,51.0,51,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (100.0, 1000.1]",n_both_scored,118.0,118,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value all",share_tied,0.3020527859237537,0.3020527859237537,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value all",n_tied,206.0,206,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig4,c,"Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value all",n_both_scored,682.0,682,v3.2 Source Data Fig 3 (verbatim),1e-09,yes
+Fig5,a,SFE-006,baseline_log2_or,1.3840344206722544,1.384,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-006,baseline_ci_low,1.11192177722443,1.1119,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-006,baseline_ci_high,1.670748825079452,1.6707,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-006,matched_log2_or,0.594987270476461,0.595,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-006,matched_ci_low,0.27360430572857924,0.2736,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-006,matched_ci_high,0.9287153083921331,0.9287,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-006,random_control_log2_or,1.3917867962173405,1.3918,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-006,random_control_ci_low,1.0289460153531618,1.0289,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-006,random_control_ci_high,1.7824960048235599,1.7825,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-009,baseline_log2_or,0.8679,0.8679,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-009,baseline_ci_low,0.7342,0.7342,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-009,baseline_ci_high,1.0014,1.0014,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-009,matched_log2_or,0.322,0.322,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-009,matched_ci_low,0.1618,0.1618,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-009,matched_ci_high,0.478,0.478,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-009,random_control_log2_or,0.8733,0.8733,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-009,random_control_ci_low,0.6951,0.6951,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-009,random_control_ci_high,1.0449,1.0449,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-021,baseline_log2_or,1.0476,1.0476,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-021,baseline_ci_low,0.8108,0.8108,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-021,baseline_ci_high,1.2673,1.2673,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-021,matched_log2_or,0.5784,0.5784,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-021,matched_ci_low,0.275,0.275,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-021,matched_ci_high,0.8842,0.8842,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-021,random_control_log2_or,1.0407,1.0407,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-021,random_control_ci_low,0.6762,0.6762,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-021,random_control_ci_high,1.4151,1.4151,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-008,baseline_log2_or,0.3684,0.3684,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-008,baseline_ci_low,0.0788,0.0788,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-008,baseline_ci_high,0.6805,0.6805,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-008,matched_log2_or,-0.0317,-0.0317,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-008,matched_ci_low,-0.4522,-0.4522,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-008,matched_ci_high,0.3756,0.3756,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-008,random_control_log2_or,0.4111,0.4111,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-008,random_control_ci_low,-0.0698,-0.0698,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-008,random_control_ci_high,0.8696,0.8696,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-016,baseline_log2_or,-1.0265,-1.0265,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-016,baseline_ci_low,-1.1489,-1.1489,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-016,baseline_ci_high,-0.9103,-0.9103,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-016,matched_log2_or,-0.6765,-0.6765,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-016,matched_ci_low,-0.8258,-0.8258,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-016,matched_ci_high,-0.5353,-0.5353,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-016,random_control_log2_or,-1.039,-1.039,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-016,random_control_ci_low,-1.1943,-1.1943,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-016,random_control_ci_high,-0.8847,-0.8847,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-002,baseline_log2_or,0.8160126689938106,0.816,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-002,baseline_ci_low,0.6210744985796327,0.6211,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-002,baseline_ci_high,1.0078377723645375,1.0078,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-002,matched_log2_or,0.6765694132315305,0.6766,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-002,matched_ci_low,0.43114115150981586,0.4311,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-002,matched_ci_high,0.9225522509828186,0.9226,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-002,random_control_log2_or,0.831954095360602,0.832,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-002,random_control_ci_low,0.5456343768746204,0.5456,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-002,random_control_ci_high,1.1313437705415372,1.1313,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-006,baseline_log2_or,1.2640125253678494,1.264,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-006,baseline_ci_low,0.6819615888698836,0.682,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-006,baseline_ci_high,1.804659484314104,1.8047,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-006,matched_log2_or,1.2890510115597604,1.2891,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-006,matched_ci_low,0.5582038086348461,0.5582,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-006,matched_ci_high,2.113500398410698,2.1135,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-006,random_control_log2_or,1.151278938834971,1.1513,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-006,random_control_ci_low,0.2968280142244441,0.2968,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-006,random_control_ci_high,2.0735811784665943,2.0736,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-007,baseline_log2_or,0.0502,0.0502,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-007,baseline_ci_low,-0.1329,-0.1329,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-007,baseline_ci_high,0.2288,0.2288,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-007,matched_log2_or,0.1086,0.1086,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-007,matched_ci_low,-0.1341,-0.1341,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-007,matched_ci_high,0.3486,0.3486,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-007,random_control_log2_or,0.0315,0.0315,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-007,random_control_ci_low,-0.2218,-0.2218,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-007,random_control_ci_high,0.2862,0.2862,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-014,baseline_log2_or,0.879079510064022,0.8791,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-014,baseline_ci_low,-0.254642906865345,-0.2546,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-014,baseline_ci_high,1.825125747372296,1.8251,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-014,matched_log2_or,0.6338721012021026,0.6339,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-014,matched_ci_low,-0.9821503010525753,-0.9822,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-014,matched_ci_high,2.489881980853268,2.4899,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-014,random_control_log2_or,0.9940478560467078,0.994,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-014,random_control_ci_low,-0.6645595699620472,-0.6646,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-014,random_control_ci_high,2.9448842883133843,2.9449,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-001,baseline_log2_or,2.569682935267797,2.5697,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-001,baseline_ci_low,2.3428098908925366,2.3428,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-001,baseline_ci_high,2.8151003638640004,2.8151,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-001,matched_log2_or,2.276497333957946,2.2765,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-001,matched_ci_low,1.977338394678972,1.9773,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-001,matched_ci_high,2.586274678021902,2.5863,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-001,random_control_log2_or,2.6085650419781694,2.6086,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-001,random_control_ci_low,2.29235690152302,2.2924,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SFE-001,random_control_ci_high,2.9668081112417934,2.9668,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-001,baseline_log2_or,0.2587339943174086,0.2587,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-001,baseline_ci_low,-0.16473595431893245,-0.1647,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-001,baseline_ci_high,0.6697827890627287,0.6698,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-001,matched_log2_or,0.3625037577260339,0.3625,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-001,matched_ci_low,-0.17715132042833073,-0.1772,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-001,matched_ci_high,0.915209958068293,0.9152,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-001,random_control_log2_or,0.23771920769944427,0.2377,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-001,random_control_ci_low,-0.4028256984819783,-0.4028,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-001,random_control_ci_high,0.9002514893798483,0.9003,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-002,baseline_log2_or,0.05391725915286463,0.0539,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-002,baseline_ci_low,-0.39400920373678866,-0.394,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-002,baseline_ci_high,0.47977132103356745,0.4798,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-002,matched_log2_or,0.02694228786858907,0.0269,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-002,matched_ci_low,-0.5445125090117122,-0.5445,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-002,matched_ci_high,0.632631142691559,0.6326,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-002,random_control_log2_or,0.08299327646159252,0.083,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-002,random_control_ci_low,-0.545239972898391,-0.5452,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-002,random_control_ci_high,0.7082990969602855,0.7083,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-009,baseline_log2_or,-0.05756814552087631,-0.0576,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-009,baseline_ci_low,-0.43067396945869607,-0.4307,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-009,baseline_ci_high,0.3260388009999126,0.326,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-009,matched_log2_or,-0.024196922688720084,-0.0242,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-009,matched_ci_low,-0.5194965572247899,-0.5195,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-009,matched_ci_high,0.45495251850528057,0.455,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-009,random_control_log2_or,-0.04290087851517595,-0.0429,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-009,random_control_ci_low,-0.6294646982135023,-0.6295,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-009,random_control_ci_high,0.5399709233702286,0.54,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-012,baseline_log2_or,0.5942679338908791,0.5943,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-012,baseline_ci_low,-0.27443971366243736,-0.2744,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-012,baseline_ci_high,1.503448703766609,1.5034,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-012,matched_log2_or,1.7482237718824578,1.7482,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-012,matched_ci_low,0.5284244308693565,0.5284,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-012,matched_ci_high,3.2156113627322203,3.2156,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-012,random_control_log2_or,0.6129070018414489,0.6129,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-012,random_control_ci_low,-0.6410065077552665,-0.641,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-012,random_control_ci_high,1.8358044617484033,1.8358,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-002,baseline_log2_or,-1.6857,-1.6857,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-002,baseline_ci_low,-2.5687,-2.5687,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-002,baseline_ci_high,-0.9847,-0.9847,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-002,matched_log2_or,-1.6026,-1.6026,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-002,matched_ci_low,-2.4932,-2.4932,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-002,matched_ci_high,-0.8951,-0.8951,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-002,random_control_log2_or,-1.6445,-1.6445,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-002,random_control_ci_low,-2.6089,-2.6089,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-002,random_control_ci_high,-0.7827,-0.7827,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-003,baseline_log2_or,0.2308,0.2308,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-003,baseline_ci_low,-0.1414,-0.1414,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-003,baseline_ci_high,0.605,0.605,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-003,matched_log2_or,0.382,0.382,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-003,matched_ci_low,-0.0154,-0.0154,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-003,matched_ci_high,0.7849,0.7849,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-003,random_control_log2_or,0.2018,0.2018,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-003,random_control_ci_low,-0.2679,-0.2679,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,PERS-003,random_control_ci_high,0.6513,0.6513,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-004,baseline_log2_or,0.3388040220023635,0.3388,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-004,baseline_ci_low,-0.15113108798660072,-0.1511,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-004,baseline_ci_high,0.9142530414699728,0.9143,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-004,matched_log2_or,0.7253294745419085,0.7253,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-004,matched_ci_low,0.06239381949858966,0.0624,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-004,matched_ci_high,1.423709781105505,1.4237,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-004,random_control_log2_or,0.2806365953076376,0.2806,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-004,random_control_ci_low,-0.4995628235356036,-0.4996,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-004,random_control_ci_high,1.0144283045940832,1.0144,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-005,baseline_log2_or,0.262071995283298,0.2621,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-005,baseline_ci_low,-0.45691070409717316,-0.4569,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-005,baseline_ci_high,0.89387969659837,0.8939,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-005,matched_log2_or,0.34827054723351997,0.3483,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-005,matched_ci_low,-0.5815081941734245,-0.5815,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-005,matched_ci_high,1.3058455515482523,1.3058,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-005,random_control_log2_or,0.15421224412658546,0.1542,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-005,random_control_ci_low,-0.8595679319566781,-0.8596,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,a,SNO-005,random_control_ci_high,1.336560230260622,1.3366,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig5,b,SFE-006,baseline_log2_or,1.384,1.384,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-006,matched_log2_or,0.595,0.595,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-006,matched_over_baseline,0.43,0.43,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-006,random_control_log2_or,1.3918,1.3918,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-006,random_over_baseline,1.006,1.006,Note 14 Table S14.2,1e-09,yes
+Fig5,b,PERS-009,baseline_log2_or,0.8679,0.8679,Note 14 Table S14.2,1e-09,yes
+Fig5,b,PERS-009,matched_log2_or,0.322,0.322,Note 14 Table S14.2,1e-09,yes
+Fig5,b,PERS-009,matched_over_baseline,0.371,0.371,Note 14 Table S14.2,1e-09,yes
+Fig5,b,PERS-009,random_control_log2_or,0.8733,0.8733,Note 14 Table S14.2,1e-09,yes
+Fig5,b,PERS-009,random_over_baseline,1.006,1.006,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SNO-021,baseline_log2_or,1.0476,1.0476,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SNO-021,matched_log2_or,0.5784,0.5784,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SNO-021,matched_over_baseline,0.552,0.552,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SNO-021,random_control_log2_or,1.0407,1.0407,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SNO-021,random_over_baseline,0.993,0.993,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-002,baseline_log2_or,0.816,0.816,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-002,matched_log2_or,0.6766,0.6766,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-002,matched_over_baseline,0.829,0.829,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-002,random_control_log2_or,0.832,0.832,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-002,random_over_baseline,1.02,1.02,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SNO-006,baseline_log2_or,1.264,1.264,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SNO-006,matched_log2_or,1.2891,1.2891,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SNO-006,matched_over_baseline,1.02,1.02,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SNO-006,random_control_log2_or,1.1513,1.1513,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SNO-006,random_over_baseline,0.911,0.911,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-001,baseline_log2_or,2.5697,2.5697,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-001,matched_log2_or,2.2765,2.2765,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-001,matched_over_baseline,0.886,0.886,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-001,random_control_log2_or,2.6086,2.6086,Note 14 Table S14.2,1e-09,yes
+Fig5,b,SFE-001,random_over_baseline,1.015,1.015,Note 14 Table S14.2,1e-09,yes
+Fig5,c,Survives,site_level_claims,4,4,Note 14 Tally table (site level),0,yes
+Fig5,c,Attenuated,site_level_claims,2,2,Note 14 Tally table (site level),0,yes
+Fig5,c,Undecidable,site_level_claims,10,10,Note 14 Tally table (site level),0,yes
+Fig5,c,Null broken by control,site_level_claims,1,1,Note 14 Tally table (site level),0,yes
+Fig5,c,Baseline contradicts claim,site_level_claims,1,1,Note 14 Tally table (site level),0,yes
+Fig5,c,All re-tested claims,site_level_claims,18,18,Note 14 Tally table (total),0,yes
+Fig5,c,All re-tested claims,protein_level_claims,10,10,Note 14 Tally table (total),0,yes
+FigS4,a,PERS-005,baseline_log2_or,4.6776,4.6776,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-005,baseline_ci_low,3.8812,3.8812,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-005,baseline_ci_high,5.5587,5.5587,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-005,matched_log2_or,3.8925,3.8925,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-005,matched_ci_low,2.571,2.571,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-005,matched_ci_high,6.4306,6.4306,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-005,random_control_log2_or,4.5611,4.5611,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-005,random_control_ci_low,2.4084,2.4084,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-005,random_control_ci_high,6.5433,6.5433,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SNO-008,baseline_log2_or,4.857714948260522,4.8577,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SNO-008,baseline_ci_low,4.390578982751825,4.3906,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SNO-008,baseline_ci_high,5.312022947139993,5.312,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SNO-008,matched_log2_or,3.8255480388235736,3.8255,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SNO-008,matched_ci_low,2.912372989440658,2.9124,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SNO-008,matched_ci_high,5.313956605991572,5.314,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SNO-008,random_control_log2_or,4.638107977302992,4.6381,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SNO-008,random_control_ci_low,3.1862868325998104,3.1863,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SNO-008,random_control_ci_high,7.804901553919884,7.8049,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-001,baseline_log2_or,2.404726428333463,2.4047,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-001,baseline_ci_low,2.205440492669789,2.2054,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-001,baseline_ci_high,2.5965859715878583,2.5966,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-001,matched_log2_or,2.1080052138302037,2.108,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-001,matched_ci_low,1.79672338529272,1.7967,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-001,matched_ci_high,2.4474094118714698,2.4474,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-001,random_control_log2_or,2.465570415216461,2.4656,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-001,random_control_ci_low,1.9954168471213258,1.9954,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-001,random_control_ci_high,2.9525346560865255,2.9525,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-012,baseline_log2_or,2.9229,2.9229,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-012,baseline_ci_low,2.5983,2.5983,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-012,baseline_ci_high,3.2205,3.2205,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-012,matched_log2_or,2.0917,2.0917,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-012,matched_ci_low,1.5374,1.5374,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-012,matched_ci_high,2.7176,2.7176,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-012,random_control_log2_or,2.9162,2.9162,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-012,random_control_ci_low,1.9597,1.9597,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-012,random_control_ci_high,4.2032,4.2032,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-011,baseline_log2_or,2.0149,2.0149,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-011,baseline_ci_low,1.6604,1.6604,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-011,baseline_ci_high,2.3369,2.3369,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-011,matched_log2_or,1.8576,1.8576,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-011,matched_ci_low,1.2605,1.2605,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-011,matched_ci_high,2.5833,2.5833,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-011,random_control_log2_or,1.9386,1.9386,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-011,random_control_ci_low,1.1249,1.1249,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-011,random_control_ci_high,2.9189,2.9189,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-002,baseline_log2_or,1.6997427554677105,1.6997,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-002,baseline_ci_low,1.3598756188321177,1.3599,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-002,baseline_ci_high,2.0145609110926217,2.0146,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-002,matched_log2_or,1.5959271988246277,1.5959,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-002,matched_ci_low,1.0657321877511474,1.0657,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-002,matched_ci_high,2.206536902689682,2.2065,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-002,random_control_log2_or,1.6999828803874268,1.7,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-002,random_control_ci_low,0.9624969684472222,0.9625,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFI-002,random_control_ci_high,2.703611756938864,2.7036,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-006,baseline_log2_or,1.0105,1.0105,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-006,baseline_ci_low,-0.2233,-0.2233,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-006,baseline_ci_high,1.8975,1.8975,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-006,matched_log2_or,1.5584,1.5584,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-006,matched_ci_low,-0.139,-0.139,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-006,matched_ci_high,4.1957,4.1957,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-006,random_control_log2_or,0.9425,0.9425,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-006,random_control_ci_low,-0.943,-0.943,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-006,random_control_ci_high,3.7036,3.7036,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFE-011,baseline_log2_or,0.8228,0.8228,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFE-011,baseline_ci_low,-0.1185,-0.1185,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFE-011,baseline_ci_high,1.4857,1.4857,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFE-011,matched_log2_or,1.1682,1.1682,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFE-011,matched_ci_low,-0.1164,-0.1164,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFE-011,matched_ci_high,2.8355,2.8355,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFE-011,random_control_log2_or,0.7676,0.7676,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFE-011,random_control_ci_low,-0.6632,-0.6632,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,SFE-011,random_control_ci_high,2.8026,2.8026,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-008,baseline_log2_or,0.07268830147060175,0.0727,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-008,baseline_ci_low,-0.9227931402682971,-0.9228,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-008,baseline_ci_high,0.9197625172131705,0.9198,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-008,matched_log2_or,0.24283610199437483,0.2428,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-008,matched_ci_low,-0.936460754095862,-0.9365,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-008,matched_ci_high,1.4026096993836608,1.4026,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-008,random_control_log2_or,-0.006899441589789871,-0.0069,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-008,random_control_ci_low,-1.251098419676969,-1.2511,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,a,PERS-008,random_control_ci_high,1.311646572619149,1.3116,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,b,PERS-010,baseline_log2_or,1.6461,1.6461,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,b,PERS-010,baseline_ci_low,1.4525,1.4525,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,b,PERS-010,baseline_ci_high,1.8168,1.8168,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,b,PERS-010,matched_log2_or,0.9557,0.9557,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,b,PERS-010,matched_ci_low,0.823,0.823,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,b,PERS-010,matched_ci_high,1.0911,1.0911,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,b,PERS-010,random_control_log2_or,1.0557,1.0557,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,b,PERS-010,random_control_ci_low,0.9057,0.9057,Note 14 Table S14.1 (4 dp),6e-05,yes
+FigS4,b,PERS-010,random_control_ci_high,1.2196,1.2196,Note 14 Table S14.1 (4 dp),6e-05,yes
+Fig6,a,pLMSNOSite,all_sites_auroc,0.8154420811,0.815,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,pLMSNOSite,all_sites_auroc_ci_low,0.7625142276,0.763,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,pLMSNOSite,all_sites_auroc_ci_high,0.8582382422,0.858,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,VIS10,all_sites_auroc,0.7094529699,0.709,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,VIS10,all_sites_auroc_ci_low,0.6819938058,0.682,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,VIS10,all_sites_auroc_ci_high,0.7368720766,0.737,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,DIG25,all_sites_auroc,0.7764508511,0.776,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,DIG25,all_sites_auroc_ci_low,0.7246773649,0.725,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,DIG25,all_sites_auroc_ci_high,0.8288483196,0.829,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,pLMSNOSite_call_0.5,all_sites_auroc,0.7537271756,0.754,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,pLMSNOSite_call_0.5,all_sites_auroc_ci_low,0.7136972886,0.714,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,pLMSNOSite_call_0.5,all_sites_auroc_ci_high,0.7890100454,0.789,Note 22 Table S22.1 (3 dp),0.00051,yes
+Fig6,a,pLMSNOSite,within_protein_auroc_value,0.7024342114,0.702,Note 22 Table S22.1,0.00051,yes
+Fig6,a,pLMSNOSite,within_protein_auroc_ci_low,0.6592049005,0.659,Note 22 Table S22.1,0.00051,yes
+Fig6,a,pLMSNOSite,within_protein_auroc_ci_high,0.7448700843,0.745,Note 22 Table S22.1,0.00051,yes
+Fig6,a,VIS10,within_protein_auroc_value,0.6896056568,0.69,Note 22 Table S22.1,0.00051,yes
+Fig6,a,VIS10,within_protein_auroc_ci_low,0.6469748578,0.647,Note 22 Table S22.1,0.00051,yes
+Fig6,a,VIS10,within_protein_auroc_ci_high,0.7306175983,0.731,Note 22 Table S22.1,0.00051,yes
+Fig6,a,DIG25,within_protein_auroc_value,0.6837298554,0.684,Note 22 Table S22.1,0.00051,yes
+Fig6,a,DIG25,within_protein_auroc_ci_low,0.6408997909,0.641,Note 22 Table S22.1,0.00051,yes
+Fig6,a,DIG25,within_protein_auroc_ci_high,0.7257148389,0.726,Note 22 Table S22.1,0.00051,yes
+Fig6,a,All sites | pLMSNOSite - VIS10,difference,0.1059891112,0.106,Note 22 Table S22.1,0.00051,yes
+Fig6,a,All sites | pLMSNOSite - VIS10,ci_low,0.05100027162,0.051,Note 22 Table S22.1,0.00051,yes
+Fig6,a,All sites | pLMSNOSite - VIS10,ci_high,0.1534865247,0.153,Note 22 Table S22.1,0.00051,yes
+Fig6,a,All sites | pLMSNOSite - DIG25,difference,0.03899122996,0.039,Note 22 Table S22.1,0.00051,yes
+Fig6,a,All sites | pLMSNOSite - DIG25,ci_low,-0.0212242399,-0.021,Note 22 Table S22.1,0.00051,yes
+Fig6,a,All sites | pLMSNOSite - DIG25,ci_high,0.1046027192,0.105,Note 22 Table S22.1,0.00051,yes
+Fig6,a,Within proteins | pLMSNOSite - VIS10,difference,0.01282855458,0.013,Note 22 Table S22.1,0.00051,yes
+Fig6,a,Within proteins | pLMSNOSite - VIS10,ci_low,-0.04101998182,-0.041,Note 22 Table S22.1,0.00051,yes
+Fig6,a,Within proteins | pLMSNOSite - VIS10,ci_high,0.06504579019,0.065,Note 22 Table S22.1,0.00051,yes
+Fig6,b,human_PXD044043,within_protein_auc_detect_only,0.8819,0.8819,Note 12 table (LightGBM ranking member),1e-09,yes
+Fig6,b,human_PXD044043,within_protein_auc_full,0.8884,0.8884,Note 12 table (LightGBM ranking member),1e-09,yes
+Fig6,b,rice_PXD072089,within_protein_auc_detect_only,0.8023,0.8023,Note 12 table (LightGBM ranking member),1e-09,yes
+Fig6,b,rice_PXD072089,within_protein_auc_full,0.901,0.901,Note 12 table (LightGBM ranking member),1e-09,yes
+Fig6,b,human_PXD044043,recovery_share,0.9832,0.9832,Note 12 table (LightGBM ranking member),1e-09,yes
+Fig6,b,human_PXD044043,recovery_share_ci_low,0.9655,0.9655,Note 12 table (LightGBM ranking member),1e-09,yes
+Fig6,b,human_PXD044043,recovery_share_ci_high,1.0016,1.0016,Note 12 table (LightGBM ranking member),1e-09,yes
+Fig6,b,rice_PXD072089,recovery_share,0.7538,0.7538,Note 12 table (LightGBM ranking member),1e-09,yes
+Fig6,b,rice_PXD072089,recovery_share_ci_low,0.7036,0.7036,Note 12 table (LightGBM ranking member),1e-09,yes
+Fig6,b,rice_PXD072089,recovery_share_ci_high,0.8049,0.8049,Note 12 table (LightGBM ranking member),1e-09,yes
+Fig1,c,Other or not stated,classified_analyses,37,37,v3.2 Source Data Fig 1c,0,yes
+Fig1,c,"All residues, unrestricted",classified_analyses,35,35,v3.2 Source Data Fig 1c,0,yes
+Fig1,c,Detected but unmodified,classified_analyses,2,2,v3.2 Source Data Fig 1c,0,yes
+Fig1,c,Detectability or abundance matched,classified_analyses,0,0,v3.2 Source Data Fig 1c,0,yes
+FigS7,-,Passed screening,records,942,942,v3.2 Source Data Fig 1b,0,yes
+FigS7,-,Full text retrieved,records,367,367,v3.2 Source Data Fig 1b,0,yes
+FigS7,-,Sampled for coding,records,120,120,v3.2 Source Data Fig 1b,0,yes
+FigS7,-,Classified,records,74,74,v3.2 Source Data Fig 1b,0,yes

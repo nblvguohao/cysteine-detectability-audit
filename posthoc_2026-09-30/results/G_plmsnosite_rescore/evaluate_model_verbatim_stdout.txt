@@ -1,0 +1,44 @@
+>loaded models/ProtT5.h5
+>loaded models/Embedding.h5
+
+
+Generating features from final hidden layer
+
+
+Getting outputs from layer: dense_767
+
+  1/110 [..............................] - ETA: 13s
+ 60/110 [===============>..............] - ETA: 0s 
+110/110 [==============================] - 0s 855us/step
+
+Obtained feature vector shape: 4
+
+Shape of returned data: (3519, 4)
+----------------------------------------------------------------------------------------------------
+
+
+Generating features from final hidden layer
+
+
+Getting outputs from layer: dense_888
+
+  1/110 [..............................] - ETA: 6s
+ 54/110 [=============>................] - ETA: 0s
+109/110 [============================>.] - ETA: 0s
+110/110 [==============================] - 0s 938us/step
+
+Obtained feature vector shape: 16
+
+Shape of returned data: (3519, 16)
+----------------------------------------------------------------------------------------------------
+
+  1/110 [..............................] - ETA: 5s
+ 70/110 [==================>...........] - ETA: 0s
+110/110 [==============================] - 0s 723us/step
+Matthews Correlation :  0.33933989508229356
+Confusion Matrix : 
+ [[2447  721]
+ [  93  258]]
+Sensitivity :  0.7350427350427351
+Specificity:  0.7724116161616161
+AUROC :  0.7537271756021755

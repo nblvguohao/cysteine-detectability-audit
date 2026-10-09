@@ -1,0 +1,66 @@
+{
+  "title": "Expected fraction of identifiable tryptic peptides containing cysteine, for the proteins that protein-level persulfide capture would return",
+  "written": "2026-09-20",
+  "why": "Fan et al. 2020 (10.1126/sciadv.abb6477) and the 2021 Comment (10.1126/sciadv.abe7006) disagree about the expected value of this fraction. Neither computed it from a proteome under the stated protease. It is computable in silico.",
+  "quantity": "Q = identifiable peptides containing >=1 Cys / identifiable peptides, over proteins with >=1 Cys",
+  "digestion_rule": {
+    "cleave_after": "K or R",
+    "suppressed_before": "P",
+    "peptide_length_aa": [
+      7,
+      30
+    ],
+    "missed_cleavages_reported": [
+      0,
+      1,
+      2
+    ],
+    "source": "imported from scripts/recompute_protease_reach_public_2026-09-17.py, not reimplemented (project notes 9.24.2)"
+  },
+  "why_missed_cleavages_are_not_chosen": "Fan et al. state no search-engine missed-cleavage setting anywhere in their paper (full text read 2026-09-20: no Mascot, MaxQuant or Proteome Discoverer mention, no missed-cleavage statement); the Comment objects that their conditions are underdescribed. All three settings are therefore reported and a directional verdict requires all three to agree.",
+  "estimators": {
+    "primary": "Q_pool, peptides pooled across proteins, matching Fan's Table 2",
+    "secondary": "Q_prot, mean per-protein fraction",
+    "dedup": "peptides deduplicated by sequence within a protein; no-dedup reported as sensitivity"
+  },
+  "comparison_target": "Fan's observed workflow-1 counts, extracted mechanically from the table elements of the article XML; never transcribed by hand",
+  "minimum_meaningful_difference": {
+    "value_ratio": 2.0,
+    "sensitivity_ratios": [
+      1.5,
+      3.0
+    ],
+    "anchor": "Fan's own Fig. 3 calls ratios of 0.58x, 1.81x and 1.17x 'close to theoretical levels'. A factor the disputing authors treat as agreement cannot be one we treat as disagreement.",
+    "fixed_before_any_value_of_Q_exists": true
+  },
+  "branches": {
+    "B1": "interval for Q_pool CONTAINS the observed pooled fraction at MC 0,1,2 -> the observed fraction is what perfect protein-level capture predicts; Fan's workflow-1 inference does not follow. Does NOT say ProPerDP is specific.",
+    "B2": "interval lies entirely ABOVE the observed value AND ratio >= MMD at MC 0,1,2 -> Fan's workflow-1 inference is quantitatively supported on this axis.",
+    "B3": "branches disagree across MC or between estimators, or the interval lies entirely BELOW the observed value -> report the sensitivity table, make no directional claim."
+  },
+  "sentence_written_regardless_of_branch": "The dispute turns on the expected value of this fraction under the digestion geometry, a quantity computable in silico from the proteome and the stated protease, which neither party computed.",
+  "will_not_decide": [
+    "workflow 2: both parties agree its expectation is ~100% and that the observed value is anomalous; they disagree about the experimental cause, which is not computable",
+    "whether IAB mislabels non-Cys residues (chemistry)",
+    "whether either paper is right or wrong overall; no position on persulfidation biology",
+    "expected yield: Limitation 4 of this manuscript applies, so Q is an upper bound on the identifiable fraction",
+    "no intensity weighting; Fan's Table 2 counts peptides, so Q counts peptides"
+  ],
+  "controls": {
+    "PC1": "reproduce Fan's published in-silico values 4.5 / 6.9 / 11.5% for Rdl2, OxyR(4C->A), psGFP1.1. Diagnostic, not gating; fewer than two matches caps the verdict at B3.",
+    "PC2": "proteome Cys frequency within [0.5%, 2.0%] (the Comment's '~1%')",
+    "PC3": "proteins with zero Cys give Q = 0 exactly",
+    "PC4": "the imported rule reproduces this tree's stored anchor 51,404 / 62,187 = 0.8266 at MC=2; otherwise the imported module is not the manuscript's rule and the round stops",
+    "NC1": "within-protein residue permutation (seed 20260920) measures how much of Q is composition rather than cleavage geometry; reported, not gating"
+  },
+  "proteomes": {
+    "primary": "UP000000625 E. coli K-12 MG1655 (the strain of Fan's Table 2 parallel workflow-1 samples)",
+    "sensitivity": "UP000002032 E. coli BL21"
+  },
+  "bootstrap": {
+    "replicates": 5000,
+    "unit": "protein",
+    "seed": 20260920
+  },
+  "interpreter": "sandbox python3, standard library only"
+}

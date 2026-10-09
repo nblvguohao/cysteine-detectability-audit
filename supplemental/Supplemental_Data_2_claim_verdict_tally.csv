@@ -1,0 +1,36 @@
+claim_id,round,verdict,earlier_round,earlier_verdict,sensitivity_specification,sensitivity_verdict,has_measured_baseline,final_verdict,final_verdict_note
+PERS-001,phase2b,out_of_instrument_scope,,,,,0,out_of_instrument_scope,no measured baseline; not counted
+PERS-002,phase2b,undecidable,,,,,1,undecidable,
+PERS-003,phase2b,undecidable,,,,,1,undecidable,
+PERS-005,phase2b,survives,,,,,1,survives,
+PERS-006,phase2b,undecidable,,,,,1,undecidable,
+PERS-007,phase2b,blocked_material_unreachable,,,,,0,blocked_material_unreachable,no measured baseline; not counted
+PERS-008,phase2d,undecidable,phase2b,blocked_material_unreachable,whole_proteome_background,survives,1,undecidable,
+PERS-009,phase2b,attenuated,,,,,1,attenuated,
+PERS-010,phase2b,survives,,,,,1,survives,
+PERS-011,phase2b,survives,,,,,1,survives,
+PERS-012,phase2b,survives,,,,,1,survives,
+SFE-001,phase2e,survives,,,plddt70,survives,1,survives,
+SFE-002,phase2d,survives,,,,,1,survives,
+SFE-006,phase2b,vanishes,,,,,1,attenuated,"tallied on the authors' own data (Yang 2014 component: 1.3840 -> 0.5950, random control 1.3918); transfer verdict 'vanishes' reported separately"
+SFE-007,phase2b,undecidable,,,,,1,undecidable,
+SFE-008,phase2b,undecidable,,,,,1,undecidable,
+SFE-009,phase2b,out_of_instrument_scope,,,,,0,out_of_instrument_scope,no measured baseline; not counted
+SFE-010,phase2b,out_of_instrument_scope,,,,,0,out_of_instrument_scope,no measured baseline; not counted
+SFE-011,phase2b,undecidable,,,,,1,undecidable,
+SFI-001,phase2d,survives,,,,,1,survives,
+SFI-002,phase2d,survives,,,,,1,survives,
+SFI-004,phase2b,out_of_instrument_scope,,,,,0,out_of_instrument_scope,no measured baseline; not counted
+SFI-005,phase2b,out_of_instrument_scope,,,,,0,out_of_instrument_scope,no measured baseline; not counted
+SNO-001,phase2e,undecidable,,,plddt70,undecidable,1,undecidable,
+SNO-002,phase2e_author_definitions,undecidable,,,plddt70; reference_area_135,undecidable,1,undecidable,
+SNO-004,phase2d,null_broken_by_control,,,,,1,null_broken_by_control,
+SNO-005,phase2d,undecidable,,,,,1,undecidable,
+SNO-006,phase2d,survives,,,,,1,survives,
+SNO-008,phase2d,survives,,,,,1,survives,
+SNO-009,phase2e,undecidable,,,plddt70,undecidable,1,undecidable,
+SNO-012,phase2e_author_definitions,attenuated,,,plddt70,survives,1,undecidable,"stored verdict was 'attenuated' from pipeline code lacking the baseline-covers-zero branch; the stated rule and the released Cys-Audit claim_verdict give 'undecidable' because the baseline interval 0.59 [-0.27, 1.50] covers zero; survives under the pLDDT >= 70 specification (specification-dependent)"
+SNO-014,phase2d,undecidable,,,,,1,undecidable,
+SNO-016,phase2b,baseline_contradicts_claim,,,,,1,baseline_contradicts_claim,
+SNO-017,phase2b,out_of_instrument_scope,,,,,0,out_of_instrument_scope,no measured baseline; not counted
+SNO-021,phase2b,survives,,,,,1,survives,

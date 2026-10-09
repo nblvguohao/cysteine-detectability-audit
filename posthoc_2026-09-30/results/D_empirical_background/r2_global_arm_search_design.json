@@ -1,0 +1,92 @@
+{
+ "label": "POST HOC (round 2): search design of the PXD063463 arms, read from the phase-1 probe record of the deposit's mqpar_Global.xml and mqpar_ABE.xml; the MaxQuant tables themselves are not available offline and were not read here",
+ "source": "/path/to/local/_cys_repo_work/repo/results/phase1_probe_findings_2026-09-22.json",
+ "source_sha256": "b1370c8fe56e62e32ad773b851ba09744bdd21b3a9f3902e39598a8e71f27da0",
+ "probe_script_recorded_in_source": "scripts/read_phase1_probe_2026-09-22.py",
+ "probe_script_sha256_recorded_in_source": "cf9d4550ee206a634c4933ed0eb0ebbdc2784a877f398fddf12036458e0b57d5",
+ "global_arm": {
+  "maxquant_version": "2.4.14.0",
+  "n_raw_files": 6,
+  "experiments": [
+   "LPS_N",
+   "LPS_P"
+  ],
+  "parameter_groups": [
+   {
+    "enzymes": [
+     "Trypsin/P"
+    ],
+    "variableModifications": [
+     "Oxidation (M)",
+     "Acetyl (Protein N-term)"
+    ],
+    "fixedModifications": [
+     "Carbamidomethyl (C)"
+    ],
+    "mainSearchTol": "4.5",
+    "firstSearchTol": "20",
+    "maxMissedCleavages": "2"
+   }
+  ]
+ },
+ "abe_arms": {
+  "maxquant_version": "2.4.14.0",
+  "n_raw_files": 72,
+  "n_parameter_groups": 20,
+  "distinct_enzyme_variable_fixed_sets": [
+   {
+    "enzymes": [
+     "AspN"
+    ],
+    "variableModifications": [
+     "Oxidation (M)",
+     "Acetyl (Protein N-term)",
+     "Carbamidomethyl (C)",
+     "Deamidation (NQ)",
+     "NEM (C)"
+    ],
+    "fixedModifications": []
+   },
+   {
+    "enzymes": [
+     "Chymotrypsin"
+    ],
+    "variableModifications": [
+     "Oxidation (M)",
+     "Acetyl (Protein N-term)",
+     "Carbamidomethyl (C)",
+     "Deamidation (NQ)",
+     "NEM (C)"
+    ],
+    "fixedModifications": []
+   },
+   {
+    "enzymes": [
+     "GluC"
+    ],
+    "variableModifications": [
+     "Oxidation (M)",
+     "Acetyl (Protein N-term)",
+     "Carbamidomethyl (C)",
+     "Deamidation (NQ)",
+     "NEM (C)"
+    ],
+    "fixedModifications": []
+   },
+   {
+    "enzymes": [
+     "Trypsin"
+    ],
+    "variableModifications": [
+     "Oxidation (M)",
+     "Acetyl (Protein N-term)",
+     "Carbamidomethyl (C)",
+     "Deamidation (NQ)",
+     "NEM (C)"
+    ],
+    "fixedModifications": []
+   }
+  ]
+ },
+ "reading": "The global arm was searched with carbamidomethyl (C) as a FIXED modification and without N-ethylmaleimide (C), enzyme Trypsin/P; the ABE arms were searched with carbamidomethyl (C) and NEM (C) both VARIABLE and no fixed modification, enzyme Trypsin (or AspN/chymotrypsin/GluC). As searched, the global arm's identifications therefore carry no readout of blocking or exchange (every cysteine is assumed carbamidomethylated), so it supports an empirical detectability background only. Whether the global aliquot was itself exposed to NEM cannot be read from the search parameters; the phase-3 pre-registration describes it as standard, unenriched shotgun LC-MS/MS of the same cells."
+}

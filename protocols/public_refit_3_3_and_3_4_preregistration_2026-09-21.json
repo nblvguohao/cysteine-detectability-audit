@@ -1,0 +1,48 @@
+{
+  "title": "Refit of manuscript 3.3 and 3.4 on public cohorts",
+  "written": "2026-09-21",
+  "why": "3.3 and 3.4 have no public substitute; the author chose to refit them on public cohorts rather than delete them.",
+  "cohorts": {
+    "primary": "human_PXD044043 (18,567 sites / 3,206 positive / 1,519 proteins)",
+    "secondary": "rice_PXD072089 (5,598 / 817 / 640), consistency only; a null there is not evidence of absence"
+  },
+  "inputs_verified": "the rebuilt feature matrix reproduces the stored deployed external scores bit-exactly (max |diff| = 0.0, chem and full, both cohorts); ProtBERT embeddings align with zero rows missing",
+  "arms": {
+    "source": "IMPORTED from scripts/run_v2_chem_basic_ablation.py, not redefined",
+    "control": "chem set as deployed",
+    "drop_w710": "minus win7/win10 basic composition",
+    "drop_all_basic": "minus all twenty basic-composition columns",
+    "label_permuted": "NC1: control columns, y permuted across proteins, seed 20260921"
+  },
+  "verdict_statistic": "top-100 distal (6-12) K/R log2 odds ratio, computed AFTERWARDS by scripts/run_self_audit_five_proteases.py on this machine; the server returns out-of-fold scores only",
+  "branches_3_3": {
+    "P1_survives": "control excludes zero AND both ablated arms exclude zero -> the manuscript's claim, replicated on public data",
+    "P2_removed": "control excludes zero AND at least one ablated arm crosses zero -> the claim does NOT generalise; narrow or withdraw. THIS CONTRADICTS THE MANUSCRIPT AND WE PUBLISH IT.",
+    "P3_no_baseline": "control crosses zero -> no bias to ablate here; 3.3 is deleted and the reason stated"
+  },
+  "branch_3_4": {
+    "quantity": "recovery ratio R = (AUC_T - 0.5)/(AUC_full - 0.5) on within-protein AUC, protein-clustered bootstrap; T: is exactly the 25-column detectability block",
+    "Q1": "interval lower bound > 0.50 -> detectability recovers most of the margin, replicated",
+    "Q2": "otherwise -> narrow or withdraw",
+    "why_0.50": "a meaning constant (majority of the margin), the same anchor Box 1 item 7 and the pKa MMD use; fixed before any value of R exists"
+  },
+  "controls": {
+    "PC1": "imported arms select 1,046 / 1,042 / 1,026 columns, else the round stops",
+    "PC2": "control arm within-protein AUC > 0.5 in the primary cohort",
+    "PC3": "verdict computed by the registered local instrument, never on the server",
+    "NC1": "label_permuted arm: within-protein AUC interval covers 0.5 AND top-100 enrichment interval crosses zero; otherwise nothing from this round is usable"
+  },
+  "declared_deviations": [
+    "no structural features for external sequences; absolute performance not comparable across cohorts, only arm-to-arm within a cohort",
+    "no homology components; grouping, folds and bootstrap clusters are by protein, so intervals are narrower than house rule 2 would give",
+    "the label is NEG_A (observed in the reported enriched-site list); unobserved does not mean unmodified",
+    "no stored anchor to bridge to"
+  ],
+  "compute": "amax, CPU only, OMP_NUM_THREADS=16, own workdir. amax GPUs are NOT touched: GPU 0 was measured at 54% with 31 GB in use by another user when this was written.",
+  "cannot_decide": [
+    "cannot restore 3.3 or 3.4 in their earlier form; they become statements about the architecture and feature set fitted to public data",
+    "says nothing about whether the model is a good persulfidation predictor",
+    "both cohorts are persulfidation; nothing transfers to other chemistries",
+    "a null result on rice is not evidence of absence"
+  ]
+}

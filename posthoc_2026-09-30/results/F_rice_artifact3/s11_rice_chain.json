@@ -1,0 +1,173 @@
+{
+ "analysis_label": "POST HOC revision analysis 2026-09-30, round 2 (not registered)",
+ "chain_all_occurrence_convention_s05": [
+  {
+   "n_proteins": 1170,
+   "n_sites": 1769,
+   "step": "0_all_Cys_peptides_every_C_LRP_incl_REV_CON"
+  },
+  {
+   "n_proteins": 1164,
+   "n_sites": 1753,
+   "step": "1_REV_CON_removed"
+  },
+  {
+   "n_proteins": 1077,
+   "n_sites": 1377,
+   "step": "2_single_Cys_peptides"
+  },
+  {
+   "n_proteins": 1077,
+   "n_sites": 1378,
+   "step": "3_isoform_LRP_to_canonical"
+  },
+  {
+   "n_proteins": 1040,
+   "n_sites": 1341,
+   "step": "4_proteins_ge2_Cys"
+  },
+  {
+   "n_proteins": 640,
+   "n_sites": 817,
+   "step": "5_accession_active_in_UniProtKB"
+  },
+  {
+   "n_proteins": 497,
+   "n_sites": 640,
+   "step": "6_protein_in_reference_proteome_2026_03"
+  }
+ ],
+ "chain_start_position_convention": [
+  {
+   "equals_stored_proteins": false,
+   "equals_stored_sites": false,
+   "intersection_with_stored": 796,
+   "n_cys_in_proteins": 10662,
+   "n_proteins": 1192,
+   "n_sites": 1796,
+   "note": "leading razor protein, Start position + index of C; the 22 decoy rows without a Start position are keyed by (protein, peptide, offset)",
+   "step": "0_every_C_of_every_Cys_peptide_incl_REV_CON"
+  },
+  {
+   "equals_stored_proteins": false,
+   "equals_stored_sites": false,
+   "intersection_with_stored": 796,
+   "n_cys_in_proteins": 10662,
+   "n_proteins": 1170,
+   "n_sites": 1769,
+   "note": "decoys removed, contaminants kept",
+   "step": "0b_REV_removed_CON_kept"
+  },
+  {
+   "equals_stored_proteins": false,
+   "equals_stored_sites": false,
+   "intersection_with_stored": 796,
+   "n_cys_in_proteins": 10662,
+   "n_proteins": 1164,
+   "n_sites": 1753,
+   "note": "decoys and contaminants removed",
+   "step": "1_REV_CON_removed"
+  },
+  {
+   "equals_stored_proteins": false,
+   "equals_stored_sites": false,
+   "intersection_with_stored": 796,
+   "n_cys_in_proteins": 9733,
+   "n_proteins": 1077,
+   "n_sites": 1377,
+   "note": "peptides with exactly one C",
+   "step": "2_single_Cys_peptides"
+  },
+  {
+   "equals_stored_proteins": false,
+   "equals_stored_sites": false,
+   "intersection_with_stored": 817,
+   "n_cys_in_proteins": 9747,
+   "n_proteins": 1077,
+   "n_sites": 1377,
+   "note": "23 isoform peptides located (uniquely) in the canonical sequence",
+   "step": "3_isoforms_mapped_to_canonical"
+  },
+  {
+   "equals_stored_proteins": false,
+   "equals_stored_sites": false,
+   "intersection_with_stored": 817,
+   "n_cys_in_proteins": 9710,
+   "n_proteins": 1040,
+   "n_sites": 1340,
+   "note": "protein has >= 2 cysteines",
+   "step": "4_proteins_with_ge2_Cys"
+  },
+  {
+   "equals_stored_proteins": true,
+   "equals_stored_sites": true,
+   "intersection_with_stored": 817,
+   "n_cys_in_proteins": 5598,
+   "n_proteins": 640,
+   "n_sites": 817,
+   "note": "the 400 proteins lost here are all entries deleted in UniProtKB 2026_02",
+   "step": "5_UniProtKB_entry_active_2026_03"
+  }
+ ],
+ "complete_list_without_step5": {
+  "proteins": 1040,
+  "sites": 1340
+ },
+ "deposit_has_site_list": false,
+ "deposit_peptide_table": "SS-all-peptides.tsv (MaxQuant peptides); only site-level modification column: 'Oxidation (M) site IDs'",
+ "difference_between_conventions": "one site: peptide IVCTLPR occurs twice in B9F8C3 (a deleted entry); s05 counted both occurrences (1,378 / 1,341 / 524 lost), the start position gives one (1,377 / 1,340 / 523 lost); the final 817-site list is identical",
+ "final_list": {
+  "cysteines": 5598,
+  "equals_stored_self_audit_list_site_by_site": true,
+  "proteins": 640,
+  "sites": 817
+ },
+ "lost_at_step5": {
+  "all_lost_inactive_in_2026_03": true,
+  "cysteines_in_lost_proteins": 4112,
+  "entry_records": {
+   "analysis_label": "POST HOC revision analysis 2026-09-30 (not registered)",
+   "bytes_downloaded": 80496,
+   "deletedReason": {
+    "Not part of a reference proteome": 400
+   },
+   "entryType": {
+    "Inactive": 400
+   },
+   "inactiveReasonType": {
+    "DELETED": 400
+   },
+   "n": 400
+  },
+  "proteins": 400,
+  "sites": 523
+ },
+ "round3_decoys_and_contaminants": {
+  "all_of_them_decoys": true,
+  "contaminant_proteins": 6,
+  "contaminant_sites": 16,
+  "cys_peptide_rows_without_start_position": 22,
+  "decoy_proteins": 22,
+  "decoy_sites": 27,
+  "round2_step0_note": "round 2 skipped the decoy rows without a start position, so its step 0 kept contaminants only; it equals step 0b here",
+  "round2_step0_value": [
+   1769,
+   1170
+  ]
+ },
+ "round3_lost_entry_records": {
+  "n_lost": 400,
+  "n_records_saved": 400,
+  "n_records_with_sequence_field": 0
+ },
+ "self_audit_exclusion_repository_audit": {
+  "excluded_cysteines": 594,
+  "excluded_proteins": 59,
+  "excluded_sites": 80,
+  "positives_kept": 737,
+  "proteins_in_table": 640,
+  "proteins_matched": 581,
+  "rows_in_table": 5598,
+  "rows_kept": 5004
+ }
+}

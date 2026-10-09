@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. The article DOI will be added on acceptance."
+title: "Cys-Audit: auditing cysteine-modification site tables for measurement-driven artefacts"
+version: 0.2.2
+authors:
+  - family-names: "Lv"
+    given-names: "Guohao"
+    affiliation: "School of Artificial Intelligence, Anhui Agricultural University"
+  - family-names: "Gu"
+    given-names: "Lichuan"
+    affiliation: "School of Artificial Intelligence, Anhui Agricultural University"
+repository-code: "https://github.com/nblvguohao/cysteine-detectability-audit"
+license: MIT

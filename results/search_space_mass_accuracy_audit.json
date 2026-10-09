@@ -1,0 +1,168 @@
+{
+  "script": "scripts/audit_search_space_and_mass_accuracy.py",
+  "script_sha256": "ccc492ed884b1a2962502cc61fd85e8689aea46ca18402751ebfda64661fc534",
+  "generated_utc": "2026-09-16T15:28:10Z",
+  "host": "lyu.local",
+  "round": "is the +S versus +2O ambiguity checkable, and present, in published search files",
+  "separation_da": 0.017758000000000607,
+  "proteome_scale_search": {
+    "file": "external/sulfhydrome_bta_tmt/Fig-1D.msf",
+    "sha256": "2f0375249188b0659406e8055f8c25dff94379de4cf05b1a7d0b5fd2a9380179",
+    "table_counts": {
+      "Peptides": 25014,
+      "SpectrumHeaders": 49522
+    },
+    "modifications_actually_placed": [
+      {
+        "modification": "Oxidation",
+        "abbreviation": "Oxidation",
+        "delta_mass": 15.994915,
+        "unimod": 35,
+        "n_placements": 8276,
+        "residues": [
+          "Cysteine",
+          "Aspartic Acid",
+          "Phenylalanine",
+          "Histidine",
+          "Lysine",
+          "Methionine",
+          "Asparagine",
+          "Proline",
+          "Arginine",
+          "Tryptophan",
+          "Tyrosine"
+        ]
+      },
+      {
+        "modification": "iodoTMT6plex",
+        "abbreviation": "iodoTMT6plex",
+        "delta_mass": 329.226595,
+        "unimod": 1342,
+        "n_placements": 6746,
+        "residues": [
+          "Cysteine",
+          "Aspartic Acid",
+          "Glutamic Acid",
+          "Histidine",
+          "Lysine"
+        ]
+      },
+      {
+        "modification": "MappingL",
+        "abbreviation": "L",
+        "delta_mass": 113.08406393,
+        "unimod": -1,
+        "n_placements": 21,
+        "residues": [
+          "Unknown"
+        ]
+      }
+    ],
+    "sulfide_ever_placed": false
+  },
+  "targeted_arms": {
+    "CTH_Cys": {
+      "n_psms": 14,
+      "placed_modifications": {
+        "Nethylmaleimide": 125.047679,
+        "Sulfide": 31.972071
+      },
+      "n_sulfide": 2
+    },
+    "NaHS": {
+      "n_psms": 30,
+      "placed_modifications": {
+        "Nethylmaleimide": 125.047679,
+        "Sulfide": 31.972071
+      },
+      "n_sulfide": 2
+    },
+    "control": {
+      "n_psms": 0,
+      "placed_modifications": {},
+      "n_sulfide": 0
+    },
+    "heat_inactive_CTH": {
+      "n_psms": 9,
+      "placed_modifications": {
+        "Nethylmaleimide": 125.047679
+      },
+      "n_sulfide": 0
+    }
+  },
+  "precursor_error_distribution_over_all_arms": {
+    "n": 53,
+    "mean": 4.7455,
+    "median": 5.3512,
+    "sd": 2.3919,
+    "minimum": -6.497743547370178,
+    "maximum": 8.171644629985101,
+    "span": 14.6694
+  },
+  "sulfide_assignments": [
+    {
+      "arm": "CTH_Cys",
+      "sequence": "GIVEQCCTSICSLYQLENYCN",
+      "charge": 2,
+      "placed": "Nethylmaleimide;Sulfide",
+      "has_sulfide": true,
+      "neutral_mass": 2539.0198,
+      "observed_ppm": -6.497743547370178,
+      "separation_ppm": 6.994,
+      "resolvable": false
+    },
+    {
+      "arm": "CTH_Cys",
+      "sequence": "GIVEQCCTSICSLYQLENYCN",
+      "charge": 2,
+      "placed": "Sulfide",
+      "has_sulfide": true,
+      "neutral_mass": 2539.0198,
+      "observed_ppm": 4.598372052546707,
+      "separation_ppm": 6.994,
+      "resolvable": false
+    },
+    {
+      "arm": "NaHS",
+      "sequence": "FVNQHLCGSHLVEALYLVCGERGFFYTPKT",
+      "charge": 4,
+      "placed": "Nethylmaleimide;Sulfide",
+      "has_sulfide": true,
+      "neutral_mass": 3584.7043,
+      "observed_ppm": 4.41737649307104,
+      "separation_ppm": 4.954,
+      "resolvable": false
+    },
+    {
+      "arm": "NaHS",
+      "sequence": "FVNQHLCGSHLVEALYLVCGERGFFYTPKT",
+      "charge": 4,
+      "placed": "Nethylmaleimide;Sulfide",
+      "has_sulfide": true,
+      "neutral_mass": 3584.7043,
+      "observed_ppm": 7.75364331130552,
+      "separation_ppm": 4.954,
+      "resolvable": false
+    }
+  ],
+  "n_sulfide_resolvable": 0,
+  "verdict": "on this deposit the reported chemistry is not resolvable from the deposited measurement: the separation is 4.95-6.99 ppm on the assigned peptides while the deposit's own precursor error has a systematic offset of +4.75 ppm and a span of 14.7 ppm",
+  "limitations": [
+    "only 4 Sulfide-assigned PSMs exist in these files; this is an illustration, not a rate",
+    "the Fig4-L arms are an insulin model substrate, not proteome data",
+    "these files are consensus-level and carry no processing-node parameters, so the SEARCHED modification list is not recoverable; absence from the PLACED set is weaker evidence",
+    "the remedy is a re-search of the deposited raw files with cysteine oxidation in the space; the workflow records name them as Gao-MCP_PRIDE/Raw files/*.raw (99.6 MB per arm) but the PRIDE accession itself is not recorded in these files and was not looked up here",
+    "no claim is made that any specific published assignment is incorrect"
+  ],
+  "input_hashes": {
+    "external/sulfhydrome_bta_tmt/Fig4-L_CTH_Cys.pdResult": "689c618387bcb2124a9b67cf1187252e965c91bb91e37b156e7fa7a34e1cc6a8",
+    "external/sulfhydrome_bta_tmt/Fig4-L_NaHS.pdResult": "2c583b32899dc2d3f9d8012e979f23e97c3d8b18f0a4b70955a19835407e040b",
+    "external/sulfhydrome_bta_tmt/Fig4-L_control.pdResult": "19a4dbfeb667bfd33e14646fd91710b80aa23edd7f8a23fe27a4e6ac939f96e5",
+    "external/sulfhydrome_bta_tmt/Fig4-L_heat_inactive_CTH.pdResult": "3ba35f858b838cca38797a5bf6919f76dcb7003b1a506df244bb346c5c3f3ed8"
+  },
+  "versions": {
+    "python": "3.11.16 | packaged by conda-forge | (main, Aug 21 2026, 22:39:01) [Clang 19.1.7 ]",
+    "sqlite3": "3.53.4"
+  },
+  "elapsed_seconds": 0.1
+}

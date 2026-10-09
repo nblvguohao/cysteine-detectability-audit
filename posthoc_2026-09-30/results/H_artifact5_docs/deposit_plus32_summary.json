@@ -1,0 +1,222 @@
+{
+  "label": "POST HOC revision analysis (2026-09-30), not registered, not pre-specified",
+  "proteome_scale_file_Fig1D": {
+    "sulfide_ever_placed": false,
+    "modifications_placed": [
+      "Oxidation",
+      "iodoTMT6plex",
+      "MappingL"
+    ],
+    "oxidation_residues": [
+      "Cysteine",
+      "Aspartic Acid",
+      "Phenylalanine",
+      "Histidine",
+      "Lysine",
+      "Methionine",
+      "Asparagine",
+      "Proline",
+      "Arginine",
+      "Tryptophan",
+      "Tyrosine"
+    ],
+    "table_counts": {
+      "Peptides": 25014,
+      "SpectrumHeaders": 49522
+    },
+    "high_confidence_peptides": "317 (report prose only; not in a stored machine-readable output)"
+  },
+  "targeted_arms": {
+    "CTH_Cys": {
+      "n_psms": 14,
+      "placed_modifications": {
+        "Nethylmaleimide": 125.047679,
+        "Sulfide": 31.972071
+      },
+      "n_sulfide": 2
+    },
+    "NaHS": {
+      "n_psms": 30,
+      "placed_modifications": {
+        "Nethylmaleimide": 125.047679,
+        "Sulfide": 31.972071
+      },
+      "n_sulfide": 2
+    },
+    "control": {
+      "n_psms": 0,
+      "placed_modifications": {},
+      "n_sulfide": 0
+    },
+    "heat_inactive_CTH": {
+      "n_psms": 9,
+      "placed_modifications": {
+        "Nethylmaleimide": 125.047679
+      },
+      "n_sulfide": 0
+    }
+  },
+  "n_psms_by_arm": {
+    "NaHS": 30,
+    "CTH_Cys": 14,
+    "heat_inactive_CTH": 9
+  },
+  "control_file_psms": "0 (the Fig4-L_control consensus file carries no PSM)",
+  "n_sulfide_psms": 4,
+  "sulfide_psms_by_arm": {
+    "CTH_Cys": 2,
+    "NaHS": 2
+  },
+  "dioxidation_or_trioxidation_placed_anywhere": false,
+  "n_targeted_psms_with_nem": 52,
+  "n_targeted_psms": 53,
+  "insulin_sequences_assigned_by_deposit": [
+    "FVNQHLCGSHLVEALYLVCGERGFFYTPKT",
+    "GIVEQCCTSICSLYQLENYCN"
+  ],
+  "stored_rule_resolvable_count": 0,
+  "baseline_corrected_arm_rule_resolvable_count": 2,
+  "baseline_corrected_pooled_rule_resolvable_count": 3,
+  "readings_file_baseline": {
+    "sulfide only": 2,
+    "neither": 1,
+    "either": 1
+  },
+  "readings_by_baseline_definition": {
+    "D1 file, all non-sulfide PSMs (median, SD)": {
+      "dioxidation only": 0,
+      "either": 1,
+      "neither": 1,
+      "no baseline (no PSM of this kind)": 0,
+      "sulfide only": 2
+    },
+    "D2 file, all non-sulfide PSMs (median, MAD-scaled SD)": {
+      "dioxidation only": 0,
+      "either": 1,
+      "neither": 1,
+      "no baseline (no PSM of this kind)": 0,
+      "sulfide only": 2
+    },
+    "D3 four files pooled, all non-sulfide PSMs (median, SD)": {
+      "dioxidation only": 0,
+      "either": 1,
+      "neither": 1,
+      "no baseline (no PSM of this kind)": 0,
+      "sulfide only": 2
+    },
+    "D4 file, all non-sulfide PSMs (mean, SD)": {
+      "dioxidation only": 0,
+      "either": 1,
+      "neither": 1,
+      "no baseline (no PSM of this kind)": 0,
+      "sulfide only": 2
+    },
+    "D5 file, same chain": {
+      "dioxidation only": 0,
+      "either": 1,
+      "neither": 0,
+      "no baseline (no PSM of this kind)": 2,
+      "sulfide only": 1
+    },
+    "D6a four files, same chain (SD of those PSMs)": {
+      "dioxidation only": 0,
+      "either": 1,
+      "neither": 2,
+      "no baseline (no PSM of this kind)": 0,
+      "sulfide only": 1
+    },
+    "D6b four files, same chain (file SD as stand-in)": {
+      "dioxidation only": 1,
+      "either": 1,
+      "neither": 1,
+      "no baseline (no PSM of this kind)": 0,
+      "sulfide only": 1
+    },
+    "D7 four files, same chain and charge": {
+      "dioxidation only": 0,
+      "either": 1,
+      "neither": 0,
+      "no baseline (no PSM of this kind)": 2,
+      "sulfide only": 1
+    }
+  },
+  "robust_summary": [
+    {
+      "arm": "CTH_Cys",
+      "chain": "A",
+      "observed_ppm": -6.497743547370178,
+      "robust_summary": "neither under every baseline"
+    },
+    {
+      "arm": "CTH_Cys",
+      "chain": "A",
+      "observed_ppm": 4.598372052546707,
+      "robust_summary": "baseline-dependent: sulfide only (D1, D2, D3, D4); neither (D6a); dioxidation only (D6b)"
+    },
+    {
+      "arm": "NaHS",
+      "chain": "B",
+      "observed_ppm": 4.41737649307104,
+      "robust_summary": "sulfide only under every baseline"
+    },
+    {
+      "arm": "NaHS",
+      "chain": "B",
+      "observed_ppm": 7.75364331130552,
+      "robust_summary": "either under every baseline"
+    }
+  ],
+  "chain_offset": {
+    "A_chain_non_sulfide_ppm": [
+      -0.3799,
+      -1.423
+    ],
+    "A_chain_arm_and_charge": [
+      "NaHS z=3",
+      "NaHS z=3"
+    ],
+    "A_chain_mz_approx": [
+      836.69,
+      836.69
+    ],
+    "B_chain_n": 47,
+    "B_chain_median_ppm": 5.520722451827238,
+    "B_chain_sd_ppm": 1.4356309267471687,
+    "A_minus_B_median_ppm": -6.422204020775979,
+    "mannwhitney_p_two_sided": 0.01878432339389781,
+    "B_chain_within_60_mz_of_A_chain_ions": {
+      "n": 21,
+      "mz_range": [
+        857.928401,
+        889.190326
+      ],
+      "median_ppm": 5.056171424766864,
+      "range_ppm": [
+        1.0079410460978946,
+        6.516188938385181
+      ],
+      "group_medians_by_arm_charge": {
+        "CTH_Cys z=4": 5.563,
+        "NaHS z=4": 4.18,
+        "heat_inactive_CTH z=4": 5.123
+      }
+    },
+    "note": "the two A-chain PSMs are from the NaHS file (z = 3); the offset is not explained by m/z or charge (B-chain ions at similar m/z sit near the B-chain median); its cause is not established, and with n = 2 it cannot be characterised further"
+  },
+  "rule_in_consensus_audit_script_is_abs_ppm": true,
+  "rule_claimed_in_registration": "a +32-class PSM is RESOLVABLE if |observed_ppm - baseline_median| < separation_ppm / 2; this is the rule already registered in scripts/audit_search_space_and_mass_accuracy.py and is not modified here",
+  "stored_verdict": "on this deposit the reported chemistry is not resolvable from the deposited measurement: the separation is 4.95-6.99 ppm on the assigned peptides while the deposit's own precursor error has a systematic offset of +4.75 ppm and a span of 14.7 ppm",
+  "verifier_cross_check": {
+    "available": true,
+    "rows_compared": 16,
+    "all_readings_agree": true,
+    "max_abs_centre_diff": 0.0
+  },
+  "caveats": [
+    "the deposit's precursor tolerance and searched modification list are not recorded in the consensus files",
+    "if the window edge was +10 ppm, a dioxidised peptide reported as sulfide would sit at baseline + separation; depending on the baseline this is outside (+12.8 ppm, A chain against a B-dominated baseline) or inside (+6.1 ppm against the A-chain baseline; +9.6 to +10.5 ppm for the B chain) the window, so the window may truncate dioxidation-consistent errors and the errors of reported sulfide PSMs are not independent evidence for sulfide",
+    "neutral masses in the stored extraction are recomputed approximations (residues + water + NEM/sulfide count), not the deposit's calculated masses",
+    "the A-chain baseline rests on two PSMs from another file",
+    "four PSMs; illustration, not a rate"
+  ]
+}

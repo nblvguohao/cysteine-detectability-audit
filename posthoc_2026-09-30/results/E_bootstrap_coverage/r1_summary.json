@@ -1,0 +1,108 @@
+{
+ "label": "POST HOC revision analysis E_bootstrap_coverage, revision after verification (not registered)",
+ "primary_yardstick_random_control": "single same-size draw (calibrated width)",
+ "reading_counts": {
+  "stable": 26,
+  "boundary": 2
+ },
+ "boundary_verdicts": [
+  {
+   "claim_id": "PERS-003",
+   "stored_verdict": "undecidable",
+   "verdict_primary": "undecidable",
+   "verdict_primary_low_end": "attenuated",
+   "verdict_primary_high_end": "undecidable"
+  },
+  {
+   "claim_id": "SFE-008",
+   "stored_verdict": "undecidable",
+   "verdict_primary": "vanishes",
+   "verdict_primary_low_end": "vanishes",
+   "verdict_primary_high_end": "undecidable"
+  }
+ ],
+ "flips_all_readings": [],
+ "flips_primary_central_value": [
+  {
+   "claim_id": "SFE-008",
+   "stored_verdict": "undecidable",
+   "verdict_primary": "vanishes"
+  }
+ ],
+ "could_flip_primary_range": [
+  {
+   "claim_id": "PERS-003",
+   "stored_verdict": "undecidable",
+   "verdict_primary": "undecidable",
+   "verdict_primary_low_end": "attenuated",
+   "verdict_primary_high_end": "undecidable"
+  },
+  {
+   "claim_id": "SFE-008",
+   "stored_verdict": "undecidable",
+   "verdict_primary": "vanishes",
+   "verdict_primary_low_end": "vanishes",
+   "verdict_primary_high_end": "undecidable"
+  }
+ ],
+ "flips_secondary_rc_nominal": [
+  {
+   "claim_id": "SFE-008",
+   "stored_verdict": "undecidable",
+   "verdict_secondary_rc_nominal": "vanishes"
+  }
+ ],
+ "tally_stored": {
+  "undecidable": 12,
+  "survives": 11,
+  "attenuated": 2,
+  "vanishes": 1,
+  "null_broken_by_control": 1,
+  "baseline_contradicts_claim": 1
+ },
+ "tally_primary": {
+  "undecidable": 11,
+  "survives": 11,
+  "attenuated": 2,
+  "vanishes": 2,
+  "null_broken_by_control": 1,
+  "baseline_contradicts_claim": 1
+ },
+ "own_data_claims_changing_to_vanishes_any_yardstick": [],
+ "near_zero_deciding_bounds": [
+  {
+   "claim_id": "PERS-003",
+   "interval": "matched",
+   "stored": [
+    0.382,
+    -0.0154,
+    0.7849
+   ],
+   "wstar": 0.9612481127327628,
+   "yardstick_range": [
+    0.9575508770427876,
+    1.0593393017076211
+   ],
+   "z_mc": 1.996671239421349,
+   "verdict_if_bound_crossed": "attenuated",
+   "stored_verdict": "undecidable"
+  },
+  {
+   "claim_id": "SFE-008",
+   "interval": "random",
+   "stored": [
+    0.4111,
+    -0.0698,
+    0.8696
+   ],
+   "wstar": 0.8548554793096278,
+   "yardstick_range": [
+    0.8118597218856142,
+    0.9024357912863508
+   ],
+   "z_mc": 7.709807331084611,
+   "verdict_if_bound_crossed": "vanishes",
+   "stored_verdict": "undecidable"
+  }
+ ]
+}

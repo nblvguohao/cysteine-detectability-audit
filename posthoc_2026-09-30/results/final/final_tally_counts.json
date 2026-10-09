@@ -1,0 +1,18 @@
+{
+ "overall": {
+  "undecidable": 13,
+  "survives": 11,
+  "attenuated": 2,
+  "null_broken_by_control": 1,
+  "baseline_contradicts_claim": 1
+ },
+ "by_level": {
+  "site|undecidable": 10,
+  "protein|survives": 7,
+  "protein|undecidable": 3,
+  "site|attenuated": 2,
+  "site|survives": 4,
+  "site|null_broken_by_control": 1,
+  "site|baseline_contradicts_claim": 1
+ }
+}

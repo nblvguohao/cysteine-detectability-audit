@@ -1,0 +1,5 @@
+definition,n_pos,n_neg,median_iBAQ_ratio,r_before_length,r_after_length,r_before_cys,r_after_cys
+A_leading_razor,1197,6495,10.3633,-0.0093,0.2007,0.1036,0.2901
+B_all_proteins_column,2000,5692,9.9432,0.077,0.2926,0.1198,0.3052
+C_leading_razor_min2_runs,1126,6566,10.8993,-0.0209,0.1825,0.0893,0.2657
+verdict,S1_robust_to_arm_definition,,,,,,

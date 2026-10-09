@@ -1,0 +1,122 @@
+{
+  "registered_utc": "2026-09-17T00:40:00Z",
+  "registered_before_any_search_was_run": true,
+  "round": "public-data re-search of PXD015307 with both +32 candidates in the search space",
+  "question": "In a published, proteome-scale persulfidome deposit, is the chemical identity of a +32 Da cysteine signal decided by the measurement, or by which candidate modifications the search allowed?",
+  "why_this_deposit": {
+    "already_on_disk": "external/sulfhydrome_bta_tmt/ holds this deposit's Proteome Discoverer consensus files (Fig-1D.msf, four Fig4-L pdResult arms)",
+    "established_by": "reports/SEARCH_SPACE_AND_MASS_ACCURACY.md",
+    "facts_from_that_round": {
+      "sulfide_ever_placed_in_the_proteome_scale_search": false,
+      "modifications_actually_placed_in_Fig_1D_msf": ["Oxidation 15.994915 (residue list includes cysteine)", "iodoTMT6plex 329.226595", "MappingL 113.084064"],
+      "targeted_arm_sulfide_psms": 4,
+      "n_sulfide_resolvable": 0,
+      "separation_da": 0.017758,
+      "deposit_precursor_error_over_targeted_arms": {"n": 53, "mean_ppm": 4.7455, "sd_ppm": 2.3919, "span_ppm": 14.6694}
+    },
+    "what_re_searching_adds": "the consensus files carry no node parameters, so the SEARCHED space is not recoverable from them - only the PLACED set is. Re-searching the raws with both candidates declared makes the searched space ours and therefore knowable."
+  },
+  "materials": {
+    "accession": "PXD015307",
+    "title": "Quantitative profiling of protein sulfhydrome by the BTA-TMT",
+    "files_and_expected_bytes": {
+      "Fig-1D.raw": 498563222,
+      "Fig4-L_NaHS.raw": 99612094,
+      "Fig4-L_CTH_Cys.raw": 123832868,
+      "Fig4-L_heat_inactive_CTH.raw": 150754884,
+      "Fig4-L_control.raw": 102688780
+    },
+    "source": "https://ftp.pride.ebi.ac.uk/pride/data/archive/2020/03/PXD015307/",
+    "local_path": "external/sulfhydrome_bta_tmt/raw/",
+    "sha256_recorded_in": "the round's audit JSON, computed after download completes",
+    "database": "UniProt Bos taurus reference proteome UP000009136, canonical sequences, downloaded 2026-09-17; entry count and sha256 recorded in the audit",
+    "decoys": "Comet internal decoy generation (target-decoy)"
+  },
+  "search_parameters_fixed_before_the_run": {
+    "engine": "Comet 2026.01 on the A100 host (env /data/lgh/protein_ssh_A_PTM/opt/conda/envs/ms2026)",
+    "converter": "ThermoRawFileParser from the same env",
+    "enzyme": "trypsin, up to 2 missed cleavages",
+    "precursor_tolerance_ppm": 10,
+    "fragment_bin_tolerance_da": 0.02,
+    "variable_modifications": {
+      "C": ["Sulfide +31.972071", "Dioxidation +31.989829", "iodoTMT6plex +329.226595", "Carbamidomethyl +57.021464"],
+      "M": ["Oxidation +15.994915"],
+      "protein_n_term": ["Acetyl +42.010565"]
+    },
+    "declared_deviations_from_the_deposit": [
+      "The deposit placed Oxidation with a residue list that includes cysteine; here cysteine dioxidation is its own declared entry (+31.989829) because it is the competing hypothesis and must be scored as such, while Oxidation is restricted to methionine.",
+      "Precursor tolerance is 10 ppm rather than the vendor's 20 ppm, because at 20 ppm the two candidates are interchangeable on most tryptic peptides and the question would be unanswerable by construction.",
+      "No isobaric quantitation is used. iodoTMT6plex is searched as a mass only; no reporter-ion channel is read."
+    ],
+    "fdr": "1% target-decoy on the Comet e-value, computed the same way as the 2026-09-15 round"
+  },
+  "primary_statistic_and_reading_rule": {
+    "baseline": "precursor mass error (ppm) of PSMs carrying NO +32-class modification, summarised as median and SD - the file's own instrument baseline",
+    "separation_ppm_for_a_peptide": "0.017758 Da expressed in ppm of that peptide's neutral mass",
+    "resolvable": "a +32-class PSM is RESOLVABLE if |observed_ppm - baseline_median| < separation_ppm / 2; this is the rule already registered in scripts/audit_search_space_and_mass_accuracy.py and is not modified here",
+    "primary_readout": "the fraction of +32-class Cys PSMs that are resolvable, proteome-wide, with the count and the peptide-mass distribution reported alongside",
+    "secondary_readouts": [
+      "head-to-head: for spectra where both hypotheses yield a PSM, the difference in xcorr and in |ppm - baseline_median|",
+      "site-level counts of sulfide versus dioxidation assignments",
+      "the four targeted arms re-searched the same way, so the deposit's own four Sulfide PSMs are re-examined with both candidates available"
+    ]
+  },
+  "predeclared_outcomes": {
+    "1_unresolvable_majority": "most +32-class PSMs are not resolvable at this instrument's accuracy -> the sixth artefact gets a public, proteome-scale instance: chemical identity in site-level data can be a product of the search space rather than the measurement",
+    "2_resolvable_and_sulfide_consistent": "resolvable PSMs whose errors sit at the baseline under the +S hypothesis -> the deposit's chemistry stands",
+    "3_resolvable_and_dioxidation_consistent": "resolvable PSMs whose errors sit at the baseline only under +2O -> directional evidence on published data; even then the report names no specific published assignment as incorrect",
+    "4_too_few_psms": "fewer than 20 +32-class Cys PSMs pass 1% FDR -> the round is reported as underpowered and no fraction is quoted as a rate"
+  },
+  "declared_limits": [
+    "Different engine from the deposit (Comet versus Sequest HT); no engine-to-engine control is run, so a difference in assignments cannot be attributed to the search space alone without this caveat.",
+    "The deposit's persulfidome is defined by BTA-switch enrichment chemistry, not by a +32 mass; this round therefore does NOT test their enrichment-based site calls.",
+    "The bovine proteome version used here differs from whatever the authors used in 2019-2020; entry counts are recorded but not matched.",
+    "No Percolator rescoring; e-value target-decoy FDR only, matching the 2026-09-15 round.",
+    "This is published data. No assignment in the paper is called incorrect; the claim under test is about what the data can decide, not about the authors' conclusions."
+  ],
+  "compute_plan": {
+    "download": "Mac (measured 734 kB/s to ftp.pride.ebi.ac.uk; the 4090's route gives 9 kB/s and is not used)",
+    "transfer": "Mac -> 4090 over Tailscale -> A100 over the lab LAN with lgh_rsync",
+    "conversion_and_search": "A100 CPU only, 128 cores available; no GPU is touched, and the two GPUs currently run this project's own ppi_vs docking and persulf_complex production",
+    "analysis": "this tree, project venv"
+  },
+  "amendments": [
+    {
+      "utc": "2026-09-17T01:15:00Z",
+      "what": "compute location moved from the A100 to amax; nothing scientific changed",
+      "why": "measured, not assumed: Mac -> 4090 runs at about 40 kB/s because that node's Tailscale session is relayed through the 'sfo' DERP relay, so the 975 MB would not arrive tonight; the A100's own route to EBI is the 4090's (9 kB/s) and its direct address is down from here. Mac -> amax is a direct Tailscale path measured at 4.5 MB/s (40 MB in 9.36 s), amax reaches conda-forge at 9.8 MB/s, and amax has 128 cores with load average about 42. No GPU on any machine is used by this round.",
+      "where": "amax:/home/amax/scratch/lgh_pxd015307/, env built with micromamba at ../envs/ms2026 (comet-ms + thermorawfileparser from bioconda)",
+      "threads": "OMP_NUM_THREADS=24 and comet num_threads=24 on a shared 128-core machine"
+    },
+    {
+      "utc": "2026-09-17T01:15:00Z",
+      "what": "protein N-terminal acetylation (+42.010565) was NOT searched",
+      "why": "this Comet build exposes five variable-modification slots; the four cysteine candidates (sulfide, dioxidation, iodoTMT6plex, carbamidomethyl) plus methionine oxidation fill them. The dropped modification is not one of the competing hypotheses, but its absence can cost identifications and is declared rather than hidden."
+    },
+    {
+      "utc": "2026-09-17T01:15:00Z",
+      "what": "isotope_error = 0 (no C13 offsets) and max_variable_mods_in_peptide = 3, both fixed before the run",
+      "why": "the readout is the precursor mass error itself; allowing C13 offsets would let a 1 Da mis-assignment absorb exactly the error this round measures."
+    },
+    {
+      "utc": "2026-09-17T01:15:00Z",
+      "what": "num_output_lines = 5",
+      "why": "the head-to-head secondary readout needs the competing hypothesis for the SAME spectrum, which only appears if more than the top hit is written."
+    },
+    {
+      "utc": "2026-09-17T01:50:00Z",
+      "what": "the deposit's species is MOUSE, not bovine; the database is Swiss-Prot Mus musculus with isoforms",
+      "why": "read from the deposit's own search result: Fig-1D.msf ProteinAnnotations holds 19,303 entries, all _MOUSE, isoforms included. 'BTA' in the directory name is the probe (BTA-TMT), and the bovine insulin peptides in the targeted arms are a model substrate. The bovine database used in run 2 returned 174 PSMs at 1% FDR from 49,522 spectra. Our database: mmu_UP000000589_sp_iso.fasta, 25,750 entries."
+    },
+    {
+      "utc": "2026-09-17T02:00:00Z",
+      "what": "fragment settings are PER FILE, because the deposit mixes two mass analysers",
+      "why": "counted from the converted mzML scan headers: Fig-1D carries 31,450 FTMS and 3 ITMS scans (high-resolution MS2), while Fig4-L_NaHS carries 1,080 FTMS and 5,004 ITMS (ion-trap MS2). The registration's single fragment_bin_tol = 0.02 is right for Fig-1D and wrong for the four targeted arms, where the correct setting is fragment_bin_tol = 1.0005, fragment_bin_offset = 0.4, theoretical_fragment_ions = 1. Precursor tolerance stays +/-10 ppm for every file because the survey scans are FTMS throughout."
+    },
+    {
+      "utc": "2026-09-17T02:00:00Z",
+      "what": "four search runs are DISCARDED and kept, none deleted",
+      "why": "run 1: Comet's default static add_C_cysteine = 57.021464 forced carbamidomethyl on every cysteine, which makes the +32 question unanswerable by construction. run 2: bovine database (species mismatch). run 3: high-resolution fragment settings applied to the ion-trap arms. run 4: ion-trap fragment settings applied to the high-resolution file. Each run's outputs sit under amax:/home/amax/scratch/lgh_pxd015307/discarded_runN/ with a WHY_DISCARDED.txt. A wide-window diagnostic search (precursor -200/+500 Da, no variable modifications) is running to identify what modification the bulk of these spectra actually carry, because at 1% FDR the identification yield is still far below the 25,014 peptides the deposit itself reports."
+    }
+  ]
+}

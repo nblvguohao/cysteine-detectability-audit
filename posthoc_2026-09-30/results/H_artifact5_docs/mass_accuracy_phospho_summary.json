@@ -1,0 +1,55 @@
+{
+  "label": "POST HOC revision analysis (2026-09-30), not registered, not pre-specified",
+  "delta_cys_da": 0.017758064799998863,
+  "delta_phospho_sulfo_da": 0.009515487670000766,
+  "n_theoretical_mouse_cys_peptides": 516143,
+  "median_mass_plus32_only": 2158.0775360000002,
+  "median_mass_plus32_iodoTMT_other_cys": 2269.284246,
+  "pxd071110_share_4p5_recomputed": 0.47934333222681597,
+  "pxd071110_share_4p5_stored": 0.479343,
+  "source_data_matches_stored_eight": true,
+  "modification_lists_recorded_in_eight_deposit_audit": {
+    "PXD071110": [
+      "Acetyl (Protein N-term)",
+      "Carbamidomethyl (C)",
+      "DimethLys0",
+      "DimethNter0",
+      "Oxidation (M)",
+      "Phospho (STY)"
+    ],
+    "PXD071074": null,
+    "PXD071061": null,
+    "PXD071012": [
+      "Acetyl (Protein N-term)",
+      "Carbamidomethyl (C)",
+      "Oxidation (M)",
+      "Phospho (STY)"
+    ],
+    "PXD068672": [
+      "Acetyl (Protein N-term)",
+      "Carbamidomethyl (C)",
+      "Oxidation (M)",
+      "Phospho (STY)"
+    ],
+    "PXD068397": null,
+    "PXD068395": [
+      "Acetyl (Protein N-term)",
+      "Carbamidomethyl (C)",
+      "Oxidation (M)",
+      "Phospho (STY)"
+    ],
+    "PXD064206": null
+  },
+  "sulfation_absent_where_recorded": true,
+  "n_deposits_with_recorded_modification_list": 4,
+  "heaviest_peptide_da": {
+    "PXD071110": null,
+    "PXD071074": null,
+    "PXD071061": null,
+    "PXD071012": 4568.0949,
+    "PXD068672": 4282.5766,
+    "PXD068397": null,
+    "PXD068395": 4353.1154,
+    "PXD064206": null
+  }
+}

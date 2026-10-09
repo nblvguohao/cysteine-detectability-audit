@@ -1,0 +1,92 @@
+{
+ "what_this_is": "The scripts and stored outputs behind Artefact 1 and Artefact 2, staged for deposit with the released code. They were produced in a separate working tree; the copies here carry the source hash so that the deposit can be checked against them.",
+ "source_tree": "/path/to/project",
+ "files": {
+  "release_staging_artefact12_2026-09-23/scripts/09_map_large_scale.py": {
+   "source": "/path/to/project/scripts/09_map_large_scale.py",
+   "sha256": "7e8ee590ca1cfc82be5a1eb36271c1f4ccd7585ae9f185748d95a73064aec8ec"
+  },
+  "release_staging_artefact12_2026-09-23/scripts/12_detectability_matched.py": {
+   "source": "/path/to/project/scripts/12_detectability_matched.py",
+   "sha256": "78ec4e7d5c876c184b305db50105f988feecaf8dc2f7cdc617842f825f227096"
+  },
+  "release_staging_artefact12_2026-09-23/scripts/21_crossspecies_test.py": {
+   "source": "/path/to/project/scripts/21_crossspecies_test.py",
+   "sha256": "f9c1f32d984e4644f28d3b85be9c1865e6ded9000bf9ff8b9d73cc3f0bf9fbc5"
+  },
+  "release_staging_artefact12_2026-09-23/scripts/36_ncys_decompose.py": {
+   "source": "/path/to/project/scripts/36_ncys_decompose.py",
+   "sha256": "f74133d4abf81544ecf854502721b16a99f2915c8439415e595c3f41348034e3"
+  },
+  "release_staging_artefact12_2026-09-23/scripts/10_large_scale_motif.py": {
+   "source": "/path/to/project/scripts/10_large_scale_motif.py",
+   "sha256": "e1873dfe5b49785d1852129f68d459a33a5f824eca1c2d95739bf45d7b704fd2"
+  },
+  "release_staging_artefact12_2026-09-23/results/12_matched_sno.json": {
+   "source": "/path/to/project/results/12_matched_sno.json",
+   "sha256": "1de687bfd409fc22c2482b8b99776dd429c61c533a89b69b8e090177233c4b2d"
+  },
+  "release_staging_artefact12_2026-09-23/results/12_matched_so.json": {
+   "source": "/path/to/project/results/12_matched_so.json",
+   "sha256": "dd08e651f216be72f333e3291e0b4e6820f13cbf6db3ac79376afb783ce7c97e"
+  },
+  "release_staging_artefact12_2026-09-23/results/12_matched_ox.json": {
+   "source": "/path/to/project/results/12_matched_ox.json",
+   "sha256": "716d1c8b35881d24a635c940832626d1fcc65e49eb89bd3a178598b669f1ea8e"
+  },
+  "release_staging_artefact12_2026-09-23/results/21_crossspecies_summary.json": {
+   "source": "/path/to/project/results/21_crossspecies_summary.json",
+   "sha256": "34963cbdfd5b790aac9abdd59a7f54487ca846be424072e4db4cc529967aa6e0"
+  },
+  "release_staging_artefact12_2026-09-23/results/21_crossspecies_summary.csv": {
+   "source": "/path/to/project/results/21_crossspecies_summary.csv",
+   "sha256": "09e99f87b1ae5fb04fc279bc730401d11f80fe14984b62eb3726ae2870076707"
+  },
+  "release_staging_artefact12_2026-09-23/results/35_symmetric_ncys_test.json": {
+   "source": "/path/to/project/results/35_symmetric_ncys_test.json",
+   "sha256": "78e5b8657d6c058ade29241b9a15c367aa7ec08ea185b57fd9da34d84a525665"
+  }
+ },
+ "input_database": {
+  "name": "PlantPTMViewer",
+  "note": "third-party database export, identified rather than redistributed; each row's `exps` column carries the PubMed identifiers of the studies the site came from",
+  "categories": {
+   "sno": {
+    "modification": "S-nitrosylation",
+    "arabidopsis_cysteine_rows": 8785,
+    "top_source_pubmed_ids": [
+     "37277371",
+     "25699590",
+     "24388526",
+     "22115780"
+    ],
+    "file_sha256_not_redistributed": "d1ff195ea110c6220894f5060e7517c0b357aa8021c1c15aa44fcd6c5fb29800"
+   },
+   "so": {
+    "modification": "S-sulfenylation",
+    "arabidopsis_cysteine_rows": 6828,
+    "top_source_pubmed_ids": [
+     "32714340",
+     "31578252"
+    ],
+    "file_sha256_not_redistributed": "aad27d68bd8e8fbeffec40c0284916fe00e348448dbe2de5d385745d201d9633"
+   },
+   "ox": {
+    "modification": "reversible cysteine oxidation",
+    "arabidopsis_cysteine_rows": 4664,
+    "top_source_pubmed_ids": [
+     "24376095",
+     "34619326",
+     "31871212",
+     "25720653"
+    ],
+    "file_sha256_not_redistributed": "3e15a85ca68785238240256c031f5c082102fc2e3cd502d998ef097dce81ce3b"
+   }
+  }
+ },
+ "value_without_a_stored_table": {
+  "value": "2.54",
+  "where_it_is_printed": "Artefact 2, the unfiltered neighbouring-cysteine z with P 0.011 on 980 sites",
+  "status": "no stored table produces it; R31 removes it from the text"
+ }
+}

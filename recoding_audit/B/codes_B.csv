@@ -1,0 +1,75 @@
+uid,doi,coder_code,code_B_strict,justification,confidence
+1,10.1093/bioinformatics/btaf078,e,e,"Negative set described only as 'nonsulfhydration samples' with no stated source; not shown to be whole-proteome, same-experiment or detectability-matched.",low
+3,10.3389/fgene.2025.1616880,U,U,"Retrieved quote is cut off mid-clause ('while all') before the negative set is described, so no class can be assigned.",low
+9,10.1093/database/baag021,U,U,"Retrieved quote is cut off inside the input specification, before any background descriptor appears.",low
+36,10.1186/s12859-023-05164-9,e,e,"Negatives are the remaining cysteines of the proteins that carry the experimental SNO sites - a curated protein-restricted set, not the same experiment's unassigned detections.",medium
+43,10.1016/j.heliyon.2023.e23187,e,e,Only 'all other samples were negative sites'; the origin of the negative samples is never given.,low
+52,10.3389/fcell.2021.617366,U,U,"Quote cut off at 'all cysteine sites that', so the qualifier that would decide between a and c is missing.",low
+102,10.1371/journal.pone.0055512,a,a,'Randomly selected some cysteines except for known S-glutathionylation sites' describes an unrestricted cysteine pool drawn at random.,low
+128,10.1016/j.redox.2023.102792,e,e,Motif generation used 586 reduced-cysteine peptides; no background set is named anywhere in the retrieved evidence.,medium
+196,10.1074/mcp.m113.032235,a,a,Explicit 'background set for all cysteine sites in human proteome' - an unrestricted whole-proteome cysteine background.,high
+208,10.1371/journal.pone.0055844,e,e,"Negatives are 810 'experimentally verified non-SNO sites', i.e. curated from prior experiments rather than generated in this study.",medium
+211,10.1371/journal.pone.0011290,e,e,"Training-set sizes are given but the origin of the 2,581 negative sites is never stated.",medium
+218,10.3390/molecules23040954,e,e,478 negative samples reported with no statement of where they came from.,low
+441,10.1371/journal.pone.0261543,c,c,"Negative group is the non-palmitoylated set detected within the same acyl-RAC dataset, i.e. residues detected in the same experiment without a modification assignment.",medium
+480,10.1038/s41467-017-01461-z,c,c,Native-MS experiment observes all cysteines of the analysed proteins and the recorded note states the background is that detected (unmodified) set.,low
+713,10.3390/pathogens15070718,U,U,Quote cut off at 'with the' immediately before the Motif-X background specification.,low
+736,10.1016/j.mcpro.2023.100700,e,e,"Negatives are acetylation sites annotated without low-throughput evidence - a curated annotation subset, not unmodified residues.",medium
+741,10.1002/mco2.70344,U,U,Quote concerns flanking-amino-acid analysis of identified Klac sites; no background set is described and the quote is cut off.,low
+769,10.1128/spectrum.01016-21,U,U,Quote cut off inside the Motif-X parameter sentence before any background descriptor.,low
+800,10.3390/proteomes14010005,U,U,Quote names the MoMo tool but is cut off inside its citation; no background set appears.,low
+802,10.1186/s12935-020-01266-z,e,e,The comparison is against undefined 'background matches' and the paper never defines the background set.,medium
+826,10.3389/fcimb.2023.1126350,U,U,Motif tool named but quote cut off; the recorded note states a background statement exists in the full text but the statement itself was not recorded.,low
+828,10.3390/cancers15010078,e,e,"Extracted 'background' sentence is a reagent purchase line (trypsin), and the recorded ambiguity confirms no per-residue background was defined.",medium
+836,10.1186/s12967-022-03645-8,e,e,Motif-X named but the quote is cut off; the only detectability evidence is an abundance remark recorded as discussion-only.,medium
+857,10.18632/aging.203992,e,e,Recorded note states no background statement was found anywhere in the full text; motif analysis only.,high
+859,10.1002/ctm2.890,e,e,Recorded note states no background statement was found anywhere in the full text; motif analysis only.,high
+861,10.3390/ijms21228631,e,e,Only the motif-x/rmotifx software is named; no background set is stated.,low
+877,10.3389/fnmol.2021.594332,U,U,"Recorded ambiguity states the motif-x background phrase was truncated in the extract, so the class cannot be recovered.",low
+885,10.3390/ijms18071376,U,U,Quote cut off mid-sentence ('extracted for') before any background description.,low
+892,10.1186/s12935-021-02286-z,U,U,Quote cut off at 'performed using' before the comparison and background are specified; the stated contrast is between two site subsets.,low
+902,10.3892/mmr.2020.10931,U,U,Motif-x parameters described but quote cut off; the note records that an explicit background statement exists in the full text which was not recorded.,low
+924,10.1371/journal.pone.0200283,U,U,"Quote cut off at 'while the', exactly where the negative set would be described.",low
+982,10.1038/s41467-018-08004-0,e,e,Phosphosites in two groups visualised with WebLogo; the recorded ambiguity confirms no background set was used.,medium
+989,10.15252/msb.20209819,a,a,Background N-mers were extracted from the aligned protein sequences - an unrestricted set of all S/T/Y positions with no detectability restriction.,medium
+994,10.1186/1471-2164-15-466,U,U,Only Motif-X default parameters are quoted; the note records that a background statement exists in the full text but it was not recorded.,low
+1005,10.15252/embj.201899559,e,e,Recorded note states no background statement was found anywhere in the full text; only a general SP-motif enrichment remark.,medium
+1022,10.3389/fcell.2019.00338,U,U,MoMo/MEME named but quote cut off; the note records that an explicit background statement exists in the full text which was not recorded.,low
+1023,10.1186/s12864-015-1753-4,a,a,Explicit statement that the Arabidopsis IPI (whole-proteome) database was used as the Motif-X background.,high
+1067,10.1038/s41598-017-07199-4,a,a,Explicit statement that the background set was all S/T/Y residues extracted from the background protein set.,high
+1077,10.1038/srep44021,U,U,Quote cut off mid-sentence while describing foreground motif extraction; no background set named.,low
+1111,10.3390/ijms150712007,e,e,"Background is all identified phosphosites while foreground is regulated sites - a regulation contrast between site subsets, which the strictness rule excludes from c.",medium
+1114,10.1371/journal.ppat.1005346,U,U,Motif-X enrichment quote cut off mid-sentence; the note records that an explicit background statement exists in the full text which was not recorded.,low
+1135,10.1186/s12918-015-0246-z,e,e,Only positive-set construction is quoted; the recorded ambiguity states the negative-set source is not stated.,low
+1253,10.1038/s41467-019-10182-4,e,e,Quote concerns motif positions; the recorded ambiguity states the motif-x background is unstated (the recorded 'background peptides' means non-target peptides).,medium
+1380,10.1128/mbio.02704-24,e,e,Motif-X version is named but no background set is stated.,medium
+1537,10.1016/j.celrep.2012.07.006,e,e,Abundance was controlled for quantitation / sites-per-protein only; the recorded ambiguity confirms this is not a sequence-level background.,medium
+1553,10.1093/bioinformatics/btq260,a,a,"Negatives are 3,417 lysines randomly drawn from identified human peptides held in an external database (MAPU) - an unrestricted lysine pool, not same-experiment detections.",low
+1558,10.3389/fmicb.2020.594743,U,U,Motif tool and 21-mers described but the quote is cut off before any background descriptor.,low
+1568,10.1038/s41598-018-26676-y,a,a,Motif-X models were analysed over all protein sequences - an unrestricted all-proteins background.,low
+1593,10.3389/fmicb.2021.672559,a,a,Motif-X models were analysed over all protein sequences - an unrestricted all-proteins background.,low
+1596,10.1038/s41598-019-52552-4,U,U,Negatives described as 'non-succinylated sites which are those fragmented sequences' with the defining clause cut off.,low
+1608,10.1186/s12864-017-3978-x,U,U,Motif-x parameters quoted but cut off; the note records that an explicit background statement exists in the full text which was not recorded.,low
+1609,10.1371/journal.pone.0240947,e,e,Recorded note states no background statement was found anywhere in the full text; only motif counts reported.,medium
+1614,10.1371/journal.pone.0243787,e,e,"MoMo named and 'appraised proteins' mentioned, but no background set is defined.",low
+1620,10.3390/ijms20235911,U,U,Motif-x 21-mer sentence cut off; the note records that an explicit background statement exists in the full text which was not recorded.,low
+1628,10.1002/pmic.201500086,U,U,Quote concerns excluding unconfident motifs and is cut off mid-clause; no background set is described.,low
+1636,10.3389/fimmu.2022.966457,e,e,MoMo/motif-x named only; no background set is stated.,medium
+1639,10.1186/s12953-021-00182-y,U,U,Motif-x sentence cut off mid-parameter list; the note records that an explicit background statement exists in the full text which was not recorded.,low
+1646,10.1038/s41598-022-11798-1,e,e,Motif-X online tool named only; no background set is stated.,medium
+1674,10.1186/s12864-019-5716-z,U,U,Motif-x 21-mer sentence cut off before any background descriptor appears.,low
+1686,10.3389/fpls.2015.00298,e,e,Quote cut off mid-sentence and the recorded ambiguity states the background set is not defined.,medium
+1710,10.3389/fonc.2020.01684,U,U,Motif-X named with no background given; the note records that an explicit background statement exists in the full text which was not recorded.,low
+1712,10.1038/s41598-017-14477-8,U,U,Motif-X sentence cut off at 'which was'; the note records that an explicit background statement exists in the full text which was not recorded.,low
+1723,10.3390/ijms221910546,U,U,Quote cut off mid-sentence describing extracted phosphosite sequences; no background set named.,low
+1725,10.1093/gigascience/giy047,a,a,Recorded ambiguity states the motif-x background was the SGD (whole yeast) proteome.,medium
+1726,10.3389/fcell.2021.626821,e,e,Flanking-sequence analysis of variation datasets; the recorded ambiguity states the reference region is not defined.,medium
+1729,10.1093/jxb/erw293,e,e,Motif-X named only; no background set is stated.,low
+1736,10.1038/s44318-024-00032-5,e,e,IceLogo described only in general terms; no background set is stated.,medium
+1742,10.7554/elife.68648,U,U,"Quote cut off mid-clause and concerns ATR kinase action, not a background set.",low
+1757,10.1007/s13167-019-00197-8,a,a,Explicit statement that the Motif-X background was the IPI human proteome - an unrestricted whole-proteome background.,high
+1789,10.1021/acs.jproteome.5c00278,e,e,Quote concerns 'decoy' phosphosites and is cut off; the recorded ambiguity states the comparison set is not defined.,low
+1867,10.7717/peerj.7046,a,a,Tool paper whose recorded ambiguity states it recommends a proteome-derived background and warns that species-mismatched backgrounds distort enrichment.,low
+1893,10.1371/journal.pone.0105018,e,e,Only the positive/negative assignment formula is quoted; the recorded ambiguity states the negative-set source is not stated.,low
+2038,10.1039/d4sc06745b,e,e,Only a generic statement that bioinformatics analyses were performed; the recorded ambiguity notes no background specification.,medium
+2113,10.1016/j.mcpro.2025.101494,a,a,Explicit statement that background peptides were extracted from all length-13 peptides in the UniProt Human database - an unrestricted whole-proteome background.,high

@@ -1,0 +1,34 @@
+{
+  "id": "B-plmsnosite",
+  "written": "2026-09-24",
+  "written_before": "any feature is computed on, and any model is fitted to, these data",
+  "question": "How much of the published independent-test AUROC on the pLMSNOSite S-nitrosylation benchmark can a model reach that sees only 25 in-silico tryptic-digest features of the site's peptide (no residue identity, no evolutionary, structural or language-model information)?",
+  "data": {
+    "source": "https://github.com/KCLabMTU/pLMSNOSite, commit e9158af06418f3e50c9bbbbeca77ea692e6507ce, data/train/sequence_train.csv and data/test/sequence_test.csv (Apache-2.0)",
+    "local_copy": "external/benchmarks_2026-09-24/pLMSNOSite/",
+    "sha256": {"sequence_train.csv": "a3b4a1fe3858ed3e4a0aa62d47e52c8e1c118cceb06c4edcf75c0b82ff96bd0f",
+               "sequence_test.csv": "d4498e6f2afa28b89d150dacf44b1de6bbfd791e772f1fefe120aa4aabcc5551"},
+    "rows": "used as released: training 3,276 positives / 3,276 negatives (1,918 proteins); test 351 / 3,168 (278 proteins); every Position is a cysteine in the released sequence (checked)",
+    "declared_discrepancy": "the paper states 3,383 training SNO sites; the released balanced training file has 3,276. The released files are used and the published test-set numbers are taken as published."
+  },
+  "features": "DIG25 = run_cross_protease_detectability_probe.FEATURE_NAMES (25 columns), computed by its features() with the Trypsin rule on the released full sequence; Position is 1-based and converted to a 0-based index",
+  "model": "sklearn HistGradientBoostingClassifier(**run_cross_protease_detectability_probe.HGB_KWARGS), fixed configuration, no tuning, no calibration, one fit on the full released training set; interpreter: project venv (Python 3.9.6)",
+  "published_reference_auroc": {"pLMSNOSite": 0.754, "PreSNO": 0.756, "DeepNitro": 0.731, "GPS-SNO": 0.523,
+                                "source": "Pratyush et al. BMC Bioinformatics 24, 41 (2023), doi 10.1186/s12859-023-05164-9, Table (independent test set; values for other tools adopted from PreSNO)"},
+  "primary": "test-set AUROC of the DIG25 model, with a 95% protein-clustered bootstrap interval over test proteins (5,000 replicates, seed 20260924)",
+  "recovery_ratio": "R = (AUROC_DIG25 - 0.5) / (0.754 - 0.5), against pLMSNOSite; the same ratio against PreSNO and DeepNitro is reported as secondary",
+  "branches": {
+    "B1": "R >= 0.75 and the AUROC interval's lower bound > 0.5: detectability-only features recover most of the published discrimination on this benchmark",
+    "B2": "0.25 <= R < 0.75 and the lower bound > 0.5: detectability-only features recover a substantial minority of it",
+    "B3": "R < 0.25, or the interval includes 0.5: the published discrimination on this benchmark is largely not reproduced by detectability features"
+  },
+  "controls": {
+    "NC": "the same model fitted after permuting the training labels (seed 20260924): its test AUROC interval must cover 0.5, else the pipeline is broken and no result is used",
+    "PC": "5-fold cross-validated AUROC on the training set, reported as a check that the features carry signal where the published models were trained"
+  },
+  "secondary_descriptive": ["test AUPRC (test prevalence 351/3,519)", "the VIS10 subset (10 visibility-only columns) with the same model"],
+  "declared_caveats": ["the benchmark split is by site, not by protein; the number of proteins shared by training and test sets is reported",
+                       "negatives are other cysteines of SNO-bearing proteins, the construction this study questions; the comparison is about what the benchmark rewards, not about S-nitrosylation chemistry",
+                       "published AUROCs are quoted, not recomputed"],
+  "commitment": "whichever branch results is reported in the manuscript and a Supplementary Note with the same prominence; no feature, model or threshold is changed after the test set is scored"
+}

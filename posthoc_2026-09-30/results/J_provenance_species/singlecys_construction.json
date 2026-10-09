@@ -1,0 +1,1187 @@
+{
+ "label": "POST HOC revision analysis (2026-09-30), item J_provenance_species round 2; not registered, not pre-specified",
+ "A3_rice_deposit_peptide_table": {
+  "file": "PRIDE PXD072089 SS-all-peptides.tsv (MaxQuant peptides table; the deposit's only non-raw file per the PRIDE listing recorded on 2026-09-22; no cysteine-modification column, its only site column is Oxidation (M) site IDs)",
+  "enzyme_evidence": {
+   "peptides_total": 3853,
+   "peptides_non_decoy_non_contaminant": 3687,
+   "cleavage_before_proline_at_C_terminus": 44,
+   "cleavage_before_proline_at_N_terminus": 59
+  },
+  "enzyme_reading": "cleavages before proline occur, so the search used Trypsin/P (MaxQuant default); the Trypsin/P minimal segment is therefore the exact coverability criterion for this deposit",
+  "cys_peptide_placements_on_cohort_proteins": 916,
+  "cys_peptides_ambiguous_on_canonical": 0,
+  "cohort_cysteines": 5598,
+  "cohort_labelled": 817,
+  "cohort_cysteines_in_a_single_cys_peptide": 817,
+  "label_equals_single_cys_peptide_set": true,
+  "labelled_not_in_single_cys_peptide": 0,
+  "single_cys_peptide_not_labelled": 0,
+  "cohort_cysteines_identified_only_in_multi_cys_peptides": 97,
+  "share_of_unlabelled_identified_only_in_multi_cys_peptides": 0.020288642543400962,
+  "multi_only_labelled": 0,
+  "unfiltered_label_every_cys_of_every_identified_peptide": 914,
+  "unfiltered_label_share_in_window_multi_cys_segment": 0.07549234135667396,
+  "unfiltered_label_in_window_multi_cys_segment": 69,
+  "item_F_filter_chain_cited": "results/F_rice_artifact3/s05_filter_chain.csv (step 5 equals the stored set site by site: 817 sites, 640 proteins, 5,598 cysteines)"
+ },
+ "A1_window_based": {
+  "human_PXD044043|window_second_cys_trypsinP": {
+   "labelled_not_coverable": 0,
+   "labelled": 3206,
+   "unlabelled_not_coverable": 4002,
+   "unlabelled": 15361,
+   "share_unlabelled_not_coverable": 0.26052991341709525,
+   "proteins_with_a_not_coverable_cysteine": 802,
+   "proteins": 1519
+  },
+  "human_PXD044043|window_second_cys_trypsin_proline_blocked": {
+   "labelled_not_coverable": 0,
+   "labelled": 3206,
+   "unlabelled_not_coverable": 4038,
+   "unlabelled": 15361,
+   "share_unlabelled_not_coverable": 0.26287351083913807,
+   "proteins_with_a_not_coverable_cysteine": 806,
+   "proteins": 1519
+  },
+  "rice_PXD072089|window_second_cys_trypsinP": {
+   "labelled_not_coverable": 0,
+   "labelled": 817,
+   "unlabelled_not_coverable": 1160,
+   "unlabelled": 4781,
+   "share_unlabelled_not_coverable": 0.24262706546747542,
+   "proteins_with_a_not_coverable_cysteine": 305,
+   "proteins": 640
+  },
+  "rice_PXD072089|window_second_cys_trypsin_proline_blocked": {
+   "labelled_not_coverable": 0,
+   "labelled": 817,
+   "unlabelled_not_coverable": 1170,
+   "unlabelled": 4781,
+   "share_unlabelled_not_coverable": 0.24471867810081574,
+   "proteins_with_a_not_coverable_cysteine": 305,
+   "proteins": 640
+  }
+ },
+ "A2_rice_full_sequence": {
+  "matched": 5598,
+  "of": 5598,
+  "sources": {
+   "UP000059680_2026_03": 4404,
+   "UniProtKB_2026_03_active_entry_fetched_by_item_F": 1194
+  },
+  "all_released_rice_cysteines|full_second_cys_trypsinP": {
+   "labelled_not_coverable": 0,
+   "labelled": 817,
+   "unlabelled_not_coverable": 1709,
+   "unlabelled": 4781,
+   "share_unlabelled_not_coverable": 0.3574565990378582,
+   "proteins_with_a_not_coverable_cysteine": 384,
+   "proteins": 640
+  },
+  "all_released_rice_cysteines|full_second_cys_trypsin_proline_blocked": {
+   "labelled_not_coverable": 2,
+   "labelled": 817,
+   "unlabelled_not_coverable": 1766,
+   "unlabelled": 4781,
+   "share_unlabelled_not_coverable": 0.36937879104789795,
+   "proteins_with_a_not_coverable_cysteine": 390,
+   "proteins": 640
+  },
+  "UP000059680_2026_03_subset_(j3_part_2c)|full_second_cys_trypsinP": {
+   "labelled_not_coverable": 0,
+   "labelled": 640,
+   "unlabelled_not_coverable": 1372,
+   "unlabelled": 3764,
+   "share_unlabelled_not_coverable": 0.3645058448459086,
+   "proteins_with_a_not_coverable_cysteine": 313,
+   "proteins": 497
+  },
+  "UP000059680_2026_03_subset_(j3_part_2c)|full_second_cys_trypsin_proline_blocked": {
+   "labelled_not_coverable": 2,
+   "labelled": 640,
+   "unlabelled_not_coverable": 1418,
+   "unlabelled": 3764,
+   "share_unlabelled_not_coverable": 0.3767268862911796,
+   "proteins_with_a_not_coverable_cysteine": 318,
+   "proteins": 497
+  },
+  "minimal_segment_length_by_class": {
+   "labelled": {
+    "n": 817,
+    "median_minimal_segment_length": 14.0,
+    "mean": 14.892288861689106
+   },
+   "unlabelled_coverable": {
+    "n": 3072,
+    "median_minimal_segment_length": 13.0,
+    "mean": 16.20703125
+   },
+   "unlabelled_not_coverable": {
+    "n": 1709,
+    "median_minimal_segment_length": 23.0,
+    "mean": 26.53832650672908
+   }
+  }
+ },
+ "B1_rice_distal_by_class": {
+  "all_released_rice_cysteines": {
+   "n": {
+    "lab": 817,
+    "unl": 4781,
+    "cov": 3072,
+    "nc": 1709
+   },
+   "proteins": 640,
+   "rate_lab": {
+    "value": 0.8531211750305998,
+    "ci95_protein_clustered": [
+     0.8292638580931263,
+     0.8768292682926829
+    ]
+   },
+   "rate_unl": {
+    "value": 0.7423133235724744,
+    "ci95_protein_clustered": [
+     0.7264188837265022,
+     0.7580488409095486
+    ]
+   },
+   "rate_cov": {
+    "value": 0.7770182291666666,
+    "ci95_protein_clustered": [
+     0.7617186192687416,
+     0.7917844618259091
+    ]
+   },
+   "rate_nc": {
+    "value": 0.6799297834991223,
+    "ci95_protein_clustered": [
+     0.64896580889454,
+     0.7093573021482461
+    ]
+   },
+   "gap_labelled_minus_unlabelled": {
+    "value": 0.11080785145812544,
+    "ci95_protein_clustered": [
+     0.08128718087553838,
+     0.1398151661214762
+    ]
+   },
+   "gap_labelled_minus_unlabelled_coverable": {
+    "value": 0.07610294586393318,
+    "ci95_protein_clustered": [
+     0.04760325412945526,
+     0.10458005356466343
+    ]
+   },
+   "gap_coverable_minus_not_coverable": {
+    "value": 0.09708844566754438,
+    "ci95_protein_clustered": [
+     0.06641492360351049,
+     0.12932430889905702
+    ]
+   },
+   "share_of_gap_from_construction": {
+    "value": 0.3131989758623497,
+    "ci95_protein_clustered": [
+     0.21043425457571677,
+     0.44818117578474714
+    ]
+   }
+  },
+  "UP000059680_2026_03_subset_(j3_part_2c)": {
+   "n": {
+    "lab": 640,
+    "unl": 3764,
+    "cov": 2392,
+    "nc": 1372
+   },
+   "proteins": 497,
+   "rate_lab": {
+    "value": 0.8390625,
+    "ci95_protein_clustered": [
+     0.812226740891363,
+     0.8659326611822435
+    ]
+   },
+   "rate_unl": {
+    "value": 0.7460148777895855,
+    "ci95_protein_clustered": [
+     0.7279160974209115,
+     0.7637220070053535
+    ]
+   },
+   "rate_cov": {
+    "value": 0.782608695652174,
+    "ci95_protein_clustered": [
+     0.7649091384184146,
+     0.7997465315577121
+    ]
+   },
+   "rate_nc": {
+    "value": 0.6822157434402333,
+    "ci95_protein_clustered": [
+     0.6484611440643119,
+     0.7143950053661693
+    ]
+   },
+   "gap_labelled_minus_unlabelled": {
+    "value": 0.09304762221041452,
+    "ci95_protein_clustered": [
+     0.06014521060611619,
+     0.12469619589430105
+    ]
+   },
+   "gap_labelled_minus_unlabelled_coverable": {
+    "value": 0.0564538043478261,
+    "ci95_protein_clustered": [
+     0.02440694509660314,
+     0.08858562728204591
+    ]
+   },
+   "gap_coverable_minus_not_coverable": {
+    "value": 0.10039295221194067,
+    "ci95_protein_clustered": [
+     0.06598117616002218,
+     0.13564465404403167
+    ]
+   },
+   "share_of_gap_from_construction": {
+    "value": 0.3932805266085842,
+    "ci95_protein_clustered": [
+     0.24762213475678482,
+     0.6208810911819138
+    ]
+   }
+  }
+ },
+ "B2i_rice_coverability_auc_for_distal_among_unlabelled": {
+  "all_released_rice_cysteines": {
+   "auc": 0.5582886664617434,
+   "ci95_protein_clustered": [
+    0.539743811030977,
+    0.5758017512646185
+   ],
+   "n_unlabelled": 4781,
+   "check_closed_form": 0.5582886664617434
+  },
+  "UP000059680_2026_03_subset_(j3_part_2c)": {
+   "auc": 0.5613668061366806,
+   "ci95_protein_clustered": [
+    0.5405646971033398,
+    0.581230972753039
+   ],
+   "n_unlabelled": 3764,
+   "check_closed_form": 0.5613668061366806
+  },
+  "note9_observed_label_negative_rice": {
+   "v2h_chem_trained_on_human": {
+    "n": 4267,
+    "attribute_rate": 0.7453,
+    "auc": 0.6474
+   },
+   "v2h_full_trained_on_human": {
+    "n": 4267,
+    "attribute_rate": 0.7453,
+    "auc": 0.6457
+   }
+  }
+ },
+ "B2ii_coverability_auc_for_label": {
+  "human_PXD044043|window_second_cys_trypsinP": {
+   "pooled_auc": 0.6302649567085477,
+   "within_protein_auc_mean": 0.6016819563845186,
+   "within_protein_ci95_protein_bootstrap": [
+    0.5954826351544372,
+    0.6079620835518489
+   ],
+   "n_proteins_with_both_classes": 1475,
+   "n_cysteines": 18567,
+   "lower_bound": true
+  },
+  "rice_PXD072089|window_second_cys_trypsinP": {
+   "pooled_auc": 0.6213135327337378,
+   "within_protein_auc_mean": 0.594599645705414,
+   "within_protein_ci95_protein_bootstrap": [
+    0.5851253348391691,
+    0.6042833003365227
+   ],
+   "n_proteins_with_both_classes": 637,
+   "n_cysteines": 5598,
+   "lower_bound": true
+  },
+  "rice_PXD072089|full_second_cys_trypsinP": {
+   "pooled_auc": 0.6787282995189291,
+   "within_protein_auc_mean": 0.6424091245849421,
+   "within_protein_ci95_protein_bootstrap": [
+    0.6316186330377136,
+    0.6534948653427094
+   ],
+   "n_proteins_with_both_classes": 637,
+   "n_cysteines": 5598,
+   "lower_bound": false
+  },
+  "note11_lgb_rank_within_protein_auc": {
+   "human_PXD044043|control": {
+    "within_protein_auc_lgb_rank": 0.7935,
+    "n_proteins_scored": 1475
+   },
+   "human_PXD044043|drop_w710": {
+    "within_protein_auc_lgb_rank": 0.7953,
+    "n_proteins_scored": 1475
+   },
+   "human_PXD044043|drop_all_basic": {
+    "within_protein_auc_lgb_rank": 0.7845,
+    "n_proteins_scored": 1475
+   },
+   "human_PXD044043|detect_only": {
+    "within_protein_auc_lgb_rank": 0.8819,
+    "n_proteins_scored": 1475
+   },
+   "human_PXD044043|full": {
+    "within_protein_auc_lgb_rank": 0.8884,
+    "n_proteins_scored": 1475
+   },
+   "rice_PXD072089|control": {
+    "within_protein_auc_lgb_rank": 0.7663,
+    "n_proteins_scored": 578
+   },
+   "rice_PXD072089|drop_w710": {
+    "within_protein_auc_lgb_rank": 0.7636,
+    "n_proteins_scored": 578
+   },
+   "rice_PXD072089|drop_all_basic": {
+    "within_protein_auc_lgb_rank": 0.7818,
+    "n_proteins_scored": 578
+   },
+   "rice_PXD072089|detect_only": {
+    "within_protein_auc_lgb_rank": 0.8023,
+    "n_proteins_scored": 578
+   },
+   "rice_PXD072089|full": {
+    "within_protein_auc_lgb_rank": 0.901,
+    "n_proteins_scored": 578
+   }
+  },
+  "coverability_share_of_model_above_chance": {
+   "human_PXD044043|control": {
+    "model_within_protein_auc": 0.7935,
+    "coverability_only_within_protein_auc": 0.6016819563845186,
+    "ratio_of_above_chance_discrimination": 0.3464461887036409
+   },
+   "human_PXD044043|detect_only": {
+    "model_within_protein_auc": 0.8819,
+    "coverability_only_within_protein_auc": 0.6016819563845186,
+    "ratio_of_above_chance_discrimination": 0.2662528315907792
+   },
+   "human_PXD044043|full": {
+    "model_within_protein_auc": 0.8884,
+    "coverability_only_within_protein_auc": 0.6016819563845186,
+    "ratio_of_above_chance_discrimination": 0.26179700407960504
+   },
+   "rice_PXD072089|control": {
+    "model_within_protein_auc": 0.7663,
+    "coverability_only_within_protein_auc": 0.6424091245849421,
+    "ratio_of_above_chance_discrimination": 0.5347695252908079
+   },
+   "rice_PXD072089|detect_only": {
+    "model_within_protein_auc": 0.8023,
+    "coverability_only_within_protein_auc": 0.6424091245849421,
+    "ratio_of_above_chance_discrimination": 0.4710854270094017
+   },
+   "rice_PXD072089|full": {
+    "model_within_protein_auc": 0.901,
+    "coverability_only_within_protein_auc": 0.6424091245849421,
+    "ratio_of_above_chance_discrimination": 0.3551349740272871
+   }
+  }
+ },
+ "B3_rice_references": {
+  "all unlabelled|f=1.0": {
+   "k_range": [
+    77,
+    90
+   ],
+   "positions": {
+    "lgb_rank control k=95": [
+     "above",
+     0.0003
+    ],
+    "lgb_rank drop_w710 k=93": [
+     "above",
+     0.0032
+    ],
+    "lgb_rank drop_all_basic k=91": [
+     "above",
+     0.0208
+    ],
+    "blend control k=84": [
+     "within",
+     0.5569
+    ],
+    "blend drop_w710 k=86": [
+     "within",
+     0.3251
+    ],
+    "blend drop_all_basic k=85": [
+     "within",
+     0.4392
+    ]
+   }
+  },
+  "all unlabelled|f=0.9": {
+   "k_range": [
+    76,
+    90
+   ],
+   "positions": {
+    "lgb_rank control k=95": [
+     "above",
+     0.0001
+    ],
+    "lgb_rank drop_w710 k=93": [
+     "above",
+     0.0017
+    ],
+    "lgb_rank drop_all_basic k=91": [
+     "above",
+     0.0122
+    ],
+    "blend control k=84": [
+     "within",
+     0.4498
+    ],
+    "blend drop_w710 k=86": [
+     "within",
+     0.2398
+    ],
+    "blend drop_all_basic k=85": [
+     "within",
+     0.3393
+    ]
+   }
+  },
+  "all unlabelled|f=0.8": {
+   "k_range": [
+    75,
+    89
+   ],
+   "positions": {
+    "lgb_rank control k=95": [
+     "above",
+     0.0001
+    ],
+    "lgb_rank drop_w710 k=93": [
+     "above",
+     0.0009
+    ],
+    "lgb_rank drop_all_basic k=91": [
+     "above",
+     0.0069
+    ],
+    "blend control k=84": [
+     "within",
+     0.352
+    ],
+    "blend drop_w710 k=86": [
+     "within",
+     0.1716
+    ],
+    "blend drop_all_basic k=85": [
+     "within",
+     0.254
+    ]
+   }
+  },
+  "all unlabelled|f=0.7": {
+   "k_range": [
+    74,
+    88
+   ],
+   "positions": {
+    "lgb_rank control k=95": [
+     "above",
+     0.0
+    ],
+    "lgb_rank drop_w710 k=93": [
+     "above",
+     0.0005
+    ],
+    "lgb_rank drop_all_basic k=91": [
+     "above",
+     0.0038
+    ],
+    "blend control k=84": [
+     "within",
+     0.267
+    ],
+    "blend drop_w710 k=86": [
+     "within",
+     0.1191
+    ],
+    "blend drop_all_basic k=85": [
+     "within",
+     0.1844
+    ]
+   }
+  },
+  "all unlabelled|f=0.5": {
+   "k_range": [
+    71,
+    87
+   ],
+   "positions": {
+    "lgb_rank control k=95": [
+     "above",
+     0.0
+    ],
+    "lgb_rank drop_w710 k=93": [
+     "above",
+     0.0001
+    ],
+    "lgb_rank drop_all_basic k=91": [
+     "above",
+     0.0011
+    ],
+    "blend control k=84": [
+     "within",
+     0.14
+    ],
+    "blend drop_w710 k=86": [
+     "within",
+     0.0523
+    ],
+    "blend drop_all_basic k=85": [
+     "within",
+     0.0886
+    ]
+   }
+  },
+  "coverable unlabelled only|f=1.0": {
+   "k_range": [
+    77,
+    90
+   ],
+   "positions": {
+    "lgb_rank control k=95": [
+     "above",
+     0.0003
+    ],
+    "lgb_rank drop_w710 k=93": [
+     "above",
+     0.0032
+    ],
+    "lgb_rank drop_all_basic k=91": [
+     "above",
+     0.0208
+    ],
+    "blend control k=84": [
+     "within",
+     0.5569
+    ],
+    "blend drop_w710 k=86": [
+     "within",
+     0.3251
+    ],
+    "blend drop_all_basic k=85": [
+     "within",
+     0.4392
+    ]
+   }
+  },
+  "coverable unlabelled only|f=0.9": {
+   "k_range": [
+    76,
+    90
+   ],
+   "positions": {
+    "lgb_rank control k=95": [
+     "above",
+     0.0002
+    ],
+    "lgb_rank drop_w710 k=93": [
+     "above",
+     0.0023
+    ],
+    "lgb_rank drop_all_basic k=91": [
+     "above",
+     0.0156
+    ],
+    "blend control k=84": [
+     "within",
+     0.4915
+    ],
+    "blend drop_w710 k=86": [
+     "within",
+     0.2729
+    ],
+    "blend drop_all_basic k=85": [
+     "within",
+     0.3781
+    ]
+   }
+  },
+  "coverable unlabelled only|f=0.8": {
+   "k_range": [
+    76,
+    90
+   ],
+   "positions": {
+    "lgb_rank control k=95": [
+     "above",
+     0.0001
+    ],
+    "lgb_rank drop_w710 k=93": [
+     "above",
+     0.0017
+    ],
+    "lgb_rank drop_all_basic k=91": [
+     "above",
+     0.0115
+    ],
+    "blend control k=84": [
+     "within",
+     0.4294
+    ],
+    "blend drop_w710 k=86": [
+     "within",
+     0.2268
+    ],
+    "blend drop_all_basic k=85": [
+     "within",
+     0.3222
+    ]
+   }
+  },
+  "coverable unlabelled only|f=0.7": {
+   "k_range": [
+    75,
+    89
+   ],
+   "positions": {
+    "lgb_rank control k=95": [
+     "above",
+     0.0001
+    ],
+    "lgb_rank drop_w710 k=93": [
+     "above",
+     0.0012
+    ],
+    "lgb_rank drop_all_basic k=91": [
+     "above",
+     0.0084
+    ],
+    "blend control k=84": [
+     "within",
+     0.3712
+    ],
+    "blend drop_w710 k=86": [
+     "within",
+     0.1864
+    ],
+    "blend drop_all_basic k=85": [
+     "within",
+     0.2717
+    ]
+   }
+  },
+  "coverable unlabelled only|f=0.5": {
+   "k_range": [
+    73,
+    88
+   ],
+   "positions": {
+    "lgb_rank control k=95": [
+     "above",
+     0.0
+    ],
+    "lgb_rank drop_w710 k=93": [
+     "above",
+     0.0005
+    ],
+    "lgb_rank drop_all_basic k=91": [
+     "above",
+     0.0042
+    ],
+    "blend control k=84": [
+     "within",
+     0.2682
+    ],
+    "blend drop_w710 k=86": [
+     "within",
+     0.1215
+    ],
+    "blend drop_all_basic k=85": [
+     "within",
+     0.1865
+    ]
+   }
+  }
+ },
+ "B4_species_check_decomposition": {
+  "window_flags_agree_with_j1_segments": true,
+  "vs mouse, all windows": {
+   "classes": [
+    "human_specific",
+    "conserved"
+   ],
+   "share_not_coverable": {
+    "human_specific": 0.24845679012345678,
+    "conserved": 0.15487132352941177
+   },
+   "n_not_coverable": {
+    "human_specific": 1610,
+    "conserved": 337
+   },
+   "all cysteines (as j1)": {
+    "n_a": 6480,
+    "labelled_a": 974,
+    "n_b": 2176,
+    "labelled_b": 666,
+    "share_a": {
+     "value": 0.15030864197530863,
+     "ci95_protein_clustered": [
+      0.13815851871864818,
+      0.16344214594354026
+     ]
+    },
+    "share_b": {
+     "value": 0.30606617647058826,
+     "ci95_protein_clustered": [
+      0.28250897967527155,
+      0.331261886904038
+     ]
+    },
+    "ratio": {
+     "value": 0.49109850591332066,
+     "ci95_protein_clustered": [
+      0.44387666623084926,
+      0.5449463797612007
+     ]
+    }
+   },
+   "excluding not-coverable cysteines": {
+    "n_a": 4870,
+    "labelled_a": 974,
+    "n_b": 1839,
+    "labelled_b": 666,
+    "share_a": {
+     "value": 0.2,
+     "ci95_protein_clustered": [
+      0.18494726436074563,
+      0.2161506534689026
+     ]
+    },
+    "share_b": {
+     "value": 0.3621533442088091,
+     "ci95_protein_clustered": [
+      0.33565147553293656,
+      0.3897823559257536
+     ]
+    },
+    "ratio": {
+     "value": 0.5522522522522523,
+     "ci95_protein_clustered": [
+      0.5008763638595548,
+      0.6099426747393561
+     ]
+    }
+   }
+  },
+  "vs mouse, complete 7-30-residue segments": {
+   "classes": [
+    "human_specific",
+    "conserved"
+   ],
+   "share_not_coverable": {
+    "human_specific": 0.18973941368078176,
+    "conserved": 0.15487132352941177
+   },
+   "n_not_coverable": {
+    "human_specific": 233,
+    "conserved": 337
+   },
+   "all cysteines (as j1)": {
+    "n_a": 1228,
+    "labelled_a": 275,
+    "n_b": 2176,
+    "labelled_b": 666,
+    "share_a": {
+     "value": 0.22394136807817588,
+     "ci95_protein_clustered": [
+      0.1967090193326377,
+      0.2528550460160783
+     ]
+    },
+    "share_b": {
+     "value": 0.30606617647058826,
+     "ci95_protein_clustered": [
+      0.28250897967527155,
+      0.331261886904038
+     ]
+    },
+    "ratio": {
+     "value": 0.7316763017088749,
+     "ci95_protein_clustered": [
+      0.6358428723341675,
+      0.8356717509857328
+     ]
+    }
+   },
+   "excluding not-coverable cysteines": {
+    "n_a": 995,
+    "labelled_a": 275,
+    "n_b": 1839,
+    "labelled_b": 666,
+    "share_a": {
+     "value": 0.27638190954773867,
+     "ci95_protein_clustered": [
+      0.2449351221758074,
+      0.3096777416132255
+     ]
+    },
+    "share_b": {
+     "value": 0.3621533442088091,
+     "ci95_protein_clustered": [
+      0.33565147553293656,
+      0.3897823559257536
+     ]
+    },
+    "ratio": {
+     "value": 0.7631626601475847,
+     "ci95_protein_clustered": [
+      0.6714287504210634,
+      0.8621400787407948
+     ]
+    }
+   }
+  },
+  "vs rice (B3 control), all windows": {
+   "classes": [
+    "not_in_rice",
+    "conserved_in_rice"
+   ],
+   "share_not_coverable": {
+    "not_in_rice": 0.24175754901342747,
+    "conserved_in_rice": 0.11392405063291139
+   },
+   "n_not_coverable": {
+    "not_in_rice": 3835,
+    "conserved_in_rice": 9
+   },
+   "all cysteines (as j1)": {
+    "n_a": 15863,
+    "labelled_a": 3043,
+    "n_b": 79,
+    "labelled_b": 27,
+    "share_a": {
+     "value": 0.19183004475824245,
+     "ci95_protein_clustered": [
+      0.18013673577338696,
+      0.20389362068173467
+     ]
+    },
+    "share_b": {
+     "value": 0.34177215189873417,
+     "ci95_protein_clustered": [
+      0.22666037735849057,
+      0.46153846153846156
+     ]
+    },
+    "ratio": {
+     "value": 0.5612805013296723,
+     "ci95_protein_clustered": [
+      0.4154235759178002,
+      0.8492107766461514
+     ]
+    }
+   },
+   "excluding not-coverable cysteines": {
+    "n_a": 12028,
+    "labelled_a": 3043,
+    "n_b": 70,
+    "labelled_b": 27,
+    "share_a": {
+     "value": 0.25299301629531096,
+     "ci95_protein_clustered": [
+      0.24010677428754915,
+      0.26603527140733535
+     ]
+    },
+    "share_b": {
+     "value": 0.38571428571428573,
+     "ci95_protein_clustered": [
+      0.2602671232876712,
+      0.5131667852062588
+     ]
+    },
+    "ratio": {
+     "value": 0.6559078200248802,
+     "ci95_protein_clustered": [
+      0.49260028340233625,
+      0.9797149330670986
+     ]
+    }
+   }
+  },
+  "vs rice (B3 control), complete 7-30-residue segments": {
+   "classes": [
+    "not_in_rice",
+    "conserved_in_rice"
+   ],
+   "share_not_coverable": {
+    "not_in_rice": 0.1687218045112782,
+    "conserved_in_rice": 0.11392405063291139
+   },
+   "n_not_coverable": {
+    "not_in_rice": 561,
+    "conserved_in_rice": 9
+   },
+   "all cysteines (as j1)": {
+    "n_a": 3325,
+    "labelled_a": 914,
+    "n_b": 79,
+    "labelled_b": 27,
+    "share_a": {
+     "value": 0.2748872180451128,
+     "ci95_protein_clustered": [
+      0.25545518041904614,
+      0.2959983606362128
+     ]
+    },
+    "share_b": {
+     "value": 0.34177215189873417,
+     "ci95_protein_clustered": [
+      0.22666037735849057,
+      0.46153846153846156
+     ]
+    },
+    "ratio": {
+     "value": 0.8042996379838485,
+     "ci95_protein_clustered": [
+      0.5923232096074252,
+      1.2216747850373832
+     ]
+    }
+   },
+   "excluding not-coverable cysteines": {
+    "n_a": 2764,
+    "labelled_a": 914,
+    "n_b": 70,
+    "labelled_b": 27,
+    "share_a": {
+     "value": 0.3306801736613603,
+     "ci95_protein_clustered": [
+      0.30827154557915887,
+      0.3544726699393865
+     ]
+    },
+    "share_b": {
+     "value": 0.38571428571428573,
+     "ci95_protein_clustered": [
+      0.2602671232876712,
+      0.5131667852062588
+     ]
+    },
+    "ratio": {
+     "value": 0.8573189687516749,
+     "ci95_protein_clustered": [
+      0.6410459913533831,
+      1.2809843420908904
+     ]
+    }
+   }
+  }
+ },
+ "C_ranker_feature_audit": {
+  "arm_sizes": {
+   "full": 1107,
+   "control": 1046,
+   "drop_w710": 1042,
+   "drop_all_basic": 1026,
+   "detect_only": 25
+  },
+  "registered_gates": {
+   "full": 1107,
+   "control": 1046,
+   "drop_w710": 1042,
+   "drop_all_basic": 1026,
+   "detect_only": 25
+  },
+  "gates_reproduced": {
+   "full": true,
+   "control": true,
+   "drop_w710": true,
+   "drop_all_basic": true,
+   "detect_only": true
+  },
+  "all_gates_reproduced": true,
+  "detectability_tokens_excluded_from_chemistry_set": [
+   "T:",
+   "nearest_K",
+   "nearest_R",
+   "pep_",
+   "kr_within"
+  ],
+  "neighbouring_cysteine_columns_base": {
+   "control": 48,
+   "drop_w710": 48,
+   "drop_all_basic": 48,
+   "detect_only": 1,
+   "full": 49
+  },
+  "neighbouring_cysteine_columns_within_protein_transforms": {
+   "control": 44,
+   "drop_w710": 44,
+   "drop_all_basic": 44,
+   "detect_only": 0,
+   "full": 44
+  },
+  "neighbouring_cysteine_base_columns_in_chemistry_set": [
+   "B:cys_dist_left",
+   "B:cys_dist_min",
+   "B:cys_dist_right",
+   "B:cys_in_16",
+   "B:cys_in_32",
+   "B:cys_in_4",
+   "B:cys_in_64",
+   "B:cys_in_8",
+   "B:cys_partner_+1",
+   "B:cys_partner_+2",
+   "B:cys_partner_+3",
+   "B:cys_partner_+4",
+   "B:cys_partner_+5",
+   "B:cys_partner_+6",
+   "B:cys_partner_-1",
+   "B:cys_partner_-2",
+   "B:cys_partner_-3",
+   "B:cys_partner_-4",
+   "B:cys_partner_-5",
+   "B:cys_partner_-6",
+   "B:pos_+1_is_cys",
+   "B:pos_+2_is_cys",
+   "B:pos_+3_is_cys",
+   "B:pos_+4_is_cys",
+   "B:pos_-1_is_cys",
+   "B:pos_-2_is_cys",
+   "B:pos_-3_is_cys",
+   "B:pos_-4_is_cys",
+   "B:win10_count_cys",
+   "B:win10_frac_cys",
+   "B:win15_count_cys",
+   "B:win15_frac_cys",
+   "B:win1_count_cys",
+   "B:win1_frac_cys",
+   "B:win20_count_cys",
+   "B:win20_frac_cys",
+   "B:win2_count_cys",
+   "B:win2_frac_cys",
+   "B:win30_count_cys",
+   "B:win30_frac_cys",
+   "B:win3_count_cys",
+   "B:win3_frac_cys",
+   "B:win50_count_cys",
+   "B:win50_frac_cys",
+   "B:win5_count_cys",
+   "B:win5_frac_cys",
+   "B:win7_count_cys",
+   "B:win7_frac_cys"
+  ],
+  "T:pep_cys_count_in": [
+   "detect_only",
+   "full"
+  ],
+  "columns_deleted_in_drop_all_basic": [
+   "B:win10_count_basic",
+   "B:win10_frac_basic",
+   "B:win15_count_basic",
+   "B:win15_frac_basic",
+   "B:win1_count_basic",
+   "B:win1_frac_basic",
+   "B:win20_count_basic",
+   "B:win20_frac_basic",
+   "B:win2_count_basic",
+   "B:win2_frac_basic",
+   "B:win30_count_basic",
+   "B:win30_frac_basic",
+   "B:win3_count_basic",
+   "B:win3_frac_basic",
+   "B:win50_count_basic",
+   "B:win50_frac_basic",
+   "B:win5_count_basic",
+   "B:win5_frac_basic",
+   "B:win7_count_basic",
+   "B:win7_frac_basic"
+  ],
+  "within_protein_transforms_of_deleted_columns_kept_in_drop_all_basic": [
+   "C:centred_B:win10_count_basic",
+   "C:centred_B:win10_frac_basic",
+   "C:centred_B:win20_count_basic",
+   "C:centred_B:win20_frac_basic",
+   "C:centred_B:win5_count_basic",
+   "C:centred_B:win5_frac_basic",
+   "C:rank_B:win10_count_basic",
+   "C:rank_B:win10_frac_basic",
+   "C:rank_B:win20_count_basic",
+   "C:rank_B:win20_frac_basic",
+   "C:rank_B:win5_count_basic",
+   "C:rank_B:win5_frac_basic"
+  ],
+  "basic_named_columns_kept_in_drop_all_basic": [
+   "B:pos_+1_is_basic",
+   "B:pos_+2_is_basic",
+   "B:pos_+3_is_basic",
+   "B:pos_+4_is_basic",
+   "B:pos_-1_is_basic",
+   "B:pos_-2_is_basic",
+   "B:pos_-3_is_basic",
+   "B:pos_-4_is_basic",
+   "C:centred_B:pos_+1_is_basic",
+   "C:centred_B:pos_+2_is_basic",
+   "C:centred_B:pos_+3_is_basic",
+   "C:centred_B:pos_+4_is_basic",
+   "C:centred_B:pos_-1_is_basic",
+   "C:centred_B:pos_-2_is_basic",
+   "C:centred_B:pos_-3_is_basic",
+   "C:centred_B:pos_-4_is_basic",
+   "C:centred_B:win10_count_basic",
+   "C:centred_B:win10_frac_basic",
+   "C:centred_B:win20_count_basic",
+   "C:centred_B:win20_frac_basic",
+   "C:centred_B:win5_count_basic",
+   "C:centred_B:win5_frac_basic",
+   "C:rank_B:pos_+1_is_basic",
+   "C:rank_B:pos_+2_is_basic",
+   "C:rank_B:pos_+3_is_basic",
+   "C:rank_B:pos_+4_is_basic",
+   "C:rank_B:pos_-1_is_basic",
+   "C:rank_B:pos_-2_is_basic",
+   "C:rank_B:pos_-3_is_basic",
+   "C:rank_B:pos_-4_is_basic",
+   "C:rank_B:win10_count_basic",
+   "C:rank_B:win10_frac_basic",
+   "C:rank_B:win20_count_basic",
+   "C:rank_B:win20_frac_basic",
+   "C:rank_B:win5_count_basic",
+   "C:rank_B:win5_frac_basic"
+  ],
+  "charge_named_base_columns_kept_in_drop_all_basic": 38,
+  "charge_named_transform_columns_kept_in_drop_all_basic": 44,
+  "within_protein_transforms_of_win10_basic_kept_in_drop_w710": [
+   "C:centred_B:win10_count_basic",
+   "C:centred_B:win10_frac_basic",
+   "C:rank_B:win10_count_basic",
+   "C:rank_B:win10_frac_basic"
+  ],
+  "note": "names generated by the repository's v2_features.py (in memory) in the layout of v2_apply.build_matrix; the chemistry set is every column whose name contains none of run_v2_stack.DETECTABILITY_TOKENS; drop_all_basic removes the names matching run_v2_chem_basic_ablation.BASIC_RE, which matches base columns only"
+ },
+ "records_cited": {
+  "scripts/run_retrospective_external_corrected.py": "read_external_inputs/score_sites: the released site table is every cysteine of each protein of inputs/PXD044043_mapped_human.json ('hsa_persulfidation') and inputs/PXD072089_mapped_rice.json ('osa_persulfidation'); label = position in the record's 'modified' list",
+  "results/public_refit_inputs_2026-09-21_audit.json": "refit inputs: human 18,567 sites / 3,206 positive; rice 5,598 sites / 817 positive (the rice statistic of Supplemental Note 11 is computed on the 5,004 rows with a sequence); features reproduce the stored scores (gate G1)",
+  "baseline/baseline_report.md": "F01: the stored Artifact 2 values show that the single-Cys filter applied to positives only flips the sign",
+  "baseline/number_registry_2026-09-21.json": "A-050: in 35_symmetric_ncys_test.json both persulfidation datasets carry positive source 'peptide inference (single-Cys filter)'",
+  "results/self_audit_public_cohorts_2026-09-20_audit.json": "self-audit cohorts: human rows_kept 18,567 / proteins_matched 1,519; rice rows_kept 5,004 / proteins_matched 581 (so 594 cysteines in 59 of the 640 proteins were excluded)",
+  "results/phase1_dataset_screening_candidates_2026-09-22.csv": "PRIDE listing recorded 2026-09-22: PXD072089 16 files, 15 raw, 1 non-raw (ss-all-peptides.tsv); PXD044043 15 files, 12 raw, 3 non-raw (two MaxQuant archives, one unidentified)"
+ }
+}

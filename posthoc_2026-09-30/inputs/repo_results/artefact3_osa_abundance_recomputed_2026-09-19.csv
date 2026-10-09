@@ -1,0 +1,15 @@
+quantity,value,interval_95,note
+n_protein_groups_in_quantification,7825,,rows in the PXD072035 report
+n_groups_dropped_no_usable_iBAQ,133,,
+n_groups_analysed,7692,,
+n_persulfidated,1197,,group has >=1 accession among the peptide table's leading razor proteins
+n_unmodified,6495,,
+n_unique_leading_razor_proteins_in_peptide_table,2073,,
+n_groups_with_sequence,6363,,length and cysteine count recovered
+median_iBAQ_ratio_persulfidated_over_unmodified,10.3633,"[8.9464, 12.2902]","5,000 bootstrap over groups, seed 20260919"
+z_protein_length_before_matching,-0.4804,,"Mann-Whitney U z, tie-corrected"
+z_protein_length_after_abundance_matching,8.5565,,"stratified over iBAQ deciles; strata used 10, dropped 0"
+z_cysteine_count_before_matching,5.3542,,"Mann-Whitney U z, tie-corrected"
+z_cysteine_count_after_abundance_matching,12.7704,,"stratified over iBAQ deciles; strata used 10, dropped 0"
+sensitivity_median_Quantity_ratio,4.8789,,not length-normalised; declared sensitivity only
+negative_control_shuffled_label_ratio,0.9717,"[0.8054, 1.2248]",PC4; interval must include 1.0

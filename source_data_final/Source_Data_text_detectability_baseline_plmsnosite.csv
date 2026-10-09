@@ -1,0 +1,7 @@
+model,n_features,test_auroc,ci_low,ci_high,test_auprc,recovery_vs_pLMSNOSite,recovery_vs_PreSNO,recovery_vs_DeepNitro,source
+VIS10,10,0.7095,0.6817,0.7367,0.1677,0.8248,0.8184,0.9069,"this study, pre-registered"
+DIG25,25,0.7765,0.7231,0.8274,0.2195,1.0886,1.0801,1.197,"this study, pre-registered"
+DIG25 label-permuted (NC),25,0.5124,0.471,0.5546,,,,,"this study, pre-registered control"
+pLMSNOSite,,0.754,,,,,,,"published (Pratyush et al. 2023, independent test set); quoted, not recomputed"
+PreSNO,,0.756,,,,,,,"published (Pratyush et al. 2023, independent test set); quoted, not recomputed"
+DeepNitro,,0.731,,,,,,,"published (Pratyush et al. 2023, independent test set); quoted, not recomputed"

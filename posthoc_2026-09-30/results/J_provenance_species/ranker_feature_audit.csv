@@ -1,0 +1,1108 @@
+column,block,transform_of,in_full,in_control,in_drop_w710,in_drop_all_basic,in_detect_only,reads_neighbouring_cysteines,basic_residue_named,deleted_in_drop_all_basic,charge_named
+A:frozen_00,A,,1,1,1,1,0,0,0,0,0
+A:frozen_01,A,,1,1,1,1,0,0,0,0,0
+A:frozen_02,A,,1,1,1,1,0,0,0,0,0
+A:frozen_03,A,,1,1,1,1,0,0,0,0,0
+A:frozen_04,A,,1,1,1,1,0,0,0,0,0
+A:frozen_05,A,,1,1,1,1,0,0,0,0,0
+A:frozen_06,A,,1,1,1,1,0,0,0,0,0
+A:frozen_07,A,,1,1,1,1,0,0,0,0,0
+A:frozen_08,A,,1,1,1,1,0,0,0,0,0
+A:frozen_09,A,,1,1,1,1,0,0,0,0,0
+A:frozen_10,A,,1,1,1,1,0,0,0,0,0
+A:frozen_11,A,,1,1,1,1,0,0,0,0,0
+A:frozen_12,A,,1,1,1,1,0,0,0,0,0
+A:frozen_13,A,,1,1,1,1,0,0,0,0,0
+A:frozen_14,A,,1,1,1,1,0,0,0,0,0
+A:frozen_15,A,,1,1,1,1,0,0,0,0,0
+A:frozen_16,A,,1,1,1,1,0,0,0,0,0
+A:frozen_17,A,,1,1,1,1,0,0,0,0,0
+A:frozen_18,A,,1,1,1,1,0,0,0,0,0
+A:frozen_19,A,,1,1,1,1,0,0,0,0,0
+A:frozen_20,A,,1,1,1,1,0,0,0,0,0
+A:frozen_21,A,,1,1,1,1,0,0,0,0,0
+A:frozen_22,A,,1,1,1,1,0,0,0,0,0
+B:win1_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:win1_mean_charge,B,,1,1,1,1,0,0,0,0,1
+B:win1_mean_volume,B,,1,1,1,1,0,0,0,0,0
+B:win1_mean_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:win1_mean_polarity,B,,1,1,1,1,0,0,0,0,0
+B:win1_mean_helix,B,,1,1,1,1,0,0,0,0,0
+B:win1_mean_sheet,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_hydrophobic,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_basic,B,,1,1,1,0,0,0,1,1,0
+B:win1_frac_polar,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_small,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_tiny,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_gly,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_pro,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_cys,B,,1,1,1,1,0,1,0,0,0
+B:win1_frac_serthr,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_his,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_met,B,,1,1,1,1,0,0,0,0,0
+B:win1_frac_aliphatic,B,,1,1,1,1,0,0,0,0,0
+B:win1_count_cys,B,,1,1,1,1,0,1,0,0,0
+B:win1_count_his,B,,1,1,1,1,0,0,0,0,0
+B:win1_count_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win1_count_basic,B,,1,1,1,0,0,0,1,1,0
+B:win1_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:win1_window_len,B,,1,1,1,1,0,0,0,0,0
+B:win2_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:win2_mean_charge,B,,1,1,1,1,0,0,0,0,1
+B:win2_mean_volume,B,,1,1,1,1,0,0,0,0,0
+B:win2_mean_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:win2_mean_polarity,B,,1,1,1,1,0,0,0,0,0
+B:win2_mean_helix,B,,1,1,1,1,0,0,0,0,0
+B:win2_mean_sheet,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_hydrophobic,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_basic,B,,1,1,1,0,0,0,1,1,0
+B:win2_frac_polar,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_small,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_tiny,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_gly,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_pro,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_cys,B,,1,1,1,1,0,1,0,0,0
+B:win2_frac_serthr,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_his,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_met,B,,1,1,1,1,0,0,0,0,0
+B:win2_frac_aliphatic,B,,1,1,1,1,0,0,0,0,0
+B:win2_count_cys,B,,1,1,1,1,0,1,0,0,0
+B:win2_count_his,B,,1,1,1,1,0,0,0,0,0
+B:win2_count_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win2_count_basic,B,,1,1,1,0,0,0,1,1,0
+B:win2_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:win2_window_len,B,,1,1,1,1,0,0,0,0,0
+B:win3_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:win3_mean_charge,B,,1,1,1,1,0,0,0,0,1
+B:win3_mean_volume,B,,1,1,1,1,0,0,0,0,0
+B:win3_mean_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:win3_mean_polarity,B,,1,1,1,1,0,0,0,0,0
+B:win3_mean_helix,B,,1,1,1,1,0,0,0,0,0
+B:win3_mean_sheet,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_hydrophobic,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_basic,B,,1,1,1,0,0,0,1,1,0
+B:win3_frac_polar,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_small,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_tiny,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_gly,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_pro,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_cys,B,,1,1,1,1,0,1,0,0,0
+B:win3_frac_serthr,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_his,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_met,B,,1,1,1,1,0,0,0,0,0
+B:win3_frac_aliphatic,B,,1,1,1,1,0,0,0,0,0
+B:win3_count_cys,B,,1,1,1,1,0,1,0,0,0
+B:win3_count_his,B,,1,1,1,1,0,0,0,0,0
+B:win3_count_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win3_count_basic,B,,1,1,1,0,0,0,1,1,0
+B:win3_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:win3_window_len,B,,1,1,1,1,0,0,0,0,0
+B:win5_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:win5_mean_charge,B,,1,1,1,1,0,0,0,0,1
+B:win5_mean_volume,B,,1,1,1,1,0,0,0,0,0
+B:win5_mean_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:win5_mean_polarity,B,,1,1,1,1,0,0,0,0,0
+B:win5_mean_helix,B,,1,1,1,1,0,0,0,0,0
+B:win5_mean_sheet,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_hydrophobic,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_basic,B,,1,1,1,0,0,0,1,1,0
+B:win5_frac_polar,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_small,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_tiny,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_gly,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_pro,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_cys,B,,1,1,1,1,0,1,0,0,0
+B:win5_frac_serthr,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_his,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_met,B,,1,1,1,1,0,0,0,0,0
+B:win5_frac_aliphatic,B,,1,1,1,1,0,0,0,0,0
+B:win5_count_cys,B,,1,1,1,1,0,1,0,0,0
+B:win5_count_his,B,,1,1,1,1,0,0,0,0,0
+B:win5_count_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win5_count_basic,B,,1,1,1,0,0,0,1,1,0
+B:win5_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:win5_window_len,B,,1,1,1,1,0,0,0,0,0
+B:win7_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:win7_mean_charge,B,,1,1,1,1,0,0,0,0,1
+B:win7_mean_volume,B,,1,1,1,1,0,0,0,0,0
+B:win7_mean_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:win7_mean_polarity,B,,1,1,1,1,0,0,0,0,0
+B:win7_mean_helix,B,,1,1,1,1,0,0,0,0,0
+B:win7_mean_sheet,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_hydrophobic,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_basic,B,,1,1,0,0,0,0,1,1,0
+B:win7_frac_polar,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_small,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_tiny,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_gly,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_pro,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_cys,B,,1,1,1,1,0,1,0,0,0
+B:win7_frac_serthr,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_his,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_met,B,,1,1,1,1,0,0,0,0,0
+B:win7_frac_aliphatic,B,,1,1,1,1,0,0,0,0,0
+B:win7_count_cys,B,,1,1,1,1,0,1,0,0,0
+B:win7_count_his,B,,1,1,1,1,0,0,0,0,0
+B:win7_count_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win7_count_basic,B,,1,1,0,0,0,0,1,1,0
+B:win7_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:win7_window_len,B,,1,1,1,1,0,0,0,0,0
+B:win10_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:win10_mean_charge,B,,1,1,1,1,0,0,0,0,1
+B:win10_mean_volume,B,,1,1,1,1,0,0,0,0,0
+B:win10_mean_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:win10_mean_polarity,B,,1,1,1,1,0,0,0,0,0
+B:win10_mean_helix,B,,1,1,1,1,0,0,0,0,0
+B:win10_mean_sheet,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_hydrophobic,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_basic,B,,1,1,0,0,0,0,1,1,0
+B:win10_frac_polar,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_small,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_tiny,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_gly,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_pro,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_cys,B,,1,1,1,1,0,1,0,0,0
+B:win10_frac_serthr,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_his,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_met,B,,1,1,1,1,0,0,0,0,0
+B:win10_frac_aliphatic,B,,1,1,1,1,0,0,0,0,0
+B:win10_count_cys,B,,1,1,1,1,0,1,0,0,0
+B:win10_count_his,B,,1,1,1,1,0,0,0,0,0
+B:win10_count_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win10_count_basic,B,,1,1,0,0,0,0,1,1,0
+B:win10_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:win10_window_len,B,,1,1,1,1,0,0,0,0,0
+B:win15_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:win15_mean_charge,B,,1,1,1,1,0,0,0,0,1
+B:win15_mean_volume,B,,1,1,1,1,0,0,0,0,0
+B:win15_mean_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:win15_mean_polarity,B,,1,1,1,1,0,0,0,0,0
+B:win15_mean_helix,B,,1,1,1,1,0,0,0,0,0
+B:win15_mean_sheet,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_hydrophobic,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_basic,B,,1,1,1,0,0,0,1,1,0
+B:win15_frac_polar,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_small,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_tiny,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_gly,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_pro,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_cys,B,,1,1,1,1,0,1,0,0,0
+B:win15_frac_serthr,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_his,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_met,B,,1,1,1,1,0,0,0,0,0
+B:win15_frac_aliphatic,B,,1,1,1,1,0,0,0,0,0
+B:win15_count_cys,B,,1,1,1,1,0,1,0,0,0
+B:win15_count_his,B,,1,1,1,1,0,0,0,0,0
+B:win15_count_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win15_count_basic,B,,1,1,1,0,0,0,1,1,0
+B:win15_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:win15_window_len,B,,1,1,1,1,0,0,0,0,0
+B:win20_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:win20_mean_charge,B,,1,1,1,1,0,0,0,0,1
+B:win20_mean_volume,B,,1,1,1,1,0,0,0,0,0
+B:win20_mean_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:win20_mean_polarity,B,,1,1,1,1,0,0,0,0,0
+B:win20_mean_helix,B,,1,1,1,1,0,0,0,0,0
+B:win20_mean_sheet,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_hydrophobic,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_basic,B,,1,1,1,0,0,0,1,1,0
+B:win20_frac_polar,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_small,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_tiny,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_gly,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_pro,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_cys,B,,1,1,1,1,0,1,0,0,0
+B:win20_frac_serthr,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_his,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_met,B,,1,1,1,1,0,0,0,0,0
+B:win20_frac_aliphatic,B,,1,1,1,1,0,0,0,0,0
+B:win20_count_cys,B,,1,1,1,1,0,1,0,0,0
+B:win20_count_his,B,,1,1,1,1,0,0,0,0,0
+B:win20_count_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win20_count_basic,B,,1,1,1,0,0,0,1,1,0
+B:win20_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:win20_window_len,B,,1,1,1,1,0,0,0,0,0
+B:win30_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:win30_mean_charge,B,,1,1,1,1,0,0,0,0,1
+B:win30_mean_volume,B,,1,1,1,1,0,0,0,0,0
+B:win30_mean_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:win30_mean_polarity,B,,1,1,1,1,0,0,0,0,0
+B:win30_mean_helix,B,,1,1,1,1,0,0,0,0,0
+B:win30_mean_sheet,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_hydrophobic,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_basic,B,,1,1,1,0,0,0,1,1,0
+B:win30_frac_polar,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_small,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_tiny,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_gly,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_pro,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_cys,B,,1,1,1,1,0,1,0,0,0
+B:win30_frac_serthr,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_his,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_met,B,,1,1,1,1,0,0,0,0,0
+B:win30_frac_aliphatic,B,,1,1,1,1,0,0,0,0,0
+B:win30_count_cys,B,,1,1,1,1,0,1,0,0,0
+B:win30_count_his,B,,1,1,1,1,0,0,0,0,0
+B:win30_count_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win30_count_basic,B,,1,1,1,0,0,0,1,1,0
+B:win30_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:win30_window_len,B,,1,1,1,1,0,0,0,0,0
+B:win50_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:win50_mean_charge,B,,1,1,1,1,0,0,0,0,1
+B:win50_mean_volume,B,,1,1,1,1,0,0,0,0,0
+B:win50_mean_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:win50_mean_polarity,B,,1,1,1,1,0,0,0,0,0
+B:win50_mean_helix,B,,1,1,1,1,0,0,0,0,0
+B:win50_mean_sheet,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_hydrophobic,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_basic,B,,1,1,1,0,0,0,1,1,0
+B:win50_frac_polar,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_small,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_tiny,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_gly,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_pro,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_cys,B,,1,1,1,1,0,1,0,0,0
+B:win50_frac_serthr,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_his,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_met,B,,1,1,1,1,0,0,0,0,0
+B:win50_frac_aliphatic,B,,1,1,1,1,0,0,0,0,0
+B:win50_count_cys,B,,1,1,1,1,0,1,0,0,0
+B:win50_count_his,B,,1,1,1,1,0,0,0,0,0
+B:win50_count_acidic,B,,1,1,1,1,0,0,0,0,0
+B:win50_count_basic,B,,1,1,1,0,0,0,1,1,0
+B:win50_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:win50_window_len,B,,1,1,1,1,0,0,0,0,0
+B:pos_-8_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_-8_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_-8_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_-8_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_-8_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_-8_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_-7_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_-7_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_-7_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_-7_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_-7_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_-7_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_-6_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_-6_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_-6_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_-6_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_-6_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_-6_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_-5_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_-5_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_-5_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_-5_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_-5_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_-5_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_-4_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_-3_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_-3_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_-3_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_-3_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_-3_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_-3_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_-2_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_-2_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_-2_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_-2_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_-2_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_-2_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_-1_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_-1_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_-1_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_-1_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_-1_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_-1_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_+1_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_+1_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_+1_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_+1_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_+1_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_+1_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_+2_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_+2_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_+2_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_+2_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_+2_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_+2_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_+3_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_+3_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_+3_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_+3_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_+3_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_+3_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_+4_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_+4_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_+4_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_+4_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_+4_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_+4_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_+5_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_+5_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_+5_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_+5_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_+5_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_+5_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_+6_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_+6_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_+6_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_+6_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_+6_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_+6_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_+7_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_+7_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_+7_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_+7_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_+7_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_+7_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_+8_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:pos_+8_charge,B,,1,1,1,1,0,0,0,0,1
+B:pos_+8_volume,B,,1,1,1,1,0,0,0,0,0
+B:pos_+8_flexibility,B,,1,1,1,1,0,0,0,0,0
+B:pos_+8_polarity,B,,1,1,1,1,0,0,0,0,0
+B:pos_+8_present,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_is_basic,B,,1,1,1,1,0,0,1,0,0
+B:pos_-4_is_acidic,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_is_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_is_gly,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_is_pro,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_is_serthr,B,,1,1,1,1,0,0,0,0,0
+B:pos_-4_is_cys,B,,1,1,1,1,0,1,0,0,0
+B:pos_-3_is_basic,B,,1,1,1,1,0,0,1,0,0
+B:pos_-3_is_acidic,B,,1,1,1,1,0,0,0,0,0
+B:pos_-3_is_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:pos_-3_is_gly,B,,1,1,1,1,0,0,0,0,0
+B:pos_-3_is_pro,B,,1,1,1,1,0,0,0,0,0
+B:pos_-3_is_serthr,B,,1,1,1,1,0,0,0,0,0
+B:pos_-3_is_cys,B,,1,1,1,1,0,1,0,0,0
+B:pos_-2_is_basic,B,,1,1,1,1,0,0,1,0,0
+B:pos_-2_is_acidic,B,,1,1,1,1,0,0,0,0,0
+B:pos_-2_is_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:pos_-2_is_gly,B,,1,1,1,1,0,0,0,0,0
+B:pos_-2_is_pro,B,,1,1,1,1,0,0,0,0,0
+B:pos_-2_is_serthr,B,,1,1,1,1,0,0,0,0,0
+B:pos_-2_is_cys,B,,1,1,1,1,0,1,0,0,0
+B:pos_-1_is_basic,B,,1,1,1,1,0,0,1,0,0
+B:pos_-1_is_acidic,B,,1,1,1,1,0,0,0,0,0
+B:pos_-1_is_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:pos_-1_is_gly,B,,1,1,1,1,0,0,0,0,0
+B:pos_-1_is_pro,B,,1,1,1,1,0,0,0,0,0
+B:pos_-1_is_serthr,B,,1,1,1,1,0,0,0,0,0
+B:pos_-1_is_cys,B,,1,1,1,1,0,1,0,0,0
+B:pos_+1_is_basic,B,,1,1,1,1,0,0,1,0,0
+B:pos_+1_is_acidic,B,,1,1,1,1,0,0,0,0,0
+B:pos_+1_is_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:pos_+1_is_gly,B,,1,1,1,1,0,0,0,0,0
+B:pos_+1_is_pro,B,,1,1,1,1,0,0,0,0,0
+B:pos_+1_is_serthr,B,,1,1,1,1,0,0,0,0,0
+B:pos_+1_is_cys,B,,1,1,1,1,0,1,0,0,0
+B:pos_+2_is_basic,B,,1,1,1,1,0,0,1,0,0
+B:pos_+2_is_acidic,B,,1,1,1,1,0,0,0,0,0
+B:pos_+2_is_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:pos_+2_is_gly,B,,1,1,1,1,0,0,0,0,0
+B:pos_+2_is_pro,B,,1,1,1,1,0,0,0,0,0
+B:pos_+2_is_serthr,B,,1,1,1,1,0,0,0,0,0
+B:pos_+2_is_cys,B,,1,1,1,1,0,1,0,0,0
+B:pos_+3_is_basic,B,,1,1,1,1,0,0,1,0,0
+B:pos_+3_is_acidic,B,,1,1,1,1,0,0,0,0,0
+B:pos_+3_is_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:pos_+3_is_gly,B,,1,1,1,1,0,0,0,0,0
+B:pos_+3_is_pro,B,,1,1,1,1,0,0,0,0,0
+B:pos_+3_is_serthr,B,,1,1,1,1,0,0,0,0,0
+B:pos_+3_is_cys,B,,1,1,1,1,0,1,0,0,0
+B:pos_+4_is_basic,B,,1,1,1,1,0,0,1,0,0
+B:pos_+4_is_acidic,B,,1,1,1,1,0,0,0,0,0
+B:pos_+4_is_aromatic,B,,1,1,1,1,0,0,0,0,0
+B:pos_+4_is_gly,B,,1,1,1,1,0,0,0,0,0
+B:pos_+4_is_pro,B,,1,1,1,1,0,0,0,0,0
+B:pos_+4_is_serthr,B,,1,1,1,1,0,0,0,0,0
+B:pos_+4_is_cys,B,,1,1,1,1,0,1,0,0,0
+B:cys_dist_left,B,,1,1,1,1,0,1,0,0,0
+B:cys_dist_right,B,,1,1,1,1,0,1,0,0,0
+B:cys_dist_min,B,,1,1,1,1,0,1,0,0,0
+B:cys_in_4,B,,1,1,1,1,0,1,0,0,0
+B:cys_in_8,B,,1,1,1,1,0,1,0,0,0
+B:cys_in_16,B,,1,1,1,1,0,1,0,0,0
+B:cys_in_32,B,,1,1,1,1,0,1,0,0,0
+B:cys_in_64,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_-6,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_-5,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_-4,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_-3,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_-2,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_-1,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_+1,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_+2,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_+3,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_+4,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_+5,B,,1,1,1,1,0,1,0,0,0
+B:cys_partner_+6,B,,1,1,1,1,0,1,0,0,0
+B:nearest_H,B,,1,1,1,1,0,0,0,0,0
+B:nearest_M,B,,1,1,1,1,0,0,0,0,0
+B:nearest_W,B,,1,1,1,1,0,0,0,0,0
+B:nearest_K,B,,1,0,0,0,0,0,0,0,0
+B:nearest_R,B,,1,0,0,0,0,0,0,0,0
+B:nearest_D,B,,1,1,1,1,0,0,0,0,0
+B:nearest_E,B,,1,1,1,1,0,0,0,0,0
+B:pos_index_1based,B,,1,1,1,1,0,0,0,0,0
+B:pos_from_n_term,B,,1,1,1,1,0,0,0,0,0
+B:pos_from_c_term,B,,1,1,1,1,0,0,0,0,0
+B:pos_min_terminus,B,,1,1,1,1,0,0,0,0,0
+B:pos_relative,B,,1,1,1,1,0,0,0,0,0
+B:cys_rank_in_protein,B,,1,1,1,1,0,0,0,0,0
+B:cys_rank_fraction,B,,1,1,1,1,0,0,0,0,0
+T:pep_len,T,,1,0,0,0,1,0,0,0,0
+T:pep_mass,T,,1,0,0,0,1,0,0,0,0
+T:pep_gravy,T,,1,0,0,0,1,0,0,0,0
+T:pep_charge,T,,1,0,0,0,1,0,0,0,1
+T:pep_cys_count,T,,1,0,0,0,1,1,0,0,0
+T:pep_offset_in_peptide,T,,1,0,0,0,1,0,0,0,0
+T:pep_relative_offset,T,,1,0,0,0,1,0,0,0,0
+T:pep_is_protein_n_terminal,T,,1,0,0,0,1,0,0,0,0
+T:pep_is_protein_c_terminal,T,,1,0,0,0,1,0,0,0,0
+T:pep_detectable_length,T,,1,0,0,0,1,0,0,0,0
+T:pep_detectable_mass,T,,1,0,0,0,1,0,0,0,0
+T:pep_log_len,T,,1,0,0,0,1,0,0,0,0
+T:pep_mc1_left_len,T,,1,0,0,0,1,0,0,0,0
+T:pep_mc1_right_len,T,,1,0,0,0,1,0,0,0,0
+T:pep_mc1_min_len,T,,1,0,0,0,1,0,0,0,0
+T:pep_mc1_detectable,T,,1,0,0,0,1,0,0,0,0
+T:pep_mc2_left_len,T,,1,0,0,0,1,0,0,0,0
+T:pep_mc2_right_len,T,,1,0,0,0,1,0,0,0,0
+T:pep_mc2_min_len,T,,1,0,0,0,1,0,0,0,0
+T:pep_mc2_detectable,T,,1,0,0,0,1,0,0,0,0
+T:pep_detectable_any_missed_cleavage,T,,1,0,0,0,1,0,0,0,0
+T:pep_n_peptides_in_protein,T,,1,0,0,0,1,0,0,0,0
+T:pep_kr_within_20,T,,1,0,0,0,1,0,0,0,0
+T:pep_has_kp_or_rp,T,,1,0,0,0,1,0,0,0,0
+T:pep_met_count,T,,1,0,0,0,1,0,0,0,0
+B:protein_length,B,,1,1,1,1,0,0,0,0,0
+B:protein_log_length,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_A,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_C,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_D,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_E,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_F,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_G,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_H,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_I,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_K,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_L,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_M,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_N,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_P,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_Q,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_R,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_S,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_T,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_V,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_W,B,,1,1,1,1,0,0,0,0,0
+B:protein_frac_Y,B,,1,1,1,1,0,0,0,0,0
+B:protein_mean_hydropathy,B,,1,1,1,1,0,0,0,0,0
+B:protein_net_charge,B,,1,1,1,1,0,0,0,0,1
+B:protein_charge_density,B,,1,1,1,1,0,0,0,0,1
+B:protein_cys_count,B,,1,1,1,1,0,0,0,0,0
+B:protein_cys_density,B,,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_00,C (within-protein transform),A:frozen_00,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_01,C (within-protein transform),A:frozen_01,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_02,C (within-protein transform),A:frozen_02,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_03,C (within-protein transform),A:frozen_03,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_04,C (within-protein transform),A:frozen_04,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_05,C (within-protein transform),A:frozen_05,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_06,C (within-protein transform),A:frozen_06,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_07,C (within-protein transform),A:frozen_07,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_08,C (within-protein transform),A:frozen_08,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_09,C (within-protein transform),A:frozen_09,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_10,C (within-protein transform),A:frozen_10,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_11,C (within-protein transform),A:frozen_11,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_12,C (within-protein transform),A:frozen_12,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_13,C (within-protein transform),A:frozen_13,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_14,C (within-protein transform),A:frozen_14,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_15,C (within-protein transform),A:frozen_15,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_16,C (within-protein transform),A:frozen_16,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_17,C (within-protein transform),A:frozen_17,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_18,C (within-protein transform),A:frozen_18,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_19,C (within-protein transform),A:frozen_19,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_20,C (within-protein transform),A:frozen_20,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_21,C (within-protein transform),A:frozen_21,1,1,1,1,0,0,0,0,0
+C:rank_A:frozen_22,C (within-protein transform),A:frozen_22,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_mean_hydropathy,C (within-protein transform),B:win5_mean_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_mean_charge,C (within-protein transform),B:win5_mean_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:win5_mean_volume,C (within-protein transform),B:win5_mean_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_mean_flexibility,C (within-protein transform),B:win5_mean_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_mean_polarity,C (within-protein transform),B:win5_mean_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_mean_helix,C (within-protein transform),B:win5_mean_helix,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_mean_sheet,C (within-protein transform),B:win5_mean_sheet,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_hydrophobic,C (within-protein transform),B:win5_frac_hydrophobic,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_aromatic,C (within-protein transform),B:win5_frac_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_acidic,C (within-protein transform),B:win5_frac_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_basic,C (within-protein transform),B:win5_frac_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:win5_frac_polar,C (within-protein transform),B:win5_frac_polar,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_small,C (within-protein transform),B:win5_frac_small,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_tiny,C (within-protein transform),B:win5_frac_tiny,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_gly,C (within-protein transform),B:win5_frac_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_pro,C (within-protein transform),B:win5_frac_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_cys,C (within-protein transform),B:win5_frac_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:win5_frac_serthr,C (within-protein transform),B:win5_frac_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_his,C (within-protein transform),B:win5_frac_his,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_met,C (within-protein transform),B:win5_frac_met,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_frac_aliphatic,C (within-protein transform),B:win5_frac_aliphatic,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_count_cys,C (within-protein transform),B:win5_count_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:win5_count_his,C (within-protein transform),B:win5_count_his,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_count_acidic,C (within-protein transform),B:win5_count_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:win5_count_basic,C (within-protein transform),B:win5_count_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:win5_net_charge,C (within-protein transform),B:win5_net_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:win10_mean_hydropathy,C (within-protein transform),B:win10_mean_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_mean_charge,C (within-protein transform),B:win10_mean_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:win10_mean_volume,C (within-protein transform),B:win10_mean_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_mean_flexibility,C (within-protein transform),B:win10_mean_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_mean_polarity,C (within-protein transform),B:win10_mean_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_mean_helix,C (within-protein transform),B:win10_mean_helix,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_mean_sheet,C (within-protein transform),B:win10_mean_sheet,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_hydrophobic,C (within-protein transform),B:win10_frac_hydrophobic,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_aromatic,C (within-protein transform),B:win10_frac_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_acidic,C (within-protein transform),B:win10_frac_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_basic,C (within-protein transform),B:win10_frac_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:win10_frac_polar,C (within-protein transform),B:win10_frac_polar,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_small,C (within-protein transform),B:win10_frac_small,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_tiny,C (within-protein transform),B:win10_frac_tiny,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_gly,C (within-protein transform),B:win10_frac_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_pro,C (within-protein transform),B:win10_frac_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_cys,C (within-protein transform),B:win10_frac_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:win10_frac_serthr,C (within-protein transform),B:win10_frac_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_his,C (within-protein transform),B:win10_frac_his,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_met,C (within-protein transform),B:win10_frac_met,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_frac_aliphatic,C (within-protein transform),B:win10_frac_aliphatic,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_count_cys,C (within-protein transform),B:win10_count_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:win10_count_his,C (within-protein transform),B:win10_count_his,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_count_acidic,C (within-protein transform),B:win10_count_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:win10_count_basic,C (within-protein transform),B:win10_count_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:win10_net_charge,C (within-protein transform),B:win10_net_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:win20_mean_hydropathy,C (within-protein transform),B:win20_mean_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_mean_charge,C (within-protein transform),B:win20_mean_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:win20_mean_volume,C (within-protein transform),B:win20_mean_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_mean_flexibility,C (within-protein transform),B:win20_mean_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_mean_polarity,C (within-protein transform),B:win20_mean_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_mean_helix,C (within-protein transform),B:win20_mean_helix,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_mean_sheet,C (within-protein transform),B:win20_mean_sheet,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_hydrophobic,C (within-protein transform),B:win20_frac_hydrophobic,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_aromatic,C (within-protein transform),B:win20_frac_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_acidic,C (within-protein transform),B:win20_frac_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_basic,C (within-protein transform),B:win20_frac_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:win20_frac_polar,C (within-protein transform),B:win20_frac_polar,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_small,C (within-protein transform),B:win20_frac_small,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_tiny,C (within-protein transform),B:win20_frac_tiny,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_gly,C (within-protein transform),B:win20_frac_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_pro,C (within-protein transform),B:win20_frac_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_cys,C (within-protein transform),B:win20_frac_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:win20_frac_serthr,C (within-protein transform),B:win20_frac_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_his,C (within-protein transform),B:win20_frac_his,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_met,C (within-protein transform),B:win20_frac_met,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_frac_aliphatic,C (within-protein transform),B:win20_frac_aliphatic,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_count_cys,C (within-protein transform),B:win20_count_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:win20_count_his,C (within-protein transform),B:win20_count_his,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_count_acidic,C (within-protein transform),B:win20_count_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:win20_count_basic,C (within-protein transform),B:win20_count_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:win20_net_charge,C (within-protein transform),B:win20_net_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_-8_hydropathy,C (within-protein transform),B:pos_-8_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-8_charge,C (within-protein transform),B:pos_-8_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_-8_volume,C (within-protein transform),B:pos_-8_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-8_flexibility,C (within-protein transform),B:pos_-8_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-8_polarity,C (within-protein transform),B:pos_-8_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-8_present,C (within-protein transform),B:pos_-8_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-7_hydropathy,C (within-protein transform),B:pos_-7_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-7_charge,C (within-protein transform),B:pos_-7_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_-7_volume,C (within-protein transform),B:pos_-7_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-7_flexibility,C (within-protein transform),B:pos_-7_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-7_polarity,C (within-protein transform),B:pos_-7_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-7_present,C (within-protein transform),B:pos_-7_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-6_hydropathy,C (within-protein transform),B:pos_-6_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-6_charge,C (within-protein transform),B:pos_-6_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_-6_volume,C (within-protein transform),B:pos_-6_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-6_flexibility,C (within-protein transform),B:pos_-6_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-6_polarity,C (within-protein transform),B:pos_-6_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-6_present,C (within-protein transform),B:pos_-6_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-5_hydropathy,C (within-protein transform),B:pos_-5_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-5_charge,C (within-protein transform),B:pos_-5_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_-5_volume,C (within-protein transform),B:pos_-5_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-5_flexibility,C (within-protein transform),B:pos_-5_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-5_polarity,C (within-protein transform),B:pos_-5_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-5_present,C (within-protein transform),B:pos_-5_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_hydropathy,C (within-protein transform),B:pos_-4_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_charge,C (within-protein transform),B:pos_-4_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_-4_volume,C (within-protein transform),B:pos_-4_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_flexibility,C (within-protein transform),B:pos_-4_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_polarity,C (within-protein transform),B:pos_-4_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_present,C (within-protein transform),B:pos_-4_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-3_hydropathy,C (within-protein transform),B:pos_-3_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-3_charge,C (within-protein transform),B:pos_-3_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_-3_volume,C (within-protein transform),B:pos_-3_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-3_flexibility,C (within-protein transform),B:pos_-3_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-3_polarity,C (within-protein transform),B:pos_-3_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-3_present,C (within-protein transform),B:pos_-3_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-2_hydropathy,C (within-protein transform),B:pos_-2_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-2_charge,C (within-protein transform),B:pos_-2_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_-2_volume,C (within-protein transform),B:pos_-2_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-2_flexibility,C (within-protein transform),B:pos_-2_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-2_polarity,C (within-protein transform),B:pos_-2_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-2_present,C (within-protein transform),B:pos_-2_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-1_hydropathy,C (within-protein transform),B:pos_-1_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-1_charge,C (within-protein transform),B:pos_-1_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_-1_volume,C (within-protein transform),B:pos_-1_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-1_flexibility,C (within-protein transform),B:pos_-1_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-1_polarity,C (within-protein transform),B:pos_-1_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-1_present,C (within-protein transform),B:pos_-1_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+1_hydropathy,C (within-protein transform),B:pos_+1_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+1_charge,C (within-protein transform),B:pos_+1_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_+1_volume,C (within-protein transform),B:pos_+1_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+1_flexibility,C (within-protein transform),B:pos_+1_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+1_polarity,C (within-protein transform),B:pos_+1_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+1_present,C (within-protein transform),B:pos_+1_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+2_hydropathy,C (within-protein transform),B:pos_+2_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+2_charge,C (within-protein transform),B:pos_+2_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_+2_volume,C (within-protein transform),B:pos_+2_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+2_flexibility,C (within-protein transform),B:pos_+2_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+2_polarity,C (within-protein transform),B:pos_+2_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+2_present,C (within-protein transform),B:pos_+2_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+3_hydropathy,C (within-protein transform),B:pos_+3_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+3_charge,C (within-protein transform),B:pos_+3_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_+3_volume,C (within-protein transform),B:pos_+3_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+3_flexibility,C (within-protein transform),B:pos_+3_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+3_polarity,C (within-protein transform),B:pos_+3_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+3_present,C (within-protein transform),B:pos_+3_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+4_hydropathy,C (within-protein transform),B:pos_+4_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+4_charge,C (within-protein transform),B:pos_+4_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_+4_volume,C (within-protein transform),B:pos_+4_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+4_flexibility,C (within-protein transform),B:pos_+4_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+4_polarity,C (within-protein transform),B:pos_+4_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+4_present,C (within-protein transform),B:pos_+4_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+5_hydropathy,C (within-protein transform),B:pos_+5_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+5_charge,C (within-protein transform),B:pos_+5_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_+5_volume,C (within-protein transform),B:pos_+5_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+5_flexibility,C (within-protein transform),B:pos_+5_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+5_polarity,C (within-protein transform),B:pos_+5_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+5_present,C (within-protein transform),B:pos_+5_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+6_hydropathy,C (within-protein transform),B:pos_+6_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+6_charge,C (within-protein transform),B:pos_+6_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_+6_volume,C (within-protein transform),B:pos_+6_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+6_flexibility,C (within-protein transform),B:pos_+6_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+6_polarity,C (within-protein transform),B:pos_+6_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+6_present,C (within-protein transform),B:pos_+6_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+7_hydropathy,C (within-protein transform),B:pos_+7_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+7_charge,C (within-protein transform),B:pos_+7_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_+7_volume,C (within-protein transform),B:pos_+7_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+7_flexibility,C (within-protein transform),B:pos_+7_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+7_polarity,C (within-protein transform),B:pos_+7_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+7_present,C (within-protein transform),B:pos_+7_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+8_hydropathy,C (within-protein transform),B:pos_+8_hydropathy,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+8_charge,C (within-protein transform),B:pos_+8_charge,1,1,1,1,0,0,0,0,1
+C:rank_B:pos_+8_volume,C (within-protein transform),B:pos_+8_volume,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+8_flexibility,C (within-protein transform),B:pos_+8_flexibility,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+8_polarity,C (within-protein transform),B:pos_+8_polarity,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+8_present,C (within-protein transform),B:pos_+8_present,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_is_basic,C (within-protein transform),B:pos_-4_is_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:pos_-4_is_acidic,C (within-protein transform),B:pos_-4_is_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_is_aromatic,C (within-protein transform),B:pos_-4_is_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_is_gly,C (within-protein transform),B:pos_-4_is_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_is_pro,C (within-protein transform),B:pos_-4_is_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_is_serthr,C (within-protein transform),B:pos_-4_is_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-4_is_cys,C (within-protein transform),B:pos_-4_is_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:pos_-3_is_basic,C (within-protein transform),B:pos_-3_is_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:pos_-3_is_acidic,C (within-protein transform),B:pos_-3_is_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-3_is_aromatic,C (within-protein transform),B:pos_-3_is_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-3_is_gly,C (within-protein transform),B:pos_-3_is_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-3_is_pro,C (within-protein transform),B:pos_-3_is_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-3_is_serthr,C (within-protein transform),B:pos_-3_is_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-3_is_cys,C (within-protein transform),B:pos_-3_is_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:pos_-2_is_basic,C (within-protein transform),B:pos_-2_is_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:pos_-2_is_acidic,C (within-protein transform),B:pos_-2_is_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-2_is_aromatic,C (within-protein transform),B:pos_-2_is_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-2_is_gly,C (within-protein transform),B:pos_-2_is_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-2_is_pro,C (within-protein transform),B:pos_-2_is_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-2_is_serthr,C (within-protein transform),B:pos_-2_is_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-2_is_cys,C (within-protein transform),B:pos_-2_is_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:pos_-1_is_basic,C (within-protein transform),B:pos_-1_is_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:pos_-1_is_acidic,C (within-protein transform),B:pos_-1_is_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-1_is_aromatic,C (within-protein transform),B:pos_-1_is_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-1_is_gly,C (within-protein transform),B:pos_-1_is_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-1_is_pro,C (within-protein transform),B:pos_-1_is_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-1_is_serthr,C (within-protein transform),B:pos_-1_is_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_-1_is_cys,C (within-protein transform),B:pos_-1_is_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:pos_+1_is_basic,C (within-protein transform),B:pos_+1_is_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:pos_+1_is_acidic,C (within-protein transform),B:pos_+1_is_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+1_is_aromatic,C (within-protein transform),B:pos_+1_is_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+1_is_gly,C (within-protein transform),B:pos_+1_is_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+1_is_pro,C (within-protein transform),B:pos_+1_is_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+1_is_serthr,C (within-protein transform),B:pos_+1_is_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+1_is_cys,C (within-protein transform),B:pos_+1_is_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:pos_+2_is_basic,C (within-protein transform),B:pos_+2_is_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:pos_+2_is_acidic,C (within-protein transform),B:pos_+2_is_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+2_is_aromatic,C (within-protein transform),B:pos_+2_is_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+2_is_gly,C (within-protein transform),B:pos_+2_is_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+2_is_pro,C (within-protein transform),B:pos_+2_is_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+2_is_serthr,C (within-protein transform),B:pos_+2_is_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+2_is_cys,C (within-protein transform),B:pos_+2_is_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:pos_+3_is_basic,C (within-protein transform),B:pos_+3_is_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:pos_+3_is_acidic,C (within-protein transform),B:pos_+3_is_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+3_is_aromatic,C (within-protein transform),B:pos_+3_is_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+3_is_gly,C (within-protein transform),B:pos_+3_is_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+3_is_pro,C (within-protein transform),B:pos_+3_is_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+3_is_serthr,C (within-protein transform),B:pos_+3_is_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+3_is_cys,C (within-protein transform),B:pos_+3_is_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:pos_+4_is_basic,C (within-protein transform),B:pos_+4_is_basic,1,1,1,1,0,0,1,0,0
+C:rank_B:pos_+4_is_acidic,C (within-protein transform),B:pos_+4_is_acidic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+4_is_aromatic,C (within-protein transform),B:pos_+4_is_aromatic,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+4_is_gly,C (within-protein transform),B:pos_+4_is_gly,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+4_is_pro,C (within-protein transform),B:pos_+4_is_pro,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+4_is_serthr,C (within-protein transform),B:pos_+4_is_serthr,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_+4_is_cys,C (within-protein transform),B:pos_+4_is_cys,1,1,1,1,0,1,0,0,0
+C:rank_B:cys_dist_left,C (within-protein transform),B:cys_dist_left,1,1,1,1,0,1,0,0,0
+C:rank_B:cys_dist_right,C (within-protein transform),B:cys_dist_right,1,1,1,1,0,1,0,0,0
+C:rank_B:cys_dist_min,C (within-protein transform),B:cys_dist_min,1,1,1,1,0,1,0,0,0
+C:rank_B:cys_in_4,C (within-protein transform),B:cys_in_4,1,1,1,1,0,1,0,0,0
+C:rank_B:cys_in_8,C (within-protein transform),B:cys_in_8,1,1,1,1,0,1,0,0,0
+C:rank_B:cys_in_16,C (within-protein transform),B:cys_in_16,1,1,1,1,0,1,0,0,0
+C:rank_B:cys_in_32,C (within-protein transform),B:cys_in_32,1,1,1,1,0,1,0,0,0
+C:rank_B:cys_in_64,C (within-protein transform),B:cys_in_64,1,1,1,1,0,1,0,0,0
+C:rank_B:nearest_H,C (within-protein transform),B:nearest_H,1,1,1,1,0,0,0,0,0
+C:rank_B:nearest_M,C (within-protein transform),B:nearest_M,1,1,1,1,0,0,0,0,0
+C:rank_B:nearest_W,C (within-protein transform),B:nearest_W,1,1,1,1,0,0,0,0,0
+C:rank_B:nearest_K,C (within-protein transform),B:nearest_K,1,0,0,0,0,0,0,0,0
+C:rank_B:nearest_R,C (within-protein transform),B:nearest_R,1,0,0,0,0,0,0,0,0
+C:rank_B:nearest_D,C (within-protein transform),B:nearest_D,1,1,1,1,0,0,0,0,0
+C:rank_B:nearest_E,C (within-protein transform),B:nearest_E,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_index_1based,C (within-protein transform),B:pos_index_1based,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_from_n_term,C (within-protein transform),B:pos_from_n_term,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_from_c_term,C (within-protein transform),B:pos_from_c_term,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_min_terminus,C (within-protein transform),B:pos_min_terminus,1,1,1,1,0,0,0,0,0
+C:rank_B:pos_relative,C (within-protein transform),B:pos_relative,1,1,1,1,0,0,0,0,0
+C:rank_T:pep_len,C (within-protein transform),T:pep_len,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_mass,C (within-protein transform),T:pep_mass,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_gravy,C (within-protein transform),T:pep_gravy,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_relative_offset,C (within-protein transform),T:pep_relative_offset,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_detectable_mass,C (within-protein transform),T:pep_detectable_mass,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_mc1_left_len,C (within-protein transform),T:pep_mc1_left_len,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_mc1_right_len,C (within-protein transform),T:pep_mc1_right_len,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_mc1_min_len,C (within-protein transform),T:pep_mc1_min_len,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_mc1_detectable,C (within-protein transform),T:pep_mc1_detectable,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_mc2_left_len,C (within-protein transform),T:pep_mc2_left_len,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_mc2_right_len,C (within-protein transform),T:pep_mc2_right_len,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_mc2_min_len,C (within-protein transform),T:pep_mc2_min_len,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_mc2_detectable,C (within-protein transform),T:pep_mc2_detectable,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_detectable_any_missed_cleavage,C (within-protein transform),T:pep_detectable_any_missed_cleavage,1,0,0,0,0,0,0,0,0
+C:rank_T:pep_kr_within_20,C (within-protein transform),T:pep_kr_within_20,1,0,0,0,0,0,0,0,0
+C:centred_A:frozen_00,C (within-protein transform),A:frozen_00,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_01,C (within-protein transform),A:frozen_01,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_02,C (within-protein transform),A:frozen_02,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_03,C (within-protein transform),A:frozen_03,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_04,C (within-protein transform),A:frozen_04,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_05,C (within-protein transform),A:frozen_05,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_06,C (within-protein transform),A:frozen_06,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_07,C (within-protein transform),A:frozen_07,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_08,C (within-protein transform),A:frozen_08,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_09,C (within-protein transform),A:frozen_09,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_10,C (within-protein transform),A:frozen_10,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_11,C (within-protein transform),A:frozen_11,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_12,C (within-protein transform),A:frozen_12,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_13,C (within-protein transform),A:frozen_13,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_14,C (within-protein transform),A:frozen_14,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_15,C (within-protein transform),A:frozen_15,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_16,C (within-protein transform),A:frozen_16,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_17,C (within-protein transform),A:frozen_17,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_18,C (within-protein transform),A:frozen_18,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_19,C (within-protein transform),A:frozen_19,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_20,C (within-protein transform),A:frozen_20,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_21,C (within-protein transform),A:frozen_21,1,1,1,1,0,0,0,0,0
+C:centred_A:frozen_22,C (within-protein transform),A:frozen_22,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_mean_hydropathy,C (within-protein transform),B:win5_mean_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_mean_charge,C (within-protein transform),B:win5_mean_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:win5_mean_volume,C (within-protein transform),B:win5_mean_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_mean_flexibility,C (within-protein transform),B:win5_mean_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_mean_polarity,C (within-protein transform),B:win5_mean_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_mean_helix,C (within-protein transform),B:win5_mean_helix,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_mean_sheet,C (within-protein transform),B:win5_mean_sheet,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_hydrophobic,C (within-protein transform),B:win5_frac_hydrophobic,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_aromatic,C (within-protein transform),B:win5_frac_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_acidic,C (within-protein transform),B:win5_frac_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_basic,C (within-protein transform),B:win5_frac_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:win5_frac_polar,C (within-protein transform),B:win5_frac_polar,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_small,C (within-protein transform),B:win5_frac_small,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_tiny,C (within-protein transform),B:win5_frac_tiny,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_gly,C (within-protein transform),B:win5_frac_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_pro,C (within-protein transform),B:win5_frac_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_cys,C (within-protein transform),B:win5_frac_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:win5_frac_serthr,C (within-protein transform),B:win5_frac_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_his,C (within-protein transform),B:win5_frac_his,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_met,C (within-protein transform),B:win5_frac_met,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_frac_aliphatic,C (within-protein transform),B:win5_frac_aliphatic,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_count_cys,C (within-protein transform),B:win5_count_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:win5_count_his,C (within-protein transform),B:win5_count_his,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_count_acidic,C (within-protein transform),B:win5_count_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:win5_count_basic,C (within-protein transform),B:win5_count_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:win5_net_charge,C (within-protein transform),B:win5_net_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:win10_mean_hydropathy,C (within-protein transform),B:win10_mean_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_mean_charge,C (within-protein transform),B:win10_mean_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:win10_mean_volume,C (within-protein transform),B:win10_mean_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_mean_flexibility,C (within-protein transform),B:win10_mean_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_mean_polarity,C (within-protein transform),B:win10_mean_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_mean_helix,C (within-protein transform),B:win10_mean_helix,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_mean_sheet,C (within-protein transform),B:win10_mean_sheet,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_hydrophobic,C (within-protein transform),B:win10_frac_hydrophobic,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_aromatic,C (within-protein transform),B:win10_frac_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_acidic,C (within-protein transform),B:win10_frac_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_basic,C (within-protein transform),B:win10_frac_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:win10_frac_polar,C (within-protein transform),B:win10_frac_polar,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_small,C (within-protein transform),B:win10_frac_small,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_tiny,C (within-protein transform),B:win10_frac_tiny,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_gly,C (within-protein transform),B:win10_frac_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_pro,C (within-protein transform),B:win10_frac_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_cys,C (within-protein transform),B:win10_frac_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:win10_frac_serthr,C (within-protein transform),B:win10_frac_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_his,C (within-protein transform),B:win10_frac_his,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_met,C (within-protein transform),B:win10_frac_met,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_frac_aliphatic,C (within-protein transform),B:win10_frac_aliphatic,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_count_cys,C (within-protein transform),B:win10_count_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:win10_count_his,C (within-protein transform),B:win10_count_his,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_count_acidic,C (within-protein transform),B:win10_count_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:win10_count_basic,C (within-protein transform),B:win10_count_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:win10_net_charge,C (within-protein transform),B:win10_net_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:win20_mean_hydropathy,C (within-protein transform),B:win20_mean_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_mean_charge,C (within-protein transform),B:win20_mean_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:win20_mean_volume,C (within-protein transform),B:win20_mean_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_mean_flexibility,C (within-protein transform),B:win20_mean_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_mean_polarity,C (within-protein transform),B:win20_mean_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_mean_helix,C (within-protein transform),B:win20_mean_helix,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_mean_sheet,C (within-protein transform),B:win20_mean_sheet,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_hydrophobic,C (within-protein transform),B:win20_frac_hydrophobic,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_aromatic,C (within-protein transform),B:win20_frac_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_acidic,C (within-protein transform),B:win20_frac_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_basic,C (within-protein transform),B:win20_frac_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:win20_frac_polar,C (within-protein transform),B:win20_frac_polar,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_small,C (within-protein transform),B:win20_frac_small,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_tiny,C (within-protein transform),B:win20_frac_tiny,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_gly,C (within-protein transform),B:win20_frac_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_pro,C (within-protein transform),B:win20_frac_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_cys,C (within-protein transform),B:win20_frac_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:win20_frac_serthr,C (within-protein transform),B:win20_frac_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_his,C (within-protein transform),B:win20_frac_his,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_met,C (within-protein transform),B:win20_frac_met,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_frac_aliphatic,C (within-protein transform),B:win20_frac_aliphatic,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_count_cys,C (within-protein transform),B:win20_count_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:win20_count_his,C (within-protein transform),B:win20_count_his,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_count_acidic,C (within-protein transform),B:win20_count_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:win20_count_basic,C (within-protein transform),B:win20_count_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:win20_net_charge,C (within-protein transform),B:win20_net_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_-8_hydropathy,C (within-protein transform),B:pos_-8_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-8_charge,C (within-protein transform),B:pos_-8_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_-8_volume,C (within-protein transform),B:pos_-8_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-8_flexibility,C (within-protein transform),B:pos_-8_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-8_polarity,C (within-protein transform),B:pos_-8_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-8_present,C (within-protein transform),B:pos_-8_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-7_hydropathy,C (within-protein transform),B:pos_-7_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-7_charge,C (within-protein transform),B:pos_-7_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_-7_volume,C (within-protein transform),B:pos_-7_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-7_flexibility,C (within-protein transform),B:pos_-7_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-7_polarity,C (within-protein transform),B:pos_-7_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-7_present,C (within-protein transform),B:pos_-7_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-6_hydropathy,C (within-protein transform),B:pos_-6_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-6_charge,C (within-protein transform),B:pos_-6_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_-6_volume,C (within-protein transform),B:pos_-6_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-6_flexibility,C (within-protein transform),B:pos_-6_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-6_polarity,C (within-protein transform),B:pos_-6_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-6_present,C (within-protein transform),B:pos_-6_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-5_hydropathy,C (within-protein transform),B:pos_-5_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-5_charge,C (within-protein transform),B:pos_-5_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_-5_volume,C (within-protein transform),B:pos_-5_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-5_flexibility,C (within-protein transform),B:pos_-5_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-5_polarity,C (within-protein transform),B:pos_-5_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-5_present,C (within-protein transform),B:pos_-5_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_hydropathy,C (within-protein transform),B:pos_-4_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_charge,C (within-protein transform),B:pos_-4_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_-4_volume,C (within-protein transform),B:pos_-4_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_flexibility,C (within-protein transform),B:pos_-4_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_polarity,C (within-protein transform),B:pos_-4_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_present,C (within-protein transform),B:pos_-4_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-3_hydropathy,C (within-protein transform),B:pos_-3_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-3_charge,C (within-protein transform),B:pos_-3_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_-3_volume,C (within-protein transform),B:pos_-3_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-3_flexibility,C (within-protein transform),B:pos_-3_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-3_polarity,C (within-protein transform),B:pos_-3_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-3_present,C (within-protein transform),B:pos_-3_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-2_hydropathy,C (within-protein transform),B:pos_-2_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-2_charge,C (within-protein transform),B:pos_-2_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_-2_volume,C (within-protein transform),B:pos_-2_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-2_flexibility,C (within-protein transform),B:pos_-2_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-2_polarity,C (within-protein transform),B:pos_-2_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-2_present,C (within-protein transform),B:pos_-2_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-1_hydropathy,C (within-protein transform),B:pos_-1_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-1_charge,C (within-protein transform),B:pos_-1_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_-1_volume,C (within-protein transform),B:pos_-1_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-1_flexibility,C (within-protein transform),B:pos_-1_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-1_polarity,C (within-protein transform),B:pos_-1_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-1_present,C (within-protein transform),B:pos_-1_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+1_hydropathy,C (within-protein transform),B:pos_+1_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+1_charge,C (within-protein transform),B:pos_+1_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_+1_volume,C (within-protein transform),B:pos_+1_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+1_flexibility,C (within-protein transform),B:pos_+1_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+1_polarity,C (within-protein transform),B:pos_+1_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+1_present,C (within-protein transform),B:pos_+1_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+2_hydropathy,C (within-protein transform),B:pos_+2_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+2_charge,C (within-protein transform),B:pos_+2_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_+2_volume,C (within-protein transform),B:pos_+2_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+2_flexibility,C (within-protein transform),B:pos_+2_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+2_polarity,C (within-protein transform),B:pos_+2_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+2_present,C (within-protein transform),B:pos_+2_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+3_hydropathy,C (within-protein transform),B:pos_+3_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+3_charge,C (within-protein transform),B:pos_+3_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_+3_volume,C (within-protein transform),B:pos_+3_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+3_flexibility,C (within-protein transform),B:pos_+3_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+3_polarity,C (within-protein transform),B:pos_+3_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+3_present,C (within-protein transform),B:pos_+3_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+4_hydropathy,C (within-protein transform),B:pos_+4_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+4_charge,C (within-protein transform),B:pos_+4_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_+4_volume,C (within-protein transform),B:pos_+4_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+4_flexibility,C (within-protein transform),B:pos_+4_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+4_polarity,C (within-protein transform),B:pos_+4_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+4_present,C (within-protein transform),B:pos_+4_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+5_hydropathy,C (within-protein transform),B:pos_+5_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+5_charge,C (within-protein transform),B:pos_+5_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_+5_volume,C (within-protein transform),B:pos_+5_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+5_flexibility,C (within-protein transform),B:pos_+5_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+5_polarity,C (within-protein transform),B:pos_+5_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+5_present,C (within-protein transform),B:pos_+5_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+6_hydropathy,C (within-protein transform),B:pos_+6_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+6_charge,C (within-protein transform),B:pos_+6_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_+6_volume,C (within-protein transform),B:pos_+6_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+6_flexibility,C (within-protein transform),B:pos_+6_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+6_polarity,C (within-protein transform),B:pos_+6_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+6_present,C (within-protein transform),B:pos_+6_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+7_hydropathy,C (within-protein transform),B:pos_+7_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+7_charge,C (within-protein transform),B:pos_+7_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_+7_volume,C (within-protein transform),B:pos_+7_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+7_flexibility,C (within-protein transform),B:pos_+7_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+7_polarity,C (within-protein transform),B:pos_+7_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+7_present,C (within-protein transform),B:pos_+7_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+8_hydropathy,C (within-protein transform),B:pos_+8_hydropathy,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+8_charge,C (within-protein transform),B:pos_+8_charge,1,1,1,1,0,0,0,0,1
+C:centred_B:pos_+8_volume,C (within-protein transform),B:pos_+8_volume,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+8_flexibility,C (within-protein transform),B:pos_+8_flexibility,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+8_polarity,C (within-protein transform),B:pos_+8_polarity,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+8_present,C (within-protein transform),B:pos_+8_present,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_is_basic,C (within-protein transform),B:pos_-4_is_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:pos_-4_is_acidic,C (within-protein transform),B:pos_-4_is_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_is_aromatic,C (within-protein transform),B:pos_-4_is_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_is_gly,C (within-protein transform),B:pos_-4_is_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_is_pro,C (within-protein transform),B:pos_-4_is_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_is_serthr,C (within-protein transform),B:pos_-4_is_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-4_is_cys,C (within-protein transform),B:pos_-4_is_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:pos_-3_is_basic,C (within-protein transform),B:pos_-3_is_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:pos_-3_is_acidic,C (within-protein transform),B:pos_-3_is_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-3_is_aromatic,C (within-protein transform),B:pos_-3_is_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-3_is_gly,C (within-protein transform),B:pos_-3_is_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-3_is_pro,C (within-protein transform),B:pos_-3_is_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-3_is_serthr,C (within-protein transform),B:pos_-3_is_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-3_is_cys,C (within-protein transform),B:pos_-3_is_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:pos_-2_is_basic,C (within-protein transform),B:pos_-2_is_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:pos_-2_is_acidic,C (within-protein transform),B:pos_-2_is_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-2_is_aromatic,C (within-protein transform),B:pos_-2_is_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-2_is_gly,C (within-protein transform),B:pos_-2_is_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-2_is_pro,C (within-protein transform),B:pos_-2_is_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-2_is_serthr,C (within-protein transform),B:pos_-2_is_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-2_is_cys,C (within-protein transform),B:pos_-2_is_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:pos_-1_is_basic,C (within-protein transform),B:pos_-1_is_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:pos_-1_is_acidic,C (within-protein transform),B:pos_-1_is_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-1_is_aromatic,C (within-protein transform),B:pos_-1_is_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-1_is_gly,C (within-protein transform),B:pos_-1_is_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-1_is_pro,C (within-protein transform),B:pos_-1_is_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-1_is_serthr,C (within-protein transform),B:pos_-1_is_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_-1_is_cys,C (within-protein transform),B:pos_-1_is_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:pos_+1_is_basic,C (within-protein transform),B:pos_+1_is_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:pos_+1_is_acidic,C (within-protein transform),B:pos_+1_is_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+1_is_aromatic,C (within-protein transform),B:pos_+1_is_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+1_is_gly,C (within-protein transform),B:pos_+1_is_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+1_is_pro,C (within-protein transform),B:pos_+1_is_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+1_is_serthr,C (within-protein transform),B:pos_+1_is_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+1_is_cys,C (within-protein transform),B:pos_+1_is_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:pos_+2_is_basic,C (within-protein transform),B:pos_+2_is_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:pos_+2_is_acidic,C (within-protein transform),B:pos_+2_is_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+2_is_aromatic,C (within-protein transform),B:pos_+2_is_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+2_is_gly,C (within-protein transform),B:pos_+2_is_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+2_is_pro,C (within-protein transform),B:pos_+2_is_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+2_is_serthr,C (within-protein transform),B:pos_+2_is_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+2_is_cys,C (within-protein transform),B:pos_+2_is_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:pos_+3_is_basic,C (within-protein transform),B:pos_+3_is_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:pos_+3_is_acidic,C (within-protein transform),B:pos_+3_is_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+3_is_aromatic,C (within-protein transform),B:pos_+3_is_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+3_is_gly,C (within-protein transform),B:pos_+3_is_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+3_is_pro,C (within-protein transform),B:pos_+3_is_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+3_is_serthr,C (within-protein transform),B:pos_+3_is_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+3_is_cys,C (within-protein transform),B:pos_+3_is_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:pos_+4_is_basic,C (within-protein transform),B:pos_+4_is_basic,1,1,1,1,0,0,1,0,0
+C:centred_B:pos_+4_is_acidic,C (within-protein transform),B:pos_+4_is_acidic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+4_is_aromatic,C (within-protein transform),B:pos_+4_is_aromatic,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+4_is_gly,C (within-protein transform),B:pos_+4_is_gly,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+4_is_pro,C (within-protein transform),B:pos_+4_is_pro,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+4_is_serthr,C (within-protein transform),B:pos_+4_is_serthr,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_+4_is_cys,C (within-protein transform),B:pos_+4_is_cys,1,1,1,1,0,1,0,0,0
+C:centred_B:cys_dist_left,C (within-protein transform),B:cys_dist_left,1,1,1,1,0,1,0,0,0
+C:centred_B:cys_dist_right,C (within-protein transform),B:cys_dist_right,1,1,1,1,0,1,0,0,0
+C:centred_B:cys_dist_min,C (within-protein transform),B:cys_dist_min,1,1,1,1,0,1,0,0,0
+C:centred_B:cys_in_4,C (within-protein transform),B:cys_in_4,1,1,1,1,0,1,0,0,0
+C:centred_B:cys_in_8,C (within-protein transform),B:cys_in_8,1,1,1,1,0,1,0,0,0
+C:centred_B:cys_in_16,C (within-protein transform),B:cys_in_16,1,1,1,1,0,1,0,0,0
+C:centred_B:cys_in_32,C (within-protein transform),B:cys_in_32,1,1,1,1,0,1,0,0,0
+C:centred_B:cys_in_64,C (within-protein transform),B:cys_in_64,1,1,1,1,0,1,0,0,0
+C:centred_B:nearest_H,C (within-protein transform),B:nearest_H,1,1,1,1,0,0,0,0,0
+C:centred_B:nearest_M,C (within-protein transform),B:nearest_M,1,1,1,1,0,0,0,0,0
+C:centred_B:nearest_W,C (within-protein transform),B:nearest_W,1,1,1,1,0,0,0,0,0
+C:centred_B:nearest_K,C (within-protein transform),B:nearest_K,1,0,0,0,0,0,0,0,0
+C:centred_B:nearest_R,C (within-protein transform),B:nearest_R,1,0,0,0,0,0,0,0,0
+C:centred_B:nearest_D,C (within-protein transform),B:nearest_D,1,1,1,1,0,0,0,0,0
+C:centred_B:nearest_E,C (within-protein transform),B:nearest_E,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_index_1based,C (within-protein transform),B:pos_index_1based,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_from_n_term,C (within-protein transform),B:pos_from_n_term,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_from_c_term,C (within-protein transform),B:pos_from_c_term,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_min_terminus,C (within-protein transform),B:pos_min_terminus,1,1,1,1,0,0,0,0,0
+C:centred_B:pos_relative,C (within-protein transform),B:pos_relative,1,1,1,1,0,0,0,0,0
+C:centred_T:pep_len,C (within-protein transform),T:pep_len,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_mass,C (within-protein transform),T:pep_mass,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_gravy,C (within-protein transform),T:pep_gravy,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_relative_offset,C (within-protein transform),T:pep_relative_offset,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_detectable_mass,C (within-protein transform),T:pep_detectable_mass,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_mc1_left_len,C (within-protein transform),T:pep_mc1_left_len,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_mc1_right_len,C (within-protein transform),T:pep_mc1_right_len,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_mc1_min_len,C (within-protein transform),T:pep_mc1_min_len,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_mc1_detectable,C (within-protein transform),T:pep_mc1_detectable,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_mc2_left_len,C (within-protein transform),T:pep_mc2_left_len,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_mc2_right_len,C (within-protein transform),T:pep_mc2_right_len,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_mc2_min_len,C (within-protein transform),T:pep_mc2_min_len,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_mc2_detectable,C (within-protein transform),T:pep_mc2_detectable,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_detectable_any_missed_cleavage,C (within-protein transform),T:pep_detectable_any_missed_cleavage,1,0,0,0,0,0,0,0,0
+C:centred_T:pep_kr_within_20,C (within-protein transform),T:pep_kr_within_20,1,0,0,0,0,0,0,0,0

@@ -1,0 +1,10 @@
+source_data_file,role,figure,panel
+Source_Data_Fig2_public_four_protease.csv,figure_underlying_values,Figure 2,
+Source_Data_Fig3_search_space.csv,figure_underlying_values,Figure 3,
+Source_Data_Fig3b_tie_precursor_error_spans.csv,figure_underlying_values,Figure 3,b
+Source_Data_Fig4_synthetic_ground_truth.csv,figure_underlying_values,Figure 4,
+Source_Data_Fig5_three_axes.csv,figure_underlying_values,Figure 5,
+Source_Data_Fig6_claim_retests.csv,figure_underlying_values,Figure 6,
+Source_Data_text_phase2c_sfe006_reproduction.json,text-cited table,,
+Source_Data_text_protease_reach_public.csv,text-cited table,,
+Source_Data_text_phospho_sulfo_eight_deposits.csv,text-cited table,,

@@ -1,0 +1,123 @@
+{
+  "version": "2.0",
+  "status": "template_not_yet_registered",
+  "supersedes": "protocols/blind_analysis_plan.json stays valid; this file adds the v2 model and detectability clauses",
+  "frozen_prediction_columns": {
+    "primary_ranking": "chem_score",
+    "secondary_ranking": "full_score",
+    "historical_baseline": "v1_mlp_score",
+    "deployed_form_must_be_declared_before_submission": true,
+    "post_hoc_switching_between_models_allowed": false
+  },
+  "primary_endpoint_model": "v2 chemistry model",
+  "primary_endpoint_model_reason": "about 42 percent of the full model's split gain comes from tryptic detectability features, so the full model cannot carry a chemistry conclusion",
+  "tasks": {
+    "site_localization": {
+      "unit": "protein",
+      "primary_endpoints": [
+        "top1_observed_coverage",
+        "top2_observed_coverage"
+      ],
+      "secondary_endpoints": [
+        "mean_reciprocal_rank_if_all_candidate_cys_assayed",
+        "not_testable_fraction",
+        "seed_uncertainty_error_association",
+        "full_minus_chem_rank_gap_association_with_outcome"
+      ],
+      "mandatory_stratifier": "pep_detectable_any_missed_cleavage",
+      "stratified_reporting_required": true,
+      "combined_only_reporting_allowed": false,
+      "negative_class_metrics_allowed": false,
+      "minimum_evaluable_proteins": 30,
+      "target_locked_proteins": 50
+    },
+    "protein_occurrence": {
+      "separate_model_required": true,
+      "site_max_score_as_validated_classifier": false,
+      "pu_or_censoring_required_if_negatives_not_defensible": true
+    }
+  },
+  "preregistered_comparisons": [
+    {
+      "name": "chem_vs_random",
+      "candidate": "chem_score",
+      "reference": "per_protein_random_expectation",
+      "unit": "protein",
+      "metrics": [
+        "top1",
+        "top2",
+        "mrr"
+      ]
+    },
+    {
+      "name": "chem_vs_v1_corrected_mlp",
+      "candidate": "chem_score",
+      "reference": "v1_mlp_score",
+      "unit": "protein",
+      "metrics": [
+        "top1",
+        "top2",
+        "mrr"
+      ],
+      "internal_reference_effect": {
+        "top1": 0.07882,
+        "top1_internal_interval": [
+          0.06505,
+          0.09325
+        ],
+        "source": "results/v2_unified_paired_component_intervals.json"
+      }
+    },
+    {
+      "name": "full_vs_chem",
+      "candidate": "full_score",
+      "reference": "chem_score",
+      "unit": "protein",
+      "metrics": [
+        "top1",
+        "top2",
+        "mrr"
+      ],
+      "permitted_interpretation": "contribution of mass-spectrometry detectability to what was observed",
+      "forbidden_interpretation": "difference in chemical propensity"
+    },
+    {
+      "name": "chem_vs_random_within_detectable_subset",
+      "candidate": "chem_score",
+      "reference": "per_protein_random_expectation",
+      "restriction": "pep_detectable_any_missed_cleavage is true",
+      "unit": "protein",
+      "metrics": [
+        "top1",
+        "top2",
+        "mrr"
+      ],
+      "role": "the only test in this plan that can support the existence of a chemical-environment ranking signal",
+      "failure_statement": "current evidence does not support chemical ranking ability after conditioning on detectability"
+    }
+  ],
+  "analysis_sets": [
+    "locked_intent_to_test",
+    "pre_unblinding_assay_evaluable"
+  ],
+  "tie_rule": "Top-1 coverage is the observed fraction among exactly tied maximum-score sites; Top-2 uses score descending then position ascending",
+  "missing_outcome_rule": "not_testable and ambiguous_localization are reported, never silently converted to negative",
+  "not_testable_cross_table_required": "not_testable fraction must be crossed with predicted detectability; descriptive only",
+  "model_selection_after_unblinding": false,
+  "exploratory_changes_must_be_versioned": true,
+  "claim_limits": [
+    "no endpoint is a persulfidation occurrence probability",
+    "no endpoint is a success rate for the next experiment",
+    "every reported number must name the model that produced it"
+  ],
+  "required_hashes": [
+    "input_manifest",
+    "sequences",
+    "model",
+    "predictions",
+    "outcomes",
+    "analysis_script",
+    "final_outputs",
+    "v2_feature_matrix"
+  ]
+}

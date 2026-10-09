@@ -1,0 +1,213 @@
+{
+ "label": "POST HOC revision analysis (2026-09-30), item J_provenance_species, revision round 3; not registered, not pre-specified",
+ "A_manuscript": {
+  "path": "MCP/01_manuscript.tex",
+  "sha256": "79ce71597d4dea29a62081fdca0a151b7e507771e379df986419bab8b44c1b4a",
+  "sha256_lf": "79ce71597d4dea29a62081fdca0a151b7e507771e379df986419bab8b44c1b4a",
+  "lines": 485,
+  "bytes": 137370,
+  "last_modified_local": "2026-09-30 05:37",
+  "round2_report_stated_sha256": "32242ded279cd1f5648dce59efa7b160dfc926e5dc6012d383c67a153d6991a1",
+  "round2_report_stated_version_matches_disk": false
+ },
+ "A_table2_block": {
+  "begin_table": 449,
+  "end_table": 467,
+  "rows_human_rice": [
+   457,
+   458,
+   459,
+   460,
+   461,
+   462
+  ]
+ },
+ "A_pointers": {
+  "n": 25,
+  "all_unique": true,
+  "all_quotes_verbatim": true,
+  "quotes_checked": 42,
+  "offsets": {
+   "abstract": 0,
+   "methods_permutation": 0,
+   "ep_public_cohorts": 0,
+   "ep_ablation": 0,
+   "edsr_revision_notes": "",
+   "artifact1_raw": 6,
+   "artifact1_profile": 6,
+   "artifact1_matching": 6,
+   "artifact1_protease": 6,
+   "artifact2_values": 6,
+   "artifact2_remedy": 6,
+   "cohorts_of_self_audit": 10,
+   "self_audit_zero_shot": 10,
+   "ablation_intro": 10,
+   "ablation_result": 10,
+   "detectability_only": 10,
+   "discussion_self_audit": 10,
+   "discussion_residual": 10,
+   "data_availability_pride": 10,
+   "data_availability_source": 10,
+   "code_availability": 10,
+   "supplemental_notes_list": "",
+   "table2_header": 8,
+   "table2_caption": 10,
+   "fig7_legend": 10
+  }
+ },
+ "A_supplements": {
+  "n": 16,
+  "quotes_checked": 23,
+  "all_unique": true,
+  "all_at_stated_line": true,
+  "all_quotes_verbatim": true
+ },
+ "A4_sibling_reports": {
+  "pointers_on_shared_lines": 52,
+  "reports": [
+   "A_retest_policy.md",
+   "B_overadjust_sim.md",
+   "C_pxd063463_specific.md",
+   "E_bootstrap_coverage.md",
+   "F_rice_artifact3.md",
+   "G_plmsnosite_rescore.md",
+   "H_artifact5_docs.md"
+  ],
+  "versions_stated": {
+   "A_retest_policy.md": "79ce7159",
+   "B_overadjust_sim.md": "",
+   "C_pxd063463_specific.md": "",
+   "E_bootstrap_coverage.md": "79ce7159",
+   "F_rice_artifact3.md": "",
+   "G_plmsnosite_rescore.md": "",
+   "H_artifact5_docs.md": ""
+  }
+ },
+ "B_human_window_power": {
+  "labelled": {
+   "n": 3206,
+   "window_holds_whole_minimal_segment": 1030,
+   "share_complete": 0.32127261384903305,
+   "not_coverable_among_complete": 0,
+   "not_coverable_among_incomplete_windows": 0,
+   "median_complete_segment_length": 9.0,
+   "share_not_coverable_among_complete": 0.0
+  },
+  "unlabelled": {
+   "n": 15361,
+   "window_holds_whole_minimal_segment": 4839,
+   "share_complete": 0.3150185534795912,
+   "not_coverable_among_complete": 695,
+   "not_coverable_among_incomplete_windows": 3307,
+   "median_complete_segment_length": 7.0,
+   "share_not_coverable_among_complete": 0.1436247158503823
+  },
+  "reading": "the window sees the whole minimal segment equally often in both label classes, so the contrast 0 of 3,206 against 26% is not an artefact of window truncation; where the window is complete the check is exact"
+ },
+ "C_rice_coverability_readable": {
+  "n": 5598,
+  "not_coverable": 1709,
+  "proteins": 640,
+  "definition": "AUC of each column for the non-coverable flag (j5, Trypsin/P, full sequence) over all released rice cysteines; protein-clustered bootstrap, 5,000 replicates, seed 20260930 + 3",
+  "columns": {
+   "B:cys_dist_min (negated)": {
+    "auc": 0.9158914108765163,
+    "ci95": [
+     0.9055077204486417,
+     0.9261505424415277
+    ],
+    "auc_among_unlabelled": 0.9109261477228399,
+    "median_not_coverable": -5.0,
+    "median_coverable": -28.0
+   },
+   "B:cys_in_4": {
+    "auc": 0.7332995451153957,
+    "ci95": [
+     0.7158580006432809,
+     0.750379395576727
+    ],
+    "auc_among_unlabelled": 0.7308822700287693,
+    "median_not_coverable": 0.0,
+    "median_coverable": 0.0
+   },
+   "B:win10_count_cys": {
+    "auc": 0.8412608757863961,
+    "ci95": [
+     0.8267063548831673,
+     0.8561530599305723
+    ],
+    "auc_among_unlabelled": 0.8368272061512582,
+    "median_not_coverable": 1.0,
+    "median_coverable": 0.0
+   }
+  },
+  "reading": "columns present in the chemistry set and in both deletion arms identify the cysteines that the single-cysteine construction can never label; whether the refit models used them is not known"
+ },
+ "D_note11_rice_row_sets": {
+  "analyse_public_refit_keep_mask": [
+   [
+    98,
+    "keep = np.asarray([a in seqs and 0 < q <= len(seqs[a]) for a, q in zip(acc, pos)])"
+   ]
+  ],
+  "analyse_public_refit_within_protein_call": [
+   [
+    109,
+    "y_arm, s, m = d[\"y\"], d[\"score\"], keep"
+   ],
+   [
+    116,
+    "pr = protein_rows(y_arm[m], s[m], acc[m], acc[m])"
+   ]
+  ],
+  "paired_difference_script_reads_oof_without_sequence_filter": true,
+  "paired_difference_blend_csv_rice_n_proteins": [
+   637
+  ],
+  "note11_arm_tables_rice_n_proteins_scored": [
+   384,
+   578
+  ],
+  "note11_paired_tables_rice_n_proteins": [
+   637
+  ],
+  "reading": "the rice within-protein AUCs of the arm tables (and Table 2) use the rows with a sequence (5,004 rows, 578 proteins with both classes); the paired differences report 637 proteins, the count for all 5,598 refit rows; for the blend this follows from the script, which reads the out-of-fold files without the mask; the ranking member's paired table reports the same 637, but its script is not on this machine"
+ },
+ "F_rice_chain_cited": [
+  {
+   "step": "0_every_C_of_every_Cys_peptide_incl_REV_CON",
+   "n_sites": 1796,
+   "n_proteins": 1192
+  },
+  {
+   "step": "0b_REV_removed_CON_kept",
+   "n_sites": 1769,
+   "n_proteins": 1170
+  },
+  {
+   "step": "1_REV_CON_removed",
+   "n_sites": 1753,
+   "n_proteins": 1164
+  },
+  {
+   "step": "2_single_Cys_peptides",
+   "n_sites": 1377,
+   "n_proteins": 1077
+  },
+  {
+   "step": "3_isoforms_mapped_to_canonical",
+   "n_sites": 1377,
+   "n_proteins": 1077
+  },
+  {
+   "step": "4_proteins_with_ge2_Cys",
+   "n_sites": 1340,
+   "n_proteins": 1040
+  },
+  {
+   "step": "5_UniProtKB_entry_active_2026_03",
+   "n_sites": 817,
+   "n_proteins": 640
+  }
+ ]
+}

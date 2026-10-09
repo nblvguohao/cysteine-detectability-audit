@@ -1,0 +1,59 @@
+{
+  "label": "POST HOC revision analysis (2026-09-30), not registered, not pre-specified",
+  "phospho_config_sources": {
+    "PXD071110_sources": [
+      "mqpar.xml",
+      "0.allSpectra.CID.FTMS.sil0.apar",
+      "0.allSpectra.HCD.FTMS.sil0.apar"
+    ],
+    "PXD071110_note": "parameters.txt of this MaxQuant version states neither the modification list nor the precursor tolerance; branch B3 therefore reads them from the deposit's other own files, and the run refuses if parameter groups disagree",
+    "eight_deposit_round_config_source_mqpar_only": true,
+    "eight_deposit_round_parameters_txt_lacked_mods_and_tolerance": true,
+    "PXD071110_script_says_parameters_txt_states_neither": true
+  },
+  "registration": {
+    "registered_utc_label": "2026-09-17T00:40:00Z",
+    "registered_before_any_search_was_run": true,
+    "fixed_before_any_search": [
+      "question",
+      "primary_statistic_and_reading_rule",
+      "predeclared_outcomes",
+      "search_parameters_fixed_before_the_run"
+    ],
+    "twenty_psm_branch": "fewer than 20 +32-class Cys PSMs pass 1% FDR -> the round is reported as underpowered and no fraction is quoted as a rate",
+    "amendments": [
+      {
+        "utc_label": "2026-09-17T01:15:00Z",
+        "what": "compute location moved from the A100 to amax; nothing scientific changed"
+      },
+      {
+        "utc_label": "2026-09-17T01:15:00Z",
+        "what": "protein N-terminal acetylation (+42.010565) was NOT searched"
+      },
+      {
+        "utc_label": "2026-09-17T01:15:00Z",
+        "what": "isotope_error = 0 (no C13 offsets) and max_variable_mods_in_peptide = 3, both fixed before the run"
+      },
+      {
+        "utc_label": "2026-09-17T01:15:00Z",
+        "what": "num_output_lines = 5"
+      },
+      {
+        "utc_label": "2026-09-17T01:50:00Z",
+        "what": "the deposit's species is MOUSE, not bovine; the database is Swiss-Prot Mus musculus with isoforms"
+      },
+      {
+        "utc_label": "2026-09-17T02:00:00Z",
+        "what": "fragment settings are PER FILE, because the deposit mixes two mass analysers"
+      },
+      {
+        "utc_label": "2026-09-17T02:00:00Z",
+        "what": "four search runs are DISCARDED and kept, none deleted"
+      }
+    ],
+    "static_cam_in_registration": false,
+    "run5_in_round_report": true,
+    "run5_in_registration": false,
+    "wide_window_diagnostic_in_registration": true
+  }
+}

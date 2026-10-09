@@ -1,0 +1,79 @@
+figure,panel,row,field,value,source_table
+Fig2,a,Trypsin|trypsin|proteome|distal_6_12,estimate,0.972971,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_proteome/audit.json
+Fig2,a,Trypsin|trypsin|proteome|distal_6_12,ci_low,0.711516,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_proteome/audit.json
+Fig2,a,Trypsin|trypsin|proteome|distal_6_12,ci_high,1.275616,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_proteome/audit.json
+Fig2,a,Trypsin|trypsin|proteome|proximal_1_3,estimate,-0.108607,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_proteome/audit.json
+Fig2,a,Trypsin|trypsin|proteome|proximal_1_3,ci_low,-0.285308,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_proteome/audit.json
+Fig2,a,Trypsin|trypsin|proteome|proximal_1_3,ci_high,0.068814,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_proteome/audit.json
+Fig2,a,AspN|aspn|proteome|distal_6_12,estimate,1.539092,results/phase4_reports/pxd063463_AspN_HydP_aspn_proteome/audit.json
+Fig2,a,AspN|aspn|proteome|distal_6_12,ci_low,0.793042,results/phase4_reports/pxd063463_AspN_HydP_aspn_proteome/audit.json
+Fig2,a,AspN|aspn|proteome|distal_6_12,ci_high,2.492719,results/phase4_reports/pxd063463_AspN_HydP_aspn_proteome/audit.json
+Fig2,a,AspN|aspn|proteome|proximal_1_3,estimate,1.110573,results/phase4_reports/pxd063463_AspN_HydP_aspn_proteome/audit.json
+Fig2,a,AspN|aspn|proteome|proximal_1_3,ci_low,0.420214,results/phase4_reports/pxd063463_AspN_HydP_aspn_proteome/audit.json
+Fig2,a,AspN|aspn|proteome|proximal_1_3,ci_high,1.787266,results/phase4_reports/pxd063463_AspN_HydP_aspn_proteome/audit.json
+Fig2,a,AspN|trypsin|proteome|distal_6_12,estimate,0.118877,results/phase4_reports/pxd063463_AspN_HydP_trypsin_proteome/audit.json
+Fig2,a,AspN|trypsin|proteome|distal_6_12,ci_low,-0.554927,results/phase4_reports/pxd063463_AspN_HydP_trypsin_proteome/audit.json
+Fig2,a,AspN|trypsin|proteome|distal_6_12,ci_high,0.863666,results/phase4_reports/pxd063463_AspN_HydP_trypsin_proteome/audit.json
+Fig2,a,AspN|trypsin|proteome|proximal_1_3,estimate,0.109145,results/phase4_reports/pxd063463_AspN_HydP_trypsin_proteome/audit.json
+Fig2,a,AspN|trypsin|proteome|proximal_1_3,ci_low,-0.55249,results/phase4_reports/pxd063463_AspN_HydP_trypsin_proteome/audit.json
+Fig2,a,AspN|trypsin|proteome|proximal_1_3,ci_high,0.700185,results/phase4_reports/pxd063463_AspN_HydP_trypsin_proteome/audit.json
+Fig2,a,CT|chymotrypsin|proteome|distal_6_12,estimate,1.194606,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_proteome/audit.json
+Fig2,a,CT|chymotrypsin|proteome|distal_6_12,ci_low,0.801952,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_proteome/audit.json
+Fig2,a,CT|chymotrypsin|proteome|distal_6_12,ci_high,1.63019,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_proteome/audit.json
+Fig2,a,CT|chymotrypsin|proteome|proximal_1_3,estimate,0.50446,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_proteome/audit.json
+Fig2,a,CT|chymotrypsin|proteome|proximal_1_3,ci_low,0.174646,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_proteome/audit.json
+Fig2,a,CT|chymotrypsin|proteome|proximal_1_3,ci_high,0.849023,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_proteome/audit.json
+Fig2,a,CT|trypsin|proteome|distal_6_12,estimate,0.334937,results/phase4_reports/pxd063463_CT_HydP_trypsin_proteome/audit.json
+Fig2,a,CT|trypsin|proteome|distal_6_12,ci_low,-0.065642,results/phase4_reports/pxd063463_CT_HydP_trypsin_proteome/audit.json
+Fig2,a,CT|trypsin|proteome|distal_6_12,ci_high,0.775046,results/phase4_reports/pxd063463_CT_HydP_trypsin_proteome/audit.json
+Fig2,a,CT|trypsin|proteome|proximal_1_3,estimate,0.401074,results/phase4_reports/pxd063463_CT_HydP_trypsin_proteome/audit.json
+Fig2,a,CT|trypsin|proteome|proximal_1_3,ci_low,0.057153,results/phase4_reports/pxd063463_CT_HydP_trypsin_proteome/audit.json
+Fig2,a,CT|trypsin|proteome|proximal_1_3,ci_high,0.739983,results/phase4_reports/pxd063463_CT_HydP_trypsin_proteome/audit.json
+Fig2,a,GluC|gluc|proteome|distal_6_12,estimate,0.944881,results/phase4_reports/pxd063463_GluC_HydP_gluc_proteome/audit.json
+Fig2,a,GluC|gluc|proteome|distal_6_12,ci_low,0.573888,results/phase4_reports/pxd063463_GluC_HydP_gluc_proteome/audit.json
+Fig2,a,GluC|gluc|proteome|distal_6_12,ci_high,1.347499,results/phase4_reports/pxd063463_GluC_HydP_gluc_proteome/audit.json
+Fig2,a,GluC|gluc|proteome|proximal_1_3,estimate,0.523234,results/phase4_reports/pxd063463_GluC_HydP_gluc_proteome/audit.json
+Fig2,a,GluC|gluc|proteome|proximal_1_3,ci_low,0.21904,results/phase4_reports/pxd063463_GluC_HydP_gluc_proteome/audit.json
+Fig2,a,GluC|gluc|proteome|proximal_1_3,ci_high,0.823891,results/phase4_reports/pxd063463_GluC_HydP_gluc_proteome/audit.json
+Fig2,a,GluC|trypsin|proteome|distal_6_12,estimate,0.383989,results/phase4_reports/pxd063463_GluC_HydP_trypsin_proteome/audit.json
+Fig2,a,GluC|trypsin|proteome|distal_6_12,ci_low,-0.064028,results/phase4_reports/pxd063463_GluC_HydP_trypsin_proteome/audit.json
+Fig2,a,GluC|trypsin|proteome|distal_6_12,ci_high,0.846555,results/phase4_reports/pxd063463_GluC_HydP_trypsin_proteome/audit.json
+Fig2,a,GluC|trypsin|proteome|proximal_1_3,estimate,-0.008047,results/phase4_reports/pxd063463_GluC_HydP_trypsin_proteome/audit.json
+Fig2,a,GluC|trypsin|proteome|proximal_1_3,ci_low,-0.351532,results/phase4_reports/pxd063463_GluC_HydP_trypsin_proteome/audit.json
+Fig2,a,GluC|trypsin|proteome|proximal_1_3,ci_high,0.332582,results/phase4_reports/pxd063463_GluC_HydP_trypsin_proteome/audit.json
+Fig2,b,Trypsin|trypsin|observed|distal_6_12,estimate,0.060834,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_observed/audit.json
+Fig2,b,Trypsin|trypsin|observed|distal_6_12,ci_low,-0.235279,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_observed/audit.json
+Fig2,b,Trypsin|trypsin|observed|distal_6_12,ci_high,0.380768,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_observed/audit.json
+Fig2,b,AspN|aspn|observed|distal_6_12,estimate,0.009696,results/phase4_reports/pxd063463_AspN_HydP_aspn_observed/audit.json
+Fig2,b,AspN|aspn|observed|distal_6_12,ci_low,-1.346075,results/phase4_reports/pxd063463_AspN_HydP_aspn_observed/audit.json
+Fig2,b,AspN|aspn|observed|distal_6_12,ci_high,1.279257,results/phase4_reports/pxd063463_AspN_HydP_aspn_observed/audit.json
+Fig2,b,CT|chymotrypsin|observed|distal_6_12,estimate,-0.182265,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_observed/audit.json
+Fig2,b,CT|chymotrypsin|observed|distal_6_12,ci_low,-0.847299,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_observed/audit.json
+Fig2,b,CT|chymotrypsin|observed|distal_6_12,ci_high,0.430168,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_observed/audit.json
+Fig2,b,GluC|gluc|observed|distal_6_12,estimate,-0.550606,results/phase4_reports/pxd063463_GluC_HydP_gluc_observed/audit.json
+Fig2,b,GluC|gluc|observed|distal_6_12,ci_low,-1.186751,results/phase4_reports/pxd063463_GluC_HydP_gluc_observed/audit.json
+Fig2,b,GluC|gluc|observed|distal_6_12,ci_high,0.04365,results/phase4_reports/pxd063463_GluC_HydP_gluc_observed/audit.json
+Fig2,c,Trypsin,estimate,0.255068,phase4_public_demo_2026-09-22.csv
+Fig2,c,Trypsin,ci_low,0.238042,phase4_public_demo_2026-09-22.csv
+Fig2,c,Trypsin,ci_high,0.272426,phase4_public_demo_2026-09-22.csv
+Fig2,c,AspN,estimate,0.614973,phase4_public_demo_2026-09-22.csv
+Fig2,c,AspN,ci_low,0.540533,phase4_public_demo_2026-09-22.csv
+Fig2,c,AspN,ci_high,0.685992,phase4_public_demo_2026-09-22.csv
+Fig2,c,CT,estimate,0.56456,phase4_public_demo_2026-09-22.csv
+Fig2,c,CT,ci_low,0.522788,phase4_public_demo_2026-09-22.csv
+Fig2,c,CT,ci_high,0.607241,phase4_public_demo_2026-09-22.csv
+Fig2,c,GluC,estimate,0.587104,phase4_public_demo_2026-09-22.csv
+Fig2,c,GluC,ci_low,0.547189,phase4_public_demo_2026-09-22.csv
+Fig2,c,GluC,ci_high,0.625432,phase4_public_demo_2026-09-22.csv
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",Trypsin|trypsin|observed|proximal_1_3,estimate,-0.694908,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",Trypsin|trypsin|observed|proximal_1_3,ci_low,-0.8951,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",Trypsin|trypsin|observed|proximal_1_3,ci_high,-0.494816,results/phase4_reports/pxd063463_Trypsin_HydP_trypsin_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",AspN|aspn|observed|proximal_1_3,estimate,-0.603101,results/phase4_reports/pxd063463_AspN_HydP_aspn_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",AspN|aspn|observed|proximal_1_3,ci_low,-1.563753,results/phase4_reports/pxd063463_AspN_HydP_aspn_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",AspN|aspn|observed|proximal_1_3,ci_high,0.278747,results/phase4_reports/pxd063463_AspN_HydP_aspn_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",CT|chymotrypsin|observed|proximal_1_3,estimate,-0.898437,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",CT|chymotrypsin|observed|proximal_1_3,ci_low,-1.40473,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",CT|chymotrypsin|observed|proximal_1_3,ci_high,-0.410929,results/phase4_reports/pxd063463_CT_HydP_chymotrypsin_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",GluC|gluc|observed|proximal_1_3,estimate,-1.776797,results/phase4_reports/pxd063463_GluC_HydP_gluc_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",GluC|gluc|observed|proximal_1_3,ci_low,-2.297182,results/phase4_reports/pxd063463_GluC_HydP_gluc_observed/audit.json
+Fig2,"not plotted; proximal band, observed background (Supplemental Note 4)",GluC|gluc|observed|proximal_1_3,ci_high,-1.293036,results/phase4_reports/pxd063463_GluC_HydP_gluc_observed/audit.json

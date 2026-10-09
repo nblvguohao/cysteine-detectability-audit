@@ -1,0 +1,194 @@
+{
+ "fasta_entries_2026_03": 21860,
+ "hydp_rows": 5328,
+ "hydp_positives": 1359,
+ "hydp_proteins": 2009,
+ "hydn_rows": 2024,
+ "hydn_positives": 660,
+ "hydp_rows_protein_absent_2026_03": 35,
+ "hydp_positives_protein_absent_2026_03": 5,
+ "hydp_proteins_absent_2026_03": [
+  "A0A571BF58",
+  "A0A5F8MPI9",
+  "A2AJ72",
+  "A2AUP5",
+  "B9EJ54",
+  "Q31093",
+  "Q3LR78",
+  "Q497Y9",
+  "Q6NXL1",
+  "Q7TNL5",
+  "Q8C8K6",
+  "Q8K094",
+  "Q8K205",
+  "Q8R1N3",
+  "Q8VI97",
+  "Q91VA7",
+  "Q9D2F8",
+  "Q9JHF5"
+ ],
+ "hydp_rows_not_pointing_at_C": 0,
+ "hydn_rows_protein_absent_2026_03": 6,
+ "hydn_positives_protein_absent_2026_03": 2,
+ "hydn_proteins_absent_2026_03": [
+  "A2AJ72",
+  "Q6NXL1",
+  "Q7TNL5",
+  "Q8C8K6",
+  "Q8K205",
+  "Q9D8C9"
+ ],
+ "hydn_rows_not_pointing_at_C": 0,
+ "analysis_proteins": 1991,
+ "candidates_analysis_proteins": 92929,
+ "candidates_mismatching_2026_03": 20,
+ "candidates_remapped_uniquely": 0,
+ "candidates_dropped_unmappable": 20,
+ "proteins_with_changed_sequence": [
+  "P46718",
+  "Q3TX08",
+  "Q3UPF5"
+ ],
+ "regenerated_candidate_sets_identical": 1988,
+ "regenerated_candidate_sets_different": 0,
+ "hydp_rows_with_sequence": 5293,
+ "hydp_rows_landed": 5293,
+ "cys_rows": 29502,
+ "positives": 1354,
+ "identified": 5293,
+ "observed_background": 3939,
+ "proteome_background": 28148,
+ "ha_specific_positives": 170,
+ "hydp_positive_also_positive_in_hydn": 536,
+ "hydp_positive_not_identified_in_hydn": 648,
+ "share_positive_theo_trypsin": 0.9615952732644018,
+ "share_positive_theo_trypsinP": 0.9711964549483013,
+ "share_positive_in_any_candidate": 1.0,
+ "share_positive_emp_obs": 0.6942392909896603,
+ "share_proteome_bg_theo_trypsin": 0.7989910473213017,
+ "share_proteome_bg_emp_obs": 0.13883757282933068,
+ "share_observed_bg_emp_obs": 0.4244732165524245,
+ "proteins_with_any_emp_obs_cys": 1285,
+ "remap_log": [
+  {
+   "protein": "P46718",
+   "start_2025": 72,
+   "sequence": "DDAFHRSLFLFCCREPLCCAGLR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "P46718",
+   "start_2025": 78,
+   "sequence": "SLFLFCCREPLCCAGLR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "P46718",
+   "start_2025": 78,
+   "sequence": "SLFLFCCREPLCCAGLRVFR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "P46718",
+   "start_2025": 86,
+   "sequence": "EPLCCAGLR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "P46718",
+   "start_2025": 86,
+   "sequence": "EPLCCAGLRVFR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "P46718",
+   "start_2025": 86,
+   "sequence": "EPLCCAGLRVFRNQLPR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3TX08",
+   "start_2025": 30,
+   "sequence": "AQKPPSPPAMENGTRFCEER",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3TX08",
+   "start_2025": 33,
+   "sequence": "PPSPPAMENGTRFCEER",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3TX08",
+   "start_2025": 33,
+   "sequence": "PPSPPAMENGTRFCEERPPADPVATVTEGAAK",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3TX08",
+   "start_2025": 45,
+   "sequence": "FCEERPPADPVATVTEGAAK",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3TX08",
+   "start_2025": 45,
+   "sequence": "FCEERPPADPVATVTEGAAKIVFPSANEVFYNPVQEFNR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3UPF5",
+   "start_2025": 902,
+   "sequence": "EIRYGKGLCWR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3UPF5",
+   "start_2025": 905,
+   "sequence": "YGKGLCWR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3UPF5",
+   "start_2025": 905,
+   "sequence": "YGKGLCWRR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3UPF5",
+   "start_2025": 908,
+   "sequence": "GLCWRRENCDSSHAHGFLEMPLASLGR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3UPF5",
+   "start_2025": 913,
+   "sequence": "RENCDSSHAHGFLEMPLASLGR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3UPF5",
+   "start_2025": 913,
+   "sequence": "RENCDSSHAHGFLEMPLASLGRTASLDSSGLQR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3UPF5",
+   "start_2025": 914,
+   "sequence": "ENCDSSHAHGFLEMPLASLGR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3UPF5",
+   "start_2025": 914,
+   "sequence": "ENCDSSHAHGFLEMPLASLGRTASLDSSGLQR",
+   "remapped_start_2026": null
+  },
+  {
+   "protein": "Q3UPF5",
+   "start_2025": 914,
+   "sequence": "ENCDSSHAHGFLEMPLASLGRTASLDSSGLQRK",
+   "remapped_start_2026": null
+  }
+ ]
+}

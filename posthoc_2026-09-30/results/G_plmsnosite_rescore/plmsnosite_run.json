@@ -1,0 +1,71 @@
+{
+ "label": "POST HOC revision analysis 2026-09-30 (G_plmsnosite_rescore); not registered",
+ "git_head": "e9158af06418f3e50c9bbbbeca77ea692e6507ce",
+ "inputs_sha256_git_blobs": {
+  "pLMSNOSite@e9158af:evaluate_model.py": "2a56afd9a90ebb6e1d09e5ccb6b7fb5c8c52b992422b5406983ed21d406af2cd",
+  "pLMSNOSite@e9158af:predict.py": "c4393234d6309fe13944f1add5e686e432a1ae9697d43af7a62292107c7dfd46",
+  "pLMSNOSite@e9158af:models/pLMSNOSite.h5": "e288bd171aa547371342b238f47e87e8483e547c27a88f3cf2b174ccff0f64da",
+  "pLMSNOSite@e9158af:models/ProtT5.h5": "585d2203fcedfa8e0d3d0d5b70ed6e28dfbbc12e0fae635d6ffcd5c3f8451c30",
+  "pLMSNOSite@e9158af:models/Embedding.h5": "04f445eb9428a8dd69d099666e344a054c767f4d1b29b5875c0749a2d77aa4f6",
+  "pLMSNOSite@e9158af:data/test/protT5_test.csv": "d5a7a80172948a792ff96440138d78dde06ebeed474095e33a31b493f30349c6",
+  "pLMSNOSite@e9158af:data/test/sequence_test.csv": "d4498e6f2afa28b89d150dacf44b1de6bbfd791e772f1fefe120aa4aabcc5551",
+  "pLMSNOSite@e9158af:data/test/embedding_test.fasta": "9525fac6f47910aa97b8756874229ea34fc2bb6fb0a03508fb00f8233a426b81"
+ },
+ "stub_modules": [
+  "tqdm",
+  "matplotlib",
+  "matplotlib.pyplot",
+  "matplotlib.colors",
+  "seaborn",
+  "mpl_toolkits",
+  "mpl_toolkits.mplot3d"
+ ],
+ "evaluate_model_penultimate_layers": {
+  "ProtT5": "dense_767",
+  "Embedding": "dense_888"
+ },
+ "alignment_checks": {
+  "fasta_ids_match_sequence_csv": true,
+  "prott5_rows_match_sequence_csv": true,
+  "prott5_target_equals_sequence_target": true,
+  "window_lengths": [
+   37
+  ],
+  "centre_is_C": 3519,
+  "windows_with_dash_padding": 177,
+  "windows_with_X": 0,
+  "windows_with_U": 0,
+  "symbols_outside_eval_alphabet": []
+ },
+ "cross_check": {
+  "lambda_layers_replaced_by_reshape": [
+   "lambda_444"
+  ],
+  "penultimate_layers": {
+   "ProtT5": "dense_767",
+   "Embedding": "dense_888"
+  },
+  "max_abs_diff_stacked_features": 0.0,
+  "max_abs_diff_probability": 0.0,
+  "max_abs_diff_repeat_prediction": 0.0,
+  "identical_threshold_calls": true
+ },
+ "n_test": 3519,
+ "n_pos": 351,
+ "environment": {
+  "python": "3.10.11",
+  "tensorflow": "2.15.1",
+  "keras": "2.15.0",
+  "numpy": "1.26.4",
+  "pandas": "2.3.3",
+  "h5py": "3.16.0",
+  "scikit-learn": "1.7.2",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "TF_DETERMINISTIC_OPS": "1",
+  "intra_op_threads": 4,
+  "inter_op_threads": 2
+ },
+ "saved_model_keras_version": "2.8.0 (h5 attribute keras_version)",
+ "predict_py_note": "predict.py pads windows with 'X' and encodes with a 21-symbol alphabet (X->20), whereas evaluate_model.py and the 23-symbol Embedding layer use '-' padding (-> 22, X -> 21, U -> 20); the benchmark is scored with evaluate_model.py.",
+ "runtime_s": 5.2
+}

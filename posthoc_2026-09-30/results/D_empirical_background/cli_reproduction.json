@@ -1,0 +1,183 @@
+{
+ "fasta_2026_03_decompressed_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418",
+ "runs": {
+  "proteome": {
+   "cli_stdout": [
+    "cleavage_geometry            FAIL         0.980103",
+    "multi_cysteine               UNDECIDABLE  -0.234215",
+    "protein_abundance            UNDECIDABLE  None",
+    "positive_detected_overlap    PASS         0.255068",
+    "search_space                 UNDECIDABLE  None",
+    "overall_claim_status         NOT_EVALUATED"
+   ],
+   "input_new": {
+    "sites_file": "pxd063463_Trypsin_HydP.tsv",
+    "sites_sha256": "4cf27b759afd5e624c6c6d20adb6c964661e7488479db074b489ec8a4864346a",
+    "fasta_file": "UP000000589_10090_2026_03.fasta",
+    "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418",
+    "n_rows": 29537,
+    "n_positive": 1359,
+    "n_detected": 5328,
+    "n_proteins": 2009,
+    "n_clusters": 2009,
+    "notes": [
+     "35 rows name a protein that is not in the FASTA",
+     "--expand-background added 24209 unlisted cysteines as label 0, detected 0"
+    ]
+   },
+   "input_stored": {
+    "sites_file": "pxd063463_Trypsin_HydP.tsv",
+    "sites_sha256": "1e7d98acba55de8d70181154b9539ea249a133b6a85c223b1b09ac266fc1b79e",
+    "fasta_file": "Mouse_2025_UP000000589_10090.fasta",
+    "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb",
+    "n_rows": 29902,
+    "n_positive": 1359,
+    "n_detected": 5328,
+    "n_proteins": 2009,
+    "n_clusters": 2009,
+    "notes": [
+     "--expand-background added 24574 unlisted cysteines as label 0, detected 0"
+    ]
+   },
+   "proximal_1_3": {
+    "stored": {
+     "estimate": -0.108607,
+     "ci": [
+      -0.285308,
+      0.068814
+     ],
+     "share_flagged_positive": 0.462104,
+     "share_flagged_background": 0.480888
+    },
+    "reproduced_fasta_2026_03": {
+     "estimate": -0.110085,
+     "ci": [
+      -0.29021,
+      0.067838
+     ],
+     "share_flagged_positive": 0.460857,
+     "share_flagged_background": 0.479892
+    },
+    "ci_level": 0.975
+   },
+   "distal_6_12": {
+    "stored": {
+     "estimate": 0.972971,
+     "ci": [
+      0.711516,
+      1.275616
+     ],
+     "share_flagged_positive": 0.865342,
+     "share_flagged_background": 0.765617
+    },
+    "reproduced_fasta_2026_03": {
+     "estimate": 0.980103,
+     "ci": [
+      0.719034,
+      1.266243
+     ],
+     "share_flagged_positive": 0.865583,
+     "share_flagged_background": 0.765099
+    },
+    "ci_level": 0.975
+   },
+   "n_positive": {
+    "stored": 1359,
+    "reproduced": 1354
+   },
+   "n_background": {
+    "stored": 28543,
+    "reproduced": 28148
+   }
+  },
+  "observed": {
+   "cli_stdout": [
+    "cleavage_geometry            FAIL         -0.704331",
+    "multi_cysteine               UNDECIDABLE  -0.234215",
+    "protein_abundance            FAIL         0.67036",
+    "positive_detected_overlap    PASS         0.255068",
+    "search_space                 UNDECIDABLE  None",
+    "overall_claim_status         NOT_EVALUATED"
+   ],
+   "input_new": {
+    "sites_file": "pxd063463_Trypsin_HydP.tsv",
+    "sites_sha256": "4cf27b759afd5e624c6c6d20adb6c964661e7488479db074b489ec8a4864346a",
+    "fasta_file": "UP000000589_10090_2026_03.fasta",
+    "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418",
+    "n_rows": 29537,
+    "n_positive": 1359,
+    "n_detected": 5328,
+    "n_proteins": 2009,
+    "n_clusters": 2009,
+    "notes": [
+     "35 rows name a protein that is not in the FASTA",
+     "--expand-background added 24209 unlisted cysteines as label 0, detected 0"
+    ]
+   },
+   "input_stored": {
+    "sites_file": "pxd063463_Trypsin_HydP.tsv",
+    "sites_sha256": "1e7d98acba55de8d70181154b9539ea249a133b6a85c223b1b09ac266fc1b79e",
+    "fasta_file": "Mouse_2025_UP000000589_10090.fasta",
+    "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb",
+    "n_rows": 29902,
+    "n_positive": 1359,
+    "n_detected": 5328,
+    "n_proteins": 2009,
+    "n_clusters": 2009,
+    "notes": [
+     "--expand-background added 24574 unlisted cysteines as label 0, detected 0"
+    ]
+   },
+   "proximal_1_3": {
+    "stored": {
+     "estimate": -0.694908,
+     "ci": [
+      -0.8951,
+      -0.494816
+     ],
+     "share_flagged_positive": 0.462104,
+     "share_flagged_background": 0.581759
+    },
+    "reproduced_fasta_2026_03": {
+     "estimate": -0.704331,
+     "ci": [
+      -0.904197,
+      -0.506363
+     ],
+     "share_flagged_positive": 0.460857,
+     "share_flagged_background": 0.582127
+    },
+    "ci_level": 0.975
+   },
+   "distal_6_12": {
+    "stored": {
+     "estimate": 0.060834,
+     "ci": [
+      -0.235279,
+      0.380768
+     ],
+     "share_flagged_positive": 0.865342,
+     "share_flagged_background": 0.860166
+    },
+    "reproduced_fasta_2026_03": {
+     "estimate": 0.07048,
+     "ci": [
+      -0.233582,
+      0.386653
+     ],
+     "share_flagged_positive": 0.865583,
+     "share_flagged_background": 0.859609
+    },
+    "ci_level": 0.975
+   },
+   "n_positive": {
+    "stored": 1359,
+    "reproduced": 1354
+   },
+   "n_background": {
+    "stored": 3969,
+    "reproduced": 3939
+   }
+  }
+ }
+}

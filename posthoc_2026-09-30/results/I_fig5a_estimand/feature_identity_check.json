@@ -1,0 +1,100 @@
+{
+ "label": "POST HOC revision analysis 2026-09-30, item I_fig5a_estimand; feature-definition check",
+ "probe_script": "\\path\\to\\local\\_cys_repo_work\\repo\\scripts\\run_cross_protease_detectability_probe.py",
+ "probe_sha256_raw": "46f60db339d1a93baa0d56b7384614279491f553a0d65e18794c5b6da99a02f1",
+ "probe_sha256_lf_normalised": "f9b990dd6ba016f4aeeba9bcb436f6e8750cd252308e6dae1c9f00518b6d8b0a",
+ "probe_sha256_recorded_in_census_audit": "f9b990dd6ba016f4aeeba9bcb436f6e8750cd252308e6dae1c9f00518b6d8b0a",
+ "probe_matches_recorded_after_lf_normalisation": true,
+ "n_features_dig25": 25,
+ "vis10": [
+  "pep_detectable_any_missed_cleavage",
+  "pep_detectable_both",
+  "pep_detectable_length",
+  "pep_detectable_mass",
+  "pep_gravy",
+  "pep_len",
+  "pep_log_len",
+  "pep_mass",
+  "pep_mc1_detectable",
+  "pep_mc2_detectable"
+ ],
+ "cpl15": [
+  "pep_cys_count",
+  "pep_offset_in_peptide",
+  "pep_relative_offset",
+  "pep_is_protein_n_terminal",
+  "pep_is_protein_c_terminal",
+  "pep_mc1_left_len",
+  "pep_mc1_right_len",
+  "pep_mc1_min_len",
+  "pep_mc2_left_len",
+  "pep_mc2_right_len",
+  "pep_mc2_min_len",
+  "pep_n_peptides_in_protein",
+  "pep_cleavage_sites_within_20",
+  "pep_dist_to_peptide_n_term",
+  "pep_dist_to_peptide_c_term"
+ ],
+ "window_for_kr_count": "residues index-20..index+20 (41-residue window centred on the cysteine), K or R counted, proline blocking ignored",
+ "seed_synthetic": 20260930,
+ "synthetic": {
+  "n_cysteines": 77327,
+  "exact_identities": {
+   "pep_offset_in_peptide == pep_dist_to_peptide_n_term (duplicate column)": true,
+   "pep_len == pep_dist_to_peptide_n_term + pep_dist_to_peptide_c_term + 1": true,
+   "pep_log_len == log1p(reconstructed length)": true,
+   "pep_detectable_length == 1[7 <= reconstructed length <= 30]": true
+  },
+  "near_identities_agreement_fraction": {
+   "pep_detectable_both vs length-window flag from CPL15": 0.9837960867484837,
+   "pep_detectable_mass vs length-window flag from CPL15": 0.957880171220919,
+   "pep_mc1_detectable vs length-only rule on CPL15 mc1 lengths": 0.9764765217841116,
+   "pep_mc2_detectable vs length-only rule on CPL15 mc2 lengths": 0.9680060004914196,
+   "pep_detectable_any_missed_cleavage vs length-only rule on CPL15": 0.9997025618477375
+  },
+  "correlations": {
+   "spearman(pep_mass, reconstructed length)": 0.9961396568155069,
+   "pearson(pep_mass, reconstructed length)": 0.9968337661305074
+  },
+  "vis10_columns_exactly_determined_by_cpl15": [
+   "pep_len",
+   "pep_log_len",
+   "pep_detectable_length"
+  ],
+  "vis10_columns_not_determined_by_cpl15": [
+   "pep_mass (near-determined by length)",
+   "pep_gravy"
+  ]
+ },
+ "mouse_first_3000_entries": {
+  "n_cysteines": 37878,
+  "exact_identities": {
+   "pep_offset_in_peptide == pep_dist_to_peptide_n_term (duplicate column)": true,
+   "pep_len == pep_dist_to_peptide_n_term + pep_dist_to_peptide_c_term + 1": true,
+   "pep_log_len == log1p(reconstructed length)": true,
+   "pep_detectable_length == 1[7 <= reconstructed length <= 30]": true
+  },
+  "near_identities_agreement_fraction": {
+   "pep_detectable_both vs length-window flag from CPL15": 0.9974655472833835,
+   "pep_detectable_mass vs length-window flag from CPL15": 0.9581287290775649,
+   "pep_mc1_detectable vs length-only rule on CPL15 mc1 lengths": 0.9968055335550979,
+   "pep_mc2_detectable vs length-only rule on CPL15 mc2 lengths": 0.994746290722847,
+   "pep_detectable_any_missed_cleavage vs length-only rule on CPL15": 0.9999735994508686
+  },
+  "correlations": {
+   "spearman(pep_mass, reconstructed length)": 0.9965987667077052,
+   "pearson(pep_mass, reconstructed length)": 0.9973527538716206
+  },
+  "vis10_columns_exactly_determined_by_cpl15": [
+   "pep_len",
+   "pep_log_len",
+   "pep_detectable_length"
+  ],
+  "vis10_columns_not_determined_by_cpl15": [
+   "pep_mass (near-determined by length)",
+   "pep_gravy"
+  ]
+ },
+ "mouse_first_entry": "tr|A0A075B5W6|A0A075B5W6_MOUSE",
+ "all_exact_identities_hold": true
+}

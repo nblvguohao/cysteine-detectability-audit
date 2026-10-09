@@ -1,0 +1,130 @@
+{
+ "label": "POST HOC revision analysis 2026-09-30, revision round 2 (G_plmsnosite_rescore); not registered, not pre-specified",
+ "estimand_primary": "unweighted mean of per-protein AUROCs over the test proteins that carry both labels (repo scripts/common.py protein_rows -> within_protein_auc_mean; the manuscript's within-protein AUC)",
+ "estimand_sensitivity": "pooled within-protein AUROC: concordant within-protein (positive, negative) pairs over all within-protein pairs = pair-weighted mean of the per-protein AUROCs (round 1)",
+ "bootstrap_primary": {
+  "replicates": 5000,
+  "seed": 20260930,
+  "unit": "protein (UniProt accession), sorted labels",
+  "draws": "numpy default_rng(seed); rng.integers(0, 278, 278) per replicate (all test proteins)",
+  "replicate_estimand": "multiplicity-weighted mean of per-protein AUROCs of resampled proteins carrying both labels",
+  "shared_with": "30_compare.py (identity asserted) and 32_kr_stratified.py",
+  "interval": "95% percentile",
+  "models_refit": false
+ },
+ "bootstrap_sensitivity_note12": {
+  "replicates": 5000,
+  "seed": 20260930,
+  "draws": "rng.integers(0, 220, 220) per replicate over the proteins with both labels"
+ },
+ "point_mean_of_per_protein_auroc": {
+  "pLMSNOSite": 0.702434211388569,
+  "VIS10": 0.6896056568119124,
+  "DIG25": 0.6837298554109796,
+  "ProtT5_arm": 0.6468786319622759,
+  "Embedding_arm": 0.7458247205700393,
+  "rankavg_pLMSNOSite_DIG25": 0.7149073160224089,
+  "rankavg_pLMSNOSite_VIS10": 0.7242061708162996
+ },
+ "point_pooled_within_protein_auroc": {
+  "pLMSNOSite": 0.7714202730177171,
+  "VIS10": 0.7162358408364798,
+  "DIG25": 0.800464711007842,
+  "ProtT5_arm": 0.6424629683415626,
+  "Embedding_arm": 0.7815858263142608,
+  "rankavg_pLMSNOSite_DIG25": 0.8171652628521638,
+  "rankavg_pLMSNOSite_VIS10": 0.7783909381353471
+ },
+ "diagnostics": {
+  "n_test_proteins": 278,
+  "n_proteins_with_both_labels": 220,
+  "n_sites_in_them": 3252,
+  "n_positives_in_them": 284,
+  "n_proteins_excluded": 58,
+  "n_sites_excluded": 267,
+  "n_positives_excluded": 67,
+  "excluded_proteins_all_negative": 11,
+  "excluded_proteins_all_positive": 47,
+  "pairs_per_protein": {
+   "min": 1.0,
+   "q25": 3.0,
+   "median": 8.5,
+   "q75": 17.0,
+   "max": 331.0,
+   "total": 3443.0
+  },
+  "share_of_pairs_in_10_largest_proteins": 0.3479523671216962,
+  "proteins_with_one_positive": 174,
+  "proteins_with_at_most_4_pairs": 78,
+  "pair_count_tertile_cut_points": [
+   4.0,
+   14.0
+  ],
+  "replicate_count_of_both_label_proteins": {
+   "min": 194.0,
+   "median": 220.0,
+   "max": 246.0
+  },
+  "within_protein_ties": {
+   "pLMSNOSite": {
+    "pooled_share_of_within_protein_pairs_tied": 0.0,
+    "mean_per_protein_share_tied": 0.0,
+    "proteins_with_all_pairs_tied": 0
+   },
+   "VIS10": {
+    "pooled_share_of_within_protein_pairs_tied": 0.002904443799012489,
+    "mean_per_protein_share_tied": 0.008507929856021623,
+    "proteins_with_all_pairs_tied": 1
+   },
+   "DIG25": {
+    "pooled_share_of_within_protein_pairs_tied": 0.0,
+    "mean_per_protein_share_tied": 0.0,
+    "proteins_with_all_pairs_tied": 0
+   }
+  },
+  "per_protein_wins": {
+   "pLMSNOSite vs VIS10": {
+    "higher": 84,
+    "equal": 61,
+    "lower": 75
+   },
+   "pLMSNOSite vs DIG25": {
+    "higher": 84,
+    "equal": 59,
+    "lower": 77
+   },
+   "DIG25 vs VIS10": {
+    "higher": 82,
+    "equal": 62,
+    "lower": 76
+   }
+  }
+ },
+ "checks": {
+  "protein_rows_vs_mann_whitney_max_abs_diff": 1.1102230246251565e-16,
+  "pooled_point_vs_step30_max_abs_diff": 3.6479819165435856e-11,
+  "replicates_identical_to_step30": {
+   "pooled_within_protein_max_abs_diff_vs_stored": 4.998546021539596e-11,
+   "across_protein_auroc_pLMSNOSite_max_abs_diff_vs_stored": 4.9982129546322085e-11,
+   "stored_file": "bootstrap_replicates_seed20260930.csv.gz (written by 30_compare.py)"
+  },
+  "weighted_mean_vs_explicitly_expanded_replicate_seed1_max_abs_diff": 1.1102230246251565e-16
+ },
+ "inputs_sha256": {
+  "results/G_plmsnosite_rescore/detectability_test_scores.csv": "24f2405ab4a299a54ee04d64dc6795bd09535d4fdb24a0f7a8cb3273daaf9941",
+  "results/G_plmsnosite_rescore/plmsnosite_test_scores.csv": "4700773f3fabf9e8ef7dfb10db94c63ce042f95bb4b8de43b618fa37bec38986",
+  "results/G_plmsnosite_rescore/site_flags_and_combined_scores.csv": "3ad21b1e05c935ba32ec489876c0a2c61cd2f1f257f8cab600466fd5a386f0f7",
+  "results/G_plmsnosite_rescore/robustness_other.csv": "7910360f224e3c2d6cbc813e2f19028661d88c5437cee13ad11bffec98fc2633",
+  "results/G_plmsnosite_rescore/bootstrap_replicates_seed20260930.csv.gz": "de5dfda1b63d3d38cd4b0bda1f1d404fb8f13778bf7c443c4c830dc703c7e0b5",
+  "repo/scripts/common.py (imported: protein_rows)": "adc88081bca803345cb3b04ca43b0413e9e6929f787c648e496ab2aa7cf1a9a1"
+ },
+ "environment": {
+  "python": "3.10.11",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scipy": "1.15.3",
+  "scikit-learn": "1.7.2",
+  "OMP_NUM_THREADS": "4"
+ },
+ "runtime_s": 8.1
+}

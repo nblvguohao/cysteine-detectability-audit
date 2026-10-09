@@ -1,0 +1,9 @@
+dataset_id,label,comparability,observed_class_definition,n_positive,n_observed_unmodified,share,wilson_low,wilson_high,used_in_main_text
+abiotech2025_ath_sno,PAT-switch (Arabidopsis),not_comparable,observed class limited to peptides carrying a modification (subset by construction),5736,589,0.9069,0.8995,0.9138,no
+cysboost2019_human_sno_hela,Cys-BOOST HeLa (human),not_comparable,observed class from a different supplementary table than the SNO calls,8184,15457,0.3462,0.3401,0.3523,no
+cysboost2019_human_sno_shsy5y,Cys-BOOST SH-SY5Y (human),not_comparable,observed class from a different supplementary table than the SNO calls,2134,403,0.8412,0.8264,0.8549,no
+fps2020_ath_sulfenyl,YAP1C reporter (Arabidopsis),comparable,"positives cross-linked peptides, observed regular peptides of the same runs",1745,411,0.8094,0.7922,0.8254,yes
+natcomm2023_ath_sno,FAT-switch (Arabidopsis),not_computable,capture only: no observed-unmodified class reported,1985,0,,,,no
+qpers_sid_tierB,qPerS-SID tier B (human),comparable_threshold,same elution readout; positives by the authors' ratio threshold >= 1.30,724,1294,0.3588,0.3381,0.3799,yes
+qtrp_S1_ph5,QTRP S1 pH5 (human),comparable,"positives -SSH sheet, observed -SH sheet of the same arm",277,1158,0.193,0.1734,0.2143,yes
+qtrp_S2_ph5,QTRP S2 pH5 (human),comparable,"positives -SSH sheet, observed -SH sheet of the same arm",80,1105,0.0675,0.0546,0.0832,yes

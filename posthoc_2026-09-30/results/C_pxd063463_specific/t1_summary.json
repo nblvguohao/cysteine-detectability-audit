@@ -1,0 +1,552 @@
+{
+ "plan": [
+  [
+   "Trypsin",
+   "trypsin",
+   "proteome",
+   true
+  ],
+  [
+   "Trypsin",
+   "trypsin",
+   "observed",
+   true
+  ],
+  [
+   "AspN",
+   "aspn",
+   "proteome",
+   true
+  ],
+  [
+   "AspN",
+   "aspn",
+   "observed",
+   true
+  ],
+  [
+   "AspN",
+   "trypsin",
+   "proteome",
+   true
+  ],
+  [
+   "AspN",
+   "trypsin",
+   "observed",
+   false
+  ],
+  [
+   "CT",
+   "chymotrypsin",
+   "proteome",
+   true
+  ],
+  [
+   "CT",
+   "chymotrypsin",
+   "observed",
+   true
+  ],
+  [
+   "CT",
+   "trypsin",
+   "proteome",
+   true
+  ],
+  [
+   "CT",
+   "trypsin",
+   "observed",
+   false
+  ],
+  [
+   "GluC",
+   "gluc",
+   "proteome",
+   true
+  ],
+  [
+   "GluC",
+   "gluc",
+   "observed",
+   true
+  ],
+  [
+   "GluC",
+   "trypsin",
+   "proteome",
+   true
+  ],
+  [
+   "GluC",
+   "trypsin",
+   "observed",
+   false
+  ]
+ ],
+ "input_identity": {
+  "Trypsin": {
+   "stored_sites_sha256": "1e7d98acba55de8d70181154b9539ea249a133b6a85c223b1b09ac266fc1b79e",
+   "input_lf_normalised_sha256": "1e7d98acba55de8d70181154b9539ea249a133b6a85c223b1b09ac266fc1b79e",
+   "identical_content": true
+  },
+  "AspN": {
+   "stored_sites_sha256": "05b131ac6ccc2be0ff76ff84ee289172242a89769fa6bba2d9ff4d8ec4d58445",
+   "input_lf_normalised_sha256": "05b131ac6ccc2be0ff76ff84ee289172242a89769fa6bba2d9ff4d8ec4d58445",
+   "identical_content": true
+  },
+  "CT": {
+   "stored_sites_sha256": "fef759bf9b4e293441cd05a06639dd89a46201bbc08caec8040dc9c1ef364743",
+   "input_lf_normalised_sha256": "fef759bf9b4e293441cd05a06639dd89a46201bbc08caec8040dc9c1ef364743",
+   "identical_content": true
+  },
+  "GluC": {
+   "stored_sites_sha256": "20462d48d76fa48fd5d84569e96ef19a8fc885fa1cb425cdccea7c570580642e",
+   "input_lf_normalised_sha256": "20462d48d76fa48fd5d84569e96ef19a8fc885fa1cb425cdccea7c570580642e",
+   "identical_content": true
+  }
+ },
+ "source_data_fig2_check": {
+  "fields_checked": 78,
+  "mismatches": []
+ },
+ "pxd063463_Trypsin_HydP_trypsin_proteome": {
+  "new_meta": {
+   "n_rows": 29502,
+   "notes": [
+    "--expand-background added 24209 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 29902,
+   "notes": [
+    "--expand-background added 24574 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 29537,
+   "notes": [
+    "35 rows name a protein that is not in the FASTA",
+    "--expand-background added 24209 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_Trypsin_HydP_trypsin_observed": {
+  "new_meta": {
+   "n_rows": 29502,
+   "notes": [
+    "--expand-background added 24209 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 29902,
+   "notes": [
+    "--expand-background added 24574 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "WARNING",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 29537,
+   "notes": [
+    "35 rows name a protein that is not in the FASTA",
+    "--expand-background added 24209 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_AspN_HydP_aspn_proteome": {
+  "new_meta": {
+   "n_rows": 1749,
+   "notes": [
+    "--expand-background added 1562 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 1749,
+   "notes": [
+    "--expand-background added 1562 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 1749,
+   "notes": [
+    "--expand-background added 1562 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_AspN_HydP_aspn_observed": {
+  "new_meta": {
+   "n_rows": 1749,
+   "notes": [
+    "--expand-background added 1562 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "UNDECIDABLE",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 1749,
+   "notes": [
+    "--expand-background added 1562 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "UNDECIDABLE",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 1749,
+   "notes": [
+    "--expand-background added 1562 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "UNDECIDABLE",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_AspN_HydP_trypsin_proteome": {
+  "new_meta": {
+   "n_rows": 1749,
+   "notes": [
+    "--expand-background added 1562 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "UNDECIDABLE",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 1749,
+   "notes": [
+    "--expand-background added 1562 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "UNDECIDABLE",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 1749,
+   "notes": [
+    "--expand-background added 1562 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "UNDECIDABLE",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_AspN_HydP_trypsin_observed": {
+  "new_meta": {
+   "n_rows": 1749,
+   "notes": [
+    "--expand-background added 1562 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "UNDECIDABLE",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": null,
+  "native_meta": null
+ },
+ "pxd063463_CT_HydP_chymotrypsin_proteome": {
+  "new_meta": {
+   "n_rows": 6613,
+   "notes": [
+    "--expand-background added 5889 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 6642,
+   "notes": [
+    "--expand-background added 5914 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 6617,
+   "notes": [
+    "4 rows name a protein that is not in the FASTA",
+    "--expand-background added 5889 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_CT_HydP_chymotrypsin_observed": {
+  "new_meta": {
+   "n_rows": 6613,
+   "notes": [
+    "--expand-background added 5889 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "WARNING",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 6642,
+   "notes": [
+    "--expand-background added 5914 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "WARNING",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 6617,
+   "notes": [
+    "4 rows name a protein that is not in the FASTA",
+    "--expand-background added 5889 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "WARNING",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_CT_HydP_trypsin_proteome": {
+  "new_meta": {
+   "n_rows": 6613,
+   "notes": [
+    "--expand-background added 5889 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "WARNING",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 6642,
+   "notes": [
+    "--expand-background added 5914 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "WARNING",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 6617,
+   "notes": [
+    "4 rows name a protein that is not in the FASTA",
+    "--expand-background added 5889 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "WARNING",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_CT_HydP_trypsin_observed": {
+  "new_meta": {
+   "n_rows": 6613,
+   "notes": [
+    "--expand-background added 5889 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": null,
+  "native_meta": null
+ },
+ "pxd063463_GluC_HydP_gluc_proteome": {
+  "new_meta": {
+   "n_rows": 7039,
+   "notes": [
+    "--expand-background added 6159 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 7099,
+   "notes": [
+    "--expand-background added 6215 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 7043,
+   "notes": [
+    "4 rows name a protein that is not in the FASTA",
+    "--expand-background added 6159 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_GluC_HydP_gluc_observed": {
+  "new_meta": {
+   "n_rows": 7039,
+   "notes": [
+    "--expand-background added 6159 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 7099,
+   "notes": [
+    "--expand-background added 6215 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "FAIL",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 7043,
+   "notes": [
+    "4 rows name a protein that is not in the FASTA",
+    "--expand-background added 6159 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "FAIL",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_GluC_HydP_trypsin_proteome": {
+  "new_meta": {
+   "n_rows": 7039,
+   "notes": [
+    "--expand-background added 6159 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "UNDECIDABLE",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": {
+   "n_rows": 7099,
+   "notes": [
+    "--expand-background added 6215 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "UNDECIDABLE",
+   "version": "0.1.0",
+   "fasta_sha256": "033ac9c49c6001dd8998658a9c5948626a746e2dadba4400cf1eb3ce91b3aedb"
+  },
+  "native_meta": {
+   "n_rows": 7043,
+   "notes": [
+    "4 rows name a protein that is not in the FASTA",
+    "--expand-background added 6159 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "distal_6_12",
+   "cg_status": "UNDECIDABLE",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  }
+ },
+ "pxd063463_GluC_HydP_trypsin_observed": {
+  "new_meta": {
+   "n_rows": 7039,
+   "notes": [
+    "--expand-background added 6159 unlisted cysteines as label 0, detected 0"
+   ],
+   "headline_band": "proximal_1_3",
+   "cg_status": "WARNING",
+   "version": "0.2.2",
+   "fasta_sha256": "cef98689e825925db97eeaf92e0da37d72efb4208e398a67bdb4415e2468f418"
+  },
+  "stored_meta": null,
+  "native_meta": null
+ },
+ "agreement": {
+  "cells_compared_bands": 22,
+  "cells_compared_coincidence": 4,
+  "max_abs_delta_estimate_bands": 0.02574899999999991,
+  "max_abs_delta_ci_bound_bands": 0.051044,
+  "median_abs_delta_estimate_bands": 0.005199000000000037,
+  "max_abs_delta_estimate_coincidence": 0.0017380000000000173,
+  "status_changes": [
+   {
+    "arm": "Trypsin",
+    "rule": "trypsin",
+    "background": "observed",
+    "quantity": "proximal_1_3",
+    "stored_status": "WARNING",
+    "new_status": "FAIL"
+   },
+   {
+    "arm": "GluC",
+    "rule": "gluc",
+    "background": "observed",
+    "quantity": "distal_6_12",
+    "stored_status": "UNDECIDABLE",
+    "new_status": "WARNING"
+   }
+  ],
+  "zero_conclusion_changes": [
+   {
+    "arm": "GluC",
+    "rule": "gluc",
+    "background": "observed",
+    "quantity": "distal_6_12"
+   }
+  ],
+  "max_abs_v010_minus_new_all": 0.0,
+  "max_abs_native_minus_stored_estimate_bands": 0.02574899999999991
+ }
+}

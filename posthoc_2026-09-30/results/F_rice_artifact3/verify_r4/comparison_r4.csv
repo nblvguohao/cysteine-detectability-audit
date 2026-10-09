@@ -1,0 +1,31 @@
+name,implementer_value,verifier_value,match
+"group table rebuilt from raw inputs: mismatches (labels, length, n_cys, n_det, 4 windows)",0,0,True
+labels A / S / S1 / S_map; A not S,1197 / 750 / 692 / 725; 447,1197 / 750 / 692 / 725; 447,True
+iBAQ ratio A / S / A-not-S; raw A / S,10.36 / 7.21 / 17.8; 4.88 / 3.93,10.36 / 7.21 / 17.79; 4.88 / 3.93,True
+"rank-biserial A, all 7,692: length / Cys (unmatched, deciles, 1:1)",-0.026/+0.199/+0.150; +0.082/+0.286/+0.244,-0.026/+0.199/+0.15; +0.082/+0.286/+0.244,True
+Spearman log iBAQ vs length / Cys,-0.28 / -0.24,-0.281 / -0.235,True
+"dAIC(D-T) five forms, A","10.6, 19.0, 17.0, 19.8, 12.5","10.57, 18.95, 16.98, 19.78, 12.5",True
+"dAIC(D-T) five forms, S","19.5, 22.9, 23.4, 24.1, 22.3","19.45, 22.91, 23.38, 24.06, 22.26",True
+"P(detectable | total), A, four forms","0.26, 0.95, 0.82, 0.48","0.259, 0.945, 0.82, 0.477",True
+"P(detectable | total), S, four forms","0.005, 0.10, 0.11, 0.32","0.0054, 0.1019, 0.1053, 0.3237",True
+"round 3 indicator test P(det | total, 1[n_det>=1]) A / S / S1 / S_map",0.11 / 0.149 / 0.38 / 0.022,0.1111 / 0.1492 / 0.3799 / 0.0217,True
+"round 3 indicator test P(total | det, ind), A (max over labels)",<= 7e-4,0.0007,True
+round 3 indicator test dAIC(DI-TI) A / S / S1 / S_map,9.0 / 27.4 / 23.6 / 14.4,8.95 / 27.42 / 23.57 / 14.4,True
+"indicator test without length, A (not in texts)",(not quoted; texts say P >= 0.11 in every form),0.0915,False
+"per-Cys OR det / undet (P), A and S",1.077/1.071 (0.80); 1.111/1.081 (0.22),1.077/1.071 (0.8); 1.111/1.081 (0.22),True
+"length OR per doubling at fixed total count, A; S; S1 linear","1.07 [0.97,1.17]; 0.92 [0.82,1.03]; 1.21 [1.08,1.35]","[1.07, 0.97, 1.17]; [0.92, 0.82, 1.03]; [1.21, 1.08, 1.35]",True
+pooled nulls recounted from the item's draws (outside of 14): A N2/N4/N1/N3,8 / 1 (edge P 0.049) / 11 / 3,"8 / 1 (edge [['r_dt_cys', 0.0492]]) / 11 / 3",True
+pooled nulls: A N4 min P of the other 13; A N2 max P outside,>= 0.46; < 0.01,0.461; 0.0092,True
+pooled nulls: S N4 outside (length P); cysteine min P,"2 (0.022, 0.013); > 0.09","2 (0.022, 0.0132); 0.096",True
+"pooled nulls: S_map N4/N2/N1/N3; N3 with 1,000 sets",4/9/9/4; 5,4/9/9/4; 5,True
+"independent re-simulation A|N4 (10,000 sets, converged fit, own code/seeds): outside; edge-stat P; min P other 13",1 of 14 at edge (P 0.049); >= 0.46,0 of 14; P 0.0572; 0.472,True
+"independent re-simulation A|N2 (5,000 sets): outside; max P outside",8 of 14; < 0.01,8 of 14; 0.0084,True
+"independent re-simulation S|N4 (5,000 sets): outside (length); min P of the 9 cysteine statistics",2; > 0.09,2; 0.085,False
+rice chain step 0 / 0b / 1 (sites/proteins),1796/1192; 1769/1170; 1753/1164,1796/1192; 1769/1170; 1753/1164,True
+rice chain steps 2-5 and equality with stored list,1377; 1340/1040; 817/640/5598; identical,1377; 1340/1040; 817/640/5598; True,True
+lost proteins / sites / Cys,400 / 523 / 4112,400 / 523 / 4112,True
+'0/400 saved entry records carry a sequence' as evidence that UniProtKB returns no sequence for deleted entries,0/400 (cited as support),0/400 but query was 'format=json&fields=accession' (uninformative); the s01 batch query with a sequence field returned 0/400 (valid support),False
+self-audit exclusion -> kept,594/80/59 -> 5004/737/581,594/817-737/59 -> 5004/737/581,True
+kept vs lost: median length; median Cys; sites/protein; quantified,392 vs 411; 7 vs 8; 1.28 vs 1.31; 75% vs 52%,"[392.0, 411.0]; [7.0, 8.0]; [1.28, 1.31]; [0.75, 0.52]",True
+"peptides unique to one group, every C",1692,1692,True
+comparison arm 'absent from that table',"6,495 groups absent from the peptide table",803 of 6495 have an accession in the table's Proteins column,False

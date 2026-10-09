@@ -1,0 +1,218 @@
+{
+  "version": "3.0",
+  "status": "registered",
+  "registered_utc": "2026-09-15T05:44:33Z",
+  "scope": "training on the QTRP persulfidation label with the project's chemistry feature block, and one-time external validation on qPerS-SID. Does NOT touch the benchmark line: v2's three-member blend remains the benchmark model and the deployed weights 0.64/0.20/0.16 stay unchanged unless every deployment criterion below is met.",
+  "naming_discipline": "no model produced under this plan may be called a persulfidation site predictor. The defensible description is a ranker of cysteines by whether a persulfidated form was detected in NaHS-loaded human lysate at pH 5.0.",
+  "narrative_sources": [
+    "reports/V3_PLAN_QTRP_PERSULFIDATION.md",
+    "reports/QTRP_DEPTH_CONFOUND.md",
+    "reports/QTRP_TRAINED_DEPTH_CONDITIONED.md",
+    "reports/QPERS_SID_INTAKE_ASSESSMENT.md",
+    "reports/QPERS_SID_SITE_MAPPING.md",
+    "reports/QPERS_SID_LABEL_CRITERIA.md",
+    "reports/DETECTION_MATCHED_INTENSITY_CONFOUND.md",
+    "reports/DETECTION_MATCHED_DOUBLE_CONDITIONED.md"
+  ],
+  "internal_cohorts": {
+    "primary": {
+      "name": "v3_pooled_ph5_raw",
+      "positives": "persulfidated form detected in either pH 5.0 arm of Fu 2020",
+      "negatives": "free thiol detected in that arm and no persulfidated form detected in THAT arm; sites called SSH in other arms are RETAINED, which is what distinguishes this cohort from the demoted arm_clean rule",
+      "why_primary": "raw negatives keep the detection-depth strata populated so depth stratification remains possible"
+    },
+    "sensitivity": [
+      {
+        "name": "v3_pooled_ph5_armclean",
+        "note": "additionally drops negatives called SSH in any human arm; equals the existing trained-round pooled_ph5 and empties depth strata 5-7"
+      },
+      {
+        "name": "v3_pooled_ph5_fullclean",
+        "note": "additionally drops sites listed in the FRBM 2024 compilation, which has no site-level provenance"
+      }
+    ],
+    "excluded_from_training": [
+      "pH 7.6 arms",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "excluded_reason": "no paired free-thiol table, so admitting them reintroduces cross-experiment depth confounding; they are used only to exclude negatives"
+  },
+  "designs": [
+    "struct53",
+    "chem1046",
+    "struct53_plus_chem1046",
+    "struct53_plus_zeroshot",
+    "probe_digest25",
+    "probe_visibility10",
+    "depth1_reference_only"
+  ],
+  "design_notes": {
+    "depth1_reference_only": "confound probe; never a feature in any fitted design",
+    "struct53_plus_zeroshot": "struct53 plus the v2 chemistry zero-shot score, which carries no QTRP label and therefore cannot leak",
+    "not_in_v3": [
+      "ESM-2 fine-tuning",
+      "ProtBERT fusion member"
+    ],
+    "not_in_v3_reason": "314 positives; the ESM-2 round needed 18,458 sites to match 53 structural descriptors"
+  },
+  "fold_construction": {
+    "outer": {
+      "unit": "homology component",
+      "folds": 5,
+      "frozen_once": true,
+      "grouping_file": "results/v3_human_homology_components.csv",
+      "grouping_audit": "results/v3_human_homology_components_audit.json",
+      "grouping_note": "7-mer containment >= 0.40, connected components; a declared grouping rule",
+      "outer_test_folds_never_enter": [
+        "preprocessing statistics",
+        "hyperparameters",
+        "tree count",
+        "calibration",
+        "feature-block switches",
+        "dimension reduction"
+      ]
+    },
+    "inner": {
+      "unit": "homology component",
+      "folds": 5,
+      "used_for": [
+        "HistGradientBoosting hyperparameters",
+        "feature-block switches",
+        "Platt calibration",
+        "class-imbalance handling (one predeclared option: scale_pos_weight)",
+        "dimension reduction: full, top-k mutual information with k in {64,128,256}, or feature-family aggregation"
+      ]
+    },
+    "leakage_control": {
+      "required": true,
+      "procedure": "permute labels within component and rerun the whole pipeline",
+      "expectation": "depth-stratified AUC returns to about 0.5",
+      "precedent": "v2 reached 0.4992 after within-protein permutation against a true 0.8605"
+    }
+  },
+  "primary_estimand": {
+    "statistic": "depth-stratified concordance: within-stratum AUC weighted by n_positive * n_negative",
+    "strata": "exact detection depth, counted as the number of distinct human QTRP arms in which the site appears in either adduct form",
+    "counting_unit_warning": "depth must be counted over ARMS, never over rows: every persulfide site is also detected as a free thiol, so a row count encodes the label and reached AUC 0.9478 in the discarded first version",
+    "single_class_strata": "dropped; the number of positives and negatives dropped must appear in the report body",
+    "both_calibers_required": {
+      "global": true,
+      "within_group": true,
+      "within_group_unit": "homology component, not protein",
+      "reason": "the two calibers can disagree in sign - v2_chem minus pure visibility is -0.0414 within protein and +0.0307 globally - and the human QTRP cohort has too little protein redundancy for a protein caliber (18 informative proteins after crossing with depth)"
+    }
+  },
+  "intervals": {
+    "method": "cluster bootstrap over homology components",
+    "replicates": 5000,
+    "seed": 20260915,
+    "recompute_statistic_each_replicate": true
+  },
+  "reading_rules": {
+    "discriminates": "lower bound above 0.5 (or above 0 for a difference)",
+    "undetermined_at_this_sample_size": "interval contains 0.5 (or 0)",
+    "inverted": "upper bound below 0.5 (or below 0)"
+  },
+  "predeclared_differences": [
+    "chem1046 - struct53",
+    "struct53_plus_chem1046 - chem1046",
+    "chem1046 - v2_chem_zeroshot",
+    "chem1046 - depth1",
+    "struct53 - probe_visibility10",
+    "v2_chem_zeroshot - v2_full_zeroshot"
+  ],
+  "predeclared_differences_note": "the last one was missed by the depth-conditioned round and has so far been measured only on the pooled pH 5.0 cohorts, which still carry the arm_clean mechanism; the single-arm raw cohorts remain unmeasured",
+  "depth_control": {
+    "depth_is_never_a_feature": true,
+    "primary_metric_is_depth_stratified": true,
+    "depth_matched_paired_subcohort": {
+      "required": true,
+      "ratio": "1:2 negatives per positive within stratum",
+      "seed": 20260915
+    },
+    "score_versus_depth_spearman": {
+      "required": true,
+      "rule": "if the v3 score correlates with depth more strongly than the v2 chemistry zero-shot score does, the model absorbed the confound and must not be deployed even if its stratified AUC is higher"
+    },
+    "collinearity_pre_check_for_every_negative_rule": {
+      "required": true,
+      "steps": [
+        "per-class retention rate of the rule",
+        "standalone discriminability of the covariate the rule removes",
+        "only then may the rule serve as a primary caliber"
+      ],
+      "precedents": {
+        "demoted": "QTRP arm_clean, which empties whole strata",
+        "cleared": "ABPP detection matching, where the residual confound is graded and conditioning costs 0.0293-0.0346"
+      }
+    }
+  },
+  "external_validation": {
+    "dataset": {
+      "citation": "Longen et al., Sci Rep 2016;6:29808",
+      "doi": "10.1038/srep29808",
+      "pmcid": "PMC4944133",
+      "access": "gold open access",
+      "no_repository_accession": true,
+      "consequence": "cannot be re-searched from raw spectra; the self-controlled fallback must use PXD005168 / PXD006140 instead",
+      "mapped_table": "results/qpers_sid_sites_normalised.csv"
+    },
+    "tiers_must_not_be_merged_or_chosen_after_the_fact": true,
+    "tier_A_primary": {
+      "evidence": "peptide carries the +446.17 probe-on-persulfide adduct",
+      "positives": 130,
+      "proteins": 102,
+      "negatives": 3974,
+      "negative_definition": "probe-labelled free thiol (+414.19) in the Beads or Total fraction, never seen as +446.17",
+      "arms": "main experiment only; MOESM7's four donor sheets contain zero +446.17 occurrences",
+      "depth_covariate": "two-valued only (MOESM2 experiment count 86/44, or fraction count 97/33)",
+      "depth_stratification": "NOT performed; plain concordance is reported with the two-valued covariate noted"
+    },
+    "tier_B_secondary": {
+      "evidence": "reductive-elution enrichment, not an adduct; MaxQuant excluded +446.17",
+      "label_must_be_described_as": "a reductive-elution enrichment label, not a persulfidation adduct label",
+      "criterion": "mean normalised H/L >= 1.30 and Significant == '+' where that column exists",
+      "criterion_provenance": "the authors' own number, applied uniformly because only the GYY4137 and Na2S4 legends state it",
+      "positives": {
+        "GYY4137": 262,
+        "Na2S4": 688,
+        "Na2S": 3,
+        "NaSH": 6,
+        "union": 729
+      },
+      "negatives": 1923,
+      "negative_definition": "same-sheet Elution sites below the threshold, plus bead-retained probe-labelled thiols, minus any positive",
+      "negative_preference": "same-fraction not-enriched sites are preferred over bead-fraction sites because they do not cross fractions",
+      "arms": "two informative arms (GYY4137, Na2S4)",
+      "depth_covariate": "donor-arm count, values 1 (499 sites) and 2 (230 sites) only"
+    },
+    "unlock_rule": "external labels are read exactly once, after every internal fold is complete and the internal result hashes are on disk; the external set may not tune anything. Procedure as in protocols/BLIND_TEST_PROTOCOL_V2.md",
+    "cross_species_gap_must_be_stated": "even if the external validation passes, all of it is human; any transfer to another species has no supporting data and must be reported as unvalidated"
+  },
+  "deployment_criteria": {
+    "all_four_required": true,
+    "criteria": [
+      "on v3_pooled_ph5_raw, the selected chem1046 variant's depth-stratified AUC lower bound exceeds 0.65",
+      "chem1046 - v2_chem_zeroshot depth-stratified difference lower bound exceeds 0",
+      "chem1046 - depth1 depth-stratified difference lower bound exceeds 0 AND the score-versus-depth Spearman is no higher than the v2 chemistry zero-shot model's",
+      "on qPerS-SID tier A, the concordance lower bound exceeds 0.5"
+    ],
+    "if_any_fails": "v3 is published as a methodological result only; deployed weights stay 0.64/0.20/0.16",
+    "criteria_may_not_be_changed_after_seeing_any_number": true
+  },
+  "planned_outputs": [
+    "scripts/run_v3_qtrp_stack.py",
+    "results/v3_qtrp_stack_summary.csv",
+    "results/v3_qtrp_stack_depth_strata.csv",
+    "results/v3_qtrp_stack_intervals.json",
+    "results/v3_qtrp_stack_run_audit.json",
+    "reports/V3_QTRP_TRAINED_MODEL.md"
+  ],
+  "must_not_be_touched": [
+    "models_v2/",
+    "the numbers in any existing report (corrections are appended, never rewritten)"
+  ],
+  "environment_note": "the project venv is python 3.9.6 / numpy 2.0.2 / sklearn 1.6.1 / lightgbm 4.6.0. Rounds run outside it must record their own versions in the audit, and any round that FITS a model should run in the project venv, because HistGradientBoosting defaults differ across sklearn versions."
+}

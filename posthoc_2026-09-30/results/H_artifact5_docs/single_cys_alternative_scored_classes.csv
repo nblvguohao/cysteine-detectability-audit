@@ -1,0 +1,4 @@
+group,alternative outside the precursor window,"both scored, alternative scored lower","both scored, tied at the best xcorr",edge (within 0.3 ppm of the window edge),ALL
+"Fig-1D (FTMS MS2, 0.02-Da bins)",977,476,206,39,1698
+"insulin files (ion-trap MS2, 1.0005-Da bins)",453,17,83,3,556
+ALL,1430,493,289,42,2254

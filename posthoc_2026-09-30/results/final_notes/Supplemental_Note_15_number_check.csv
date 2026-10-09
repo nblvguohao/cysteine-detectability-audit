@@ -1,0 +1,216 @@
+id,value,text,format,source,selection
+candidate_peptides,264782.0,"264,782",i,prep_summary.json,verification.candidate_rows
+candidate_match_pct,0.977033937352237,97.7,p1,prep_summary.json,rows_sequence_match / candidate_rows
+proteins_dropped,139.0,139,i,prep_summary.json,absent + any mismatch
+universe_cys,28471.0,"28,471",i,universe_cysteines.csv.gz,rows
+universe_prot,2445.0,"2,445",i,universe_cysteines.csv.gz,unique proteins
+universe_detected,6870.0,"6,870",i,universe_cysteines.csv.gz,detected == 1
+universe_detected_pct,0.24129816304309648,24.1,p1,universe_cysteines.csv.gz,mean(detected)
+vis10_auc_detection,0.706418320435998,0.706,f3,universe_cysteines.csv.gz (recomputed; prep_summary.json agrees),"logistic regression on standardized VIS10, 5-fold CV, folds by protein"
+vis10_auc_SFE006,0.758465108813035,0.76,f2,universe_cysteines.csv.gz (recomputed; prep_summary.json agrees),"same procedure, target = attribute"
+vis10_auc_SNO021,0.6602018516342365,0.66,f2,universe_cysteines.csv.gz (recomputed; prep_summary.json agrees),"same procedure, target = attribute"
+vis10_auc_SNO016,0.8398772759236722,0.84,f2,universe_cysteines.csv.gz (recomputed; prep_summary.json agrees),"same procedure, target = attribute"
+vis10_auc_PERS009,0.7463990373452617,0.75,f2,universe_cysteines.csv.gz (recomputed; prep_summary.json agrees),"same procedure, target = attribute"
+vis10_auc_SNO006,0.5860219109290428,0.59,f2,universe_cysteines.csv.gz (recomputed; prep_summary.json agrees),"same procedure, target = attribute"
+vis10_auc_SFE002,0.6080610486050722,0.61,f2,universe_cysteines.csv.gz (recomputed; prep_summary.json agrees),"same procedure, target = attribute"
+vis10_auc_basic_min,0.6602018516342365,0.66,f2,as above,min over the four K/R attributes
+vis10_auc_basic_max,0.8398772759236722,0.84,f2,as above,max over the four K/R attributes
+vis10_auc_acidic_min,0.5860219109290428,0.59,f2,as above,min over the two acidic attributes
+vis10_auc_acidic_max,0.6080610486050722,0.61,f2,as above,max over the two acidic attributes
+kr20_sd,2.2077996303397835,2.2,f1,universe_krcount.csv.gz,population SD of the K/R count within +/-20
+vis10_r2_kr20,0.441427313061451,0.44,f2,universe_krcount.csv.gz (recomputed; krcount_universe_summary.json agrees),"linear regression on standardized VIS10, same folds"
+r_kr20_basic_min,0.2508761194032418,0.25,f2,universe_krcount.csv.gz + universe_cysteines.csv.gz,"Pearson r, min over K/R attributes"
+r_kr20_basic_max,0.3898242132936552,0.39,f2,as above,"Pearson r, max over K/R attributes"
+r_kr20_acidic_absmax,0.015276206194131593,0.02,f2,as above,max |r| over acidic attributes
+table_npos,1372.202,"1,370",r10,reps_S0.csv.gz,"mean positives per table, 500 tables"
+table_nsites,13186.136,"13,200",r100,reps_S0.csv.gz,mean sites per table
+table_nprot,974.038,970,r10,reps_S0.csv.gz,mean proteins per table
+auc_nochem_observed,0.6721022000000001,0.67,f2,reps_S0.csv.gz,mean propensity AUC
+auc_nochem_steeper,0.722193,0.72,f2,reps_steep.csv.gz,S0steep mean propensity AUC
+loss_observed_SFE006_min,0.028520620948956577,3,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_observed_SFE006_max,0.1094485133090759,11,p0,as above,as above
+loss_observed_SNO021_min,0.04199148094839067,4,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_observed_SNO021_max,0.0903872286320474,9,p0,as above,as above
+loss_observed_SNO016_min,0.1157976294760843,12,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_observed_SNO016_max,0.23409160083688807,23,p0,as above,as above
+loss_observed_PERS009_min,0.16049042056537766,16,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_observed_PERS009_max,0.17940454057456157,18,p0,as above,as above
+loss_observed_SNO006_min,0.026488872232994676,3,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_observed_SNO006_max,0.11936474388823304,12,p0,as above,as above
+loss_observed_SFE002_min,0.07792358862804938,8,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_observed_SFE002_max,0.11633692026849551,12,p0,as above,as above
+loss_observed_offsets_min,0.028520620948956577,3,p0,as above,class min
+loss_observed_offsets_max,0.1094485133090759,11,p0,as above,class max
+loss_observed_composition_min,0.1157976294760843,12,p0,as above,class min
+loss_observed_composition_max,0.23409160083688807,23,p0,as above,class max
+loss_observed_acidic_min,0.026488872232994676,3,p0,as above,class min
+loss_observed_acidic_max,0.11936474388823304,12,p0,as above,class max
+loss_steeper_SFE006_min,-0.010423630707155906,-1,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_steeper_SFE006_max,0.10081375679896087,10,p0,as above,as above
+loss_steeper_SNO021_min,-0.02664215723652541,-3,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_steeper_SNO021_max,0.04997456896237018,5,p0,as above,as above
+loss_steeper_SNO016_min,0.061230605184747655,6,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_steeper_SNO016_max,0.1053314612927706,11,p0,as above,as above
+loss_steeper_PERS009_min,0.07918956057061599,8,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_steeper_PERS009_max,0.14302051729064613,14,p0,as above,as above
+loss_steeper_SNO006_min,0.025746343271789263,3,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_steeper_SNO006_max,0.14241865211737703,14,p0,as above,as above
+loss_steeper_SFE002_min,0.050036342993821536,5,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_steeper_SFE002_max,0.09720463051600636,10,p0,as above,as above
+loss_steeper_offsets_min,-0.02664215723652541,-3,p0,as above,class min
+loss_steeper_offsets_max,0.10081375679896087,10,p0,as above,class max
+loss_steeper_composition_min,0.061230605184747655,6,p0,as above,class min
+loss_steeper_composition_max,0.14302051729064613,14,p0,as above,class max
+loss_steeper_acidic_min,0.025746343271789263,3,p0,as above,class min
+loss_steeper_acidic_max,0.14241865211737703,14,p0,as above,class max
+loss_permuted_SFE006_min,0.08814710146559224,9,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_permuted_SFE006_max,0.16689042513587082,17,p0,as above,as above
+loss_permuted_SNO021_min,0.07480309590059764,7,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_permuted_SNO021_max,0.10858550205813378,11,p0,as above,as above
+loss_permuted_SNO016_min,0.30847186974289964,31,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_permuted_SNO016_max,0.37859199050721404,38,p0,as above,as above
+loss_permuted_PERS009_min,0.2147933211363836,21,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_permuted_PERS009_max,0.24281029192225279,24,p0,as above,as above
+loss_permuted_SNO006_min,0.05523853355117958,6,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_permuted_SNO006_max,0.10163166998338458,10,p0,as above,as above
+loss_permuted_SFE002_min,0.02386337577380715,2,p0,"reps_S0/S1, reps_steep, reps_perm/permgrid","1 - (genuine-part retention / latent's), normalizations A and B, planted 0.5/1.0/1.5"
+loss_permuted_SFE002_max,0.09735225330824715,10,p0,as above,as above
+loss_permuted_offsets_min,0.07480309590059764,7,p0,as above,class min
+loss_permuted_offsets_max,0.16689042513587082,17,p0,as above,class max
+loss_permuted_composition_min,0.2147933211363836,21,p0,as above,class min
+loss_permuted_composition_max,0.37859199050721404,38,p0,as above,class max
+loss_permuted_acidic_min,0.02386337577380715,2,p0,as above,class min
+loss_permuted_acidic_max,0.10163166998338458,10,p0,as above,class max
+mcse_observed_min,0.0064420918588982,0.6,p1,overadjustment_summary.csv,"min stored MC SE, points"
+mcse_observed_max,0.0359257236700553,3.6,p1,overadjustment_summary.csv,"max stored MC SE, points"
+mcse_steeper_min,0.0110327818421955,1.1,p1,overadjustment_summary.csv,"min stored MC SE, points"
+mcse_steeper_max,0.0774964760196987,7.7,p1,overadjustment_summary.csv,"max stored MC SE, points"
+mcse_permuted_min,0.0081560278573913,0.8,p1,overadjustment_summary.csv,"min stored MC SE, points"
+mcse_permuted_max,0.0497909058596246,5.0,p1,overadjustment_summary.csv,"max stored MC SE, points"
+ntab_planted_observed,200.0,200,i,reps_S1.csv.gz,tables per cell
+ntab_planted_steeper,100.0,100,i,reps_steep.csv.gz,tables per cell
+ntab_planted_permuted,200.0,200,i,reps_permgrid.csv.gz,per cell
+ntab_null_observed,500.0,500,i,reps_S0.csv.gz,tables
+ntab_null_steeper,300.0,300,i,reps_steep.csv.gz,tables
+ntab_null_permuted,200.0,200,i,reps_perm.csv.gz,tables
+latent_matched_over_truth_min,0.8777197770453005,0.88,f2,reps_S1.csv.gz,"mean matched / planted, 0.5/1.0/1.5"
+latent_matched_over_truth_max,0.8935622954026862,0.89,f2,reps_S1.csv.gz,as above
+obs_retention_SFE006,0.4298934055321133,0.43,f2,observed_claims.csv,"SFE-006 (Yang 2014, own data)"
+obs_baseline_SFE006,1.3840344206722544,1.38,f2,observed_claims.csv,"SFE-006 (Yang 2014, own data)"
+obs_npos_SFE006,1095.0,"1,095",i,observed_claims.csv,"SFE-006 (Yang 2014, own data)"
+obs_retention_SNO021,0.552119129438717,0.55,f2,observed_claims.csv,SNO-021
+obs_baseline_SNO021,1.0476,1.05,f2,observed_claims.csv,SNO-021
+obs_npos_SNO021,982.0,982,i,observed_claims.csv,SNO-021
+obs_retention_PERS009,0.3710104850789261,0.37,f2,observed_claims.csv,PERS-009
+obs_baseline_PERS009,0.8679,0.87,f2,observed_claims.csv,PERS-009
+obs_npos_PERS009,2701.0,"2,701",i,observed_claims.csv,PERS-009
+obs_retention_SNO006,1.019808732658424,1.02,f2,observed_claims.csv,SNO-006
+obs_baseline_SNO006,1.2640125253678494,1.26,f2,observed_claims.csv,SNO-006
+obs_npos_SNO006,238.0,238,i,observed_claims.csv,SNO-006
+obs_retention_SFE002,0.8291163102477055,0.83,f2,observed_claims.csv,SFE-002
+obs_baseline_SFE002,0.8160126689938106,0.82,f2,observed_claims.csv,SFE-002
+obs_npos_SFE002,1095.0,"1,095",i,observed_claims.csv,SFE-002
+obs_baseline_SFE006_3dp,1.3840344206722544,1.384,f3,observed_claims.csv,SFE-006 baseline
+obs_auc_min,0.7277686684429869,0.73,f2,observed_claims.csv,"propensity AUC, the five re-tests with a retention"
+obs_auc_max,0.7615912499194116,0.76,f2,observed_claims.csv,as above
+obs_npos_SNO014,56.0,56,i,observed_claims.csv,SNO-014 positives
+attr_calib_SFE006_observed_median,0.7740267805590032,0.77,f2,reps_discrim.csv.gz,"DM1real, 200 tables at the interpolated strength"
+attr_calib_SFE006_observed_p2.5,0.6219708990290133,0.62,f2,reps_discrim.csv.gz,"DM1real, 200 tables at the interpolated strength"
+attr_calib_SFE006_observed_p97.5,0.8915487265767358,0.89,f2,reps_discrim.csv.gz,"DM1real, 200 tables at the interpolated strength"
+attr_calib_SFE006_steeper_median,0.7010072158968805,0.70,f2,reps_discrim.csv.gz,"DM1steep, 200 tables at the interpolated strength"
+attr_calib_SFE006_steeper_p2.5,0.5533227314856258,0.55,f2,reps_discrim.csv.gz,"DM1steep, 200 tables at the interpolated strength"
+attr_calib_SFE006_steeper_p97.5,0.8198004371687212,0.82,f2,reps_discrim.csv.gz,"DM1steep, 200 tables at the interpolated strength"
+attr_calib_SFE006_permuted_median,0.8160248260435954,0.82,f2,reps_discrim.csv.gz,"DM1perm, 200 tables at the interpolated strength"
+attr_calib_SFE006_permuted_p2.5,0.694194723987428,0.69,f2,reps_discrim.csv.gz,"DM1perm, 200 tables at the interpolated strength"
+attr_calib_SFE006_permuted_p97.5,0.936193109388883,0.94,f2,reps_discrim.csv.gz,"DM1perm, 200 tables at the interpolated strength"
+attr_calib_SFE006_rate16_median,0.766727285270403,0.77,f2,reps_discrim.csv.gz,"DM1r16, 200 tables at the interpolated strength"
+attr_calib_SFE006_rate16_p2.5,0.6012985682977788,0.60,f2,reps_discrim.csv.gz,"DM1r16, 200 tables at the interpolated strength"
+attr_calib_SFE006_rate16_p97.5,0.9180768009934089,0.92,f2,reps_discrim.csv.gz,"DM1r16, 200 tables at the interpolated strength"
+attr_calib_SNO021_observed_median,0.9791464758077707,0.98,f2,reps_S1grid.csv.gz,"S1grid, nearest grid effect 1.25, 200 tables"
+attr_calib_SNO021_observed_p2.5,0.8266330555322435,0.83,f2,reps_S1grid.csv.gz,"S1grid, nearest grid effect 1.25, 200 tables"
+attr_calib_SNO021_observed_p97.5,1.1242846010868546,1.12,f2,reps_S1grid.csv.gz,"S1grid, nearest grid effect 1.25, 200 tables"
+attr_calib_PERS009_observed_median,1.0849267898183759,1.08,f2,reps_S1grid.csv.gz,"S1grid, nearest grid effect 1.25, 200 tables"
+attr_calib_PERS009_observed_p2.5,0.9340967537506664,0.93,f2,reps_S1grid.csv.gz,"S1grid, nearest grid effect 1.25, 200 tables"
+attr_calib_PERS009_observed_p97.5,1.2194991474276224,1.22,f2,reps_S1grid.csv.gz,"S1grid, nearest grid effect 1.25, 200 tables"
+count_b_observed,2.711226452380836,2.71,f2,reps_proxygrid.csv.gz,P1grid: b with mean SFE-006 baseline = observed
+count_b_steeper,3.1700753002279685,3.17,f2,reps_proxygrid.csv.gz,P1steepgrid: b with mean SFE-006 baseline = observed
+count_b_permuted,2.3814287246410153,2.38,f2,reps_proxygrid.csv.gz,P1permgrid: b with mean SFE-006 baseline = observed
+count_calib_SFE006_observed_median,0.46628518942431957,0.47,f2,reps_discrim.csv.gz,"DM2real, 200 tables at the interpolated strength"
+count_calib_SFE006_observed_p2.5,0.28856969903132,0.29,f2,reps_discrim.csv.gz,"DM2real, 200 tables at the interpolated strength"
+count_calib_SFE006_observed_p97.5,0.5838480655653157,0.58,f2,reps_discrim.csv.gz,"DM2real, 200 tables at the interpolated strength"
+count_calib_SFE006_observed_n,200.0,200,i,reps_discrim.csv.gz,DM2real
+count_calib_SFE006_steeper_median,0.4516085537101938,0.45,f2,reps_discrim.csv.gz,"DM2steep, 200 tables at the interpolated strength"
+count_calib_SFE006_steeper_p2.5,0.30721130707169136,0.31,f2,reps_discrim.csv.gz,"DM2steep, 200 tables at the interpolated strength"
+count_calib_SFE006_steeper_p97.5,0.5950601369871612,0.60,f2,reps_discrim.csv.gz,"DM2steep, 200 tables at the interpolated strength"
+count_calib_SFE006_steeper_n,200.0,200,i,reps_discrim.csv.gz,DM2steep
+count_calib_SFE006_permuted_median,0.37399426609515585,0.37,f2,reps_discrim.csv.gz,"DM2perm, 200 tables at the interpolated strength"
+count_calib_SFE006_permuted_p2.5,0.17439882268058715,0.17,f2,reps_discrim.csv.gz,"DM2perm, 200 tables at the interpolated strength"
+count_calib_SFE006_permuted_p97.5,0.5299436620999958,0.53,f2,reps_discrim.csv.gz,"DM2perm, 200 tables at the interpolated strength"
+count_calib_SFE006_permuted_n,200.0,200,i,reps_discrim.csv.gz,DM2perm
+count_calib_SFE006_rate16_median,0.4541185146964051,0.45,f2,reps_discrim.csv.gz,"DM2r16, 200 tables at the interpolated strength"
+count_calib_SFE006_rate16_p2.5,0.28210377268118086,0.28,f2,reps_discrim.csv.gz,"DM2r16, 200 tables at the interpolated strength"
+count_calib_SFE006_rate16_p97.5,0.5854635096806654,0.59,f2,reps_discrim.csv.gz,"DM2r16, 200 tables at the interpolated strength"
+count_calib_SFE006_rate16_n,200.0,200,i,reps_discrim.csv.gz,DM2r16
+rate16_npos,1098.785,"1,100",r100,reps_discrim.csv.gz,"mean positives per table, DM2r16"
+count_calib_SFE006_min,0.37399426609515585,0.37,f2,reps_discrim.csv.gz,min of the three medians
+count_calib_SFE006_max,0.46628518942431957,0.47,f2,reps_discrim.csv.gz,max of the three medians
+sno021_count_maxbase_observed,0.8371126492866857,0.84,f2,reps_proxygrid.csv.gz,P1grid: max over b of the mean SNO-021 baseline
+sno021_count_b6_observed_median,0.5576675317853029,0.56,f2,reps_proxygrid.csv.gz,"P1grid, b = 6, 200 tables"
+sno021_count_b6_observed_p2.5,0.361154399437041,0.36,f2,reps_proxygrid.csv.gz,"P1grid, b = 6, 200 tables"
+sno021_count_b6_observed_p97.5,0.7217026520222559,0.72,f2,reps_proxygrid.csv.gz,"P1grid, b = 6, 200 tables"
+sno021_count_b6_observed_n,200.0,200,i,reps_proxygrid.csv.gz,P1grid
+sno021_count_maxbase_steeper,0.8154971059435562,0.82,f2,reps_proxygrid.csv.gz,P1steepgrid: max over b of the mean SNO-021 baseline
+sno021_count_b6_steeper_median,0.6132169822325895,0.61,f2,reps_proxygrid.csv.gz,"P1steepgrid, b = 6, 200 tables"
+sno021_count_b6_steeper_p2.5,0.4584597552258682,0.46,f2,reps_proxygrid.csv.gz,"P1steepgrid, b = 6, 200 tables"
+sno021_count_b6_steeper_p97.5,0.77226190093068,0.77,f2,reps_proxygrid.csv.gz,"P1steepgrid, b = 6, 200 tables"
+sno021_count_b6_steeper_n,200.0,200,i,reps_proxygrid.csv.gz,P1steepgrid
+sno021_count_maxbase_permuted,1.0033737742526694,1.00,f2,reps_proxygrid.csv.gz,P1permgrid: max over b of the mean SNO-021 baseline
+sno021_count_b6_permuted_median,0.4491398477828729,0.45,f2,reps_proxygrid.csv.gz,"P1permgrid, b = 6, 200 tables"
+sno021_count_b6_permuted_p2.5,0.3147343041372183,0.31,f2,reps_proxygrid.csv.gz,"P1permgrid, b = 6, 200 tables"
+sno021_count_b6_permuted_p97.5,0.5828934765904515,0.58,f2,reps_proxygrid.csv.gz,"P1permgrid, b = 6, 200 tables"
+sno021_count_b6_permuted_n,200.0,200,i,reps_proxygrid.csv.gz,P1permgrid
+pers009_count_maxbase_observed,0.28533323542369216,0.29,f2,reps_proxygrid.csv.gz,P1grid: max over b of the mean PERS-009 baseline
+pers009_count_maxbase_steeper,0.28412798112526144,0.28,f2,reps_proxygrid.csv.gz,P1steepgrid: max over b of the mean PERS-009 baseline
+pers009_count_maxbase_permuted,1.0058348842353788,1.01,f2,reps_proxygrid.csv.gz,P1permgrid: max over b of the mean PERS-009 baseline
+pers009_count_b_permuted,2.9740400968436593,2.97,f2,reps_proxygrid.csv.gz,"interpolated b, permuted detection"
+pers009_count_b3_permuted_median,0.25282198923297294,0.25,f2,reps_proxygrid.csv.gz,"P1permgrid, b = 3, 200"
+pers009_count_b3_permuted_p2.5,0.06411638487566562,0.06,f2,reps_proxygrid.csv.gz,"P1permgrid, b = 3, 200"
+pers009_count_b3_permuted_p97.5,0.4245510075873853,0.42,f2,reps_proxygrid.csv.gz,"P1permgrid, b = 3, 200"
+pers009_count_b3_permuted_n,200.0,200,i,reps_proxygrid.csv.gz,tables
+acidic_count_rise_max,0.11011747401445791,0.11,f2,reps_proxygrid.csv.gz,"max over models, attributes, b of mean baseline minus b=0"
+count_grid_bmax,6.0,6,i,reps_proxygrid.csv.gz,strongest b simulated
+akrv10_b,4.524931122205167,4.52,f2,reps_discrim2.csv.gz,DM2akrv10 planted b
+akrv10_SFE006_median,0.5579586481074572,0.56,f2,reps_discrim2.csv.gz,"DM2akrv10, 200 tables"
+akrv10_SFE006_p2.5,0.41982855227441707,0.42,f2,reps_discrim2.csv.gz,"DM2akrv10, 200 tables"
+akrv10_SFE006_p97.5,0.6663281081005202,0.67,f2,reps_discrim2.csv.gz,"DM2akrv10, 200 tables"
+kr5_b,6.093277587687146,6.09,f2,reps_kr5cal.csv.gz,DM2kr5 planted b
+kr5_SFE006_median,0.31743919558649936,0.32,f2,reps_kr5cal.csv.gz,"DM2kr5, 200 tables"
+kr5_SFE006_p2.5,0.17901456805132748,0.18,f2,reps_kr5cal.csv.gz,"DM2kr5, 200 tables"
+kr5_SFE006_p97.5,0.4348934363028943,0.43,f2,reps_kr5cal.csv.gz,"DM2kr5, 200 tables"
+pers009_kr5_b,1.9433330384404495,1.94,f2,reps_proxysens(ext).csv.gz,P1kr5grid: interpolated b for the PERS-009 baseline
+pers009_kr5_median,0.9411851249282079,0.94,f2,reps_proxysens(ext).csv.gz,"P1kr5grid, nearest grid b 2.0, 200 tables"
+pers009_kr5_p2.5,0.7821655437588177,0.78,f2,reps_proxysens(ext).csv.gz,"P1kr5grid, nearest grid b 2.0, 200 tables"
+pers009_kr5_p97.5,1.1157251802748096,1.12,f2,reps_proxysens(ext).csv.gz,"P1kr5grid, nearest grid b 2.0, 200 tables"
+pers009_akrv10_b,1.3016562150526458,1.30,f2,reps_proxysens(ext).csv.gz,P1akrv10grid: interpolated b for the PERS-009 baseline
+pers009_akrv10_median,0.8857175868062976,0.89,f2,reps_proxysens(ext).csv.gz,"P1akrv10grid, nearest grid b 1.0, 200 tables"
+pers009_akrv10_p2.5,0.6534167222608643,0.65,f2,reps_proxysens(ext).csv.gz,"P1akrv10grid, nearest grid b 1.0, 200 tables"
+pers009_akrv10_p97.5,1.0702992083784144,1.07,f2,reps_proxysens(ext).csv.gz,"P1akrv10grid, nearest grid b 1.0, 200 tables"
+lensel_n,300.0,300,i,reps_lenselcal.csv.gz,L0cal tables
+lensel_baseline,1.3806686983804668,1.381,f3,reps_lenselcal.csv.gz,L0cal mean SFE-006 baseline
+lensel_retention_median,0.10719789248833062,0.11,f2,reps_lenselcal.csv.gz,L0cal per-table retention
+lensel_retention_p2.5,-0.1482457741442144,-0.15,f2,reps_lenselcal.csv.gz,L0cal per-table retention
+lensel_retention_p97.5,0.27928388389433745,0.28,f2,reps_lenselcal.csv.gz,L0cal per-table retention
+design_count_window,20.0,20,i,phase2_claim_cohorts DIG25 column pep_cleavage_sites_within_20,+/-20 residues
+design_positive_rate,0.2,20,p0,provenance.json settings.positive_rate_among_detected_primary,20%
+design_latent_prevalence,0.3,30,p0,provenance.json settings.latent_prevalence,30%
+design_caliper_sd,0.2,0.2,f1,provenance.json settings.caliper_sd,0.2 SD of the logit
+design_planted_0.5,0.5,0.5,f1,overadjustment_summary.csv effect_log2_or,planted effect
+design_planted_1.0,1.0,1.0,f1,overadjustment_summary.csv effect_log2_or,planted effect
+design_planted_1.5,1.5,1.5,f1,overadjustment_summary.csv effect_log2_or,planted effect
+design_attr_grid_lo,0.0,0,i,reps_S1grid.csv.gz effect_log2_or,grid start
+design_attr_grid_hi,3.0,3.0,f1,reps_S1grid.csv.gz effect_log2_or,grid end
+design_attr_grid_step,0.25,0.25,f2,reps_S1grid.csv.gz effect_log2_or,grid step
+design_count_grid_4,4.0,4,i,provenance.json revision_round2.proxy_grid_b,0 to 4 in steps of 0.5
+design_count_grid_5,5.0,5,i,provenance.json revision_round2.proxy_grid_b,then 5
+design_count_grid_step,0.5,0.5,f1,provenance.json revision_round2.proxy_grid_b,step
+design_pers009_grid_b,3.0,3.0,f1,reps_proxygrid.csv.gz,grid strength nearest to 2.97

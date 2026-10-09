@@ -1,0 +1,308 @@
+figure,printed_text,token,source_data_rows,matched
+Fig1_overview,4,4,a/artifact 4/badge_number,yes
+Fig1_overview,1,1,a/artifact 1/badge_number,yes
+Fig1_overview,3,3,a/artifact 3/badge_number,yes
+Fig1_overview,5,5,a/artifact 5/badge_number,yes
+Fig1_overview,2,2,c/Detected but unmodified/classified_analyses; a/artifact 2/badge_number,yes
+Fig1_overview,0,0,c/Detectability or abundance matched/classified_analyses,yes
+Fig1_overview,20,20,,no
+Fig1_overview,40,40,,no
+Fig1_overview,37,37,c/Other or not stated/classified_analyses,yes
+Fig1_overview,35,35,"c/All residues, unrestricted/classified_analyses",yes
+Fig1_overview,2,2,c/Detected but unmodified/classified_analyses; a/artifact 2/badge_number,yes
+Fig1_overview,0,0,c/Detectability or abundance matched/classified_analyses,yes
+Fig2_negative_sets,0.3,0.3,b/qtrp_S2_ph5|NEG_B/auc_within_protein_VIS10_lo; a/corner note/fall_max,yes
+Fig2_negative_sets,0.4,0.4,a/qtrp_S2_ph5|NEG_B/auc_global_VIS10; a/qtrp_S2_ph5|NEG_B/auc_global_VIS10_lo; b/qtrp_S2_ph5|NEG_B/auc_within_protein_VIS10 (+1 more),yes
+Fig2_negative_sets,0.5,0.5,a/qtrp_S1_ph5|NEG_B/auc_global_VIS10_lo; b/qtrp_S1_ph5|NEG_B/auc_within_protein_VIS10_lo; a/qtrp_S2_ph5|NEG_B/auc_global_VIS10_hi (+11 more),yes
+Fig2_negative_sets,0.6,0.6,a/qtrp_S1_ph5|NEG_B/auc_global_VIS10; a/qtrp_S1_ph5|NEG_B/auc_global_VIS10_hi; b/qtrp_S1_ph5|NEG_B/auc_within_protein_VIS10 (+22 more),yes
+Fig2_negative_sets,0.7,0.7,b/qtrp_S1_ph5|NEG_B/auc_within_protein_VIS10_hi; c/qtrp_S1_ph5|NEG_B/auc_within_protein_DIG25_lo; a/qtrp_S2_ph5|NEG_A/auc_global_VIS10_hi (+25 more),yes
+Fig2_negative_sets,0.8,0.8,a/qtrp_S1_ph5|NEG_A/auc_global_VIS10_lo; c/qtrp_S1_ph5|NEG_B/auc_within_protein_DIG25; c/qtrp_S1_ph5|NEG_B/auc_within_protein_DIG25_hi (+43 more),yes
+Fig2_negative_sets,0.9,0.9,a/qtrp_S1_ph5|NEG_A/auc_global_VIS10; a/qtrp_S1_ph5|NEG_A/auc_global_VIS10_hi; b/qtrp_S1_ph5|NEG_A/auc_within_protein_VIS10 (+14 more),yes
+Fig2_negative_sets,1.0,1.0,c/qtrp_S1_ph5|NEG_A/auc_within_protein_DIG25_hi,yes
+Fig2_negative_sets,6 of 7 cohorts fall,6,a/corner note/cohorts_falling,yes
+Fig2_negative_sets,6 of 7 cohorts fall,7,a/corner note/cohorts_with_NEG_B,yes
+Fig2_negative_sets,by 0.13–0.28,0.13,a/corner note/fall_min,yes
+Fig2_negative_sets,by 0.13–0.28,0.28,b/qtrp_S2_ph5|NEG_B/auc_within_protein_VIS10_lo; a/corner note/fall_max,yes
+Fig2_negative_sets,0.3,0.3,b/qtrp_S2_ph5|NEG_B/auc_within_protein_VIS10_lo; a/corner note/fall_max,yes
+Fig2_negative_sets,0.4,0.4,a/qtrp_S2_ph5|NEG_B/auc_global_VIS10; a/qtrp_S2_ph5|NEG_B/auc_global_VIS10_lo; b/qtrp_S2_ph5|NEG_B/auc_within_protein_VIS10 (+1 more),yes
+Fig2_negative_sets,0.5,0.5,a/qtrp_S1_ph5|NEG_B/auc_global_VIS10_lo; b/qtrp_S1_ph5|NEG_B/auc_within_protein_VIS10_lo; a/qtrp_S2_ph5|NEG_B/auc_global_VIS10_hi (+11 more),yes
+Fig2_negative_sets,0.6,0.6,a/qtrp_S1_ph5|NEG_B/auc_global_VIS10; a/qtrp_S1_ph5|NEG_B/auc_global_VIS10_hi; b/qtrp_S1_ph5|NEG_B/auc_within_protein_VIS10 (+22 more),yes
+Fig2_negative_sets,0.7,0.7,b/qtrp_S1_ph5|NEG_B/auc_within_protein_VIS10_hi; c/qtrp_S1_ph5|NEG_B/auc_within_protein_DIG25_lo; a/qtrp_S2_ph5|NEG_A/auc_global_VIS10_hi (+25 more),yes
+Fig2_negative_sets,0.8,0.8,a/qtrp_S1_ph5|NEG_A/auc_global_VIS10_lo; c/qtrp_S1_ph5|NEG_B/auc_within_protein_DIG25; c/qtrp_S1_ph5|NEG_B/auc_within_protein_DIG25_hi (+43 more),yes
+Fig2_negative_sets,0.9,0.9,a/qtrp_S1_ph5|NEG_A/auc_global_VIS10; a/qtrp_S1_ph5|NEG_A/auc_global_VIS10_hi; b/qtrp_S1_ph5|NEG_A/auc_within_protein_VIS10 (+14 more),yes
+Fig2_negative_sets,1.0,1.0,c/qtrp_S1_ph5|NEG_A/auc_within_protein_DIG25_hi,yes
+Fig2_negative_sets,0.3,0.3,b/qtrp_S2_ph5|NEG_B/auc_within_protein_VIS10_lo; a/corner note/fall_max,yes
+Fig2_negative_sets,0.4,0.4,a/qtrp_S2_ph5|NEG_B/auc_global_VIS10; a/qtrp_S2_ph5|NEG_B/auc_global_VIS10_lo; b/qtrp_S2_ph5|NEG_B/auc_within_protein_VIS10 (+1 more),yes
+Fig2_negative_sets,0.5,0.5,a/qtrp_S1_ph5|NEG_B/auc_global_VIS10_lo; b/qtrp_S1_ph5|NEG_B/auc_within_protein_VIS10_lo; a/qtrp_S2_ph5|NEG_B/auc_global_VIS10_hi (+11 more),yes
+Fig2_negative_sets,0.6,0.6,a/qtrp_S1_ph5|NEG_B/auc_global_VIS10; a/qtrp_S1_ph5|NEG_B/auc_global_VIS10_hi; b/qtrp_S1_ph5|NEG_B/auc_within_protein_VIS10 (+22 more),yes
+Fig2_negative_sets,0.7,0.7,b/qtrp_S1_ph5|NEG_B/auc_within_protein_VIS10_hi; c/qtrp_S1_ph5|NEG_B/auc_within_protein_DIG25_lo; a/qtrp_S2_ph5|NEG_A/auc_global_VIS10_hi (+25 more),yes
+Fig2_negative_sets,0.8,0.8,a/qtrp_S1_ph5|NEG_A/auc_global_VIS10_lo; c/qtrp_S1_ph5|NEG_B/auc_within_protein_DIG25; c/qtrp_S1_ph5|NEG_B/auc_within_protein_DIG25_hi (+43 more),yes
+Fig2_negative_sets,0.9,0.9,a/qtrp_S1_ph5|NEG_A/auc_global_VIS10; a/qtrp_S1_ph5|NEG_A/auc_global_VIS10_hi; b/qtrp_S1_ph5|NEG_A/auc_within_protein_VIS10 (+14 more),yes
+Fig2_negative_sets,1.0,1.0,c/qtrp_S1_ph5|NEG_A/auc_within_protein_DIG25_hi,yes
+Fig2_negative_sets,Bars: 95% cluster-bootstrap intervals; dashed line: AUC 0.5,95,a-c/printed constants/interval_level_percent,yes
+Fig2_negative_sets,Bars: 95% cluster-bootstrap intervals; dashed line: AUC 0.5,0.5,a/qtrp_S1_ph5|NEG_B/auc_global_VIS10_lo; b/qtrp_S1_ph5|NEG_B/auc_within_protein_VIS10_lo; a/qtrp_S2_ph5|NEG_B/auc_global_VIS10_hi (+11 more),yes
+Fig3_cleavage_geometry,−7,−7,,no
+Fig3_cleavage_geometry,−5,−5,,no
+Fig3_cleavage_geometry,−3,−3,,no
+Fig3_cleavage_geometry,−1,−1,c/AspN|trypsin|proteome|distal_6_12/ci_low; d/AspN|aspn|observed|distal_6_12/ci_low; d/CT|chymotrypsin|observed|distal_6_12/ci_low (+2 more),yes
+Fig3_cleavage_geometry,+1,1,a/offset -7/ratio_vs_proteome; a/offset -7/ci95_lo_vs_proteome; a/offset -6/ci95_lo_vs_proteome (+45 more),yes
+Fig3_cleavage_geometry,+3,3,,no
+Fig3_cleavage_geometry,+5,5,"b/S-sulfenylation, K/R/H/z_matched",yes
+Fig3_cleavage_geometry,+7,7,"b/Reversible oxidation, D/E (control)/z_matched",yes
+Fig3_cleavage_geometry,0.5,0.5,a/offset -1/ratio_vs_proteome; a/offset -1/ci95_hi_vs_proteome; a/offset -1/ratio_vs_proteome_printed,yes
+Fig3_cleavage_geometry,1.0,1.0,a/offset -3/ci95_lo_vs_proteome; a/offset -2/ci95_lo_vs_proteome; a/offset +1/ci95_lo_vs_proteome (+2 more),yes
+Fig3_cleavage_geometry,1.5,1.5,a/offset -7/ratio_vs_proteome; a/offset -5/ci95_hi_vs_proteome; a/offset +4/ci95_hi_vs_proteome (+5 more),yes
+Fig3_cleavage_geometry,−1: 0.46,−1,c/AspN|trypsin|proteome|distal_6_12/ci_low; d/AspN|aspn|observed|distal_6_12/ci_low; d/CT|chymotrypsin|observed|distal_6_12/ci_low (+2 more),yes
+Fig3_cleavage_geometry,−1: 0.46,0.46,a/offset -1/ratio_vs_proteome; a/offset -1/ratio_vs_proteome_printed,yes
+Fig3_cleavage_geometry,+5: 1.50,5,"b/S-sulfenylation, K/R/H/z_matched",yes
+Fig3_cleavage_geometry,+5: 1.50,1.50,a/offset +5/ratio_vs_proteome; a/offset +5/ratio_vs_proteome_printed,yes
+Fig3_cleavage_geometry,+7: 1.38,7,"b/Reversible oxidation, D/E (control)/z_matched",yes
+Fig3_cleavage_geometry,+7: 1.38,1.38,a/offset +7/ratio_vs_proteome; a/offset +7/ratio_vs_proteome_printed,yes
+Fig3_cleavage_geometry,0,0,a/offset -1/ratio_vs_proteome; a/offset -1/ci95_lo_vs_proteome; a/offset -1/ratio_vs_proteome_printed (+12 more),yes
+Fig3_cleavage_geometry,5,5,"b/S-sulfenylation, K/R/H/z_matched",yes
+Fig3_cleavage_geometry,10,10,"b/S-sulfenylation, K/R/H/z_raw",yes
+Fig3_cleavage_geometry,15,15,,no
+Fig3_cleavage_geometry,+15.72,15.72,"b/S-nitrosylation, K/R/H/z_raw",yes
+Fig3_cleavage_geometry,+8.22,8.22,"b/S-nitrosylation, K/R/H/z_matched",yes
+Fig3_cleavage_geometry,+10.03,10.03,"b/S-sulfenylation, K/R/H/z_raw",yes
+Fig3_cleavage_geometry,+4.71,4.71,"b/S-sulfenylation, K/R/H/z_matched",yes
+Fig3_cleavage_geometry,+5.59,5.59,"b/Reversible oxidation, K/R/H/z_raw",yes
+Fig3_cleavage_geometry,+0.67,0.67,"b/Reversible oxidation, K/R/H/z_matched",yes
+Fig3_cleavage_geometry,+6.04,6.04,"b/Reversible oxidation, D/E (control)/z_raw",yes
+Fig3_cleavage_geometry,+6.62,6.62,"b/Reversible oxidation, D/E (control)/z_matched",yes
+Fig3_cleavage_geometry,−0.5,−0.5,,no
+Fig3_cleavage_geometry,0.0,0.0,d/AspN|aspn|observed|distal_6_12/estimate; d/GluC|gluc|observed|distal_6_12/ci_high,yes
+Fig3_cleavage_geometry,0.5,0.5,a/offset -1/ratio_vs_proteome; a/offset -1/ci95_hi_vs_proteome; a/offset -1/ratio_vs_proteome_printed,yes
+Fig3_cleavage_geometry,1.0,1.0,a/offset -3/ci95_lo_vs_proteome; a/offset -2/ci95_lo_vs_proteome; a/offset +1/ci95_lo_vs_proteome (+2 more),yes
+Fig3_cleavage_geometry,1.5,1.5,a/offset -7/ratio_vs_proteome; a/offset -5/ci95_hi_vs_proteome; a/offset +4/ci95_hi_vs_proteome (+5 more),yes
+Fig3_cleavage_geometry,2.0,2.0,,no
+Fig3_cleavage_geometry,2.5,2.5,c/AspN|aspn|proteome|distal_6_12/ci_high,yes
+Fig3_cleavage_geometry,Distal-band (6–12) log2 odds ratio,6,"b/Reversible oxidation, K/R/H/z_raw; b/Reversible oxidation, D/E (control)/z_raw; a-d/printed constants/distal_band_from",yes
+Fig3_cleavage_geometry,Distal-band (6–12) log2 odds ratio,12,a-d/printed constants/distal_band_to,yes
+Fig3_cleavage_geometry,AspN (n = 187),187,c/AspN/identified_cysteines; d/AspN/identified_cysteines,yes
+Fig3_cleavage_geometry,Chymotrypsin (n = 728),728,c/Chymotrypsin/identified_cysteines; d/Chymotrypsin/identified_cysteines,yes
+Fig3_cleavage_geometry,GluC (n = 884),884,c/GluC/identified_cysteines; d/GluC/identified_cysteines,yes
+Fig3_cleavage_geometry,"Trypsin (n = 5,328)","5,328",c/Trypsin/identified_cysteines; d/Trypsin/identified_cysteines,yes
+Fig3_cleavage_geometry,−1.5,−1.5,,no
+Fig3_cleavage_geometry,−1.0,−1.0,,no
+Fig3_cleavage_geometry,−0.5,−0.5,,no
+Fig3_cleavage_geometry,0.0,0.0,d/AspN|aspn|observed|distal_6_12/estimate; d/GluC|gluc|observed|distal_6_12/ci_high,yes
+Fig3_cleavage_geometry,0.5,0.5,a/offset -1/ratio_vs_proteome; a/offset -1/ci95_hi_vs_proteome; a/offset -1/ratio_vs_proteome_printed,yes
+Fig3_cleavage_geometry,1.0,1.0,a/offset -3/ci95_lo_vs_proteome; a/offset -2/ci95_lo_vs_proteome; a/offset +1/ci95_lo_vs_proteome (+2 more),yes
+Fig3_cleavage_geometry,1.5,1.5,a/offset -7/ratio_vs_proteome; a/offset -5/ci95_hi_vs_proteome; a/offset +4/ci95_hi_vs_proteome (+5 more),yes
+Fig3_cleavage_geometry,Distal-band (6–12) log2 odds ratio,6,"b/Reversible oxidation, K/R/H/z_raw; b/Reversible oxidation, D/E (control)/z_raw; a-d/printed constants/distal_band_from",yes
+Fig3_cleavage_geometry,Distal-band (6–12) log2 odds ratio,12,a-d/printed constants/distal_band_to,yes
+Fig3_cleavage_geometry,AspN (n = 187),187,c/AspN/identified_cysteines; d/AspN/identified_cysteines,yes
+Fig3_cleavage_geometry,Chymotrypsin (n = 728),728,c/Chymotrypsin/identified_cysteines; d/Chymotrypsin/identified_cysteines,yes
+Fig3_cleavage_geometry,GluC (n = 884),884,c/GluC/identified_cysteines; d/GluC/identified_cysteines,yes
+Fig3_cleavage_geometry,"Trypsin (n = 5,328)","5,328",c/Trypsin/identified_cysteines; d/Trypsin/identified_cysteines,yes
+Fig3_cleavage_geometry,"Intervals: a, 95%; c, d, 97.5% (Bonferroni, two bands)",95,a-d/printed constants/interval_level_percent_a,yes
+Fig3_cleavage_geometry,"Intervals: a, 95%; c, d, 97.5% (Bonferroni, two bands)",97.5,a-d/printed constants/interval_level_percent_cd,yes
+Fig4_removed_comparisons,0,0,a/PXD063463 trypsin/estimate; a/PXD063463 trypsin/ci_low; a/PXD063463 trypsin/ci_high (+17 more),yes
+Fig4_removed_comparisons,0.25,0.25,,no
+Fig4_removed_comparisons,0.50,0.50,,no
+Fig4_removed_comparisons,0.75,0.75,,no
+Fig4_removed_comparisons,1,1,a/PXD048216/share; a/PXD048216/wilson_low; a/PXD048216/wilson_high (+33 more),yes
+Fig4_removed_comparisons,0,0,a/PXD063463 trypsin/estimate; a/PXD063463 trypsin/ci_low; a/PXD063463 trypsin/ci_high (+17 more),yes
+Fig4_removed_comparisons,"4,000","4,000",b/separation curve point 086/mass_da,yes
+Fig4_removed_comparisons,"8,000","8,000",b/separation curve point 136/mass_da,yes
+Fig4_removed_comparisons,"12,000","12,000",b/separation curve point 176/mass_da,yes
+Fig4_removed_comparisons,0,0,a/PXD063463 trypsin/estimate; a/PXD063463 trypsin/ci_low; a/PXD063463 trypsin/ci_high (+17 more),yes
+Fig4_removed_comparisons,5,5,b/separation curve point 071/separation_ppm; b/separation curve point 072/separation_ppm; b/separation curve point 073/separation_ppm (+11 more),yes
+Fig4_removed_comparisons,10,10,b/separation curve point 031/separation_ppm; b/separation curve point 032/separation_ppm; b/separation curve point 033/separation_ppm (+8 more),yes
+Fig4_removed_comparisons,15,15,b/separation curve point 004/separation_ppm; b/separation curve point 005/separation_ppm; b/separation curve point 006/separation_ppm (+1 more),yes
+Fig4_removed_comparisons,0.017758 Da in ppm of M,0.017758,b/separation label/separation_da,yes
+Fig4_removed_comparisons,"±10 ppm: 1,776 Da (34%)",10,b/separation curve point 031/separation_ppm; b/separation curve point 032/separation_ppm; b/separation curve point 033/separation_ppm (+8 more),yes
+Fig4_removed_comparisons,"±10 ppm: 1,776 Da (34%)","1,776",b/window +/-10.0 ppm/mass_limit_da; b/window +/-10.0 ppm/mass_limit_da_printed,yes
+Fig4_removed_comparisons,"±10 ppm: 1,776 Da (34%)",34,b/window +/-10.0 ppm/percent_printed,yes
+Fig4_removed_comparisons,"±4.5 ppm: 3,946 Da (>99.9%)",4.5,b/separation curve point 085/separation_ppm; b/window +/-4.5 ppm/tolerance_ppm,yes
+Fig4_removed_comparisons,"±4.5 ppm: 3,946 Da (>99.9%)","3,946",b/window +/-4.5 ppm/mass_limit_da; b/window +/-4.5 ppm/mass_limit_da_printed,yes
+Fig4_removed_comparisons,"±4.5 ppm: 3,946 Da (>99.9%)",99.9,b/window +/-4.5 ppm/percent_printed,yes
+Fig4_removed_comparisons,"±2 ppm: 8,879 Da",2,b/separation curve point 128/separation_ppm; b/separation curve point 129/separation_ppm; b/separation curve point 130/separation_ppm (+47 more),yes
+Fig4_removed_comparisons,"±2 ppm: 8,879 Da","8,879",b/window +/-2.0 ppm/mass_limit_da; b/window +/-2.0 ppm/mass_limit_da_printed,yes
+Fig4_removed_comparisons,(100%),100,"b/window +/-4.5 ppm/percent_printed; b/window +/-2.0 ppm/percent_printed; c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all/n_both_scored (+1 more)",yes
+Fig4_removed_comparisons,≤1,1,a/PXD048216/share; a/PXD048216/wilson_low; a/PXD048216/wilson_high (+33 more),yes
+Fig4_removed_comparisons,1–10 10–100 >100,1,a/PXD048216/share; a/PXD048216/wilson_low; a/PXD048216/wilson_high (+33 more),yes
+Fig4_removed_comparisons,1–10 10–100 >100,10,b/separation curve point 031/separation_ppm; b/separation curve point 032/separation_ppm; b/separation curve point 033/separation_ppm (+8 more),yes
+Fig4_removed_comparisons,1–10 10–100 >100,10,b/separation curve point 031/separation_ppm; b/separation curve point 032/separation_ppm; b/separation curve point 033/separation_ppm (+8 more),yes
+Fig4_removed_comparisons,1–10 10–100 >100,100,"b/window +/-4.5 ppm/percent_printed; b/window +/-2.0 ppm/percent_printed; c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all/n_both_scored (+1 more)",yes
+Fig4_removed_comparisons,1–10 10–100 >100,100,"b/window +/-4.5 ppm/percent_printed; b/window +/-2.0 ppm/percent_printed; c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all/n_both_scored (+1 more)",yes
+Fig4_removed_comparisons,0,0,a/PXD063463 trypsin/estimate; a/PXD063463 trypsin/ci_low; a/PXD063463 trypsin/ci_high (+17 more),yes
+Fig4_removed_comparisons,0.25,0.25,,no
+Fig4_removed_comparisons,0.50,0.50,,no
+Fig4_removed_comparisons,0.75,0.75,,no
+Fig4_removed_comparisons,1,1,a/PXD048216/share; a/PXD048216/wilson_low; a/PXD048216/wilson_high (+33 more),yes
+Fig4_removed_comparisons,83%,83,"c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all/n_tied; c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all/percent_printed",yes
+Fig4_removed_comparisons,21/26,21,"c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (0.0, 1.0]/n_tied",yes
+Fig4_removed_comparisons,21/26,26,"c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (0.0, 1.0]/n_both_scored",yes
+Fig4_removed_comparisons,46/56,46,"c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (1.0, 10.0]/n_tied",yes
+Fig4_removed_comparisons,46/56,56,"c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value (1.0, 10.0]/n_both_scored",yes
+Fig4_removed_comparisons,14/16,14,b/separation curve point 008/separation_ppm; b/separation curve point 009/separation_ppm; b/separation curve point 010/separation_ppm (+2 more),yes
+Fig4_removed_comparisons,14/16,16,b/separation curve point 001/separation_ppm; b/separation curve point 002/separation_ppm; b/separation curve point 003/separation_ppm (+1 more),yes
+Fig4_removed_comparisons,2/2,2,b/separation curve point 128/separation_ppm; b/separation curve point 129/separation_ppm; b/separation curve point 130/separation_ppm (+47 more),yes
+Fig4_removed_comparisons,2/2,2,b/separation curve point 128/separation_ppm; b/separation curve point 129/separation_ppm; b/separation curve point 130/separation_ppm (+47 more),yes
+Fig4_removed_comparisons,83/100,83,"c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all/n_tied; c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all/percent_printed",yes
+Fig4_removed_comparisons,83/100,100,"b/window +/-4.5 ppm/percent_printed; b/window +/-2.0 ppm/percent_printed; c/insulin files (ion-trap MS2, 1.0005-Da bins)|best E-value all/n_both_scored (+1 more)",yes
+Fig4_removed_comparisons,30%,30,"c/Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value all/percent_printed",yes
+Fig4_removed_comparisons,6/60,6,b/separation curve point 061/separation_ppm; b/separation curve point 062/separation_ppm; b/separation curve point 063/separation_ppm (+8 more),yes
+Fig4_removed_comparisons,6/60,60,"c/Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (0.0, 1.0]/n_both_scored",yes
+Fig4_removed_comparisons,58/258 91/246 51/118,58,"c/Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (1.0, 10.0]/n_tied",yes
+Fig4_removed_comparisons,58/258 91/246 51/118,258,"c/Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (1.0, 10.0]/n_both_scored",yes
+Fig4_removed_comparisons,58/258 91/246 51/118,91,"c/Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (10.0, 100.0]/n_tied",yes
+Fig4_removed_comparisons,58/258 91/246 51/118,246,"c/Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (10.0, 100.0]/n_both_scored",yes
+Fig4_removed_comparisons,58/258 91/246 51/118,51,"c/Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (100.0, 1000.1]/n_tied",yes
+Fig4_removed_comparisons,58/258 91/246 51/118,118,"c/Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value (100.0, 1000.1]/n_both_scored",yes
+Fig4_removed_comparisons,206/682,206,"c/Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value all/n_tied",yes
+Fig4_removed_comparisons,206/682,682,"c/Fig-1D (FTMS MS2, 0.02-Da bins)|best E-value all/n_both_scored",yes
+Fig4_removed_comparisons,1.0005-Da bins (ion trap),1.0005,c/printed constants/fragment_bin_ion_trap_da,yes
+Fig4_removed_comparisons,0.02-Da bins (FTMS),0.02,b/separation label/separation_da; c/printed constants/fragment_bin_ftms_da,yes
+Fig4_removed_comparisons,"a: PXD048216 and published cohorts, Wilson 95% interval; PXD063463 arms, protein-clustered bootstrap 95% interval",95,a/printed constants/interval_level_percent,yes
+Fig4_removed_comparisons,"a: PXD048216 and published cohorts, Wilson 95% interval; PXD063463 arms, protein-clustered bootstrap 95% interval",95,a/printed constants/interval_level_percent,yes
+Fig5_claim_retests,−2,−2,a/PERS-002/baseline_log2_or; a/PERS-002/matched_log2_or; a/PERS-002/matched_ci_low (+1 more),yes
+Fig5_claim_retests,−1,−1,a/SNO-016/baseline_log2_or; a/SNO-016/baseline_ci_low; a/SNO-016/baseline_ci_high (+18 more),yes
+Fig5_claim_retests,0,0,a/SFE-006/matched_ci_low; a/PERS-009/matched_log2_or; a/PERS-009/matched_ci_low (+57 more),yes
+Fig5_claim_retests,1,1,a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,2,2,a/SFE-006/baseline_ci_high; a/SFE-006/random_control_ci_high; a/SNO-006/baseline_ci_high (+14 more),yes
+Fig5_claim_retests,3,3,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,SFE-006 · K/R flanking,006,c/protein level/table1_item,yes
+Fig5_claim_retests,PERS-009 · ≥3 A/K/R/V within ±5,009,,no
+Fig5_claim_retests,PERS-009 · ≥3 A/K/R/V within ±5,3,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,PERS-009 · ≥3 A/K/R/V within ±5,5,,no
+Fig5_claim_retests,"SNO-021 · K at ±10, +6, +5 or +1",021,,no
+Fig5_claim_retests,"SNO-021 · K at ±10, +6, +5 or +1","10,",c/Undecidable/site_level_claims; c/All re-tested claims/protein_level_claims,yes
+Fig5_claim_retests,"SNO-021 · K at ±10, +6, +5 or +1","6,",c/protein level/table1_item,yes
+Fig5_claim_retests,"SNO-021 · K at ±10, +6, +5 or +1",5,,no
+Fig5_claim_retests,"SNO-021 · K at ±10, +6, +5 or +1",1,a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,SFE-008 · K/R at SFE-006 offsets,008,,no
+Fig5_claim_retests,SFE-008 · K/R at SFE-006 offsets,006,c/protein level/table1_item,yes
+Fig5_claim_retests,SNO-016 · ≥3 K/R/H within ±5,016,,no
+Fig5_claim_retests,SNO-016 · ≥3 K/R/H within ±5,3,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,SNO-016 · ≥3 K/R/H within ±5,5,,no
+Fig5_claim_retests,"SFE-002 · E at −4, −3, +1, +3 to +5",002,a/SFE-006/baseline_ci_high; a/SFE-006/random_control_ci_high; a/SNO-006/baseline_ci_high (+14 more),yes
+Fig5_claim_retests,"SFE-002 · E at −4, −3, +1, +3 to +5","−4,",,no
+Fig5_claim_retests,"SFE-002 · E at −4, −3, +1, +3 to +5","−3,",a/PERS-002/baseline_ci_low; a/PERS-002/random_control_ci_low,yes
+Fig5_claim_retests,"SFE-002 · E at −4, −3, +1, +3 to +5","1,",a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,"SFE-002 · E at −4, −3, +1, +3 to +5",3,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,"SFE-002 · E at −4, −3, +1, +3 to +5",5,,no
+Fig5_claim_retests,SNO-006 · D/E at +3,006,c/protein level/table1_item,yes
+Fig5_claim_retests,SNO-006 · D/E at +3,3,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,"SFE-007 · E at −3, +1, +3 or +4",007,,no
+Fig5_claim_retests,"SFE-007 · E at −3, +1, +3 or +4","−3,",a/PERS-002/baseline_ci_low; a/PERS-002/random_control_ci_low,yes
+Fig5_claim_retests,"SFE-007 · E at −3, +1, +3 or +4","1,",a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,"SFE-007 · E at −3, +1, +3 or +4",3,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,"SFE-007 · E at −3, +1, +3 or +4",4,c/Survives/site_level_claims,yes
+Fig5_claim_retests,SNO-014 · D at −1 or +1,014,,no
+Fig5_claim_retests,SNO-014 · D at −1 or +1,−1,a/SNO-016/baseline_log2_or; a/SNO-016/baseline_ci_low; a/SNO-016/baseline_ci_high (+18 more),yes
+Fig5_claim_retests,SNO-014 · D at −1 or +1,1,a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,SFE-001 · accessibility > 25%,001,a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,SFE-001 · accessibility > 25%,25,,no
+Fig5_claim_retests,SNO-001 · α-helix,001,a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,SNO-002 · accessibility > 10%,002,a/SFE-006/baseline_ci_high; a/SFE-006/random_control_ci_high; a/SNO-006/baseline_ci_high (+14 more),yes
+Fig5_claim_retests,SNO-002 · accessibility > 10%,10,c/Undecidable/site_level_claims; c/All re-tested claims/protein_level_claims,yes
+Fig5_claim_retests,SNO-009 · coil at 0 to +3,009,,no
+Fig5_claim_retests,SNO-009 · coil at 0 to +3,0,a/SFE-006/matched_ci_low; a/PERS-009/matched_log2_or; a/PERS-009/matched_ci_low (+57 more),yes
+Fig5_claim_retests,SNO-009 · coil at 0 to +3,3,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,SNO-012 · sulfur exposed,012,,no
+Fig5_claim_retests,PERS-002 · C at ±2 or ±3 (null),002,a/SFE-006/baseline_ci_high; a/SFE-006/random_control_ci_high; a/SNO-006/baseline_ci_high (+14 more),yes
+Fig5_claim_retests,PERS-002 · C at ±2 or ±3 (null),2,a/SFE-006/baseline_ci_high; a/SFE-006/random_control_ci_high; a/SNO-006/baseline_ci_high (+14 more),yes
+Fig5_claim_retests,PERS-002 · C at ±2 or ±3 (null),3,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,PERS-003 · ≥3 hydrophobic within ±5,003,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,PERS-003 · ≥3 hydrophobic within ±5,3,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,PERS-003 · ≥3 hydrophobic within ±5,5,,no
+Fig5_claim_retests,SNO-004 · ≥30% hydrophobic (null),004,c/Survives/site_level_claims,yes
+Fig5_claim_retests,SNO-004 · ≥30% hydrophobic (null),30,,no
+Fig5_claim_retests,SNO-005 · G at −1,005,,no
+Fig5_claim_retests,SNO-005 · G at −1,−1,a/SNO-016/baseline_log2_or; a/SNO-016/baseline_ci_low; a/SNO-016/baseline_ci_high (+18 more),yes
+Fig5_claim_retests,SFE-006,006,c/protein level/table1_item,yes
+Fig5_claim_retests,PERS-009,009,,no
+Fig5_claim_retests,SNO-021,021,,no
+Fig5_claim_retests,SFE-002,002,a/SFE-006/baseline_ci_high; a/SFE-006/random_control_ci_high; a/SNO-006/baseline_ci_high (+14 more),yes
+Fig5_claim_retests,SNO-006,006,c/protein level/table1_item,yes
+Fig5_claim_retests,SFE-001,001,a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,0.0,0.0,a/SFE-008/matched_log2_or; a/SFE-007/random_control_log2_or; a/SNO-002/matched_log2_or (+3 more),yes
+Fig5_claim_retests,0.5,0.5,a/PERS-009/matched_ci_high; a/SFE-002/random_control_ci_low; a/SNO-002/baseline_ci_high (+3 more),yes
+Fig5_claim_retests,1.0,1.0,a/SFE-006/random_control_ci_low; a/PERS-009/baseline_ci_high; a/PERS-009/random_control_ci_high (+16 more),yes
+Fig5_claim_retests,3 basic vs 2 acidic;,3,a/SNO-014/random_control_ci_high; a/SFE-001/baseline_log2_or; a/SFE-001/baseline_ci_high (+7 more),yes
+Fig5_claim_retests,3 basic vs 2 acidic;,2,a/SFE-006/baseline_ci_high; a/SFE-006/random_control_ci_high; a/SNO-006/baseline_ci_high (+14 more),yes
+Fig5_claim_retests,"control, 0.91–1.02",0.91,a/SNO-004/baseline_ci_high; b/SNO-006/random_over_baseline; b/random control range/min_random_over_baseline,yes
+Fig5_claim_retests,"control, 0.91–1.02",1.02,b/SFE-002/random_over_baseline; b/SNO-006/matched_over_baseline; b/random control range/max_random_over_baseline,yes
+Fig5_claim_retests,0,0,a/SFE-006/matched_ci_low; a/PERS-009/matched_log2_or; a/PERS-009/matched_ci_low (+57 more),yes
+Fig5_claim_retests,6,6,c/protein level/table1_item,yes
+Fig5_claim_retests,12,12,,no
+Fig5_claim_retests,18,18,c/All re-tested claims/site_level_claims,yes
+Fig5_claim_retests,Site (18),18,c/All re-tested claims/site_level_claims,yes
+Fig5_claim_retests,Protein (10),10,c/Undecidable/site_level_claims; c/All re-tested claims/protein_level_claims,yes
+Fig5_claim_retests,"(Table 1,","1,",a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,item 6),6,c/protein level/table1_item,yes
+Fig5_claim_retests,survives (4),4,c/Survives/site_level_claims,yes
+Fig5_claim_retests,attenuated (2),2,a/SFE-006/baseline_ci_high; a/SFE-006/random_control_ci_high; a/SNO-006/baseline_ci_high (+14 more),yes
+Fig5_claim_retests,undecidable (10),10,c/Undecidable/site_level_claims; c/All re-tested claims/protein_level_claims,yes
+Fig5_claim_retests,null broken by control (1),1,a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,baseline contradicts claim (1),1,a/SFE-006/baseline_log2_or; a/SFE-006/baseline_ci_low; a/SFE-006/matched_log2_or (+82 more),yes
+Fig5_claim_retests,a Site-level claims (18) under a matched control,18,c/All re-tested claims/site_level_claims,yes
+Fig5_claim_retests,"T, transfer cohort only; 95% intervals",95,a/printed constants/interval_level_percent,yes
+Fig6_predictors,0.5,0.5,,no
+Fig6_predictors,0.6,0.6,a/VIS10/within_protein_auroc_ci_low; a/DIG25/within_protein_auroc_ci_low,yes
+Fig6_predictors,0.7,0.7,a/VIS10/all_sites_auroc; a/VIS10/all_sites_auroc_ci_low; a/VIS10/all_sites_auroc_ci_high (+10 more),yes
+Fig6_predictors,0.8,0.8,a/pLMSNOSite/all_sites_auroc; a/pLMSNOSite/all_sites_auroc_ci_low; a/DIG25/all_sites_auroc (+6 more),yes
+Fig6_predictors,0.9,0.9,a/pLMSNOSite/all_sites_auroc_ci_high; b/human_PXD044043/within_protein_auc_detect_only; b/human_PXD044043/within_protein_auc_full (+1 more),yes
+Fig6_predictors,VIS10 (10 features),10,,no
+Fig6_predictors,DIG25 (25 features),25,b/model sizes/n_columns_detect_only,yes
+Fig6_predictors,tabulated 0.754,0.754,a/pLMSNOSite_call_0.5/all_sites_auroc; b/rice_PXD072089/recovery_share,yes
+Fig6_predictors,0.5,0.5,,no
+Fig6_predictors,0.6,0.6,a/VIS10/within_protein_auroc_ci_low; a/DIG25/within_protein_auroc_ci_low,yes
+Fig6_predictors,0.7,0.7,a/VIS10/all_sites_auroc; a/VIS10/all_sites_auroc_ci_low; a/VIS10/all_sites_auroc_ci_high (+10 more),yes
+Fig6_predictors,0.8,0.8,a/pLMSNOSite/all_sites_auroc; a/pLMSNOSite/all_sites_auroc_ci_low; a/DIG25/all_sites_auroc (+6 more),yes
+Fig6_predictors,0.9,0.9,a/pLMSNOSite/all_sites_auroc_ci_high; b/human_PXD044043/within_protein_auc_detect_only; b/human_PXD044043/within_protein_auc_full (+1 more),yes
+Fig6_predictors,0.5,0.5,,no
+Fig6_predictors,0.6,0.6,a/VIS10/within_protein_auroc_ci_low; a/DIG25/within_protein_auroc_ci_low,yes
+Fig6_predictors,0.7,0.7,a/VIS10/all_sites_auroc; a/VIS10/all_sites_auroc_ci_low; a/VIS10/all_sites_auroc_ci_high (+10 more),yes
+Fig6_predictors,0.8,0.8,a/pLMSNOSite/all_sites_auroc; a/pLMSNOSite/all_sites_auroc_ci_low; a/DIG25/all_sites_auroc (+6 more),yes
+Fig6_predictors,0.9,0.9,a/pLMSNOSite/all_sites_auroc_ci_high; b/human_PXD044043/within_protein_auc_detect_only; b/human_PXD044043/within_protein_auc_full (+1 more),yes
+Fig6_predictors,"0.98 [0.97, 1.00]",0.98,b/human_PXD044043/recovery_share,yes
+Fig6_predictors,"0.98 [0.97, 1.00]",0.97,b/human_PXD044043/recovery_share_ci_low,yes
+Fig6_predictors,"0.98 [0.97, 1.00]",1.00,b/human_PXD044043/recovery_share_ci_high,yes
+Fig6_predictors,"0.75 [0.70, 0.80]",0.75,a/pLMSNOSite_call_0.5/all_sites_auroc; b/rice_PXD072089/recovery_share,yes
+Fig6_predictors,"0.75 [0.70, 0.80]",0.70,a/pLMSNOSite/within_protein_auroc_value; b/rice_PXD072089/recovery_share_ci_low,yes
+Fig6_predictors,"0.75 [0.70, 0.80]",0.80,b/rice_PXD072089/within_protein_auc_detect_only; b/rice_PXD072089/recovery_share_ci_high,yes
+Fig6_predictors,detectability only (25 columns),25,b/model sizes/n_columns_detect_only,yes
+Fig6_predictors,"full model (1,107 columns)","1,107",b/model sizes/n_columns_full,yes
+Fig6_predictors,"all sites, VIS10: 0.106 [0.051, 0.153], resolved",0.106,a/All sites | pLMSNOSite - VIS10/difference,yes
+Fig6_predictors,"all sites, VIS10: 0.106 [0.051, 0.153], resolved",0.051,a/All sites | pLMSNOSite - VIS10/ci_low,yes
+Fig6_predictors,"all sites, VIS10: 0.106 [0.051, 0.153], resolved",0.153,a/All sites | pLMSNOSite - VIS10/ci_high,yes
+Fig6_predictors,"all sites, DIG25: 0.039 [−0.021, 0.105], unresolved",0.039,a/All sites | pLMSNOSite - DIG25/difference,yes
+Fig6_predictors,"all sites, DIG25: 0.039 [−0.021, 0.105], unresolved",−0.021,a/All sites | pLMSNOSite - DIG25/ci_low,yes
+Fig6_predictors,"all sites, DIG25: 0.039 [−0.021, 0.105], unresolved",0.105,a/All sites | pLMSNOSite - DIG25/ci_high,yes
+Fig6_predictors,"within proteins, VIS10: 0.013 [−0.041, 0.065], unresolved",0.013,a/Within proteins | pLMSNOSite - VIS10/difference,yes
+Fig6_predictors,"within proteins, VIS10: 0.013 [−0.041, 0.065], unresolved",−0.041,a/Within proteins | pLMSNOSite - VIS10/ci_low,yes
+Fig6_predictors,"within proteins, VIS10: 0.013 [−0.041, 0.065], unresolved",0.065,a/Within proteins | pLMSNOSite - VIS10/ci_high,yes
+Fig6_predictors,Within proteins: mean of per-protein AUROCs; 95% intervals,95,a/printed constants/interval_level_percent,yes
+FigS4_protein_level_claims,0,0,a/PERS-006/baseline_ci_low; a/PERS-006/matched_ci_low; a/SFE-011/baseline_ci_low (+4 more),yes
+FigS4_protein_level_claims,2,2,a/PERS-005/random_control_ci_low; a/SFI-001/baseline_log2_or; a/SFI-001/baseline_ci_low (+22 more),yes
+FigS4_protein_level_claims,4,4,a/PERS-005/baseline_ci_low; a/PERS-005/matched_log2_or; a/SNO-008/baseline_ci_low (+5 more),yes
+FigS4_protein_level_claims,6,6,a/PERS-005/baseline_ci_high; a/PERS-005/matched_ci_high; a-b/protein level/table1_item,yes
+FigS4_protein_level_claims,8,8,a/SNO-008/random_control_ci_high,yes
+FigS4_protein_level_claims,PERS-005 · glycolysis,005,a/PERS-005/baseline_log2_or; a/PERS-005/random_control_log2_or; a/SNO-008/baseline_log2_or (+3 more),yes
+FigS4_protein_level_claims,SNO-008 · oxidoreductase activity,008,a/SNO-008/random_control_ci_high,yes
+FigS4_protein_level_claims,SFI-001 · extracellular exosome,001,a/PERS-011/matched_ci_low; a/PERS-011/random_control_ci_low; a/SFI-002/baseline_ci_low (+18 more),yes
+FigS4_protein_level_claims,PERS-012 · carboxylic acid metabolism,012,,no
+FigS4_protein_level_claims,PERS-011 · thylakoid,011,,no
+FigS4_protein_level_claims,SFI-002 · oxidoreductase activity,002,a/PERS-005/random_control_ci_low; a/SFI-001/baseline_log2_or; a/SFI-001/baseline_ci_low (+22 more),yes
+FigS4_protein_level_claims,PERS-006 · primary metabolism,006,a/PERS-005/baseline_ci_high; a/PERS-005/matched_ci_high; a-b/protein level/table1_item,yes
+FigS4_protein_level_claims,SFE-011 · photosynthesis,011,,no
+FigS4_protein_level_claims,PERS-008 · ubiquitin-dependent catabolism,008,a/SNO-008/random_control_ci_high,yes
+FigS4_protein_level_claims,0.8,0.8,a/SFE-011/baseline_log2_or; a/SFE-011/random_control_log2_or; b/PERS-010/matched_ci_low,yes
+FigS4_protein_level_claims,1.2,1.2,a/SFE-011/matched_log2_or; b/PERS-010/random_control_ci_high,yes
+FigS4_protein_level_claims,1.6,1.6,a/SFI-002/matched_log2_or; a/PERS-006/matched_log2_or; b/PERS-010/baseline_log2_or,yes
+FigS4_protein_level_claims,"a Protein-level claims (10): not estimable (Table 1, item 6)",10,a-b/protein level/claims,yes
+FigS4_protein_level_claims,"a Protein-level claims (10): not estimable (Table 1, item 6)","1,",a/PERS-011/matched_ci_low; a/PERS-011/random_control_ci_low; a/SFI-002/baseline_ci_low (+18 more),yes
+FigS4_protein_level_claims,"a Protein-level claims (10): not estimable (Table 1, item 6)",6,a/PERS-005/baseline_ci_high; a/PERS-005/matched_ci_high; a-b/protein level/table1_item,yes
+FigS4_protein_level_claims,"b PERS-010, own estimand","010,",a-b/protein level/claims,yes
+FigS4_protein_level_claims,"T, transfer cohort only; 95% intervals",95,a-b/printed constants/interval_level_percent,yes
+FigS7_literature_survey,0,0,,no
+FigS7_literature_survey,500,500,,no
+FigS7_literature_survey,"1,000","1,000",,no
+FigS7_literature_survey,942,942,-/Passed screening/records,yes
+FigS7_literature_survey,367,367,-/Full text retrieved/records,yes
+FigS7_literature_survey,120,120,-/Sampled for coding/records,yes
+FigS7_literature_survey,74,74,-/Classified/records,yes

@@ -2,10 +2,10 @@
 
 Accompanies the Molecular & Cellular Proteomics submission (manuscript package v3.3, title unchanged: *Five
 detectability artifacts decide what site-level comparisons can show in cysteine-modification proteomics*).
-Changes from v3.2.0 (commit b6fd491). Cys-Audit is unchanged (0.2.2). No analysis was re-run and no stored
-analysis output changed: everything under `cys-audit/`, `protocols/`, `scripts/`, `results/`, `artifacts12/`,
-`posthoc_2026-09-30/`, `posthoc_2026-10-02/`, `recoding_audit/`, `analysis/`, `source_data_submitted/` and
-`figures_submitted/` is byte-identical to v3.2.0.
+Changes from v3.2.0 (commit b6fd491). Cys-Audit is unchanged (0.2.2). No analysis was re-run. Apart from the edits listed in section 5, the
+contents of `cys-audit/`, `protocols/`, `scripts/`, `results/`, `artifacts12/`, `posthoc_2026-09-30/`,
+`posthoc_2026-10-02/`, `recoding_audit/`, `analysis/`, `source_data_submitted/` and `figures_submitted/` are
+as in v3.2.0. Version 3.3.1 corrects this paragraph only.
 
 ## 1. Supplemental material renumbered for v3.3 (`supplemental/`)
 

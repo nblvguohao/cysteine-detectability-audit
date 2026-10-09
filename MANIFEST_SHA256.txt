@@ -1,4 +1,4 @@
-# SHA-256 manifest of every file in this repository (release v3.3.0)
+# SHA-256 manifest of every file in this repository (release v3.3.1)
 # generated 2026-10-09; hashes and sizes are of the committed bytes. Text files are committed with LF line
 # endings (normalised before commit), except files whose SHA-256 was recorded on CRLF bytes: three CSV files in
 # artifacts12/ (see RELEASE_NOTES_v3.1.1.md) and eight files in results/ added in v3.1.2 (see
@@ -14,7 +14,7 @@ d86c05507dfda8868a77ccdcd8911b3a5f0161b1c4194d17103956c473beee40         867  LI
 7f764671c1ad42b4a6826f941006abacf24aa90fd849eb71a477430a2cd9aa0d       18074  RELEASE_NOTES_v3.1.1.md
 1821d545b39e379135bcee3ca2c4a074127bf55d725cd5c0662b8421ac0062a9        6657  RELEASE_NOTES_v3.1.2.md
 9c014f3fbda2b391a44abd88cea665e7e306456c7ff00c420f3855e9e1352e22        1928  RELEASE_NOTES_v3.2.0.md
-2519c2653769414eca21a9e2e91247297440b36b36e95a4afa3504ede61bf19b        5833  RELEASE_NOTES_v3.3.0.md
+ef576aba2f2344b92e10f4f1d584bf9e00a3952fb24b7a5ee03bc92611707c24        5869  RELEASE_NOTES_v3.3.0.md
 8169db3f8ce24acae14f7d4ff5a76429327722214d3aca7131d057b5b9aef211        1823  analysis/nonnull_permutation_check.csv
 38717dc218ddec9e0d3de504c9709590765a6b9857bb567e58bba0bfd8c7eee6        5231  analysis/nonnull_permutation_check.py
 30c189cb1bd01dae89de3e45a9082808282073c1e0a566c8288397a1a57ff2c0        2427  archive/README.md

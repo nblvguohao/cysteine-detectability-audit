@@ -1,0 +1,10 @@
+panel,item,quantity,value,ci_low,ci_high,source_file,filter,note
+a,INPUT,chemistry label,S-palmitoylation (ABE); PXD048216,,,PXD048216 (PRIDE deposit description),study type,Acyl-biotin-exchange (ABE) study of S-palmitoylation; the carbamidomethyl site assignment is the modification readout.
+a,INPUT,identified cysteines,3554,,,audit.json,input.n_rows,Cys-Audit 0.2.2 output for the PXD048216 site table.
+a,INPUT,carry a site,3347,,,audit.json,tests.positive_detected_overlap.n_positive,Identified cysteines carrying a site assignment.
+a,INPUT,observed without one,207,,,audit.json,tests.positive_detected_overlap.details.detected_unmodified,Identified cysteines without a site assignment.
+a,DIAG 1 assignment fraction,coincidence (point),0.941756,0.933014,0.949874,audit.json,tests.positive_detected_overlap.estimate and .ci,"Share of identified cysteines carrying a site assignment; interval = protein-clustered bootstrap 95% (5,000 replicates, seed 20260922)."
+a,DIAG 1 assignment fraction,status,FAIL,,,audit.json,tests.positive_detected_overlap.status,"FAIL when the lower bound of the bootstrap interval is at least 0.90 (cys_audit/checks/overlap.py); the same status is returned by Cys-Audit 0.1.0, 0.2.0, 0.2.1 and 0.2.2. Not a statement about chemical occupancy."
+a,DIAG 2 observed reference,observed_background_usable,True,,,audit.json,tests.positive_detected_overlap.details.observed_background_usable,Table property reported by the audit run (207 identified cysteines without an assignment; minimum 20). Not a PASS / WARNING / FAIL / UNDECIDABLE status.
+a,DIAG 3 per-protein support,proteins with both classes / proteins with an observed Cys,153 / 1993,,,06_run_audit.json,support.proteins_with_both_comparable / support.proteins_total,"Counts from the audit table. Cys-Audit has no per-protein-support check, so no status is shown."
+a,DIAG 4 positional profile,status,UNDECIDABLE,,,audit.json,tests.cleavage_geometry.status,Cys-Audit reason: needs --fasta to locate cleavage sites; the audit run was made without a sequence file. The same status is returned by Cys-Audit 0.1.0 to 0.2.2.

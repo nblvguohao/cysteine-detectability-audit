@@ -1,0 +1,7 @@
+method	channel_1	channel_2	n1	n2	symmetric_difference	jaccard
+Cys-BOOST	1	2	16831	16831	0	1.0
+Cys-BOOST	1	3	16831	16831	0	1.0
+Cys-BOOST	2	3	16831	16831	0	1.0
+iodoTMT	1	2	7944	7944	0	1.0
+iodoTMT	1	3	7944	7944	0	1.0
+iodoTMT	2	3	7944	7944	0	1.0

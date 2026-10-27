@@ -1,0 +1,5 @@
+concentration	reference	positive_event	positive_no_event	reference_event	reference_no_event	positive_event_proteins	reference_event_proteins
+2mM	A	2	235	83	1452	1	25
+2mM	B	2	235	6	199	1	4
+500uM	A	1	90	21	584	1	9
+500uM	B	1	90	3	62	1	2

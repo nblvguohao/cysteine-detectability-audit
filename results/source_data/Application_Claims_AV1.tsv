@@ -1,0 +1,4 @@
+claim	estimate	interval_or_scope	source
+mean_shared_target_delta_AUROC	0.018156340065	95% conditional 0.013762521339 to 0.022858455238	10 archive validation/results/primary_summary.json
+training_support_percent	76.9–83.6	technical discovery positive-bearing proteins	10 archive validation/results/training_support.tsv
+KB02_delta	0.000993980503	unresolved; interval crosses zero	10 archive validation/results/primary_summary.json

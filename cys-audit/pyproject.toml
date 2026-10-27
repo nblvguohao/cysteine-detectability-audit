@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cys-audit"
+version = "0.2.2"
+description = "Audit a cysteine-modification site table for measurement-driven artefacts"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["numpy>=1.20"]
+
+[project.scripts]
+cys-audit = "cys_audit.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

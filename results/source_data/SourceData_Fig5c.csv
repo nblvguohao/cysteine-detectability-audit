@@ -1,0 +1,4 @@
+panel,item,quantity,value,ci_low,ci_high,source_file,filter,note
+c,VIS10,within-protein macro AUROC,0.689606,0.646975,0.730618,11_plmsnosite_within_protein.tsv,row_type=='summary' & quantity.startswith('within-protein macro AUROC') & note.startswith('VIS10'),
+c,pLMSNOSite,within-protein macro AUROC,0.702434,0.659205,0.74487,11_plmsnosite_within_protein.tsv,row_type=='summary' & quantity.startswith('within-protein macro AUROC') & note.startswith('pLMSNOSite'),
+c,difference pLMSNOSite - VIS10,paired difference,0.012829,-0.04102,0.065046,11_plmsnosite_within_protein.tsv,row_type=='summary' & quantity=='within-protein paired difference pLMSNOSite - VIS10',Paired difference of within-protein AUROC; 95% interval.

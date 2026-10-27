@@ -1,0 +1,5 @@
+panel,item,quantity,value,ci_low,ci_high,source_file,filter,note
+c,"PXD048216 (S-palmitoylation, acyl-biotin exchange)",observed cysteine (proteins),1993,,,comparison_support.tsv,metric=proteins_with_observed_cysteine,Count per protein for one deposit.
+c,"PXD048216 (S-palmitoylation, acyl-biotin exchange)",no unassigned cysteine (proteins),1819,,,comparison_support.tsv,metric=proteins_zero_unassigned,"Count per protein for one deposit; 1,819 of 1,993 proteins carry no unassigned cysteine."
+c,"PXD048216 (S-palmitoylation, acyl-biotin exchange)",both an assigned site and an unassigned cysteine (proteins),153,,,comparison_support.tsv,metric=proteins_with_both_classes_comparable,Count per protein for one deposit.
+c,"PXD048216 (S-palmitoylation, acyl-biotin exchange)",comparable site-reference pairs (site-reference pairs),403,,,comparison_support.tsv,metric=total_comparable_pairs,"Total within-protein site-reference combinations, summed across 153 proteins with both classes; not a protein count or independent replicate count."

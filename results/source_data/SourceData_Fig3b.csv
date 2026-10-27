@@ -1,0 +1,9 @@
+panel,arm,cleavage_residues,rule_kind,rule,background,band,est,lo975,hi975,identified_cys,n_pos,n_bg,mde80_a025,source_file,filter
+b,Trypsin,K/R,own,trypsin,observed,distal_6_12,0.037848,-0.327854,0.423433,3259,1148,2111,0.508281,T2_cells_deposit_main.tsv,variant=='main' & rule_kind=='own' & background=='observed' & band=='distal_6_12'
+b,AspN,D,own,aspn,observed,distal_6_12,0.009696,-1.382224,1.283923,187,115,72,1.832637,T2_cells_deposit_main.tsv,variant=='main' & rule_kind=='own' & background=='observed' & band=='distal_6_12'
+b,CT,F/W/Y,own,chymotrypsin,observed,distal_6_12,-0.182265,-0.806866,0.433125,728,411,317,0.878708,T2_cells_deposit_main.tsv,variant=='main' & rule_kind=='own' & background=='observed' & band=='distal_6_12'
+b,GluC,E,own,gluc,observed,distal_6_12,-0.550606,-1.138122,0.032062,884,519,365,0.810312,T2_cells_deposit_main.tsv,variant=='main' & rule_kind=='own' & background=='observed' & band=='distal_6_12'
+b_ladder,Trypsin,,,,proteome,distal_6_12,0.993217,0.692571,1.324523,,1148,21800,,T4_trypsin_background_ladder_deposit.tsv,variant=='main'
+b_ladder,Trypsin,,,,theoretical,distal_6_12,0.303419,0.003296,0.632068,,1148,17438,,T4_trypsin_background_ladder_deposit.tsv,variant=='main'
+b_ladder,Trypsin,,,,combined,distal_6_12,0.01042,-0.334472,0.377984,,1148,3055,,T4_trypsin_background_ladder_deposit.tsv,variant=='main'
+b_ladder,Trypsin,,,,observed,distal_6_12,0.037848,-0.327854,0.423433,,1148,2111,,T4_trypsin_background_ladder_deposit.tsv,variant=='main'

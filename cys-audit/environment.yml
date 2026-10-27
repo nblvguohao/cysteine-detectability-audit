@@ -1,0 +1,7 @@
+# Minimal environment. The tool needs only Python and numpy; tests use the standard library (unittest).
+# Validated with Python 3.9.6 / numpy 2.0.2 (macOS). Other versions are expected to work but were not tested.
+name: cys-audit
+channels: [conda-forge]
+dependencies:
+  - python>=3.8
+  - numpy>=1.20

@@ -1,0 +1,3 @@
+concentration	n_positive	n_positive_proteins	n_A	n_B	n_IAM_all	n_ACR_IAM_overlap	n_IAM_outside_P_proteins	n_B_proteins	status
+2mM	952	621	4689	205	1017	441	371	140	evaluated
+500uM	726	505	4154	65	476	256	155	53	evaluated

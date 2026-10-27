@@ -1,0 +1,12 @@
+panel,arm,cleavage_residues,rule_kind,rule,background,band,est,lo975,hi975,identified_cys,n_pos,n_bg,mde80_a025,source_file,filter,contrast,lo975_seed_min,lo975_seed_max,excl0_975,excl0_975_all_seeds
+a,Trypsin,K/R,own,trypsin,proteome,distal_6_12,0.993217,0.692571,1.324523,3259,1148,21800,0.434670,T2_cells_deposit_main.tsv,variant=='main' & background=='proteome' & band=='distal_6_12',,,,,
+a,AspN,D,own,aspn,proteome,distal_6_12,1.539092,0.801589,2.447294,187,115,1634,1.132523,T2_cells_deposit_main.tsv,variant=='main' & background=='proteome' & band=='distal_6_12',,,,,
+a,AspN,D,trypsin,trypsin,proteome,distal_6_12,0.118877,-0.528103,0.896228,187,115,1634,0.976152,T2_cells_deposit_main.tsv,variant=='main' & background=='proteome' & band=='distal_6_12',,,,,
+a,CT,F/W/Y,own,chymotrypsin,proteome,distal_6_12,1.194606,0.814841,1.618335,728,411,6231,0.562700,T2_cells_deposit_main.tsv,variant=='main' & background=='proteome' & band=='distal_6_12',,,,,
+a,CT,F/W/Y,trypsin,trypsin,proteome,distal_6_12,0.334937,-0.055009,0.782341,728,411,6231,0.573745,T2_cells_deposit_main.tsv,variant=='main' & background=='proteome' & band=='distal_6_12',,,,,
+a,GluC,E,own,gluc,proteome,distal_6_12,0.944881,0.563677,1.338658,884,519,6580,0.526807,T2_cells_deposit_main.tsv,variant=='main' & background=='proteome' & band=='distal_6_12',,,,,
+a,GluC,E,trypsin,trypsin,proteome,distal_6_12,0.383989,-0.074261,0.842507,884,519,6580,0.627055,T2_cells_deposit_main.tsv,variant=='main' & background=='proteome' & band=='distal_6_12',,,,,
+a_paired,AspN,,,,proteome,distal_6_12,1.420215,0.334918,2.548869,,,,,T3_pairs_own_minus_trypsin_deposit_main.tsv,variant=='main' & band=='distal_6_12' & background=='proteome',aspn_minus_trypsin,0.307250,0.356589,True,True
+a_paired,CT,,,,proteome,distal_6_12,0.859669,0.274541,1.435796,,,,,T3_pairs_own_minus_trypsin_deposit_main.tsv,variant=='main' & band=='distal_6_12' & background=='proteome',chymotrypsin_minus_trypsin,0.274541,0.280426,True,True
+a_paired,GluC,,,,proteome,distal_6_12,0.560892,0.020228,1.144346,,,,,T3_pairs_own_minus_trypsin_deposit_main.tsv,variant=='main' & band=='distal_6_12' & background=='proteome',gluc_minus_trypsin,-0.026866,0.020228,True,False
+a_paired,GluC,,,,proteome,distal_6_12,3.0,,,,,,,"deposit_pairs_seed{20261013,101301,101302,101303}.tsv",variant=='main' & arm=='GluC' & band=='distal_6_12' & background=='proteome'; count of seeds with excl0_975==True (n_seeds=4),seed_count_excl0_975,,,,

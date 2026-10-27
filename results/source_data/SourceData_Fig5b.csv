@@ -1,0 +1,5 @@
+panel,item,quantity,value,ci_low,ci_high,source_file,filter,note
+b,permuted labels,global AUROC,0.5124,0.471,0.5546,Source_Data_text_detectability_baseline_plmsnosite.csv,model=='DIG25 label-permuted (NC)',Label-permuted control of the DIG25 model on the pLMSNOSite benchmark.
+b,VIS10,global AUROC,0.709453,0.681994,0.736872,11_plmsnosite_within_protein.tsv,row_type=='summary' & quantity=='global AUROC (all test sites)' & note.startswith('VIS10'),
+b,DIG25,global AUROC,0.776451,0.724677,0.828848,11_plmsnosite_within_protein.tsv,row_type=='summary' & quantity=='global AUROC (all test sites)' & note.startswith('DIG25'),
+b,pLMSNOSite,global AUROC,0.815442,0.762514,0.858238,11_plmsnosite_within_protein.tsv,row_type=='summary' & quantity=='global AUROC (all test sites)' & note.startswith('pLMSNOSite'),

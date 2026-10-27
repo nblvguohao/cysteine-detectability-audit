@@ -1,0 +1,3 @@
+concentration,ACR_bearing_proteins,IAM_only_supported_proteins,supported_percent,common_positive_sites,K_R_log2_OR_other_Cys,K_R_log2_OR_IAM_only,IAM_only_direction
+2 mM,621,140,22.54428341384863,237,1.37,0.05,unresolved
+500 uM,505,53,10.495049504950495,91,,,unresolved_sparse_K_R

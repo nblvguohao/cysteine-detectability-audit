@@ -1,0 +1,13 @@
+threshold	reference	n_positive	n_positive_proteins	n_reference	n_reference_proteins
+1	A_all_other_C	6963	3101	28128	2894
+1	B_denatured_union	6963	3101	0	0
+1	B_denatured_channel_1	6963	3101	0	0
+1	B_denatured_channel_2	6963	3101	0	0
+1	B_denatured_channel_3	6963	3101	0	0
+1	B_denatured_channel_4	6963	3101	0	0
+2	A_all_other_C	6963	3101	28128	2894
+2	B_denatured_union	6963	3101	0	0
+2	B_denatured_channel_1	6963	3101	0	0
+2	B_denatured_channel_2	6963	3101	0	0
+2	B_denatured_channel_3	6963	3101	0	0
+2	B_denatured_channel_4	6963	3101	0	0

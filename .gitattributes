@@ -1,0 +1,2 @@
+# Store and check out every file byte for byte, so the SHA256 records stay valid on any OS.
+* -text

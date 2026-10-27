@@ -1,0 +1,37 @@
+threshold	reference	attribute	n_positive	n_reference	positive_attr	reference_attr	positive_noattr	reference_noattr	log2_OR	conditional_bootstrap_2p5	conditional_bootstrap_97p5	status
+1	A_all_other_C	basic_pm10	6963	28128	6842	24576	121	3552	3.025122392648354	2.7393543348293097	3.3336527373214535	evaluated
+1	A_all_other_C	acidic_pm10	6963	28128	6548	25143	415	2985	0.904103084044604	0.74399569226038	1.0655127736231058	evaluated
+1	A_all_other_C	CXXC_participation	6963	28128	204	3159	6759	24969	-2.0643450245800503	-2.363968927512769	-1.8028327156978576	evaluated
+1	B_denatured_union	basic_pm10	6963	0	6842	0	121	0				non_evaluable_empty_reference
+1	B_denatured_union	acidic_pm10	6963	0	6548	0	415	0				non_evaluable_empty_reference
+1	B_denatured_union	CXXC_participation	6963	0	204	0	6759	0				non_evaluable_empty_reference
+1	B_denatured_channel_1	basic_pm10	6963	0	6842	0	121	0				non_evaluable_empty_reference
+1	B_denatured_channel_1	acidic_pm10	6963	0	6548	0	415	0				non_evaluable_empty_reference
+1	B_denatured_channel_1	CXXC_participation	6963	0	204	0	6759	0				non_evaluable_empty_reference
+1	B_denatured_channel_2	basic_pm10	6963	0	6842	0	121	0				non_evaluable_empty_reference
+1	B_denatured_channel_2	acidic_pm10	6963	0	6548	0	415	0				non_evaluable_empty_reference
+1	B_denatured_channel_2	CXXC_participation	6963	0	204	0	6759	0				non_evaluable_empty_reference
+1	B_denatured_channel_3	basic_pm10	6963	0	6842	0	121	0				non_evaluable_empty_reference
+1	B_denatured_channel_3	acidic_pm10	6963	0	6548	0	415	0				non_evaluable_empty_reference
+1	B_denatured_channel_3	CXXC_participation	6963	0	204	0	6759	0				non_evaluable_empty_reference
+1	B_denatured_channel_4	basic_pm10	6963	0	6842	0	121	0				non_evaluable_empty_reference
+1	B_denatured_channel_4	acidic_pm10	6963	0	6548	0	415	0				non_evaluable_empty_reference
+1	B_denatured_channel_4	CXXC_participation	6963	0	204	0	6759	0				non_evaluable_empty_reference
+2	A_all_other_C	basic_pm10	6963	28128	6842	24576	121	3552	3.025122392648354	2.7393543348293097	3.3336527373214535	evaluated
+2	A_all_other_C	acidic_pm10	6963	28128	6548	25143	415	2985	0.904103084044604	0.74399569226038	1.0655127736231058	evaluated
+2	A_all_other_C	CXXC_participation	6963	28128	204	3159	6759	24969	-2.0643450245800503	-2.363968927512769	-1.8028327156978576	evaluated
+2	B_denatured_union	basic_pm10	6963	0	6842	0	121	0				non_evaluable_empty_reference
+2	B_denatured_union	acidic_pm10	6963	0	6548	0	415	0				non_evaluable_empty_reference
+2	B_denatured_union	CXXC_participation	6963	0	204	0	6759	0				non_evaluable_empty_reference
+2	B_denatured_channel_1	basic_pm10	6963	0	6842	0	121	0				non_evaluable_empty_reference
+2	B_denatured_channel_1	acidic_pm10	6963	0	6548	0	415	0				non_evaluable_empty_reference
+2	B_denatured_channel_1	CXXC_participation	6963	0	204	0	6759	0				non_evaluable_empty_reference
+2	B_denatured_channel_2	basic_pm10	6963	0	6842	0	121	0				non_evaluable_empty_reference
+2	B_denatured_channel_2	acidic_pm10	6963	0	6548	0	415	0				non_evaluable_empty_reference
+2	B_denatured_channel_2	CXXC_participation	6963	0	204	0	6759	0				non_evaluable_empty_reference
+2	B_denatured_channel_3	basic_pm10	6963	0	6842	0	121	0				non_evaluable_empty_reference
+2	B_denatured_channel_3	acidic_pm10	6963	0	6548	0	415	0				non_evaluable_empty_reference
+2	B_denatured_channel_3	CXXC_participation	6963	0	204	0	6759	0				non_evaluable_empty_reference
+2	B_denatured_channel_4	basic_pm10	6963	0	6842	0	121	0				non_evaluable_empty_reference
+2	B_denatured_channel_4	acidic_pm10	6963	0	6548	0	415	0				non_evaluable_empty_reference
+2	B_denatured_channel_4	CXXC_participation	6963	0	204	0	6759	0				non_evaluable_empty_reference
